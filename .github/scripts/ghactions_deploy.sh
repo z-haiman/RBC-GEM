@@ -8,7 +8,7 @@ deployment=$(awk -F '=' '{if (! ($0 ~ /^;/) && $0 ~ /deployment/) print $2}' mem
 location=$(awk -F '=' '{if (! ($0 ~ /^;/) && $0 ~ /location/) print $2}' memote.ini | tr -d ' ')
 
 git config --global user.email "zhaiman@ucsd.edu"
-git config --global user.name "z-haiman/RBC-GEM" 
+git config --global user.name "z-haiman/RBC-GEM"
 
 if [[ "${GITHUB_EVENT_NAME}" == "pull_request" || "${GITHUB_REPOSITORY}" != "z-haiman/RBC-GEM" ]]; then
     echo "Untracked build."

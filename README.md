@@ -1,34 +1,51 @@
+# RBC-GEM: Genome-scale metabolic model for the erythrocyte of _Homo sapiens_
+
+[![Version](https://badge.fury.io/gh/z-haiman%2FRBC-GEM.svg)](https://badge.fury.io/gh/z-haiman/RBC-GEM)  
+[![Zenodo](https://zenodo.org/badge/{{Zenodo ID}}.svg)](https://zenodo.org/badge/latestdoi/{{Zenodo ID}})  
+[![Gitter chat](https://badges.gitter.im/z-haiman/RBC-GEM.svg)](https://gitter.im/z-haiman/RBC-GEM)
 [![memote tested](https://img.shields.io/badge/memote-tested-blue.svg?style=plastic)](https://z-haiman.github.io/RBC-GEM)
 
-# RBC-GEM
 
-Congratulations! You successfully set up your genome-scale metabolic model
-repository.
+#### Description
 
-## Next Steps
+**TODO**
 
-1. Update this README to your liking and to say something about the model that
-   you are working on.
-2. Take note of the [license](LICENSE) in case you want to change it. By 
-default we have added a [CC-BY](https://creativecommons.org/licenses/by/4.0/) license to your repository.
-3. Check out the [memote documentation](http://memote.readthedocs.io/) online.
+#### Citation
 
-## Usage
+**TODO**
 
-All `memote` commands have extensive help descriptions.
+#### Keywords
 
-1. For simple command line testing, check out `memote run -h`.
-2. To generate a pretty report, check out `memote report snapshot -h`.
+**Utilisation:** experimental data reconstruction; multi-omics integrative analysis; model template
+**Field:** metabolic-network reconstruction
+**Type of model:** reconstruction; curated
+**Model source:** [iAB-RBC-283](https://doi.org/10.1186/1752-0509-5-110), [Human-GEM](https://doi.org/10.5281/zenodo.10303455) 
+**Omic source:** genomics; proteomics; metabolomics; lipidomics
+**Taxonomic name:** _Homo sapiens_
+**Taxonomy ID:** [taxonomy:9606](https://identifiers.org/taxonomy:9606)
+**Metabolic system:** general metabolism
+**Tissue:** Blood
+**Cell type:**  Red Blood Cell (erythrocyte)
+**Condition:** generic metabolism
 
-## Testing the Model with Continuous Integration
+### Installation
 
-Currently, we can enable continuous model testing using Travis CI. All you have
-to do is:
+**TODO**
 
-1. Create a [GitHub](https://github.com/) account.
-2. Run `memote online`.
-3. A history report will be publicly visible at https://z-haiman.github.io/RBC-GEM.
+### Usage
 
----
+**TODO**
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+### Contributing
+
+Contributions are always welcome! Please read the [contributing guideline](.github/CONTRIBUTING.md) to get started.
+
+
+### Contributors
+
+Code contributors are reported automatically by GitHub under [Contributors](https://github.com/z-haiman/RBC-GEM/graphs/contributors), while other contributions come in as [Issues](https://github.com/z-haiman/RBC-GEM/issues).
+
+
+
+
+
