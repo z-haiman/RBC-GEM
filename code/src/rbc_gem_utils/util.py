@@ -8,8 +8,9 @@ LOGGER = logging.getLogger(__name__)
 
 # Constants
 COBRA_CONFIGURATION = Configuration()
-# TODO Probably a better way to determine the root directory, considering its the name of the project
-REPO_PATH = str(Path(__file__).resolve().parent.parent.parent)
+# TODO Probably a better way to determine the root directory, considering its the name of the project. 
+# FIXME Right now this only works with an editable install
+REPO_PATH = str(Path(__file__).resolve().parent.parent.parent.parent)
 GEM_NAME = "RBC-GEM"
 
 def show_versions():

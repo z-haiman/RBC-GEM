@@ -314,3 +314,7 @@ octave-workspace
 
 ### Memote
 Results/
+
+# Leave ZIP files for external data, ignore all else
+data/external/*/*
+!data/external/*/*.zip
