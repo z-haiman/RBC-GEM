@@ -315,6 +315,11 @@ octave-workspace
 ### Memote
 Results/
 
-# Leave ZIP files for external data, ignore all else
-data/external/*/*
+# RBC-GEM
+## Data folders should be ignored
+data/raw/*
+data/interim/*
+data/processed/*
+## Leave ZIP files for external data, ignore all else
+data/external/*
 !data/external/*/*.zip
