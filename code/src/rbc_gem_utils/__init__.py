@@ -1,6 +1,9 @@
 """Contains main functions and constants to facilitate working with the RBC-GEM reconstruction."""
 
-from .io import read_rbc_model, write_rbc_model
+from .io import (
+    read_rbc_model, write_rbc_model, 
+    read_cobra_model, write_cobra_model
+)
 from .util import (
     REPO_PATH, GEM_NAME, COBRA_CONFIGURATION, show_versions
 )
