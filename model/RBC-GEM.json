@@ -20,7 +20,7 @@
 "inchi_key":"LJQLQCAXBUHEAZ-UWTATZPHSA-J",
 "kegg.compound":"C00236",
 "metanetx.chemical":"MNXM261",
-"metatlas":"MAM00247",
+"metatlas":"MAM00247c",
 "reactome.compound":"29800",
 "sabiork":"21215",
 "sbo":"SBO:0000247",
@@ -56,7 +56,7 @@
 "C01159"
 ],
 "metanetx.chemical":"MNXM892",
-"metatlas":"MAM00569",
+"metatlas":"MAM00569c",
 "reactome.compound":"6798337",
 "sabiork":[
 "20899",
@@ -96,7 +96,7 @@
 "kegg.compound":"C01180",
 "lipidmaps":"LMFA01060170",
 "metanetx.chemical":"MNXM276",
-"metatlas":"MAM01016",
+"metatlas":"MAM01016c",
 "reactome.compound":"1237122",
 "sabiork":"5424",
 "sbo":"SBO:0000247",
@@ -131,7 +131,7 @@
 "inchi_key":"GXIURPTVHJPJLF-UWTATZPHSA-K",
 "kegg.compound":"C00631",
 "metanetx.chemical":"MNXM275",
-"metatlas":"MAM00674",
+"metatlas":"MAM00674c",
 "reactome.compound":"30485",
 "sabiork":"31",
 "sbo":"SBO:0000247",
@@ -162,7 +162,7 @@
 "inchi_key":"ZOOGRGPOEVQQDX-UUOKFMHZSA-M",
 "kegg.compound":"C00942",
 "metanetx.chemical":"MNXM665",
-"metatlas":"MAM01433",
+"metatlas":"MAM01433c",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd00697"
 }
@@ -187,7 +187,7 @@
 "inchi_key":"WTAHRPBPWHCMHW-LWKDLAHASA-M",
 "kegg.compound":"C00618",
 "metanetx.chemical":"MNXM736",
-"metatlas":"MAM00768",
+"metatlas":"MAM00768c",
 "reactome.compound":"5661262",
 "sabiork":"2117",
 "sbo":"SBO:0000247",
@@ -211,7 +211,7 @@
 "inchi_key":"DIVQKHQLANKJQO-UHFFFAOYSA-O",
 "kegg.compound":"C05587",
 "metanetx.chemical":"MNXM3848",
-"metatlas":"MAM00821",
+"metatlas":"MAM00821c",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd03316"
 }
@@ -238,7 +238,7 @@
 "inchi_key":"OSJPPGNTCRNQQC-UWTATZPHSA-K",
 "kegg.compound":"C00197",
 "metanetx.chemical":"MNXM126",
-"metatlas":"MAM00913",
+"metatlas":"MAM00913c",
 "reactome.compound":[
 "6799493",
 "29728"
@@ -257,7 +257,7 @@
 "annotation":{
 "bigg.metabolite":"4pyrdx",
 "metanetx.chemical":"MNXM163205",
-"metatlas":"MAM01033",
+"metatlas":"MAM01033c",
 "sbo":"SBO:0000247"
 }
 },
@@ -284,7 +284,7 @@
 "kegg.drug":"D07567",
 "lipidmaps":"LMFA01100055",
 "metanetx.chemical":"MNXM405",
-"metatlas":"MAM01074",
+"metatlas":"MAM01074c",
 "reactome.compound":[
 "189489",
 "189466"
@@ -318,7 +318,7 @@
 "inchi_key":"JTFITTQBRJDSTL-KVTDHHQDSA-L",
 "kegg.compound":"C04188",
 "metanetx.chemical":"MNXM407",
-"metatlas":"MAM02481",
+"metatlas":"MAM02481c",
 "reactome.compound":"1237165",
 "sabiork":"1642",
 "sbo":"SBO:0000247",
@@ -352,7 +352,7 @@
 "inchi_key":"CNSJRYUMVMWNMC-RITPCOANSA-L",
 "kegg.compound":"C04582",
 "metanetx.chemical":"MNXM522",
-"metatlas":"MAM02910",
+"metatlas":"MAM02910c",
 "reactome.compound":"1237107",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd02791"
@@ -384,7 +384,7 @@
 "inchi_key":"WUUGFSXJNOTRMR-IOSLPCCCSA-N",
 "kegg.compound":"C00170",
 "metanetx.chemical":"MNXM150",
-"metatlas":"MAM01116",
+"metatlas":"MAM01116c",
 "reactome.compound":[
 "5279412",
 "353106"
@@ -425,7 +425,7 @@
 "inchi_key":"ODHCTXKNWHHXJC-VKHMYHEASA-M",
 "kegg.compound":"C01879",
 "metanetx.chemical":"MNXM722719",
-"metatlas":"MAM01127",
+"metatlas":"MAM01127c",
 "reactome.compound":"1247942",
 "sabiork":"2392",
 "sbo":"SBO:0000247",
@@ -457,7 +457,7 @@
 "inchi_key":"BIRSGZKFKXLSJQ-SQOUGZDYSA-K",
 "kegg.compound":"C00345",
 "metanetx.chemical":"MNXM325",
-"metatlas":"MAM01169",
+"metatlas":"MAM01169c",
 "reactome.compound":"29996",
 "sabiork":[
 "22801",
@@ -491,7 +491,7 @@
 "inchi_key":"IJOJIVNDFQSGAB-SQOUGZDYSA-L",
 "kegg.compound":"C01236",
 "metanetx.chemical":"MNXM429",
-"metatlas":"MAM01961",
+"metatlas":"MAM01961c",
 "reactome.compound":"31467",
 "sabiork":"1366",
 "sbo":"SBO:0000247",
@@ -531,7 +531,7 @@
 "kegg.drug":"D00010",
 "lipidmaps":"LMFA01010002",
 "metanetx.chemical":"MNXM26",
-"metatlas":"MAM01252",
+"metatlas":"MAM01252c",
 "reactome.compound":[
 "1524044",
 "390305",
@@ -571,7 +571,7 @@
 "inchi_key":"IKHGUXGNUITLKF-UHFFFAOYSA-N",
 "kegg.compound":"C00084",
 "metanetx.chemical":"MNXM75",
-"metatlas":"MAM01249",
+"metatlas":"MAM01249c",
 "reactome.compound":[
 "113532",
 "29510",
@@ -610,7 +610,7 @@
 "inchi_key":"OVRNDRQMDRJTHS-RTRLPJTCSA-N",
 "kegg.compound":"C00140",
 "metanetx.chemical":"MNXM143",
-"metatlas":"MAM02527",
+"metatlas":"MAM02527c",
 "reactome.compound":[
 "2162231",
 "1678743"
@@ -665,7 +665,7 @@
 "inchi_key":"BRGMHAYQAZFZDJ-RTRLPJTCSA-L",
 "kegg.compound":"C00357",
 "metanetx.chemical":"MNXM63556",
-"metatlas":"MAM02529",
+"metatlas":"MAM02529c",
 "reactome.compound":"449703",
 "sabiork":"1676",
 "sbo":"SBO:0000247",
@@ -694,7 +694,7 @@
 "inchi_key":"MBLBDJOUHNCFQT-XAMCCFCMSA-N",
 "kegg.compound":"C00645",
 "metanetx.chemical":"MNXM2403",
-"metatlas":"MAM02524",
+"metatlas":"MAM02524c",
 "reactome.compound":"4085214",
 "sabiork":[
 "25302",
@@ -737,7 +737,7 @@
 "inchi_key":"ANKZYBDXHMZBDK-SCRDCRAPSA-K",
 "kegg.compound":"C00061",
 "metanetx.chemical":"MNXM119",
-"metatlas":"MAM01828",
+"metatlas":"MAM01828c",
 "reactome.compound":"73524",
 "sabiork":"1673",
 "sbo":"SBO:0000247",
@@ -765,7 +765,7 @@
 "inchi_key":"QDSLHWJDSQGPEE-WCTZXXKLSA-L",
 "kegg.compound":"C04257",
 "metanetx.chemical":"MNXM4708",
-"metatlas":"MAM02539",
+"metatlas":"MAM02539c",
 "reactome.compound":"4085225",
 "sabiork":"1802",
 "sbo":"SBO:0000247",
@@ -807,7 +807,7 @@
 "C19910"
 ],
 "metanetx.chemical":"MNXM227",
-"metatlas":"MAM02543",
+"metatlas":"MAM02543c",
 "sabiork":[
 "22759",
 "2006"
@@ -841,7 +841,7 @@
 "annotation":{
 "bigg.metabolite":"acnamp",
 "metanetx.chemical":"MNXM164499",
-"metatlas":"MAM02544",
+"metatlas":"MAM02544c",
 "sbo":"SBO:0000247"
 }
 },
@@ -882,7 +882,7 @@
 "inchi_key":"BDAGIHXWWSANSR-UHFFFAOYSA-M",
 "kegg.compound":"C00058",
 "metanetx.chemical":"MNXM39",
-"metatlas":"MAM01833",
+"metatlas":"MAM01833c",
 "reactome.compound":[
 "29460",
 "194712",
@@ -921,7 +921,7 @@
 "kegg.compound":"C00147",
 "kegg.drug":"D00034",
 "metanetx.chemical":"MNXM168",
-"metatlas":"MAM01279",
+"metatlas":"MAM01279c",
 "reactome.compound":"83951",
 "sabiork":"57",
 "sbo":"SBO:0000247",
@@ -970,7 +970,7 @@
 ],
 "kegg.drug":"D00114",
 "metanetx.chemical":"MNXM175",
-"metatlas":"MAM01840",
+"metatlas":"MAM01840c",
 "reactome.compound":[
 "189049",
 "29532"
@@ -1029,7 +1029,7 @@
 "kegg.compound":"C00212",
 "kegg.drug":"D00045",
 "metanetx.chemical":"MNXM212",
-"metatlas":"MAM01280",
+"metatlas":"MAM01280c",
 "reactome.compound":[
 "83908",
 "83909",
@@ -1083,7 +1083,7 @@
 "kegg.compound":"C00122",
 "kegg.drug":"D02308",
 "metanetx.chemical":"MNXM93",
-"metatlas":"MAM01862",
+"metatlas":"MAM01862c",
 "reactome.compound":[
 "113588",
 "29586"
@@ -1116,7 +1116,7 @@
 "kegg.compound":"C00008",
 "kegg.glycan":"G11113",
 "metanetx.chemical":"MNXM7",
-"metatlas":"MAM01285",
+"metatlas":"MAM01285c",
 "reactome.compound":[
 "114565",
 "211606",
@@ -1167,7 +1167,7 @@
 "inchi_key":"HXXFSFRBOHSIMQ-GASJEMHNSA-L",
 "kegg.compound":"C00103",
 "metanetx.chemical":"MNXM89588",
-"metatlas":"MAM01967",
+"metatlas":"MAM01967c",
 "reactome.compound":"29548",
 "sabiork":[
 "1450",
@@ -1190,7 +1190,7 @@
 "annotation":{
 "bigg.metabolite":"adprbp",
 "metanetx.chemical":"MNXM92094",
-"metatlas":"MAM01289",
+"metatlas":"MAM01289c",
 "sbo":"SBO:0000247"
 }
 },
@@ -1223,7 +1223,7 @@
 "C00118"
 ],
 "metanetx.chemical":"MNXM74",
-"metatlas":"MAM01939",
+"metatlas":"MAM01939c",
 "reactome.compound":"29578",
 "sabiork":[
 "27",
@@ -1257,7 +1257,7 @@
 "annotation":{
 "bigg.metabolite":"adrnl",
 "metanetx.chemical":"MNXM162647",
-"metatlas":"MAM01290",
+"metatlas":"MAM01290c",
 "sbo":"SBO:0000247"
 }
 },
@@ -1297,7 +1297,7 @@
 "kegg.compound":"C00670",
 "kegg.drug":"D07349",
 "metanetx.chemical":"MNXM367",
-"metatlas":"MAM02912",
+"metatlas":"MAM02912c",
 "reactome.compound":"1498750",
 "sabiork":"5173",
 "sbo":"SBO:0000247",
@@ -1326,7 +1326,7 @@
 "inchi_key":"NBSCHQHZLSJFNQ-GASJEMHNSA-L",
 "kegg.compound":"C00092",
 "metanetx.chemical":"MNXM160",
-"metatlas":"MAM01968",
+"metatlas":"MAM01968c",
 "reactome.compound":"1629756",
 "sabiork":[
 "1404",
@@ -1363,7 +1363,7 @@
 "inchi_key":"ZJUKTBDSGOFHSH-WFMPWKQPSA-N",
 "kegg.compound":"C00021",
 "metanetx.chemical":"MNXM19",
-"metatlas":"MAM02871",
+"metatlas":"MAM02871c",
 "reactome.compound":[
 "2162252",
 "77502",
@@ -1418,7 +1418,7 @@
 "inchi_key":"KPGXRSRHYNQIFN-UHFFFAOYSA-L",
 "kegg.compound":"C00026",
 "metanetx.chemical":"MNXM20",
-"metatlas":"MAM01306",
+"metatlas":"MAM01306c",
 "reactome.compound":[
 "113594",
 "561075",
@@ -1475,7 +1475,7 @@
 ],
 "kegg.drug":"D04291",
 "metanetx.chemical":"MNXM390",
-"metatlas":"MAM01910",
+"metatlas":"MAM01910c",
 "sabiork":[
 "1661",
 "90",
@@ -1532,7 +1532,7 @@
 ],
 "kegg.drug":"D00012",
 "metanetx.chemical":"MNXM32",
-"metatlas":"MAM01307",
+"metatlas":"MAM01307c",
 "reactome.compound":[
 "389664",
 "352036",
@@ -1583,7 +1583,7 @@
 "C03384"
 ],
 "metanetx.chemical":"MNXM336",
-"metatlas":"MAM01322",
+"metatlas":"MAM01322c",
 "reactome.compound":"30170",
 "sabiork":[
 "1381",
@@ -1724,7 +1724,7 @@
 "inchi_key":"MEFKEPWMEQBLKI-AIRLBKTGSA-O",
 "kegg.compound":"C00019",
 "metanetx.chemical":"MNXM16",
-"metatlas":"MAM02877",
+"metatlas":"MAM02877c",
 "reactome.compound":[
 "2162265",
 "5279190",
@@ -1771,7 +1771,7 @@
 "inchi_key":"ZUNBITIXDCPNSD-LSRJEVITSA-O",
 "kegg.compound":"C01137",
 "metanetx.chemical":"MNXM321",
-"metatlas":"MAM02870",
+"metatlas":"MAM02870c",
 "sabiork":"5404",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd00837"
@@ -1824,7 +1824,7 @@
 "kegg.compound":"C00020",
 "kegg.drug":"D02769",
 "metanetx.chemical":"MNXM14",
-"metatlas":"MAM01334",
+"metatlas":"MAM01334c",
 "reactome.compound":[
 "389620",
 "159448",
@@ -1876,7 +1876,7 @@
 "inchi_key":"YOAHKNVSNCMZGQ-XPWFQUROSA-J",
 "kegg.compound":"C01260",
 "metanetx.chemical":"MNXM1089",
-"metatlas":"MAM02670",
+"metatlas":"MAM02670c",
 "sabiork":"1707",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd00924"
@@ -1931,7 +1931,7 @@
 ],
 "kegg.drug":"D02982",
 "metanetx.chemical":"MNXM70",
-"metatlas":"MAM01365",
+"metatlas":"MAM01365c",
 "reactome.compound":[
 "351977",
 "29468",
@@ -1994,7 +1994,7 @@
 "inchi_key":"FBPFZTCFMRRESA-GUCUJZIJSA-N",
 "kegg.compound":"C01697",
 "metanetx.chemical":"MNXM1233",
-"metatlas":"MAM01909",
+"metatlas":"MAM01909c",
 "sabiork":"2311",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd01171"
@@ -2032,7 +2032,7 @@
 ],
 "kegg.drug":"D00018",
 "metanetx.chemical":"MNXM129",
-"metatlas":"MAM01368",
+"metatlas":"MAM01368c",
 "reactome.compound":[
 "198816",
 "351595",
@@ -2081,7 +2081,7 @@
 "kegg.compound":"C00002",
 "kegg.drug":"D08646",
 "metanetx.chemical":"MNXM3",
-"metatlas":"MAM01371",
+"metatlas":"MAM01371c",
 "reactome.compound":[
 "8878982",
 "389573",
@@ -2129,11 +2129,11 @@
 "name":"Band membrane protein (universal, erythrocyte -> 2.1,3,4.1)",
 "compartment":"c",
 "charge":0,
-"formula":"RH",
+"formula":"HR",
 "annotation":{
 "bigg.metabolite":"band",
 "metanetx.chemical":"MNXM148099",
-"metatlas":"MAM03481",
+"metatlas":"MAM03481c",
 "sbo":"SBO:0000247"
 }
 },
@@ -2188,7 +2188,7 @@
 "kegg.compound":"C00329",
 "kegg.drug":"D04334",
 "metanetx.chemical":"MNXM533",
-"metatlas":"MAM01962",
+"metatlas":"MAM01962c",
 "reactome.compound":"6786660",
 "sabiork":[
 "1591",
@@ -2207,11 +2207,11 @@
 "name":"Band membrane protein (methylated, universal, erythrocyte -> 2.1,3,4.1)",
 "compartment":"c",
 "charge":0,
-"formula":"RCH3",
+"formula":"CH3R",
 "annotation":{
 "bigg.metabolite":"bandmt",
 "metanetx.chemical":"MNXM148098",
-"metatlas":"MAM03482",
+"metatlas":"MAM03482c",
 "sbo":"SBO:0000247"
 }
 },
@@ -2232,7 +2232,7 @@
 "inchi_key":"XHMJOUIAFHJHBW-IVMDWMLBSA-M",
 "kegg.compound":"C00352",
 "metanetx.chemical":"MNXM370",
-"metatlas":"MAM01963",
+"metatlas":"MAM01963c",
 "sabiork":"1372",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd00288"
@@ -2259,7 +2259,7 @@
 "annotation":{
 "bigg.metabolite":"bilglcur",
 "metanetx.chemical":"MNXM162498",
-"metatlas":"MAM01398",
+"metatlas":"MAM01398c",
 "sbo":"SBO:0000247"
 }
 },
@@ -2311,7 +2311,7 @@
 "kegg.compound":"C00035",
 "kegg.glycan":"G10620",
 "metanetx.chemical":"MNXM30",
-"metatlas":"MAM01948",
+"metatlas":"MAM01948c",
 "reactome.compound":[
 "113525",
 "29420",
@@ -2346,7 +2346,7 @@
 "kegg.compound":"C00031",
 "kegg.drug":"D00009",
 "metanetx.chemical":"MNXM41",
-"metatlas":"MAM01965",
+"metatlas":"MAM01965c",
 "sabiork":[
 "1406",
 "1407"
@@ -2380,7 +2380,7 @@
 "inchi_key":"AEMOLEFTQBMNLQ-AQKNRBDQSA-M",
 "kegg.compound":"C00191",
 "metanetx.chemical":"MNXM241",
-"metatlas":"MAM01973",
+"metatlas":"MAM01973c",
 "sabiork":"26257",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd00164"
@@ -2421,7 +2421,7 @@
 ],
 "kegg.drug":"D00015",
 "metanetx.chemical":"MNXM37",
-"metatlas":"MAM01975",
+"metatlas":"MAM01975c",
 "reactome.compound":[
 "113522",
 "212615",
@@ -2480,7 +2480,7 @@
 "D04341"
 ],
 "metanetx.chemical":"MNXM89557",
-"metatlas":"MAM01974",
+"metatlas":"MAM01974c",
 "reactome.compound":[
 "428614",
 "29404",
@@ -2519,7 +2519,7 @@
 "inchi_key":"WHOMFKWHIQZTHY-UHFFFAOYSA-L",
 "kegg.compound":"C00627",
 "metanetx.chemical":"MNXM454",
-"metatlas":"MAM02818",
+"metatlas":"MAM02818c",
 "reactome.compound":"964952",
 "sabiork":"1684",
 "sbo":"SBO:0000247",
@@ -2546,7 +2546,7 @@
 "inchi_key":"BPYKTIZUTYGOLE-IFADSCNNSA-L",
 "kegg.compound":"C00486",
 "metanetx.chemical":"MNXM534",
-"metatlas":"MAM01396",
+"metatlas":"MAM01396c",
 "reactome.compound":[
 "189386",
 "159151"
@@ -2605,7 +2605,7 @@
 "inchi_key":"RITKHVBHSGLULN-WHFBIAKZSA-M",
 "kegg.compound":"C00669",
 "metanetx.chemical":"MNXM412",
-"metatlas":"MAM01927",
+"metatlas":"MAM01927c",
 "reactome.compound":"174393",
 "sabiork":"5172",
 "sbo":"SBO:0000247",
@@ -2641,7 +2641,7 @@
 "kegg.compound":"C00037",
 "kegg.drug":"D00011",
 "metanetx.chemical":"MNXM29",
-"metatlas":"MAM01986",
+"metatlas":"MAM01986c",
 "reactome.compound":[
 "29424",
 "193446",
@@ -2679,7 +2679,7 @@
 "inchi_key":"QBUVFDKTZJNUPP-BBROENKCSA-L",
 "kegg.compound":"C00500",
 "metanetx.chemical":"MNXM416",
-"metatlas":"MAM01399",
+"metatlas":"MAM01399c",
 "reactome.compound":"189396",
 "sabiork":"5120",
 "sbo":"SBO:0000247",
@@ -2712,7 +2712,7 @@
 "kegg.compound":"C00116",
 "kegg.drug":"D00028",
 "metanetx.chemical":"MNXM89612",
-"metatlas":"MAM01983",
+"metatlas":"MAM01983c",
 "reactome.compound":[
 "192438",
 "76116"
@@ -2766,7 +2766,7 @@
 "inchi_key":"BHPQYMZQTOCNFJ-UHFFFAOYSA-N",
 "kegg.compound":"C00076",
 "metanetx.chemical":"MNXM128",
-"metatlas":"MAM01413",
+"metatlas":"MAM01413c",
 "reactome.compound":[
 "111875",
 "167012",
@@ -2821,7 +2821,7 @@
 "inchi_key":"AWUCVROLDVIAJX-GSVOUGTGSA-L",
 "kegg.compound":"C00093",
 "metanetx.chemical":"MNXM66",
-"metatlas":"MAM02914",
+"metatlas":"MAM02914c",
 "reactome.compound":[
 "188458",
 "76114"
@@ -2862,7 +2862,7 @@
 "inchi_key":"RQFCJASXJCIDSX-UUOKFMHZSA-L",
 "kegg.compound":"C00144",
 "metanetx.chemical":"MNXM113",
-"metatlas":"MAM02016",
+"metatlas":"MAM02016c",
 "sabiork":"1309",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd00126"
@@ -2889,7 +2889,7 @@
 "inchi_key":"IVOMOUWHDPKRLL-KQYNXXCUSA-M",
 "kegg.compound":"C00575",
 "metanetx.chemical":"MNXM243",
-"metatlas":"MAM01419",
+"metatlas":"MAM01419c",
 "reactome.compound":"30389",
 "sabiork":"1379",
 "sbo":"SBO:0000247",
@@ -2929,7 +2929,7 @@
 "inchi_key":"ZWIADYZPOWUWEW-XVFCMESISA-K",
 "kegg.compound":"C00112",
 "metanetx.chemical":"MNXM220",
-"metatlas":"MAM01424",
+"metatlas":"MAM01424c",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd00096"
 }
@@ -2969,7 +2969,7 @@
 "inchi_key":"NYHBQMYGNKIUIF-UUOKFMHZSA-N",
 "kegg.compound":"C00387",
 "metanetx.chemical":"MNXM401",
-"metatlas":"MAM02038",
+"metatlas":"MAM02038c",
 "sabiork":"1872",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd00311"
@@ -2998,7 +2998,7 @@
 "kegg.compound":"C00127",
 "kegg.drug":"D00031",
 "metanetx.chemical":"MNXM151",
-"metatlas":"MAM02027",
+"metatlas":"MAM02027c",
 "reactome.compound":[
 "1655882",
 "111745",
@@ -3032,7 +3032,7 @@
 "kegg.compound":"C00307",
 "kegg.drug":"D00057",
 "metanetx.chemical":"MNXM283",
-"metatlas":"MAM01425",
+"metatlas":"MAM01425c",
 "reactome.compound":"1524060",
 "sabiork":"2012",
 "sbo":"SBO:0000247",
@@ -3068,7 +3068,7 @@
 "kegg.compound":"C00051",
 "kegg.drug":"D00014",
 "metanetx.chemical":"MNXM57",
-"metatlas":"MAM02026",
+"metatlas":"MAM02026c",
 "reactome.compound":[
 "1247892",
 "1500783",
@@ -3103,7 +3103,7 @@
 "inchi_key":"XKMLYUALXHKNFT-UUOKFMHZSA-J",
 "kegg.compound":"C00044",
 "metanetx.chemical":"MNXM51",
-"metatlas":"MAM02034",
+"metatlas":"MAM02034c",
 "reactome.compound":[
 "113573",
 "29438"
@@ -3136,7 +3136,7 @@
 "inchi_key":"DTBNBXWJWCWCIK-UHFFFAOYSA-K",
 "kegg.compound":"C00074",
 "metanetx.chemical":"MNXM73",
-"metatlas":"MAM02696",
+"metatlas":"MAM02696c",
 "reactome.compound":[
 "372364",
 "29492"
@@ -3188,7 +3188,7 @@
 ],
 "kegg.drug":"D00021",
 "metanetx.chemical":"MNXM97",
-"metatlas":"MAM02724",
+"metatlas":"MAM02724c",
 "reactome.compound":[
 "29502",
 "379701",
@@ -3224,7 +3224,7 @@
 "inchi_key":"KABFMIBPWCXCRK-RGGAHWMASA-J",
 "kegg.compound":"C00032",
 "metanetx.chemical":"MNXM249",
-"metatlas":"MAM02049",
+"metatlas":"MAM02049c",
 "reactome.compound":[
 "917877",
 "71185",
@@ -3269,7 +3269,7 @@
 "inchi_key":"BTNMPGBKDVTSJY-UHFFFAOYSA-M",
 "kegg.compound":"C00166",
 "metanetx.chemical":"MNXM162242",
-"metatlas":"MAM02725",
+"metatlas":"MAM02725c",
 "sabiork":"1957",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd00143"
@@ -3297,7 +3297,7 @@
 "inchi_key":"UYTPUPDQBNUYGX-UHFFFAOYSA-N",
 "kegg.compound":"C00242",
 "metanetx.chemical":"MNXM259",
-"metatlas":"MAM02037",
+"metatlas":"MAM02037c",
 "reactome.compound":"83956",
 "sabiork":"59",
 "sbo":"SBO:0000247",
@@ -3362,7 +3362,7 @@
 "kegg.compound":"C00009",
 "kegg.drug":"D05467",
 "metanetx.chemical":"MNXM9",
-"metatlas":"MAM02751",
+"metatlas":"MAM02751c",
 "reactome.compound":[
 "5228339",
 "113550",
@@ -3419,7 +3419,7 @@
 "kegg.compound":"C00154",
 "lipidmaps":"LMFA07050360",
 "metanetx.chemical":"MNXM88",
-"metatlas":"MAM02678",
+"metatlas":"MAM02678c",
 "reactome.compound":"5358339",
 "sabiork":"1310",
 "sbo":"SBO:0000247",
@@ -3496,7 +3496,7 @@
 "inchi_key":"WVIMUEUQJFPNDK-PEBGCTIMSA-M",
 "kegg.compound":"C00570",
 "metanetx.chemical":"MNXM449",
-"metatlas":"MAM01428",
+"metatlas":"MAM01428c",
 "reactome.compound":"1500603",
 "sabiork":"2100",
 "sbo":"SBO:0000247",
@@ -3524,7 +3524,7 @@
 "inchi_key":"RGHNJXZEOKUKBD-QTBDOELSSA-M",
 "kegg.compound":"C00800",
 "metanetx.chemical":"MNXM1927",
-"metatlas":"MAM02378",
+"metatlas":"MAM02378c",
 "reactome.compound":"5661268",
 "sabiork":[
 "2159",
@@ -3559,7 +3559,7 @@
 "D07690"
 ],
 "metanetx.chemical":"MNXM90",
-"metatlas":"MAM01513",
+"metatlas":"MAM01513c",
 "reactome.compound":[
 "264618",
 "264638",
@@ -3589,7 +3589,7 @@
 "inchi_key":"GPRLSGONYQIRFK-UHFFFAOYSA-N",
 "kegg.compound":"C00080",
 "metanetx.chemical":"MNXM1",
-"metatlas":"MAM02039",
+"metatlas":"MAM02039c",
 "reactome.compound":[
 "2000349",
 "425978",
@@ -3643,7 +3643,7 @@
 "inchi_key":"YHHSONZFOIEMCP-UHFFFAOYSA-M",
 "kegg.compound":"C00588",
 "metanetx.chemical":"MNXM229",
-"metatlas":"MAM02738",
+"metatlas":"MAM02738c",
 "reactome.compound":[
 "6814794",
 "194358",
@@ -3713,7 +3713,7 @@
 "D06322"
 ],
 "metanetx.chemical":"MNXM2",
-"metatlas":"MAM02040",
+"metatlas":"MAM02040c",
 "reactome.compound":[
 "113521",
 "141343",
@@ -3781,7 +3781,7 @@
 ],
 "kegg.drug":"D02057",
 "metanetx.chemical":"MNXM43",
-"metatlas":"MAM01442",
+"metatlas":"MAM01442c",
 "reactome.compound":[
 "29572",
 "188972",
@@ -3829,7 +3829,7 @@
 "kegg.compound":"C00027",
 "kegg.drug":"D00008",
 "metanetx.chemical":"MNXM22",
-"metatlas":"MAM02041",
+"metatlas":"MAM02041c",
 "reactome.compound":[
 "1614617",
 "29408",
@@ -3870,7 +3870,7 @@
 "kegg.compound":"C00055",
 "kegg.glycan":"G10621",
 "metanetx.chemical":"MNXM31",
-"metatlas":"MAM01590",
+"metatlas":"MAM01590c",
 "reactome.compound":[
 "1524067",
 "727810",
@@ -3924,7 +3924,7 @@
 "C00288"
 ],
 "metanetx.chemical":"MNXM60",
-"metatlas":"MAM02046",
+"metatlas":"MAM02046c",
 "reactome.compound":[
 "29896",
 "425425",
@@ -3964,7 +3964,7 @@
 "D09706"
 ],
 "metanetx.chemical":"MNXM10881",
-"metatlas":"MAM01595",
+"metatlas":"MAM01595c",
 "reactome.compound":"189385",
 "sabiork":"1987",
 "sbo":"SBO:0000247",
@@ -4004,7 +4004,7 @@
 "C00155"
 ],
 "metanetx.chemical":"MNXM123",
-"metatlas":"MAM02133",
+"metatlas":"MAM02133c",
 "reactome.compound":"174369",
 "sabiork":[
 "1950",
@@ -4045,7 +4045,7 @@
 "kegg.compound":"C00011",
 "kegg.drug":"D00004",
 "metanetx.chemical":"MNXM13",
-"metatlas":"MAM01596",
+"metatlas":"MAM01596c",
 "reactome.compound":[
 "29376",
 "5668565",
@@ -4098,7 +4098,7 @@
 "LMFA01010001"
 ],
 "metanetx.chemical":"MNXM108",
-"metatlas":"MAM02674",
+"metatlas":"MAM02674c",
 "reactome.compound":[
 "2453691",
 "3632881",
@@ -4145,7 +4145,7 @@
 "inchi_key":"RGJOEKWQDUBAIZ-IBOSZNHHSA-J",
 "kegg.compound":"C00010",
 "metanetx.chemical":"MNXM12",
-"metatlas":"MAM01597",
+"metatlas":"MAM01597c",
 "reactome.compound":[
 "193514",
 "162743",
@@ -4183,7 +4183,7 @@
 "inchi_key":"WDFJYRZCZIUBPR-UHFFFAOYSA-F",
 "kegg.compound":"C01024",
 "metanetx.chemical":"MNXM547",
-"metatlas":"MAM02151",
+"metatlas":"MAM02151c",
 "reactome.compound":"189449",
 "sabiork":"5362",
 "sbo":"SBO:0000247",
@@ -4211,7 +4211,7 @@
 "inchi_key":"NIUVHXTXUXOFEB-UHFFFAOYSA-J",
 "kegg.compound":"C03263",
 "metanetx.chemical":"MNXM410",
-"metatlas":"MAM01606",
+"metatlas":"MAM01606c",
 "reactome.compound":[
 "189455",
 "189411"
@@ -4244,7 +4244,7 @@
 "inchi_key":"FDGQSTZJBFJUBT-UHFFFAOYSA-N",
 "kegg.compound":"C00262",
 "metanetx.chemical":"MNXM213",
-"metatlas":"MAM02159",
+"metatlas":"MAM02159c",
 "reactome.compound":"113599",
 "sabiork":[
 "5528",
@@ -4263,7 +4263,7 @@
 "annotation":{
 "bigg.metabolite":"pmtcrn",
 "metanetx.chemical":"MNXM162587",
-"metatlas":"MAM02411",
+"metatlas":"MAM02411c",
 "sbo":"SBO:0000247"
 }
 },
@@ -4302,7 +4302,7 @@
 ],
 "kegg.drug":"D02176",
 "metanetx.chemical":"MNXM173",
-"metatlas":"MAM02348",
+"metatlas":"MAM02348c",
 "reactome.compound":[
 "201023",
 "549207",
@@ -4342,7 +4342,7 @@
 "inchi_key":"QSHWIQZFGQKFMA-UHFFFAOYSA-M",
 "kegg.compound":"C00931",
 "metanetx.chemical":"MNXM554",
-"metatlas":"MAM02756",
+"metatlas":"MAM02756c",
 "reactome.compound":"189464",
 "sabiork":"5324",
 "sbo":"SBO:0000247",
@@ -4371,7 +4371,7 @@
 "inchi_key":"ODBLHEXUDAPZAU-UHFFFAOYSA-K",
 "kegg.compound":"C00311",
 "metanetx.chemical":"MNXM89661",
-"metatlas":"MAM02183",
+"metatlas":"MAM02183c",
 "sabiork":"2013",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd00260"
@@ -4399,7 +4399,7 @@
 "inchi_key":"PCDQPRRSZKQHHS-XVFCMESISA-J",
 "kegg.compound":"C00063",
 "metanetx.chemical":"MNXM63",
-"metatlas":"MAM01623",
+"metatlas":"MAM01623c",
 "reactome.compound":[
 "29470",
 "110614",
@@ -4441,7 +4441,7 @@
 "inchi_key":"GRSZFWQUAKGDAV-KQYNXXCUSA-L",
 "kegg.compound":"C00130",
 "metanetx.chemical":"MNXM125",
-"metatlas":"MAM02167",
+"metatlas":"MAM02167c",
 "reactome.compound":[
 "2509792",
 "29602"
@@ -4480,7 +4480,7 @@
 "inchi_key":"XPPKVPWEQAFLFU-UHFFFAOYSA-K",
 "kegg.compound":"C00013",
 "metanetx.chemical":"MNXM11",
-"metatlas":"MAM02759",
+"metatlas":"MAM02759c",
 "reactome.compound":[
 "159450",
 "113542",
@@ -4545,7 +4545,7 @@
 ],
 "kegg.drug":"D00026",
 "metanetx.chemical":"MNXM55",
-"metatlas":"MAM01628",
+"metatlas":"MAM01628c",
 "reactome.compound":[
 "352016",
 "379721",
@@ -4586,7 +4586,7 @@
 "inchi_key":"KSFOVUSSGSKXFI-UJJXFSCMSA-L",
 "kegg.compound":"C02191",
 "metanetx.chemical":"MNXM346",
-"metatlas":"MAM02803",
+"metatlas":"MAM02803c",
 "reactome.compound":[
 "189487",
 "189463"
@@ -4633,7 +4633,7 @@
 ],
 "kegg.drug":"D08079",
 "metanetx.chemical":"MNXM127",
-"metatlas":"MAM02171",
+"metatlas":"MAM02171c",
 "reactome.compound":[
 "426910",
 "429130"
@@ -4670,7 +4670,7 @@
 "inchi_key":"UHSGPDMIQQYNAX-UHFFFAOYSA-L",
 "kegg.compound":"C01079",
 "metanetx.chemical":"MNXM351",
-"metatlas":"MAM02804",
+"metatlas":"MAM02804c",
 "reactome.compound":"189478",
 "sabiork":"5384",
 "sbo":"SBO:0000247",
@@ -4710,7 +4710,7 @@
 "kegg.compound":"C00294",
 "kegg.drug":"D00054",
 "metanetx.chemical":"MNXM334",
-"metatlas":"MAM02170",
+"metatlas":"MAM02170c",
 "reactome.compound":[
 "83927",
 "83921"
@@ -4752,7 +4752,7 @@
 "kegg.compound":"C00238",
 "kegg.drug":"D08403",
 "metanetx.chemical":"MNXM95",
-"metatlas":"MAM02200",
+"metatlas":"MAM02200c",
 "reactome.compound":[
 "74126",
 "5626313",
@@ -4788,7 +4788,7 @@
 "inchi_key":"PQGCEDQWHSBAJP-TXICZTDVSA-I",
 "kegg.compound":"C00119",
 "metanetx.chemical":"MNXM91",
-"metatlas":"MAM02806",
+"metatlas":"MAM02806c",
 "reactome.compound":"73566",
 "sabiork":"1305",
 "sbo":"SBO:0000247",
@@ -4831,7 +4831,7 @@
 "inchi_key":"KIDHWZJUCRJVML-UHFFFAOYSA-P",
 "kegg.compound":"C00134",
 "metanetx.chemical":"MNXM118",
-"metatlas":"MAM02812",
+"metatlas":"MAM02812c",
 "reactome.compound":[
 "29610",
 "141350"
@@ -4869,7 +4869,7 @@
 "inchi_key":"JVTAAEKCZFNVCJ-UWTATZPHSA-M",
 "kegg.compound":"C00256",
 "metanetx.chemical":"MNXM285",
-"metatlas":"MAM01716",
+"metatlas":"MAM01716c",
 "sabiork":[
 "1997",
 "2284"
@@ -4914,7 +4914,7 @@
 "inchi_key":"JVTAAEKCZFNVCJ-REOHCLBHSA-M",
 "kegg.compound":"C00186",
 "metanetx.chemical":"MNXM179",
-"metatlas":"MAM02403",
+"metatlas":"MAM02403c",
 "reactome.compound":[
 "373863",
 "29708",
@@ -4947,7 +4947,7 @@
 "inchi_key":"ZMJGSOSNSPKHNH-UHFFFAOYSA-M",
 "kegg.compound":"C00647",
 "metanetx.chemical":"MNXM366",
-"metatlas":"MAM02816",
+"metatlas":"MAM02816c",
 "reactome.compound":"965146",
 "sabiork":"1685",
 "sbo":"SBO:0000247",
@@ -4992,7 +4992,7 @@
 "inchi_key":"NHZMQXZHNVQTQA-UHFFFAOYSA-O",
 "kegg.compound":"C00534",
 "metanetx.chemical":"MNXM548",
-"metatlas":"MAM02815",
+"metatlas":"MAM02815c",
 "reactome.compound":"964945",
 "sabiork":"2080",
 "sbo":"SBO:0000247",
@@ -5033,7 +5033,7 @@
 "inchi_key":"RADKZDMFGJYCBB-UHFFFAOYSA-N",
 "kegg.compound":"C00250",
 "metanetx.chemical":"MNXM311",
-"metatlas":"MAM02813",
+"metatlas":"MAM02813c",
 "reactome.compound":"965131",
 "sabiork":"1991",
 "sbo":"SBO:0000247",
@@ -5065,7 +5065,7 @@
 "LMFA03020023"
 ],
 "metanetx.chemical":"MNXM462",
-"metatlas":"MAM02362",
+"metatlas":"MAM02362c",
 "reactome.compound":"265281",
 "sabiork":"5309",
 "sbo":"SBO:0000247",
@@ -5094,7 +5094,7 @@
 "annotation":{
 "bigg.metabolite":"leuktrB4",
 "metanetx.chemical":"MNXM162284",
-"metatlas":"MAM02364",
+"metatlas":"MAM02364c",
 "sbo":"SBO:0000247"
 }
 },
@@ -5121,7 +5121,7 @@
 "inchi_key":"NGVDGCNFYWLIFO-UHFFFAOYSA-L",
 "kegg.compound":"C00018",
 "metanetx.chemical":"MNXM161",
-"metatlas":"MAM02814",
+"metatlas":"MAM02814c",
 "reactome.compound":"29390",
 "sabiork":"1271",
 "sbo":"SBO:0000247",
@@ -5152,7 +5152,7 @@
 "kegg.compound":"C00314",
 "kegg.drug":"D08454",
 "metanetx.chemical":"MNXM419",
-"metatlas":"MAM02817",
+"metatlas":"MAM02817c",
 "reactome.compound":"965053",
 "sabiork":"2015",
 "sbo":"SBO:0000247",
@@ -5184,7 +5184,7 @@
 "inchi_key":"GNGACRATGGDKBX-UHFFFAOYSA-L",
 "kegg.compound":"C00111",
 "metanetx.chemical":"MNXM77",
-"metatlas":"MAM01690",
+"metatlas":"MAM01690c",
 "reactome.compound":[
 "390404",
 "75970",
@@ -5222,7 +5222,7 @@
 "kegg.compound":"C00022",
 "lipidmaps":"LMFA01060077",
 "metanetx.chemical":"MNXM23",
-"metatlas":"MAM02819",
+"metatlas":"MAM02819c",
 "reactome.compound":[
 "1130930",
 "5357717",
@@ -5258,7 +5258,7 @@
 "inchi_key":"VDYDCVUWILIYQF-CSMHCCOUSA-M",
 "kegg.compound":"C03451",
 "metanetx.chemical":"MNXM1253",
-"metatlas":"MAM00168",
+"metatlas":"MAM00168c",
 "reactome.compound":"5694130",
 "sabiork":[
 "24624",
@@ -5296,7 +5296,7 @@
 "inchi_key":"OESHPIGALOBJLM-REOHCLBHSA-N",
 "kegg.compound":"C05422",
 "metanetx.chemical":"MNXM250",
-"metatlas":"MAM01655",
+"metatlas":"MAM01655c",
 "reactome.compound":[
 "198827",
 "198852",
@@ -5337,7 +5337,7 @@
 "LMFA01030809"
 ],
 "metanetx.chemical":"MNXM293",
-"metatlas":"MAM02387",
+"metatlas":"MAM02387c",
 "reactome.compound":"2046044",
 "sabiork":"2298",
 "sbo":"SBO:0000247",
@@ -5368,7 +5368,7 @@
 "inchi_key":"YXJDFQJKERBOBM-TXICZTDVSA-L",
 "kegg.compound":"C00620",
 "metanetx.chemical":"MNXM295",
-"metatlas":"MAM02844",
+"metatlas":"MAM02844c",
 "reactome.compound":"112016",
 "sabiork":[
 "1651",
@@ -5395,7 +5395,7 @@
 "inchi_key":"CILXJJLQPTUUSS-XQRVVYSFSA-N",
 "kegg.compound":"C15606",
 "metanetx.chemical":"MNXM494",
-"metatlas":"MAM00245",
+"metatlas":"MAM00245c",
 "reactome.compound":"1237155",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd11255"
@@ -5419,7 +5419,7 @@
 "inchi_key":"KTVPXOYAKDPRHY-AIHAYLRMSA-L",
 "kegg.compound":"C03736",
 "metanetx.chemical":"MNXM15900",
-"metatlas":"MAM02845",
+"metatlas":"MAM02845c",
 "sabiork":"1473",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd19028"
@@ -5448,7 +5448,7 @@
 "kegg.compound":"C00255",
 "kegg.drug":"D00050",
 "metanetx.chemical":"MNXM270",
-"metatlas":"MAM02842",
+"metatlas":"MAM02842c",
 "reactome.compound":[
 "3165253",
 "196931"
@@ -5486,7 +5486,7 @@
 "LMFA07050343"
 ],
 "metanetx.chemical":"MNXM638",
-"metatlas":"MAM02391",
+"metatlas":"MAM02391c",
 "reactome.compound":[
 "77359",
 "2046063"
@@ -5506,7 +5506,7 @@
 "annotation":{
 "bigg.metabolite":"lnlccrn",
 "metanetx.chemical":"MNXM8847",
-"metatlas":"MAM02388",
+"metatlas":"MAM02388c",
 "sbo":"SBO:0000247"
 }
 },
@@ -5531,7 +5531,7 @@
 "inchi_key":"HKEAOVFNWRDVAJ-UHFFFAOYSA-L",
 "kegg.compound":"C15650",
 "metanetx.chemical":"MNXM162358",
-"metatlas":"MAM00572",
+"metatlas":"MAM00572c",
 "reactome.compound":"1237176",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd11295"
@@ -5559,7 +5559,7 @@
 "inchi_key":"SENPVEZBRZQVST-HISDBWNOSA-L",
 "kegg.compound":"C00857",
 "metanetx.chemical":"MNXM309",
-"metatlas":"MAM01646",
+"metatlas":"MAM01646c",
 "reactome.compound":[
 "8938090",
 "200499",
@@ -5607,7 +5607,7 @@
 "kegg.compound":"C03758",
 "kegg.drug":"D07870",
 "metanetx.chemical":"MNXM205",
-"metatlas":"MAM01736",
+"metatlas":"MAM01736c",
 "reactome.compound":[
 "351601",
 "380873",
@@ -5641,7 +5641,7 @@
 "inchi_key":"JLEBZPBDRKPWTD-TURQNECASA-O",
 "kegg.compound":"C03150",
 "metanetx.chemical":"MNXM1115",
-"metatlas":"MAM02582",
+"metatlas":"MAM02582c",
 "reactome.compound":[
 "8869377",
 "8940077",
@@ -5672,7 +5672,7 @@
 "inchi_key":"NGHMDNPXVRFFGS-IUYQGCFVSA-L",
 "kegg.compound":"C00279",
 "metanetx.chemical":"MNXM258",
-"metatlas":"MAM01785",
+"metatlas":"MAM01785c",
 "reactome.compound":"29878",
 "sabiork":"1324",
 "sbo":"SBO:0000247",
@@ -5721,7 +5721,7 @@
 "kegg.compound":"C00189",
 "kegg.drug":"D05074",
 "metanetx.chemical":"MNXM218",
-"metatlas":"MAM01797",
+"metatlas":"MAM01797c",
 "sabiork":"1965",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd00162"
@@ -5767,7 +5767,7 @@
 "inchi_key":"FNZLKVNUWIIPSJ-UHNVWZDZSA-L",
 "kegg.compound":"C00199",
 "metanetx.chemical":"MNXM145",
-"metatlas":"MAM02846",
+"metatlas":"MAM02846c",
 "reactome.compound":"29732",
 "sabiork":[
 "22814",
@@ -5802,7 +5802,7 @@
 "inchi_key":"JDTUMPKOJBQPKX-GBNDHIKLSA-L",
 "kegg.compound":"C05382",
 "metanetx.chemical":"MNXM271",
-"metatlas":"MAM02884",
+"metatlas":"MAM02884c",
 "reactome.compound":"29882",
 "sabiork":[
 "1618",
@@ -5841,7 +5841,7 @@
 "inchi_key":"SUHOOTKUPISOBE-UHFFFAOYSA-M",
 "kegg.compound":"C00346",
 "metanetx.chemical":"MNXM187",
-"metatlas":"MAM01798",
+"metatlas":"MAM01798c",
 "reactome.compound":[
 "5696414",
 "428686"
@@ -5873,7 +5873,7 @@
 "inchi_key":"BJEPYKJPYRNKOW-REOHCLBHSA-L",
 "kegg.compound":"C00149",
 "metanetx.chemical":"MNXM98",
-"metatlas":"MAM02439",
+"metatlas":"MAM02439c",
 "reactome.compound":[
 "198498",
 "113544"
@@ -5906,7 +5906,7 @@
 "inchi_key":"WQZGKKKJIJFFOK-QTVWNMPRSA-N",
 "kegg.compound":"C00159",
 "metanetx.chemical":"MNXM182",
-"metatlas":"MAM02453",
+"metatlas":"MAM02453c",
 "reactome.compound":[
 "964752",
 "6799594",
@@ -5941,7 +5941,7 @@
 "inchi_key":"YXWOAJXNVLXPMU-ZXXMMSQZSA-J",
 "kegg.compound":"C00665",
 "metanetx.chemical":"MNXM651",
-"metatlas":"MAM01843",
+"metatlas":"MAM01843c",
 "reactome.compound":"30533",
 "sabiork":[
 "1456",
@@ -5978,7 +5978,7 @@
 "inchi_key":"HXXFSFRBOHSIMQ-RWOPYEJCSA-L",
 "kegg.compound":"C00636",
 "metanetx.chemical":"MNXM721",
-"metatlas":"MAM02454",
+"metatlas":"MAM02454c",
 "reactome.compound":"532531",
 "sabiork":"1342",
 "sbo":"SBO:0000247",
@@ -6015,7 +6015,7 @@
 "kegg.compound":"C00794",
 "kegg.drug":"D00096",
 "metanetx.chemical":"MNXM469",
-"metatlas":"MAM01682",
+"metatlas":"MAM01682c",
 "reactome.compound":"5652213",
 "sabiork":[
 "2148",
@@ -6046,7 +6046,7 @@
 "inchi_key":"BGWGXPAPYGQALX-ARQDHWQXSA-L",
 "kegg.compound":"C05345",
 "metanetx.chemical":"MNXM89621",
-"metatlas":"MAM01845",
+"metatlas":"MAM01845c",
 "sabiork":"25",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd19035"
@@ -6076,7 +6076,7 @@
 "inchi_key":"NBSCHQHZLSJFNQ-QTVWNMPRSA-L",
 "kegg.compound":"C00275",
 "metanetx.chemical":"MNXM427",
-"metatlas":"MAM02455",
+"metatlas":"MAM02455c",
 "reactome.compound":"532562",
 "sabiork":[
 "1323",
@@ -6108,7 +6108,7 @@
 "kegg.compound":"C00016",
 "kegg.drug":"D00005",
 "metanetx.chemical":"MNXM33",
-"metatlas":"MAM01802",
+"metatlas":"MAM01802c",
 "reactome.compound":[
 "113596",
 "29386",
@@ -6128,7 +6128,7 @@
 "annotation":{
 "bigg.metabolite":"mepi",
 "metanetx.chemical":"MNXM91238",
-"metatlas":"MAM02407",
+"metatlas":"MAM02407c",
 "sbo":"SBO:0000247"
 }
 },
@@ -6155,7 +6155,7 @@
 "inchi_key":"ATHGHQPFGPMSJY-UHFFFAOYSA-Q",
 "kegg.compound":"C00315",
 "metanetx.chemical":"MNXM124",
-"metatlas":"MAM02923",
+"metatlas":"MAM02923c",
 "reactome.compound":[
 "204635",
 "141324"
@@ -6180,7 +6180,7 @@
 "inchi_key":"RNBGYGVWRKECFJ-VRPWFDPXSA-J",
 "kegg.compound":"C00354",
 "metanetx.chemical":"MNXM417",
-"metatlas":"MAM01841",
+"metatlas":"MAM01841c",
 "sabiork":"1465",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd00290"
@@ -6207,7 +6207,7 @@
 "inchi_key":"PFNFFQXMRSDOHW-UHFFFAOYSA-R",
 "kegg.compound":"C00750",
 "metanetx.chemical":"MNXM408",
-"metatlas":"MAM02926",
+"metatlas":"MAM02926c",
 "reactome.compound":[
 "141342",
 "353560"
@@ -6259,7 +6259,7 @@
 "D00019"
 ],
 "metanetx.chemical":"MNXM61",
-"metatlas":"MAM02471",
+"metatlas":"MAM02471c",
 "reactome.compound":[
 "379705",
 "1130765",
@@ -6298,7 +6298,7 @@
 "inchi_key":"CWYNVVGOOAEACU-UHFFFAOYSA-N",
 "kegg.compound":"C14818",
 "metanetx.chemical":"MNXM111",
-"metatlas":"MAM01821",
+"metatlas":"MAM01821c",
 "sabiork":"1275",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd10515"
@@ -6313,7 +6313,7 @@
 "annotation":{
 "bigg.metabolite":"mi1345p",
 "metanetx.chemical":"MNXM146054",
-"metatlas":"MAM00522",
+"metatlas":"MAM00522c",
 "sbo":"SBO:0000247"
 }
 },
@@ -6361,7 +6361,7 @@
 ],
 "kegg.drug":"D00012",
 "metanetx.chemical":"MNXM32",
-"metatlas":"MAM01307",
+"metatlas":"MAM01307e",
 "reactome.compound":[
 "389664",
 "352036",
@@ -6392,7 +6392,7 @@
 "inchi_key":"MYVIATVLJGTBFV-UHFFFAOYSA-M",
 "kegg.drug":"D08580",
 "metanetx.chemical":"MNXM161565",
-"metatlas":"MAM02982",
+"metatlas":"MAM02982c",
 "sabiork":"2032",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd00305"
@@ -6420,7 +6420,7 @@
 "inchi_key":"HZSAJDVWZRBGIF-UHFFFAOYSA-M",
 "kegg.compound":"C01081",
 "metanetx.chemical":"MNXM662",
-"metatlas":"MAM02983",
+"metatlas":"MAM02983c",
 "sabiork":"1698",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd00793"
@@ -6463,7 +6463,7 @@
 ],
 "kegg.drug":"D02982",
 "metanetx.chemical":"MNXM70",
-"metatlas":"MAM01365",
+"metatlas":"MAM01365e",
 "reactome.compound":[
 "351977",
 "29468",
@@ -6506,7 +6506,7 @@
 "inchi_key":"AYEKOFBPNLCAJY-UHFFFAOYSA-L",
 "kegg.compound":"C00068",
 "metanetx.chemical":"MNXM256",
-"metatlas":"MAM02984",
+"metatlas":"MAM02984c",
 "reactome.compound":[
 "8878387",
 "29480"
@@ -6525,7 +6525,7 @@
 "annotation":{
 "bigg.metabolite":"mi134p",
 "metanetx.chemical":"MNXM162765",
-"metatlas":"MAM00524",
+"metatlas":"MAM00524c",
 "sbo":"SBO:0000247"
 }
 },
@@ -6561,7 +6561,7 @@
 ],
 "kegg.drug":"D00018",
 "metanetx.chemical":"MNXM129",
-"metatlas":"MAM01368",
+"metatlas":"MAM01368e",
 "reactome.compound":[
 "198816",
 "351595",
@@ -6592,7 +6592,7 @@
 "inchi_key":"IWLROWZYZPNOFC-UHFFFAOYSA-K",
 "kegg.compound":"C03028",
 "metanetx.chemical":"MNXM1341",
-"metatlas":"MAM02985",
+"metatlas":"MAM02985c",
 "reactome.compound":"964965",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd01937"
@@ -6607,7 +6607,7 @@
 "annotation":{
 "bigg.metabolite":"bilglcur",
 "metanetx.chemical":"MNXM162498",
-"metatlas":"MAM01398",
+"metatlas":"MAM01398e",
 "sbo":"SBO:0000247"
 }
 },
@@ -6620,7 +6620,7 @@
 "annotation":{
 "bigg.metabolite":"mi145p",
 "metanetx.chemical":"MNXM145560",
-"metatlas":"MAM01718",
+"metatlas":"MAM01718c",
 "sbo":"SBO:0000247"
 }
 },
@@ -6644,7 +6644,7 @@
 "inchi_key":"BHPQYMZQTOCNFJ-UHFFFAOYSA-N",
 "kegg.compound":"C00076",
 "metanetx.chemical":"MNXM128",
-"metatlas":"MAM01413",
+"metatlas":"MAM01413e",
 "reactome.compound":[
 "111875",
 "167012",
@@ -6671,7 +6671,7 @@
 "annotation":{
 "bigg.metabolite":"mi14p",
 "metanetx.chemical":"MNXM162282",
-"metatlas":"MAM00526",
+"metatlas":"MAM00526c",
 "sbo":"SBO:0000247"
 }
 },
@@ -6697,7 +6697,7 @@
 "kegg.compound":"C00015",
 "kegg.glycan":"G10619",
 "metanetx.chemical":"MNXM17",
-"metatlas":"MAM03106",
+"metatlas":"MAM03106c",
 "reactome.compound":[
 "110096",
 "111814",
@@ -6730,7 +6730,7 @@
 "inchi_key":"IVOMOUWHDPKRLL-KQYNXXCUSA-M",
 "kegg.compound":"C00575",
 "metanetx.chemical":"MNXM243",
-"metatlas":"MAM01419",
+"metatlas":"MAM01419e",
 "reactome.compound":"30389",
 "sabiork":"1379",
 "sbo":"SBO:0000247",
@@ -6767,7 +6767,7 @@
 "kegg.compound":"C00029",
 "kegg.glycan":"G10608",
 "metanetx.chemical":"MNXM722710",
-"metatlas":"MAM03108",
+"metatlas":"MAM03108c",
 "reactome.compound":[
 "173594",
 "744227",
@@ -6807,7 +6807,7 @@
 "inchi_key":"INAPMGSXUVUWAF-UOTPTPDRSA-L",
 "kegg.compound":"C01177",
 "metanetx.chemical":"MNXM646",
-"metatlas":"MAM02173",
+"metatlas":"MAM02173c",
 "reactome.compound":"870330",
 "sabiork":"5422",
 "sbo":"SBO:0000247",
@@ -6835,7 +6835,7 @@
 "inchi_key":"AIJULSRZWUXGPQ-UHFFFAOYSA-N",
 "kegg.compound":"C00546",
 "metanetx.chemical":"MNXM310",
-"metatlas":"MAM02475",
+"metatlas":"MAM02475c",
 "reactome.compound":"5694074",
 "sabiork":"2088",
 "sbo":"SBO:0000247",
@@ -6867,7 +6867,7 @@
 "D07690"
 ],
 "metanetx.chemical":"MNXM90",
-"metatlas":"MAM01513",
+"metatlas":"MAM01513e",
 "reactome.compound":[
 "264618",
 "264638",
@@ -6897,7 +6897,7 @@
 "inchi_key":"FKNQFGJONOIPTF-UHFFFAOYSA-N",
 "kegg.compound":"C01330",
 "metanetx.chemical":"MNXM27",
-"metatlas":"MAM02519",
+"metatlas":"MAM02519c",
 "reactome.compound":[
 "2892454",
 "83910",
@@ -6940,7 +6940,7 @@
 "kegg.compound":"C00052",
 "kegg.glycan":"G10609",
 "metanetx.chemical":"MNXM89795",
-"metatlas":"MAM03107",
+"metatlas":"MAM03107c",
 "reactome.compound":[
 "735682",
 "29452"
@@ -6998,7 +6998,7 @@
 ],
 "kegg.drug":"D02057",
 "metanetx.chemical":"MNXM43",
-"metatlas":"MAM01442",
+"metatlas":"MAM01442e",
 "reactome.compound":[
 "29572",
 "188972",
@@ -7042,7 +7042,7 @@
 "kegg.compound":"C00167",
 "kegg.glycan":"G10612",
 "metanetx.chemical":"MNXM87",
-"metatlas":"MAM03109",
+"metatlas":"MAM03109c",
 "reactome.compound":[
 "174384",
 "158601",
@@ -7082,7 +7082,7 @@
 "D09706"
 ],
 "metanetx.chemical":"MNXM10881",
-"metatlas":"MAM01595",
+"metatlas":"MAM01595e",
 "reactome.compound":"189385",
 "sabiork":"1987",
 "sbo":"SBO:0000247",
@@ -7114,7 +7114,7 @@
 "inchi_key":"DJJCXFVJDGTHFX-XVFCMESISA-L",
 "kegg.compound":"C00105",
 "metanetx.chemical":"MNXM80",
-"metatlas":"MAM03114",
+"metatlas":"MAM03114c",
 "reactome.compound":[
 "735698",
 "109402"
@@ -7155,7 +7155,7 @@
 "kegg.compound":"C00253",
 "kegg.drug":"D00049",
 "metanetx.chemical":"MNXM274",
-"metatlas":"MAM02586",
+"metatlas":"MAM02586c",
 "reactome.compound":[
 "8869604",
 "197230"
@@ -7191,7 +7191,7 @@
 "kegg.compound":"C00003",
 "kegg.drug":"D00002",
 "metanetx.chemical":"MNXM8",
-"metatlas":"MAM02552",
+"metatlas":"MAM02552c",
 "reactome.compound":[
 "352330",
 "192307",
@@ -7232,7 +7232,7 @@
 "kegg.compound":"C00011",
 "kegg.drug":"D00004",
 "metanetx.chemical":"MNXM13",
-"metatlas":"MAM01596",
+"metatlas":"MAM01596e",
 "reactome.compound":[
 "29376",
 "5668565",
@@ -7271,7 +7271,7 @@
 "inchi_key":"BOPGDPNILDQYTO-NNYOXOHSSA-L",
 "kegg.compound":"C00004",
 "metanetx.chemical":"MNXM10",
-"metatlas":"MAM02553",
+"metatlas":"MAM02553c",
 "reactome.compound":[
 "192305",
 "73473",
@@ -7303,7 +7303,7 @@
 "inchi_key":"HUHWZXWWOFSFKF-UHFFFAOYSA-F",
 "kegg.compound":"C01051",
 "metanetx.chemical":"MNXM414",
-"metatlas":"MAM03128",
+"metatlas":"MAM03128c",
 "reactome.compound":"189407",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd00774"
@@ -7353,7 +7353,7 @@
 ],
 "kegg.drug":"D00026",
 "metanetx.chemical":"MNXM55",
-"metatlas":"MAM01628",
+"metatlas":"MAM01628e",
 "reactome.compound":[
 "352016",
 "379721",
@@ -7404,7 +7404,7 @@
 "D00023"
 ],
 "metanetx.chemical":"MNXM117",
-"metatlas":"MAM03121",
+"metatlas":"MAM03121c",
 "reactome.compound":[
 "374061",
 "29514",
@@ -7440,7 +7440,7 @@
 "inchi_key":"XJLXINKUBYWONI-NNYOXOHSSA-K",
 "kegg.compound":"C00006",
 "metanetx.chemical":"MNXM5",
-"metatlas":"MAM02554",
+"metatlas":"MAM02554c",
 "reactome.compound":[
 "194668",
 "113563",
@@ -7485,7 +7485,7 @@
 "inchi_key":"OESHPIGALOBJLM-REOHCLBHSA-N",
 "kegg.compound":"C05422",
 "metanetx.chemical":"MNXM250",
-"metatlas":"MAM01655",
+"metatlas":"MAM01655e",
 "reactome.compound":[
 "198827",
 "198852",
@@ -7525,7 +7525,7 @@
 "inchi_key":"ACFIXJIJDZMPPO-NNYOXOHSSA-J",
 "kegg.compound":"C00005",
 "metanetx.chemical":"MNXM6",
-"metatlas":"MAM02555",
+"metatlas":"MAM02555c",
 "reactome.compound":[
 "113600",
 "6790135",
@@ -7563,7 +7563,7 @@
 "kegg.compound":"C00153",
 "kegg.drug":"D00036",
 "metanetx.chemical":"MNXM216",
-"metatlas":"MAM02583",
+"metatlas":"MAM02583c",
 "reactome.compound":[
 "197277",
 "8870343"
@@ -7596,7 +7596,7 @@
 "inchi_key":"DRTQHJPVMGBUCF-XVFCMESISA-N",
 "kegg.compound":"C00299",
 "metanetx.chemical":"MNXM288",
-"metatlas":"MAM03123",
+"metatlas":"MAM03123c",
 "sabiork":"1326",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd00249"
@@ -7625,7 +7625,7 @@
 "inchi_key":"PGAVKCOVUIYSFO-XVFCMESISA-J",
 "kegg.compound":"C00075",
 "metanetx.chemical":"MNXM121",
-"metatlas":"MAM03130",
+"metatlas":"MAM03130c",
 "reactome.compound":"29494",
 "sabiork":"1288",
 "sbo":"SBO:0000247",
@@ -7657,7 +7657,7 @@
 "kegg.compound":"C03758",
 "kegg.drug":"D07870",
 "metanetx.chemical":"MNXM205",
-"metatlas":"MAM01736",
+"metatlas":"MAM01736e",
 "reactome.compound":[
 "351601",
 "380873",
@@ -7695,7 +7695,7 @@
 "inchi_key":"DCTLYFZHFGENCW-UUOKFMHZSA-L",
 "kegg.compound":"C00655",
 "metanetx.chemical":"MNXM298",
-"metatlas":"MAM03150",
+"metatlas":"MAM03150c",
 "reactome.compound":"111584",
 "sabiork":"1686",
 "sbo":"SBO:0000247",
@@ -7752,7 +7752,7 @@
 "D02915"
 ],
 "metanetx.chemical":"MNXM15",
-"metatlas":"MAM02579",
+"metatlas":"MAM02579c",
 "reactome.compound":[
 "5693978",
 "1132163",
@@ -7805,7 +7805,7 @@
 "kegg.compound":"C00189",
 "kegg.drug":"D05074",
 "metanetx.chemical":"MNXM218",
-"metatlas":"MAM01797",
+"metatlas":"MAM01797e",
 "sabiork":"1965",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd00162"
@@ -7835,7 +7835,7 @@
 "inchi_key":"FNZLKVNUWIIPSJ-RFZPGFLSSA-L",
 "kegg.compound":"C00231",
 "metanetx.chemical":"MNXM186",
-"metatlas":"MAM01761",
+"metatlas":"MAM01761c",
 "reactome.compound":"29790",
 "sabiork":"1317",
 "sbo":"SBO:0000247",
@@ -7864,7 +7864,7 @@
 "inchi_key":"CWYNVVGOOAEACU-UHFFFAOYSA-N",
 "kegg.compound":"C14818",
 "metanetx.chemical":"MNXM111",
-"metatlas":"MAM01821",
+"metatlas":"MAM01821e",
 "sabiork":"1275",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd10515"
@@ -7892,7 +7892,7 @@
 "kegg.compound":"C00379",
 "kegg.drug":"D00061",
 "metanetx.chemical":"MNXM510",
-"metatlas":"MAM03155",
+"metatlas":"MAM03155c",
 "reactome.compound":"5660033",
 "sabiork":"2033",
 "sbo":"SBO:0000247",
@@ -7938,7 +7938,7 @@
 ],
 "kegg.drug":"D00114",
 "metanetx.chemical":"MNXM175",
-"metatlas":"MAM01840",
+"metatlas":"MAM01840e",
 "reactome.compound":[
 "189049",
 "29532"
@@ -7979,7 +7979,7 @@
 "inchi_key":"ZAQJHHRNXZUBTE-WUJLRWPWSA-N",
 "kegg.compound":"C00310",
 "metanetx.chemical":"MNXM597",
-"metatlas":"MAM01759",
+"metatlas":"MAM01759c",
 "reactome.compound":"5661281",
 "sabiork":"1504",
 "sbo":"SBO:0000247",
@@ -8006,7 +8006,7 @@
 "inchi_key":"PUEDDPCUCPRQNY-ZYUZMQFOSA-N",
 "kegg.compound":"C05841",
 "metanetx.chemical":"MNXM1915",
-"metatlas":"MAM02584",
+"metatlas":"MAM02584c",
 "reactome.compound":"8869365",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd03471"
@@ -8043,7 +8043,7 @@
 "kegg.compound":"C00122",
 "kegg.drug":"D02308",
 "metanetx.chemical":"MNXM93",
-"metatlas":"MAM01862",
+"metatlas":"MAM01862e",
 "reactome.compound":[
 "113588",
 "29586"
@@ -8075,7 +8075,7 @@
 "inchi_key":"JOUIQRNQJGXQDC-ZYUZMQFOSA-L",
 "kegg.compound":"C01185",
 "metanetx.chemical":"MNXM194",
-"metatlas":"MAM02585",
+"metatlas":"MAM02585c",
 "reactome.compound":[
 "200492",
 "8938083",
@@ -8109,7 +8109,7 @@
 "inchi_key":"ZAQJHHRNXZUBTE-WVZVXSGGSA-N",
 "kegg.compound":"C00312",
 "metanetx.chemical":"MNXM1282",
-"metatlas":"MAM02425",
+"metatlas":"MAM02425c",
 "reactome.compound":"5660036",
 "sabiork":[
 "1505",
@@ -8150,7 +8150,7 @@
 ],
 "kegg.drug":"D04291",
 "metanetx.chemical":"MNXM390",
-"metatlas":"MAM01910",
+"metatlas":"MAM01910e",
 "sabiork":[
 "1661",
 "90",
@@ -8193,7 +8193,7 @@
 "inchi_key":"DAYLJWODMCOQEW-TURQNECASA-M",
 "kegg.compound":"C00455",
 "metanetx.chemical":"MNXM355",
-"metatlas":"MAM02581",
+"metatlas":"MAM02581c",
 "reactome.compound":[
 "8869353",
 "549282",
@@ -8231,7 +8231,7 @@
 "kegg.compound":"C00329",
 "kegg.drug":"D04334",
 "metanetx.chemical":"MNXM533",
-"metatlas":"MAM01962",
+"metatlas":"MAM01962e",
 "reactome.compound":"6786660",
 "sabiork":[
 "1591",
@@ -8262,7 +8262,7 @@
 "inchi_key":"YNYAYWLBAHXHLL-QMMMGPOBSA-O",
 "kegg.compound":"C05589",
 "metanetx.chemical":"MNXM3674",
-"metatlas":"MAM02622",
+"metatlas":"MAM02622c",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd03318"
 }
@@ -8291,7 +8291,7 @@
 "inchi_key":"ZOOGRGPOEVQQDX-UUOKFMHZSA-M",
 "kegg.compound":"C00942",
 "metanetx.chemical":"MNXM665",
-"metatlas":"MAM01433",
+"metatlas":"MAM01433e",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd00697"
 }
@@ -8319,7 +8319,7 @@
 "kegg.compound":"C00031",
 "kegg.drug":"D00009",
 "metanetx.chemical":"MNXM41",
-"metatlas":"MAM01965",
+"metatlas":"MAM01965e",
 "sabiork":[
 "1406",
 "1407"
@@ -8358,7 +8358,7 @@
 "kegg.compound":"C00547",
 "kegg.drug":"D00076",
 "metanetx.chemical":"MNXM31869",
-"metatlas":"MAM02617",
+"metatlas":"MAM02617c",
 "reactome.compound":[
 "374935",
 "351597",
@@ -8404,7 +8404,7 @@
 ],
 "kegg.drug":"D00015",
 "metanetx.chemical":"MNXM37",
-"metatlas":"MAM01975",
+"metatlas":"MAM01975e",
 "reactome.compound":[
 "113522",
 "212615",
@@ -8436,7 +8436,7 @@
 "hmdb":"HMDB06248",
 "inchi_key":"WQXXXVRAFAKQJM-WHFBIAKZSA-M",
 "metanetx.chemical":"MNXM59390",
-"metatlas":"MAM00097",
+"metatlas":"MAM00097e",
 "sabiork":"21275",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd15236"
@@ -8471,7 +8471,7 @@
 "kegg.compound":"C00007",
 "kegg.drug":"D00003",
 "metanetx.chemical":"MNXM4",
-"metatlas":"MAM02630",
+"metatlas":"MAM02630c",
 "reactome.compound":[
 "113534",
 "113535",
@@ -8507,7 +8507,7 @@
 "inchi_key":"DIVQKHQLANKJQO-UHFFFAOYSA-O",
 "kegg.compound":"C05587",
 "metanetx.chemical":"MNXM3848",
-"metatlas":"MAM00821",
+"metatlas":"MAM00821e",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd03316"
 }
@@ -8541,7 +8541,7 @@
 "kegg.compound":"C00037",
 "kegg.drug":"D00011",
 "metanetx.chemical":"MNXM29",
-"metatlas":"MAM01986",
+"metatlas":"MAM01986e",
 "reactome.compound":[
 "29424",
 "193446",
@@ -8585,7 +8585,7 @@
 "kegg.compound":"C00036",
 "lipidmaps":"LMFA01170120",
 "metanetx.chemical":"MNXM46",
-"metatlas":"MAM02633",
+"metatlas":"MAM02633c",
 "reactome.compound":[
 "6810070",
 "113587",
@@ -8622,7 +8622,7 @@
 "kegg.compound":"C00116",
 "kegg.drug":"D00028",
 "metanetx.chemical":"MNXM89612",
-"metatlas":"MAM01983",
+"metatlas":"MAM01983e",
 "reactome.compound":[
 "192438",
 "76116"
@@ -8641,7 +8641,7 @@
 "annotation":{
 "bigg.metabolite":"4pyrdx",
 "metanetx.chemical":"MNXM163205",
-"metatlas":"MAM01033",
+"metatlas":"MAM01033e",
 "sbo":"SBO:0000247"
 }
 },
@@ -8668,7 +8668,7 @@
 "kegg.compound":"C00127",
 "kegg.drug":"D00031",
 "metanetx.chemical":"MNXM151",
-"metatlas":"MAM02027",
+"metatlas":"MAM02027e",
 "reactome.compound":[
 "1655882",
 "111745",
@@ -8711,7 +8711,7 @@
 "LMFA01030002"
 ],
 "metanetx.chemical":"MNXM306",
-"metatlas":"MAM02646",
+"metatlas":"MAM02646c",
 "sabiork":[
 "2139",
 "28897"
@@ -8740,7 +8740,7 @@
 "inchi_key":"GPRLSGONYQIRFK-UHFFFAOYSA-N",
 "kegg.compound":"C00080",
 "metanetx.chemical":"MNXM1",
-"metatlas":"MAM02039",
+"metatlas":"MAM02039e",
 "reactome.compound":[
 "2000349",
 "425978",
@@ -8778,7 +8778,7 @@
 "annotation":{
 "bigg.metabolite":"odecoa",
 "metanetx.chemical":"MNXM1848",
-"metatlas":"MAM02647",
+"metatlas":"MAM02647c",
 "sbo":"SBO:0000247"
 }
 },
@@ -8838,7 +8838,7 @@
 "D06322"
 ],
 "metanetx.chemical":"MNXM2",
-"metatlas":"MAM02040",
+"metatlas":"MAM02040e",
 "reactome.compound":[
 "113521",
 "141343",
@@ -8873,7 +8873,7 @@
 "annotation":{
 "bigg.metabolite":"odecrn",
 "metanetx.chemical":"MNXM8956",
-"metatlas":"MAM02639",
+"metatlas":"MAM02639c",
 "sbo":"SBO:0000247"
 }
 },
@@ -8900,7 +8900,7 @@
 "kegg.drug":"D07567",
 "lipidmaps":"LMFA01100055",
 "metanetx.chemical":"MNXM405",
-"metatlas":"MAM01074",
+"metatlas":"MAM01074e",
 "reactome.compound":[
 "189489",
 "189466"
@@ -8939,7 +8939,7 @@
 "kegg.compound":"C00027",
 "kegg.drug":"D00008",
 "metanetx.chemical":"MNXM22",
-"metatlas":"MAM02041",
+"metatlas":"MAM02041e",
 "reactome.compound":[
 "1614617",
 "29408",
@@ -8985,7 +8985,7 @@
 "kegg.drug":"D00010",
 "lipidmaps":"LMFA01010002",
 "metanetx.chemical":"MNXM26",
-"metatlas":"MAM01252",
+"metatlas":"MAM01252e",
 "reactome.compound":[
 "1524044",
 "390305",
@@ -9040,7 +9040,7 @@
 "kegg.drug":"D08302",
 "lipidmaps":"LMFA01100057",
 "metanetx.chemical":"MNXM89689",
-"metatlas":"MAM02658",
+"metatlas":"MAM02658c",
 "reactome.compound":[
 "29498",
 "113586",
@@ -9097,7 +9097,7 @@
 "C00288"
 ],
 "metanetx.chemical":"MNXM60",
-"metatlas":"MAM02046",
+"metatlas":"MAM02046e",
 "reactome.compound":[
 "29896",
 "425425",
@@ -9134,7 +9134,7 @@
 "kegg.compound":"C00295",
 "kegg.drug":"D00055",
 "metanetx.chemical":"MNXM235",
-"metatlas":"MAM02659",
+"metatlas":"MAM02659c",
 "reactome.compound":"76632",
 "sabiork":"2009",
 "sbo":"SBO:0000247",
@@ -9161,7 +9161,7 @@
 "inchi_key":"KYOBSHFOBAOFBF-XVFCMESISA-K",
 "kegg.compound":"C01103",
 "metanetx.chemical":"MNXM519",
-"metatlas":"MAM02660",
+"metatlas":"MAM02660c",
 "reactome.compound":"111629",
 "sabiork":"1700",
 "sbo":"SBO:0000247",
@@ -9194,7 +9194,7 @@
 "inchi_key":"IKHGUXGNUITLKF-UHFFFAOYSA-N",
 "kegg.compound":"C00084",
 "metanetx.chemical":"MNXM75",
-"metatlas":"MAM01249",
+"metatlas":"MAM01249e",
 "reactome.compound":[
 "113532",
 "29510",
@@ -9239,7 +9239,7 @@
 "C00155"
 ],
 "metanetx.chemical":"MNXM123",
-"metatlas":"MAM02133",
+"metatlas":"MAM02133e",
 "reactome.compound":"174369",
 "sabiork":[
 "1950",
@@ -9287,7 +9287,7 @@
 "C19910"
 ],
 "metanetx.chemical":"MNXM227",
-"metatlas":"MAM02543",
+"metatlas":"MAM02543e",
 "sabiork":[
 "22759",
 "2006"
@@ -9348,7 +9348,7 @@
 "LMFA01010001"
 ],
 "metanetx.chemical":"MNXM108",
-"metatlas":"MAM02674",
+"metatlas":"MAM02674e",
 "reactome.compound":[
 "2453691",
 "3632881",
@@ -9399,7 +9399,7 @@
 "kegg.compound":"C00147",
 "kegg.drug":"D00034",
 "metanetx.chemical":"MNXM168",
-"metatlas":"MAM01279",
+"metatlas":"MAM01279e",
 "reactome.compound":"83951",
 "sabiork":"57",
 "sbo":"SBO:0000247",
@@ -9429,7 +9429,7 @@
 "inchi_key":"FDGQSTZJBFJUBT-UHFFFAOYSA-N",
 "kegg.compound":"C00262",
 "metanetx.chemical":"MNXM213",
-"metatlas":"MAM02159",
+"metatlas":"MAM02159e",
 "reactome.compound":"113599",
 "sabiork":[
 "5528",
@@ -9468,7 +9468,7 @@
 "kegg.compound":"C00212",
 "kegg.drug":"D00045",
 "metanetx.chemical":"MNXM212",
-"metatlas":"MAM01280",
+"metatlas":"MAM01280e",
 "reactome.compound":[
 "83908",
 "83909",
@@ -9488,7 +9488,7 @@
 "annotation":{
 "bigg.metabolite":"adrnl",
 "metanetx.chemical":"MNXM162647",
-"metatlas":"MAM01290",
+"metatlas":"MAM01290e",
 "sbo":"SBO:0000247"
 }
 },
@@ -9549,7 +9549,7 @@
 "kegg.compound":"C00294",
 "kegg.drug":"D00054",
 "metanetx.chemical":"MNXM334",
-"metatlas":"MAM02170",
+"metatlas":"MAM02170e",
 "reactome.compound":[
 "83927",
 "83921"
@@ -9579,7 +9579,7 @@
 "kegg.compound":"C00238",
 "kegg.drug":"D08403",
 "metanetx.chemical":"MNXM95",
-"metatlas":"MAM02200",
+"metatlas":"MAM02200e",
 "reactome.compound":[
 "74126",
 "5626313",
@@ -9639,7 +9639,7 @@
 "inchi_key":"JVTAAEKCZFNVCJ-UWTATZPHSA-M",
 "kegg.compound":"C00256",
 "metanetx.chemical":"MNXM285",
-"metatlas":"MAM01716",
+"metatlas":"MAM01716e",
 "sabiork":[
 "1997",
 "2284"
@@ -9672,7 +9672,7 @@
 "inchi_key":"JVTAAEKCZFNVCJ-REOHCLBHSA-M",
 "kegg.compound":"C00186",
 "metanetx.chemical":"MNXM179",
-"metatlas":"MAM02403",
+"metatlas":"MAM02403e",
 "reactome.compound":[
 "373863",
 "29708",
@@ -9708,7 +9708,7 @@
 "LMFA03020023"
 ],
 "metanetx.chemical":"MNXM462",
-"metatlas":"MAM02362",
+"metatlas":"MAM02362e",
 "reactome.compound":"265281",
 "sabiork":"5309",
 "sbo":"SBO:0000247",
@@ -9725,7 +9725,7 @@
 "annotation":{
 "bigg.metabolite":"leuktrB4",
 "metanetx.chemical":"MNXM162284",
-"metatlas":"MAM02364",
+"metatlas":"MAM02364e",
 "sbo":"SBO:0000247"
 }
 },
@@ -9756,7 +9756,7 @@
 "LMFA01030809"
 ],
 "metanetx.chemical":"MNXM293",
-"metatlas":"MAM02387",
+"metatlas":"MAM02387e",
 "reactome.compound":"2046044",
 "sabiork":"2298",
 "sbo":"SBO:0000247",
@@ -9786,7 +9786,7 @@
 "inchi_key":"BJEPYKJPYRNKOW-REOHCLBHSA-L",
 "kegg.compound":"C00149",
 "metanetx.chemical":"MNXM98",
-"metatlas":"MAM02439",
+"metatlas":"MAM02439e",
 "reactome.compound":[
 "198498",
 "113544"
@@ -9819,7 +9819,7 @@
 "inchi_key":"WQZGKKKJIJFFOK-QTVWNMPRSA-N",
 "kegg.compound":"C00159",
 "metanetx.chemical":"MNXM182",
-"metatlas":"MAM02453",
+"metatlas":"MAM02453e",
 "reactome.compound":[
 "964752",
 "6799594",
@@ -9842,7 +9842,7 @@
 "annotation":{
 "bigg.metabolite":"mepi",
 "metanetx.chemical":"MNXM91238",
-"metatlas":"MAM02407",
+"metatlas":"MAM02407e",
 "sbo":"SBO:0000247"
 }
 },
@@ -9888,7 +9888,7 @@
 "D00019"
 ],
 "metanetx.chemical":"MNXM61",
-"metatlas":"MAM02471",
+"metatlas":"MAM02471e",
 "reactome.compound":[
 "379705",
 "1130765",
@@ -9924,7 +9924,7 @@
 "inchi_key":"FKNQFGJONOIPTF-UHFFFAOYSA-N",
 "kegg.compound":"C01330",
 "metanetx.chemical":"MNXM27",
-"metatlas":"MAM02519",
+"metatlas":"MAM02519e",
 "reactome.compound":[
 "2892454",
 "83910",
@@ -9967,7 +9967,7 @@
 "kegg.compound":"C00253",
 "kegg.drug":"D00049",
 "metanetx.chemical":"MNXM274",
-"metatlas":"MAM02586",
+"metatlas":"MAM02586e",
 "reactome.compound":[
 "8869604",
 "197230"
@@ -9998,7 +9998,7 @@
 "kegg.compound":"C00153",
 "kegg.drug":"D00036",
 "metanetx.chemical":"MNXM216",
-"metatlas":"MAM02583",
+"metatlas":"MAM02583e",
 "reactome.compound":[
 "197277",
 "8870343"
@@ -10058,7 +10058,7 @@
 "D02915"
 ],
 "metanetx.chemical":"MNXM15",
-"metatlas":"MAM02579",
+"metatlas":"MAM02579e",
 "reactome.compound":[
 "5693978",
 "1132163",
@@ -10098,7 +10098,7 @@
 "inchi_key":"YNYAYWLBAHXHLL-QMMMGPOBSA-O",
 "kegg.compound":"C05589",
 "metanetx.chemical":"MNXM3674",
-"metatlas":"MAM02622",
+"metatlas":"MAM02622e",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd03318"
 }
@@ -10130,7 +10130,7 @@
 "kegg.compound":"C00547",
 "kegg.drug":"D00076",
 "metanetx.chemical":"MNXM31869",
-"metatlas":"MAM02617",
+"metatlas":"MAM02617e",
 "reactome.compound":[
 "374935",
 "351597",
@@ -10170,7 +10170,7 @@
 "kegg.compound":"C00007",
 "kegg.drug":"D00003",
 "metanetx.chemical":"MNXM4",
-"metatlas":"MAM02630",
+"metatlas":"MAM02630e",
 "reactome.compound":[
 "113534",
 "113535",
@@ -10221,7 +10221,7 @@
 "LMFA01030002"
 ],
 "metanetx.chemical":"MNXM306",
-"metatlas":"MAM02646",
+"metatlas":"MAM02646e",
 "sabiork":[
 "2139",
 "28897"
@@ -10254,7 +10254,7 @@
 "kegg.compound":"C00295",
 "kegg.drug":"D00055",
 "metanetx.chemical":"MNXM235",
-"metatlas":"MAM02659",
+"metatlas":"MAM02659e",
 "reactome.compound":"76632",
 "sabiork":"2009",
 "sbo":"SBO:0000247",
@@ -10303,7 +10303,7 @@
 ],
 "kegg.drug":"D00021",
 "metanetx.chemical":"MNXM97",
-"metatlas":"MAM02724",
+"metatlas":"MAM02724e",
 "reactome.compound":[
 "29502",
 "379701",
@@ -10366,7 +10366,7 @@
 "kegg.compound":"C00009",
 "kegg.drug":"D05467",
 "metanetx.chemical":"MNXM9",
-"metatlas":"MAM02751",
+"metatlas":"MAM02751e",
 "reactome.compound":[
 "5228339",
 "113550",
@@ -10409,7 +10409,7 @@
 "inchi_key":"KIDHWZJUCRJVML-UHFFFAOYSA-P",
 "kegg.compound":"C00134",
 "metanetx.chemical":"MNXM118",
-"metatlas":"MAM02812",
+"metatlas":"MAM02812e",
 "reactome.compound":[
 "29610",
 "141350"
@@ -10448,7 +10448,7 @@
 "inchi_key":"NHZMQXZHNVQTQA-UHFFFAOYSA-O",
 "kegg.compound":"C00534",
 "metanetx.chemical":"MNXM548",
-"metatlas":"MAM02815",
+"metatlas":"MAM02815e",
 "reactome.compound":"964945",
 "sabiork":"2080",
 "sbo":"SBO:0000247",
@@ -10477,7 +10477,7 @@
 "inchi_key":"RADKZDMFGJYCBB-UHFFFAOYSA-N",
 "kegg.compound":"C00250",
 "metanetx.chemical":"MNXM311",
-"metatlas":"MAM02813",
+"metatlas":"MAM02813e",
 "reactome.compound":"965131",
 "sabiork":"1991",
 "sbo":"SBO:0000247",
@@ -10508,7 +10508,7 @@
 "kegg.compound":"C00314",
 "kegg.drug":"D08454",
 "metanetx.chemical":"MNXM419",
-"metatlas":"MAM02817",
+"metatlas":"MAM02817e",
 "reactome.compound":"965053",
 "sabiork":"2015",
 "sbo":"SBO:0000247",
@@ -10542,7 +10542,7 @@
 "kegg.compound":"C00022",
 "lipidmaps":"LMFA01060077",
 "metanetx.chemical":"MNXM23",
-"metatlas":"MAM02819",
+"metatlas":"MAM02819e",
 "reactome.compound":[
 "1130930",
 "5357717",
@@ -10578,7 +10578,7 @@
 "kegg.compound":"C00255",
 "kegg.drug":"D00050",
 "metanetx.chemical":"MNXM270",
-"metatlas":"MAM02842",
+"metatlas":"MAM02842e",
 "reactome.compound":[
 "3165253",
 "196931"
@@ -10611,7 +10611,7 @@
 "inchi_key":"ATHGHQPFGPMSJY-UHFFFAOYSA-Q",
 "kegg.compound":"C00315",
 "metanetx.chemical":"MNXM124",
-"metatlas":"MAM02923",
+"metatlas":"MAM02923e",
 "reactome.compound":[
 "204635",
 "141324"
@@ -10642,7 +10642,7 @@
 "inchi_key":"PFNFFQXMRSDOHW-UHFFFAOYSA-R",
 "kegg.compound":"C00750",
 "metanetx.chemical":"MNXM408",
-"metatlas":"MAM02926",
+"metatlas":"MAM02926e",
 "reactome.compound":[
 "141342",
 "353560"
@@ -10665,7 +10665,7 @@
 "inchi_key":"MYVIATVLJGTBFV-UHFFFAOYSA-M",
 "kegg.drug":"D08580",
 "metanetx.chemical":"MNXM161565",
-"metatlas":"MAM02982",
+"metatlas":"MAM02982e",
 "sabiork":"2032",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd00305"
@@ -10693,7 +10693,7 @@
 "inchi_key":"HZSAJDVWZRBGIF-UHFFFAOYSA-M",
 "kegg.compound":"C01081",
 "metanetx.chemical":"MNXM662",
-"metatlas":"MAM02983",
+"metatlas":"MAM02983e",
 "sabiork":"1698",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd00793"
@@ -10732,7 +10732,7 @@
 "D00023"
 ],
 "metanetx.chemical":"MNXM117",
-"metatlas":"MAM03121",
+"metatlas":"MAM03121e",
 "reactome.compound":[
 "374061",
 "29514",
@@ -10766,7 +10766,7 @@
 "inchi_key":"DRTQHJPVMGBUCF-XVFCMESISA-N",
 "kegg.compound":"C00299",
 "metanetx.chemical":"MNXM288",
-"metatlas":"MAM03123",
+"metatlas":"MAM03123e",
 "sabiork":"1326",
 "sbo":"SBO:0000247",
 "seed.compound":"cpd00249"
@@ -12489,7 +12489,6 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"203_AT1",
-"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"ADK1",
 "biocyc":"META:ADENYL-KIN-RXN",
@@ -12623,7 +12622,6 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"107_AT1 or 108_AT1 or 109_AT1 or 111_AT1 or 112_AT1 or 112_AT2 or 113_AT1 or 114_AT1 or 115_AT1 or 196883_AT1",
-"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"ADNCYC",
 "biocyc":"META:ADENYLATECYC-RXN",
@@ -12740,7 +12738,6 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"132_AT1 or 132_AT2",
-"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"ADNK1",
 "biocyc":"META:ADENOSINE-KINASE-RXN",
@@ -15167,7 +15164,6 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"216_AT1 or 218_AT1 or 223_AT1 or 8854_AT2",
-"subsystem":"Pyruvate metabolism",
 "annotation":{
 "bigg.reaction":"ALDD2x",
 "biocyc":"META:RXN66-3",
@@ -15674,7 +15670,6 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"272_AT1",
-"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"AMPDA",
 "biocyc":"META:AMP-DEAMINASE-RXN",
@@ -15729,7 +15724,6 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"318_AT1 or 318_AT2 or 318_AT3",
-"subsystem":"Nucleotide metabolism",
 "annotation":{
 "bigg.reaction":"AP4AH1",
 "biocyc":"META:RXN-12820",
@@ -17017,7 +17011,6 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(2974_AT1 and 2977_AT1) or (2974_AT1 and 2982_AT1) or (2977_AT1 and 2983_AT1) or (2982_AT1 and 2983_AT1) or 2984_AT1 or 2986_AT1 or 3000_AT1 or 4881_AT1 or 4882_AT1 or 4882_AT2",
-"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"GUACYC",
 "biocyc":"META:GUANYLCYC-RXN",
@@ -17228,7 +17221,6 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(4830_AT1 and 4831_AT1) or (4830_AT2 and 4831_AT1) or 4832_AT1 or 10201_AT1 or 29922_AT1 or 29922_AT2",
-"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"NDPK1",
 "biocyc":"META:GDPKIN-RXN",
@@ -17426,7 +17418,6 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(4830_AT1 and 4831_AT1) or (4830_AT2 and 4831_AT1) or 4832_AT1 or 10201_AT1 or 29922_AT1 or 29922_AT2",
-"subsystem":"Pyrimidine metabolism",
 "annotation":{
 "bigg.reaction":"NDPK2",
 "biocyc":"META:UDPKIN-RXN",
@@ -17457,7 +17448,6 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(4830_AT1 and 4831_AT1) or (4830_AT2 and 4831_AT1) or 4832_AT1 or 10201_AT1 or 29922_AT1 or 29922_AT2",
-"subsystem":"Pyrimidine metabolism",
 "annotation":{
 "bigg.reaction":"NDPK3",
 "biocyc":"META:CDPKIN-RXN",
@@ -19324,7 +19314,6 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"3614_AT1 or 3614_AT2 or 3615_AT1",
-"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"IMPD",
 "biocyc":"META:IMP-DEHYDROG-RXN",
@@ -19547,7 +19536,6 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"2987_AT1",
-"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"GK1",
 "biocyc":"META:GUANYL-KIN-RXN",
@@ -19935,7 +19923,6 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"22978_AT1",
-"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"NTD7",
 "biocyc":"META:AMP-DEPHOSPHORYLATION-RXN",
@@ -20237,7 +20224,6 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"22978_AT1",
-"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"NTD9",
 "biocyc":"META:RXN-7609",
@@ -20384,7 +20370,6 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"2766_AT1",
-"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"GMPR",
 "biocyc":"META:GMP-REDUCT-RXN",
@@ -20445,7 +20430,6 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"8833_AT1",
-"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"GMPS2",
 "biocyc":"META:GMP-SYN-GLUT-RXN",
@@ -24903,7 +24887,6 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"5136_AT1 or 5136_AT2 or 5137_AT1 or 5138_AT1 or 5139_AT1 or 5140_AT1 or 5140_AT2 or 5141_AT1 or 5142_AT1 or 5143_AT1 or 5144_AT1 or 5150_AT1 or 5150_AT2 or 5151_AT1 or 5151_AT2 or 5151_AT3 or 5151_AT4 or 5151_AT5 or 5153_AT1 or 8622_AT1 or 10846_AT1 or 27115_AT1 or 50940_AT1",
-"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"PDE1",
 "biocyc":"META:RXN0-5038",
@@ -25951,7 +25934,6 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"51727_AT1",
-"subsystem":"Pyrimidine metabolism",
 "annotation":{
 "bigg.reaction":"UMPK",
 "biocyc":"META:RXN-12002",
@@ -32756,64 +32738,64 @@
 }
 },
 {
+"id":"2983_AT1",
+"name":"G_2983_AT1"
+},
+{
 "id":"2982_AT1",
-"name":""
+"name":"G_2982_AT1"
 },
 {
 "id":"2974_AT1",
-"name":""
-},
-{
-"id":"2983_AT1",
-"name":""
+"name":"G_2974_AT1"
 },
 {
 "id":"2977_AT1",
-"name":""
-},
-{
-"id":"4830_AT1",
-"name":""
+"name":"G_2977_AT1"
 },
 {
 "id":"4830_AT2",
-"name":""
+"name":"G_4830_AT2"
+},
+{
+"id":"4830_AT1",
+"name":"G_4830_AT1"
 },
 {
 "id":"4831_AT1",
-"name":""
-},
-{
-"id":"4144_AT1",
-"name":""
+"name":"G_4831_AT1"
 },
 {
 "id":"27430_AT1",
-"name":""
+"name":"G_27430_AT1"
 },
 {
 "id":"27430_AT2",
-"name":""
+"name":"G_27430_AT2"
 },
 {
-"id":"483_AT1",
-"name":""
-},
-{
-"id":"482_AT1",
-"name":""
-},
-{
-"id":"23439_AT1",
-"name":""
+"id":"4144_AT1",
+"name":"G_4144_AT1"
 },
 {
 "id":"481_AT1",
-"name":""
+"name":"G_481_AT1"
+},
+{
+"id":"483_AT1",
+"name":"G_483_AT1"
+},
+{
+"id":"482_AT1",
+"name":"G_482_AT1"
+},
+{
+"id":"23439_AT1",
+"name":"G_23439_AT1"
 },
 {
 "id":"476_AT1",
-"name":""
+"name":"G_476_AT1"
 }
 ],
 "id":"iAB_RBC_283",

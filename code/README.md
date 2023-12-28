@@ -10,6 +10,15 @@ code
 └── src         # For Python 3
 ```
 
+##### Note
+
+There are several tools that enable working with genome scale metabolic reconstructions (e.g., [cobrapy](https://github.com/opencobra/cobrapy), [COBRA Toolbox](https://github.com/opencobra/cobratoolbox/), [RAVEN Toolbox](https://github.com/SysBioChalmers/RAVEN)). 
+
+Therefore, to help maintain code clarity across multiple programming languages:
+
+* Python code should be written using `snake_case` nomenclature and follow the [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/).
+* MATLAB code should be written using `mixedCase` nomenclature and follow the [MATLAB Style Guidelines](https://www.mathworks.com/matlabcentral/fileexchange/46056-matlab-style-guidelines-2-0).
+
 ## Installation
 ### With Python
 
@@ -28,8 +37,10 @@ install the software. It is recommended to do this inside a [virtual environment
 
 ## Description of directory contents
 
+In an effort to keep this repository compatibile with 
+
 Brief description of directory contents are provided below.
-### Notebooks (Python)
+### notebooks (Python)
 
 **TODO** 
 
