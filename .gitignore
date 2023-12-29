@@ -323,6 +323,7 @@ data/processed/*
 data/external/*
 ## Leave README files for data
 !data/*/*README*
-## Leave ZIP for external data
+## Leave ZIP for external data and database files
+!data/external/database/*
 !data/external/*/*.zip
 
