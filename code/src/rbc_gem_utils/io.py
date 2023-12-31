@@ -12,13 +12,8 @@ from cobra.io import (
     save_json_model, save_matlab_model, save_yaml_model, write_sbml_model,
 )
 
-try:
-    import simplejson as json
-except ImportError:
-    import json
 
-
-from .util import GEM_NAME, REPO_PATH
+from .util import GEM_NAME, ROOT_PATH, MODEL_PATH
 
 
 IO_FUNCTIONS_DICT = {
@@ -99,7 +94,6 @@ def read_cobra_model(filename, **kwargs):
     """
     filetype = Path(filename).suffix[1:]
     filetype = ALTERNATE_FILETYPES_DICT.get(filetype, filetype)
-    print(filetype)
     try:
         read_function = IO_FUNCTIONS_DICT[filetype]["read"]
     except KeyError as e:
@@ -160,7 +154,7 @@ def write_rbc_model(model, filetype="xml", **kwargs):
                 warn(f"{msg}, skipping to prevent duplicate export")
                 continue
             
-        write_cobra_model(model, f"{REPO_PATH}/model/{GEM_NAME}.{ftype}", **ftype_kwargs)
+        write_cobra_model(model, f"{ROOT_PATH}{MODEL_PATH}/{GEM_NAME}.{ftype}", **ftype_kwargs)
         LOGGER.info("Model `%s` saved as a `.%s` file", model.id, ftype)
 
 
@@ -191,7 +185,7 @@ def read_rbc_model(filetype='xml', **kwargs):
         Underlying function utilized for loading a COBRA model from a `.xml` file or `.sbml` file.
 
     """
-    model = read_cobra_model(f"{REPO_PATH}/model/{GEM_NAME}.{filetype}", **kwargs)
+    model = read_cobra_model(f"{ROOT_PATH}{MODEL_PATH}/{GEM_NAME}.{filetype}", **kwargs)
     LOGGER.info("Model `%s` loaded from a `.%s` file", model.id, filetype)
     return model
 
