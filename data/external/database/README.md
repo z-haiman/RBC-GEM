@@ -12,3 +12,4 @@ URL: https://github.com/SysBioChalmers/Human-GEM/tree/v1.18.0
 * `Human-GEM/genes.tsv`: Contains additional annotation information and external identifiers for Human-GEM genes.
 * `Human-GEM/Human-GEM.xml`: Human-GEM model file (SBML L3V1, fbc-v2, groups-v1)
 
+Additional information can be found [here](./Human-GEM/README.md)

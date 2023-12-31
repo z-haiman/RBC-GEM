@@ -4,4 +4,4 @@ This directory contains `.zip` files for various publications and unmodified sup
 
 Even publications and their associated data may be unavailable over time (e.g., change to URL for a database). Archiving the relevant publications and publically available helps alleviate these difficulties. 
 
-Note that this is only for academic purposes.
+All data in here is only for academic purposes. Respective publications for data should be cited if used.
