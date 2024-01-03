@@ -137,8 +137,9 @@ def write_rbc_model(model, filetype="xml", **kwargs):
             # Ensure no duplicates when it comes to SBML or yaml files.
             filetype = sorted(set(IO_FUNCTIONS_DICT).difference(set(ALTERNATE_FILETYPES_DICT)))
         else:
-            filetype = [filetype]
             kwargs = {filetype: kwargs}
+            filetype = [filetype]
+            
     
     for ftype in set(filetype):
         ftype_kwargs = kwargs.get(ftype, {})
