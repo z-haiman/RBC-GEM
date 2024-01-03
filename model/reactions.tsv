@@ -1,4 +1,4 @@
-	reactions	bigg.reaction	biocyc	ec-code	kegg.reaction	metanetx.reaction	metatlas	reactome.reaction	rhea	sabiork	sbo	seed.reaction
+	reactions	bigg.reaction	biocyc	ec-code	kegg.reaction	metanetx.reaction	metatlas	reactome	rhea	sabiork.reaction	sbo	seed.reaction
 0	3MOXTYRESSte	3MOXTYRESSte				MNXR94930	MAR11306				SBO:0000185	
 1	4PYRDXABCte	4PYRDX				MNXR95053	MAR08103				SBO:0000185	
 2	5AOPt2	5AOPt2				MNXR95061	MAR11307				SBO:0000185	rxn09702
