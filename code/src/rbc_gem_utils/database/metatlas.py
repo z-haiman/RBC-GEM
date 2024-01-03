@@ -21,7 +21,7 @@ HUMANGEM_MODEL_FILETYPES = {'mat', 'txt', 'xlsx', 'xml', 'yml'}
 # https://github.com/SysBioChalmers/Human-GEM/blob/v1.18.0/code/annotateGEM.m#L75C2-L75C2
 HUMANGEM_MIRIAM = {
     'reactions': {
-        'rxns': 'metatlas',
+        'rxnMetAtlas': 'metatlas', # Replaced name for ID column
         'rxnKEGGID': 'kegg.reaction',
         'rxnBiGGID': 'bigg.reaction',
         'rxnREACTOMEID': 'reactome',
@@ -32,7 +32,7 @@ HUMANGEM_MIRIAM = {
         'rxnRheaMasterID': 'rhea',
     },
     'metabolites': {
-        'mets': 'metatlas',
+        'metMetAtlas': 'metatlas', # Replaced name for ID column
         'metBiGGID': 'bigg.metabolite',
         'metKEGGID': 'kegg.compound',
         'metHMDBID': 'hmdb',
@@ -43,7 +43,7 @@ HUMANGEM_MIRIAM = {
         'metMetaNetXID': 'metanetx.chemical',
     },
     'genes': {
-        'genes': 'ensembl',
+        'geneEnsemblID': 'ensembl', # Replaced name for ID column
         'geneENSTID': 'ensembl',
         'geneENSPID': 'ensembl',
         'geneUniProtID': 'uniprot',
@@ -96,7 +96,7 @@ def get_annotations_HumanGEM(
         'genes': "genes"
     }
     check_if_valid(annotation_type, valid_types, "Must be one of the following")
-    df_annotations = pd.read_table(f"{database_dirpath}/{annotation_type}.tsv",)
+    df_annotations = pd.read_csv(f"{database_dirpath}/{annotation_type}.tsv", sep="\t", dtype=str)
 
     # Only keep a specific set of columns after ensuring they are valid
     if annotation_columns is not None:
