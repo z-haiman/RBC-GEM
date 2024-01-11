@@ -33933,7 +33933,6 @@
       </groups:group>
       <groups:group groups:id="G_Arginine__32__and__32__proline__32__metabolism" groups:name="Arginine and proline metabolism" groups:kind="collection">
         <groups:listOfMembers>
-          <groups:member groups:name="5  methylthioadenosine phosphorylase" groups:idRef="R_MTAP"/>
           <groups:member groups:name="Ornithine Decarboxylase" groups:idRef="R_ORNDC"/>
           <groups:member groups:name="Arginase" groups:idRef="R_ARGN"/>
           <groups:member groups:name="Spermine synthase" groups:idRef="R_SPRMS"/>
@@ -33968,10 +33967,10 @@
       </groups:group>
       <groups:group groups:id="G_Fatty__32__acid__32__activation__32____40__cytosolic__41__" groups:name="Fatty acid activation (cytosolic)" groups:kind="collection">
         <groups:listOfMembers>
-          <groups:member groups:name="Fatty acid  CoA ligase  hexadecanoate" groups:idRef="R_FACOAL_16_0"/>
-          <groups:member groups:name="Fatty acid  CoA ligase  octadecenoate" groups:idRef="R_FACOAL_18_9Z"/>
           <groups:member groups:name="Linoleic acid:CoA ligase (AMP-forming)" groups:idRef="R_FACOAL_18_9Z12Z"/>
           <groups:member groups:name="Carnitine transferase" groups:idRef="R_CRNAT_18_9Z12Zrbc"/>
+          <groups:member groups:name="Fatty acid  CoA ligase  octadecenoate" groups:idRef="R_FACOAL_18_9Z"/>
+          <groups:member groups:name="Fatty acid  CoA ligase  hexadecanoate" groups:idRef="R_FACOAL_16_0"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_Fructose__32__and__32__mannose__32__metabolism" groups:name="Fructose and mannose metabolism" groups:kind="collection">
@@ -34238,6 +34237,13 @@
           <groups:member groups:name="Hydroxymethylbilane synthase" groups:idRef="R_HMBS"/>
           <groups:member groups:name="Heme oxygenase 1" groups:idRef="R_HOXG"/>
           <groups:member groups:name="Uroporphyrinogen decarboxylase (uroporphyrinogen III)" groups:idRef="R_UPPG3DC"/>
+          <groups:member groups:name="Nad(p)h biliverdin reductase" groups:idRef="R_BILIREDy"/>
+          <groups:member groups:name="Hydroxymethylbilane synthase" groups:idRef="R_HMBS"/>
+          <groups:member groups:name="Bilirubin UDP-glucuronosyltransferase" groups:idRef="R_BILIRBU"/>
+          <groups:member groups:name="Ferrochelatase" groups:idRef="R_FCLT"/>
+          <groups:member groups:name="Coproporphyrinogen oxidase (O2 required)" groups:idRef="R_CPPPGO"/>
+          <groups:member groups:name="Protoporphyrinogen oxidase (aerobic)" groups:idRef="R_PPPGO"/>
+          <groups:member groups:name="Uroporphyrinogen-III synthase" groups:idRef="R_UPPG3S"/>
         </groups:listOfMembers>
       </groups:group>
       <groups:group groups:id="G_Pseudoreactions" groups:name="Pseudoreactions" groups:kind="collection">
@@ -34357,6 +34363,7 @@
       <groups:group groups:id="G_Pyrimidine__32__metabolism" groups:name="Pyrimidine metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="5&apos;-nucleotidase (UMP)" groups:idRef="R_NTD2"/>
+          <groups:member groups:name="Orotate phosphoribosyltransferase" groups:idRef="R_ORPT"/>
           <groups:member groups:name="Orotidine-5&apos;-phosphate decarboxylase" groups:idRef="R_OMPDC"/>
           <groups:member groups:name="Orotate phosphoribosyltransferase" groups:idRef="R_ORPT"/>
         </groups:listOfMembers>
@@ -34479,6 +34486,7 @@
       <groups:group groups:id="G_Tricarboxylic__32__acid__32__cycle__32__and__32__glyoxylate__47__dicarboxylate__32__metabolism" groups:name="Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism" groups:kind="collection">
         <groups:listOfMembers>
           <groups:member groups:name="Isocitrate dehydrogenase (NADP)" groups:idRef="R_ICDHy"/>
+          <groups:member groups:name="Fumarase" groups:idRef="R_FUM"/>
           <groups:member groups:name="Malate dehydrogenase" groups:idRef="R_MDH"/>
           <groups:member groups:name="Fumarase" groups:idRef="R_FUM"/>
         </groups:listOfMembers>
