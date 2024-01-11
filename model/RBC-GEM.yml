@@ -18154,9 +18154,9 @@
       - ensembl: ENSG00000106733
       - hgnc.symbol: NMRK1
       - hprd: '09868'
+      - mgi: MGI:2147434
       - mim: '608704'
       - ncbigene: '54981'
-      - omim: '608704'
       - refseq:
         - NP_060351.1
         - XP_006717226.1
@@ -18172,9 +18172,9 @@
       - ensembl: ENSG00000197713
       - hgnc.symbol: RPE
       - hprd: '01608'
+      - mgi: MGI:1913896
       - mim: '180480'
       - ncbigene: '6120'
-      - omim: '180480'
       - sbo: SBO:0000243
       - uniprot: Q96AT9
       - uniprot.isoform: Q96AT9-2
@@ -18187,9 +18187,9 @@
       - ensembl: ENSG00000197713
       - hgnc.symbol: RPE
       - hprd: '01608'
+      - mgi: MGI:1913896
       - mim: '180480'
       - ncbigene: '6120'
-      - omim: '180480'
       - refseq: NP_954699.1
       - sbo: SBO:0000243
       - uniprot: Q96AT9
@@ -18202,11 +18202,11 @@
       - drugbank: DB01756
       - ensembl: ENSG00000153574
       - hgnc.symbol: RPIA
+      - mgi: MGI:103254
       - mim:
         - '180430'
         - '608611'
       - ncbigene: '22934'
-      - omim: '180430'
       - refseq: NP_653164.2
       - sbo: SBO:0000243
       - uniprot: P49247
@@ -18237,11 +18237,11 @@
         - DB00157
       - ensembl: ENSG00000140263
       - hgnc.symbol: SORD
+      - mgi: MGI:98266
       - mim:
         - '182500'
         - '618912'
       - ncbigene: '6652'
-      - omim: '182500'
       - refseq: NP_003095.2
       - sbo: SBO:0000243
       - uniprot: Q00796
@@ -18253,9 +18253,9 @@
       - ccds: CCDS194.1
       - ensembl: ENSG00000053371
       - hgnc.symbol: AKR7A2
+      - mgi: MGI:107796
       - mim: '603418'
       - ncbigene: '8574'
-      - omim: '603418'
       - refseq: NP_003680.2
       - sbo: SBO:0000243
       - uniprot: O43488
@@ -18268,9 +18268,9 @@
       - drugbank: DB00118
       - ensembl: ENSG00000116649
       - hgnc.symbol: SRM
+      - mgi: MGI:102690
       - mim: '182891'
       - ncbigene: '6723'
-      - omim: '182891'
       - refseq: NP_003123.2
       - sbo: SBO:0000243
       - uniprot: P19623
@@ -18282,9 +18282,9 @@
       - ccds: CCDS1653.1
       - ensembl: ENSG00000182551
       - hgnc.symbol: ADI1
+      - mgi: MGI:2144929
       - mim: '613400'
       - ncbigene: '55256'
-      - omim: '613400'
       - refseq: NP_060739.2
       - sbo: SBO:0000243
       - uniprot: Q9BV57
@@ -18298,11 +18298,13 @@
       - ensembl: ENSG00000102172
       - hgnc.symbol: SMS
       - hprd: '02115'
+      - mgi:
+        - MGI:109490
+        - MGI:3705601
       - mim:
         - '300105'
         - '309583'
       - ncbigene: '6611'
-      - omim: '300105'
       - refseq: NP_004586.2
       - sbo: SBO:0000243
       - uniprot: P52788
@@ -18315,12 +18317,12 @@
       - ensembl: ENSG00000177156
       - hgnc.symbol: TALDO1
       - hprd: '03640'
+      - mgi: MGI:1274789
       - mim:
         - '602063'
         - '606003'
       - ncbigene: '6888'
       - ncbigi: '5803187'
-      - omim: '602063'
       - refseq: NP_006746.1
       - sbo: SBO:0000243
       - uniprot: P37837
@@ -18333,6 +18335,7 @@
       - drugbank: DB00152
       - ensembl: ENSG00000259431
       - hgnc.symbol: THTPA
+      - mgi: MGI:2446078
       - mim: '611612'
       - ncbigene: '79178'
       - refseq:
@@ -18350,11 +18353,11 @@
       - ensembl: ENSG00000163931
       - hgnc.symbol: TKT
       - hprd: '06001'
+      - mgi: MGI:105992
       - mim:
         - '606781'
         - '617044'
       - ncbigene: '7086'
-      - omim: '606781'
       - refseq:
         - NP_001055.1
         - NP_001128527.1
@@ -18372,6 +18375,7 @@
       - ensembl: ENSG00000196511
       - hgnc.symbol: TPK1
       - hprd: '06967'
+      - mgi: MGI:1352500
       - mim:
         - '606370'
         - '614458'
@@ -18413,7 +18417,6 @@
         - '1034654949'
         - '767947411'
         - '1034654920'
-      - omim: '606370'
       - refseq:
         - NP_071890.2
         - XP_005250027.1
@@ -18448,9 +18451,9 @@
       - ensembl: ENSG00000113552
       - hgnc.symbol: GNPDA1
       - hprd: '09048'
+      - mgi: MGI:1347054
       - mim: '601798'
       - ncbigene: '10007'
-      - omim: '601798'
       - refseq:
         - NP_005462.1
         - XP_006714810.1
@@ -18483,11 +18486,11 @@
       - ensembl: ENSG00000111669
       - hgnc.symbol: TPI1
       - hprd: '01833'
+      - mgi: MGI:98797
       - mim:
         - '190450'
         - '615512'
       - ncbigene: '7167'
-      - omim: '190450'
       - refseq: NP_000356.1
       - sbo: SBO:0000243
       - uniprot: P60174
@@ -18506,11 +18509,11 @@
         - DB03397
       - ensembl: ENSG00000117308
       - hgnc.symbol: GALE
+      - mgi: MGI:1921496
       - mim:
         - '230350'
         - '606953'
       - ncbigene: '2582'
-      - omim: '606953'
       - refseq:
         - NP_000394.2
         - NP_001008217.1
@@ -18531,11 +18534,11 @@
         - DB03397
       - ensembl: ENSG00000117308
       - hgnc.symbol: GALE
+      - mgi: MGI:1921496
       - mim:
         - '230350'
         - '606953'
       - ncbigene: '2582'
-      - omim: '606953'
       - sbo: SBO:0000243
       - uniprot: Q14376
       - uniprot.isoform: Q14376-2
@@ -18550,11 +18553,11 @@
       - ensembl: ENSG00000109814
       - hgnc.symbol: UGDH
       - hprd: '04535'
+      - mgi: MGI:1306785
       - mim:
         - '603370'
         - '618792'
       - ncbigene: '7358'
-      - omim: '603370'
       - refseq: NP_003350.1
       - sbo: SBO:0000243
       - uniprot: O60701
@@ -18571,11 +18574,13 @@
         - DB03461
       - ensembl: ENSG00000160211
       - hgnc.symbol: G6PD
+      - mgi:
+        - MGI:105977
+        - MGI:105979
       - mim:
         - '300908'
         - '305900'
       - ncbigene: '2539'
-      - omim: '305900'
       - refseq: NP_001035810.1
       - sbo: SBO:0000243
       - uniprot: P11413
@@ -18589,11 +18594,11 @@
       - ensembl: ENSG00000108479
       - hgnc.symbol: GALK1
       - hprd: '05057'
+      - mgi: MGI:95730
       - mim:
         - '230200'
         - '604313'
       - ncbigene: '2584'
-      - omim: '604313'
       - refseq: NP_000145.1
       - sbo: SBO:0000243
       - uniprot: P51570
@@ -18605,11 +18610,11 @@
       - ccds: CCDS7648.1
       - ensembl: ENSG00000188690
       - hgnc.symbol: UROS
+      - mgi: MGI:98917
       - mim:
         - '263700'
         - '606938'
       - ncbigene: '7390'
-      - omim: '606938'
       - refseq: NP_000366.1
       - sbo: SBO:0000243
       - uniprot: P10746
@@ -18624,11 +18629,11 @@
         - DB04461
       - ensembl: ENSG00000126088
       - hgnc.symbol: UROD
+      - mgi: MGI:98916
       - mim:
         - '176100'
         - '613521'
       - ncbigene: '7389'
-      - omim: '613521'
       - refseq: NP_000365.3
       - sbo: SBO:0000243
       - uniprot: P06132
@@ -18650,9 +18655,9 @@
         - DB02383
       - ensembl: ENSG00000117448
       - hgnc.symbol: AKR1A1
+      - mgi: MGI:1929955
       - mim: '103830'
       - ncbigene: '10327'
-      - omim: '103830'
       - refseq:
         - NP_001189342.1
         - NP_001189343.1
@@ -18669,6 +18674,7 @@
       - drugbank: DB03904
       - ensembl: ENSG00000141469
       - hgnc.symbol: SLC14A1
+      - mgi: MGI:1351654
       - mim:
         - '111000'
         - '613868'
@@ -18687,9 +18693,9 @@
       - ensembl: ENSG00000093217
       - hgnc.symbol: XYLB
       - hprd: '06812'
+      - mgi: MGI:2142985
       - mim: '604049'
       - ncbigene: '9942'
-      - omim: '604049'
       - refseq: NP_005099.2
       - sbo: SBO:0000243
       - uniprot: O75191
@@ -18711,9 +18717,9 @@
         - DB02383
       - ensembl: ENSG00000117448
       - hgnc.symbol: AKR1A1
+      - mgi: MGI:1929955
       - mim: '103830'
       - ncbigene: '10327'
-      - omim: '103830'
       - refseq:
         - NP_001189342.1
         - NP_001189343.1
@@ -18732,11 +18738,11 @@
       - ensembl: ENSG00000169738
       - hgnc.symbol: DCXR
       - hprd: '16320'
+      - mgi: MGI:1915130
       - mim:
         - '260800'
         - '608347'
       - ncbigene: '51181'
-      - omim: '608347'
       - refseq:
         - NP_001182147.1
         - NP_057370.1
@@ -18791,12 +18797,12 @@
       - ensembl: ENSG00000085662
       - hgnc.symbol: AKR1B1
       - hprd: '00071'
+      - mgi: MGI:1353494
       - mim: '103880'
       - ncbigene: '231'
       - ncbigi:
         - '530385669'
         - '4502049'
-      - omim: '103880'
       - refseq: NP_001619.1
       - sbo: SBO:0000243
       - uniprot: P15121
@@ -18809,11 +18815,11 @@
       - ensembl: ENSG00000213930
       - hgnc.symbol: GALT
       - hprd: '06106'
+      - mgi: MGI:95638
       - mim:
         - '230400'
         - '606999'
       - ncbigene: '2592'
-      - omim: '606999'
       - refseq: NP_000146.2
       - sbo: SBO:0000243
       - uniprot: P07902
@@ -18826,11 +18832,11 @@
       - ensembl: ENSG00000213930
       - hgnc.symbol: GALT
       - hprd: '06106'
+      - mgi: MGI:95638
       - mim:
         - '230400'
         - '606999'
       - ncbigene: '2592'
-      - omim: '606999'
       - refseq: NP_001245261.1
       - sbo: SBO:0000243
       - uniprot: P07902
@@ -18845,11 +18851,11 @@
       - ensembl: ENSG00000213930
       - hgnc.symbol: GALT
       - hprd: '06106'
+      - mgi: MGI:95638
       - mim:
         - '230400'
         - '606999'
       - ncbigene: '2592'
-      - omim: '606999'
       - refseq:
         - NP_000146.2
         - NP_001245261.1
@@ -18862,12 +18868,12 @@
       - ccds: CCDS42690.1
       - ensembl: ENSG00000169764
       - hgnc.symbol: UGP2
+      - mgi: MGI:2183447
       - mim:
         - '191750'
         - '191760'
         - '618744'
       - ncbigene: '7360'
-      - omim: '191760'
       - refseq: NP_001001521.1
       - sbo: SBO:0000243
       - uniprot: Q16851
@@ -18879,12 +18885,12 @@
       - ccds: CCDS1875.1
       - ensembl: ENSG00000169764
       - hgnc.symbol: UGP2
+      - mgi: MGI:2183447
       - mim:
         - '191750'
         - '191760'
         - '618744'
       - ncbigene: '7360'
-      - omim: '191760'
       - refseq: NP_006750.3
       - sbo: SBO:0000243
       - uniprot: Q16851
@@ -18902,6 +18908,7 @@
         - DB01296
       - ensembl: ENSG00000059804
       - hgnc.symbol: SLC2A3
+      - mgi: MGI:95757
       - mim: '138170'
       - ncbigene: '6515'
       - refseq: NP_008862.1
@@ -18921,6 +18928,7 @@
         - DB01296
       - ensembl: ENSG00000181856
       - hgnc.symbol: SLC2A4
+      - mgi: MGI:95758
       - mim:
         - '125853'
         - '138190'
@@ -18945,9 +18953,13 @@
       - ensembl: ENSG00000111640
       - hgnc.symbol: GAPDH
       - hprd: '00713'
+      - mgi:
+        - MGI:3708786
+        - MGI:3782011
+        - MGI:5434255
+        - MGI:95640
       - mim: '138400'
       - ncbigene: '2597'
-      - omim: '138400'
       - refseq:
         - NP_001276674.1
         - NP_001276675.1
@@ -18963,6 +18975,7 @@
       - ensembl: ENSG00000006625
       - hgnc.symbol: GGCT
       - hprd: '12912'
+      - mgi: MGI:95700
       - mim: '137170'
       - ncbigene: '79017'
       - ncbigi:
@@ -18970,7 +18983,6 @@
         - '315360622'
         - '13129018'
         - '315360620'
-      - omim: '137170'
       - refseq: NP_076956.1
       - sbo: SBO:0000243
       - uniprot: O75223
@@ -18987,9 +18999,9 @@
       - ensembl: ENSG00000143774
       - hgnc.symbol: GUK1
       - hprd: '00755'
+      - mgi: MGI:95871
       - mim: '139270'
       - ncbigene: '2987'
-      - omim: '139270'
       - refseq:
         - NP_000849.1
         - NP_001152863.1
@@ -19016,11 +19028,11 @@
       - ensembl: ENSG00000135821
       - hgnc.symbol: GLUL
       - hprd: '00701'
+      - mgi: MGI:95739
       - mim:
         - '138290'
         - '610015'
       - ncbigene: '2752'
-      - omim: '138290'
       - refseq:
         - NP_001028216.1
         - NP_001028228.1
@@ -19043,11 +19055,11 @@
       - ensembl: ENSG00000001084
       - hgnc.symbol: GCLC
       - hprd: '06032'
+      - mgi: MGI:104990
       - mim:
         - '230450'
         - '606857'
       - ncbigene: '2729'
-      - omim: '606857'
       - refseq:
         - NP_001184044.1
         - NP_001489.1
@@ -19065,9 +19077,9 @@
       - ensembl: ENSG00000023909
       - hgnc.symbol: GCLM
       - hprd: '03106'
+      - mgi: MGI:104995
       - mim: '601176'
       - ncbigene: '2730'
-      - omim: '601176'
       - refseq: NP_002052.1
       - sbo: SBO:0000243
       - uniprot: P48507
@@ -19080,9 +19092,9 @@
       - ensembl: ENSG00000196475
       - hgnc.symbol: GK2
       - hprd: '15966'
+      - mgi: MGI:1329027
       - mim: '600148'
       - ncbigene: '2712'
-      - omim: '600148'
       - refseq: NP_149991.2
       - sbo: SBO:0000243
       - uniprot: Q14410
@@ -19095,11 +19107,13 @@
       - ensembl: ENSG00000198814
       - hgnc.symbol: GK
       - hprd: '08363'
+      - mgi:
+        - MGI:106594
+        - MGI:891990
       - mim:
         - '300474'
         - '307030'
       - ncbigene: '2710'
-      - omim: '300474'
       - refseq: NP_001121599.1
       - sbo: SBO:0000243
       - uniprot: P32189
@@ -19122,11 +19136,13 @@
       - ensembl: ENSG00000198814
       - hgnc.symbol: GK
       - hprd: '08363'
+      - mgi:
+        - MGI:106594
+        - MGI:891990
       - mim:
         - '300474'
         - '307030'
       - ncbigene: '2710'
-      - omim: '300474'
       - refseq: NP_000158.1
       - sbo: SBO:0000243
       - uniprot: P32189
@@ -19141,9 +19157,9 @@
         - DB03889
       - ensembl: ENSG00000063854
       - hgnc.symbol: HAGH
+      - mgi: MGI:95745
       - mim: '138760'
       - ncbigene: '3029'
-      - omim: '138760'
       - refseq: NP_005317.2
       - sbo: SBO:0000243
       - uniprot: Q16775
@@ -19156,11 +19172,11 @@
       - drugbank: DB00145
       - ensembl: ENSG00000196517
       - hgnc.symbol: SLC6A9
+      - mgi: MGI:95760
       - mim:
         - '601019'
         - '617301'
       - ncbigene: '6536'
-      - omim: '601019'
       - refseq: NP_964012.2
       - sbo: SBO:0000243
       - uniprot: P48067
@@ -19173,11 +19189,11 @@
       - drugbank: DB00145
       - ensembl: ENSG00000196517
       - hgnc.symbol: SLC6A9
+      - mgi: MGI:95760
       - mim:
         - '601019'
         - '617301'
       - ncbigene: '6536'
-      - omim: '601019'
       - refseq:
         - NP_001020016.1
         - NP_001315558.1
@@ -19192,9 +19208,9 @@
       - drugbank: DB01972
       - ensembl: ENSG00000137198
       - hgnc.symbol: GMPR
+      - mgi: MGI:1913605
       - mim: '139265'
       - ncbigene: '2766'
-      - omim: '139265'
       - refseq: NP_006868.3
       - sbo: SBO:0000243
       - uniprot: P36959
@@ -19211,9 +19227,9 @@
       - ensembl: ENSG00000163655
       - hgnc.symbol: GMPS
       - hprd: '10927'
+      - mgi: MGI:2448526
       - mim: '600358'
       - ncbigene: '8833'
-      - omim: '600358'
       - refseq: NP_003866.1
       - sbo: SBO:0000243
       - uniprot: P49915
@@ -19235,9 +19251,9 @@
         - DB00867
       - ensembl: ENSG00000142657
       - hgnc.symbol: PGD
+      - mgi: MGI:97553
       - mim: '172200'
       - ncbigene: '5226'
-      - omim: '172200'
       - refseq: NP_002622.2
       - sbo: SBO:0000243
       - uniprot: P52209
@@ -19249,9 +19265,9 @@
       - ccds: CCDS7570.1
       - ensembl: ENSG00000119927
       - hgnc.symbol: GPAM
+      - mgi: MGI:109162
       - mim: '602395'
       - ncbigene: '57678'
-      - omim: '602395'
       - refseq:
         - NP_001231878.1
         - NP_065969.3
@@ -19284,11 +19300,11 @@
         - DB11590
       - ensembl: ENSG00000104687
       - hgnc.symbol: GSR
+      - mgi: MGI:95804
       - mim:
         - '138300'
         - '618660'
       - ncbigene: '2936'
-      - omim: '138300'
       - sbo: SBO:0000243
       - uniprot: P00390
       - uniprot.isoform: P00390-2
@@ -19308,9 +19324,9 @@
       - ensembl: ENSG00000117450
       - hgnc.symbol: PRDX1
       - hprd: '01458'
+      - mgi: MGI:99523
       - mim: '176763'
       - ncbigene: '5052'
-      - omim: '176763'
       - refseq:
         - NP_001189360.1
         - NP_002565.1
@@ -19335,9 +19351,9 @@
       - ensembl: ENSG00000117450
       - hgnc.symbol: PRDX1
       - hprd: '01458'
+      - mgi: MGI:99523
       - mim: '176763'
       - ncbigene: '5052'
-      - omim: '176763'
       - refseq:
         - NP_001189360.1
         - NP_002565.1
@@ -19364,9 +19380,9 @@
       - ensembl: ENSG00000233276
       - hgnc.symbol: GPX1
       - hprd: '11749'
+      - mgi: MGI:104887
       - mim: '138320'
       - ncbigene: '2876'
-      - omim: '138320'
       - refseq: NP_000572.2
       - sbo: SBO:0000243
       - uniprot: P07203
@@ -19383,9 +19399,9 @@
       - ensembl: ENSG00000167815
       - hgnc.symbol: PRDX2
       - hprd: '02763'
+      - mgi: MGI:109486
       - mim: '600538'
       - ncbigene: '7001'
-      - omim: '600538'
       - refseq: NP_005800.3
       - sbo: SBO:0000243
       - uniprot: P32119
@@ -19402,9 +19418,9 @@
       - ensembl: ENSG00000167815
       - hgnc.symbol: PRDX2
       - hprd: '02763'
+      - mgi: MGI:109486
       - mim: '600538'
       - ncbigene: '7001'
-      - omim: '600538'
       - refseq: NP_005800.3
       - sbo: SBO:0000243
       - uniprot: P32119
@@ -19424,9 +19440,9 @@
       - ensembl: ENSG00000117450
       - hgnc.symbol: PRDX1
       - hprd: '01458'
+      - mgi: MGI:99523
       - mim: '176763'
       - ncbigene: '5052'
-      - omim: '176763'
       - refseq:
         - NP_001189360.1
         - NP_002565.1
@@ -19445,9 +19461,9 @@
       - ensembl: ENSG00000167815
       - hgnc.symbol: PRDX2
       - hprd: '02763'
+      - mgi: MGI:109486
       - mim: '600538'
       - ncbigene: '7001'
-      - omim: '600538'
       - sbo: SBO:0000243
       - uniprot: P32119
       - uniprot.isoform: P32119-2
@@ -19470,9 +19486,9 @@
       - ensembl: ENSG00000233276
       - hgnc.symbol: GPX1
       - hprd: '11749'
+      - mgi: MGI:104887
       - mim: '138320'
       - ncbigene: '2876'
-      - omim: '138320'
       - sbo: SBO:0000243
       - uniprot: P07203
       - uniprot.isoform: P07203-2
@@ -19487,11 +19503,11 @@
         - DB03310
       - ensembl: ENSG00000167468
       - hgnc.symbol: GPX4
+      - mgi: MGI:104767
       - mim:
         - '138322'
         - '250220'
       - ncbigene: '2879'
-      - omim: '138322'
       - refseq: NP_002076.2
       - sbo: SBO:0000243
       - uniprot: P36969
@@ -19512,12 +19528,12 @@
       - ensembl: ENSG00000100983
       - hgnc.symbol: GSS
       - hprd: '03000'
+      - mgi: MGI:95852
       - mim:
         - '231900'
         - '266130'
         - '601002'
       - ncbigene: '2937'
-      - omim: '601002'
       - refseq:
         - NP_000169.1
         - NP_001309423.1
@@ -19532,9 +19548,9 @@
       - ccds: CCDS14545.1
       - ensembl: ENSG00000101890
       - hgnc.symbol: GUCY2F
+      - mgi: MGI:105119
       - mim: '300041'
       - ncbigene: '2986'
-      - omim: '300041'
       - refseq: NP_001513.2
       - sbo: SBO:0000243
       - uniprot: P51841
@@ -19554,9 +19570,9 @@
         - DB05034
       - ensembl: ENSG00000169418
       - hgnc.symbol: NPR1
+      - mgi: MGI:97371
       - mim: '108960'
       - ncbigene: '4881'
-      - omim: '108960'
       - refseq: NP_000897.3
       - sbo: SBO:0000243
       - uniprot: P16066
@@ -19569,12 +19585,12 @@
       - drugbank: DB08890
       - ensembl: ENSG00000070019
       - hgnc.symbol: GUCY2C
+      - mgi: MGI:106903
       - mim:
         - '601330'
         - '614616'
         - '614665'
       - ncbigene: '2984'
-      - omim: '601330'
       - refseq: NP_004954.2
       - sbo: SBO:0000243
       - uniprot: P25092
@@ -19590,13 +19606,13 @@
       - ensembl: ENSG00000159899
       - hgnc.symbol: NPR2
       - hprd: '00166'
+      - mgi: MGI:97372
       - mim:
         - '108961'
         - '602875'
         - '615923'
         - '616255'
       - ncbigene: '4882'
-      - omim: '108961'
       - sbo: SBO:0000243
       - uniprot: P20594
       - uniprot.isoform: P20594-2
@@ -19612,13 +19628,13 @@
       - ensembl: ENSG00000159899
       - hgnc.symbol: NPR2
       - hprd: '00166'
+      - mgi: MGI:97372
       - mim:
         - '108961'
         - '602875'
         - '615923'
         - '616255'
       - ncbigene: '4882'
-      - omim: '108961'
       - refseq: NP_003986.2
       - sbo: SBO:0000243
       - uniprot: P20594
@@ -19631,6 +19647,7 @@
       - ensembl: ENSG00000132518
       - hgnc.symbol: GUCY2D
       - hprd: '02550'
+      - mgi: MGI:105123
       - mim:
         - '204000'
         - '215500'
@@ -19639,7 +19656,6 @@
         - '601777'
         - '618555'
       - ncbigene: '3000'
-      - omim: '600179'
       - refseq:
         - NP_000171.1
         - XP_011522118.1
@@ -19662,12 +19678,12 @@
       - ensembl: ENSG00000165704
       - hgnc.symbol: HPRT1
       - hprd: '02388'
+      - mgi: MGI:96217
       - mim:
         - '300322'
         - '300323'
         - '308000'
       - ncbigene: '3251'
-      - omim: '308000'
       - refseq: NP_000185.1
       - sbo: SBO:0000243
       - uniprot: P00492
@@ -19684,6 +19700,7 @@
         - DB12713
       - ensembl: ENSG00000100170
       - hgnc.symbol: SLC5A1
+      - mgi: MGI:107678
       - mim:
         - '182380'
         - '606824'
@@ -19802,11 +19819,11 @@
       - ensembl: ENSG00000104267
       - hgnc.symbol: CA2
       - hprd: '02023'
+      - mgi: MGI:88269
       - mim:
         - '259730'
         - '611492'
       - ncbigene: '760'
-      - omim: '611492'
       - refseq: NP_000058.1
       - sbo: SBO:0000243
       - uniprot: P00918
@@ -19848,9 +19865,9 @@
         - DB00909
       - ensembl: ENSG00000133742
       - hgnc.symbol: CA1
+      - mgi: MGI:88268
       - mim: '114800'
       - ncbigene: '759'
-      - omim: '114800'
       - refseq:
         - NP_001122301.1
         - NP_001122302.1
@@ -19884,9 +19901,9 @@
       - ensembl: ENSG00000164879
       - hgnc.symbol: CA3
       - hprd: '00260'
+      - mgi: MGI:88270
       - mim: '114750'
       - ncbigene: '761'
-      - omim: '114750'
       - refseq: NP_005172.1
       - sbo: SBO:0000243
       - uniprot: P07451
@@ -19898,6 +19915,7 @@
       - ccds: CCDS11481.1
       - ensembl: ENSG00000004939
       - hgnc.symbol: SLC4A1
+      - mgi: MGI:109393
       - mim:
         - '109270'
         - '110500'
@@ -19935,6 +19953,7 @@
         - DB04395
       - ensembl: ENSG00000156515
       - hgnc.symbol: HK1
+      - mgi: MGI:96103
       - mim:
         - '142600'
         - '235700'
@@ -19942,7 +19961,6 @@
         - '617460'
         - '618547'
       - ncbigene: '3098'
-      - omim: '142600'
       - refseq:
         - NP_000179.2
         - NP_001309293.1
@@ -19967,6 +19985,7 @@
         - DB04395
       - ensembl: ENSG00000156515
       - hgnc.symbol: HK1
+      - mgi: MGI:96103
       - mim:
         - '142600'
         - '235700'
@@ -19974,7 +19993,6 @@
         - '617460'
         - '618547'
       - ncbigene: '3098'
-      - omim: '142600'
       - refseq: NP_277035.2
       - sbo: SBO:0000243
       - uniprot: P19367
@@ -19994,6 +20012,7 @@
         - DB04395
       - ensembl: ENSG00000156515
       - hgnc.symbol: HK1
+      - mgi: MGI:96103
       - mim:
         - '142600'
         - '235700'
@@ -20001,7 +20020,6 @@
         - '617460'
         - '618547'
       - ncbigene: '3098'
-      - omim: '142600'
       - refseq: NP_000179.2
       - sbo: SBO:0000243
       - uniprot: P19367
@@ -20021,6 +20039,7 @@
         - DB04395
       - ensembl: ENSG00000156515
       - hgnc.symbol: HK1
+      - mgi: MGI:96103
       - mim:
         - '142600'
         - '235700'
@@ -20028,7 +20047,6 @@
         - '617460'
         - '618547'
       - ncbigene: '3098'
-      - omim: '142600'
       - refseq:
         - NP_001309293.1
         - NP_277032.1
@@ -20051,6 +20069,7 @@
         - DB04395
       - ensembl: ENSG00000156515
       - hgnc.symbol: HK1
+      - mgi: MGI:96103
       - mim:
         - '142600'
         - '235700'
@@ -20058,7 +20077,6 @@
         - '617460'
         - '618547'
       - ncbigene: '3098'
-      - omim: '142600'
       - refseq: NP_277031.1
       - sbo: SBO:0000243
       - uniprot: P19367
@@ -20071,9 +20089,9 @@
       - ensembl: ENSG00000159399
       - hgnc.symbol: HK2
       - hprd: '03080'
+      - mgi: MGI:1315197
       - mim: '601125'
       - ncbigene: '3099'
-      - omim: '601125'
       - refseq: NP_000180.2
       - sbo: SBO:0000243
       - uniprot: P52789
@@ -20085,6 +20103,7 @@
       - ccds: CCDS7288.1
       - ensembl: ENSG00000156510
       - hgnc.symbol: HKDC1
+      - mgi: MGI:2384910
       - mim:
         - '617221'
         - '619614'
@@ -20100,9 +20119,9 @@
       - ccds: CCDS4407.1
       - ensembl: ENSG00000160883
       - hgnc.symbol: HK3
+      - mgi: MGI:2670962
       - mim: '142570'
       - ncbigene: '3101'
-      - omim: '142570'
       - refseq: NP_002106.2
       - sbo: SBO:0000243
       - uniprot: P52790
@@ -20114,6 +20133,7 @@
       - ccds: CCDS8409.1
       - ensembl: ENSG00000256269
       - hgnc.symbol: HMBS
+      - mgi: MGI:96112
       - mim:
         - '176000'
         - '609806'
@@ -20128,7 +20148,6 @@
         - '767970087'
         - '1034573305'
         - '530398051'
-      - omim: '609806'
       - refseq: NP_000181.2
       - sbo: SBO:0000243
       - uniprot: P08397
@@ -20155,11 +20174,11 @@
       - ensembl: ENSG00000100292
       - hgnc.symbol: HMOX1
       - hprd: '00782'
+      - mgi: MGI:96163
       - mim:
         - '141250'
         - '614034'
       - ncbigene: '3162'
-      - omim: '141250'
       - refseq: NP_002124.1
       - sbo: SBO:0000243
       - uniprot: P09601
@@ -20175,9 +20194,9 @@
       - ensembl: ENSG00000103415
       - hgnc.symbol: HMOX2
       - hprd: '00783'
+      - mgi: MGI:109373
       - mim: '141251'
       - ncbigene: '3163'
-      - omim: '141251'
       - refseq:
         - NP_001120676.1
         - NP_001120677.1
@@ -20204,11 +20223,11 @@
       - ensembl: ENSG00000138413
       - hgnc.symbol: IDH1
       - hprd: '00984'
+      - mgi: MGI:96413
       - mim:
         - '137800'
         - '147700'
       - ncbigene: '3417'
-      - omim: '147700'
       - refseq:
         - NP_001269315.1
         - NP_001269316.1
@@ -20233,6 +20252,7 @@
       - ensembl: ENSG00000106348
       - hgnc.symbol: IMPDH1
       - hprd: '08853'
+      - mgi: MGI:96567
       - mim:
         - '146690'
         - '180105'
@@ -20253,7 +20273,6 @@
         - '217035148'
         - '1034655496'
         - '751557634'
-      - omim: '146690'
       - refseq: NP_001136045.1
       - sbo: SBO:0000243
       - uniprot: P20839
@@ -20276,11 +20295,13 @@
         - DB06103
       - ensembl: ENSG00000178035
       - hgnc.symbol: IMPDH2
+      - mgi:
+        - MGI:109367
+        - MGI:3705743
       - mim:
         - '146691'
         - '617995'
       - ncbigene: '3615'
-      - omim: '146691'
       - refseq: NP_000875.2
       - sbo: SBO:0000243
       - uniprot: P12268
@@ -20303,6 +20324,7 @@
       - ensembl: ENSG00000106348
       - hgnc.symbol: IMPDH1
       - hprd: '08853'
+      - mgi: MGI:96567
       - mim:
         - '146690'
         - '180105'
@@ -20323,7 +20345,6 @@
         - '217035148'
         - '1034655496'
         - '751557634'
-      - omim: '146690'
       - refseq: NP_001136047.1
       - sbo: SBO:0000243
       - uniprot: P20839
@@ -20336,6 +20357,7 @@
       - drugbank: DB00761
       - ensembl: ENSG00000113504
       - hgnc.symbol: SLC12A7
+      - mgi: MGI:1342283
       - mim: '604879'
       - ncbigene: '10723'
       - refseq: NP_006589.2
@@ -20356,11 +20378,11 @@
       - ensembl: ENSG00000111716
       - hgnc.symbol: LDHB
       - hprd: '01026'
+      - mgi: MGI:96763
       - mim:
         - '150100'
         - '614128'
       - ncbigene: '3945'
-      - omim: '150100'
       - refseq:
         - NP_001167568.1
         - NP_001302466.1
@@ -20384,6 +20406,7 @@
       - ensembl: ENSG00000134333
       - hgnc.symbol: LDHA
       - hprd: '01025'
+      - mgi: MGI:96759
       - mim:
         - '150000'
         - '612933'
@@ -20394,7 +20417,6 @@
         - '207028494'
         - '260099725'
         - '5031857'
-      - omim: '150000'
       - refseq: NP_005557.1
       - sbo: SBO:0000243
       - uniprot: P00338
@@ -20415,9 +20437,9 @@
         - DB03130
       - ensembl: ENSG00000124767
       - hgnc.symbol: GLO1
+      - mgi: MGI:95742
       - mim: '138750'
       - ncbigene: '2739'
-      - omim: '138750'
       - refseq: NP_006699.2
       - sbo: SBO:0000243
       - uniprot: Q04760
@@ -20446,11 +20468,11 @@
       - ensembl: ENSG00000116711
       - hgnc.symbol: PLA2G4A
       - hprd: '08986'
+      - mgi: MGI:1195256
       - mim:
         - '600522'
         - '618372'
       - ncbigene: '5321'
-      - omim: '600522'
       - refseq:
         - NP_001298122.1
         - NP_077734.1
@@ -20470,7 +20492,6 @@
       - hprd: '08351'
       - mim: '153310'
       - ncbigene: '1178'
-      - omim: '153310'
       - refseq: NP_001819.2
       - sbo: SBO:0000243
       - uniprot: Q05315
@@ -20506,9 +20527,9 @@
       - ensembl: ENSG00000111144
       - hgnc.symbol: LTA4H
       - hprd: '01056'
+      - mgi: MGI:96836
       - mim: '151570'
       - ncbigene: '4048'
-      - omim: '151570'
       - refseq: NP_000886.1
       - sbo: SBO:0000243
       - uniprot: P09960
@@ -20521,11 +20542,11 @@
       - ensembl: ENSG00000178802
       - hgnc.symbol: MPI
       - hprd: '01108'
+      - mgi: MGI:97075
       - mim:
         - '154550'
         - '602579'
       - ncbigene: '4351'
-      - omim: '154550'
       - refseq: NP_002426.1
       - sbo: SBO:0000243
       - uniprot: P34949
@@ -20542,11 +20563,11 @@
       - ensembl: ENSG00000014641
       - hgnc.symbol: MDH1
       - hprd: '01100'
+      - mgi: MGI:97051
       - mim:
         - '154200'
         - '618959'
       - ncbigene: '4190'
-      - omim: '154200'
       - refseq: NP_005908.1
       - sbo: SBO:0000243
       - uniprot: P40925
@@ -20562,9 +20583,9 @@
       - ensembl: ENSG00000065833
       - hgnc.symbol: ME1
       - hprd: '01102'
+      - mgi: MGI:97043
       - mim: '154250'
       - ncbigene: '4199'
-      - omim: '154250'
       - refseq: NP_002386.1
       - sbo: SBO:0000243
       - uniprot: P48163
@@ -20582,11 +20603,11 @@
       - ensembl: ENSG00000151224
       - hgnc.symbol: MAT1A
       - hprd: '02013'
+      - mgi: MGI:88017
       - mim:
         - '250850'
         - '610550'
       - ncbigene: '4143'
-      - omim: '610550'
       - refseq:
         - NP_000420.1
         - XP_005269899.1
@@ -20601,6 +20622,7 @@
       - ensembl: ENSG00000149150
       - hgnc.symbol: SLC43A1
       - hprd: '07227'
+      - mgi: MGI:1931352
       - mim: '603733'
       - ncbigene: '8501'
       - ncbigi:
@@ -20613,7 +20635,6 @@
         - '311771737'
         - '1034575945'
         - '4505971'
-      - omim: '603733'
       - refseq:
         - NP_001185739.1
         - NP_003618.1
@@ -20626,12 +20647,12 @@
     - annotation: !!omap
       - ensembl: ENSG00000159082
       - hgnc.symbol: SYNJ1
+      - mgi: MGI:1354961
       - mim:
         - '604297'
         - '615530'
         - '617389'
       - ncbigene: '8867'
-      - omim: '604297'
       - sbo: SBO:0000243
       - uniprot: O43426
       - uniprot.isoform: O43426-1
@@ -20642,12 +20663,12 @@
       - ccds: CCDS33540.3
       - ensembl: ENSG00000159082
       - hgnc.symbol: SYNJ1
+      - mgi: MGI:1354961
       - mim:
         - '604297'
         - '615530'
         - '617389'
       - ncbigene: '8867'
-      - omim: '604297'
       - refseq: NP_982271.2
       - sbo: SBO:0000243
       - uniprot: O43426
@@ -20659,9 +20680,9 @@
       - ccds: CCDS74672.1
       - ensembl: ENSG00000168918
       - hgnc.symbol: INPP5D
+      - mgi: MGI:107357
       - mim: '601582'
       - ncbigene: '3635'
-      - omim: '601582'
       - refseq: NP_001017915.1
       - sbo: SBO:0000243
       - uniprot: Q92835
@@ -20674,9 +20695,9 @@
       - ensembl: ENSG00000086544
       - hgnc.symbol: ITPKC
       - hprd: '09400'
+      - mgi: MGI:2442554
       - mim: '606476'
       - ncbigene: '80271'
-      - omim: '606476'
       - refseq: NP_079470.1
       - sbo: SBO:0000243
       - uniprot: Q96DU7
@@ -20693,9 +20714,9 @@
       - ensembl: ENSG00000137825
       - hgnc.symbol: ITPKA
       - hprd: '00941'
+      - mgi: MGI:1333822
       - mim: '147521'
       - ncbigene: '3706'
-      - omim: '147521'
       - refseq: NP_002211.1
       - sbo: SBO:0000243
       - uniprot: P23677
@@ -20707,9 +20728,9 @@
       - ccds: CCDS1555.1
       - ensembl: ENSG00000143772
       - hgnc.symbol: ITPKB
+      - mgi: MGI:109235
       - mim: '147522'
       - ncbigene: '3707'
-      - omim: '147522'
       - refseq: NP_002212.3
       - sbo: SBO:0000243
       - uniprot: P27987
@@ -20728,11 +20749,11 @@
       - ensembl: ENSG00000133731
       - hgnc.symbol: IMPA1
       - hprd: '03641'
+      - mgi: MGI:1933158
       - mim:
         - '602064'
         - '617323'
       - ncbigene: '3612'
-      - omim: '602064'
       - refseq: NP_005527.1
       - sbo: SBO:0000243
       - uniprot: P29218
@@ -20749,9 +20770,9 @@
       - ensembl: ENSG00000105655
       - hgnc.symbol: ISYNA1
       - hprd: '17163'
+      - mgi: MGI:1919030
       - mim: '611670'
       - ncbigene: '51477'
-      - omim: '611670'
       - refseq: NP_057452.1
       - sbo: SBO:0000243
       - uniprot: Q9NPH2
@@ -20769,11 +20790,11 @@
         - DB02281
       - ensembl: ENSG00000099810
       - hgnc.symbol: MTAP
+      - mgi: MGI:1914152
       - mim:
         - '112250'
         - '156540'
       - ncbigene: '4507'
-      - omim: '156540'
       - refseq: NP_002442.2
       - sbo: SBO:0000243
       - uniprot: Q13126
@@ -20786,9 +20807,9 @@
       - ensembl: ENSG00000008130
       - hgnc.symbol: NADK
       - hprd: '16907'
+      - mgi: MGI:2183149
       - mim: '611616'
       - ncbigene: '65220'
-      - omim: '611616'
       - refseq:
         - NP_001185922.1
         - NP_075394.3
@@ -20806,12 +20827,12 @@
       - ensembl: ENSG00000172890
       - hgnc.symbol: NADSYN1
       - hprd: '16309'
+      - mgi: MGI:1926164
       - mim:
         - '608285'
         - '618845'
       - ncbigene: '55191'
       - ncbigi: '41393551'
-      - omim: '608285'
       - refseq: NP_060631.2
       - sbo: SBO:0000243
       - uniprot: Q6IA69
@@ -20824,6 +20845,7 @@
       - drugbank: DB13178
       - ensembl: ENSG00000198743
       - hgnc.symbol: SLC5A3
+      - mgi: MGI:1858226
       - mim: '600444'
       - sbo: SBO:0000243
       - uniprot: P53794
@@ -20838,6 +20860,7 @@
         - DB09418
       - ensembl: ENSG00000105641
       - hgnc.symbol: SLC5A5
+      - mgi: MGI:2149330
       - mim:
         - '274400'
         - '601843'
@@ -20854,9 +20877,9 @@
       - ensembl: ENSG00000143156
       - hgnc.symbol: NME7
       - hprd: '11394'
+      - mgi: MGI:2449121
       - mim: '613465'
       - ncbigene: '29922'
-      - omim: '613465'
       - refseq: NP_932076.1
       - sbo: SBO:0000243
       - uniprot: Q9Y5B8
@@ -20868,9 +20891,9 @@
       - ccds: CCDS77734.1
       - ensembl: ENSG00000172113
       - hgnc.symbol: NME6
+      - mgi: MGI:1861676
       - mim: '608294'
       - ncbigene: '10201'
-      - omim: '608294'
       - refseq:
         - NP_001295355.1
         - NP_001295356.1
@@ -20886,9 +20909,9 @@
       - ensembl: ENSG00000143156
       - hgnc.symbol: NME7
       - hprd: '11394'
+      - mgi: MGI:2449121
       - mim: '613465'
       - ncbigene: '29922'
-      - omim: '613465'
       - refseq: NP_037462.1
       - sbo: SBO:0000243
       - uniprot: Q9Y5B8
@@ -20901,9 +20924,9 @@
       - ensembl: ENSG00000103024
       - hgnc.symbol: NME3
       - hprd: '03488'
+      - mgi: MGI:1930182
       - mim: '601817'
       - ncbigene: '4832'
-      - omim: '601817'
       - refseq: NP_002504.2
       - sbo: SBO:0000243
       - uniprot: Q13232
@@ -20915,6 +20938,7 @@
       - ccds: CCDS4927.1
       - ensembl: ENSG00000112077
       - hgnc.symbol: RHAG
+      - mgi: MGI:1202713
       - mim:
         - '180297'
         - '185000'
@@ -20931,6 +20955,7 @@
       - ccds: CCDS41414.2
       - ensembl: ENSG00000132677
       - hgnc.symbol: RHBG
+      - mgi: MGI:1927379
       - mim: '607079'
       - ncbigene: '57127'
       - refseq: NP_065140.3
@@ -20949,9 +20974,9 @@
       - ensembl: ENSG00000163864
       - hgnc.symbol: NMNAT3
       - hprd: '16370'
+      - mgi: MGI:1921330
       - mim: '608702'
       - ncbigene: '349565'
-      - omim: '608702'
       - refseq:
         - NP_001307440.1
         - NP_001307441.1
@@ -20964,9 +20989,9 @@
     - annotation: !!omap
       - ccds: CCDS44817.1
       - hgnc.symbol: ZNF384
+      - mgi: MGI:2443203
       - mim: '609951'
       - ncbigene: '171017'
-      - omim: '609951'
       - refseq: NP_001129206.1
       - sbo: SBO:0000243
       - uniprot: Q8TF68
@@ -20983,11 +21008,11 @@
       - ensembl: ENSG00000076685
       - hgnc.symbol: NT5C2
       - hprd: '02686'
+      - mgi: MGI:2178563
       - mim:
         - '600417'
         - '613162'
       - ncbigene: '22978'
-      - omim: '600417'
       - refseq:
         - NP_001127845.1
         - NP_036361.1
@@ -21002,6 +21027,7 @@
       - ensembl: ENSG00000122643
       - hgnc.symbol: NT5C3A
       - hprd: '05871'
+      - mgi: MGI:1927186
       - mim:
         - '266120'
         - '606224'
@@ -21012,7 +21038,6 @@
         - '70608211'
         - '767945523'
         - '260763926'
-      - omim: '606224'
       - refseq:
         - NP_001002009.1
         - NP_057573.2
@@ -21028,9 +21053,9 @@
       - ensembl: ENSG00000125458
       - hgnc.symbol: NT5C
       - hprd: '11833'
+      - mgi: MGI:1354954
       - mim: '191720'
       - ncbigene: '30833'
-      - omim: '191720'
       - refseq: NP_055410.1
       - sbo: SBO:0000243
       - uniprot: Q8TCD5
@@ -21046,11 +21071,11 @@
       - ensembl: ENSG00000114491
       - hgnc.symbol: UMPS
       - hprd: '02022'
+      - mgi: MGI:1298388
       - mim:
         - '258900'
         - '613891'
       - ncbigene: '7372'
-      - omim: '613891'
       - refseq: NP_000364.1
       - sbo: SBO:0000243
       - uniprot: P11172
@@ -21064,11 +21089,11 @@
       - ensembl: ENSG00000178814
       - hgnc.symbol: OPLAH
       - hprd: '14880'
+      - mgi: MGI:1922725
       - mim:
         - '260005'
         - '614243'
       - ncbigene: '26873'
-      - omim: '614243'
       - refseq: NP_060040.1
       - sbo: SBO:0000243
       - uniprot: O14841
@@ -21093,11 +21118,11 @@
       - ensembl: ENSG00000115758
       - hgnc.symbol: ODC1
       - hprd: '01324'
+      - mgi: MGI:97402
       - mim:
         - '165640'
         - '619075'
       - ncbigene: '4953'
-      - omim: '165640'
       - refseq:
         - NP_001274118.1
         - NP_001274119.1
@@ -21119,9 +21144,9 @@
       - ensembl: ENSG00000115252
       - hgnc.symbol: PDE1A
       - hprd: '01387'
+      - mgi: MGI:1201792
       - mim: '171890'
       - ncbigene: '5136'
-      - omim: '171890'
       - refseq: NP_001003683.1
       - sbo: SBO:0000243
       - uniprot: P54750
@@ -21160,9 +21185,9 @@
         - DB09283
       - ensembl: ENSG00000184588
       - hgnc.symbol: PDE4B
+      - mgi: MGI:99557
       - mim: '600127'
       - ncbigene: '5142'
-      - omim: '600127'
       - refseq:
         - NP_001032418.1
         - NP_002591.2
@@ -21181,9 +21206,9 @@
         - DB09283
       - ensembl: ENSG00000205268
       - hgnc.symbol: PDE7A
+      - mgi: MGI:1202402
       - mim: '171885'
       - ncbigene: '5150'
-      - omim: '171885'
       - refseq: NP_001229247.1
       - sbo: SBO:0000243
       - uniprot: Q13946
@@ -21202,9 +21227,9 @@
       - ensembl: ENSG00000115252
       - hgnc.symbol: PDE1A
       - hprd: '01387'
+      - mgi: MGI:1201792
       - mim: '171890'
       - ncbigene: '5136'
-      - omim: '171890'
       - refseq: NP_001245242.1
       - sbo: SBO:0000243
       - uniprot: P54750
@@ -21224,6 +21249,7 @@
         - DB09283
       - ensembl: ENSG00000152270
       - hgnc.symbol: PDE3B
+      - mgi: MGI:1333863
       - mim: '602047'
       - ncbigene: '5140'
       - ncbigi:
@@ -21231,7 +21257,6 @@
         - '578820601'
         - '1034574197'
         - '1034574195'
-      - omim: '602047'
       - sbo: SBO:0000243
       - uniprot: Q13370
       - uniprot.isoform: Q13370-2
@@ -21246,11 +21271,11 @@
         - DB09283
       - ensembl: ENSG00000128655
       - hgnc.symbol: PDE11A
+      - mgi: MGI:3036251
       - mim:
         - '604961'
         - '610475'
       - ncbigene: '50940'
-      - omim: '604961'
       - refseq: NP_058649.3
       - sbo: SBO:0000243
       - uniprot: Q9HCR9
@@ -21266,12 +21291,12 @@
       - ensembl: ENSG00000113231
       - hgnc.symbol: PDE8B
       - hprd: '04546'
+      - mgi: MGI:2443999
       - mim:
         - '603390'
         - '609161'
         - '614190'
       - ncbigene: '8622'
-      - omim: '603390'
       - refseq: NP_003710.1
       - sbo: SBO:0000243
       - uniprot: O95263
@@ -21286,9 +21311,9 @@
         - DB09283
       - ensembl: ENSG00000073417
       - hgnc.symbol: PDE8A
+      - mgi: MGI:1277116
       - mim: '602972'
       - ncbigene: '5151'
-      - omim: '602972'
       - sbo: SBO:0000243
       - uniprot: O60658
       - uniprot.isoform: O60658-5
@@ -21303,9 +21328,9 @@
         - DB09283
       - ensembl: ENSG00000073417
       - hgnc.symbol: PDE8A
+      - mgi: MGI:1277116
       - mim: '602972'
       - ncbigene: '5151'
-      - omim: '602972'
       - refseq: NP_775656.1
       - sbo: SBO:0000243
       - uniprot: O60658
@@ -21346,11 +21371,11 @@
       - ensembl: ENSG00000113448
       - hgnc.symbol: PDE4D
       - hprd: '02530'
+      - mgi: MGI:99555
       - mim:
         - '600129'
         - '614613'
       - ncbigene: '5144'
-      - omim: '600129'
       - refseq: NP_001098101.1
       - sbo: SBO:0000243
       - uniprot: Q08499
@@ -21371,9 +21396,9 @@
       - ensembl: ENSG00000123360
       - hgnc.symbol: PDE1B
       - hprd: '01388'
+      - mgi: MGI:97523
       - mim: '171891'
       - ncbigene: '5153'
-      - omim: '171891'
       - refseq: NP_000915.1
       - sbo: SBO:0000243
       - uniprot: Q01064
@@ -21389,9 +21414,9 @@
         - DB09283
       - ensembl: ENSG00000073417
       - hgnc.symbol: PDE8A
+      - mgi: MGI:1277116
       - mim: '602972'
       - ncbigene: '5151'
-      - omim: '602972'
       - refseq: NP_002596.1
       - sbo: SBO:0000243
       - uniprot: O60658
@@ -21406,9 +21431,9 @@
         - DB09283
       - ensembl: ENSG00000073417
       - hgnc.symbol: PDE8A
+      - mgi: MGI:1277116
       - mim: '602972'
       - ncbigene: '5151'
-      - omim: '602972'
       - sbo: SBO:0000243
       - uniprot: O60658
       - uniprot.isoform: O60658-4
@@ -21422,9 +21447,9 @@
         - DB09283
       - ensembl: ENSG00000073417
       - hgnc.symbol: PDE8A
+      - mgi: MGI:1277116
       - mim: '602972'
       - ncbigene: '5151'
-      - omim: '602972'
       - sbo: SBO:0000243
       - uniprot: O60658
       - uniprot.isoform: O60658-3
@@ -21439,6 +21464,7 @@
       - ensembl: ENSG00000154678
       - hgnc.symbol: PDE1C
       - hprd: '04287'
+      - mgi: MGI:108413
       - mim:
         - '602987'
         - '618140'
@@ -21458,7 +21484,6 @@
         - '300796849'
         - '1034655796'
         - '4826894'
-      - omim: '602987'
       - refseq:
         - NP_001177986.1
         - NP_001177988.1
@@ -21486,9 +21511,9 @@
         - DB09283
       - ensembl: ENSG00000105650
       - hgnc.symbol: PDE4C
+      - mgi: MGI:99556
       - mim: '600128'
       - ncbigene: '5143'
-      - omim: '600128'
       - refseq:
         - NP_000914.2
         - NP_001317101.1
@@ -21523,9 +21548,9 @@
       - ensembl: ENSG00000065989
       - hgnc.symbol: PDE4A
       - hprd: '02527'
+      - mgi: MGI:99558
       - mim: '600126'
       - ncbigene: '5141'
-      - omim: '600126'
       - refseq: NP_001104777.1
       - sbo: SBO:0000243
       - uniprot: P27815
@@ -21546,6 +21571,7 @@
       - ensembl: ENSG00000186642
       - hgnc.symbol: PDE2A
       - hprd: '04041'
+      - mgi: MGI:2446107
       - mim:
         - '602658'
         - '619150'
@@ -21558,7 +21584,6 @@
         - '4505657'
         - '219802706'
         - '226246591'
-      - omim: '602658'
       - refseq: NP_002590.1
       - sbo: SBO:0000243
       - uniprot: O00408
@@ -21584,11 +21609,11 @@
         - DB09283
       - ensembl: ENSG00000172572
       - hgnc.symbol: PDE3A
+      - mgi: MGI:1860764
       - mim:
         - '112410'
         - '123805'
       - ncbigene: '5139'
-      - omim: '123805'
       - refseq: NP_000912.3
       - sbo: SBO:0000243
       - uniprot: Q14432
@@ -21605,9 +21630,9 @@
         - DB09283
       - ensembl: ENSG00000205268
       - hgnc.symbol: PDE7A
+      - mgi: MGI:1202402
       - mim: '171885'
       - ncbigene: '5150'
-      - omim: '171885'
       - refseq:
         - NP_002594.1
         - XP_011515842.1
@@ -21625,9 +21650,9 @@
       - ensembl: ENSG00000171408
       - hgnc.symbol: PDE7B
       - hprd: '06870'
+      - mgi: MGI:1352752
       - mim: '604645'
       - ncbigene: '27115'
-      - omim: '604645'
       - refseq: NP_061818.1
       - sbo: SBO:0000243
       - uniprot: Q9NP56
@@ -21647,6 +21672,7 @@
         - DB09283
       - ensembl: ENSG00000152270
       - hgnc.symbol: PDE3B
+      - mgi: MGI:1333863
       - mim: '602047'
       - ncbigene: '5140'
       - ncbigi:
@@ -21654,7 +21680,6 @@
         - '578820601'
         - '1034574197'
         - '1034574195'
-      - omim: '602047'
       - refseq: NP_000913.2
       - sbo: SBO:0000243
       - uniprot: Q13370
@@ -21672,11 +21697,11 @@
       - ensembl: ENSG00000108439
       - hgnc.symbol: PNPO
       - hprd: '04476'
+      - mgi: MGI:2144151
       - mim:
         - '603287'
         - '610090'
       - ncbigene: '55163'
-      - omim: '603287'
       - refseq: NP_060599.1
       - sbo: SBO:0000243
       - uniprot: Q9NVS9
@@ -21691,9 +21716,9 @@
         - DB00165
       - ensembl: ENSG00000241360
       - hgnc.symbol: PDXP
+      - mgi: MGI:1919282
       - mim: '609246'
       - ncbigene: '57026'
-      - omim: '609246'
       - refseq: NP_064711.1
       - sbo: SBO:0000243
       - uniprot: Q96GD0
@@ -21706,11 +21731,11 @@
       - drugbank: DB00709
       - ensembl: ENSG00000185813
       - hgnc.symbol: PCYT2
+      - mgi: MGI:1915921
       - mim:
         - '602679'
         - '618770'
       - ncbigene: '5833'
-      - omim: '602679'
       - refseq: NP_002852.1
       - sbo: SBO:0000243
       - uniprot: Q99447
@@ -21722,9 +21747,9 @@
       - ccds: CCDS33582.1
       - ensembl: ENSG00000141959
       - hgnc.symbol: PFKL
+      - mgi: MGI:97547
       - mim: '171860'
       - ncbigene: '5211'
-      - omim: '171860'
       - refseq: NP_002617.3
       - sbo: SBO:0000243
       - uniprot: P17858
@@ -21736,11 +21761,11 @@
       - ccds: CCDS8760.1
       - ensembl: ENSG00000152556
       - hgnc.symbol: PFKM
+      - mgi: MGI:97548
       - mim:
         - '232800'
         - '610681'
       - ncbigene: '5213'
-      - omim: '610681'
       - refseq:
         - NP_000280.1
         - NP_001160159.1
@@ -21754,9 +21779,9 @@
     - annotation: !!omap
       - ensembl: ENSG00000141959
       - hgnc.symbol: PFKL
+      - mgi: MGI:97547
       - mim: '171860'
       - ncbigene: '5211'
-      - omim: '171860'
       - sbo: SBO:0000243
       - uniprot: P17858
       - uniprot.isoform: P17858-2
@@ -21778,11 +21803,11 @@
         - DB03581
       - ensembl: ENSG00000105220
       - hgnc.symbol: GPI
+      - mgi: MGI:95797
       - mim:
         - '172400'
         - '613470'
       - ncbigene: '2821'
-      - omim: '172400'
       - refseq:
         - NP_000166.2
         - NP_001316838.1
@@ -21805,11 +21830,11 @@
       - ensembl: ENSG00000102144
       - hgnc.symbol: PGK1
       - hprd: '02412'
+      - mgi: MGI:97555
       - mim:
         - '300653'
         - '311800'
       - ncbigene: '5230'
-      - omim: '311800'
       - refseq: NP_000282.1
       - sbo: SBO:0000243
       - uniprot: P00558
@@ -21822,9 +21847,9 @@
       - ensembl: ENSG00000130313
       - hgnc.symbol: PGLS
       - hprd: '12001'
+      - mgi: MGI:1913421
       - mim: '604951'
       - ncbigene: '25796'
-      - omim: '604951'
       - refseq: NP_036220.1
       - sbo: SBO:0000243
       - uniprot: O95336
@@ -21845,11 +21870,11 @@
       - ensembl: ENSG00000120053
       - hgnc.symbol: GOT1
       - hprd: '00687'
+      - mgi: MGI:95791
       - mim:
         - '138180'
         - '614419'
       - ncbigene: '2805'
-      - omim: '138180'
       - refseq: NP_002070.1
       - sbo: SBO:0000243
       - uniprot: P17174
@@ -21862,6 +21887,7 @@
       - ensembl: ENSG00000149782
       - hgnc.symbol: PLCB3
       - hprd: '02577'
+      - mgi: MGI:104778
       - mim:
         - '600230'
         - '618961'
@@ -21872,7 +21898,6 @@
         - '767968359'
         - '296531339'
         - '1034574245'
-      - omim: '600230'
       - refseq:
         - NP_000923.1
         - NP_001303243.1
@@ -21887,9 +21912,9 @@
       - ensembl: ENSG00000107242
       - hgnc.symbol: PIP5K1B
       - hprd: '04121'
+      - mgi: MGI:107930
       - mim: '602745'
       - ncbigene: '8395'
-      - omim: '602745'
       - refseq:
         - NP_003549.1
         - XP_005252319.1
@@ -21908,9 +21933,9 @@
       - ensembl: ENSG00000150867
       - hgnc.symbol: PIP4K2A
       - hprd: '11931'
+      - mgi: MGI:1298206
       - mim: '603140'
       - ncbigene: '5305'
-      - omim: '603140'
       - refseq: NP_005019.2
       - sbo: SBO:0000243
       - uniprot: P48426
@@ -21922,11 +21947,11 @@
       - ccds: CCDS32872.1
       - ensembl: ENSG00000186111
       - hgnc.symbol: PIP5K1C
+      - mgi: MGI:1298224
       - mim:
         - '606102'
         - '611369'
       - ncbigene: '23396'
-      - omim: '606102'
       - refseq: NP_036530.1
       - sbo: SBO:0000243
       - uniprot: O60331
@@ -21954,9 +21979,9 @@
       - ensembl: ENSG00000276293
       - hgnc.symbol: PIP4K2B
       - hprd: '04463'
+      - mgi: MGI:1934234
       - mim: '603261'
       - ncbigene: '8396'
-      - omim: '603261'
       - sbo: SBO:0000243
       - uniprot: P78356
       - uniprot.isoform: P78356-2
@@ -21967,11 +21992,11 @@
       - ccds: CCDS2382.1
       - ensembl: ENSG00000115020
       - hgnc.symbol: PIKFYVE
+      - mgi: MGI:1335106
       - mim:
         - '121850'
         - '609414'
       - ncbigene: '200576'
-      - omim: '609414'
       - refseq: NP_055855.2
       - sbo: SBO:0000243
       - uniprot: Q9Y2I7
@@ -21982,11 +22007,11 @@
     - annotation: !!omap
       - ensembl: ENSG00000115020
       - hgnc.symbol: PIKFYVE
+      - mgi: MGI:1335106
       - mim:
         - '121850'
         - '609414'
       - ncbigene: '200576'
-      - omim: '609414'
       - sbo: SBO:0000243
       - uniprot: Q9Y2I7
       - uniprot.isoform: Q9Y2I7-3
@@ -21997,9 +22022,9 @@
       - ccds: CCDS44219.1
       - ensembl: ENSG00000143398
       - hgnc.symbol: PIP5K1A
+      - mgi: MGI:107929
       - mim: '603275'
       - ncbigene: '8394'
-      - omim: '603275'
       - refseq: NP_001129110.1
       - sbo: SBO:0000243
       - uniprot: Q99755
@@ -22013,9 +22038,9 @@
       - ensembl: ENSG00000276293
       - hgnc.symbol: PIP4K2B
       - hprd: '04463'
+      - mgi: MGI:1934234
       - mim: '603261'
       - ncbigene: '8396'
-      - omim: '603261'
       - refseq: NP_003550.1
       - sbo: SBO:0000243
       - uniprot: P78356
@@ -22027,11 +22052,11 @@
       - ccds: CCDS33368.1
       - ensembl: ENSG00000115020
       - hgnc.symbol: PIKFYVE
+      - mgi: MGI:1335106
       - mim:
         - '121850'
         - '609414'
       - ncbigene: '200576'
-      - omim: '609414'
       - refseq: NP_689884.1
       - sbo: SBO:0000243
       - uniprot: Q9Y2I7
@@ -22044,9 +22069,9 @@
       - ensembl: ENSG00000155252
       - hgnc.symbol: PI4K2A
       - hprd: '11431'
+      - mgi: MGI:1934031
       - mim: '609763'
       - ncbigene: '55361'
-      - omim: '609763'
       - refseq: NP_060895.1
       - sbo: SBO:0000243
       - uniprot: Q9BTU6
@@ -22060,11 +22085,11 @@
       - ensembl: ENSG00000143393
       - hgnc.symbol: PI4KB
       - hprd: '11805'
+      - mgi: MGI:1334433
       - mim:
         - '602758'
         - '620281'
       - ncbigene: '5298'
-      - omim: '602758'
       - refseq: NP_001317650.1
       - sbo: SBO:0000243
       - uniprot: Q9UBF8
@@ -22076,13 +22101,13 @@
       - ccds: CCDS33603.2
       - ensembl: ENSG00000241973
       - hgnc.symbol: PI4KA
+      - mgi: MGI:2448506
       - mim:
         - '600286'
         - '616531'
         - '619621'
         - '619708'
       - ncbigene: '5297'
-      - omim: '600286'
       - refseq: NP_477352.3
       - sbo: SBO:0000243
       - uniprot: P42356
@@ -22112,9 +22137,9 @@
       - ensembl: ENSG00000188257
       - hgnc.symbol: PLA2G2A
       - hprd: '01397'
+      - mgi: MGI:104642
       - mim: '172411'
       - ncbigene: '5320'
-      - omim: '172411'
       - refseq:
         - NP_000291.1
         - NP_001155199.1
@@ -22131,13 +22156,13 @@
       - drugbank: DB01103
       - ensembl: ENSG00000184381
       - hgnc.symbol: PLA2G6
+      - mgi: MGI:1859152
       - mim:
         - '256600'
         - '603604'
         - '610217'
         - '612953'
       - ncbigene: '8398'
-      - omim: '603604'
       - refseq: NP_003551.2
       - sbo: SBO:0000243
       - uniprot: O60733
@@ -22150,13 +22175,13 @@
       - drugbank: DB01103
       - ensembl: ENSG00000184381
       - hgnc.symbol: PLA2G6
+      - mgi: MGI:1859152
       - mim:
         - '256600'
         - '603604'
         - '610217'
         - '612953'
       - ncbigene: '8398'
-      - omim: '603604'
       - refseq:
         - NP_001004426.1
         - NP_001186491.1
@@ -22171,11 +22196,11 @@
       - ensembl: ENSG00000140650
       - hgnc.symbol: PMM2
       - hprd: '03472'
+      - mgi: MGI:1859214
       - mim:
         - '212065'
         - '601785'
       - ncbigene: '5373'
-      - omim: '601785'
       - refseq: NP_000294.1
       - sbo: SBO:0000243
       - uniprot: O15305
@@ -22187,12 +22212,12 @@
       - ensembl: ENSG00000138777
       - hgnc.symbol: PPA2
       - hprd: '18494'
+      - mgi: MGI:1922026
       - mim:
         - '609988'
         - '617222'
         - '617223'
       - ncbigene: '27068'
-      - omim: '609988'
       - sbo: SBO:0000243
       - uniprot: Q9H2U2
       - uniprot.isoform: Q9H2U2-2
@@ -22204,12 +22229,12 @@
       - ensembl: ENSG00000138777
       - hgnc.symbol: PPA2
       - hprd: '18494'
+      - mgi: MGI:1922026
       - mim:
         - '609988'
         - '617222'
         - '617223'
       - ncbigene: '27068'
-      - omim: '609988'
       - refseq: NP_789845.1
       - sbo: SBO:0000243
       - uniprot: Q9H2U2
@@ -22222,12 +22247,12 @@
       - ensembl: ENSG00000138777
       - hgnc.symbol: PPA2
       - hprd: '18494'
+      - mgi: MGI:1922026
       - mim:
         - '609988'
         - '617222'
         - '617223'
       - ncbigene: '27068'
-      - omim: '609988'
       - refseq: NP_008834.3
       - sbo: SBO:0000243
       - uniprot: Q9H2U2
@@ -22240,12 +22265,12 @@
       - ensembl: ENSG00000138777
       - hgnc.symbol: PPA2
       - hprd: '18494'
+      - mgi: MGI:1922026
       - mim:
         - '609988'
         - '617222'
         - '617223'
       - ncbigene: '27068'
-      - omim: '609988'
       - refseq: NP_789843.2
       - sbo: SBO:0000243
       - uniprot: Q9H2U2
@@ -22257,9 +22282,9 @@
       - ccds: CCDS34160.1
       - ensembl: ENSG00000067113
       - hgnc.symbol: PLPP1
+      - mgi: MGI:108412
       - mim: '607124'
       - ncbigene: '8611'
-      - omim: '607124'
       - refseq: NP_795714.1
       - sbo: SBO:0000243
       - uniprot: O14494
@@ -22271,9 +22296,9 @@
       - ccds: CCDS12023.1
       - ensembl: ENSG00000141934
       - hgnc.symbol: PLPP2
+      - mgi: MGI:1354945
       - mim: '607126'
       - ncbigene: '8612'
-      - omim: '607126'
       - refseq: NP_003703.1
       - sbo: SBO:0000243
       - uniprot: O43688
@@ -22285,9 +22310,9 @@
       - ccds: CCDS604.1
       - ensembl: ENSG00000162407
       - hgnc.symbol: PLPP3
+      - mgi: MGI:1915166
       - mim: '607125'
       - ncbigene: '8613'
-      - omim: '607125'
       - refseq: NP_003704.3
       - sbo: SBO:0000243
       - uniprot: O14495
@@ -22299,9 +22324,9 @@
       - ccds: CCDS34159.1
       - ensembl: ENSG00000067113
       - hgnc.symbol: PLPP1
+      - mgi: MGI:108412
       - mim: '607124'
       - ncbigene: '8611'
-      - omim: '607124'
       - refseq: NP_003702.2
       - sbo: SBO:0000243
       - uniprot: O14494
@@ -22322,11 +22347,11 @@
         - DB02272
       - ensembl: ENSG00000148218
       - hgnc.symbol: ALAD
+      - mgi: MGI:96853
       - mim:
         - '125270'
         - '612740'
       - ncbigene: '210'
-      - omim: '125270'
       - refseq: NP_000022.3
       - sbo: SBO:0000243
       - uniprot: P13716
@@ -22346,11 +22371,11 @@
         - DB02272
       - ensembl: ENSG00000148218
       - hgnc.symbol: ALAD
+      - mgi: MGI:96853
       - mim:
         - '125270'
         - '612740'
       - ncbigene: '210'
-      - omim: '125270'
       - refseq: NP_001003945.1
       - sbo: SBO:0000243
       - uniprot: P13716
@@ -22367,11 +22392,11 @@
       - ensembl: ENSG00000079739
       - hgnc.symbol: PGM1
       - hprd: '01389'
+      - mgi: MGI:97565
       - mim:
         - '171900'
         - '614921'
       - ncbigene: '5236'
-      - omim: '171900'
       - refseq: NP_002624.2
       - sbo: SBO:0000243
       - uniprot: P36871
@@ -22384,10 +22409,10 @@
       - ensembl: ENSG00000229937
       - hgnc.symbol: PRPS1L1
       - hprd: '17914'
+      - mgi: MGI:1922706
       - mim: '611566'
       - ncbigene: '221823'
       - ncbigi: '28557709'
-      - omim: '611566'
       - refseq: NP_787082.1
       - sbo: SBO:0000243
       - uniprot: P21108
@@ -22399,6 +22424,7 @@
       - ensembl: ENSG00000147224
       - hgnc.symbol: PRPS1
       - hprd: '02413'
+      - mgi: MGI:97775
       - mim:
         - '300661'
         - '301835'
@@ -22406,7 +22432,6 @@
         - '311070'
         - '311850'
       - ncbigene: '5631'
-      - omim: '311850'
       - refseq: NP_002755.1
       - sbo: SBO:0000243
       - uniprot: P60891
@@ -22419,10 +22444,10 @@
       - ensembl: ENSG00000229937
       - hgnc.symbol: PRPS1L1
       - hprd: '17914'
+      - mgi: MGI:1922706
       - mim: '611566'
       - ncbigene: '221823'
       - ncbigi: '28557709'
-      - omim: '611566'
       - refseq: NP_787082.1
       - sbo: SBO:0000243
       - uniprot: P21108
@@ -22441,11 +22466,11 @@
       - ensembl: ENSG00000160209
       - hgnc.symbol: PDXK
       - hprd: '01526'
+      - mgi: MGI:1351869
       - mim:
         - '179020'
         - '618511'
       - ncbigene: '8566'
-      - omim: '179020'
       - refseq: NP_003672.1
       - sbo: SBO:0000243
       - uniprot: O00764
@@ -22479,9 +22504,9 @@
         - DB00909
       - ensembl: ENSG00000138356
       - hgnc.symbol: AOX1
+      - mgi: MGI:88035
       - mim: '602841'
       - ncbigene: '316'
-      - omim: '602841'
       - refseq: NP_001150.3
       - sbo: SBO:0000243
       - uniprot: Q06278
@@ -22505,9 +22530,9 @@
         - DB00119
       - ensembl: ENSG00000067225
       - hgnc.symbol: PKM
+      - mgi: MGI:97591
       - mim: '179050'
       - ncbigene: '5315'
-      - omim: '179050'
       - refseq:
         - NP_872270.1
         - NP_872271.1
@@ -22528,12 +22553,12 @@
       - ensembl: ENSG00000143627
       - hgnc.symbol: PKLR
       - hprd: '11841'
+      - mgi: MGI:97604
       - mim:
         - '102900'
         - '266200'
         - '609712'
       - ncbigene: '5313'
-      - omim: '609712'
       - refseq: NP_870986.1
       - sbo: SBO:0000243
       - uniprot: P30613
@@ -22552,12 +22577,12 @@
       - ensembl: ENSG00000143627
       - hgnc.symbol: PKLR
       - hprd: '11841'
+      - mgi: MGI:97604
       - mim:
         - '102900'
         - '266200'
         - '609712'
       - ncbigene: '5313'
-      - omim: '609712'
       - refseq: NP_000289.1
       - sbo: SBO:0000243
       - uniprot: P30613
@@ -22580,9 +22605,9 @@
         - DB00119
       - ensembl: ENSG00000067225
       - hgnc.symbol: PKM
+      - mgi: MGI:97591
       - mim: '179050'
       - ncbigene: '5315'
-      - omim: '179050'
       - refseq: NP_001193727.1
       - sbo: SBO:0000243
       - uniprot: P14618
@@ -22606,9 +22631,9 @@
         - DB00119
       - ensembl: ENSG00000067225
       - hgnc.symbol: PKM
+      - mgi: MGI:97591
       - mim: '179050'
       - ncbigene: '5315'
-      - omim: '179050'
       - refseq:
         - NP_002645.3
         - XP_005254502.1
@@ -22625,9 +22650,9 @@
         - DB00140
       - ensembl: ENSG00000135002
       - hgnc.symbol: RFK
+      - mgi: MGI:1914688
       - mim: '613010'
       - ncbigene: '55312'
-      - omim: '613010'
       - refseq: NP_060809.3
       - sbo: SBO:0000243
       - uniprot: Q969G6
@@ -22642,9 +22667,9 @@
         - DB14006
       - ensembl: ENSG00000134255
       - hgnc.symbol: CEPT1
+      - mgi: MGI:2139793
       - mim: '616751'
       - ncbigene: '10390'
-      - omim: '616751'
       - refseq:
         - NP_001007795.1
         - NP_001317672.1
@@ -22659,9 +22684,9 @@
       - ensembl: ENSG00000139163
       - hgnc.symbol: ETNK1
       - hprd: '09934'
+      - mgi: MGI:1922570
       - mim: '609858'
       - ncbigene: '55500'
-      - omim: '609858'
       - refseq:
         - NP_001034570.1
         - NP_061108.2
@@ -22675,9 +22700,9 @@
       - ccds: CCDS1442.2
       - ensembl: ENSG00000143845
       - hgnc.symbol: ETNK2
+      - mgi: MGI:2443760
       - mim: '609859'
       - ncbigene: '55224'
-      - omim: '609859'
       - refseq: NP_060678.2
       - sbo: SBO:0000243
       - uniprot: Q9NVF9
@@ -22691,7 +22716,6 @@
       - hprd: '16375'
       - mim: '608717'
       - ncbigene: '29124'
-      - omim: '608717'
       - refseq: NP_037400.1
       - sbo: SBO:0000243
       - uniprot: Q9UHV8
@@ -22715,12 +22739,12 @@
         - DB08814
       - ensembl: ENSG00000112541
       - hgnc.symbol: PDE10A
+      - mgi: MGI:1345143
       - mim:
         - '610652'
         - '616921'
         - '616922'
       - ncbigene: '10846'
-      - omim: '610652'
       - refseq:
         - NP_006652.1
         - XP_011533690.1
@@ -22734,9 +22758,9 @@
       - ccds: CCDS3443.1
       - ensembl: ENSG00000169299
       - hgnc.symbol: PGM2
+      - mgi: MGI:97564
       - mim: '172000'
       - ncbigene: '55276'
-      - omim: '172000'
       - refseq: NP_060760.2
       - sbo: SBO:0000243
       - uniprot: Q96G03
@@ -22982,12 +23006,14 @@
         - DB00495
       - ensembl: ENSG00000118777
       - hgnc.symbol: ABCG2
+      - mgi:
+        - MGI:1347061
+        - MGI:1351624
       - mim:
         - '138900'
         - '603756'
         - '614490'
       - ncbigene: '9429'
-      - omim: '603756'
       - refseq:
         - NP_004818.2
         - XP_011530722.1
@@ -23001,9 +23027,9 @@
       - ccds: CCDS41871.1
       - ensembl: ENSG00000165475
       - hgnc.symbol: CRYL1
+      - mgi: MGI:1915881
       - mim: '609877'
       - ncbigene: '51084'
-      - omim: '609877'
       - refseq: NP_057058.2
       - sbo: SBO:0000243
       - uniprot: Q9Y2S2
@@ -23021,11 +23047,11 @@
       - ensembl: ENSG00000198650
       - hgnc.symbol: TAT
       - hprd: '11776'
+      - mgi: MGI:98487
       - mim:
         - '276600'
         - '613018'
       - ncbigene: '6898'
-      - omim: '613018'
       - refseq: NP_000344.1
       - sbo: SBO:0000243
       - uniprot: P17735
@@ -23037,9 +23063,9 @@
       - drugbank: DB00141
       - ensembl: ENSG00000102032
       - hgnc.symbol: RENBP
+      - mgi: MGI:105940
       - mim: '312420'
       - ncbigene: '5973'
-      - omim: '312420'
       - refseq: XP_016885187.1
       - sbo: SBO:0000243
       - uniprot: P51606
@@ -23052,9 +23078,9 @@
       - drugbank: DB00141
       - ensembl: ENSG00000124357
       - hgnc.symbol: NAGK
+      - mgi: MGI:1860418
       - mim: '606828'
       - ncbigene: '55577'
-      - omim: '606828'
       - refseq: NP_060037.3
       - sbo: SBO:0000243
       - uniprot: Q9UJ70
@@ -23067,11 +23093,11 @@
       - ensembl: ENSG00000095380
       - hgnc.symbol: NANS
       - hprd: '07285'
+      - mgi: MGI:2149820
       - mim:
         - '605202'
         - '610442'
       - ncbigene: '54187'
-      - omim: '605202'
       - refseq: NP_061819.2
       - sbo: SBO:0000243
       - uniprot: Q9NR45
@@ -23084,9 +23110,9 @@
       - ensembl: ENSG00000170191
       - hgnc.symbol: NANP
       - hprd: '17097'
+      - mgi: MGI:1914561
       - mim: '610763'
       - ncbigene: '140838'
-      - omim: '610763'
       - refseq: NP_689880.1
       - sbo: SBO:0000243
       - uniprot: Q8TBE9
@@ -23100,9 +23126,9 @@
         - DB04214
         - DB00173
       - hgnc.symbol: ACP1
+      - mgi: MGI:87881
       - mim: '171500'
       - ncbigene: '52'
-      - omim: '171500'
       - refseq: NP_004291.1
       - sbo: SBO:0000243
       - uniprot: P24666
@@ -23116,9 +23142,9 @@
         - DB04214
         - DB00173
       - hgnc.symbol: ACP1
+      - mgi: MGI:87881
       - mim: '171500'
       - ncbigene: '52'
-      - omim: '171500'
       - refseq: NP_009030.1
       - sbo: SBO:0000243
       - uniprot: P24666
@@ -23131,9 +23157,9 @@
         - DB04214
         - DB00173
       - hgnc.symbol: ACP1
+      - mgi: MGI:87881
       - mim: '171500'
       - ncbigene: '52'
-      - omim: '171500'
       - sbo: SBO:0000243
       - uniprot: P24666
       - uniprot.isoform: P24666-3
@@ -23169,11 +23195,11 @@
         - DB00194
       - ensembl: ENSG00000196839
       - hgnc.symbol: ADA
+      - mgi: MGI:87916
       - mim:
         - '102700'
         - '608958'
       - ncbigene: '100'
-      - omim: '608958'
       - refseq: NP_000013.2
       - sbo: SBO:0000243
       - uniprot: P00813
@@ -23196,6 +23222,7 @@
         - DB00495
       - ensembl: ENSG00000174669
       - hgnc.symbol: SLC29A2
+      - mgi: MGI:1345278
       - mim: '602110'
       - ncbigene: '3177'
       - refseq:
@@ -23218,11 +23245,11 @@
       - ensembl: ENSG00000106992
       - hgnc.symbol: AK1
       - hprd: '00046'
+      - mgi: MGI:87977
       - mim:
         - '103000'
         - '612631'
       - ncbigene: '203'
-      - omim: '103000'
       - refseq:
         - NP_000467.1
         - NP_001305050.1
@@ -23242,9 +23269,11 @@
         - DB01917
       - ensembl: ENSG00000123505
       - hgnc.symbol: AMD1
+      - mgi:
+        - MGI:1333111
+        - MGI:88004
       - mim: '180980'
       - ncbigene: '262'
-      - omim: '180980'
       - refseq: NP_001625.2
       - sbo: SBO:0000243
       - uniprot: P17707
@@ -23264,6 +23293,7 @@
       - ensembl: ENSG00000164742
       - hgnc.symbol: ADCY1
       - hprd: '00053'
+      - mgi: MGI:99677
       - mim:
         - '103072'
         - '610154'
@@ -23273,7 +23303,6 @@
         - '31083193'
         - '530384416'
         - '530384418'
-      - omim: '103072'
       - refseq: NP_066939.1
       - sbo: SBO:0000243
       - uniprot: Q08828
@@ -23287,9 +23316,9 @@
       - ensembl: ENSG00000162104
       - hgnc.symbol: ADCY9
       - hprd: '04489'
+      - mgi: MGI:108450
       - mim: '603302'
       - ncbigene: '115'
-      - omim: '603302'
       - refseq: NP_001107.2
       - sbo: SBO:0000243
       - uniprot: O60503
@@ -23302,9 +23331,9 @@
       - drugbank: DB02587
       - ensembl: ENSG00000121281
       - hgnc.symbol: ADCY7
+      - mgi: MGI:102891
       - mim: '600385'
       - ncbigene: '113'
-      - omim: '600385'
       - refseq:
         - NP_001105.1
         - XP_016878384.1
@@ -23323,13 +23352,13 @@
       - ensembl: ENSG00000173175
       - hgnc.symbol: ADCY5
       - hprd: '08973'
+      - mgi: MGI:99673
       - mim:
         - '600293'
         - '606703'
         - '619647'
         - '619651'
       - ncbigene: '111'
-      - omim: '600293'
       - refseq: NP_899200.1
       - sbo: SBO:0000243
       - uniprot: O95622
@@ -23343,11 +23372,11 @@
       - ensembl: ENSG00000174233
       - hgnc.symbol: ADCY6
       - hprd: '02621'
+      - mgi: MGI:87917
       - mim:
         - '600294'
         - '616287'
       - ncbigene: '112'
-      - omim: '600294'
       - refseq:
         - NP_056085.1
         - XP_006719273.1
@@ -23363,11 +23392,11 @@
       - ensembl: ENSG00000174233
       - hgnc.symbol: ADCY6
       - hprd: '02621'
+      - mgi: MGI:87917
       - mim:
         - '600294'
         - '616287'
       - ncbigene: '112'
-      - omim: '600294'
       - sbo: SBO:0000243
       - uniprot: O43306
       - uniprot.isoform: O43306-2
@@ -23382,9 +23411,9 @@
         - DB02587
       - ensembl: ENSG00000078295
       - hgnc.symbol: ADCY2
+      - mgi: MGI:99676
       - mim: '103071'
       - ncbigene: '108'
-      - omim: '103071'
       - refseq: NP_065433.2
       - sbo: SBO:0000243
       - uniprot: Q08462
@@ -23397,9 +23426,9 @@
       - drugbank: DB02587
       - ensembl: ENSG00000129467
       - hgnc.symbol: ADCY4
+      - mgi: MGI:99674
       - mim: '600292'
       - ncbigene: '196883'
-      - omim: '600292'
       - refseq:
         - NP_001185497.1
         - NP_001185521.1
@@ -23415,12 +23444,12 @@
       - drugbank: DB02587
       - ensembl: ENSG00000138031
       - hgnc.symbol: ADCY3
+      - mgi: MGI:99675
       - mim:
         - '600291'
         - '601665'
         - '617885'
       - ncbigene: '109'
-      - omim: '600291'
       - refseq: NP_004027.2
       - sbo: SBO:0000243
       - uniprot: O60266
@@ -23434,9 +23463,9 @@
       - ensembl: ENSG00000155897
       - hgnc.symbol: ADCY8
       - hprd: '00051'
+      - mgi: MGI:1341110
       - mim: '103070'
       - ncbigene: '114'
-      - omim: '103070'
       - refseq: NP_001106.1
       - sbo: SBO:0000243
       - uniprot: P40145
@@ -23457,11 +23486,11 @@
       - ensembl: ENSG00000156110
       - hgnc.symbol: ADK
       - hprd: '00039'
+      - mgi: MGI:87930
       - mim:
         - '102750'
         - '614300'
       - ncbigene: '132'
-      - omim: '102750'
       - refseq: NP_006712.2
       - sbo: SBO:0000243
       - uniprot: P55263
@@ -23482,11 +23511,11 @@
       - ensembl: ENSG00000156110
       - hgnc.symbol: ADK
       - hprd: '00039'
+      - mgi: MGI:87930
       - mim:
         - '102750'
         - '614300'
       - ncbigene: '132'
-      - omim: '102750'
       - refseq: NP_001114.2
       - sbo: SBO:0000243
       - uniprot: P55263
@@ -23518,6 +23547,7 @@
         - DB00943
       - ensembl: ENSG00000112759
       - hgnc.symbol: SLC29A1
+      - mgi: MGI:1927073
       - mim: '602193'
       - ncbigene: '2030'
       - refseq:
@@ -23545,11 +23575,11 @@
       - ensembl: ENSG00000198931
       - hgnc.symbol: APRT
       - hprd: '00029'
+      - mgi: MGI:88061
       - mim:
         - '102600'
         - '614723'
       - ncbigene: '353'
-      - omim: '102600'
       - refseq: NP_000476.1
       - sbo: SBO:0000243
       - uniprot: P07741
@@ -23574,9 +23604,9 @@
       - ensembl: ENSG00000026652
       - hgnc.symbol: AGPAT4
       - hprd: '12437'
+      - mgi: MGI:1915512
       - mim: '614795'
       - ncbigene: '56895'
-      - omim: '614795'
       - refseq: NP_064518.1
       - sbo: SBO:0000243
       - uniprot: Q9NRZ5
@@ -23588,9 +23618,9 @@
       - ensembl: ENSG00000160216
       - hgnc.symbol: AGPAT3
       - hprd: '10637'
+      - mgi: MGI:1336186
       - mim: '614794'
       - ncbigene: '56894'
-      - omim: '614794'
       - refseq:
         - XP_006724094.1
         - XP_011527963.1
@@ -23606,11 +23636,11 @@
       - ccds: CCDS7003.1
       - ensembl: ENSG00000169692
       - hgnc.symbol: AGPAT2
+      - mgi: MGI:1914762
       - mim:
         - '603100'
         - '608594'
       - ncbigene: '10555'
-      - omim: '603100'
       - refseq: NP_006403.2
       - sbo: SBO:0000243
       - uniprot: O15120
@@ -23623,9 +23653,9 @@
       - ensembl: ENSG00000204310
       - hgnc.symbol: AGPAT1
       - hprd: '04372'
+      - mgi: MGI:1932075
       - mim: '603099'
       - ncbigene: '10554'
-      - omim: '603099'
       - refseq:
         - NP_006402.1
         - NP_116130.2
@@ -23641,9 +23671,9 @@
       - ccds: CCDS34796.1
       - ensembl: ENSG00000155189
       - hgnc.symbol: AGPAT5
+      - mgi: MGI:1196345
       - mim: '614796'
       - ncbigene: '55326'
-      - omim: '614796'
       - refseq: NP_060831.2
       - sbo: SBO:0000243
       - uniprot: Q9NUQ2
@@ -23656,9 +23686,9 @@
       - ensembl: ENSG00000160216
       - hgnc.symbol: AGPAT3
       - hprd: '10637'
+      - mgi: MGI:1336186
       - mim: '614794'
       - ncbigene: '56894'
-      - omim: '614794'
       - refseq:
         - NP_001032642.1
         - NP_064517.1
@@ -23675,9 +23705,9 @@
       - ensembl: ENSG00000158669
       - hgnc.symbol: GPAT4
       - hprd: '12175'
+      - mgi: MGI:2142716
       - mim: '608143'
       - ncbigene: '137964'
-      - omim: '608143'
       - refseq:
         - NP_848934.1
         - XP_011542694.1
@@ -23700,11 +23730,13 @@
       - ensembl: ENSG00000101444
       - hgnc.symbol: AHCY
       - hprd: '01621'
+      - mgi:
+        - MGI:3643647
+        - MGI:87968
       - mim:
         - '180960'
         - '613752'
       - ncbigene: '191'
-      - omim: '180960'
       - refseq:
         - NP_000678.1
         - XP_016883198.1
@@ -23722,9 +23754,9 @@
       - ensembl: ENSG00000134294
       - hgnc.symbol: SLC38A2
       - hprd: '05535'
+      - mgi: MGI:1915010
       - mim: '605180'
       - ncbigene: '54407'
-      - omim: '605180'
       - refseq: NP_061849.2
       - sbo: SBO:0000243
       - uniprot: Q96QD8
@@ -23739,9 +23771,9 @@
         - DB00130
       - ensembl: ENSG00000111371
       - hgnc.symbol: SLC38A1
+      - mgi: MGI:2145895
       - mim: '608490'
       - ncbigene: '81539'
-      - omim: '608490'
       - refseq:
         - NP_001070952.1
         - NP_001265316.1
@@ -23761,9 +23793,9 @@
         - DB00129
       - ensembl: ENSG00000003989
       - hgnc.symbol: SLC7A2
+      - mgi: MGI:99828
       - mim: '601872'
       - ncbigene: '6542'
-      - omim: '601872'
       - refseq:
         - NP_001008539.3
         - XP_005273668.1
@@ -23786,9 +23818,9 @@
       - ensembl: ENSG00000268104
       - hgnc.symbol: SLC6A14
       - hprd: '02344'
+      - mgi: MGI:1890216
       - mim: '300444'
       - ncbigene: '11254'
-      - omim: '300444'
       - refseq: NP_009162.1
       - sbo: SBO:0000243
       - uniprot: Q9UN76
@@ -23805,9 +23837,9 @@
       - ensembl: ENSG00000139514
       - hgnc.symbol: SLC7A1
       - hprd: '00091'
+      - mgi: MGI:88117
       - mim: '104615'
       - ncbigene: '6541'
-      - omim: '104615'
       - refseq:
         - NP_003036.1
         - XP_005266564.1
@@ -23824,9 +23856,9 @@
       - ensembl: ENSG00000139209
       - hgnc.symbol: SLC38A4
       - hprd: '12159'
+      - mgi: MGI:1916604
       - mim: '608065'
       - ncbigene: '55089'
-      - omim: '608065'
       - refseq:
         - NP_001137296.1
         - NP_060488.2
@@ -23845,9 +23877,9 @@
         - DB00123
       - ensembl: ENSG00000165349
       - hgnc.symbol: SLC7A3
+      - mgi: MGI:1100521
       - mim: '300443'
       - ncbigene: '84889'
-      - omim: '300443'
       - refseq:
         - NP_001041629.1
         - NP_116192.4
@@ -23864,9 +23896,9 @@
       - ensembl: ENSG00000108602
       - hgnc.symbol: ALDH3A1
       - hprd: '00004'
+      - mgi: MGI:1353451
       - mim: '100660'
       - ncbigene: '218'
-      - omim: '100660'
       - refseq:
         - NP_000682.3
         - NP_001128639.1
@@ -23881,9 +23913,9 @@
       - drugbank: DB00157
       - ensembl: ENSG00000143149
       - hgnc.symbol: ALDH9A1
+      - mgi: MGI:1861622
       - mim: '602733'
       - ncbigene: '223'
-      - omim: '602733'
       - sbo: SBO:0000243
       - uniprot: P49189
       - uniprot.isoform: P49189-1
@@ -23899,11 +23931,11 @@
       - ensembl: ENSG00000128918
       - hgnc.symbol: ALDH1A2
       - hprd: '04733'
+      - mgi: MGI:107928
       - mim:
         - '603687'
         - '620025'
       - ncbigene: '8854'
-      - omim: '603687'
       - refseq: NP_733797.1
       - sbo: SBO:0000243
       - uniprot: O94788
@@ -23922,9 +23954,11 @@
       - ensembl: ENSG00000165092
       - hgnc.symbol: ALDH1A1
       - hprd: '00001'
+      - mgi:
+        - MGI:1347050
+        - MGI:1353450
       - mim: '100640'
       - ncbigene: '216'
-      - omim: '100640'
       - refseq: NP_000680.2
       - sbo: SBO:0000243
       - uniprot: P00352
@@ -23936,6 +23970,7 @@
       - ccds: CCDS41617.1
       - ensembl: ENSG00000133805
       - hgnc.symbol: AMPD3
+      - mgi: MGI:1096344
       - mim:
         - '102772'
         - '612874'
@@ -23946,7 +23981,6 @@
         - '4502079'
         - '70906428'
         - '70906426'
-      - omim: '102772'
       - refseq:
         - NP_001020560.1
         - NP_001165901.1
@@ -23961,11 +23995,11 @@
       - ensembl: ENSG00000164978
       - hgnc.symbol: NUDT2
       - hprd: '04168'
+      - mgi: MGI:1913651
       - mim:
         - '602852'
         - '619844'
       - ncbigene: '318'
-      - omim: '602852'
       - refseq:
         - NP_001152.1
         - NP_001231319.1
@@ -23981,11 +24015,11 @@
       - ensembl: ENSG00000164978
       - hgnc.symbol: NUDT2
       - hprd: '04168'
+      - mgi: MGI:1913651
       - mim:
         - '602852'
         - '619844'
       - ncbigene: '318'
-      - omim: '602852'
       - refseq:
         - NP_001152.1
         - NP_001231319.1
@@ -24002,11 +24036,11 @@
       - ensembl: ENSG00000164978
       - hgnc.symbol: NUDT2
       - hprd: '04168'
+      - mgi: MGI:1913651
       - mim:
         - '602852'
         - '619844'
       - ncbigene: '318'
-      - omim: '602852'
       - refseq:
         - NP_001152.1
         - NP_001231319.1
@@ -24036,11 +24070,11 @@
       - ensembl: ENSG00000118520
       - hgnc.symbol: ARG1
       - hprd: '01947'
+      - mgi: MGI:88070
       - mim:
         - '207800'
         - '608313'
       - ncbigene: '383'
-      - omim: '608313'
       - refseq: NP_000036.2
       - sbo: SBO:0000243
       - uniprot: P05089
@@ -24192,11 +24226,11 @@
       - ensembl: ENSG00000111700
       - hgnc.symbol: SLCO1B3
       - hprd: '12021'
+      - mgi: MGI:1351899
       - mim:
         - '237450'
         - '605495'
       - ncbigene: '28234'
-      - omim: '605495'
       - refseq: NP_062818.1
       - sbo: SBO:0000243
       - uniprot: Q9NPD5
@@ -24397,11 +24431,11 @@
         - DB12026
       - ensembl: ENSG00000134538
       - hgnc.symbol: SLCO1B1
+      - mgi: MGI:1351899
       - mim:
         - '237450'
         - '604843'
       - ncbigene: '10599'
-      - omim: '604843'
       - refseq: NP_006437.3
       - sbo: SBO:0000243
       - uniprot: Q9Y6L6
@@ -24451,9 +24485,9 @@
         - DB00313
       - ensembl: ENSG00000244474
       - hgnc.symbol: UGT1A4
+      - mgi: MGI:3032634
       - mim: '606429'
       - ncbigene: '54657'
-      - omim: '606429'
       - refseq: NP_009051.1
       - sbo: SBO:0000243
       - uniprot: P22310
@@ -24597,6 +24631,7 @@
         - DB00909
       - ensembl: ENSG00000241635
       - hgnc.symbol: UGT1A1
+      - mgi: MGI:98898
       - mim:
         - '143500'
         - '191740'
@@ -24605,7 +24640,6 @@
         - '601816'
         - '606785'
       - ncbigene: '54658'
-      - omim: '191740'
       - refseq: NP_000454.1
       - sbo: SBO:0000243
       - uniprot: P22309
@@ -24618,6 +24652,7 @@
       - drugbank: DB00157
       - ensembl: ENSG00000106605
       - hgnc.symbol: BLVRA
+      - mgi: MGI:88170
       - mim:
         - '109750'
         - '614156'
@@ -24627,7 +24662,6 @@
         - '767945692'
         - '359465572'
         - '33589854'
-      - omim: '109750'
       - refseq:
         - NP_000703.2
         - NP_001240752.1
@@ -24647,6 +24681,7 @@
         - DB01074
       - ensembl: ENSG00000110090
       - hgnc.symbol: CPT1A
+      - mgi: MGI:1098296
       - mim:
         - '255120'
         - '600528'
@@ -24657,7 +24692,6 @@
         - '530396300'
         - '1034572036'
         - '530396298'
-      - omim: '600528'
       - refseq:
         - NP_001867.2
         - XP_016872709.1
@@ -24675,6 +24709,7 @@
       - ensembl: ENSG00000157184
       - hgnc.symbol: CPT2
       - hprd: '02802'
+      - mgi: MGI:109176
       - mim:
         - '255110'
         - '600649'
@@ -24682,7 +24717,6 @@
         - '608836'
         - '614212'
       - ncbigene: '1376'
-      - omim: '600650'
       - refseq: NP_000089.1
       - sbo: SBO:0000243
       - uniprot: P23786
@@ -24698,11 +24732,11 @@
         - DB01236
       - ensembl: ENSG00000070961
       - hgnc.symbol: ATP2B1
+      - mgi: MGI:104653
       - mim:
         - '108731'
         - '619910'
       - ncbigene: '490'
-      - omim: '108731'
       - sbo: SBO:0000243
       - uniprot: P20020
       - uniprot.isoform: P20020-1
@@ -24718,9 +24752,9 @@
       - ensembl: ENSG00000058668
       - hgnc.symbol: ATP2B4
       - hprd: '00159'
+      - mgi: MGI:88111
       - mim: '108732'
       - ncbigene: '493'
-      - omim: '108732'
       - sbo: SBO:0000243
       - uniprot: P23634
       - uniprot.isoform: P23634-1
@@ -24782,6 +24816,7 @@
         - DB00495
       - ensembl: ENSG00000125257
       - hgnc.symbol: ABCC4
+      - mgi: MGI:2443111
       - mim: '605250'
       - ncbigene: '10257'
       - refseq: NP_005836.2
@@ -24804,12 +24839,12 @@
       - ensembl: ENSG00000121691
       - hgnc.symbol: CAT
       - hprd: '00282'
+      - mgi: MGI:88271
       - mim:
         - '115500'
         - '614097'
       - ncbigene: '847'
       - ncbigi: '4557014'
-      - omim: '115500'
       - refseq: NP_001743.1
       - sbo: SBO:0000243
       - uniprot: P04040
@@ -24822,9 +24857,9 @@
       - drugbank: DB03106
       - ensembl: ENSG00000103502
       - hgnc.symbol: CDIPT
+      - mgi: MGI:105491
       - mim: '605893'
       - ncbigene: '10423'
-      - omim: '605893'
       - refseq: NP_006310.1
       - sbo: SBO:0000243
       - uniprot: O14735
@@ -24836,9 +24871,9 @@
       - drugbank: DB03106
       - ensembl: ENSG00000103502
       - hgnc.symbol: CDIPT
+      - mgi: MGI:105491
       - mim: '605893'
       - ncbigene: '10423'
-      - omim: '605893'
       - sbo: SBO:0000243
       - uniprot: O14735
       - uniprot.isoform: O14735-2
@@ -24850,9 +24885,9 @@
       - ensembl: ENSG00000163624
       - hgnc.symbol: CDS1
       - hprd: '11944'
+      - mgi: MGI:1921846
       - mim: '603548'
       - ncbigene: '1040'
-      - omim: '603548'
       - refseq: NP_001254.2
       - sbo: SBO:0000243
       - uniprot: Q92903
@@ -24865,9 +24900,9 @@
       - ensembl: ENSG00000111666
       - hgnc.symbol: CHPT1
       - hprd: '13052'
+      - mgi: MGI:2384841
       - mim: '616747'
       - ncbigene: '56994'
-      - omim: '616747'
       - refseq: NP_064629.2
       - sbo: SBO:0000243
       - uniprot: Q8WUD6
@@ -24898,11 +24933,11 @@
       - ensembl: ENSG00000161217
       - hgnc.symbol: PCYT1A
       - hprd: '00438'
+      - mgi: MGI:88557
       - mim:
         - '123695'
         - '608940'
       - ncbigene: '5130'
-      - omim: '123695'
       - refseq:
         - NP_001299602.1
         - NP_005008.2
@@ -24920,9 +24955,9 @@
       - ensembl: ENSG00000102230
       - hgnc.symbol: PCYT1B
       - hprd: '05376'
+      - mgi: MGI:2147987
       - mim: '300948'
       - ncbigene: '9468'
-      - omim: '300948'
       - refseq: NP_004836.2
       - sbo: SBO:0000243
       - uniprot: Q9Y5K3
@@ -24938,11 +24973,11 @@
       - ensembl: ENSG00000100288
       - hgnc.symbol: CHKB
       - hprd: '07631'
+      - mgi: MGI:1328313
       - mim:
         - '602541'
         - '612395'
       - ncbigene: '1120'
-      - omim: '612395'
       - refseq: NP_005189.2
       - sbo: SBO:0000243
       - uniprot: Q9Y259
@@ -24957,6 +24992,7 @@
         - DB14006
       - ensembl: ENSG00000110721
       - hgnc.symbol: CHKA
+      - mgi: MGI:107760
       - mim:
         - '118491'
         - '620023'
@@ -24966,7 +25002,6 @@
         - '47078276'
         - '1034571809'
         - '47078278'
-      - omim: '118491'
       - refseq: NP_997634.1
       - sbo: SBO:0000243
       - uniprot: P35790
@@ -24981,6 +25016,7 @@
         - DB14006
       - ensembl: ENSG00000110721
       - hgnc.symbol: CHKA
+      - mgi: MGI:107760
       - mim:
         - '118491'
         - '620023'
@@ -24990,7 +25026,6 @@
         - '47078276'
         - '1034571809'
         - '47078278'
-      - omim: '118491'
       - refseq: NP_001268.2
       - sbo: SBO:0000243
       - uniprot: P35790
@@ -25005,11 +25040,11 @@
       - ensembl: ENSG00000100288
       - hgnc.symbol: CHKB
       - hprd: '07631'
+      - mgi: MGI:1328313
       - mim:
         - '602541'
         - '612395'
       - ncbigene: '1120'
-      - omim: '612395'
       - sbo: SBO:0000243
       - uniprot: Q9Y259
       - uniprot.isoform: Q9Y259-2
@@ -25024,12 +25059,12 @@
       - ensembl: ENSG00000115665
       - hgnc.symbol: SLC5A7
       - hprd: '12294'
+      - mgi: MGI:1927126
       - mim:
         - '158580'
         - '608761'
         - '617143'
       - ncbigene: '60482'
-      - omim: '608761'
       - refseq:
         - NP_001291934.1
         - NP_068587.1
@@ -25044,12 +25079,12 @@
       - ensembl: ENSG00000080819
       - hgnc.symbol: CPOX
       - hprd: '00417'
+      - mgi: MGI:104841
       - mim:
         - '121300'
         - '612732'
         - '618892'
       - ncbigene: '1371'
-      - omim: '612732'
       - refseq: NP_000088.3
       - sbo: SBO:0000243
       - uniprot: P36551
@@ -25061,9 +25096,9 @@
       - ccds: CCDS11006.1
       - ensembl: ENSG00000167703
       - hgnc.symbol: SLC43A2
+      - mgi: MGI:2442746
       - mim: '610791'
       - ncbigene: '124935'
-      - omim: '610791'
       - refseq: NP_689559.1
       - sbo: SBO:0000243
       - uniprot: Q8N370
@@ -25084,9 +25119,9 @@
       - ensembl: ENSG00000162368
       - hgnc.symbol: CMPK1
       - hprd: '18258'
+      - mgi: MGI:1913838
       - mim: '191710'
       - ncbigene: '51727'
-      - omim: '191710'
       - sbo: SBO:0000243
       - uniprot: P30085
       - uniprot.isoform: P30085-1
@@ -25124,13 +25159,13 @@
         - DB00313
       - ensembl: ENSG00000155380
       - hgnc.symbol: SLC16A1
+      - mgi: MGI:106013
       - mim:
         - '245340'
         - '600682'
         - '610021'
         - '616095'
       - ncbigene: '6566'
-      - omim: '600682'
       - refseq:
         - NP_001159968.1
         - NP_003042.3
@@ -25147,9 +25182,9 @@
         - DB00144
       - ensembl: ENSG00000058866
       - hgnc.symbol: DGKG
+      - mgi: MGI:105060
       - mim: '601854'
       - ncbigene: '1608'
-      - omim: '601854'
       - refseq: NP_001337.2
       - sbo: SBO:0000243
       - uniprot: P49619
@@ -25162,9 +25197,9 @@
       - drugbank: DB14001
       - ensembl: ENSG00000145214
       - hgnc.symbol: DGKQ
+      - mgi: MGI:102918
       - mim: '601207'
       - ncbigene: '1609'
-      - omim: '601207'
       - refseq: NP_001338.2
       - sbo: SBO:0000243
       - uniprot: P52824
@@ -25178,6 +25213,7 @@
       - ensembl: ENSG00000149091
       - hgnc.symbol: DGKZ
       - hprd: '03260'
+      - mgi: MGI:1278339
       - mim: '601441'
       - ncbigene: '8525'
       - ncbigi:
@@ -25197,7 +25233,6 @@
         - '530395899'
         - '41872522'
         - '578820883'
-      - omim: '601441'
       - refseq: NP_963290.1
       - sbo: SBO:0000243
       - uniprot: Q13574
@@ -25211,9 +25246,9 @@
       - ensembl: ENSG00000102780
       - hgnc.symbol: DGKH
       - hprd: '07237'
+      - mgi: MGI:2444188
       - mim: '604071'
       - ncbigene: '160851'
-      - omim: '604071'
       - refseq: NP_821077.1
       - sbo: SBO:0000243
       - uniprot: Q86XP1
@@ -25227,6 +25262,7 @@
       - ensembl: ENSG00000149091
       - hgnc.symbol: DGKZ
       - hprd: '03260'
+      - mgi: MGI:1278339
       - mim: '601441'
       - ncbigene: '8525'
       - ncbigi:
@@ -25246,7 +25282,6 @@
         - '530395899'
         - '41872522'
         - '578820883'
-      - omim: '601441'
       - refseq: NP_001099010.1
       - sbo: SBO:0000243
       - uniprot: Q13574
@@ -25260,11 +25295,11 @@
       - ensembl: ENSG00000153933
       - hgnc.symbol: DGKE
       - hprd: '03259'
+      - mgi: MGI:1889276
       - mim:
         - '601440'
         - '615008'
       - ncbigene: '8526'
-      - omim: '601440'
       - refseq: NP_003638.1
       - sbo: SBO:0000243
       - uniprot: P52429
@@ -25280,9 +25315,9 @@
       - ensembl: ENSG00000065357
       - hgnc.symbol: DGKA
       - hprd: '00517'
+      - mgi: MGI:102952
       - mim: '125855'
       - ncbigene: '1606'
-      - omim: '125855'
       - refseq:
         - NP_001336.2
         - NP_958852.1
@@ -25300,6 +25335,7 @@
       - ensembl: ENSG00000136267
       - hgnc.symbol: DGKB
       - hprd: '06819'
+      - mgi: MGI:2442474
       - mim: '604070'
       - ncbigene: '1607'
       - ncbigi:
@@ -25324,7 +25360,6 @@
         - '530384507'
         - '1034654296'
         - '1034654285'
-      - omim: '604070'
       - refseq: XP_011513456.1
       - sbo: SBO:0000243
       - uniprot: Q9Y6T7
@@ -25338,6 +25373,7 @@
       - ensembl: ENSG00000149091
       - hgnc.symbol: DGKZ
       - hprd: '03260'
+      - mgi: MGI:1278339
       - mim: '601441'
       - ncbigene: '8525'
       - ncbigi:
@@ -25357,7 +25393,6 @@
         - '530395899'
         - '41872522'
         - '578820883'
-      - omim: '601441'
       - refseq: NP_001186196.1
       - sbo: SBO:0000243
       - uniprot: Q13574
@@ -25371,6 +25406,7 @@
       - ensembl: ENSG00000136267
       - hgnc.symbol: DGKB
       - hprd: '06819'
+      - mgi: MGI:2442474
       - mim: '604070'
       - ncbigene: '1607'
       - ncbigi:
@@ -25395,7 +25431,6 @@
         - '530384507'
         - '1034654296'
         - '1034654285'
-      - omim: '604070'
       - refseq: NP_663733.1
       - sbo: SBO:0000243
       - uniprot: Q9Y6T7
@@ -25409,9 +25444,9 @@
       - ensembl: ENSG00000102780
       - hgnc.symbol: DGKH
       - hprd: '07237'
+      - mgi: MGI:2444188
       - mim: '604071'
       - ncbigene: '160851'
-      - omim: '604071'
       - refseq:
         - NP_001191433.1
         - NP_690874.2
@@ -25427,6 +25462,7 @@
       - ensembl: ENSG00000157680
       - hgnc.symbol: DGKI
       - hprd: '07238'
+      - mgi: MGI:2443430
       - mim: '604072'
       - ncbigene: '9162'
       - ncbigi:
@@ -25446,7 +25482,6 @@
         - '1012282637'
         - '1034657395'
         - '1034657389'
-      - omim: '604072'
       - refseq:
         - NP_001308637.1
         - NP_001308638.1
@@ -25466,9 +25501,9 @@
       - ensembl: ENSG00000077044
       - hgnc.symbol: DGKD
       - hprd: '03492'
+      - mgi: MGI:2138334
       - mim: '601826'
       - ncbigene: '8527'
-      - omim: '601826'
       - refseq: NP_003639.2
       - sbo: SBO:0000243
       - uniprot: Q16760
@@ -25484,9 +25519,9 @@
       - ensembl: ENSG00000077044
       - hgnc.symbol: DGKD
       - hprd: '03492'
+      - mgi: MGI:2138334
       - mim: '601826'
       - ncbigene: '8527'
-      - omim: '601826'
       - refseq: NP_690618.2
       - sbo: SBO:0000243
       - uniprot: Q16760
@@ -25510,6 +25545,7 @@
         - DB02709
       - ensembl: ENSG00000117394
       - hgnc.symbol: SLC2A1
+      - mgi: MGI:95755
       - mim:
         - '138140'
         - '601042'
@@ -25557,12 +25593,12 @@
       - ensembl: ENSG00000093010
       - hgnc.symbol: COMT
       - hprd: '00284'
+      - mgi: MGI:88470
       - mim:
         - '103780'
         - '116790'
         - '181500'
       - ncbigene: '1312'
-      - omim: '116790'
       - refseq: NP_009294.1
       - sbo: SBO:0000243
       - uniprot: P21964
@@ -25602,12 +25638,12 @@
       - ensembl: ENSG00000093010
       - hgnc.symbol: COMT
       - hprd: '00284'
+      - mgi: MGI:88470
       - mim:
         - '103780'
         - '116790'
         - '181500'
       - ncbigene: '1312'
-      - omim: '116790'
       - refseq:
         - NP_000745.1
         - NP_001128633.1
@@ -25666,9 +25702,9 @@
       - ensembl: ENSG00000146477
       - hgnc.symbol: SLC22A3
       - hprd: '05328'
+      - mgi: MGI:1333817
       - mim: '604842'
       - ncbigene: '6581'
-      - omim: '604842'
       - refseq: NP_068812.1
       - sbo: SBO:0000243
       - uniprot: O75751
@@ -25790,9 +25826,9 @@
         - DB00495
       - ensembl: ENSG00000112499
       - hgnc.symbol: SLC22A2
+      - mgi: MGI:1335072
       - mim: '602608'
       - ncbigene: '6582'
-      - omim: '602608'
       - sbo: SBO:0000243
       - uniprot: O15244
       - uniprot.isoform: O15244-2
@@ -25914,9 +25950,9 @@
         - DB00495
       - ensembl: ENSG00000112499
       - hgnc.symbol: SLC22A2
+      - mgi: MGI:1335072
       - mim: '602608'
       - ncbigene: '6582'
-      - omim: '602608'
       - refseq: NP_003049.2
       - sbo: SBO:0000243
       - uniprot: O15244
@@ -25928,6 +25964,7 @@
       - ccds: CCDS5833.1
       - ensembl: ENSG00000172331
       - hgnc.symbol: BPGM
+      - mgi: MGI:1098242
       - mim:
         - '222800'
         - '613896'
@@ -25937,7 +25974,6 @@
         - '641386940'
         - '4502445'
         - '767948600'
-      - omim: '613896'
       - refseq:
         - NP_001280014.1
         - NP_001715.1
@@ -25953,6 +25989,7 @@
       - ccds: CCDS5833.1
       - ensembl: ENSG00000172331
       - hgnc.symbol: BPGM
+      - mgi: MGI:1098242
       - mim:
         - '222800'
         - '613896'
@@ -25962,7 +25999,6 @@
         - '641386940'
         - '4502445'
         - '767948600'
-      - omim: '613896'
       - refseq:
         - NP_001280014.1
         - NP_001715.1
@@ -25985,9 +26021,11 @@
       - ensembl: ENSG00000074800
       - hgnc.symbol: ENO1
       - hprd: '01400'
+      - mgi:
+        - MGI:3648653
+        - MGI:95393
       - mim: '172430'
       - ncbigene: '2023'
-      - omim: '172430'
       - refseq: NP_001419.1
       - sbo: SBO:0000243
       - uniprot: P06733
@@ -26002,9 +26040,9 @@
         - DB00171
       - ensembl: ENSG00000151726
       - hgnc.symbol: ACSL1
+      - mgi: MGI:102797
       - mim: '152425'
       - ncbigene: '2180'
-      - omim: '152425'
       - refseq:
         - NP_001273637.1
         - NP_001986.2
@@ -26022,6 +26060,7 @@
         - DB06408
       - ensembl: ENSG00000197594
       - hgnc.symbol: ENPP1
+      - mgi: MGI:97370
       - mim:
         - '125853'
         - '173335'
@@ -26030,7 +26069,6 @@
         - '613312'
         - '615522'
       - ncbigene: '5167'
-      - omim: '173335'
       - refseq: NP_006199.2
       - sbo: SBO:0000243
       - uniprot: P22413
@@ -26053,11 +26091,11 @@
       - ensembl: ENSG00000149925
       - hgnc.symbol: ALDOA
       - hprd: '00070'
+      - mgi: MGI:87994
       - mim:
         - '103850'
         - '611881'
       - ncbigene: '226'
-      - omim: '103850'
       - refseq:
         - NP_001121089.1
         - NP_908930.1
@@ -26085,11 +26123,11 @@
       - ensembl: ENSG00000149925
       - hgnc.symbol: ALDOA
       - hprd: '00070'
+      - mgi: MGI:87994
       - mim:
         - '103850'
         - '611881'
       - ncbigene: '226'
-      - omim: '103850'
       - refseq:
         - NP_000025.1
         - NP_001121089.1
@@ -26107,9 +26145,9 @@
       - ensembl: ENSG00000109107
       - hgnc.symbol: ALDOC
       - hprd: '02386'
+      - mgi: MGI:101863
       - mim: '103870'
       - ncbigene: '230'
-      - omim: '103870'
       - refseq:
         - NP_005156.1
         - XP_005258006.1
@@ -26135,11 +26173,11 @@
       - ensembl: ENSG00000149925
       - hgnc.symbol: ALDOA
       - hprd: '00070'
+      - mgi: MGI:87994
       - mim:
         - '103850'
         - '611881'
       - ncbigene: '226'
-      - omim: '103850'
       - refseq: NP_001230106.1
       - sbo: SBO:0000243
       - uniprot: P04075
@@ -26164,11 +26202,11 @@
       - ensembl: ENSG00000165140
       - hgnc.symbol: FBP1
       - hprd: '01973'
+      - mgi: MGI:95492
       - mim:
         - '229700'
         - '611570'
       - ncbigene: '2203'
-      - omim: '611570'
       - refseq:
         - NP_000498.2
         - NP_001121100.1
@@ -26189,9 +26227,9 @@
         - DB02515
       - ensembl: ENSG00000158571
       - hgnc.symbol: PFKFB1
+      - mgi: MGI:107816
       - mim: '311790'
       - ncbigene: '5207'
-      - omim: '311790'
       - refseq: NP_002616.2
       - sbo: SBO:0000243
       - uniprot: P16118
@@ -26203,9 +26241,9 @@
       - ccds: CCDS7078.1
       - ensembl: ENSG00000170525
       - hgnc.symbol: PFKFB3
+      - mgi: MGI:2181202
       - mim: '605319'
       - ncbigene: '5209'
-      - omim: '605319'
       - refseq: NP_004557.1
       - sbo: SBO:0000243
       - uniprot: Q16875
@@ -26218,11 +26256,11 @@
       - ensembl: ENSG00000130957
       - hgnc.symbol: FBP2
       - hprd: '04322'
+      - mgi: MGI:95491
       - mim:
         - '603027'
         - '619864'
       - ncbigene: '8789'
-      - omim: '603027'
       - refseq: NP_003828.2
       - sbo: SBO:0000243
       - uniprot: O00757
@@ -26237,9 +26275,9 @@
         - DB04395
       - ensembl: ENSG00000114268
       - hgnc.symbol: PFKFB4
+      - mgi: MGI:2687284
       - mim: '605320'
       - ncbigene: '5210'
-      - omim: '605320'
       - refseq: NP_004558.1
       - sbo: SBO:0000243
       - uniprot: Q16877
@@ -26251,9 +26289,9 @@
       - ccds: CCDS31004.1
       - ensembl: ENSG00000123836
       - hgnc.symbol: PFKFB2
+      - mgi: MGI:107815
       - mim: '171835'
       - ncbigene: '5208'
-      - omim: '171835'
       - refseq: NP_006203.2
       - sbo: SBO:0000243
       - uniprot: O60825
@@ -26267,11 +26305,11 @@
       - ensembl: ENSG00000066926
       - hgnc.symbol: FECH
       - hprd: '01509'
+      - mgi: MGI:95513
       - mim:
         - '177000'
         - '612386'
       - ncbigene: '2235'
-      - omim: '612386'
       - refseq: NP_000131.2
       - sbo: SBO:0000243
       - uniprot: P22830
@@ -26285,11 +26323,11 @@
       - ensembl: ENSG00000066926
       - hgnc.symbol: FECH
       - hprd: '01509'
+      - mgi: MGI:95513
       - mim:
         - '177000'
         - '612386'
       - ncbigene: '2235'
-      - omim: '612386'
       - refseq: NP_001012533.1
       - sbo: SBO:0000243
       - uniprot: P22830
@@ -26301,11 +26339,11 @@
       - ccds: CCDS1079.1
       - ensembl: ENSG00000160688
       - hgnc.symbol: FLAD1
+      - mgi: MGI:2443030
       - mim:
         - '255100'
         - '610595'
       - ncbigene: '80308'
-      - omim: '610595'
       - refseq: NP_958800.1
       - sbo: SBO:0000243
       - uniprot: Q8NFF5
@@ -26317,11 +26355,11 @@
       - ccds: CCDS1078.1
       - ensembl: ENSG00000160688
       - hgnc.symbol: FLAD1
+      - mgi: MGI:2443030
       - mim:
         - '255100'
         - '610595'
       - ncbigene: '80308'
-      - omim: '610595'
       - refseq: NP_079483.3
       - sbo: SBO:0000243
       - uniprot: Q8NFF5
@@ -26337,6 +26375,7 @@
         - DB09502
       - ensembl: ENSG00000197241
       - hgnc.symbol: SLC2A7
+      - mgi: MGI:3650865
       - mim: '610371'
       - ncbigene: '155184'
       - refseq: NP_997303.2
@@ -26354,6 +26393,7 @@
         - DB09344
       - ensembl: ENSG00000142583
       - hgnc.symbol: SLC2A5
+      - mgi: MGI:1928369
       - mim: '138230'
       - ncbigene: '6518'
       - refseq:
@@ -26376,6 +26416,7 @@
         - DB00428
       - ensembl: ENSG00000163581
       - hgnc.symbol: SLC2A2
+      - mgi: MGI:1095438
       - mim:
         - '138160'
         - '227810'
@@ -26412,6 +26453,7 @@
         - DB09502
       - ensembl: ENSG00000136856
       - hgnc.symbol: SLC2A8
+      - mgi: MGI:1860103
       - mim: '605245'
       - ncbigene: '29988'
       - refseq:
@@ -26429,12 +26471,12 @@
       - ensembl: ENSG00000091483
       - hgnc.symbol: FH
       - hprd: '00652'
+      - mgi: MGI:95530
       - mim:
         - '136850'
         - '150800'
         - '606812'
       - ncbigene: '2271'
-      - omim: '136850'
       - refseq: NP_000134.2
       - sbo: SBO:0000243
       - uniprot: P07954
@@ -26449,9 +26491,11 @@
         - DB15456
       - ensembl: ENSG00000061918
       - hgnc.symbol: GUCY1B1
+      - mgi: MGI:1860604
       - mim: '139397'
       - ncbigene: '2983'
       - refseq: NP_000848.1
+      - sbo: SBO:0000243
       - uniprot: Q02153
       - uniprot.isoform: Q02153-1
   - !!omap
@@ -26462,6 +26506,7 @@
       - drugbank: DB09401
       - ensembl: ENSG00000164116
       - hgnc.symbol: GUCY1A1
+      - mgi: MGI:1926562
       - mim:
         - '139396'
         - '615750'
@@ -26472,6 +26517,7 @@
         - NP_001124155.1
         - NP_001124156.1
         - NP_001243378.1
+      - sbo: SBO:0000243
       - uniprot: Q02108
       - uniprot.isoform: Q02108-1
   - !!omap
@@ -26481,6 +26527,7 @@
       - drugbank: DB09401
       - hgnc.symbol: GUCY1B2
       - mim: '603695'
+      - sbo: SBO:0000243
       - uniprot: O75343
       - uniprot.isoform: O75343-1
   - !!omap
@@ -26500,9 +26547,11 @@
         - DB08931
       - ensembl: ENSG00000152402
       - hgnc.symbol: GUCY1A2
+      - mgi: MGI:2660877
       - mim: '601244'
       - ncbigene: '2977'
       - refseq: NP_000846.1
+      - sbo: SBO:0000243
       - uniprot: P33402
       - uniprot.isoform: P33402-1
   - !!omap
@@ -26539,9 +26588,11 @@
         - DB14548
       - ensembl: ENSG00000239672
       - hgnc.symbol: NME1
+      - mgi: MGI:97355
       - mim: '156490'
       - ncbigene: '4830'
       - refseq: NP_937818.1
+      - sbo: SBO:0000243
       - uniprot: P15531
       - uniprot.isoform: P15531-2
   - !!omap
@@ -26578,9 +26629,11 @@
         - DB14548
       - ensembl: ENSG00000239672
       - hgnc.symbol: NME1
+      - mgi: MGI:97355
       - mim: '156490'
       - ncbigene: '4830'
       - refseq: NP_000260.1
+      - sbo: SBO:0000243
       - uniprot: P15531
       - uniprot.isoform: P15531-1
   - !!omap
@@ -26600,6 +26653,7 @@
         - DB00300
       - ensembl: ENSG00000243678
       - hgnc.symbol: NME2
+      - mgi: MGI:97356
       - mim: '156491'
       - ncbigene:
         - '4831'
@@ -26609,6 +26663,7 @@
         - NP_001018148.1
         - NP_001018149.1
         - NP_002503.1
+      - sbo: SBO:0000243
       - uniprot: P22392
       - uniprot.isoform: P22392-1
   - !!omap
@@ -26619,9 +26674,11 @@
       - drugbank: DB00134
       - ensembl: ENSG00000038274
       - hgnc.symbol: MAT2B
+      - mgi: MGI:1913667
       - mim: '605527'
       - ncbigene: '27430'
       - refseq: NP_037415.1
+      - sbo: SBO:0000243
       - uniprot: Q9NZL9
       - uniprot.isoform: Q9NZL9-1
   - !!omap
@@ -26632,9 +26689,11 @@
       - drugbank: DB00134
       - ensembl: ENSG00000038274
       - hgnc.symbol: MAT2B
+      - mgi: MGI:1913667
       - mim: '605527'
       - ncbigene: '27430'
       - refseq: NP_877725.1
+      - sbo: SBO:0000243
       - uniprot: Q9NZL9
       - uniprot.isoform: Q9NZL9-2
   - !!omap
@@ -26647,9 +26706,11 @@
         - DB00134
       - ensembl: ENSG00000168906
       - hgnc.symbol: MAT2A
+      - mgi: MGI:2443731
       - mim: '601468'
       - ncbigene: '4144'
       - refseq: NP_005902.1
+      - sbo: SBO:0000243
       - uniprot: P31153
       - uniprot.isoform: P31153-1
   - !!omap
@@ -26663,9 +26724,11 @@
         - DB16690
       - ensembl: ENSG00000143153
       - hgnc.symbol: ATP1B1
+      - mgi: MGI:88108
       - mim: '182330'
       - ncbigene: '481'
       - refseq: NP_001668.1
+      - sbo: SBO:0000243
       - uniprot: P05026
       - uniprot.isoform: P05026-1
   - !!omap
@@ -26679,9 +26742,11 @@
         - DB16690
       - ensembl: ENSG00000069849
       - hgnc.symbol: ATP1B3
+      - mgi: MGI:107788
       - mim: '601867'
       - ncbigene: '483'
       - refseq: NP_001670.1
+      - sbo: SBO:0000243
       - uniprot: P54709
       - uniprot.isoform: P54709-1
   - !!omap
@@ -26695,11 +26760,13 @@
         - DB16690
       - ensembl: ENSG00000129244
       - hgnc.symbol: ATP1B2
+      - mgi: MGI:88109
       - mim: '182331'
       - ncbigene: '482'
       - refseq:
         - NP_001290192.1
         - NP_001669.3
+      - sbo: SBO:0000243
       - uniprot: P14415
       - uniprot.isoform: P14415-1
   - !!omap
@@ -26709,9 +26776,11 @@
       - ccds: CCDS48158.1
       - ensembl: ENSG00000101892
       - hgnc.symbol: ATP1B4
+      - mgi: MGI:1915071
       - mim: '301073'
       - ncbigene: '23439'
       - refseq: NP_001135919.1
+      - sbo: SBO:0000243
       - uniprot: Q9UN42
       - uniprot.isoform: Q9UN42-1
   - !!omap
@@ -26752,12 +26821,14 @@
         - DB01021
       - ensembl: ENSG00000163399
       - hgnc.symbol: ATP1A1
+      - mgi: MGI:88105
       - mim:
         - '182310'
         - '618036'
         - '618314'
       - ncbigene: '476'
       - refseq: NP_000692.2
+      - sbo: SBO:0000243
       - uniprot: P05023
       - uniprot.isoform: P05023-1
 - id: iAB_RBC_283
