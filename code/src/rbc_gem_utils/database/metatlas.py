@@ -10,7 +10,6 @@ import requests
 import pathlib
 import pandas as pd
 from rbc_gem_utils.util import RAW_GH_URL, DATABASE_PATH, ROOT_PATH, check_if_valid
-from warnings import warn
 
 LOGGER = logging.getLogger(__name__)
 HUMANGEM_VERSION_EXPECTED = "1.18.0"

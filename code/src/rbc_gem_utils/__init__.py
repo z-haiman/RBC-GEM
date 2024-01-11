@@ -3,6 +3,10 @@
 from .annotation import (
     get_annotation_df, get_id_annotation_mapping
 )
+from .database import (
+    check_database_version_online,
+    check_version
+)
 from .io import (
     read_rbc_model, write_rbc_model, 
     read_cobra_model, write_cobra_model

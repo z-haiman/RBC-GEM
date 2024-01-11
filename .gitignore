@@ -326,3 +326,8 @@ data/external/*
 !data/external/database*
 !data/external/*/*.zip
 
+# DrugBank, MIM data should remain local, keave .keep files for repo structure
+data/external/database/DrugBank/*
+data/external/database/MIM/*
+!data/external/database/*/*.keep
+

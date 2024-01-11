@@ -83,3 +83,11 @@ def check_if_valid(to_check, valid_values, msg):
     
     return to_check
 
+
+def strip_plural(string):
+    if string.endswith("ies"):
+        return f'{string.rstrip("ies")}y'
+    elif string.endswith("s"):
+        return string.rstrip("s")
+    else:
+        return string

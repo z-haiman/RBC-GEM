@@ -24,7 +24,6 @@ dependencies = [
   "memote",
   "notebook",
   "depinfo",
-  "requests",
 ]
 requires-python = ">=3.8"
 authors = [
@@ -46,6 +45,7 @@ classifiers = [
 dynamic = ["version", "readme"]
 
 [project.optional-dependencies]
+database = ["beautifulsoup4", "requests"]
 vis = ["seaborn", "matplotlib"]
 
 [project.urls]

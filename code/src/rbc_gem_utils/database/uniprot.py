@@ -35,7 +35,8 @@ UNIPROT_ISOFORM_ID_RE = re.compile("|".join([s + "-[0-9]{1,2}" for s in UNIPROT_
 # Extracted from https://www.uniprot.org/help/return_fields, 
 # Extracted from https://www.uniprot.org/help/return_fields_databases
 # Note some corrections were made due to what looked like typos in table
-UNIPROT_EXPECTED_VERSION = '2023_05'
+# TODO Add the BeautifulSoup methods for table extraction
+UNIPROT_VERSION_EXPECTED = '2023_05'
 UNIPROT_QUERY_LABEL_MIRIAM = {
     # query field: label, https://identifiers.org/
     ## Names & Taxonomy
@@ -80,13 +81,13 @@ UNIPROT_QUERY_LABEL_MIRIAM = {
     "cc_catalytic_activity": ("Catalytic activity", ""),
     "cc_cofactor": ("Cofactor", ""),
     "ft_dna_bind": ("DNA binding", ""),
-    "ec": ("EC number", ""),
+    "ec": ("EC number", "ec-code"),
     "cc_function": ("Function [CC]", ""),
     "kinetics": ("Kinetics", ""),
     "cc_pathway": ("Pathway", ""),
     "ph_dependence": ("pH dependence", ""),
     "redox_potential": ("Redox potential", ""),
-    "rhea": ("Rhea ID", ""),
+    "rhea": ("Rhea ID", "rhea"),
     "ft_site": ("Site", ""),
     "temp_dependence": ("Temperature dependence", ""),
     ## Miscellaneous
@@ -111,7 +112,7 @@ UNIPROT_QUERY_LABEL_MIRIAM = {
     ## Gene Ontology (GO)
     "go_p": ("Gene Ontology (biological process)", ""),
     "go_c": ("Gene Ontology (cellular component)", ""),
-    "go": ("Gene Ontology (GO)", ""),
+    "go": ("Gene Ontology (GO)", "GO"),
     "go_f": ("Gene Ontology (molecular function)", ""),
     "go_id": ("Gene Ontology IDs", ""),
     ## Pathology & Biotech
@@ -128,7 +129,7 @@ UNIPROT_QUERY_LABEL_MIRIAM = {
     "ft_topo_dom": ("Topological domain", ""),
     "ft_transmem": ("Transmembrane", ""),
     ## PTM / Processsing
-    "ft_chain": ("Chain", ""),
+    "ft_chain": ("Chain", "uniprot.chain"),
     "ft_crosslnk": ("Cross-link", ""),
     "ft_disulfid": ("Disulfide bond", ""),
     "ft_carbohyd": ("Glycosylation", ""),
@@ -146,7 +147,7 @@ UNIPROT_QUERY_LABEL_MIRIAM = {
     "ft_helix": ("Helix", ""),
     "ft_turn": ("Turn", ""),
     ## Publications
-    "lit_pubmed_id": ("PubMed ID", ""),
+    "lit_pubmed_id": ("PubMed ID", "pubmed"),
     ## Date of
     "date_created": ("Date of creation", ""),
     "date_modified": ("Date of last modification", ""),
@@ -476,7 +477,7 @@ def get_version_UniProt():
     return match.group("release")
 
 
-def get_annotation_to_fromdb_UniProt(miriam_only=True):
+def get_annotation_to_from_db_UniProt(miriam_only=True):
     """Return possible databases for UniProtID mapping.
 
     Parameters
@@ -499,17 +500,30 @@ def get_annotation_to_fromdb_UniProt(miriam_only=True):
     response.raise_for_status()
     results_json = json.loads(response.text)
 
-    annotation_to_fromdb = {}
+    # Ensure UniProt understands that it can map to itself :)
+    annotation_to_fromdb = {
+        "uniprot": "UniProtKB", 
+        "uniprot.isoform": "UniProtKB-Swiss-Prot"
+    }
     label_miriam_mapping = get_label_miriam_mapping_UniProt(get_query_fields_UniProt(miriam_only))
     for result in results_json["results"]:
         abbrev = result["abbrev"]
         if label_miriam_mapping.get(abbrev):
             annotation_to_fromdb[label_miriam_mapping.get(abbrev)] = abbrev
-
+    
     return annotation_to_fromdb
 
+def parse_chains_UniProt(df_chains):
+    chain_re = re.compile(r'id=\W(?P<chain_id>PRO_\d+)')
+    for idx, (uniprot_id, uniprot_chain_value) in df_chains.loc[:, ["uniprot", "uniprot.chain"]].iterrows():
+        df_chains.loc[idx, "uniprot.chain"] = build_string([
+            chain_re.search(chain).group("chain_id")
+            for chain in uniprot_chain_value.split("; /")
+            if chain_re.search(chain)
+        ])
+    return df_chains
 
-def parse_isoforms_UniProt(df_isoforms, add_canonical=False):
+def parse_isoforms_UniProt(df_isoforms, add_canonical=False, fill_missing_isoform=False):
     """TODO DOCSTRING"""
     total_count = df_isoforms["uniprot.isoform"].replace("ALTERNATIVE PRODUCTS:  ", float("nan")).count()
     LOGGER.info("Number of entries with defined isoforms: {total_count}", total_count)
@@ -536,7 +550,8 @@ def parse_isoforms_UniProt(df_isoforms, add_canonical=False):
                     LOGGER.info("Number of parsed isoforms  (%s) does not match expected number (%s).", len(isoforms), expected_num)
         else:
             # Add the `-1` suffix for the isoform, but do not use it for the canonical form 
-            isoforms += [f"{uniprot_id}-1"]
+            if fill_missing_isoform:
+                isoforms += [f"{uniprot_id}-1"]
         df_isoforms.loc[idx, "uniprot.isoform"] = build_string(isoforms)
         if add_canonical:
             df_isoforms.loc[idx, "uniprot.canonical"] = canonical
