@@ -316,10 +316,18 @@ octave-workspace
 Results/
 
 # RBC-GEM
-## Data folders should be ignored
+## Data folders should be ignored.
 data/raw/*
 data/interim/*
 data/processed/*
-## Leave ZIP files for external data, ignore all else
 data/external/*
+## Leave README files for data
+## Leave ZIP for external data and database files
+!data/external/database*
 !data/external/*/*.zip
+
+# DrugBank, MIM data should remain local, keave .keep files for repo structure
+data/external/database/DrugBank/*
+data/external/database/MIM/*
+!data/external/database/*/*.keep
+

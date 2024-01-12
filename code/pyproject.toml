@@ -45,7 +45,8 @@ classifiers = [
 dynamic = ["version", "readme"]
 
 [project.optional-dependencies]
-all = ["simplejson"]
+database = ["beautifulsoup4", "requests"]
+vis = ["seaborn", "matplotlib"]
 
 [project.urls]
 "MEMOTE Report" = "https://z-haiman.github.io/RBC-GEM/"
