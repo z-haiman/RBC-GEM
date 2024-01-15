@@ -438,30 +438,49 @@ def query_UniProt(query_ids, query_parameters, from_db, to_db="UniProtKB", retur
     try:
         assert len(set(query_ids)) == len(query_ids), "Duplicate IDs in list to query, will correct before query"
     except AssertionError as e:
-        warn(e)
+        warn(str(e))
         query_ids = set(query_ids)
 
     # Create session
     session = create_session()
     # Map to UniProt, IDs that fail typically are secondary accessions, considered obsolete, or are unreviewed
     job_id = submit_id_mapping(
-        from_db=from_db, 
-        to_db=to_db,  # To UniProtKB IDs
+        from_db="UniProtKB", 
+        to_db="UniProtKB",  # To UniProtKB IDs
         ids=query_ids
     )
     if check_id_mapping_results_ready(session, job_id):
         link = get_id_mapping_results_link(session, job_id)
         link = add_query_parameters(link, **query_parameters)
         results = get_id_mapping_results_search(session, link)
+
         df_results = get_data_frame_from_tsv_results(results)
         failed_ids = sorted(set(query_ids).difference(df_results["From"]))
         if failed_ids:
             LOGGER.warning(f"Number of failed query IDs : {len(failed_ids)}")
+            request = session.get(f"{API_URL}/idmapping/status/{job_id}")
+            check_response(request)
+            result = request.json()
+            unmapped_ids = set(failed_ids).difference(result.get("failedIds", {}))
+            failed_ids = set(result.get("failedIds", {}))
+            if len(failed_ids) != 0:
+                LOGGER.warning(f"Number of failed IDs : {len(failed_ids)}")
+            obsolete_count = result.get("obsoleteCount", 0)
+            if obsolete_count != 0:
+                LOGGER.warning(f"Number of obsolete IDs : {obsolete_count}")
 
-    if return_failed:
-        return df_results, failed_ids
-    
-    return df_results
+            uniparc = uniparc = {
+                suggestion["from"]: suggestion["to"]
+                for suggestion in result.get("suggestedIds", {})
+                if suggestion
+            }
+        else:
+            unmapped_ids, failed_ids, uniparc = set(), set(), dict()
+
+        if return_failed:
+            return df_results, uniparc, failed_ids, unmapped_ids
+
+        return df_results
 
 
 def get_version_UniProt():
@@ -600,6 +619,25 @@ def get_id_mapping_results_link(session, job_id):
     request = session.get(url)
     check_response(request)
     return request.json()["redirectURL"]
+
+def get_query_id_categories_UniProt(session, job_id):
+    request = session.get(f"{API_URL}/idmapping/status/{job_id}")
+    check_response(request)
+    result = request.json()
+    print(request.keys())
+    try:
+        obselete_count = result["obseleteCount"]
+        failed_ids = result["failedIds"]
+        uniparc = {
+            suggestion["from"]: suggestion["to"]
+            for suggestion in result["suggestedIds"]
+        }
+    except KeyError:
+        return dict(), [], 0
+
+    else:
+
+        return uniparc, failed_ids, obselete_count
 
 def get_next_link(headers):
     re_next_link = re.compile(r'<(.+)>; rel="next"')
