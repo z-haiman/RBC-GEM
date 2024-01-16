@@ -22,6 +22,7 @@ INTERIM_PATH = "/data/interim"
 PROCESSED_PATH = "/data/processed"
 EXTERNAL_PATH = "/data/external"
 ANNOTATION_PATH = "/data/annotation"
+CURATION_PATH = "/data/curation"
 DATABASE_PATH = f"{EXTERNAL_PATH}/database"
 
 

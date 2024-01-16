@@ -21,6 +21,7 @@ from .util import (
     ANNOTATION_PATH,
     INTERIM_PATH,
     EXTERNAL_PATH,
+    CURATION_PATH,
     GEM_NAME, 
     COBRA_CONFIGURATION,
     build_string,
