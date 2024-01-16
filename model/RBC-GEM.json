@@ -10092,6 +10092,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"203_AT1",
+"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"ADK1",
 "biocyc":"META:ADENYL-KIN-RXN",
@@ -10179,6 +10180,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"107_AT1 or 108_AT1 or 109_AT1 or 111_AT1 or 112_AT1 or 112_AT2 or 113_AT1 or 114_AT1 or 115_AT1 or 196883_AT1",
+"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"ADNCYC",
 "biocyc":"META:ADENYLATECYC-RXN",
@@ -10235,6 +10237,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"132_AT1 or 132_AT2",
+"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"ADNK1",
 "biocyc":"META:ADENOSINE-KINASE-RXN",
@@ -11883,6 +11886,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"216_AT1 or 218_AT1 or 223_AT1 or 8854_AT2",
+"subsystem":"Pyruvate metabolism",
 "annotation":{
 "bigg.reaction":"ALDD2x",
 "biocyc":"META:RXN66-3",
@@ -12288,6 +12292,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"272_AT1",
+"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"AMPDA",
 "biocyc":"META:AMP-DEAMINASE-RXN",
@@ -12320,6 +12325,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"318_AT1 or 318_AT2 or 318_AT3",
+"subsystem":"Nucleotide metabolism",
 "annotation":{
 "bigg.reaction":"AP4AH1",
 "biocyc":"META:RXN-12820",
@@ -13434,6 +13440,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(2974_AT1 and 2977_AT1) or (2974_AT1 and 2982_AT1) or (2977_AT1 and 2983_AT1) or (2982_AT1 and 2983_AT1) or 2984_AT1 or 2986_AT1 or 3000_AT1 or 4881_AT1 or 4882_AT1 or 4882_AT2",
+"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"GUACYC",
 "biocyc":"META:GUANYLCYC-RXN",
@@ -13614,6 +13621,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(4830_AT1 and 4831_AT1) or (4830_AT2 and 4831_AT1) or 4832_AT1 or 10201_AT1 or 29922_AT1 or 29922_AT2",
+"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"NDPK1",
 "biocyc":"META:GDPKIN-RXN",
@@ -13789,6 +13797,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(4830_AT1 and 4831_AT1) or (4830_AT2 and 4831_AT1) or 4832_AT1 or 10201_AT1 or 29922_AT1 or 29922_AT2",
+"subsystem":"Pyrimidine metabolism",
 "annotation":{
 "bigg.reaction":"NDPK2",
 "biocyc":"META:UDPKIN-RXN",
@@ -13816,6 +13825,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"(4830_AT1 and 4831_AT1) or (4830_AT2 and 4831_AT1) or 4832_AT1 or 10201_AT1 or 29922_AT1 or 29922_AT2",
+"subsystem":"Pyrimidine metabolism",
 "annotation":{
 "bigg.reaction":"NDPK3",
 "biocyc":"META:CDPKIN-RXN",
@@ -15071,6 +15081,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"3614_AT1 or 3614_AT2 or 3615_AT1",
+"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"IMPD",
 "biocyc":"META:IMP-DEHYDROG-RXN",
@@ -15221,6 +15232,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"2987_AT1",
+"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"GK1",
 "biocyc":"META:GUANYL-KIN-RXN",
@@ -15490,6 +15502,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"22978_AT1",
+"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"NTD7",
 "biocyc":"META:AMP-DEPHOSPHORYLATION-RXN",
@@ -15684,6 +15697,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"22978_AT1",
+"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"NTD9",
 "biocyc":"META:RXN-7609",
@@ -15852,6 +15866,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"2766_AT1",
+"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"GMPR",
 "biocyc":"META:GMP-REDUCT-RXN",
@@ -15914,6 +15929,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"8833_AT1",
+"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"GMPS2",
 "biocyc":"META:GMP-SYN-GLUT-RXN",
@@ -19580,6 +19596,7 @@
 "lower_bound":0.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"5136_AT1 or 5136_AT2 or 5137_AT1 or 5138_AT1 or 5139_AT1 or 5140_AT1 or 5140_AT2 or 5141_AT1 or 5142_AT1 or 5143_AT1 or 5144_AT1 or 5150_AT1 or 5150_AT2 or 5151_AT1 or 5151_AT2 or 5151_AT3 or 5151_AT4 or 5151_AT5 or 5153_AT1 or 8622_AT1 or 10846_AT1 or 27115_AT1 or 50940_AT1",
+"subsystem":"Purine metabolism",
 "annotation":{
 "bigg.reaction":"PDE1",
 "biocyc":"META:RXN0-5038",
@@ -20452,6 +20469,7 @@
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"51727_AT1",
+"subsystem":"Pyrimidine metabolism",
 "annotation":{
 "bigg.reaction":"UMPK",
 "biocyc":"META:RXN-12002",

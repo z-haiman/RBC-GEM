@@ -20,8 +20,11 @@ from .util import (
     DATABASE_PATH, 
     ANNOTATION_PATH,
     INTERIM_PATH,
+    EXTERNAL_PATH,
     GEM_NAME, 
-    COBRA_CONFIGURATION, 
+    COBRA_CONFIGURATION,
+    build_string,
+    split_string, 
     show_versions,
 )
 from .visualization import (

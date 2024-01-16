@@ -320,11 +320,10 @@ Results/
 data/raw/*
 data/interim/*
 data/processed/*
-data/external/*
 ## Leave README files for data
-## Leave ZIP for external data and database files
+## Leave ZIP for deprecated data and database files
 !data/external/database*
-!data/external/*/*.zip
+!.deprecated/model/**/**.zip
 
 # DrugBank, MIM data should remain local, keave .keep files for repo structure
 data/external/database/DrugBank/*
