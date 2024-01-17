@@ -23,6 +23,7 @@ from .util import (
     EXTERNAL_PATH,
     CURATION_PATH,
     GEM_NAME, 
+    GEM_URL,
     COBRA_CONFIGURATION,
     build_string,
     split_string, 

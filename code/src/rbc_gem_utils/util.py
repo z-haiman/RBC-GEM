@@ -27,6 +27,8 @@ DATABASE_PATH = f"{EXTERNAL_PATH}/database"
 
 
 GEM_NAME = "RBC-GEM"
+GEM_URL = f"{RAW_GH_URL}/z-haiman/{GEM_NAME}"
+GEM_MODEL_FILETYPES = {'mat', 'json', 'xml', 'yml'}
 
 
 def show_versions():
