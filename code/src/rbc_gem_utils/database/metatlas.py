@@ -107,7 +107,7 @@ def get_annotations_HumanGEM(
     return df_annotations
 
 
-def download_database_HumanGEM(annotation_type=None, database_dirpath=None, model_filetype=None, model_version=None):
+def download_database_HumanGEM(annotation_type=None, database_dirpath=None, model_filetype=None, model_version="xml"):
     """Download the HumanGEM database files. Requires internet connection.
 
     Default values are used based on the RBC-GEM repository format.
@@ -140,10 +140,7 @@ def download_database_HumanGEM(annotation_type=None, database_dirpath=None, mode
     else:
         annotation_type = check_if_valid(annotation_type, valid, "Unrecognized annotations for Human-GEM")
 
-    if model_filetype is None:
-        model_filetype = ["xml"]
-    else:
-        model_filetype = check_if_valid(model_filetype, HUMANGEM_MODEL_FILETYPES, "Unrecognized filetypes for Human-GEM")
+    model_filetype = check_if_valid(model_filetype, HUMANGEM_MODEL_FILETYPES, "Unrecognized filetypes for Human-GEM")
 
     if database_dirpath is not None:
         # Ensure the path exists

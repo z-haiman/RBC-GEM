@@ -1,7 +1,51 @@
 import pandas as pd
 from cobra import DictList
+import logging
+from rbc_gem_utils.util import ensure_iterable, build_string, check_if_valid
 
-from rbc_gem_utils.util import ensure_iterable, build_string
+LOGGER = logging.getLogger(__name__)
+
+def set_sbo_default_annotations(model, annotation_type, verbose=False):
+    """Set default SBO annotations on the model."""
+    annotation_type = check_if_valid(annotation_type, ["reactions", "metabolites", "genes"], "Unrecognized annotations for Human-GEM")
+    for attr in annotation_type:
+        for model_object in getattr(model, attr):
+            if attr == "reactions":
+                if model_object.boundary and model_object in model.exchanges:
+                    sbo_term = "SBO:0000627" # Exchange reaction
+                elif model_object.boundary and model_object in model.demands:
+                    sbo_term = "SBO:0000628" # Demand reaction
+                elif model_object.boundary and model_object in model.sinks:
+                    sbo_term = "SBO:0000632" # Sink reaction
+                elif len(model_object.compartments) > 1:
+                    sbo_term = "SBO:0000185" # Transport reaction
+                else:
+                    sbo_term = "SBO:0000176" # Biochemical reaction
+            elif attr == "metabolites":
+                sbo_term = "SBO:0000247" # Metabolite
+            elif attr == "genes":
+                sbo_term = "SBO:0000243" # Gene
+            else:
+                continue
+
+            try:
+                assert model_object.annotation["sbo"] == sbo_term
+            except KeyError:
+                msg = f"SBO term set for {model_object.id}"
+                LOGGER.info(msg)
+                if verbose:
+                    print(msg)
+                model_object.annotation["sbo"] = sbo_term
+            except AssertionError:
+                msg = f"SBO term changed for {model_object.id}: {model_object.annotation['sbo']} --> {sbo_term}"
+                LOGGER.info(msg)
+                if verbose:
+                    print(msg)
+                model_object.annotation["sbo"] = sbo_term
+
+    return model
+
+
 
 def get_id_annotation_mapping(objects, annotation_key, default=None):
     """Return a dictionary containing model identifiers mapped to annotation values.

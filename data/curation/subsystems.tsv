@@ -1,0 +1,34 @@
+	name	category	pathway	kegg.pathway	notes
+0	Amino sugar and nucleotide sugar metabolism	Carbohydrate metabolism	Amino sugar and nucleotide sugar metabolism	hsa00520	
+1	Ascorbate and aldarate metabolism	Carbohydrate metabolism	Ascorbate and aldarate metabolism	hsa00053	
+2	Fructose and mannose metabolism	Carbohydrate metabolism	Fructose and mannose metabolism	hsa00051	
+3	Galactose metabolism	Carbohydrate metabolism	Galactose metabolism	hsa00052	
+4	Glycolysis / Gluconeogenesis	Carbohydrate metabolism	Glycolysis / Gluconeogenesis	hsa00010	
+5	Inositol phosphate metabolism	Carbohydrate metabolism	Inositol phosphate metabolism	hsa00562	
+6	Pentose and glucuronate interconversions	Carbohydrate metabolism	Pentose and glucuronate interconversions	hsa00040	
+7	Pentose phosphate pathway	Carbohydrate metabolism	Pentose phosphate pathway	hsa00030	
+8	Pyruvate metabolism	Carbohydrate metabolism	Pyruvate metabolism	hsa00620	
+9	Starch and sucrose metabolism	Carbohydrate metabolism	Starch and sucrose metabolism	hsa00500	
+10	Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism	Carbohydrate metabolism	Citrate cycle (TCA cycle);Glyoxylate and dicarboxylate metabolism	hsa00020;hsa00630 	Merged KEGG pathways into one representative subsystem.
+11	Glycerolipid metabolism	Lipid metabolism	Glycerolipid metabolism	hsa00561	
+12	Glycerophospholipid metabolism	Lipid metabolism	Glycerophospholipid metabolism	hsa00564	
+13	Nucleotide metabolism	Nucleotide metabolism			
+14	Purine metabolism	Nucleotide metabolism	Purine metabolism	hsa00230	
+15	Pyrimidine metabolism	Nucleotide metabolism	Pyrimidine metabolism	hsa00240	
+16	Alanine, aspartate and glutamate metabolism	Amino acid metabolism	Alanine, aspartate and glutamate metabolism	hsa00250	
+17	Arginine and proline metabolism	Amino acid metabolism	Arginine and proline metabolism	hsa00330	
+18	Cysteine and methionine metabolism	Amino acid metabolism	Cysteine and methionine metabolism	hsa00270	
+19	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism	Tyrosine metabolism;Phenylalanine metabolism;Tryptophan metabolism	hsa00350;hsa00360;hsa00370	Merged KEGG pathways into one representative subsystem.
+20	Glutathione metabolism	Metabolism of other amino acids	Glutathione metabolism	hsa00480	
+21	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins	Nicotinate and nicotinamide metabolism	hsa00760	
+22	Porphyrin metabolism	Metabolism of cofactors and vitamins	Porphyrin metabolism	hsa00860	
+23	Riboflavin metabolism	Metabolism of cofactors and vitamins	Riboflavin metabolism	hsa00740	
+24	Thiamine metabolism	Metabolism of cofactors and vitamins	Thiamine metabolism	hsa00730	
+25	Vitamin B6 metabolism	Metabolism of cofactors and vitamins	Vitamin B6 metabolism	hsa00860	
+26	Reactive species formation and detoxification	Reactive species			
+27	Carnitine shuttle (cytosolic)	Lipid metabolism			
+28	Fatty acid activation (cytosolic)	Lipid metabolism			
+29	Leukotriene metabolism	Lipid metabolism			
+30	Miscellaneous	Miscellaneous			Representative subsystem for miscellaneous reactions that do not fit into any category (e.g., specie protonation/deprotatation/equilibration reactions)
+31	Pseudoreactions	Pseudoreactions			Representative subsystem for all exchanges, sinks, and demands (a.k.a. reactions added specifically for modeling purposes)
+32	Transport reactions	Transport			Representative subsystem for all transport reactions across the plasma membrane
