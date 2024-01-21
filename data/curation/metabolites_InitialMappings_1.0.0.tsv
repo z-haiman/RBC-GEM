@@ -1,0 +1,1954 @@
+	metabolites	metatlas	bigg.metabolite	vmhmetabolite
+0	10fthf_c	MAM00266c	10fthf	10fthf
+1	12ppd__R_c	MAM02771c	12ppd__R	12ppd_R
+2	12ppd__S_c		12ppd__S
+3	13dampp_c	MAM00248c	13dampp	13dampp
+4	13dpg_c	MAM00247c	13dpg	13dpg
+5	15kprostge1_c	MAM00013c	prostg1	prostg1
+6	15kprostge2_c
+7	15kprostge3_c
+8	15kprostgf1_c
+9	15kprostgf2_c	MAM01892c	15kprostgf2	15kprostgf2
+10	15kprostgf3_c
+11	15ppins4p_c	MAM00531c	ppmi1346p	ppmi1346p
+12	1acadprib_c
+13	1p3h5c__L_c	MAM02320c	1p3h5c	1p3h5c
+14	1p3h5c__L_e
+15	1ppins5p_c
+16	1pyr5c__L_c	MAM00559c	1pyr5c	1pyr5c
+17	1pyr5c__L_e
+18	1sgth2hoxe1_c	MAM00651c		CE5242
+19	1sgth2hoxe1_e
+20	1sgth2hoxe2_c	MAM00641c		CE5241
+21	1sgth2hoxe2_e
+22	20bdhcrtsl_c
+23	20bdhcrtstrn_c
+24	23camp_c
+25	23ccmp_c
+26	23cgamp_c
+27	23cgamp_e
+28	23cgmp_c
+29	23cump_c	MAM00570c		23cump
+30	23doguln_c	MAM00573c	23doguln	23doguln
+31	23dpg_c	MAM00569c	23dpg	23dpg
+32	2abut_c	MAM00169c	C02356	C02356
+33	2abut_e	MAM00169e	C02356	C02356
+34	2abuten_c
+35	2abutgly_c
+36	2acadprib_c
+37	2amp_c
+38	2cmp_c
+39	2dadn_c	MAM01666c	dad_2	dad_2
+40	2dadn_e	MAM01666e	dad_2	dad_2
+41	2dcytd_c	MAM01668c	dcyt	dcyt
+42	2dcytd_e	MAM01668e	dcyt	dcyt
+43	2ddglcn_c
+44	2dgsn_c	MAM01669c	dgsn	dgsn
+45	2dgsn_e	MAM01669e	dgsn	dgsn
+46	2dins_c	MAM01671c	din	din
+47	2dins_e	MAM01671e	din	din
+48	2dr1p_c	MAM00639c	2dr1p	2dr1p
+49	2dr5p_c	MAM00640c	2dr5p	2dr5p
+50	2duri_c	MAM01673c	duri	duri
+51	2duri_e	MAM01673e	duri	duri
+52	2gmp_c
+53	2h34hppr_c	MAM00643c		M00643
+54	2h3mv_c	MAM03176c	2h3mv	2h3mv
+55	2h3ppr_c	MAM00647c		M00647
+56	2hb_c	MAM00648c	2hb	2hb
+57	2hb_e	MAM00648e	2hb	2hb
+58	2hglut__L_c	MAM03188c	2hydog	2hydog
+59	2hiv_c	MAM03186c	2hiv	2hiv
+60	2hox3mtoxe1_c	MAM00645c		CE2184
+61	2hox3mtoxe1_e
+62	2hox3mtoxe2_c	MAM00644c		CE2183
+63	2hox3mtoxe2_e
+64	2hoxe1_c	MAM00650c	C05298	C05298
+65	2hoxe2_c	MAM00649c	C05301	C05301
+66	2ibut_c
+67	2kmb_c	MAM01016c	2kmb	2kmb
+68	2mtoxe1_c	MAM00660c	C05299	C05299
+69	2mtoxe1_e	MAM00660e	C05299	C05299
+70	2mtoxe2_c	MAM00659c	C05302	C05302
+71	2mtoxe2_e	MAM00659e	C05302	C05302
+72	2obut_c	MAM00671c	2obut	2obut
+73	2obut_e	MAM00671e	2obut	2obut
+74	2ogm_c
+75	2oxosucc_c
+76	2pg_c	MAM00674c	2pg	2pg
+77	2pglyc_c	MAM00675c	2pglyc	2pglyc
+78	2plac__L_c
+79	2sgth4hoxe1_c	MAM01001c		CE5244
+80	2sgth4hoxe1_e
+81	2sgth4hoxe2_c	MAM00987c		CE5243
+82	2sgth4hoxe2_e
+83	2ump_c
+84	34dhpac_c	MAM00728c	34dhpac	34dhpac
+85	34dhpha_c	MAM00729c	34dhpha	34dhpha
+86	34hpl_c	MAM01004c	34hpl	34hpl
+87	34hpp_c	MAM01005c	34hpp	34hpp
+88	35camp_c	MAM01419c	camp	camp
+89	35camp_e	MAM01419e	camp	camp
+90	35cgmp_c	MAM01433c	35cgmp	35cgmp
+91	35cgmp_e	MAM01433e	35cgmp	35cgmp
+92	35cimp_c
+93	35cimp_e
+94	3dfru_c
+95	3dglc_c
+96	3dglc_e
+97	3dhguln_c	MAM00768c	3dhguln	3dhguln
+98	3dxyl_c
+99	3htmelys_c	MAM00789c	3htmelys	3htmelys
+100	3mob_c	MAM00824c	3mob	3mob
+101	3mop_c	MAM00669c	3mop	3mop
+102	3mox4hpac_c	MAM00818c	3mox4hpac	3mox4hpac
+103	3moxtyr_c	MAM00821c	3moxtyr	3moxtyr
+104	3moxtyr_e	MAM00821e	3moxtyr	3moxtyr
+105	3ohdcaACP_c	MAM00160c		HC01322
+106	3ohddcaACP_c	MAM01634c		HC01600
+107	3ohhxaACP_c	MAM01635c		HC01590
+108	3ohhxdcaACP_c	MAM00162c		HC01326
+109	3ohocaACP_c	MAM00161c		HC01323
+110	3ohocdcaACP_c	MAM03391c		HC02098
+111	3ohttdcaACP_c	MAM02130c		HC01335
+112	3omdopa_c	MAM00830c	CE2176	CE2176
+113	3oxdcaACP_c	MAM00857c		HC01596
+114	3oxddcaACP_c	MAM00867c		HC01599
+115	3oxhxaACP_c	MAM00881c		HC01589
+116	3oxhxdcaACP_c	MAM00880c		HC01605
+117	3oxocaACP_c	MAM00891c		HC01593
+118	3oxocdcaACP_c	MAM03390c		HC02097
+119	3oxttdcaACP_c	MAM00905c		HC01602
+120	3pg_c	MAM00913c	3pg	3pg
+121	3php_c	MAM00914c	3php	3php
+122	3sala__L_c	MAM00918c	3sala	3sala
+123	3snpyr_c	MAM00919c	3snpyr	3snpyr
+124	3spyr_c	MAM00920c	3spyr	3spyr
+125	45cfmn_c
+126	4aabutn_c	MAM00952c	4aabutn	4aabutn
+127	4abut_c	MAM00970c	4abut	4abut
+128	4abut_e	MAM00970e	4abut	4abut
+129	4abutn_c	MAM00969c	4abutn	4abutn
+130	4aphdob_c		4aphdob
+131	4fumacac_c	MAM01863c	4fumacac	4fumacac
+132	4h2hxea_2E_c
+133	4h2hxeal_2E_c
+134	4h2nonea_2E_c
+135	4h2noneal_2E_c	MAM00988c	CE2006	CE2006
+136	4h2oglt_c	MAM00989c	4h2oglt	4h2oglt
+137	4hglusa__L_c
+138	4hoxe1_c	MAM01000c		CE2180
+139	4hoxe2_c	MAM00986c	hestratriol	hestratriol
+140	4hpro_LT_c	MAM03037c	4hpro_LT	4hpro_LT
+141	4hpro_LT_e	MAM03037e	4hpro_LT	4hpro_LT
+142	4mlacac_c	MAM01010c	4mlacac	4mlacac
+143	4mtoxe1_c	MAM01012c		CE2189
+144	4mtoxe1_e
+145	4mtoxe2_c	MAM01011c		CE2186
+146	4mtoxe2_e
+147	4ohbut_c	MAM03277c	4ohbut	4ohbut
+148	4pcys__R_c	MAM02623c		HC01231
+149	4per_c
+150	4ppcys__R_c	MAM00163c	4ppcys	4ppcys
+151	4ppnto__R_c	MAM01636c	4ppan	4ppan
+152	4pptth__R_c	MAM02741c	pan4p	pan4p
+153	4pyrdp_c
+154	4pyrdx_c	MAM01033c	4pyrdx	4pyrdx
+155	4pyrdx_e	MAM01033e	4pyrdx	4pyrdx
+156	4pyrmp_c
+157	4pyrn_c
+158	4pyrn_e
+159	4pyrnad_c
+160	4pyrtp_c
+161	4sgth2hoxe1_c	MAM00652c		CE5240
+162	4sgth2hoxe1_e
+163	4sgth2hoxe2_c	MAM00642c		CE5239
+164	4sgth2hoxe2_e
+165	4sgth56dhi_c
+166	4sgth56dhi_e
+167	4sgth56dhilne_c	MAM03270c	4glu56dihdind	4glu56dihdind
+168	4sgth56dhilne_e	MAM03270e	4glu56dihdind	4glu56dihdind
+169	4tmeabut_c	MAM01034c	4tmeabut	4tmeabut
+170	4tmeabutn_c	MAM01922c	4tmeabutn	4tmeabutn
+171	56dhi_c	MAM01739c		"['CE4888', 'M03162']"
+172	56dhica_c	MAM01053c	56dihindlcrbxlt	56dihindlcrbxlt
+173	5aand3a17bdiol_c	MAM01065c	CE2209	CE2209
+174	5adtststerone_c	MAM01069c	5adtststerone	5adtststerone
+175	5aizc_c	MAM01130c	5aizc	5aizc
+176	5aop_c	MAM01074c	5aop	5aop
+177	5aop_e	MAM01074e	5aop	5aop
+178	5fthf_c	MAM01100c	5fthf	5fthf
+179	5fthf_e	MAM01100e	5fthf	5fthf
+180	5hiu_c	MAM01104c	C11821	C11821
+181	5houdic_c
+182	5hoxindact_c	MAM01102c	5hoxindact	5hoxindact
+183	5hoxindoa_c	MAM01103c	5hoxindoa	5hoxindoa
+184	5mdr1p_c	MAM02481c	5mdr1p	5mdr1p
+185	5mdru1p_c	MAM02910c	5mdru1p	5mdru1p
+186	5mta_c	MAM01116c	5mta	5mta
+187	5mta_e	MAM01116e	5mta	5mta
+188	5mthf_c	MAM01115c	5mthf	5mthf
+189	5mthf_e	MAM01115e	5mthf	5mthf
+190	5oxpro_c	MAM01127c	5oxpro	5oxpro
+191	5oxpro_e	MAM01127e	5oxpro	5oxpro
+192	5ppins5p_c	MAM01133c	ppmi12346p	ppmi12346p
+193	5sgthadrnl__L_c
+194	5sgthadrnl__L_e
+195	5sgthdopa__L_c	MAM01139c	CE5026	CE5026
+196	5sgthdopa__L_e	MAM01139e	CE5026	CE5026
+197	5sgthdpam__L_c	MAM01138c	CE5025	CE5025
+198	5sgthdpam__L_e	MAM01138e	CE5025	CE5025
+199	5sgthleuadrnchrm_c	MAM01135c		CE5546
+200	5sgthleuadrnchrm_e
+201	5sgthleudopachr__L_c	MAM01137c		CE5544
+202	5sgthleudopachr__L_e
+203	5sgthleunrpphrchrm_c	MAM01140c		CE5547
+204	5sgthleunrpphrchrm_e
+205	5sgthnrpphr__L_c
+206	5sgthnrpphr__L_e
+207	67dhbpt_c	MAM01698c	dhbpt	dhbpt
+208	6hopthp_c
+209	6lthp_c	MAM01164c	HC01254	HC01254
+210	6mercpur_c
+211	6pgc_c	MAM01169c	6pgc	6pgc
+212	6pgl_c	MAM01961c	6pgl	6pgl
+213	6pthp_c	MAM01170c	6pthp	6pthp
+214	6smercpur_c	MAM01166c		M01166
+215	6smthiogsn_c	MAM02989c		M02989
+216	6thiogsn_c
+217	78dhbpt_c
+218	78dhbpt_e
+219	ACP_c	MAM00184c	ACP	ACP
+220	FA_hs_10_0_c	MAM01648c	dca	dca
+221	FA_hs_10_0_e	MAM01648e	dca	dca
+222	FA_hs_10_10OH_c	MAM03797c	omhdecacid	omhdecacid
+223	FA_hs_10_10O_c
+224	FA_hs_10_DC_c	MAM03923c	sebacid	sebacid
+225	FA_hs_11_0_c	MAM03117c	M03117	M03117
+226	FA_hs_11_0_e	MAM03117e	M03117	M03117
+227	FA_hs_12_0_c	MAM02344c	ddca	ddca
+228	FA_hs_12_0_e	MAM02344e	ddca	ddca
+229	FA_hs_12_12OH_c
+230	FA_hs_12_12O_c
+231	FA_hs_12_DC_c	MAM03562c	dodecanac	dodecanac
+232	FA_hs_13_0_c	MAM03051c	M03051	M03051
+233	FA_hs_13_0_e	MAM03051e	M03051	M03051
+234	FA_hs_14_0_c	MAM02494c	ttdca	ttdca
+235	FA_hs_14_0_e	MAM02494e	ttdca	ttdca
+236	FA_hs_14_14OH_c
+237	FA_hs_14_14O_c
+238	FA_hs_14_5Z_c	MAM02745c	M02745	M02745
+239	FA_hs_14_5Z_e	MAM02745e	M02745	M02745
+240	FA_hs_14_7Z_c	MAM00117c	M00117	M00117
+241	FA_hs_14_7Z_e	MAM00117e	M00117	M00117
+242	FA_hs_14_9Z_c	MAM00128c	ttdcea	ttdcea
+243	FA_hs_14_9Z_e	MAM00128e	ttdcea	ttdcea
+244	FA_hs_14_DC_c
+245	FA_hs_15_0_c	MAM02690c	ptdca	ptdca
+246	FA_hs_15_0_e	MAM02690e	ptdca	ptdca
+247	FA_hs_16_0_c	MAM02674c	hdca	hdca
+248	FA_hs_16_0_e	MAM02674e	hdca	hdca
+249	FA_hs_16_16OH_c	MAM00403c	whhdca	whhdca
+250	FA_hs_16_16O_c
+251	FA_hs_16_2E_c
+252	FA_hs_16_2E_e
+253	FA_hs_16_7Z_c	MAM01197c	M01197	M01197
+254	FA_hs_16_7Z_e	MAM01197e	M01197	M01197
+255	FA_hs_16_9Z_c	MAM02675c	hdcea	hdcea
+256	FA_hs_16_9Z_e	MAM02675e	hdcea	hdcea
+257	FA_hs_16_DC_c	MAM03654c	hexdiac	hexdiac
+258	FA_hs_17_0_c	MAM02456c	hpdca	hpdca
+259	FA_hs_17_0_e	MAM02456e	hpdca	hpdca
+260	FA_hs_17_10Z_c	MAM00003c	M00003	M00003
+261	FA_hs_17_10Z_e	MAM00003e	M00003	M00003
+262	FA_hs_17_9Z_c	MAM01238c	M01238	M01238
+263	FA_hs_17_9Z_e	MAM01238e	M01238	M01238
+264	FA_hs_18_0_c	MAM02938c	ocdca	ocdca
+265	FA_hs_18_0_e	MAM02938e	ocdca	ocdca
+266	FA_hs_18_11Z_c	MAM01585c	vacc	vacc
+267	FA_hs_18_11Z_e	MAM01585e	vacc	vacc
+268	FA_hs_18_13Z_c
+269	FA_hs_18_13Z_e
+270	FA_hs_18_6Z9Z12Z15Z_c	MAM02939c	strdnc	strdnc
+271	FA_hs_18_6Z9Z12Z15Z_e	MAM02939e	strdnc	strdnc
+272	FA_hs_18_6Z9Z12Z_c	MAM01932c	lnlncg	lnlncg
+273	FA_hs_18_6Z9Z12Z_e	MAM01932e	lnlncg	lnlncg
+274	FA_hs_18_6Z9Z_c	MAM00104c	lneldc	lneldc
+275	FA_hs_18_6Z9Z_e	MAM00104e	lneldc	lneldc
+276	FA_hs_18_7Z_c	MAM00115c	M00115	M00115
+277	FA_hs_18_7Z_e	MAM00115e	M00115	M00115
+278	FA_hs_18_9E_c	MAM01778c	elaid	elaid
+279	FA_hs_18_9E_e	MAM01778e	elaid	elaid
+280	FA_hs_18_9Z12Z15Z_c	MAM02389c	lnlnca	lnlnca
+281	FA_hs_18_9Z12Z15Z_e	MAM02389e	lnlnca	lnlnca
+282	FA_hs_18_9Z12Z_c	MAM02387c	lnlc	lnlc
+283	FA_hs_18_9Z12Z_e	MAM02387e	lnlc	lnlc
+284	FA_hs_18_9Z12Zr_c
+285	FA_hs_18_9Z12Zroo_c
+286	FA_hs_18_9Z_c	MAM02646c	ocdcea	ocdcea
+287	FA_hs_18_9Z_e	MAM02646e	ocdcea	ocdcea
+288	FA_hs_19_0_c	MAM02613c	M02613	M02613
+289	FA_hs_19_0_e	MAM02613e	M02613	M02613
+290	FA_hs_20_0_c	MAM01771c	arach	arach
+291	FA_hs_20_0_e	MAM01771e	arach	arach
+292	FA_hs_20_11Z14Z17Z_c	MAM00010c	M00010	M00010
+293	FA_hs_20_11Z14Z17Z_e	MAM00010e	M00010	M00010
+294	FA_hs_20_11Z14Z_c	MAM00008c	M00008	M00008
+295	FA_hs_20_11Z14Z_e	MAM00008e	M00008	M00008
+296	FA_hs_20_11Z_c	MAM01584c	CE2510	CE2510
+297	FA_hs_20_11Z_e	MAM01584e	CE2510	CE2510
+298	FA_hs_20_13Z_c	MAM00017c	M00017	M00017
+299	FA_hs_20_13Z_e	MAM00017e	M00017	M00017
+300	FA_hs_20_5Z8Z11Z14Z17Z_c	MAM01784c	tmndnc	tmndnc
+301	FA_hs_20_5Z8Z11Z14Z17Z_e	MAM01784e	tmndnc	tmndnc
+302	FA_hs_20_5Z8Z11Z14Z17Zr_c
+303	FA_hs_20_5Z8Z11Z14Z17Zroo_c
+304	FA_hs_20_5Z8Z11Z14Z20DC_c
+305	FA_hs_20_5Z8Z11Z14Z20OH_c	MAM00270c	wharachd	wharachd
+306	FA_hs_20_5Z8Z11Z14Z20O_c
+307	FA_hs_20_5Z8Z11Z14Z_c	MAM01362c	arachd	arachd
+308	FA_hs_20_5Z8Z11Z14Z_e	MAM01362e	arachd	arachd
+309	FA_hs_20_5Z8Z11Z14Zr_c
+310	FA_hs_20_5Z8Z11Z14Zroo_c
+311	FA_hs_20_5Z8Z11Z_c	MAM02457c	M02457	M02457
+312	FA_hs_20_5Z8Z11Z_e	MAM02457e	M02457	M02457
+313	FA_hs_20_8Z11Z14Z17Z_c	MAM02648c	eicostet	eicostet
+314	FA_hs_20_8Z11Z14Z17Z_e	MAM02648e	eicostet	eicostet
+315	FA_hs_20_8Z11Z14Z_c
+316	FA_hs_20_8Z11Z14Z_e	MAM01696c	dlnlcg	"['CE2516', 'dlnlcg']"
+317	FA_hs_20_8Z11Z_c	MAM01207c	M01207	M01207
+318	FA_hs_20_8Z11Z_e	MAM01207e	M01207	M01207
+319	FA_hs_20_9Z_c	MAM01235c	M01235	M01235
+320	FA_hs_20_9Z_e	MAM01235e	M01235	M01235
+321	FA_hs_21_0_c	MAM02053c	M02053	M02053
+322	FA_hs_21_0_e	MAM02053e	M02053	M02053
+323	FA_hs_22_0_c	MAM01373c	docosac	docosac
+324	FA_hs_22_0_e	MAM01373e	docosac	docosac
+325	FA_hs_22_10Z13Z16Z19Z_c	MAM00260c	M00260	M00260
+326	FA_hs_22_10Z13Z16Z19Z_e	MAM00260e	M00260	M00260
+327	FA_hs_22_10Z13Z16Z_c	MAM00265c	M00265	M00265
+328	FA_hs_22_10Z13Z16Z_e	MAM00265e	M00265	M00265
+329	FA_hs_22_11Z_c	MAM01582c	M01582	M01582
+330	FA_hs_22_11Z_e	MAM01582e	M01582	M01582
+331	FA_hs_22_13Z16Z19Z_c	MAM00341c	M00341	M00341
+332	FA_hs_22_13Z16Z19Z_e	MAM00341e	M00341	M00341
+333	FA_hs_22_13Z16Z_c	MAM00021c	M00021	M00021
+334	FA_hs_22_13Z16Z_e	MAM00021e	M00021	M00021
+335	FA_hs_22_13Z_c	MAM01583c	doco13ac	doco13ac
+336	FA_hs_22_13Z_e	MAM01583e	doco13ac	doco13ac
+337	FA_hs_22_22OH_c	MAM03798c	omhdocosac	omhdocosac
+338	FA_hs_22_22O_c
+339	FA_hs_22_4Z7Z10Z13Z16Z19Z_c	MAM01689c	crvnc	crvnc
+340	FA_hs_22_4Z7Z10Z13Z16Z19Z_e	MAM01689e	crvnc	crvnc
+341	FA_hs_22_4Z7Z10Z13Z16Z19Zr_c
+342	FA_hs_22_4Z7Z10Z13Z16Z19Zroo_c
+343	FA_hs_22_4Z7Z10Z13Z16Z_c	MAM00094c	dcsptn1	dcsptn1
+344	FA_hs_22_4Z7Z10Z13Z16Z_e	MAM00094e	dcsptn1	dcsptn1
+345	FA_hs_22_7Z10Z13Z16Z19Z_c	MAM01741c	clpnd	clpnd
+346	FA_hs_22_7Z10Z13Z16Z19Z_e	MAM01741e	clpnd	clpnd
+347	FA_hs_22_7Z10Z13Z16Z_c	MAM01291c	adrn	adrn
+348	FA_hs_22_7Z10Z13Z16Z_e	MAM01291e	adrn	adrn
+349	FA_hs_22_DC_c
+350	FA_hs_23_0_c	MAM03045c	M03045	M03045
+351	FA_hs_23_0_e	MAM03045e	M03045	M03045
+352	FA_hs_24_0_c	MAM02385c	lgnc	lgnc
+353	FA_hs_24_0_e	MAM02385e	lgnc	lgnc
+354	FA_hs_24_12Z15Z18Z21Z_c	MAM00315c	M00315	M00315
+355	FA_hs_24_12Z15Z18Z21Z_e	MAM00315e	M00315	M00315
+356	FA_hs_24_15Z_c
+357	FA_hs_24_15Z_e
+358	FA_hs_24_6Z9Z12Z15Z18Z21Z_c	MAM00114c	tethex3	tethex3
+359	FA_hs_24_6Z9Z12Z15Z18Z21Z_e	MAM00114e	tethex3	tethex3
+360	FA_hs_24_6Z9Z12Z15Z18Z_c
+361	FA_hs_24_6Z9Z12Z15Z18Z_e	MAM00111c	tetpent6	tetpent6
+362	FA_hs_24_9Z12Z15Z18Z21Z_c	MAM00135c	tetpent3	tetpent3
+363	FA_hs_24_9Z12Z15Z18Z21Z_e	MAM00135e	tetpent3	tetpent3
+364	FA_hs_24_9Z12Z15Z18Z_c
+365	FA_hs_24_9Z12Z15Z18Z_e	MAM00132c	tettet6	tettet6
+366	FA_hs_26_0_c	MAM01432c	hexc	hexc
+367	FA_hs_26_0_e	MAM01432e	hexc	hexc
+368	FA_hs_26_17Z_c	MAM03153c	M03153	M03153
+369	FA_hs_26_17Z_e	MAM03153e	M03153	M03153
+370	FA_hs_c	MAM10005c	Rtotal
+371	FAcoa_10_DC_c	MAM03924c	sebcoa	sebcoa
+372	FAcoa_12_DC_c	MAM03491c	c12dccoa	c12dccoa
+373	FAcoa_16_DC_c	MAM03655c	hexdicoa	hexdicoa
+374	FAcoa_4_2M_c
+375	FAcoa_4_DC_c	MAM02944c	succoa	succoa
+376	FAcoa_5_2E2M_c	MAM02999c	2mb2coa	2mb2coa
+377	FAcoa_5_2EDC_c
+378	FAcoa_5_2M_c
+379	FAcoa_5_3M3OH__S_c	MAM03242c	3ivcoa	3ivcoa
+380	FAcoa_5_DC_c	MAM01977c	glutcoa	glutcoa
+381	FAcoa_6_DC_c	MAM03409c	adpcoa	adpcoa
+382	FAcoa_7_DC_c
+383	FAcoa_8_DC_c	MAM03954c	subeac	subeac
+384	FAcoa_hs_10_0_c	MAM01650c	dcacoa	dcacoa
+385	FAcoa_hs_10_2E6Z_c	MAM03543c	decdicoa	decdicoa
+386	FAcoa_hs_10_2E_c
+387	FAcoa_hs_10_3OH__S_c	MAM00181c	3hdcoa	3hdcoa
+388	FAcoa_hs_11_0_c	MAM03116c	M03116	"['undcoa', 'M03116']"
+389	FAcoa_hs_12_0_c	MAM02345c	ddcacoa	ddcacoa
+390	FAcoa_hs_12_2E_c	MAM00042c	dd2coa	dd2coa
+391	FAcoa_hs_12_3OH__S_c	MAM00174c	3hddcoa	3hddcoa
+392	FAcoa_hs_13_0_c	MAM03050c	M03050	"['tridcoa', 'M03050']"
+393	FAcoa_hs_14_0_c	MAM02495c	tdcoa	tdcoa
+394	FAcoa_hs_14_2E_c	MAM03979c	tetdece1coa	tetdece1coa
+395	FAcoa_hs_14_3OH__S_c	MAM00178c	3htdcoa	3htdcoa
+396	FAcoa_hs_14_5E8Z3OH__S_c	MAM03267c	3ttetddcoa	3ttetddcoa
+397	FAcoa_hs_14_5E8Z_c	MAM03974c	tetdec2coa	tetdec2coa
+398	FAcoa_hs_14_5Z_c	MAM01141c	M01141	"['tetde5coa', 'M01141']"
+399	FAcoa_hs_14_7Z3OH__S_c	MAM03263c	3tetd7ecoa	3tetd7ecoa
+400	FAcoa_hs_14_7Z_c	MAM00118c	HC10784	"['CE0784', 'HC10784']"
+401	FAcoa_hs_14_9Z_c	MAM00129c	M00129	M00129
+402	FAcoa_hs_15_0_c	MAM02689c	ptdcacoa	ptdcacoa
+403	FAcoa_hs_16_0_c	MAM02678c	pmtcoa	pmtcoa
+404	FAcoa_hs_16_2E_c	MAM00051c	hdd2coa	hdd2coa
+405	FAcoa_hs_16_3OH__R_c
+406	FAcoa_hs_16_3OH__S_c
+407	FAcoa_hs_16_3O_c
+408	FAcoa_hs_16_7E10Z3OH__S_c	MAM03265c	3thexddcoa	3thexddcoa
+409	FAcoa_hs_16_7Z_c
+410	FAcoa_hs_16_9Z3OH__S_c	MAM03216c	3hdeccoa	3hdeccoa
+411	FAcoa_hs_16_9Z_c	MAM02677c	hdcoa	hdcoa
+412	FAcoa_hs_17_0_c	MAM02101c	hpdcacoa	hpdcacoa
+413	FAcoa_hs_17_10Z_c	MAM00004c	M00004	M00004
+414	FAcoa_hs_17_2E_c
+415	FAcoa_hs_17_3OH__R_c
+416	FAcoa_hs_17_3O_c
+417	FAcoa_hs_17_9Z_c	MAM01237c	M01237	M01237
+418	FAcoa_hs_18_0_c	MAM02941c	stcoa	stcoa
+419	FAcoa_hs_18_11Z_c	MAM01586c	vacccoa	vacccoa
+420	FAcoa_hs_18_13Z_c	MAM00020c	M00020	M00020
+421	FAcoa_hs_18_2E_c	MAM00057c	od2coa	od2coa
+422	FAcoa_hs_18_3OH__R_c	MAM00793c	CE2248	CE2248
+423	FAcoa_hs_18_3OH__S_c	MAM03230c	3hodcoa	3hodcoa
+424	FAcoa_hs_18_3O_c	MAM00890c	3ohodcoa	3ohodcoa
+425	FAcoa_hs_18_6Z9Z12Z15Z_c	MAM00108c	strdnccoa	strdnccoa
+426	FAcoa_hs_18_6Z9Z12Z_c	MAM01934c	lnlncgcoa	lnlncgcoa
+427	FAcoa_hs_18_6Z9Z_c	MAM00106c	lneldccoa	lneldccoa
+428	FAcoa_hs_18_7Z_c	MAM00116c	M00116	M00116
+429	FAcoa_hs_18_9E_c	MAM00127c	M00127	M00127
+430	FAcoa_hs_18_9Z12Z15Z_c	MAM02390c	lnlncacoa	lnlncacoa
+431	FAcoa_hs_18_9Z12Z3OH__S_c	MAM03249c	3ocddcoa	3ocddcoa
+432	FAcoa_hs_18_9Z12Z_c	MAM02391c	lnlccoa	lnlccoa
+433	FAcoa_hs_18_9Z3OH__S_c	MAM03252c	3octdece1coa	3octdece1coa
+434	FAcoa_hs_18_9Z_c	MAM02647c	odecoa	odecoa
+435	FAcoa_hs_19_0_c	MAM02612c	M02612	M02612
+436	FAcoa_hs_19_2E_c	MAM00054c	M00054	M00054
+437	FAcoa_hs_19_3OH__R_c	MAM00790c	M00790	M00790
+438	FAcoa_hs_19_3O_c	MAM00887c	M00887	M00887
+439	FAcoa_hs_20_0_c	MAM01773c	arachcoa	arachcoa
+440	FAcoa_hs_20_11Z14Z17Z3OH__R_c	MAM00086c	M00086	M00086
+441	FAcoa_hs_20_11Z14Z17Z3O_c	MAM00869c	M00869	M00869
+442	FAcoa_hs_20_11Z14Z17Z_c	MAM00012c	M00012	M00012
+443	FAcoa_hs_20_11Z14Z3OH__R_c	MAM00087c	CE4840	CE4840
+444	FAcoa_hs_20_11Z14Z3O_c	MAM00870c	CE4841	CE4841
+445	FAcoa_hs_20_11Z14Z_c	MAM00009c	CE4843	CE4843
+446	FAcoa_hs_20_11Z3OH__R_c	MAM00700c	CE5148	CE5148
+447	FAcoa_hs_20_11Z3O_c	MAM00840c	CE5144	CE5144
+448	FAcoa_hs_20_11Z_c	MAM00007c	CE5151	CE5151
+449	FAcoa_hs_20_13Z3OH__R_c	MAM00702c	M00702	M00702
+450	FAcoa_hs_20_13Z3O_c	MAM00843c	M00843	M00843
+451	FAcoa_hs_20_13Z_c	MAM00018c	M00018	M00018
+452	FAcoa_hs_20_2E11Z14Z17Z_c	MAM03005c	M03005	M03005
+453	FAcoa_hs_20_2E11Z14Z_c	MAM03007c	CE4842	CE4842
+454	FAcoa_hs_20_2E11Z_c	MAM03012c	CE5150	CE5150
+455	FAcoa_hs_20_2E13Z_c	MAM03014c	M03014	M03014
+456	FAcoa_hs_20_2E8Z11Z14Z17Z_c	MAM01769c	CE4812	CE4812
+457	FAcoa_hs_20_2E8Z11Z14Z_c	MAM03029c	CE5114	CE5114
+458	FAcoa_hs_20_2E8Z11Z_c	MAM03017c	M03017	M03017
+459	FAcoa_hs_20_2E9Z_c	MAM03018c	M03018	M03018
+460	FAcoa_hs_20_2E_c	MAM00043c	CE2243	CE2243
+461	FAcoa_hs_20_3OH__R_c	MAM00777c	CE2247	CE2247
+462	FAcoa_hs_20_3O_c	MAM00872c	CE2251	CE2251
+463	FAcoa_hs_20_5Z8Z11Z14Z17Z_c	MAM00103c	tmndnccoa	tmndnccoa
+464	FAcoa_hs_20_5Z8Z11Z14Z_c	MAM01364c	arachdcoa	arachdcoa
+465	FAcoa_hs_20_5Z8Z11Z_c	MAM00101c	M00101	M00101
+466	FAcoa_hs_20_8Z11Z14Z17Z3OH__R_c	MAM00708c	CE4810	CE4810
+467	FAcoa_hs_20_8Z11Z14Z17Z3O_c	MAM00811c	CE4811	CE4811
+468	FAcoa_hs_20_8Z11Z14Z17Z_c	MAM00125c	eicostetcoa	eicostetcoa
+469	FAcoa_hs_20_8Z11Z14Z3OH__R_c	MAM00710c	CE4791	CE4791
+470	FAcoa_hs_20_8Z11Z14Z3O_c	MAM00859c	CE4793	CE4793
+471	FAcoa_hs_20_8Z11Z14Z_c	MAM01697c	dlnlcgcoa	dlnlcgcoa
+472	FAcoa_hs_20_8Z11Z3OH__R_c	MAM00704c	M00704	M00704
+473	FAcoa_hs_20_8Z11Z3O_c	MAM00871c	M00871	M00871
+474	FAcoa_hs_20_8Z11Z_c	MAM00123c	M00123	M00123
+475	FAcoa_hs_20_9Z3OH__R_c	MAM00707c	M00707	M00707
+476	FAcoa_hs_20_9Z3O_c	MAM00852c	M00852	M00852
+477	FAcoa_hs_20_9Z_c	MAM01236c	M01236	M01236
+478	FAcoa_hs_21_0_c	MAM02052c	M02052	M02052
+479	FAcoa_hs_21_2E_c	MAM00044c	M00044	M00044
+480	FAcoa_hs_21_3OH__R_c	MAM00778c	M00778	M00778
+481	FAcoa_hs_21_3O_c	MAM00873c	M00873	M00873
+482	FAcoa_hs_22_0_c	MAM01725c	docoscoa	docoscoa
+483	FAcoa_hs_22_10Z13Z16Z19Z3OH__R_c	MAM00711c	CE4848	CE4848
+484	FAcoa_hs_22_10Z13Z16Z19Z3O_c	MAM00861c	CE4850	CE4850
+485	FAcoa_hs_22_10Z13Z16Z19Z_c	MAM00262c	CE4854	CE4854
+486	FAcoa_hs_22_10Z13Z16Z3OH__R_c	MAM00698c	CE4844	CE4844
+487	FAcoa_hs_22_10Z13Z16Z3O_c	MAM00865c	CE4845	CE4845
+488	FAcoa_hs_22_10Z13Z16Z_c	MAM00264c	CE4847	CE4847
+489	FAcoa_hs_22_11Z3OH__R_c	MAM00699c	M00699	M00699
+490	FAcoa_hs_22_11Z3O_c	MAM00839c	M00839	M00839
+491	FAcoa_hs_22_11Z_c	MAM00006c	M00006	M00006
+492	FAcoa_hs_22_13Z16Z19Z3OH__R_c	MAM00712c	M00712	M00712
+493	FAcoa_hs_22_13Z16Z19Z3O_c	MAM00862c	M00862	M00862
+494	FAcoa_hs_22_13Z16Z19Z_c	MAM00343c	M00343	M00343
+495	FAcoa_hs_22_13Z16Z3OH__R_c	MAM00085c	M00085	M00085
+496	FAcoa_hs_22_13Z16Z3O_c	MAM00860c	M00860	M00860
+497	FAcoa_hs_22_13Z16Z_c	MAM00023c	M00023	M00023
+498	FAcoa_hs_22_13Z3OH__R_c	MAM00701c	CE5153	CE5153
+499	FAcoa_hs_22_13Z3O_c	MAM00842c	CE5152	CE5152
+500	FAcoa_hs_22_13Z_c	MAM00016c	CE5155	CE5155
+501	FAcoa_hs_22_2E10Z13Z16Z19Z_c	MAM03002c	CE4852	CE4852
+502	FAcoa_hs_22_2E10Z13Z16Z_c	MAM03004c	CE4846	CE4846
+503	FAcoa_hs_22_2E11Z_c	MAM03011c	M03011	M03011
+504	FAcoa_hs_22_2E13Z16Z19Z_c	MAM03006c	M03006	M03006
+505	FAcoa_hs_22_2E13Z16Z_c	MAM03008c	M03008	M03008
+506	FAcoa_hs_22_2E13Z_c	MAM03013c	CE5154	CE5154
+507	FAcoa_hs_22_2E7Z10Z13Z16Z19Z_c	MAM00679c	CE4821	CE4821
+508	FAcoa_hs_22_2E7Z10Z13Z16Z_c	MAM00074c	CE4835	CE4835
+509	FAcoa_hs_22_2E_c	MAM00040c	CE2242	CE2242
+510	FAcoa_hs_22_3OH__R_c	MAM00776c	CE2246	CE2246
+511	FAcoa_hs_22_3O_c	MAM00866c	CE2250	CE2250
+512	FAcoa_hs_22_4Z7Z10Z13Z16Z19Z_c	MAM00095c	c226coa	"['c226coa', 'CE4827']"
+513	FAcoa_hs_22_4Z7Z10Z13Z16Z_c	MAM00093c	dcsptn1coa	dcsptn1coa
+514	FAcoa_hs_22_7Z10Z13Z16Z19Z3OH__R_c	MAM00713c	CE4817	CE4817
+515	FAcoa_hs_22_7Z10Z13Z16Z19Z3O_c	MAM00863c	CE4819	CE4819
+516	FAcoa_hs_22_7Z10Z13Z16Z19Z_c	MAM00121c	clpndcoa	clpndcoa
+517	FAcoa_hs_22_7Z10Z13Z16Z3OH__R_c	MAM00714c	CE4831	CE4831
+518	FAcoa_hs_22_7Z10Z13Z16Z3O_c	MAM00864c	CE4833	CE4833
+519	FAcoa_hs_22_7Z10Z13Z16Z_c	MAM00119c	adrncoa	adrncoa
+520	FAcoa_hs_23_0_c	MAM03047c	M03047	M03047
+521	FAcoa_hs_23_2E_c	MAM00067c	M00067	M00067
+522	FAcoa_hs_23_3OH__R_c	MAM00802c	M00802	M00802
+523	FAcoa_hs_23_3O_c	MAM00907c	M00907	M00907
+524	FAcoa_hs_24_0_c	MAM02971c	lgnccoa	ttccoa
+525	FAcoa_hs_24_12Z15Z18Z21Z3OH__R_c	MAM00716c	CE4849	CE4849
+526	FAcoa_hs_24_12Z15Z18Z21Z3O_c	MAM00901c	CE4851	CE4851
+527	FAcoa_hs_24_12Z15Z18Z21Z_c	MAM00317c	CE4855	CE4855
+528	FAcoa_hs_24_15Z3OH__R_c	MAM00709c	CE5157	CE5157
+529	FAcoa_hs_24_15Z3O_c	MAM00856c	CE5156	CE5156
+530	FAcoa_hs_24_15Z_c	MAM00025c	nrvnccoa	nrvnccoa
+531	FAcoa_hs_24_2E12Z15Z18Z21Z_c	MAM03003c	CE4853	CE4853
+532	FAcoa_hs_24_2E15Z_c	MAM03015c	CE5158	CE5158
+533	FAcoa_hs_24_2E9Z12Z15Z18Z21Z_c	MAM00680c		CE4816
+534	FAcoa_hs_24_2E9Z12Z15Z18Z_c	MAM00681c		CE4830
+535	FAcoa_hs_24_2E_c	MAM00064c	CE2245	CE2245
+536	FAcoa_hs_24_3OH__R_c	MAM00800c	CE2249	CE2249
+537	FAcoa_hs_24_3O_c	MAM00904c	CE2253	CE2253
+538	FAcoa_hs_24_6Z9Z12Z15Z18Z21Z_c	MAM00113c	tethex3coa	tethex3coa
+539	FAcoa_hs_24_6Z9Z12Z15Z18Z_c	MAM00110c	tetpent6coa	tetpent6coa
+540	FAcoa_hs_24_9Z12Z15Z18Z21Z3OH__R_c	MAM00718c		CE4818
+541	FAcoa_hs_24_9Z12Z15Z18Z21Z3O_c	MAM00853c		CE4820
+542	FAcoa_hs_24_9Z12Z15Z18Z21Z_c	MAM00134c	tetpent3coa	tetpent3coa
+543	FAcoa_hs_24_9Z12Z15Z18Z3OH__R_c
+544	FAcoa_hs_24_9Z12Z15Z18Z3O_c	MAM00903c	CE4834	CE4834
+545	FAcoa_hs_24_9Z12Z15Z18Z_c	MAM00131c	tettet6coa	"['CE4837', 'tettet6coa']"
+546	FAcoa_hs_26_0_c	MAM02110c	hexccoa	hexccoa
+547	FAcoa_hs_26_17Z3OH__R_c	MAM00715c	M00715	M00715
+548	FAcoa_hs_26_17Z3O_c	MAM00879c	M00879	M00879
+549	FAcoa_hs_26_17Z_c	MAM02112c	M02112	M02112
+550	FAcoa_hs_26_2E17Z_c	MAM03016c	M03016	M03016
+551	FAcoa_hs_26_2E_c	MAM00049c	M00049	M00049
+552	FAcoa_hs_26_3OH__R_c	MAM00783c	M00783	M00783
+553	FAcoa_hs_26_3O_c	MAM00878c	3ohxccoa	3ohxccoa
+554	FAcoa_hs_3_2E_c
+555	FAcoa_hs_3_3OH__S_c	MAM00799c	3hpcoa	3hpcoa
+556	FAcoa_hs_4_2E_c
+557	FAcoa_hs_4_3OH__R_c	MAM00159c	3hbcoa__R	3hbcoa_R
+558	FAcoa_hs_5_0_c	MAM02694c	pentcoa	"['pentcoa', 'M02694']"
+559	FAcoa_hs_6_0_c	MAM02122c	hxcoa	hxcoa
+560	FAcoa_hs_6_2E_c
+561	FAcoa_hs_6_3OH__S_c
+562	FAcoa_hs_7_0_c	MAM02107c	hepcoa	"['hepcoa', 'M02107']"
+563	FAcoa_hs_7_3OH__S_c
+564	FAcoa_hs_8_0_c	MAM02644c	occoa	occoa
+565	FAcoa_hs_8_2E_c	MAM03500c	c81coa	c81coa
+566	FAcoa_hs_8_3OH__S_c
+567	FAcoa_hs_9_0_c	MAM02616c	noncoa	"['noncoa', 'M02616']"
+568	FAcoa_hs_9_3OH__S_c
+569	FAcoa_hs_c	MAM10007c	acoa
+570	FAcrn_10_DC_c	MAM03489c	c10dc	c10dc
+571	FAcrn_12_DC_c	MAM03490c	c12dc	c12dc
+572	FAcrn_16_DC_c	MAM03493c	c16dc	c16dc
+573	FAcrn_4_2M_c
+574	FAcrn_4_DC_c	MAM03495c	c4dc	c4dc
+575	FAcrn_5_2E2M_c	MAM03496c	c51crn	c51crn
+576	FAcrn_5_2EDC_c
+577	FAcrn_5_2M_c
+578	FAcrn_5_3M3OH__S_c	MAM03243c	3ivcrn	3ivcrn
+579	FAcrn_5_DC_c	MAM03497c	c5dc	c5dc
+580	FAcrn_6_DC_c	MAM03499c	c6dc	c6dc
+581	FAcrn_7_DC_c
+582	FAcrn_8_DC_c	MAM03502c	c8dc	c8dc
+583	FAcrn_hs_10_0_c	MAM03488c	c10crn	c10crn
+584	FAcrn_hs_10_2E6Z_c	MAM03544c	decdicrn	decdicrn
+585	FAcrn_hs_10_2E_c	MAM03487c	c101crn	c101crn
+586	FAcrn_hs_10_3OH__S_c	MAM03204c	3deccrn	3deccrn
+587	FAcrn_hs_11_0_c
+588	FAcrn_hs_12_0_c	MAM01729c	M01729	M01729
+589	FAcrn_hs_12_2E_c	MAM03541c	ddece1crn	ddece1crn
+590	FAcrn_hs_12_3OH__S_c	MAM03202c	3ddcrn	3ddcrn
+591	FAcrn_hs_13_0_c	MAM03049c		M03049
+592	FAcrn_hs_14_0_c	MAM02973c	M02973	M02973
+593	FAcrn_hs_14_2E_c	MAM03980c	tetdece1crn	tetdece1crn
+594	FAcrn_hs_14_3OH__S_c	MAM03262c	3tdcrn	3tdcrn
+595	FAcrn_hs_14_5E8Z3OH__S_c	MAM03268c	3ttetddcoacrn	3ttetddcoacrn
+596	FAcrn_hs_14_5E8Z_c	MAM03975c	tetdec2crn	tetdec2crn
+597	FAcrn_hs_14_5Z_c	MAM02976c	M02976	M02976
+598	FAcrn_hs_14_7Z3OH__S_c	MAM03264c	3tetd7ecoacrn	3tetd7ecoacrn
+599	FAcrn_hs_14_7Z_c	MAM02975c		M02975
+600	FAcrn_hs_14_9Z_c	MAM02974c	ttdcrn	ttdcrn
+601	FAcrn_hs_15_0_c	MAM02688c	ptdcacrn	ptdcacrn
+602	FAcrn_hs_16_0_c	MAM02411c	pmtcrn	pmtcrn
+603	FAcrn_hs_16_2E_c	MAM02117c	hdd2crn	hdd2crn
+604	FAcrn_hs_16_3OH__S_c
+605	FAcrn_hs_16_7E10Z3OH__S_c	MAM03266c	3thexddcoacrn	3thexddcoacrn
+606	FAcrn_hs_16_7Z_c
+607	FAcrn_hs_16_9Z3OH__S_c	MAM03217c	3hdececrn	3hdececrn
+608	FAcrn_hs_16_9Z_c	MAM02676c	hdcecrn	hdcecrn
+609	FAcrn_hs_17_0_c	MAM02100c	hpdcacrn	hpdcacrn
+610	FAcrn_hs_17_10Z_c	MAM02102c	M02102	M02102
+611	FAcrn_hs_17_9Z_c	MAM02103c	M02103	M02103
+612	FAcrn_hs_18_0_c	MAM02940c	stcrn	stcrn
+613	FAcrn_hs_18_11Z_c	MAM02640c	vacccrn	vacccrn
+614	FAcrn_hs_18_13Z_c
+615	FAcrn_hs_18_2E_c	MAM00126c	elaidcrn	elaidcrn
+616	FAcrn_hs_18_3OH__S_c	MAM03251c	3octdeccrn	3octdeccrn
+617	FAcrn_hs_18_6Z9Z12Z15Z_c	MAM00107c	strdnccrn	strdnccrn
+618	FAcrn_hs_18_6Z9Z12Z_c	MAM01933c	lnlncgcrn	lnlncgcrn
+619	FAcrn_hs_18_6Z9Z_c	MAM00105c	lneldccrn	lneldccrn
+620	FAcrn_hs_18_7Z_c	MAM02638c	M02638	M02638
+621	FAcrn_hs_18_9E_c
+622	FAcrn_hs_18_9Z12Z15Z_c	MAM03727c	lnlncacrn	lnlncacrn
+623	FAcrn_hs_18_9Z12Z3OH__S_c	MAM03250c	3octdec2crn	3octdec2crn
+624	FAcrn_hs_18_9Z12Z_c	MAM02388c	lnlccrn	lnlccrn
+625	FAcrn_hs_18_9Z3OH__S_c	MAM03253c	3octdece1crn	3octdece1crn
+626	FAcrn_hs_18_9Z_c	MAM02639c	odecrn	odecrn
+627	FAcrn_hs_19_0_c	MAM02611c	M02611	M02611
+628	FAcrn_hs_20_0_c	MAM01772c	arachcrn	arachcrn
+629	FAcrn_hs_20_11Z14Z17Z_c	MAM00011c	M00011	M00011
+630	FAcrn_hs_20_11Z14Z_c	MAM01770c	M01770	M01770
+631	FAcrn_hs_20_11Z_c	MAM01777c	M01777	M01777
+632	FAcrn_hs_20_13Z_c	MAM01776c	M01776	M01776
+633	FAcrn_hs_20_5Z8Z11Z14Z17Z_c	MAM00102c	tmndnccrn	tmndnccrn
+634	FAcrn_hs_20_5Z8Z11Z14Z_c	MAM01363c	arachdcrn	arachdcrn
+635	FAcrn_hs_20_5Z8Z11Z_c	MAM00100c	M00100	M00100
+636	FAcrn_hs_20_8Z11Z14Z17Z_c	MAM00124c	eicostetcrn	eicostetcrn
+637	FAcrn_hs_20_8Z11Z14Z_c	MAM01774c	dlnlcgcrn	dlnlcgcrn
+638	FAcrn_hs_20_8Z11Z_c	MAM00122c	M00122	M00122
+639	FAcrn_hs_20_9Z_c	MAM01775c	M01775	M01775
+640	FAcrn_hs_21_0_c	MAM02051c	M02051	M02051
+641	FAcrn_hs_22_0_c	MAM01724c	M01724	M01724
+642	FAcrn_hs_22_10Z13Z16Z19Z_c	MAM00261c	M00261	M00261
+643	FAcrn_hs_22_10Z13Z16Z_c	MAM00263c	M00263	M00263
+644	FAcrn_hs_22_11Z_c	MAM01726c	M01726	M01726
+645	FAcrn_hs_22_13Z16Z19Z_c	MAM00342c	M00342	M00342
+646	FAcrn_hs_22_13Z16Z_c	MAM00022c	M00022	M00022
+647	FAcrn_hs_22_13Z_c	MAM01727c	M01727	M01727
+648	FAcrn_hs_22_4Z7Z10Z13Z16Z19Z_c	MAM01723c	c226crn	c226crn
+649	FAcrn_hs_22_4Z7Z10Z13Z16Z_c	MAM00092c	dcsptn1crn	dcsptn1crn
+650	FAcrn_hs_22_7Z10Z13Z16Z19Z_c	MAM00120c	clpndcrn	clpndcrn
+651	FAcrn_hs_22_7Z10Z13Z16Z_c	MAM02636c	adrncrn	adrncrn
+652	FAcrn_hs_23_0_c	MAM03046c		M03046
+653	FAcrn_hs_24_0_c	MAM02970c	lgnccrn	lgnccrn
+654	FAcrn_hs_24_12Z15Z18Z21Z_c	MAM00316c		M00316
+655	FAcrn_hs_24_15Z_c	MAM00024c	nrvnccrn	nrvnccrn
+656	FAcrn_hs_24_6Z9Z12Z15Z18Z21Z_c	MAM00112c		M00112
+657	FAcrn_hs_24_6Z9Z12Z15Z18Z_c	MAM00109c	tetpent6crn	tetpent6crn
+658	FAcrn_hs_24_9Z12Z15Z18Z21Z_c	MAM00133c	tetpent3crn	tetpent3crn
+659	FAcrn_hs_24_9Z12Z15Z18Z_c	MAM00130c	tettet6crn	tettet6crn
+660	FAcrn_hs_26_0_c	MAM02109c	hexccrn	hexccrn
+661	FAcrn_hs_26_17Z_c	MAM02111c		M02111
+662	FAcrn_hs_3_0_c	MAM02657c	pcrn	pcrn
+663	FAcrn_hs_3_2E_c
+664	FAcrn_hs_3_3OH__S_c
+665	FAcrn_hs_4_0_c	MAM02635c	c4crn	c4crn
+666	FAcrn_hs_4_2E_c
+667	FAcrn_hs_4_3OH__R_c	MAM03201c	3bcrn	3bcrn
+668	FAcrn_hs_5_0_c
+669	FAcrn_hs_6_0_c	MAM03498c	c6crn	c6crn
+670	FAcrn_hs_6_2E_c
+671	FAcrn_hs_6_3OH__S_c
+672	FAcrn_hs_7_0_c
+673	FAcrn_hs_7_3OH__S_c
+674	FAcrn_hs_8_0_c	MAM02409c	c8crn	c8crn
+675	FAcrn_hs_8_2E_c	MAM03501c	c81crn	c81crn
+676	FAcrn_hs_8_3OH__S_c
+677	FAcrn_hs_9_0_c
+678	FAcrn_hs_9_3OH__S_c
+679	Lcyst_c	MAM02350c	Lcyst	Lcyst
+680	M01958_c	MAM01958c		M01958
+681	M02195_c	MAM02195c	M02195	M02195
+682	M02196_c	MAM02196c		M02196
+683	M03093_c	MAM03093c		M03093
+684	M03094_c	MAM03094c		M03094
+685	N1aspmd_c	MAM02503c	N1aspmd	N1aspmd
+686	N1sprm_c	MAM02504c		N1sprm
+687	PPP2CA_leu__L_c
+688	PPP2CA_leumeo_c
+689	aacACP_c	MAM01254c		HC01587
+690	aacoa_c	MAM01255c	aacoa	aacoa
+691	aappal_c	MAM01250c		CE4788
+692	abt__L_c	MAM02338c	abt	abt
+693	abt__L_e	MAM02338e	abt	abt
+694	ac4oacnam_c
+695	ac9oacnam_c	MAM02545c		M02545
+696	acACP_c	MAM01258c	acACP	acACP
+697	ac_c	MAM01252c	ac	ac
+698	ac_e	MAM01252e	ac	ac
+699	acac_c	MAM01253c	acac	acac
+700	acac_e	MAM01253e	acac	acac
+701	acald_c	MAM01249c	acald	acald
+702	acald_e	MAM01249e	acald	acald
+703	accoa_c	MAM01261c	accoa	accoa
+704	acetol_c	MAM02148c	acetol	acetol
+705	acgal1p_c	MAM02526c	acgal1p	acgal1p
+706	acgal_c	MAM02525c	acgal	acgal
+707	acgalfucgalacgalfuc12gal14acglcgalgluside_hs_c	MAM03096c	acgalfucgalacgalfuc12gal14acglcgalgluside_hs	acgalfucgalacgalfuc12gal14acglcgalgluside_hs
+708	acgalfucgalacgalfucgalacglcgal14acglcgalgluside_hs_c	MAM03098c	acgalfucgalacgalfucgalacglcgal14acglcgalgluside_hs	acgalfucgalacgalfucgalacglcgal14acglcgalgluside_hs
+709	acgalfucgalacglcgal14acglcgalgluside_hs_c	MAM01877c		acgalfucgalacglcgal14acglcgalgluside_hs
+710	acgalfucgalacglcgalgluside_hs_c	MAM03090c	acgalfucgalacglcgalgluside_hs	acgalfucgalacglcgalgluside_hs
+711	acgam1p_c	MAM02528c	acgam1p	acgam1p
+712	acgam6p_c	MAM02529c	acgam6p	acgam6p
+713	acgam_c	MAM02527c	acgam	acgam
+714	ach_e	MAM01260e	ach	ach
+715	acmana_c	MAM02524c	acmana	acmana
+716	acmanap_c	MAM02539c	acmanap	acmanap
+717	acmet__L_c
+718	acmetala_c
+719	acnam_c	MAM02543c	acnam	acnam
+720	acnam_e	MAM02543e	acnam	acnam
+721	acnamp_c	MAM02544c	acnamp	acnamp
+722	acrn_c	MAM02634c	acrn	acrn
+723	actp_c
+724	ade_c	MAM01279c	ade	ade
+725	ade_e	MAM01279e	ade	ade
+726	admarg__L_c	MAM02577c		dmlarg
+727	admarg__L_e
+728	adn_c	MAM01280c	adn	adn
+729	adn_e	MAM01280e	adn	adn
+730	adp_c	MAM01285c	adp	adp
+731	adp_e	MAM01285e	adp	adp
+732	adpglc_c	MAM01286c	adpglc	adpglc
+733	adpman_c	MAM01287c	adpman	adpman
+734	adprbp_c	MAM01289c	adprbp	adprbp
+735	adprbp_e	MAM01289e	adprbp	adprbp
+736	adprib_c	MAM01288c	adprib	adprib
+737	adprib_e	MAM01288e	adprib	adprib
+738	adpribu_c
+739	adrnchrm_c	MAM01292c		CE5536
+740	adrnchrmsqn_c	MAM01293c		CE5541
+741	adrnl__L_c	MAM01290c	adrnl	adrnl
+742	adrnl__L_e	MAM01290e	adrnl	adrnl
+743	adrnlqn__L_c
+744	adrnlsqn__L_c
+745	ag1_c
+746	ag1_e
+747	ahcys__L_c	MAM02871c	ahcys	ahcys
+748	ahdt_c	MAM01155c	ahdt	ahdt
+749	aic_c
+750	aic_e
+751	aica_c
+752	aica_e
+753	aicar_c	MAM01304c	aicar	aicar
+754	aicar_e	MAM01304e	aicar	aicar
+755	air_c	MAM01305c	air	air
+756	akg_c	MAM01306c	akg	akg
+757	akg_e	MAM01306e	akg	akg
+758	ala_B_c	MAM01383c	ala_B	ala_B
+759	ala_B_e	MAM01383e	ala_B	ala_B
+760	ala__L_c	MAM01307c	ala__L	ala_L
+761	ala__L_e	MAM01307e	ala__L	ala_L
+762	alapro_c
+763	alatrna_c	MAM02335c		M02335
+764	alltn_c	MAM01313c	alltn	alltn
+765	alltt_c	MAM01312c		alltt
+766	amet__L_c	MAM02877c	amet	amet
+767	ametam_c	MAM02870c	ametam	ametam
+768	amp_c	MAM01334c	amp	amp
+769	amp_e	MAM01334e	amp	amp
+770	anad_c
+771	andrstndn_c	MAM00971c	andrstndn	andrstndn
+772	andrstndn_e	MAM00971e	andrstndn	andrstndn
+773	andrstrn_c	MAM01338c	andrstrn	andrstrn
+774	angiotensin17_c
+775	angiotensin1_c
+776	angiotensin2_c
+777	angiotensin3_c
+778	angiotensin4_c
+779	angiotensin57_c
+780	angiotensin58_c
+781	ap4a_c	MAM02670c	ap4a	ap4a
+782	ap5a_c
+783	ap6a_c
+784	apoACP_c	MAM01349c		HC01161
+785	aprgstrn_c	MAM00580c	aprgstrn	aprgstrn
+786	aprgstrn_e	MAM00580e	aprgstrn	aprgstrn
+787	aps_c	MAM01283c	aps	aps
+788	arab__L_c	MAM02337c	arab__L	arab_L
+789	arab__L_e	MAM02337e	arab__L	arab_L
+790	arg__L_c	MAM01365c	arg__L	arg_L
+791	arg__L_e	MAM01365e	arg__L	arg_L
+792	argpropro_c
+793	argsuc_c	MAM01366c	argsuc	argsuc
+794	argtrna_c	MAM02340c		M02340
+795	arsdigth_c
+796	arsgth_c
+797	arsna_c
+798	arsna_e
+799	arsni_c
+800	arsni_e
+801	arsseldigth_c
+802	arsseldigth_e
+803	ascb__L_c	MAM01368c	ascb__L	ascb_L
+804	ascb__L_e	MAM01368e	ascb__L	ascb_L
+805	asn__L_c	MAM01369c	asn__L	asn_L
+806	asn__L_e	MAM01369e	asn__L	asn_L
+807	asntrna_c	MAM02341c		M02341
+808	asp__L_c	MAM01370c	asp__L	asp_L
+809	asp__L_e	MAM01370e	asp__L	asp_L
+810	asparg_c
+811	asptrna_c	MAM02342c		M02342
+812	atp_c	MAM01371c	atp	atp
+813	atp_e	MAM01371e	atp	atp
+814	avite1_c	MAM01327c	avite1	avite1
+815	avite1qn_c	MAM01329c	CE5022	CE5022
+816	avite1r_c
+817	bamppald_c	MAM00760c	bamppald	bamppald
+818	betald_c	MAM01394c	betald	betald
+819	bhbACP_c	MAM00158c		HC01321
+820	bilirub_c	MAM01396c	bilirub	bilirub
+821	biliverd_c	MAM01399c	biliverd	biliverd
+822	btcoa_c	MAM01412c	btcoa	btcoa
+823	butACP_c	MAM01411c		HC01588
+824	but_c	MAM01410c	but	but
+825	but_e	MAM01410e	but	but
+826	buteACP_2E_c	MAM01409c		HC01255
+827	bz_c	MAM01380c	bz	bz
+828	bzal_c
+829	ca2_c	MAM01413c	ca2	ca2
+830	ca2_e	MAM01413e	ca2	ca2
+831	cadprbp_c
+832	cadprbp_e
+833	cadprib_c
+834	cadprib_e
+835	carboxyhb_c
+836	cbasp_c	MAM02559c	cbasp	cbasp
+837	cbp_c	MAM01420c	cbp	cbp
+838	cclglobin_c
+839	cclmethb_c
+840	cdp_c	MAM01424c	cdp	cdp
+841	cdpchol_c	MAM01425c	cdpchol	cdpchol
+842	cdpdag_hs_c	MAM01427c	cdpdag_hs	cdpdag_hs
+843	cdpea_c	MAM01428c	cdpea	cdpea
+844	ch4s_c	MAM03510c	ch4s	ch4s
+845	chol_c	MAM01513c	chol	chol
+846	chol_e	MAM01513e	chol	chol
+847	cholp_c	MAM02738c	cholp	cholp
+848	cholp_e	MAM02738e	cholp	cholp
+849	chsterol_c	MAM01450c	chsterol	chsterol
+850	chsterol_e	MAM01450e	chsterol	chsterol
+851	cit_c	MAM01587c	cit	cit
+852	cit_e	MAM01587e	cit	cit
+853	citr__L_c	MAM01588c	citr__L	citr_L
+854	citr__L_e	MAM01588e	citr__L	citr_L
+855	cl_c	MAM01442c	cl	cl
+856	cl_e	MAM01442e	cl	cl
+857	cmp_c	MAM01590c	cmp	cmp
+858	co2_c	MAM01596c	co2	co2
+859	co2_e	MAM01596e	co2	co2
+860	co3r_c
+861	co_c	MAM01595c	co	co
+862	co_e	MAM01595e	co	co
+863	coa_c	MAM01597c	coa	coa
+864	cobalt2_c
+865	cobalt2_e
+866	cppp1_c	MAM01603c	C05769	C05769
+867	cppp1_e
+868	cppp3_c	MAM01604c	C05770	C05770
+869	cppp3_e
+870	cpppg1_c	MAM01605c	cpppg1	cpppg1
+871	cpppg3_c	MAM01606c	cpppg3	cpppg3
+872	cpppg3_e
+873	creat_c	MAM01619c	creat	creat
+874	creat_e	MAM01619e	creat	creat
+875	crm_hs_c	MAM01430c	crm_hs	crm_hs
+876	crn_c	MAM02348c	crn	crn
+877	crn_e	MAM02348e	crn	crn
+878	crtn_c	MAM01621c	crtn	crtn
+879	crtn_e	MAM01621e	crtn	crtn
+880	crtsl_c	MAM01615c	crtsl	crtsl
+881	crtsl_e	MAM01615e	crtsl	crtsl
+882	crtstrn_c	MAM01614c	crtstrn	crtstrn
+883	crtstrn_e	MAM01614e	crtstrn	crtstrn
+884	csn_c	MAM01632c	csn	csn
+885	ctp_c	MAM01623c	ctp	ctp
+886	cu1_c
+887	cu1_e
+888	cu2_c	MAM01624c		cu2
+889	cu2_e	MAM01624e		cu2
+890	cynamd_c
+891	cys__L_c	MAM01628c	cys__L	cys_L
+892	cys__L_e	MAM01628e	cys__L	cys_L
+893	cysgly_c	MAM01626c	cgly	cgly
+894	cysi__L_c	MAM01629c	cysi__L	Lcystin
+895	cysi__L_e	MAM01629e	cysi__L	Lcystin
+896	cyst__L_c	MAM02349c	cyst__L	cyst_L
+897	cystrna_c	MAM02351c		M02351
+898	cytd_c	MAM01630c	cytd	cytd
+899	cytd_e	MAM01630e	cytd	cytd
+900	dadp_c	MAM01637c	dadp	dadp
+901	dag_hs_c	MAM00240c	dag_hs	dag_hs
+902	dago_hs_c	MAM00514c	ak2g_hs	ak2g_hs
+903	dagoac_hs_c	MAM00513c		C03820
+904	dagthrd_c
+905	damp_c	MAM01639c	damp	damp
+906	daophth_c
+907	datp_c	MAM01642c	datp	datp
+908	dcaACP_c	MAM01649c		HC01598
+909	dcdp_c	MAM01643c	dcdp	dcdp
+910	dceaACP_2E_c	MAM00038c		HC01597
+911	dcmp_c	MAM01644c	dcmp	dcmp
+912	dctp_c	MAM01645c	dctp	dctp
+913	ddcaACP_c	MAM01728c	ddcaACP	ddcaACP
+914	ddceaACP_2E_c	MAM00041c		HC01601
+915	dgdp_c	MAM01680c	dgdp	dgdp
+916	dgmp_c	MAM01686c	dgmp	dgmp
+917	dgtp_c	MAM01688c	dgtp	dgtp
+918	dh15kprostge1_c
+919	dh15kprostge2_c
+920	dh15kprostge3_c
+921	dh15kprostgf1_c
+922	dh15kprostgf2_c
+923	dh15kprostgf3_c
+924	dha_c	MAM01984c	dha	dha
+925	dha_e	MAM01984e	dha	dha
+926	dhap_c	MAM01690c	dhap	dhap
+927	dhdascb__L_c	MAM01655c	dhdascb	dhdascb
+928	dhdascb__L_e	MAM01655e	dhdascb	dhdascb
+929	dhet1112_c	MAM00277c		M00277
+930	dhet1112_e
+931	dhet1415_c	MAM00364c		M00364
+932	dhet1415_e
+933	dhet56_c	MAM01051c		M01051
+934	dhet56_e
+935	dhet89_c	MAM01208c		M01208
+936	dhet89_e
+937	dhf_c	MAM01700c	dhf	dhf
+938	dhlipoate_c	MAM01702c		C02147
+939	dhlipoate_e
+940	dhmtp_c	MAM00245c	dhmtp	"['dhmtp', 'M00245']"
+941	dhnpt_c	MAM01704c	HC01361	HC01361
+942	dhnpt_e	MAM01704e	HC01361	HC01361
+943	dhor__S_c	MAM00180c	dhor__S	dhor_S
+944	dhurate_c
+945	diam6tpop4oxpyr_c	MAM00574c		HC01710
+946	diampyrntp_c	MAM00575c		HC01652
+947	didp_c	MAM01693c	didp	didp
+948	dihdpa1011_c
+949	dihdpa1011_e
+950	dihdpa1314_c
+951	dihdpa1314_e
+952	dihdpa1617_c
+953	dihdpa1617_e
+954	dihdpa1920_c
+955	dihdpa1920_e
+956	dihdpa78_c
+957	dihdpa78_e
+958	dihete1112_c
+959	dihete1112_e
+960	dihete1415_c
+961	dihete1415_e
+962	dihete1718_c
+963	dihete1718_e
+964	dihete56_c
+965	dihete56_e
+966	dihete89_c
+967	dihete89_e
+968	dihome1213_c	MAM00314c	CE2049	CE2049
+969	dihome1213_e	MAM00314e	CE2049	CE2049
+970	dihome910_c	MAM01220c	CE2047	CE2047
+971	dihome910_e	MAM01220e	CE2047	CE2047
+972	dimp_c	MAM01709c	dimp	dimp
+973	ditp_c	MAM01714c	ditp	ditp
+974	dkmpp_c	MAM00572c	dkmpp	dkmpp
+975	dmgly_c	MAM01708c	dmgly	dmgly
+976	dmhptcoa_c	MAM00563c	dmhptcoa	CE4798
+977	dmhptcrn_c	MAM00577c	dmhptcrn	dmhptcrn
+978	dmnoncoa_c	MAM00933c	dmnoncoa	"['dmnoncoa', 'CE4805']"
+979	dmnoncrn_c	MAM00950c	dmnoncrn	dmnoncrn
+980	dnad_c	MAM01646c	dnad	dnad
+981	dnadp_c
+982	dnadp_e
+983	dopa__D_c
+984	dopa__L_c	MAM02354c	34dhphe	34dhphe
+985	dopa__L_e	MAM02354e	34dhphe	34dhphe
+986	dopaqn__L_c	MAM02356c	dopaqn	dopaqn
+987	dopasqn__L_c
+988	dpam__D_c
+989	dpam__L_c	MAM01736c	dopa	dopa
+990	dpam__L_e	MAM01736e	dopa	dopa
+991	dpamchrm_c	MAM02160c	23dh1i56dio	23dh1i56dio
+992	dpamchrmsqn_c	MAM01333c		CE5277
+993	dpamqn__L_c
+994	dpamsqn__L_c
+995	dpchrm__D_c
+996	dpchrm__L_c	MAM02355c	L_dpchrm	L_dpchrm
+997	dpchrmsqn__L_c	MAM01735c		CE5278
+998	dpcoa_c	MAM01674c	dpcoa	dpcoa
+999	dtdp_c	MAM01747c	dtdp	dtdp
+1000	dtmp_c	MAM01752c	dtmp	dtmp
+1001	dttp_c	MAM01753c	dttp	dttp
+1002	dudp_c	MAM01754c	dudp	dudp
+1003	dump_c	MAM01755c	dump	dump
+1004	dutp_c	MAM01756c	dutp	dutp
+1005	e14bp_c
+1006	e4hglu_c	MAM02358c	e4hglu	e4hglu
+1007	e4p_c	MAM01785c	e4p	e4p
+1008	edp1011_c
+1009	edp1011_e
+1010	edp1314_c
+1011	edp1314_e
+1012	edp1617_c
+1013	edp1617_e
+1014	edp1920_c
+1015	edp1920_e
+1016	edp78_c
+1017	edp78_e
+1018	eeq1112_c
+1019	eeq1112_e
+1020	eeq1415_c
+1021	eeq1415_e
+1022	eeq1718_c
+1023	eeq1718_e
+1024	eeq56_c
+1025	eeq56_e
+1026	eeq89_c
+1027	eeq89_e
+1028	eet1112_c	MAM00279c	C14770	C14770
+1029	eet1112_e	MAM00279e	C14770	C14770
+1030	eet1415_c	MAM00366c	C14771	C14771
+1031	eet1415_e	MAM00366e	C14771	C14771
+1032	eet56_c	MAM01054c	C14768	C14768
+1033	eet56_e	MAM01054e	C14768	C14768
+1034	eet89_c	MAM01209c	C14769	C14769
+1035	eet89_e	MAM01209e	C14769	C14769
+1036	epome1213_c	MAM00305c	C14826	C14826
+1037	epome1213_e	MAM00305e	C14826	C14826
+1038	epome910_c	MAM01216c	C14825	C14825
+1039	epome910_e	MAM01216e	C14825	C14825
+1040	ergoth_c
+1041	ergoth_e
+1042	erthn__D_c
+1043	erthrs__D_c
+1044	erylt_c
+1045	erylt_e
+1046	eryth__L_c	MAM02359c	eryth	eryth
+1047	estradiol23qn_c	MAM00410c		CE5250
+1048	estradiol23sqn_c	MAM00411c		CE5254
+1049	estradiol34qn_c	MAM00412c		CE5249
+1050	estradiol34sqn_c	MAM00413c	CE5253	CE5253
+1051	estradiol_c	MAM01787c	estradiol	estradiol
+1052	estradiol_e	MAM01787e	estradiol	estradiol
+1053	estrone23qn_c	MAM01791c		CE5252
+1054	estrone23sqn_c	MAM01792c		CE5256
+1055	estrone34qn_c	MAM01793c		CE5251
+1056	estrone34sqn_c	MAM01794c		CE5255
+1057	estrone_c	MAM01790c	estrone	estrone
+1058	estrone_e	MAM01790e	estrone	estrone
+1059	etha_c	MAM01797c	etha	etha
+1060	etha_e	MAM01797e	etha	etha
+1061	ethamp_c	MAM01798c	ethamp	ethamp
+1062	ethamp_e	MAM01798e	ethamp	ethamp
+1063	ethmalcoa__S_c	MAM03576c	ethmalcoa	ethmalcoa
+1064	etoh_c	MAM01796c	etoh	etoh
+1065	etoh_e	MAM01796e	etoh	etoh
+1066	f1p_c	MAM01842c	f1p	f1p
+1068	f3p_c	MAM01844c		CE3074
+1069	f6p_c	MAM01845c	f6p	f6p
+1070	fad_c	MAM01802c	fad	fad
+1071	fadh2_c	MAM01803c	fadh2	fadh2
+1072	fald_c	MAM01831c	fald	fald
+1073	fdp_c	MAM01841c	fdp	fdp
+1074	fe2_c	MAM01821c	fe2	fe2
+1075	fe2_e	MAM01821e	fe2	fe2
+1076	fe3_c	MAM01822c	fe3	fe3
+1077	fe3_e	MAM01822e	fe3	fe3
+1078	fe3ooh_c
+1079	fgam_c	MAM02575c	fgam	fgam
+1080	ficytb5_c	MAM01823c	HC00617	HC00617
+1081	fmn_c	MAM01828c	fmn	fmn
+1082	fmnh2_c
+1083	focytb5_c	MAM01825c	HC00619	HC00619
+1084	for_c	MAM01833c	for	for
+1085	for_e	MAM01833e	for	for
+1086	forapyrntp_c	MAM01832c		HC01651
+1087	fpram_c	MAM01132c	fpram	fpram
+1088	fprica_c	MAM01804c	fprica	fprica
+1089	fru_c	MAM01840c	fru	fru
+1090	fru_e	MAM01840e	fru	fru
+1091	fuc1p__L_c	MAM02372c	fuc1p__L	fuc1p_L
+1092	fuc__L_c	MAM01159c	fuc__L	fuc_L
+1093	fucgalacgalfuc12gal14acglcgalgluside_hs_c	MAM03097c	fucgalacgalfuc12gal14acglcgalgluside_hs	fucgalacgalfuc12gal14acglcgalgluside_hs
+1094	fucgalacgalfucgalacglcgal14acglcgalgluside_hs_c	MAM01879c		fucgalacgalfucgalacglcgal14acglcgalgluside_hs
+1095	fucgalacglcgal14acglcgalgluside_hs_c	MAM03137c	fucgalacglcgal14acglcgalgluside_hs	fucgalacglcgal14acglcgalgluside_hs
+1096	fucgalacglcgalgluside_hs_c
+1097	fum_c	MAM01862c	fum	fum
+1098	fum_e	MAM01862e	fum	fum
+1099	g16bp_c	MAM01966c	M01966	M01966
+1100	g1p_c	MAM01967c	g1p	g1p
+1101	g3p_c	MAM01939c	g3p	g3p
+1102	g3pc_c	MAM02912c	g3pc	g3pc
+1103	g3pe_c
+1104	g3pi_c
+1105	g3pnae_hs_c
+1106	g3ps_c
+1107	g6p__aD_c
+1108	g6p_c	MAM01968c	g6p	g6p
+1109	ga2_hs_c	MAM01905c	ga2_hs	ga2_hs
+1110	gal1p_c	MAM01322c	gal1p	gal1p
+1111	gal__bD_c
+1112	gal__bD_e
+1113	gal_c	MAM01910c	gal	gal
+1114	gal_e	MAM01910e	gal	gal
+1115	galfucgalacglcgal14acglcgalgluside_hs_c	MAM01915c	galfucgalacglcgal14acglcgalgluside_hs	galfucgalacglcgal14acglcgalgluside_hs
+1116	galfucgalacglcgalgluside_hs_c	MAM03091c	galfucgalacglcgalgluside_hs	galfucgalacglcgalgluside_hs
+1117	galgluside_hs_c	MAM03586c	galgluside_hs	galgluside_hs
+1118	galt_c	MAM01909c	galt	galt
+1119	galt_e	MAM01909e	galt	galt
+1120	gam6p_c	MAM01963c	gam6p	gam6p
+1121	gam_c	MAM01962c	gam	gam
+1122	gam_e	MAM01962e	gam	gam
+1123	gar_c	MAM01940c	gar	gar
+1124	gbside_hs_c	MAM01959c	gbside_hs	gbside_hs
+1125	gdp_c	MAM01948c	gdp	gdp
+1126	gdpddman_c	MAM01949c	gdpddman	gdpddman
+1127	gdpfuc_c	MAM01950c	gdpfuc	gdpfuc
+1128	gdpmann_c	MAM01951c	gdpmann	gdpmann
+1129	gglu2abut_c	MAM01931c		CE1661
+1130	gglucys__L_c	MAM01927c	glucys	glucys
+1131	ggn8Y_c		Tyr_ggn
+1132	ggnG11_c	MAM01990c	glygn1	glygn1
+1133	ggnG4G4_c	MAM01991c	dxtrn	dxtrn
+1134	ggnG4G7_c	MAM01992c	glygn2	glygn2
+1135	ggnG7G1_c	MAM01994c	HC02136	HC02136
+1136	ggnG7_c	MAM01993c	glygn3	glygn3
+1137	ggnG8_c	MAM01996c	ggn	ggn
+1138	glc__D_c	MAM01965c	glc__D	glc_D
+1139	glc__D_e	MAM01965e	glc__D	glc_D
+1140	glc__aD_c
+1141	glc__aD_e
+1142	glcur_c	MAM01973c	glcur	glcur
+1143	gln__L_c	MAM01975c	gln__L	gln_L
+1144	gln__L_e	MAM01975e	gln__L	gln_L
+1145	glntrna_c	MAM02376c		M02376
+1146	globin_c
+1147	globinr_c
+1148	globoA_hs_c
+1149	globoB_hs_c
+1150	glu5sa__L_c	MAM02374c	glu5sa	glu5sa
+1151	glu__L_c	MAM01974c	glu__L	glu_L
+1152	glu__L_e	MAM01974e	glu__L	glu_L
+1153	glutrna_c	MAM02377c		M02377
+1154	glx_c	MAM02007c	glx	glx
+1155	glx_e	MAM02007e	glx	glx
+1156	gly_c	MAM01986c	gly	gly
+1157	gly_e	MAM01986e	gly	gly
+1158	glyald_c	MAM01981c	glyald	glyald
+1159	glyb_c	MAM01393c	glyb	glyb
+1160	glyc3p_c	MAM02914c	glyc3p	glyc3p
+1161	glyc__R_c	MAM01982c	glyc__R	glyc_R
+1162	glyc__R_e	MAM01982e	glyc__R	glyc_R
+1163	glyc__S_c		glyc__S
+1164	glyc__S_e		glyc__S
+1165	glyc_c	MAM01983c	glyc	glyc
+1166	glyc_e	MAM01983e	glyc	glyc
+1167	glyclt_c	MAM01998c	glyclt	glyclt
+1168	glyclt_e	MAM01998e	glyclt	glyclt
+1169	glygly_c	MAM03621c	glygly	glygly
+1170	glyleu_c	MAM03626c	glyleu	glyleu
+1171	glyphe_c	MAM03629c	glyphe	glyphe
+1172	glypro_c	MAM03630c	glypro	glypro
+1173	glytrna_c	MAM02006c		M02006
+1174	glytrp_c
+1175	gm2_hs_c	MAM02011c	gm2_hs	HC02160
+1176	gm3_hs_c	MAM02015c	gm3_hs	gm3_hs
+1177	gmp_c	MAM02016c	gmp	gmp
+1178	gp4g_c
+1179	grdx2cgth_c
+1180	grdx2cox_c
+1181	grdx2crd_c
+1182	gsn_c	MAM02038c	gsn	gsn
+1183	gsn_e	MAM02038e	gsn	gsn
+1184	gthnhoh_c
+1185	gthno_c
+1186	gthno_e
+1187	gthnoh2_c
+1188	gthox_c	MAM02027c	gthox	gthox
+1189	gthox_e	MAM02027e	gthox	gthox
+1190	gthrd_c	MAM02026c	gthrd	gthrd
+1191	gtp_c	MAM02034c	gtp	gtp
+1192	gua_c	MAM02037c	gua	gua
+1193	gua_e	MAM02037e	gua	gua
+1194	gudac_c	MAM02036c	gudac	gudac
+1195	guln__L_c	MAM02378c	guln__L	guln
+1196	h2o2_c	MAM02041c	h2o2	h2o2
+1197	h2o2_e	MAM02041e	h2o2	h2o2
+1198	h2o_c	MAM02040c	h2o	h2o
+1199	h2o_e	MAM02040e	h2o	h2o
+1200	h2s_c
+1201	h2s_e
+1202	h_c	MAM02039c	h	h
+1203	h_e	MAM02039e	h	h
+1204	ham_c
+1205	hb4_23dpg_c
+1206	hb_c
+1207	hco3_c	MAM02046c	hco3	hco3
+1208	hco3_e	MAM02046e	hco3	hco3
+1209	hcys__L_c	MAM02133c	hcys__L	hcys_L
+1210	hcys__L_e	MAM02133e	hcys__L	hcys_L
+1211	hcystin__L_c	MAM03394c	Lhcystin	Lhcystin
+1212	hcystin__L_e
+1213	hdha10_c
+1214	hdha10_e
+1215	hdha11_c
+1216	hdha11_e
+1217	hdha13_c
+1218	hdha13_e
+1219	hdha14_c
+1220	hdha14_e
+1221	hdha16_c
+1222	hdha16_e
+1223	hdha17_c
+1224	hdha17_e
+1225	hdha20_c
+1226	hdha20_e
+1227	hdha4_c
+1228	hdha4_e
+1229	hdha7_c
+1230	hdha7_e
+1231	hdha8_c
+1232	hdha8_e
+1233	hematin_c
+1234	hematin_e
+1235	hemedegprods_c
+1236	hemegth_c
+1237	hemegthoh_c
+1238	hepe11_c
+1239	hepe11_e
+1240	hepe12_c
+1241	hepe12_e
+1242	hepe15_c
+1243	hepe15_e
+1244	hepe18_c
+1245	hepe18_e
+1246	hepe5_c
+1247	hepe5_e
+1248	hepe8_c
+1249	hepe8_e
+1250	hepe9_c
+1251	hepe9_e
+1252	hete11_c
+1253	hete11_e
+1254	hete12_c
+1255	hete12_e
+1256	hete15_c
+1257	hete15_e
+1258	hete5_c
+1259	hete5_e
+1260	hete8_c
+1261	hete8_e
+1262	hete9_c
+1263	hete9_e
+1264	hgentis_c	MAM02135c	hgentis	hgentis
+1265	his__L_c	MAM02125c	his__L	his_L
+1266	his__L_e	MAM02125e	his__L	his_L
+1267	hista_c	MAM02124c	hista	hista
+1268	hista_e	MAM02124e	hista	hista
+1269	histrna_c	MAM02380c		M02380
+1270	hmbil_c	MAM02151c	hmbil	hmbil
+1271	hmgth_c	MAM02152c	HC02121	HC02121
+1272	hno_c
+1273	hode13_c
+1274	hode13_e
+1275	hode9_c
+1276	hode9_e
+1277	homoval_c	MAM02137c	homoval	homoval
+1278	homoval_e	MAM02137e	homoval	homoval
+1279	hpdha10_c
+1280	hpdha11_c
+1281	hpdha13_c
+1282	hpdha14_c
+1283	hpdha16_c
+1284	hpdha17_c
+1285	hpdha20_c
+1286	hpdha4_c
+1287	hpdha7_c
+1288	hpdha8_c
+1289	hpepe11_c
+1290	hpepe12_c
+1291	hpepe15_c
+1292	hpepe18_c
+1293	hpepe5_c
+1294	hpepe8_c
+1295	hpepe9_c
+1296	hpete11_c
+1297	hpete12_c
+1298	hpete15_c
+1299	hpete5_c
+1300	hpete8_c
+1301	hpete9_c
+1302	hpode13_c
+1303	hpode9_c
+1304	hpta_c	MAM02108c	M02108	M02108
+1305	hpta_e	MAM02108e	M02108	M02108
+1306	hptal_c
+1307	hptea_2E_c
+1308	hpteal_2E_c
+1309	hpyr_c	MAM02154c	hpyr	hpyr
+1310	htsul_c	MAM02043c	HC01501	HC01501
+1311	hxaACP_c	MAM02121c		HC01592
+1312	hxa_c	MAM02120c	caproic	caproic
+1313	hxa_e	MAM02120e	caproic	caproic
+1314	hxal_c
+1315	hxan_c	MAM02159c	hxan	hxan
+1316	hxan_e	MAM02159e	hxan	hxan
+1317	hxdcaACP_c	MAM02115c	palmACP	palmACP
+1318	hxdcal_c	MAM02113c	hxdcal	hxdcal
+1319	hxdceaACP_2E_c	MAM00050c		HC01606
+1320	hxdceal_2E_c	MAM02116c	HC02228	HC02228
+1321	hxeaACP_2E_c	MAM00052c		HC01591
+1322	hxea_2E_c
+1323	hxeal_2E_c
+1324	hyptaur_c	MAM02157c	hyptaur	hyptaur
+1325	icit_c	MAM02183c	icit	icit
+1326	idp_c	MAM02161c	idp	idp
+1327	ile__L_c	MAM02184c	ile__L	ile_L
+1328	ile__L_e	MAM02184e	ile__L	ile_L
+1329	iletrna_c	MAM02401c		M02401
+1330	imp_c	MAM02167c	imp	imp
+1331	ind56qn_c	MAM03163c	ind56qn	"['ind56qn', 'M03163']"
+1332	ind56sqn_c
+1333	inds_c	MAM03703c		inds
+1334	inds_e	MAM03703e		inds
+1335	inost_c	MAM02171c	inost	inost
+1336	inost_e	MAM02171e	inost	inost
+1337	ins6p_c
+1338	ins_c	MAM02170c	ins	ins
+1339	ins_e	MAM02170e	ins	ins
+1340	insulinox_c	MAM03169c		M03169
+1341	insulinrd_c	MAM03170c		M03170
+1342	itp_c	MAM02193c	itp	itp
+1343	k_c	MAM02200c	k	k
+1344	k_e	MAM02200e	k	k
+1345	kdn_c	MAM00771c	kdn	kdn
+1346	kdnp_c	MAM00772c	kdnp	kdnp
+1347	kynate_c	MAM00990c	kynate	kynate
+1348	kynr__L_c	MAM02319c	Lkynr	Lkynr
+1349	kynr__L_e	MAM02319e	Lkynr	Lkynr
+1350	lac__D_c	MAM01716c	lac__D	lac_D
+1351	lac__D_e	MAM01716e	lac__D	lac_D
+1352	lac__L_c	MAM02403c	lac__L	lac_L
+1353	lac__L_e	MAM02403e	lac__L	lac_L
+1354	lald__D_c	MAM01715c	lald__D	lald_D
+1355	lald__L_c	MAM02329c	lald__L	lald_L
+1356	leu__L_c	MAM02360c	leu__L	leu_L
+1357	leu__L_e	MAM02360e	leu__L	leu_L
+1358	leuadrnchrm_c
+1359	leuala_c
+1360	leudpamchrm_c	MAM02361c	CE5665	CE5665
+1361	leudpchrm__L_c	MAM00638c	2c23dh56dhoxin	2c23dh56dhoxin
+1362	leugly_c	MAM03714c	leugly	leugly
+1363	leuglygly_c
+1364	leuglyphe_c
+1365	leuktrA4_c	MAM02362c	leuktrA4	leuktrA4
+1366	leuktrA4_e	MAM02362e	leuktrA4	leuktrA4
+1367	leuktrA5_c	MAM02363c	CE7079	CE7079
+1368	leuktrA5_e
+1369	leuktrB4_c	MAM02364c	leuktrB4	leuktrB4
+1370	leuktrB4_e	MAM02364e	leuktrB4	leuktrB4
+1371	leuktrB5_c	MAM02365c	CE7083	CE7083
+1372	leuktrB5_e	MAM02365e	CE7083	CE7083
+1373	leuktrC4_c	MAM02366c	leuktrC4	leuktrC4
+1374	leuktrC4_e	MAM02366e	leuktrC4	leuktrC4
+1375	leuktrC5_c	MAM02367c		CE7086
+1376	leuktrC5_e
+1377	leuleu_c	MAM03715c	leuleu	leuleu
+1378	leuleuleu_c
+1379	leunrpphrchrm_c
+1380	leupro_c	MAM03717c	leupro	leupro
+1381	leutrna_c	MAM02404c		M02404
+1382	li1_c
+1383	li1_e
+1384	lipoate_c	MAM02394c	lipoate	lipoate
+1385	lipoate_e	MAM02394e	lipoate	lipoate
+1386	lnape_hs_c
+1387	lpa_hs_c	MAM03419c	alpa_hs	alpa_hs
+1388	lpail_hs_c
+1389	lpao_hs_c	MAM03320c		C03968
+1390	lpc_hs_c	MAM00656c	lpchol_hs	lpchol_hs
+1391	lpco_hs_c
+1392	lpcp_hs_c
+1393	lpe_hs_c
+1394	lpep_hs_c	MAM00223c		M00223
+1395	lps_hs_c
+1396	lys__L_c	MAM02426c	lys__L	lys_L
+1397	lys__L_e	MAM02426e	lys__L	lys_L
+1398	lysleu_c
+1399	lystrna_c	MAM02405c		M02405
+1400	lyxnt__L_c	MAM02406c	lyxnt	lyxnt
+1401	m2mn_c	MAM00141c	m2mn	m2mn
+1402	mag2_hs_c
+1403	mag_hs_c	MAM00490c	mag_hs	mag_hs
+1404	mago_hs_c
+1405	malACP_c	MAM02442c	malACP	malACP
+1406	mal__L_c	MAM02439c	mal__L	mal_L
+1407	mal__L_e	MAM02439e	mal__L	mal_L
+1408	malcoa_c	MAM02444c	malcoa	malcoa
+1409	malcrn_c	MAM02443c	c3dc	"['c3dc', 'HC10859']"
+1410	mald_c	MAM02441c	CE0737	CE0737
+1411	man16bp_c	MAM01717c		C03693
+1412	man1p_c	MAM02454c	man1p	man1p
+1413	man6p_c	MAM02455c	man6p	man6p
+1414	man_c	MAM02453c	man	man
+1415	man_e	MAM02453e	man	man
+1416	mdhdascb__L_c
+1417	mdhdascb__L_e
+1418	meoh_c	MAM02470c	meoh	meoh
+1419	mepi__L_c	MAM02407c	mepi	mepi
+1420	mepi__L_e	MAM02407e	mepi	mepi
+1421	mercplac_c	MAM00815c	mercplac	mercplac
+1422	mercppyr_c	MAM02464c	mercppyr	mercppyr
+1423	met__L_c	MAM02471c	met__L	met_L
+1424	met__L_e	MAM02471e	met__L	met_L
+1425	methb_c
+1426	methb_onoo_c
+1427	methbr_c
+1428	methf_c	MAM01044c	methf	methf
+1429	methsel_c	MAM02469c		M02469
+1430	methselne_c
+1431	methselni_c
+1432	metpro_c
+1433	mettrna_c	MAM02408c		M02408
+1434	mg2_c	MAM02482c		mg2
+1435	mg2_e	MAM02482e		mg2
+1436	mhista_c	MAM02601c	mhista	mhista
+1437	mi13456p_c	MAM00521c	mi13456p	mi13456p
+1438	mi1345p_c	MAM00522c	mi1345p	mi1345p
+1439	mi134p_c	MAM00524c	mi134p	mi134p
+1440	mi1456p_c	MAM00525c	mi1456p	mi1456p
+1441	mi145p_c	MAM01718c	mi145p	mi145p
+1442	mi14p_c	MAM00526c	mi14p	mi14p
+1443	mi1p__D_c	MAM02173c	mi1p__D	mi1p_D
+1444	mi3p__D_c	MAM00529c	mi3p__D	mi3p_D
+1445	mi4p__D_c	MAM00530c	mi4p__D	mi4p_D
+1446	mlthf_c	MAM01045c	mlthf	mlthf
+1447	mma_c	MAM02473c	mma	mma
+1448	mma_e	MAM02473e	mma	mma
+1449	mmarg__L_c
+1450	mmarg__L_e
+1451	mmcoa__S_c	MAM02480c	mmcoa__S	mmcoa_S
+1452	mn_c	MAM01382c	mn	mn
+1453	mndiol_c
+1454	mndn_c
+1455	mobd_c
+1456	mobd_e
+1457	moco_c
+1458	mpt_c	MAM02488c		M02488
+1459	mptamp_c	MAM01281c		M01281
+1460	msa_c	MAM00900c	msa	msa
+1461	mthgxl_c	MAM02475c	mthgxl	mthgxl
+1462	n2o3_c
+1463	n2o3_e
+1464	n4abutn_c	MAM02514c	n4abutn	n4abutn
+1465	na1_c	MAM02519c	na1	na1
+1466	na1_e	MAM02519e	na1	na1
+1467	nac_c	MAM02586c	nac	nac
+1468	nac_e	MAM02586e	nac	nac
+1469	nad_c	MAM02552c	nad	nad
+1470	nad_e	MAM02552e	nad	nad
+1471	nadh_c	MAM02553c	nadh	nadh
+1472	nadhx__R_c
+1473	nadhx__S_c
+1474	nadp_c	MAM02554c	nadp	nadp
+1475	nadp_e	MAM02554e	nadp	nadp
+1476	nadph_c	MAM02555c	nadph	nadph
+1477	nadphx__R_c
+1478	nadphx__S_c
+1479	nae_hs_c
+1480	nape_hs_c
+1481	ncam_c	MAM02583c	ncam	ncam
+1482	ncam_e	MAM02583e	ncam	ncam
+1483	nh3_c
+1484	nh3_e
+1485	nh4_c	MAM02579c	nh4	nh4
+1486	nh4_e	MAM02579e	nh4	nh4
+1487	nicrns_c	MAM02584c	nicrns	nicrns
+1488	nicrnt_c	MAM02585c	nicrnt	nicrnt
+1489	nitrosylhb_c
+1490	nmn_c	MAM02581c	nmn	nmn
+1491	nmn_e
+1492	nmnh_c
+1493	no2_c	MAM02588c	no2	no2
+1494	no2_e	MAM02588e	no2	no2
+1495	no2r_c
+1496	no3_c
+1497	no3_e
+1498	no_c	MAM02609c	no	no
+1499	no_e	MAM02609e	no	no
+1500	nona_c	MAM02614c	C01601	C01601
+1501	nona_e	MAM02614e	C01601	C01601
+1502	nonal_c
+1503	nonea_2E_c
+1504	noneal_2E_c
+1505	normete__L_c	MAM02622c	normete__L	normete_L
+1506	normete__L_e	MAM02622e	normete__L	normete_L
+1507	nrpphr__L_c	MAM02617c	nrpphr	nrpphr
+1508	nrpphr__L_e	MAM02617e	nrpphr	nrpphr
+1509	nrpphrchrm_c	MAM02618c		CE5538
+1510	nrpphrchrmsqn_c	MAM02619c		CE5542
+1511	nrpphrqn__L_c
+1512	nrpphrsqn__L_c
+1513	nwharg_c	MAM02497c	nwharg	nwharg
+1514	o18bp_c
+1515	o2_c	MAM02630c	o2	o2
+1516	o2_e	MAM02630e	o2	o2
+1517	o2s_c	MAM02631c	o2s	o2s
+1518	o2s_e	MAM02631e	o2s	o2s
+1519	oaa_c	MAM02633c	oaa	oaa
+1520	ocaACP_c	MAM02643c		HC01595
+1521	ocdcaACP_c	MAM03389c	ocdcaACP	HC01988
+1522	ocdceaACP_2E_c	MAM03392c		HC02099
+1523	oceaACP_2E_c	MAM00058c		HC01594
+1524	octa_c	MAM02642c	octa	octa
+1525	octa_e	MAM02642e	octa	octa
+1526	octal_c
+1527	octea_2E_c
+1528	octeal_2E_c
+1529	oh1_c	MAM02147c	oh1	oh1
+1530	oh1_e	MAM02147e	oh1	oh1
+1531	oh1r_c
+1532	onoo_c
+1533	onoo_e
+1534	onooco2_c
+1535	onooh_c
+1536	onooh_e
+1537	ophth_c
+1538	orn__L_c	MAM02658c	orn	orn
+1539	orn__L_e	MAM02658e	orn	orn
+1540	orot5p_c	MAM02660c	orot5p	orot5p
+1541	orot_c	MAM02659c	orot	orot
+1542	orot_e	MAM02659e	orot	orot
+1543	oxa_c	MAM02661c	oxa	oxa
+1544	oxa_e	MAM02661e	oxa	oxa
+1545	oxoferrylhb_c
+1546	oxoferrylhbr_c
+1547	oxyhb_c
+1548	p4a_c
+1549	pa_hs_c	MAM02733c	pa_hs	pa_hs
+1550	pac_c	MAM02720c	pac	pac
+1551	pacald_c	MAM02719c	pacald	pacald
+1552	paf_hs_c	MAM00626c	paf_hs	paf_hs
+1553	pail345p_hs_c	MAM02734c	pail345p_hs	pail345p_hs
+1554	pail34p_hs_c	MAM00551c	pail34p_hs	pail34p_hs
+1555	pail35p_hs_c	MAM02735c	pail35p_hs	pail35p_hs
+1556	pail3p_hs_c	MAM00552c	pail3p_hs	pail3p_hs
+1557	pail45p_hs_c	MAM02736c	pail45p_hs	pail45p_hs
+1558	pail4p_hs_c	MAM00553c	pail4p_hs	pail4p_hs
+1559	pail5p_hs_c	MAM00554c	pail5p_hs	"['pail5p_hs', 'CE5101']"
+1560	pail_hs_c	MAM02750c	pail_hs	pail_hs
+1561	pail_hs_e	MAM02750e	pail_hs	pail_hs
+1562	pao_hs_c	MAM00628c	ak2gp_hs	ak2gp_hs
+1563	paoac_hs_c	MAM03317c		C01264
+1564	pap_c	MAM02681c	pap	pap
+1565	paps_c	MAM02682c	paps	paps
+1566	pc_hs_c	MAM02684c	pchol_hs	pchol_hs
+1567	pc_hs_e	MAM02684e	pchol_hs	pchol_hs
+1568	pco_hs_c	MAM00560c	ak2gchol_hs	ak2gchol_hs
+1569	pcp_hs_c
+1570	pcreat_c	MAM01620c	pcreat	pcreat
+1571	pdx5p_c	MAM02818c	pdx5p	pdx5p
+1572	pe_hs_c	MAM02685c	pe_hs	pe_hs
+1573	pe_hs_e	MAM02685e	pe_hs	pe_hs
+1574	penme2_hs_c
+1575	penme_hs_c
+1576	pep_c	MAM02696c	pep	pep
+1577	pep_hs_c	MAM02629c	dak2gpe_hs	dak2gpe_hs
+1578	peth_hs_c
+1579	peth_hs_e
+1580	phe__L_c	MAM02724c	phe__L	phe_L
+1581	phe__L_e	MAM02724e	phe__L	phe_L
+1582	phehisleu_c
+1583	pheleu_c	MAM03867c	pheleu	pheleu
+1584	pheme_c	MAM02049c	pheme	pheme
+1585	pheme_e	MAM02049e	pheme	pheme
+1586	phepro_c
+1587	phetrna_c	MAM02412c		M02412
+1588	phetyr_c	MAM03879c	phetyr	phetyr
+1589	phlac_c	MAM03882c	phlac	phlac
+1590	phpyr_c	MAM02725c	phpyr	phpyr
+1591	pi_c	MAM02751c	pi	pi
+1592	pi_e	MAM02751e	pi	pi
+1593	pnto__R_c	MAM02680c	pnto__R	pnto_R
+1594	pnto__R_e	MAM02680e	pnto__R	pnto_R
+1595	polyadprib1_c
+1596	polyadprib2_c
+1597	ppa_c	MAM02772c	ppa	ppa
+1598	ppa_e	MAM02772e	ppa	ppa
+1599	ppal_c
+1600	ppbng_c	MAM02756c	ppbng	ppbng
+1601	ppcoa_c	MAM02774c	ppcoa	ppcoa
+1602	ppgpp_c
+1603	ppi_c	MAM02759c	ppi	ppi
+1604	ppi_e	MAM02759e	ppi	ppi
+1605	ppp9_c	MAM02803c	ppp9	ppp9
+1606	ppp9_e	MAM02803e	ppp9	ppp9
+1609	pppi_c	MAM03057c	pppi	pppi
+1610	pram_c	MAM01131c	pram	pram
+1611	prdx1cgth_c
+1612	prdx1crd_c
+1613	prdx1cso_c
+1614	prdx2cox_c
+1615	prdx2crd_c
+1616	prdx2cso2_c
+1617	prdx2cso3_c
+1618	prdx2cso_c
+1619	prgstrn_c	MAM02769c	prgstrn	prgstrn
+1620	prgstrn_e	MAM02769e	prgstrn	prgstrn
+1621	pro__L_c	MAM02770c	pro__L	pro_L
+1622	pro__L_e	MAM02770e	pro__L	pro_L
+1623	proleu_c
+1624	prophe_c	MAM03901c	prophe	prophe
+1625	propro_c
+1626	prostga1_c	MAM02776c	HC02202	HC02202
+1627	prostga2_c	MAM02777c	HC02203	HC02203
+1628	prostga3_c
+1629	prostgd21glyc_c
+1630	prostgd2_c	MAM02783c	prostgd2	prostgd2
+1631	prostge1_c	MAM02785c	prostge1	prostge1
+1632	prostge1_e	MAM02785e	prostge1	prostge1
+1633	prostge21glyc_c	MAM02798c		CE5726
+1634	prostge2_c	MAM02786c	prostge2	prostge2
+1635	prostge2_e	MAM02786e	prostge2	prostge2
+1636	prostge3_c
+1637	prostge3_e
+1638	prostgf1_c
+1639	prostgf1_e
+1640	prostgf21glyc_c
+1641	prostgf2_c	MAM02789c	prostgf2	prostgf2
+1642	prostgf2_e	MAM02789e	prostgf2	prostgf2
+1643	prostgf3_c
+1644	prostgf3_e	MAM02787c	HC02213	HC02213
+1645	prostgg1_c
+1646	prostgg2_c	MAM02792c	HC02217	HC02217
+1647	prostgg3_c
+1648	prostgh1_c	MAM02793c	CE6234	CE6234
+1649	prostgh2_c	MAM02794c	prostgh2	prostgh2
+1650	prostgh3_c	MAM02716c	CE7088	CE7088
+1651	protein_Nproshispi_c
+1652	protein_Ntelehispi_c
+1653	protein_aclys__L_c
+1654	protein_admarg__L_c
+1655	protein_arg__L_c
+1656	protein_asn__L_c
+1657	protein_asp__D_c
+1658	protein_asp__L_c
+1659	protein_aspmeo__D_c
+1660	protein_cys__L_c	MAM00200c		M00200
+1661	protein_frulys3p_c
+1662	protein_frulys6p_c
+1663	protein_frulys_c
+1664	protein_gln__L_c
+1665	protein_glu5meo__L_c
+1666	protein_glu__L_c
+1667	protein_gludpam_c
+1668	protein_gluhista_c
+1669	protein_glunpphr_c
+1670	protein_glusrtn_c
+1671	protein_his__L_c
+1672	protein_hxdcacys_c
+1673	protein_isoasp__D_c
+1674	protein_isoasp__L_c	MAM00202c		M00202
+1675	protein_isoaspmeo__L_c	MAM00203c		M00203
+1676	protein_lacarg_c
+1677	protein_laccys_c
+1678	protein_laclys_c
+1679	protein_lys__L_c	MAM00204c	peplys	peplys
+1680	protein_lysglu_protein_c
+1681	protein_mmarg__L_c
+1682	protein_oadpribser_c
+1683	protein_ocdcacys_c
+1684	protein_pepproW0_c
+1685	protein_pepproW180_c
+1686	protein_rbllys3p_c
+1687	protein_rbllys5p_c
+1688	protein_rbllys_c
+1689	protein_sadpribcys_c
+1690	protein_sdmarg__L_c
+1691	protein_ser3oacgam_c
+1692	protein_serTAg_c
+1693	protein_serTnAg_c
+1694	protein_ser__L_c
+1695	protein_serpi_c
+1696	protein_sucim__D_c
+1697	protein_sucim__L_c
+1698	protein_thr3oacgam_c
+1699	protein_thrTAg_c
+1700	protein_thrTnAg_c
+1701	protein_thr__L_c
+1702	protein_thrpi_c
+1703	protein_ttdcacys_c
+1704	protein_tyr__L_c
+1705	protein_tyrpi_c
+1706	protrna_c	MAM02415c		M02415
+1707	prpp_c	MAM02806c	prpp	prpp
+1708	ps_hs_c	MAM02808c	ps_hs	ps_hs
+1709	ps_hs_e	MAM02808e	ps_hs	ps_hs
+1710	pser__L_c	MAM00916c	pser__L	pser_L
+1711	psump_c
+1712	psuri_c
+1713	pta_c	MAM03134c	M03134	M03134
+1714	pta_e	MAM03134e	M03134	M03134
+1715	ptrc_c	MAM02812c	ptrc	ptrc
+1716	ptrc_e	MAM02812e	ptrc	ptrc
+1717	ptth__R_c	MAM02679c	ptth
+1718	pyam5p_c	MAM02816c	pyam5p	pyam5p
+1719	pydam_c	MAM02815c	pydam	pydam
+1720	pydam_e	MAM02815e	pydam	pydam
+1721	pydx5p_c	MAM02814c	pydx5p	pydx5p
+1722	pydx_c	MAM02813c	pydx	pydx
+1723	pydx_e	MAM02813e	pydx	pydx
+1724	pydxn_c	MAM02817c	pydxn	pydxn
+1725	pydxn_e	MAM02817e	pydxn	pydxn
+1726	pyr_c	MAM02819c	pyr	pyr
+1727	pyr_e	MAM02819e	pyr	pyr
+1728	pyrrl_c	MAM00557c	CE1944	CE1944
+1729	q10_c	MAM03103c	q10	q10
+1730	q10h2_c	MAM03102c	q10h2	q10h2
+1731	q10h_c
+1732	qmp_c
+1733	que_c	MAM02820c		M02820
+1734	r15bp_c
+1735	r1p_c	MAM02844c	r1p	r1p
+1736	r5p_c	MAM02845c	r5p	r5p
+1737	r5p_e
+1738	rbl__D_c	MAM01743c	rbl__D	rbl_D
+1739	rblvrd_c
+1740	rbt_c	MAM02841c	rbt	rbt
+1741	rbt_e	MAM02841e	rbt	rbt
+1742	retinal_11Z_c	MAM00290c	retinal_11_cis	retinal_11_cis
+1743	retinal_13Z_c	MAM00349c	retinal_cis_13	retinal_cis_13
+1744	retinal_9Z_c	MAM01230c	retinal_cis_9	retinal_cis_9
+1745	retinal_c	MAM02832c	retinal	retinal
+1746	retinol_11Z_c	MAM00291c	retinol_cis_11	retinol_cis_11
+1747	retinol_13Z_c	MAM00351c	retinol_cis_13	retinol_cis_13
+1748	retinol_9Z_c	MAM01232c	retinol_9_cis	retinol_9_cis
+1749	retinol_c	MAM02834c	retinol	retinol
+1750	retinol_e	MAM02834e	retinol	retinol
+1751	retn_11Z_c
+1752	retn_13Z_c
+1753	retn_9Z_c
+1754	retn_c	MAM02833c	retn	retn
+1755	rib__D_c	MAM02843c	rib__D	rib_D
+1756	rib__D_e	MAM02843e	rib__D	rib_D
+1757	ribflv_c	MAM02842c	ribflv	ribflv
+1758	ribflv_e	MAM02842e	ribflv	ribflv
+1759	rnam_c	MAM02582c	rnam	rnam
+1760	rnamh_c
+1761	rnamh_e
+1762	ru5p__D_c	MAM02846c	ru5p__D	ru5p_D
+1763	s17bp_c	MAM02883c	HC00361	HC00361
+1764	s7p_c	MAM02884c	s7p	s7p
+1765	saica_c
+1766	saica_e
+1767	saicar_c	MAM02872c	25aics	25aics
+1768	sarcs_c	MAM02880c	sarcs	sarcs
+1769	sbt__D_c	MAM01682c	sbt__D	sbt_D
+1770	sbt__D_e	MAM01682e	sbt__D	sbt_D
+1771	sdhplse_c
+1772	selahcys__L_c
+1773	selamet__L_c	MAM02882c	seasmet	seasmet
+1774	selcys__L_c	MAM02889c	selcys	selcys
+1775	selcyst__L_c	MAM02888c	selcyst	selcyst
+1776	seldigth_c
+1777	selgth_c
+1778	selhcys__L_c	MAM02890c	selhcys	selhcys
+1779	selmet__L_c	MAM02891c	selmeth	selmeth
+1780	seln_c	MAM02886c	seln	seln
+1781	seln_e
+1782	selni_c	MAM02887c		selni
+1783	selni_e
+1784	ser__L_c	MAM02896c	ser__L	ser_L
+1785	ser__L_e	MAM02896e	ser__L	ser_L
+1786	sertrna_c	MAM02416c		M02416
+1787	sforgth_c	MAM01837c	Sfglutth	Sfglutth
+1788	sgthprostga1_c	MAM02862c		C11304
+1789	sgthprostga1_e
+1790	sgthprostga2_c	MAM02863c		CE6235
+1791	sgthprostga2_e
+1792	sgthprostga3_c
+1793	sgthprostga3_e
+1794	sh1_c
+1795	sh1_e
+1796	slac__L_c	MAM00179c	sl__L	sl_L
+1797	slgth__R_c	MAM00168c	lgt__S	lgt_S
+1798	snocys__L_c
+1799	snocys__L_e
+1800	so2gth_c
+1801	so3_c	MAM02949c	so3	so3
+1802	so4_c	MAM02946c	so4	so4
+1803	so4_e	MAM02946e	so4	so4
+1804	sph1p_c	MAM02928c	sph1p	sph1p
+1805	sph1p_e	MAM02928e	sph1p	sph1p
+1806	sphgn_c	MAM02927c	sphgn	sphgn
+1807	sphgn_e	MAM02927e	sphgn	sphgn
+1808	sphings_c	MAM02929c	sphings	sphings
+1809	sphings_e	MAM02929e	sphings	sphings
+1810	sphmyln_hs_c	MAM02908c	sphmyln_hs	sphmyln_hs
+1811	sphmyln_hs_e	MAM02908e	sphmyln_hs	sphmyln_hs
+1812	sphs1p_c	MAM02930c	sphs1p	sphs1p
+1813	sphs1p_e	MAM02930e	sphs1p	sphs1p
+1814	spmd_c	MAM02923c	spmd	spmd
+1815	spmd_e	MAM02923e	spmd	spmd
+1816	sppt_c
+1817	sppt_e
+1818	sprm_c	MAM02926c	sprm	sprm
+1819	sprm_e	MAM02926e	sprm	sprm
+1820	srdx1cgth_c
+1821	srdx1crd_c
+1822	srtn_c	MAM02897c	srtn	srtn
+1823	srtn_e	MAM02897e	srtn	srtn
+1824	ssgth_c
+1825	sso2gth_c
+1826	sucacetat_c	MAM03956c	sucacetat	sucacetat
+1827	sucaceto_c	MAM03957c	sucaceto	sucaceto
+1828	succ_c	MAM02943c	succ	succ
+1829	succ_e	MAM02943e	succ	succ
+1830	succadn_c
+1831	succamp_c	MAM01282c	dcamp	dcamp
+1832	sucsal_c	MAM02942c	sucsal	sucsal
+1833	tag_hs_c	MAM02959c	tag_hs	tag_hs
+1834	taur_c	MAM02961c	taur	taur
+1835	taur_e	MAM02961e	taur	taur
+1836	tetiodthy__L_c	MAM02998c	thyox__L	thyox_L
+1837	tetiodthy__L_e	MAM02998e	thyox__L	thyox_L
+1838	thbpt4acam_c	MAM00965c	thbpt4acam	thbpt4acam
+1839	thbpt_c	MAM02978c	thbpt	thbpt
+1840	thbpt_e	MAM02978e	thbpt	thbpt
+1841	thcrm_hs_c	MAM01960c	thcrm_hs	thcrm_hs
+1842	thf_c	MAM02980c	thf	thf
+1843	thf_e	MAM02980e	thf	thf
+1844	thm_c	MAM02982c	thm	thm
+1845	thm_e	MAM02982e	thm	thm
+1846	thmmp_c	MAM02983c	thmmp	thmmp
+1847	thmmp_e	MAM02983e	thmmp	thmmp
+1848	thmpp_c	MAM02984c	thmpp	thmpp
+1849	thmtp_c	MAM02985c	thmtp	thmtp
+1850	thr__L_c	MAM02993c	thr__L	thr_L
+1851	thr__L_e	MAM02993e	thr__L	thr_L
+1852	thrnt__L_c	MAM02992c	thrnt	thrnt
+1853	thrtl__L_c
+1854	thrtrna_c	MAM02419c		M02419
+1855	thym_c	MAM02997c	thym	thym
+1856	thym_e	MAM02997e	thym	thym
+1857	thymd_c	MAM02996c	thymd	thymd
+1858	thymd_e	MAM02996e	thymd	thymd
+1859	trdxox_c	MAM02666c	trdox	trdox
+1860	trdxrd_c	MAM02990c	trdrd	trdrd
+1861	triiodthy__L_c	MAM03052c	triodthy	triodthy
+1862	triiodthy__L_e	MAM03052e	triodthy	triodthy
+1863	trnaala_c	MAM03063c		M03063
+1864	trnaarg_c	MAM03064c		M03064
+1865	trnaasn_c	MAM03065c		M03065
+1866	trnaasp_c	MAM03066c		M03066
+1867	trnacys_c	MAM03067c		M03067
+1868	trnagln_c	MAM03068c		M03068
+1869	trnaglu_c	MAM03069c		M03069
+1870	trnagly_c	MAM03070c		M03070
+1871	trnahis_c	MAM03071c		M03071
+1872	trnaile_c	MAM03072c		M03072
+1873	trnaleu_c	MAM03073c		M03073
+1874	trnalys_c	MAM03074c		M03074
+1875	trnamet_c	MAM03075c		M03075
+1876	trnaphe_c	MAM03076c		M03076
+1877	trnapro_c	MAM03077c		M03077
+1878	trnaser_c	MAM03078c		M03078
+1879	trnathr_c	MAM03079c		M03079
+1880	trnatrp_c	MAM03080c		M03080
+1881	trnatyr_c	MAM03081c		M03081
+1882	trnaval_c	MAM03082c		M03082
+1883	trp__L_c	MAM03089c	trp__L	trp_L
+1884	trp__L_e	MAM03089e	trp__L	trp_L
+1885	trptrna_c	MAM02420c		M02420
+1886	tststerone_c	MAM02969c	tststerone	tststerone
+1887	tststerone_e	MAM02969e	tststerone	tststerone
+1888	ttdcaACP_c	MAM02972c	myrsACP	myrsACP
+1889	ttdceaACP_2E_c	MAM00065c		HC01603
+1890	tyr__L_c	MAM03101c	tyr__L	tyr_L
+1891	tyr__L_e	MAM03101e	tyr__L	tyr_L
+1892	tyrtrna_c	MAM02421c		M02421
+1893	tyrtyr_c	MAM04055c	tyrtyr	tyrtyr
+1894	tyrtyrtyr_c
+1895	uacgam_c	MAM03111c	uacgam	uacgam
+1896	udp_c	MAM03106c	udp	udp
+1897	udpacgal_c	MAM03110c	udpacgal	udpacgal
+1898	udpgal_c	MAM03107c	udpgal	udpgal
+1899	udpglc__D_c	MAM03108c	udpg	udpg
+1900	ump_c	MAM03114c	ump	ump
+1901	upp1_c	MAM03125c	C05767	C05767
+1902	upp1_e
+1903	upp3_c	MAM03126c		C02469
+1904	upp3_e
+1905	uppg1_c	MAM03127c	HC01609	HC01609
+1906	uppg3_c	MAM03128c	uppg3	uppg3
+1907	ura_c	MAM03118c	ura	ura
+1908	ura_e	MAM03118e	ura	ura
+1909	urate_c	MAM03120c	urate	urate
+1910	urate_e	MAM03120e	urate	urate
+1911	urateooh_c
+1912	urater_c
+1913	urea_c	MAM03121c	urea	urea
+1914	urea_e	MAM03121e	urea	urea
+1915	uri_c	MAM03123c	uri	uri
+1916	uri_e	MAM03123e	uri	uri
+1917	utp_c	MAM03130c	utp	utp
+1918	val__L_c	MAM03135c	val__L	val_L
+1919	val__L_e	MAM03135e	val__L	val_L
+1920	valleu_c
+1921	valpro_c
+1922	valtrna_c	MAM02423c		M02423
+1923	valtyr_c
+1924	vanillac_c	MAM04072c	vanillac	vanillac
+1925	vanillac_e	MAM04072e	vanillac	vanillac
+1926	vanilpyr_c	MAM04073c	vanilpyr	vanilpyr
+1927	xan_c	MAM03148c	xan	xan
+1928	xan_e	MAM03148e	xan	xan
+1929	xmp_c	MAM03150c	xmp	xmp
+1930	xolest2_hs_c	MAM01451c	xolest2_hs	xolest2_hs
+1931	xtp_c	MAM03154c	xtp	xtp
+1932	xtsn_c	MAM03149c	xtsn	xtsn
+1933	xu5p__D_c	MAM01761c	xu5p__D	xu5p_D
+1934	xyl__D_c	MAM01758c	xyl__D	xyl_D
+1935	xyl__D_e	MAM01758e	xyl__D	xyl_D
+1936	xylnt__L_c
+1937	xylt_c	MAM03155c	xylt	xylt
+1938	xylt_e	MAM03155e	xylt	xylt
+1939	xylu__D_c	MAM01759c	xylu__D	xylu_D
+1940	xylu__D_e	MAM01759e	xylu__D	xylu_D
+1941	xylu__L_c	MAM02425c	xylu__L	xylu_L
+1942	zn2_c	MAM03157c	zn2	zn2
+1943	zn2_e	MAM03157e	zn2	zn2
+1944	ztp_c
+	5dpmev_c	MAM00164c		5dpmev
+	ipdp_c	MAM02187c		ipdp
+	dmpp_c	MAM00164c	dmpp	dmpp
+	grdp_c	MAM01953c	grdp	grdp
+	frdp_c	MAM01806c	frdp	frdp
+	zymstnl_c	MAM01449c	zymstnl	zymstnl
+	lthstrl_c	MAM02343c
+	Ssq23epx_c	MAM02932c
+	zymst_c	MAM03158c	zymst	zymst
+	chlstol_c	MAM01066c	chlstol	chlstol
+	lanost_c	MAM02336c

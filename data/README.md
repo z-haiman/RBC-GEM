@@ -15,10 +15,10 @@ Contains `.zip` files for various publications and unmodified supplemental files
 Contains data relevant to MEMOTE experiments
 
 ### raw
-Contains the raw RBC-GEM data files. It is intended to be used to store raw/initial data files that will be utilized, transformed, and/or processed in some capacity using subsequent code. It should remain empty on the `main` branch. 
+Contains the raw RBC-GEM data files. It is intended to be used to store raw/initial data files that will be utilized, transformed, and/or processed in some capacity using subsequent code. It should remain empty on the `main` branch.
 
 ### interim
-Contains the interim RBC-GEM data files. It is intended to be used to store data that is being processed/finalized. It should remain empty on the `main` branch. 
+Contains the interim RBC-GEM data files. It is intended to be used to store data that is being processed/finalized. It should remain empty on the `main` branch.
 
 ### processed
-Contains the processed RBC-GEM data files. It is intended to be used to store processed/finalized data before organization into the appropriate repository locations. It should remain empty on the `main` branch. 
+Contains the processed RBC-GEM data files. It is intended to be used to store processed/finalized data before organization into the appropriate repository locations. It should remain empty on the `main` branch.

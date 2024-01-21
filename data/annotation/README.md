@@ -79,7 +79,7 @@ Contains model content mapped to different databases. Files stored here are inte
 
 
 ##### Notes
-* Often times, a database contains cross-references to other databases, making it possible to obtain additional annotation information for those databases. Data contained in files here may also have additional cross-reference information. 
+* Often times, a database contains cross-references to other databases, making it possible to obtain additional annotation information for those databases. Data contained in files here may also have additional cross-reference information.
 * Consequently, there are occassions where a cross-reference within one database does not match the cross-reference in another database. This can occur for various reasons, such as differences in database update schedules, whether any databases have undergone backwards incompatible changes, etc.
 * All information is coalesced into a single main file using a [notebook](../../code/notebooks/annotation/ReconcileAnnotations_RBC-GEM.ipynb).
 * Annotations extracted directly from their primary database should always be prioritized over those extracted as a secondary cross-reference.

@@ -1,24 +1,17 @@
 from warnings import warn
+
 from rbc_gem_utils.util import ensure_iterable
 
-from .drugbank import (
-    DRUGBANK_VERSION_EXPECTED,
-    get_version_DrugBank,
-)
-
-from .metatlas import (
-    HUMANGEM_VERSION_EXPECTED,
-    get_version_HumanGEM,
-)
-from .uniprot import (
-    UNIPROT_VERSION_EXPECTED,
-    get_version_UniProt,
-)
+from .drugbank import DRUGBANK_PATH, DRUGBANK_VERSION_EXPECTED, get_version_DrugBank
+from .metatlas import HUMANGEM_PATH, HUMANGEM_VERSION_EXPECTED, get_version_HumanGEM
+from .mim import MIM_DB_TAG, MIM_PATH, get_last_updated_dates_MIM
+from .tcdb import TCDB_PATH
+from .uniprot import UNIPROT_PATH, UNIPROT_VERSION_EXPECTED, get_version_UniProt
 
 
 def check_database_version_online(database, expected=None, verbose=False):
     """Check the database version online against the expected version."""
-    database_versfunc_expected_dict =  {
+    database_versfunc_expected_dict = {
         "DrugBank": (get_version_DrugBank, DRUGBANK_VERSION_EXPECTED),
         "MetAtlas": (get_version_HumanGEM, HUMANGEM_VERSION_EXPECTED),
         "UniProt": (get_version_UniProt, UNIPROT_VERSION_EXPECTED),
@@ -34,7 +27,6 @@ def check_database_version_online(database, expected=None, verbose=False):
         if expected is None:
             expected = default_expected
     return check_version(get_version_func(), expected, verbose=verbose)
-
 
 
 def check_version(current, expected, verbose=False):

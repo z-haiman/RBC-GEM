@@ -722,7 +722,7 @@
       - bigg.metabolite: fum
       - biocyc: META:FUM
       - chebi: CHEBI:18012
-      - envipath: 
+      - envipath:
           32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/709035ec-4868-4de8-9095-06428f6be14b
       - hmdb: HMDB0000134
       - inchikey: VZCYOOQTPOCHFL-OWOJBTEDSA-L
@@ -1944,7 +1944,7 @@
       - bigg.metabolite: phpyr
       - biocyc: META:PHENYL-PYRUVATE
       - chebi: CHEBI:30851
-      - envipath: 
+      - envipath:
           650babc9-9d68-4b73-9332-11972ca26f7b/compound/1a2c1780-502b-43c6-8d45-759953ea5e07
       - hmdb: HMDB0000205
       - inchikey: BTNMPGBKDVTSJY-UHFFFAOYSA-M
@@ -1968,7 +1968,7 @@
       - bigg.metabolite: gua
       - biocyc: META:GUANINE
       - chebi: CHEBI:16235
-      - envipath: 
+      - envipath:
           650babc9-9d68-4b73-9332-11972ca26f7b/compound/b5208daa-3750-4745-b4ed-179fb9d4fcfd
       - hmdb: HMDB0000132
       - inchikey: UYTPUPDQBNUYGX-UHFFFAOYSA-N
@@ -2037,7 +2037,7 @@
       - bigg.metabolite: pmtcoa
       - biocyc: META:PALMITYL-COA
       - chebi: CHEBI:15525
-      - envipath: 
+      - envipath:
           32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/683c12f9-18f4-4439-a718-0877aa11b9ae
       - hmdb: HMDB0001338
       - inchikey: MNBKLUUYKPBKDU-BBECNAHFSA-J
@@ -2373,7 +2373,7 @@
       - bigg.metabolite: co
       - biocyc: META:CARBON-MONOXIDE
       - chebi: CHEBI:17245
-      - envipath: 
+      - envipath:
           32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/a0a5ff93-8a43-48da-aab5-cef2c628da42
       - hmdb: HMDB01361
       - inchikey: UGFAIRIUMAVXCW-UHFFFAOYSA-N
@@ -2458,7 +2458,7 @@
       - bigg.metabolite: hdca
       - biocyc: META:PALMITATE
       - chebi: CHEBI:15756
-      - envipath: 
+      - envipath:
           32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/dc7314a1-8e9a-410f-be4f-f7d8bf32b1cb
       - hmdb: HMDB0000220
       - inchikey: IPCSVZSSVZVIGE-UHFFFAOYSA-M
@@ -2492,7 +2492,7 @@
         - META:COA-GROUP
         - META:CO-A
       - chebi: CHEBI:1146900
-      - envipath: 
+      - envipath:
           32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/19310484-6aa5-4dcf-b1da-855a8c21ecfd
       - hmdb: HMDB0001423
       - inchikey: RGJOEKWQDUBAIZ-IBOSZNHHSA-J
@@ -3041,7 +3041,7 @@
       - bigg.metabolite: pydam
       - biocyc: META:PYRIDOXAMINE
       - chebi: CHEBI:16410
-      - envipath: 
+      - envipath:
           32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/a8e03eef-0f65-4f7e-aaaa-c85331fbebe6
       - hmdb:
         - HMDB62696
@@ -3066,7 +3066,7 @@
       - bigg.metabolite: pydx
       - biocyc: META:PYRIDOXAL
       - chebi: CHEBI:17310
-      - envipath: 
+      - envipath:
           32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/049709c3-768e-468f-b435-40e990942002
       - hmdb: HMDB01545
       - inchikey: RADKZDMFGJYCBB-UHFFFAOYSA-N
@@ -3152,7 +3152,7 @@
       - bigg.metabolite: pydxn
       - biocyc: META:PYRIDOXINE
       - chebi: CHEBI:16709
-      - envipath: 
+      - envipath:
           32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/344a84bd-2fbd-4e3b-903e-556786d111e2
       - hmdb: HMDB0000239
       - inchikey: LXNHXLLTXMVWPM-UHFFFAOYSA-N
@@ -3480,7 +3480,7 @@
       - bigg.metabolite: dopa
       - biocyc: META:DOPAMINE
       - chebi: CHEBI:18243
-      - envipath: 
+      - envipath:
           650babc9-9d68-4b73-9332-11972ca26f7b/compound/47cc810c-1f1f-4351-82ca-b97abf5dc03c
       - hmdb: HMDB0000073
       - inchikey: VYFYYTLLBUKUHU-UHFFFAOYSA-O
@@ -3676,7 +3676,7 @@
       - bigg.metabolite: man
       - biocyc: META:D-mannopyranose
       - chebi: CHEBI:4208
-      - envipath: 
+      - envipath:
           32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/c5f931e8-e7f7-4b73-bed6-48662796fe18
       - hmdb: HMDB0000169
       - inchikey: WQZGKKKJIJFFOK-QTVWNMPRSA-N
@@ -3926,7 +3926,7 @@
       - bigg.metabolite: met__L
       - biocyc: META:MET
       - chebi: CHEBI:16643
-      - envipath: 
+      - envipath:
           32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/44a61812-39ff-48f9-bf09-8398e8723d5e
       - hmdb: HMDB0000696
       - inchikey: FFEARJCKVFRZRR-BYPYZUCNSA-N
@@ -4030,7 +4030,7 @@
     - annotation: !!omap
       - bigg.metabolite: thm
       - chebi: CHEBI:18385
-      - envipath: 
+      - envipath:
           32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/d00080d5-971d-4e5f-973a-226a589d76df
       - hmdb: HMDB0000235
       - inchikey: MYVIATVLJGTBFV-UHFFFAOYSA-M
@@ -4361,7 +4361,7 @@
       - bigg.metabolite: mthgxl
       - biocyc: META:METHYL-GLYOXAL
       - chebi: CHEBI:17158
-      - envipath: 
+      - envipath:
           650babc9-9d68-4b73-9332-11972ca26f7b/compound/87b7fac4-f224-43ab-81f4-b95330450174
       - hmdb: HMDB01167
       - inchikey: AIJULSRZWUXGPQ-UHFFFAOYSA-N
@@ -4530,7 +4530,7 @@
       - bigg.metabolite: co
       - biocyc: META:CARBON-MONOXIDE
       - chebi: CHEBI:17245
-      - envipath: 
+      - envipath:
           32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/a0a5ff93-8a43-48da-aab5-cef2c628da42
       - hmdb: HMDB01361
       - inchikey: UGFAIRIUMAVXCW-UHFFFAOYSA-N
@@ -4930,7 +4930,7 @@
       - bigg.metabolite: dopa
       - biocyc: META:DOPAMINE
       - chebi: CHEBI:18243
-      - envipath: 
+      - envipath:
           650babc9-9d68-4b73-9332-11972ca26f7b/compound/47cc810c-1f1f-4351-82ca-b97abf5dc03c
       - hmdb: HMDB0000073
       - inchikey: VYFYYTLLBUKUHU-UHFFFAOYSA-O
@@ -5194,7 +5194,7 @@
       - bigg.metabolite: fum
       - biocyc: META:FUM
       - chebi: CHEBI:18012
-      - envipath: 
+      - envipath:
           32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/709035ec-4868-4de8-9095-06428f6be14b
       - hmdb: HMDB0000134
       - inchikey: VZCYOOQTPOCHFL-OWOJBTEDSA-L
@@ -5485,7 +5485,7 @@
       - bigg.metabolite: o2
       - biocyc: META:OXYGEN-MOLECULE
       - chebi: CHEBI:15379
-      - envipath: 
+      - envipath:
           5882df9c-dae1-4d80-a40e-db4724271456/compound/d5d12248-82d3-4cf3-b7d0-2e3d096768b4
       - hmdb: HMDB0001377
       - inchikey: MYMOFIZGZYHOMD-UHFFFAOYSA-N
@@ -6092,7 +6092,7 @@
       - bigg.metabolite: hdca
       - biocyc: META:PALMITATE
       - chebi: CHEBI:15756
-      - envipath: 
+      - envipath:
           32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/dc7314a1-8e9a-410f-be4f-f7d8bf32b1cb
       - hmdb: HMDB0000220
       - inchikey: IPCSVZSSVZVIGE-UHFFFAOYSA-M
@@ -6403,7 +6403,7 @@
       - bigg.metabolite: man
       - biocyc: META:D-mannopyranose
       - chebi: CHEBI:4208
-      - envipath: 
+      - envipath:
           32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/c5f931e8-e7f7-4b73-bed6-48662796fe18
       - hmdb: HMDB0000169
       - inchikey: WQZGKKKJIJFFOK-QTVWNMPRSA-N
@@ -6449,7 +6449,7 @@
       - bigg.metabolite: met__L
       - biocyc: META:MET
       - chebi: CHEBI:16643
-      - envipath: 
+      - envipath:
           32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/44a61812-39ff-48f9-bf09-8398e8723d5e
       - hmdb: HMDB0000696
       - inchikey: FFEARJCKVFRZRR-BYPYZUCNSA-N
@@ -6649,7 +6649,7 @@
       - bigg.metabolite: o2
       - biocyc: META:OXYGEN-MOLECULE
       - chebi: CHEBI:15379
-      - envipath: 
+      - envipath:
           5882df9c-dae1-4d80-a40e-db4724271456/compound/d5d12248-82d3-4cf3-b7d0-2e3d096768b4
       - hmdb: HMDB0001377
       - inchikey: MYMOFIZGZYHOMD-UHFFFAOYSA-N
@@ -6836,7 +6836,7 @@
       - bigg.metabolite: pydam
       - biocyc: META:PYRIDOXAMINE
       - chebi: CHEBI:16410
-      - envipath: 
+      - envipath:
           32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/a8e03eef-0f65-4f7e-aaaa-c85331fbebe6
       - hmdb:
         - HMDB62696
@@ -6861,7 +6861,7 @@
       - bigg.metabolite: pydx
       - biocyc: META:PYRIDOXAL
       - chebi: CHEBI:17310
-      - envipath: 
+      - envipath:
           32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/049709c3-768e-468f-b435-40e990942002
       - hmdb: HMDB01545
       - inchikey: RADKZDMFGJYCBB-UHFFFAOYSA-N
@@ -6884,7 +6884,7 @@
       - bigg.metabolite: pydxn
       - biocyc: META:PYRIDOXINE
       - chebi: CHEBI:16709
-      - envipath: 
+      - envipath:
           32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/344a84bd-2fbd-4e3b-903e-556786d111e2
       - hmdb: HMDB0000239
       - inchikey: LXNHXLLTXMVWPM-UHFFFAOYSA-N
@@ -7007,7 +7007,7 @@
     - annotation: !!omap
       - bigg.metabolite: thm
       - chebi: CHEBI:18385
-      - envipath: 
+      - envipath:
           32de3cf4-e3e6-4168-956e-32fa5ddb0ce1/compound/d00080d5-971d-4e5f-973a-226a589d76df
       - hmdb: HMDB0000235
       - inchikey: MYVIATVLJGTBFV-UHFFFAOYSA-M

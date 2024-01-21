@@ -1,38 +1,28 @@
 """Contains main functions and constants to facilitate working with the RBC-GEM reconstruction."""
 
-from .annotation import (
-    get_annotation_df, get_id_annotation_mapping
-)
-from .database import (
-    check_database_version_online,
-    check_version
-)
-from .io import (
-    read_rbc_model, write_rbc_model, 
-    read_cobra_model, write_cobra_model
-)
-from .qc import (
-    compare_tables
-)
+from .annotation import get_annotation_df, get_id_annotation_mapping
+from .database import check_database_version_online, check_version
+from .io import read_cobra_model, read_rbc_model, write_cobra_model, write_rbc_model
+from .qc import compare_tables
 from .util import (
-    ROOT_PATH, 
-    MODEL_PATH, 
-    DATABASE_PATH, 
     ANNOTATION_PATH,
-    INTERIM_PATH,
-    EXTERNAL_PATH,
-    CURATION_PATH,
-    GEM_NAME, 
-    GEM_URL,
     COBRA_CONFIGURATION,
+    CURATION_PATH,
+    DATABASE_PATH,
+    EXTERNAL_PATH,
+    GEM_NAME,
+    GEM_URL,
+    INTERIM_PATH,
+    MODEL_PATH,
+    RESULTS_PATH,
+    ROOT_PATH,
     build_string,
-    split_string, 
+    explode_column,
     show_versions,
+    split_string,
 )
-from .visualization import (
-    visualize_comparison
-)
+from .visualization import visualize_comparison
+
 
 # FIXME Find a way to single source version with version.txt outside repository, only if tools are to be included as same version as model
 __version__ = "0.0.1"
-

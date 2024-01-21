@@ -1,0 +1,115 @@
+	genes	uniprot	hgnc.symbol	ncbigene	notes
+0	ADCY1	Q08828	ADCY1	107	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+1	ADCY3	O60266	ADCY3	109	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+2	ADCY4	Q8NFM4	ADCY4	196883	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+3	ADCY5	O95622	ADCY5	111	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+4	ADCY6	O43306	ADCY6	112	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+5	ADCY7	P51828	ADCY7	113	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+6	ADCY8	P40145	ADCY8	114	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+7	ADCY9	O60503	ADCY9	115	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+9	AGPAT2	O15120	AGPAT2	10555	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+10	AGPAT5	Q9NUQ2	AGPAT5	55326	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+11	ALDH1A2	O94788	ALDH1A2	8854	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+13	AMD1	P17707	AMD1	262	no proteomic evidence.
+15	AOX1	Q06278	AOX1	316	no proteomic evidence.
+16	ATP1B4	Q9UN42	ATP1B4	23439	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+17	CDS1	Q92903	CDS1	1040	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+18	CEPT1	Q9Y6K0	CEPT1	10390	no proteomic evidence. evidence indicates activity does not occur in erythrocytes
+19	CHKA	P35790	CHKA	1119	no proteomic evidence. evidence indicates activity does not occur in erythrocytes
+20	CHKB	Q9Y259	CHKB	1120	no proteomic evidence. evidence indicates activity does not occur in erythrocytes
+21	CHPT1	Q8WUD6	CHPT1	56994	no proteomic evidence. evidence indicates activity does not occur in erythrocytes
+22	CLC	Q05315	CLC	1178	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+23	COMTD1	Q86VU5	COMTD1	118881	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+25	CPOX	P36551	CPOX	1371	"Coproporphyrinogen oxidase is a mitochondrial enzyme for heme synthesis, and healthy mature erythrocytes do not synthesize heme nor have mitochondria."
+26	CPT2	P23786	CPT2	1376	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+27	CRYL1	Q9Y2S2	CRYL1	51084	no proteomic evidence.
+28	DGKB	Q9Y6T7	DGKB	1607	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+29	DGKE	P52429	DGKE	8526	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+30	DGKG	P49619	DGKG	1608	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+31	DGKH	Q86XP1	DGKH	160851	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+32	DGKI	O75912	DGKI	9162	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+33	DGKQ	P52824	DGKQ	1609	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+34	DGKZ	Q13574	DGKZ	8525	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+35	ENPP1	P22413	ENPP1	5167	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+36	ETNK1	Q9HBU6	ETNK1	55500	no proteomic evidence. evidence indicates activity does not occur in erythrocytes
+37	ETNK2	Q9NVF9	ETNK2	55224	no proteomic evidence. evidence indicates activity does not occur in erythrocytes
+38	FBP1	P09467	FBP1	2203	no proteomic evidence.
+39	FBP2	O00757	FBP2	8789	no proteomic evidence.
+40	FECH	P22830	FECH	2235	"Ferrochelatase  is a mitochondrial enzyme for heme synthesis, and healthy mature erythrocytes do not synthesize heme nor have mitochondria."
+41	GK	P32189	GK	2710	no proteomic evidence. evidence indicates activity does not occur in erythrocytes
+42	GK2	Q14410	GK2	2712	no proteomic evidence. evidence indicates activity does not occur in erythrocytes
+43	GK3		GK3P	2713	pseudogene
+44	GPAM	Q9HCL2	GPAM	57678	no proteomic evidence.
+45	GPAT4	Q86UL3	GPAT4	137964	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+46	GUCY1A2	P33402	GUCY1A2	2977	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+47	GUCY1B2		GUCY1B2	2974	pseudogene
+48	GUCY2C	P25092	GUCY2C	2984	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+49	GUCY2D	Q02846	GUCY2D	3000	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+50	GUCY2F	P51841	GUCY2F	2986	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+51	HK2	P52789	HK2	3099	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+52	HKDC1	Q2TB90	HKDC1	80201	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+53	HMOX1	P09601	HMOX1	3162	"Heme oxygenase occurs in macrophages. Furthermore, mature erythrocytes do not enzymatically degrade heme, heme degradation is from oxidative damage that under physiological conditions, does not form bilirubin."
+54	HMOX2	P30519	HMOX2	3163	"no proteomic evidence. heme oxygenase occurs in macrophages. Furthermore, mature erythrocytes do not enzymatically degrade heme, heme degradation is from oxidative damage that under physiological conditions, does not form bilirubin."
+55	IMPDH1	P20839	IMPDH1	3614	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+56	ITPKA	P23677	ITPKA	3706	no proteomic evidence.
+57	ITPKB	P27987	ITPKB	3707	no proteomic evidence.
+58	ITPKC	Q96DU7	ITPKC	80271	no proteomic evidence.
+59	LGALS13	Q9UHV8	LGALS13	29124	no proteomic evidence.
+60	MAT1A	Q00266	MAT1A	4143	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+61	NADK	O95544	NADK	65220	no proteomic evidence.
+62	NME6	O75414	NME6	10201	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+63	NME7	Q9Y5B8	NME7	29922	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+64	NMRK1	Q9NWW6	NMRK1	54981	no proteomic evidence.
+65	NPR1	P16066	NPR1	4881	no proteomic evidence.
+66	NPR2	P20594	NPR2	4882	no proteomic evidence.
+69	OPLAH	O14841	OPLAH	26873	no proteomic evidence. evidence indicates activity does not occur in erythrocytes
+70	PDE10A	Q9Y233	PDE10A	10846	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+71	PDE11A	Q9HCR9	PDE11A	50940	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+72	PDE1A	P54750	PDE1A	5136	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+73	PDE1B	Q01064	PDE1B	5153	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+74	PDE1C	Q14123	PDE1C	5137	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+75	PDE4A	P27815	PDE4A	5141	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+76	PDE4B	Q07343	PDE4B	5142	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+77	PDE4C	Q08493	PDE4C	5143	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+78	PDE7A	Q13946	PDE7A	5150	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+79	PDE7B	Q9NP56	PDE7B	27115	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+80	PDE8A	O60658	PDE8A	5151	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+81	PDE8B	O95263	PDE8B	8622	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+82	PFKFB1	P16118	PFKFB1	5207	no proteomic evidence.
+83	PFKFB2	O60825	PFKFB2	5208	no proteomic evidence.
+84	PFKFB3	Q16875	PFKFB3	5209	no proteomic evidence.
+85	PFKFB4	Q16877	PFKFB4	5210	no proteomic evidence.
+86	PI4KB	Q9UBF8	PI4KB	5298	no proteomic evidence. evidence indicates other isoforms are present in erythrocytes and responsible for reactions
+88	PIKFYVE	Q9Y2I7	PIKFYVE	200576	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+90	PIP5K1B	O14986	PIP5K1B	8395	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+91	PLA2G2A	P14555	PLA2G2A	5320	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+92	PLA2G6	O60733	PLA2G6	8398	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+93	PLPP1	O14494	PLPP1	8611	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+94	PLPP2	O43688	PLPP2	8612	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+96	PLPP3	O14495	PLPP3	8613	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+98	PPOX	P50336	PPOX	5498	"Protoporphyrinogen oxidase is a mitochondrial enzyme for heme synthesis, and healthy mature erythrocytes do not synthesize heme nor have mitochondria."
+99	RENBP	P51606	RENBP	5973	no proteomic evidence.
+100	RHBG	Q9H310	RHBG	57127	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+101	SLC22A2	O15244	SLC22A2	6582	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+102	SLC22A3	O75751	SLC22A3	6581	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+103	SLC29A2	Q14542	SLC29A2	3177	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+104	SLC2A11	Q9BYW1	SLC2A11	66035	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+105	SLC2A7	Q6PXP3	SLC2A7	155184	no proteomic evidence.
+106	SLC2A8	Q9NY64	SLC2A8	29988	no proteomic evidence.
+107	SLC38A1	Q9H2H9	SLC38A1	81539	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+108	SLC38A2	Q96QD8	SLC38A2	54407	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+109	SLC38A4	Q969I6	SLC38A4	55089	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+110	SLC5A1	P13866	SLC5A1	6523	no proteomic evidence.
+111	SLC5A3		SLC5A3	6526	pseudogene
+112	SLC5A5	Q92911	SLC5A5	6528	no proteomic evidence.
+113	SLC5A7	Q9GZV3	SLC5A7	60482	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+114	SLC6A14	Q9UN76	SLC6A14	11254	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+115	SLC7A2	P52569	SLC7A2	6542	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+116	SLC7A3	Q8WY07	SLC7A3	84889	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+117	SLCO1B1	Q9Y6L6	SLCO1B1	10599	no proteomic evidence.
+118	SLCO1B3	Q9NPD5	SLCO1B3	28234	no proteomic evidence.
+119	TAT	P17735	TAT	6898	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+120	UGDH	O60701	UGDH	7358	no proteomic evidence.
+121	UGT1A1	P22309	UGT1A1	54658	no proteomic evidence.
+122	UGT1A4	P22310	UGT1A4	54657	no proteomic evidence.
+123	ZNF384	Q8TF68	ZNF384	171017	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions

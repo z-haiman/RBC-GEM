@@ -1,6 +1,6 @@
 # RBC-GEM Code
 
-This directory contains functions and scripts that facilitate work with the RBC-GEM model and other content in the repository. 
+This directory contains functions and scripts that facilitate work with the RBC-GEM model and other content in the repository.
 
 This directory is organized as follows:
 
@@ -12,7 +12,7 @@ code
 
 ##### Note
 
-There are several tools that enable working with genome scale metabolic reconstructions (e.g., [cobrapy](https://github.com/opencobra/cobrapy), [COBRA Toolbox](https://github.com/opencobra/cobratoolbox/), [RAVEN Toolbox](https://github.com/SysBioChalmers/RAVEN)). 
+There are several tools that enable working with genome scale metabolic reconstructions (e.g., [cobrapy](https://github.com/opencobra/cobrapy), [COBRA Toolbox](https://github.com/opencobra/cobratoolbox/), [RAVEN Toolbox](https://github.com/SysBioChalmers/RAVEN)).
 
 Therefore, to help maintain code clarity across multiple programming languages:
 
@@ -37,12 +37,12 @@ install the software. It is recommended to do this inside a [virtual environment
 
 ## Description of directory contents
 
-In an effort to keep this repository compatibile with 
+In an effort to keep this repository compatibile with
 
 Brief description of directory contents are provided below.
 ### notebooks (Python)
 
-**TODO** 
+**TODO**
 
 Contains iPython (`.ipynb`) notebooks
 
