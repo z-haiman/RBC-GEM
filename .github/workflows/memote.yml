@@ -3,7 +3,7 @@ name: memote
 on:
   push:
     branches:
-    - master
+    - main
 
 jobs:
   report:
@@ -12,19 +12,23 @@ jobs:
       contents: write
 
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout repository
+      id: checkout
+      uses: actions/checkout@v4
       with:
           fetch-depth: 0
     - name: Set up Python
+      id: setup
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
     - name: Install dependencies
+      id: install-deps
       run: |
-        python -m pip install --upgrade pip setuptools wheel 
-        python -m pip install memote==0.14.0
+        python -m pip install --upgrade pip setuptools wheel
+        python -m pip install memote==0.16.1
     - name: Run memote on deployment branch
+      id: run-memote
       env:
         HEAD_REF: ${{ github.ref_name }}
-      run: ./scripts/ghactions_deploy.sh
-
+      run: ./.github/scripts/ghactions_deploy.sh
