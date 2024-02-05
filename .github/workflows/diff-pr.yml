@@ -34,7 +34,8 @@ jobs:
         memote report diff --filename "diff${GITHUB_SHA}.html" "$model" "prev_model.xml"
         git checkout $deployment
         git pull
-        git add "diff${GITHUB_SHA}.html"
+        git mv "diff${GITHUB_SHA}.html" "./reports/diff/diff${GITHUB_SHA}.html"
+        git add "./reports/diff/diff${GITHUB_SHA}.html"
         git config --global user.email zhaiman@ucsd.edu
         git config --global user.name z-haiman
         git commit -m 'test: add diff report'
