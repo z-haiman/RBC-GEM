@@ -31,10 +31,11 @@ jobs:
         model=$(awk -F '=' '{if (! ($0 ~ /^;/) && $0 ~ /model/) print $2}' memote.ini | tr -d ' ')
         deployment=$(awk -F '=' '{if (! ($0 ~ /^;/) && $0 ~ /deployment/) print $2}' memote.ini | tr -d ' ')
         git show "origin/main:${model}" > "prev_model.xml"
-        memote report diff --filename "${GITHUB_REPOSITORY}/reports/diff/diff${GITHUB_SHA}.html" "$model" "prev_model.xml"
+        memote report diff --filename "diff${GITHUB_SHA}.html" "$model" "prev_model.xml"
         git checkout $deployment
         git pull
-        git add "${GITHUB_REPOSITORY}/reports/diff/diff${GITHUB_SHA}.html"
+        git mv "diff${GITHUB_SHA}.html" "./reports/diff/diff${GITHUB_SHA}.html"
+        git add "./reports/diff/diff${GITHUB_SHA}.html"
         git config --global user.email zhaiman@ucsd.edu
         git config --global user.name z-haiman
         git commit -m 'test: add diff report'
