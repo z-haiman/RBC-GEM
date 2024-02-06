@@ -34,8 +34,7 @@ jobs:
         memote report diff --filename "diff${GITHUB_SHA}.html" "$model" "prev_model.xml"
         git checkout $deployment
         git pull
-        git mv "diff${GITHUB_SHA}.html" "./reports/diff/diff${GITHUB_SHA}.html"
-        git add "./reports/diff/diff${GITHUB_SHA}.html"
+        git add "diff${GITHUB_SHA}.html"
         git config --global user.email zhaiman@ucsd.edu
         git config --global user.name z-haiman
         git commit -m 'test: add diff report'
@@ -44,5 +43,5 @@ jobs:
       id: "pr-comment"
       uses: JoseThen/comment-pr@v1.1.1
       with:
-        comment: Memote diff was generated at https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/reports/diff/diff${{ github.sha }}
+        comment: Memote diff was generated at https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/diff${{ github.sha }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
