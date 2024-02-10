@@ -174,3 +174,4 @@ However, Caner T. et al demonstrates that RHAG is unlikely to be NH4+/H+ exchang
 175	TMDPPK	Thiamine diphosphate kinase	Replaced by ADK7. Adenylate kinase isozyme 1 has can phosphorylate thiamin diphosphate using ADP as a donor (PMID: 1332781)
 176	UDPGD	UDPglucose 6-dehydrogenase	No proteomic or activity evidence
 177	UDPGNP	UDP-glucuronate glucuronohydrolase	No proteomic or activity evidence
+178	SBTR	D sorbitol reductase	"Replaced by SBTRa. KEGG indicates alpha glucose is the substrate involved, let the original SBTR represent beta D-glucose/glucose without regard to anomer"

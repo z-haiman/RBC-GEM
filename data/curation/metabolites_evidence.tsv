@@ -679,11 +679,6 @@
 677	FAcrn_hs_9_0_c	Nonanoylcarnitine (CAR 9:0)	C16H31NO4	0	c
 678	FAcrn_hs_9_3OH__S_c	(3S)-hydroxy-nonanoylcarnitine (CAR 9:0;O)	C16H31NO5	0	c
 679	Lcyst_c	L-cysteate	C3H6NO5S	-1	c
-680	M01958_c	globo-H	C57H99N2O32R	0	c
-681	M02195_c	IV2Fuc-Lc4Cer	C51H89N2O27R	0	c
-682	M02196_c	Type IIH glycolipid	C51H89N2O27R	0	c
-683	M03093_c	Type IIA antigen 	C59H102N3O32R	0	c
-684	M03094_c	Type IIB antigen	C57H99N2O32R	0	c
 685	N1aspmd_c	N1-acetylspermidine	C9H23N3O	2	c
 686	N1sprm_c	N1-acetylspermine	C12H31N4O	3	c
 687	PPP2CA_leu__L_c	[phosphatase 2A protein]-C-terminal L-leucine	C6H11NO2	-1	c
@@ -704,12 +699,7 @@
 702	acald_e	Acetaldehyde	C2H4O	0	e
 703	accoa_c	acetyl-CoA	C23H34N7O17P3S	-4	c
 704	acetol_c	hydroxyacetone	C3H6O2	0	c
-705	acgal1p_c	N-acetylgalactosamine-1-phosphate	C8H14NO9P	-2	c
 706	acgal_c	N-acetylgalactosamine	C8H15NO6	0	c
-707	acgalfucgalacgalfuc12gal14acglcgalgluside_hs_c	Type IIIA glycolipid	C79H135N4O46R	0	c
-708	acgalfucgalacgalfucgalacglcgal14acglcgalgluside_hs_c	Type IIIAb	C93H158N5O56R	0	c
-709	acgalfucgalacglcgal14acglcgalgluside_hs_c	G00072	C73H125N4O42R	0	c
-710	acgalfucgalacglcgalgluside_hs_c	Type IA glycolipid	C59H102N3O32R	0	c
 711	acgam1p_c	N-acetylglucosamine-1-phosphate	C8H14NO9P	-2	c
 712	acgam6p_c	N-Acetyl-D-glucosamine 6-phosphate	C8H14NO9P	-2	c
 713	acgam_c	N-Acetyl-D-glucosamine	C8H15NO6	0	c
@@ -1091,10 +1081,6 @@
 1090	fru_e	D-Fructose	C6H12O6	0	e
 1091	fuc1p__L_c	L-fucose-1-phosphate	C6H11O8P	-2	c
 1092	fuc__L_c	6-deoxy-L-galactose	C6H12O5	0	c
-1093	fucgalacgalfuc12gal14acglcgalgluside_hs_c	Type IIIH glycolipid	C71H122N3O41R	0	c
-1094	fucgalacgalfucgalacglcgal14acglcgalgluside_hs_c	G00074	C85H145N4O51R	0	c
-1095	fucgalacglcgal14acglcgalgluside_hs_c	VI2Fuc-nLc6	C65H112N3O37R	0	c
-1096	fucgalacglcgalgluside_hs_c	Type IH glycolipid	C51H89N2O27R	0	c
 1097	fum_c	Fumarate	C4H2O4	-2	c
 1098	fum_e	Fumarate	C4H2O4	-2	e
 1099	g16bp_c	"D-Glucose 1,6-Bisphosphate"	C6H10O12P2	-4	c
@@ -1113,16 +1099,12 @@
 1112	gal__bD_e	beta-D-Galactose	C6H12O6	0	e
 1113	gal_c	galactose	C6H12O6	0	c
 1114	gal_e	galactose	C6H12O6	0	e
-1115	galfucgalacglcgal14acglcgalgluside_hs_c	G00083	C71H122N3O42R	0	c
-1116	galfucgalacglcgalgluside_hs_c	Type IB glycolipid	C57H99N2O32R	0	c
-1117	galgluside_hs_c	LacCer pool	C31H56NO13R	0	c
 1118	galt_c	Galactitol	C6H14O6	0	c
 1119	galt_e	Galactitol	C6H14O6	0	e
 1120	gam6p_c	D-Glucosamine 6-phosphate	C6H13NO8P	-1	c
 1121	gam_c	D-Glucosamine	C6H14NO5	1	c
 1122	gam_e	D-Glucosamine	C6H14NO5	1	e
 1123	gar_c	N(1)-(5-phospho-D-ribosyl)glycinamide	C7H14N2O8P	-1	c
-1124	gbside_hs_c	globoside	C45H79N2O23R	0	c
 1125	gdp_c	GDP	C10H12N5O11P2	-3	c
 1126	gdpddman_c	GDP-4-dehydro-6-deoxy-D-mannose	C16H21N5O15P2	-2	c
 1127	gdpfuc_c	GDP-L-fucose	C16H23N5O15P2	-2	c
@@ -1146,8 +1128,6 @@
 1145	glntrna_c	L-glutaminyl-tRNA(gln)	C5H10N2O2R	1	c
 1146	globin_c	Globin	C57H88O2R	0	c
 1147	globinr_c	Globin cation radical	C57H88O2R	1	c
-1148	globoA_hs_c	Type IV A antigen	C65H112N3O37R	0	c
-1149	globoB_hs_c	Type IV B antigen	C63H109N2O37R	0	c
 1150	glu5sa__L_c	L-glutamate 5-semialdehyde	C5H9NO3	0	c
 1151	glu__L_c	L-Glutamate	C5H8NO4	-1	c
 1152	glu__L_e	L-Glutamate	C5H8NO4	-1	e
@@ -1837,7 +1817,6 @@
 1838	thbpt4acam_c	"4a-hydroxy-L-erythro-5,6,7,8-tetrahydrobiopterin"	C9H15N5O4	0	c
 1839	thbpt_c	Tetrahydrobiopterin	C9H15N5O3	0	c
 1840	thbpt_e	Tetrahydrobiopterin	C9H15N5O3	0	e
-1841	thcrm_hs_c	globotriaosylceramide	C37H66NO18R	0	c
 1842	thf_c	Tetrahydrofolate	C19H21N7O6	-2	c
 1843	thf_e	Tetrahydrofolate	C19H21N7O6	-2	e
 1844	thm_c	Thiamine	C12H17N4OS	1	c
@@ -1954,3 +1933,36 @@
 1955	ampamd_c	adenosine 5'-phosphoramidate	C10H14N6O6P	-1	c
 1956	zymstnl_c	zymostenol	C27H46O	0	c
 1957	hb_hco2_c	Oxyhemoglobin (Protonated Carbamino Deoxyhemoglobin)	C92FeH119N4O8R	-1	c
+1958	galgluside_hs_c	LacCer pool	C31H56NO13R	0	c
+1959	thcrm_hs_c	globotriaosylceramide	C37H66NO18R	0	c
+1960	gbside_hs_c	globoside (P antigen)	C45H79N2O23R	0	c
+1961	galgbside_hs_c	galactosylgloboside	C50H89N2O27RCO	0	c
+1962	globoH_hs_c	Type IV H antigen (globo-H)	C57H99N2O32R	0	c
+1963	globoA_hs_c	Type IV A antigen (globo-A)	C65H112N3O37R	0	c
+1964	globoB_hs_c	Type IV B antigen (globo-B)	C63H109N2O37R	0	c
+1965	galacglcgalgluside_hs_c	Lc4Cer	C44H79N2O22RCO	0	c
+1966	fucgalacglcgalgluside_hs_c	Type IH glycolipid	C51H89N2O27R	0	c
+1967	acgalfucgalacglcgalgluside_hs_c	Type IA glycolipid	C59H102N3O32R	0	c
+1968	galfucgalacglcgalgluside_hs_c	Type IB glycolipid	C57H99N2O32R	0	c
+1969	galgalacglcgalgluside_hs_c	Lc5Cer	C51H89N2O28R	0	c
+1970	paragbside_hs_c	paragloboside	C45H79N2O23R	0	c
+1971	fuc12gal14acglcgalgluside_hs_c	Type IIH glycolipid	C51H89N2O27R	0	c
+1972	acgalfuc12gal14acglcgalgluside_hs_c	Type IIA antigen 	C59H102N3O32R	0	c
+1973	galacgalfuc12gal14acglcgalgluside_hs_c	Gal-Type IIA antigen 	C64H112N3O36RCO	0	c
+1974	fucgalacgalfuc12gal14acglcgalgluside_hs_c	Type IIIH glycolipid	C71H122N3O41R	0	c
+1975	acgalfucgalacgalfuc12gal14acglcgalgluside_hs_c	Type IIIA glycolipid	C79H135N4O46R	0	c
+1976	galfuc12gal14acglcgalgluside_hs_c	Type IIB antigen	C57H99N2O32R	0	c
+1977	galgal14acglcgalgluside_hs_c	nLc5Cer	C51H89N2O28R	0	c
+1978	galacglcgal14acglcgalgluside_hs_c	nLc6Cer	C58H102N3O32RCO	0	c
+1979	acglcgalacglcgal14acglcgalgluside_hs_c	nLc7Cer	C66H115N4O37RCO	0	c
+1980	galfucgalacglcgal14acglcgalgluside_hs_c	G00083	C71H122N3O42R	0	c
+1981	fucgalacglcgal14acglcgalgluside_hs_c	VI2Fuc-nLc6	C65H112N3O37R	0	c
+1982	acgalfucgalacglcgal14acglcgalgluside_hs_c	G00072	C73H125N4O42R	0	c
+1983	galacgalfucgalacglcgal14acglcgalgluside_hs_c	G00073	C78H135N4O46RCO	0	c
+1984	fucgalacgalfucgalacglcgal14acglcgalgluside_hs_c	G00074	C85H145N4O51R	0	c
+1985	acgalfucgalacgalfucgalacglcgal14acglcgalgluside_hs_c	Type IIIAb	C93H158N5O56R	0	c
+1986	galacglcgalacglcgal14acglcgalgluside_hs_c	iso-nLc8Cer	C73H125N4O43R	0	c
+1987	fucfucgalacglcgalacglcgal14acglcgalgluside_hs_c	G00079	C85H145N4O51R	0	c
+1988	fucgalacglcgalacglcgal14acglcgalgluside_hs_c	monofucosyllactoisooctaosylceramide	C79H135N4O47R	0	c
+1989	protein_Nwadpribarg__L_e	Nomega-(ADP-D-ribosyl)-L-arginyl-[protein]	C21H32N9O14P2	-1	e
+1990	protein_arg__L_e	L-arginyl-[protein] 	C6H13N4OR	1	e

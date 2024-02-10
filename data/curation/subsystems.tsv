@@ -26,16 +26,18 @@ Fatty acid oxidation	Lipid metabolism			Curated category
 Folate metabolism	Metabolism of cofactors and vitamins	Folate biosynthesis;One carbon pool by folate	hsa00670;hsa00790	Curated category
 Fructose and mannose metabolism	Carbohydrate metabolism	Fructose and mannose metabolism	hsa00051
 Galactose metabolism	Carbohydrate metabolism	Galactose metabolism	hsa00052
-Glutathione metabolism	Metabolism of other amino acids	Glutathione metabolism	hsa00480	Group with amino acid category
+Glutathione metabolism	Metabolism of other amino acids	Glutathione metabolism	hsa00480	Grouped with amino acid category
 Glycerolipid metabolism	Lipid metabolism	Glycerolipid metabolism	hsa00561
 Glycerophospholipid metabolism	Lipid metabolism	Glycerophospholipid metabolism	hsa00564
 "Glycine, serine and threonine metabolism"	Amino acid metabolism	"Glycine, serine and threonine metabolism"	hsa00260
 Glycolysis / Gluconeogenesis	Carbohydrate metabolism	Glycolysis / Gluconeogenesis	hsa00010
-Glycosphingolipid biosynthesis - globo and isoglobo series	Glycan biosynthesis and metabolism	Glycosphingolipid biosynthesis - globo and isoglobo series	hsa00603	"In HumanGEM (v1.18.0), known as ""Glycosphingolipid biosynthesis - globo and isoglobo series"""
+Glycosphingolipid biosynthesis - globo and isoglobo series	Glycan biosynthesis and metabolism	Glycosphingolipid biosynthesis - globo and isoglobo series	hsa00603
 Glycosphingolipid biosynthesis - lacto and neolacto series	Glycan biosynthesis and metabolism	Glycosphingolipid biosynthesis - lacto and neolacto series	hsa00601
+Glycosphingolipid biosynthesis - ganglio series	Glycan biosynthesis and metabolism	Glycosphingolipid biosynthesis - ganglio series	hsa00604
 Hemoglobin binding and degradation	Reactive species			Curated category
 Histidine metabolism	Amino acid metabolism	Histidine metabolism	hsa00340
 Inositol phosphate metabolism	Carbohydrate metabolism	Inositol phosphate metabolism	hsa00562
+Leukotriene metabolism	Lipid metabolism			Curated category
 Linoleate metabolism	Lipid metabolism	Linoleic acid metabolism	hsa00591
 Lysine metabolism	Amino acid metabolism	Lysine degradation	hsa00310
 Miscellaneous	Other			"Representative subsystem for miscellaneous reactions that do not fit into any category (e.g., specie protonation/deprotatation/equilibration reactions)"
