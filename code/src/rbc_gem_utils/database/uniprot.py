@@ -53,6 +53,7 @@ UNIPROT_QUERY_LABEL_MIRIAM = {
     "gene_primary": ("Gene Names (primary)", "hgnc.symbol"),
     "gene_synonym": ("Gene Names (synonym)", ""),
     "gene_oln": ("Gene Names (ordered locus)", ""),
+    "gene_orf": ("Gene Names (ORF)", ""),
     "organism_name": ("Organism", ""),
     "organism_id": ("Organism (ID)", "taxonomy"),
     "protein_name": ("Protein names", ""),
@@ -197,7 +198,7 @@ UNIPROT_QUERY_LABEL_MIRIAM = {
     "xref_chembl": ("ChEMBL", "chembl.target"),
     "xref_drugbank": ("DrugBank", "drugbank"),
     "xref_drugcentral": ("DrugCentral", "drugcentral"),
-    "xref_guidetopharmacology": ("GuidetoPHARMACOLOGY", ""),
+    "xref_guidetopharmacology": ("GuidetoPHARMACOLOGY", "iuphar.receptor"),
     "xref_swisslipids": ("SwissLipids", "slm"),
     ## Protein family/group databases
     "xref_allergome": ("Allergome", "allergome"),

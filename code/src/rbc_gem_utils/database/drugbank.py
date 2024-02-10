@@ -19,8 +19,8 @@ from rbc_gem_utils.util import DATABASE_PATH, ROOT_PATH, build_string, strip_plu
 
 DRUGBANK_VERSION_EXPECTED = "5.1.11"
 DRUGBANK_URL = "https://go.drugbank.com"
-DRUGBANK_PATH = "/DrugBank"
 DRUGBANK_DB_TAG = "DrugBank"
+DRUGBANK_PATH = "/DrugBank"
 DRUGBANK_NS = "{http://www.drugbank.ca}"
 
 # Fields for the DrugBank XML schema are found [here](https://docs.drugbank.com/xml/#introduction).

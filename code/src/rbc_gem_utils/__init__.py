@@ -13,6 +13,8 @@ from .util import (
     GEM_NAME,
     GEM_URL,
     INTERIM_PATH,
+    MAP_NAMES,
+    MAP_PATH,
     MODEL_PATH,
     RESULTS_PATH,
     ROOT_PATH,

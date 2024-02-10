@@ -17,6 +17,7 @@ RAW_GH_URL = "https://raw.githubusercontent.com"
 # FIXME Right now this only works with an editable install './RBC-GEM'
 ROOT_PATH = str(Path(__file__).resolve().parent.parent.parent.parent)
 # Relevant relative paths
+MAP_PATH = "/map"
 MODEL_PATH = "/model"
 DATA_PATH = "/data"
 RAW_PATH = f"{DATA_PATH}/raw"
@@ -32,6 +33,7 @@ RESULTS_PATH = f"{DATA_PATH}/results"
 GEM_NAME = "RBC-GEM"
 GEM_URL = f"{RAW_GH_URL}/z-haiman/{GEM_NAME}"
 GEM_MODEL_FILETYPES = {"mat", "json", "xml", "yml"}
+MAP_NAMES = {f"{GEM_NAME}.full.map"}
 
 
 def show_versions():
