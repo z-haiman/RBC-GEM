@@ -329,3 +329,7 @@ data/processed/*
 data/external/database/DrugBank/*
 data/external/database/MIM/*
 !data/external/database/*/*.keep
+
+## Escher converter
+*.dylib
+*.jnilib
