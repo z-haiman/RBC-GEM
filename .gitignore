@@ -313,7 +313,7 @@ octave-workspace
 .DS_Store
 
 ### Memote
-reports/
+results/
 
 # RBC-GEM
 ## Data folders should be ignored.
