@@ -51,6 +51,7 @@
 1.A.144	The A15.5L Viroporin (A15.5L-VP) Family
 1.A.145	The gp120 Viroporin (gp120-VP) Family
 1.A.146	The Blood-Brain Barrier (BBB) Family
+1.A.147	The CRISPR Effector, an Ion Channel Protein, Cam1 (Cam1) Family
 1.A.15	The Non-selective Cation Channel-2 (NSCC2) Family
 1.A.16	The Formate-Nitrite Transporter (FNT) Family
 1.A.17	The Calcium-dependent Chloride Channel (Ca-ClC) Family
@@ -537,6 +538,7 @@
 1.D.242	The Dual Ion Channel/Conductor (DICC) Family
 1.D.243	The Soy Protein NanoParticle (SPNP) Family
 1.D.244	The Divalent Aptamer-Functionalized Nanochannel (DAF-NC) Family
+1.D.245	The Fullerene Film Nanoporous Amorphous Carbon Monolayer (FFF) Family
 1.D.25	The Arylamine Foldamer (AAF) Family
 1.D.26	The Dihydrodehydrodiconiferyl alcohol 9'-O-Î²-D-glucoside (DDDC9G) Family
 1.D.28	The Lipopeptaibol (Lipopeptaibol) Family
@@ -1902,6 +1904,8 @@
 9.C.20	The Outer Membrane Porin, Triplin (Triplin) Family
 9.C.21	The Lysophospholipid Transporter(s) across the Blood-Brain Barrier (LPLT-BBB) Family
 9.C.22	The Earthworm Coelomocyte MoS(2) Nanosheet Uptake (MoS(2)NSU) Family
+9.C.23	The Plant Substituted Polycyclic Aromatic Hydrocarbon Uptake (sub-PAH) Family
+9.C.24	The Endoplasmic Reticulum-Mitochondrial Contact Site (ERMCS) Family
 9.C.5	The Endoplasmic Reticulum/Golgi ATP/ADP or AMP Antiport Transporters (ATP-T) Family
 9.C.6	The Mitochondrial Organic Anion Channel (MOAC) Family
 9.C.7	The Low-affinity, Calcium-blocked, Nonspecific Cation Channel (NSC1) Family
