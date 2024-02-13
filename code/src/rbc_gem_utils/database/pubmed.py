@@ -23,7 +23,7 @@ def search_erythrocyte_terms_PubMed(df, text_columns, search_terms=None):
     for idx, row in df.iterrows():
         hits = set()
         for value in row.values:
-            hits.update(re.findall("|".join(search_terms), value))
+            hits.update(re.findall("|".join(search_terms), value, flags=re.IGNORECASE))
         df.loc[idx, key] = build_string(hits)
     return df
 
