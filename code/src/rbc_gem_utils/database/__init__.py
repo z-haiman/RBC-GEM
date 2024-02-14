@@ -23,6 +23,10 @@ from .uniprot import (
     get_version_UniProt,
 )
 
+CDCDB_PATH = "/CDCDB"
+CDCDB_DB_TAG = "CDCDB"
+DRUGCENTRAL_DB_TAG = "DrugCentral"
+DRUGCENTRAL_PATH = "/DrugCentral"
 
 def check_database_version_online(database, expected=None, verbose=False):
     """Check the database version online against the expected version."""
