@@ -1,177 +1,177 @@
 	reactions	name	notes
-0	3MOXTYRESSte	3-Methoxytyramine secretion via secretory vesicle (ATP driven)	"Replaced by simple transport reaction (3MOXTYRt), no evidence of formula for secretory vesicle (ATP driven) stoichiometry/formula"
-1	ALAt4	Alanine-Sodium symporter	"Replaced by reactions involving the amino acid transport proteins for the ASCT system (Gene ID: 6509, SLC1A4; Gene ID: 6510, SLC1A5), the y+ system (Gene ID: 9057, SLC7A6; Gene ID: 6520, SLC3A2), and the L system (Gene ID: 8501; SLC43A1, Gene ID: 124935, SLC43A2)"
-2	BANDMT	Band membrane protein-methyltransferase	"Replaced by generic methylation reactions. Band 3 protein is a major methyl-accepting substrate of the intracellular erythrocyte PCMT1 (PMID: 7240192, PMID: 3828308)"
-3	BILGLCURt	Bilirubin monoglucuronide transport via bicarbonate countertransport	"Heme oxygenase occurs in macrophages. Furthermore, mature erythrocytes do not enzymatically degrade heme, heme degradation is from oxidative damage that under physiological conditions, does not form bilirubin. No evidence of glucuronidation in erythrocytes."
-4	BILIRBU	Bilirubin UDP-glucuronosyltransferase	"Heme oxygenase occurs in macrophages. Furthermore, mature erythrocytes do not enzymatically degrade heme, heme degradation is from oxidative damage that under physiological conditions, does not form bilirubin. No evidence of glucuronidation in erythrocytes."
-5	CDIPT_16_0_16_0	"Phosphatidylinositol synthase (Homo sapiens, C16:0, C16:0)"	"Lipids are pooled, replaced with pooled version (CDIPT)"
-6	CDIPT_16_0_18_9Z	"Phosphatidylinositol synthase (Homo sapiens, C16:0, C18:1)"	"Lipids are pooled, replaced with pooled version (CDIPT)"
-7	CDIPT_16_0_18_9Z12Z	"Phosphatidylinositol synthase (Homo sapiens, C16:0, C18:2)"	"Lipids are pooled, replaced with pooled version (CDIPT)"
-8	CDIPT_18_9Z_18_9Z	"Phosphatidylinositol synthase (Homo sapiens, C18:1,C18:1)"	"Lipids are pooled, replaced with pooled version (CDIPT)"
-9	CDIPT_18_9Z_18_9Z12Z	"Phosphatidylinositol synthase (Homo sapiens, C18:1,C18:2)"	"Lipids are pooled, replaced with pooled version (CDIPT)"
-10	CDIPT_18_9Z12Z_16_0	"Phosphatidylinositol synthase (Homo sapiens, C18:2,C16:0)"	"Lipids are pooled, replaced with pooled version (CDIPT)"
-11	CDIPT_18_9Z12Z_18_9Z	"Phosphatidylinositol synthase (Homo sapiens, C18:2,C18:1)"	"Lipids are pooled, replaced with pooled version (CDIPT)"
-12	CDS_16_0_16_0	"Phosphatidate cytidylyltransferase (C16:0, C16:0)"	"Lipids are pooled, replaced with pooled version (CDS)"
-13	CDS_16_0_18_9Z	"Phosphatidate cytidylyltransferase (C16:0, C18:1)"	"Lipids are pooled, replaced with pooled version (CDS)"
-14	CDS_16_0_18_9Z12Z	"Phosphatidate cytidylyltransferase (C16:0, C18:2)"	"Lipids are pooled, replaced with pooled version (CDS)"
-15	CDS_18_9Z_18_9Z	"Phosphatidate cytidylyltransferase (C18:1,C18:1)"	"Lipids are pooled, replaced with pooled version (CDS)"
-16	CDS_18_9Z_18_9Z12Z	"Phosphatidate cytidylyltransferase (C18:1,C18:2)"	"Lipids are pooled, replaced with pooled version (CDS)"
-17	CDS_18_9Z12Z_16_0	"Phosphatidate cytidylyltransferase (C18:2,C16:0)"	"Lipids are pooled, replaced with pooled version (CDS)"
-18	CDS_18_9Z12Z_18_9Z	"Phosphatidate cytidylyltransferase (C18:2,C18:1)"	"Lipids are pooled, replaced with pooled version (CDS)"
-19	CEPTC	Choline phosphotransferase	"Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes"
-20	CEPTC_16_0_16_0	"Choline phosphotransferase (C16:0, C16:0)"	"Lipids are pooled, replaced with pooled version (CEPTC). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes"
-21	CEPTC_16_0_18_9Z	"Choline phosphotransferase (C16:0, C18:1)"	"Lipids are pooled, replaced with pooled version (CEPTC). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes"
-22	CEPTC_16_0_18_9Z12Z	"Choline phosphotransferase (C16:0, C18:2)"	"Lipids are pooled, replaced with pooled version (CEPTC). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes"
-23	CEPTC_18_9Z_18_9Z	"Choline phosphotransferase (C18:1, C18:1)"	"Lipids are pooled, replaced with pooled version (CEPTC). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes"
-24	CEPTC_18_9Z_18_9Z12Z	"Choline phosphotransferase (C18:1, C18:2)"	"Lipids are pooled, replaced with pooled version (CEPTC). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes"
-25	CEPTC_18_9Z12Z_16_0	"Choline phosphotransferase (C18:2, C16:0)"	"Lipids are pooled, replaced with pooled version (CEPTC). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes"
-26	CEPTC_18_9Z12Z_18_9Z	"Choline phosphotransferase (C18:2, C18:1)"	"Lipids are pooled, replaced with pooled version (CEPTC). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes"
-27	CEPTE	Ethanolamine phosphotransferase	"Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes"
-28	CEPTE_16_0_16_0	"Ethanolamine phosphotransferase (C16:0,C16:0)"	"Lipids are pooled, replaced with pooled version (CEPTE). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes"
-29	CEPTE_16_0_18_9Z	"Ethanolamine phosphotransferase (C16:0,C18:1)"	"Lipids are pooled, replaced with pooled version (CEPTE). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes"
-30	CEPTE_16_0_18_9Z12Z	"Ethanolamine phosphotransferase (C16:0,C18:2)"	"Lipids are pooled, replaced with pooled version (CEPTE). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes"
-31	CEPTE_18_9Z_18_9Z	"Ethanolamine phosphotransferase (C18:1,C18:1)"	"Lipids are pooled, replaced with pooled version (CEPTE). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes"
-32	CEPTE_18_9Z_18_9Z12Z	"Ethanolamine phosphotransferase (C18:1,C18:2)"	"Lipids are pooled, replaced with pooled version (CEPTE). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes"
-33	CEPTE_18_9Z12Z_16_0	"Ethanolamine phosphotransferase (C18:2,C16:0)"	"Lipids are pooled, replaced with pooled version (CEPTE). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes"
-34	CEPTE_18_9Z12Z_18_9Z	"Ethanolamine phosphotransferase (C18:2,C18:1)"	"Lipids are pooled, replaced with pooled version (CEPTE). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes"
-35	CHOLK	Choline kinase	"Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes"
-36	CHOLt4	"Choline, sodium cotransport"	Replaced by CHOLt. Uphill movement of choline is probably not coupled directly to the Na(+) electrochemical gradient. (PMID: 5651769)
-38	CPPPGO	Coproporphyrinogen oxidase (O2 required)	"Removed from model. Coproporphyrinogen oxidase is a mitochondrial enzyme for heme synthesis, and healthy mature erythrocytes do not synthesize heme nor have mitochondria."
-39	CRNAT_16_0rbc	C160 reverse	Forward and reverse reactions have been merged under one net reaction. Carnitine palmitoyltransferase is reversible (PMID:1618773).
-40	CRNAT_18_9Z12Zrbc	Carnitine transferase	Forward and reverse reactions have been merged under one net reaction. Carnitine palmitoyltransferase is reversible (PMID:1618773).
-41	CRNAT_18_9Zrbc	Carnitine octadecenoyl transferase	Forward and reverse reactions have been merged under one net reaction. Carnitine palmitoyltransferase is reversible (PMID:1618773).
-42	DAGK_16_0_16_0	"Diacylglycerol phosphate kinase (homo sapiens, C16:0, C16:0)"	"Lipids are pooled, replaced with pooled version (DAGK)"
-43	DAGK_16_0_18_9Z	"Diacylglycerol phosphate kinase (homo sapiens, C16:0, C18:1)"	"Lipids are pooled, replaced with pooled version (DAGK)"
-44	DAGK_16_0_18_9Z12Z	"Diacylglycerol phosphate kinase (homo sapiens, C16:0, C18:2)"	"Lipids are pooled, replaced with pooled version (DAGK)"
-45	DAGK_18_9Z_18_9Z	"Diacylglycerol phosphate kinase (homo sapiens, C18:1,C18:1)"	"Lipids are pooled, replaced with pooled version (DAGK)"
-46	DAGK_18_9Z_18_9Z12Z	"Diacylglycerol phosphate kinase (homo sapiens, C18:1,C18:2)"	"Lipids are pooled, replaced with pooled version (DAGK)"
-47	DAGK_18_9Z12Z_16_0	"Diacylglycerol phosphate kinase (homo sapiens, C18:2,C16:0)"	"Lipids are pooled, replaced with pooled version (DAGK)"
-48	DAGK_18_9Z12Z_18_9Z	"Diacylglycerol phosphate kinase (homo sapiens, C18:2,C18:1)"	"Lipids are pooled, replaced with pooled version (DAGK)"
-49	DM_adprbp_c	Demand for Adenosine-5'-Diphosphate-D-Ribose 2-Phosphate	Removed from model. No pseudoreactions kept other than exchanges.
-50	DM_mi1345p_c	"Demand for 1D-Myo-Inositol 1,3,4,5-Tetrakisphosphate"	Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in inositol phosphate metabolism
-51	DM_mi134p_c	"Demand for 1D-Myo-Inositol 1,3,4-Trisphosphate"	Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in inositol phosphate metabolism
-52	DM_mi145p_c	"Demand for 1D-Myo-Inositol 1,4,5-Trisphosphate"	Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in inositol phosphate metabolism
-53	DM_mi14p_c	"Demand for (1R,2R,3R,4R,5R,6S)-2,3,5,6-Tetrahydroxy-4-(Phosphonatooxy)Cyclohexyl Phosphate"	Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in inositol phosphate metabolism
-54	ETHAK	Ethanolamine kinase	"Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes"
-55	EX_bilglcur_e	Bilirubin monoglucuronide exchange	"Heme oxygenase occurs in macrophages. Furthermore, mature erythrocytes do not enzymatically degrade heme, heme degradation is from oxidative damage that under physiological conditions, does not form bilirubin. No evidence of glucuronidation in erythrocytes."
-56	EX_gluala_e	5 L Glutamyl L alanine C8H13N2O5 exchange	"Removed from model. Gamma-glutamylcyclotransferase is not involved in the transport of glutamyl-dipeptides (PMID:3593246, PMID:3593247). Furthermore, erythrocytes do not transport alpha-glutamyl-dipeptides (PMID: 3593246, PMID: 3593247). Dipeptide transport occurs via simple diffusion and futhermore, it was calculated that under normal physiological conditions the diffusive fluxes of circulating plasma peptides into human erythrocytes are too small for these cells to play a significant role in dipeptide catabolism (PMID: 2327979)"
-58	FADDP	FAD diphosphatase	"Replaced by FADL and CFMNH. Erythrocytes contain Triokinase/FMN cyclase which can split FAD into AMP and cyclic FMN, which is subsequentyly hydrolyzed to produce FMN. (PMID: 4688871, PMID: 9480905)"
-59	FBP26	Fructose 2 6 bisphosphate 2 phosphatase	"6-phosphofructo-2-kinase activity are markedly influenced by the number of reticulocytes (PMID: 1667653). Furthermore, 6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 2 is absent from erytrhrocytes"
-60	FCLT	Ferrochelatase	"Removed from model. Ferrocheletase is a mitochondrial enzyme for heme synthesis, and healthy mature erythrocytes do not synthesize heme nor have mitochondria."
-61	GLNt4	L-glutamine reversible transport via sodium symport	"Replaced by reactions involving the amino acid transport proteins for the ASCT system/N system (Gene ID: 6510, SLC1A5), the y+ system (Gene ID: 9057, SLC7A6; Gene ID: 6520, SLC3A2), and the L system (Gene ID: 8501; SLC43A1, Gene ID: 124935, SLC43A2)"
-62	GLYK	Glycerol kinase	Replaced by TRIOK and DHAK. Crude hemolysates were found to phosphorylate DHA and glyceraldehyde but not glycerol (PMID: 4688871)
-63	GPAT_16_0	Glycerol-3-phosphate acyltransferase (C16:0)	"Lipids are pooled, replaced with pooled version (GPAT)"
-64	GPAT_18_9Z	Glycerol-3-phosphate acyltransferase (C18:1)	"Lipids are pooled, replaced with pooled version (GPAT)"
-65	GPAT_18_9Z12Z	Glycerol-3-phosphate acyltransferase (C18:2)	"Lipids are pooled, replaced with pooled version (GPAT)"
-66	HOXG	Heme oxygenase 1	"Heme oxygenase occurs in macrophages. Furthermore, mature erythrocytes do not enzymatically degrade heme, heme degradation is from oxidative damage that under physiological conditions, does not form bilirubin. No evidence of glucuronidation in erythrocytes."
-67	LEUKTRB4t	Leukotriene B4 transmembrane (homo sapiens) transport	Replaced by LEUKTRB4ABCte. Leukotriene can be exported by ATP-binding cassette transporters including ABCC4
-68	LPAAT_16_0_16_0	"1-acylglycerol-3-phosphate O-acyltransferase 1 (C16:0, C16:0)"	"Lipids are pooled, replaced with pooled version (LPAAT)"
-69	LPAAT_16_0_18_9Z	"1-acylglycerol-3-phosphate O-acyltransferase 1 (C16:0, C18:1)"	"Lipids are pooled, replaced with pooled version (LPAAT)"
-70	LPAAT_16_0_18_9Z12Z	"1-acylglycerol-3-phosphate O-acyltransferase 1 (C16:0, C18:2)"	"Lipids are pooled, replaced with pooled version (LPAAT)"
-71	LPAAT_18_9Z_18_9Z	"1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:1,C18:1)"	"Lipids are pooled, replaced with pooled version (LPAAT)"
-72	LPAAT_18_9Z_18_9Z12Z	"1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:1,C18:2)"	"Lipids are pooled, replaced with pooled version (LPAAT)"
-73	LPAAT_18_9Z12Z_16_0	"1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:2,C16:0)"	"Lipids are pooled, replaced with pooled version (LPAAT)"
-74	LPAAT_18_9Z12Z_18_9Z	"1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:2,C18:1)"	"Lipids are pooled, replaced with pooled version (LPAAT)"
-75	LPCLPLB_16_0	Lysophospholipase (C16:0)	"Lipids are pooled, replaced with pooled version (LPCLPLB2)"
-76	LPCLPLB_18_9Z	Lysophospholipase (C18:1)	"Lipids are pooled, replaced with pooled version (LPCLPLB2)"
-77	LPCLPLB_18_9Z12Z	Lysophospholipase (C18:w)	"Lipids are pooled, replaced with pooled version (LPCLPLB2)"
-78	MEPIVESSte	Metanephrine secretion via secretory vesicle (ATP driven)	"Replaced by simple transport reaction (MEPIt), no evidence of formula for secretory vesicle (ATP driven) stoichiometry/formula"
-79	MI1PS	Myo Inositol 1 phosphate synthase	"Replaced by MI3PS, shown to synthesize myo-inositol 3 phosphate and not myo-inositol 1 phosphate"
-80	NADHload	Demand NADH	"Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions involving methemoglobin (METHBCYTBR, FCYTOB5OXR) "
-81	NH4t3r	Ammonia transport via proton antiport	"Replaced by NH4c, NH4e, and NH3t. From UniProt Curation - Several mechanisms of transport has been proposed, namely electroneutral NH3 transport (pubmed:15572441, pubmed:19273840) and electroneutral NH4+/H+ exchange (pubmed:11861637, pubmed:19273840, pubmed:15572441).
+0	3MOXTYRESSte	3-Methoxytyramine secretion via secretory vesicle (ATP driven)	Replaced by simple transport reaction (3MOXTYRt), no evidence of formula for secretory vesicle (ATP driven) stoichiometry/formula
+1	ALAt4	Alanine-Sodium symporter	Replaced by reactions involving the amino acid transport proteins for the ASCT system (Gene ID: 6509, SLC1A4; Gene ID: 6510, SLC1A5), the y+ system (Gene ID: 9057, SLC7A6; Gene ID: 6520, SLC3A2), and the L system (Gene ID: 8501; SLC43A1, Gene ID: 124935, SLC43A2)
+2	BANDMT	Band membrane protein-methyltransferase	Replaced by generic methylation reactions. Band 3 protein is a major methyl-accepting substrate of the intracellular erythrocyte PCMT1 (PMID: 7240192, PMID: 3828308)
+3	BILGLCURt	Bilirubin monoglucuronide transport via bicarbonate countertransport	Heme oxygenase occurs in macrophages. Furthermore, mature erythrocytes do not enzymatically degrade heme, heme degradation is from oxidative damage that under physiological conditions, does not form bilirubin. No evidence of glucuronidation in erythrocytes.
+4	BILIRBU	Bilirubin UDP-glucuronosyltransferase	Heme oxygenase occurs in macrophages. Furthermore, mature erythrocytes do not enzymatically degrade heme, heme degradation is from oxidative damage that under physiological conditions, does not form bilirubin. No evidence of glucuronidation in erythrocytes.
+5	CDIPT_16_0_16_0	Phosphatidylinositol synthase (Homo sapiens, C16:0, C16:0)	Lipids are pooled, replaced with pooled version (CDIPT)
+6	CDIPT_16_0_18_9Z	Phosphatidylinositol synthase (Homo sapiens, C16:0, C18:1)	Lipids are pooled, replaced with pooled version (CDIPT)
+7	CDIPT_16_0_18_9Z12Z	Phosphatidylinositol synthase (Homo sapiens, C16:0, C18:2)	Lipids are pooled, replaced with pooled version (CDIPT)
+8	CDIPT_18_9Z12Z_16_0	Phosphatidylinositol synthase (Homo sapiens, C18:2,C16:0)	Lipids are pooled, replaced with pooled version (CDIPT)
+9	CDIPT_18_9Z12Z_18_9Z	Phosphatidylinositol synthase (Homo sapiens, C18:2,C18:1)	Lipids are pooled, replaced with pooled version (CDIPT)
+10	CDIPT_18_9Z_18_9Z	Phosphatidylinositol synthase (Homo sapiens, C18:1,C18:1)	Lipids are pooled, replaced with pooled version (CDIPT)
+11	CDIPT_18_9Z_18_9Z12Z	Phosphatidylinositol synthase (Homo sapiens, C18:1,C18:2)	Lipids are pooled, replaced with pooled version (CDIPT)
+12	CDS_16_0_16_0	Phosphatidate cytidylyltransferase (C16:0, C16:0)	Lipids are pooled, replaced with pooled version (CDS)
+13	CDS_16_0_18_9Z	Phosphatidate cytidylyltransferase (C16:0, C18:1)	Lipids are pooled, replaced with pooled version (CDS)
+14	CDS_16_0_18_9Z12Z	Phosphatidate cytidylyltransferase (C16:0, C18:2)	Lipids are pooled, replaced with pooled version (CDS)
+15	CDS_18_9Z12Z_16_0	Phosphatidate cytidylyltransferase (C18:2,C16:0)	Lipids are pooled, replaced with pooled version (CDS)
+16	CDS_18_9Z12Z_18_9Z	Phosphatidate cytidylyltransferase (C18:2,C18:1)	Lipids are pooled, replaced with pooled version (CDS)
+17	CDS_18_9Z_18_9Z	Phosphatidate cytidylyltransferase (C18:1,C18:1)	Lipids are pooled, replaced with pooled version (CDS)
+18	CDS_18_9Z_18_9Z12Z	Phosphatidate cytidylyltransferase (C18:1,C18:2)	Lipids are pooled, replaced with pooled version (CDS)
+19	CEPTC	Choline phosphotransferase	Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes
+20	CEPTC_16_0_16_0	Choline phosphotransferase (C16:0, C16:0)	Lipids are pooled, replaced with pooled version (CEPTC). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes
+21	CEPTC_16_0_18_9Z	Choline phosphotransferase (C16:0, C18:1)	Lipids are pooled, replaced with pooled version (CEPTC). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes
+22	CEPTC_16_0_18_9Z12Z	Choline phosphotransferase (C16:0, C18:2)	Lipids are pooled, replaced with pooled version (CEPTC). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes
+23	CEPTC_18_9Z12Z_16_0	Choline phosphotransferase (C18:2, C16:0)	Lipids are pooled, replaced with pooled version (CEPTC). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes
+24	CEPTC_18_9Z12Z_18_9Z	Choline phosphotransferase (C18:2, C18:1)	Lipids are pooled, replaced with pooled version (CEPTC). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes
+25	CEPTC_18_9Z_18_9Z	Choline phosphotransferase (C18:1, C18:1)	Lipids are pooled, replaced with pooled version (CEPTC). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes
+26	CEPTC_18_9Z_18_9Z12Z	Choline phosphotransferase (C18:1, C18:2)	Lipids are pooled, replaced with pooled version (CEPTC). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes
+27	CEPTE	Ethanolamine phosphotransferase	Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes
+28	CEPTE_16_0_16_0	Ethanolamine phosphotransferase (C16:0,C16:0)	Lipids are pooled, replaced with pooled version (CEPTE). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes
+29	CEPTE_16_0_18_9Z	Ethanolamine phosphotransferase (C16:0,C18:1)	Lipids are pooled, replaced with pooled version (CEPTE). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes
+30	CEPTE_16_0_18_9Z12Z	Ethanolamine phosphotransferase (C16:0,C18:2)	Lipids are pooled, replaced with pooled version (CEPTE). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes
+31	CEPTE_18_9Z12Z_16_0	Ethanolamine phosphotransferase (C18:2,C16:0)	Lipids are pooled, replaced with pooled version (CEPTE). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes
+32	CEPTE_18_9Z12Z_18_9Z	Ethanolamine phosphotransferase (C18:2,C18:1)	Lipids are pooled, replaced with pooled version (CEPTE). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes
+33	CEPTE_18_9Z_18_9Z	Ethanolamine phosphotransferase (C18:1,C18:1)	Lipids are pooled, replaced with pooled version (CEPTE). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes
+34	CEPTE_18_9Z_18_9Z12Z	Ethanolamine phosphotransferase (C18:1,C18:2)	Lipids are pooled, replaced with pooled version (CEPTE). Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes
+35	CHOLK	Choline kinase	Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes
+36	CHOLt4	Choline, sodium cotransport	Replaced by CHOLt. Uphill movement of choline is probably not coupled directly to the Na(+) electrochemical gradient. (PMID: 5651769)
+37	CPPPGO	Coproporphyrinogen oxidase (O2 required)	Removed from model. Coproporphyrinogen oxidase is a mitochondrial enzyme for heme synthesis, and healthy mature erythrocytes do not synthesize heme nor have mitochondria.
+38	CRNAT_16_0rbc	C160 reverse	Forward and reverse reactions have been merged under one net reaction. Carnitine palmitoyltransferase is reversible (PMID:1618773).
+39	CRNAT_18_9Z12Zrbc	Carnitine transferase	Forward and reverse reactions have been merged under one net reaction. Carnitine palmitoyltransferase is reversible (PMID:1618773).
+40	CRNAT_18_9Zrbc	Carnitine octadecenoyl transferase	Forward and reverse reactions have been merged under one net reaction. Carnitine palmitoyltransferase is reversible (PMID:1618773).
+41	DAGK_16_0_16_0	Diacylglycerol phosphate kinase (homo sapiens, C16:0, C16:0)	Lipids are pooled, replaced with pooled version (DAGK)
+42	DAGK_16_0_18_9Z	Diacylglycerol phosphate kinase (homo sapiens, C16:0, C18:1)	Lipids are pooled, replaced with pooled version (DAGK)
+43	DAGK_16_0_18_9Z12Z	Diacylglycerol phosphate kinase (homo sapiens, C16:0, C18:2)	Lipids are pooled, replaced with pooled version (DAGK)
+44	DAGK_18_9Z12Z_16_0	Diacylglycerol phosphate kinase (homo sapiens, C18:2,C16:0)	Lipids are pooled, replaced with pooled version (DAGK)
+45	DAGK_18_9Z12Z_18_9Z	Diacylglycerol phosphate kinase (homo sapiens, C18:2,C18:1)	Lipids are pooled, replaced with pooled version (DAGK)
+46	DAGK_18_9Z_18_9Z	Diacylglycerol phosphate kinase (homo sapiens, C18:1,C18:1)	Lipids are pooled, replaced with pooled version (DAGK)
+47	DAGK_18_9Z_18_9Z12Z	Diacylglycerol phosphate kinase (homo sapiens, C18:1,C18:2)	Lipids are pooled, replaced with pooled version (DAGK)
+48	DM_adprbp_c	Demand for Adenosine-5'-Diphosphate-D-Ribose 2-Phosphate	Removed from model. No pseudoreactions kept other than exchanges.
+49	DM_mi1345p_c	Demand for 1D-Myo-Inositol 1,3,4,5-Tetrakisphosphate	Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in inositol phosphate metabolism
+50	DM_mi134p_c	Demand for 1D-Myo-Inositol 1,3,4-Trisphosphate	Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in inositol phosphate metabolism
+51	DM_mi145p_c	Demand for 1D-Myo-Inositol 1,4,5-Trisphosphate	Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in inositol phosphate metabolism
+52	DM_mi14p_c	Demand for (1R,2R,3R,4R,5R,6S)-2,3,5,6-Tetrahydroxy-4-(Phosphonatooxy)Cyclohexyl Phosphate	Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in inositol phosphate metabolism
+53	ETHAK	Ethanolamine kinase	Removed from model, no de novo synthesis of phospatidylcholine/phospatidylethanolamine in mature erythrocytes
+54	EX_bilglcur_e	Bilirubin monoglucuronide exchange	Heme oxygenase occurs in macrophages. Furthermore, mature erythrocytes do not enzymatically degrade heme, heme degradation is from oxidative damage that under physiological conditions, does not form bilirubin. No evidence of glucuronidation in erythrocytes.
+55	EX_gluala_e	5 L Glutamyl L alanine C8H13N2O5 exchange	Removed from model. Gamma-glutamylcyclotransferase is not involved in the transport of glutamyl-dipeptides (PMID:3593246, PMID:3593247). Furthermore, erythrocytes do not transport alpha-glutamyl-dipeptides (PMID: 3593246, PMID: 3593247). Dipeptide transport occurs via simple diffusion and futhermore, it was calculated that under normal physiological conditions the diffusive fluxes of circulating plasma peptides into human erythrocytes are too small for these cells to play a significant role in dipeptide catabolism (PMID: 2327979)
+56	FADDP	FAD diphosphatase	Replaced by FADL and CFMNH. Erythrocytes contain Triokinase/FMN cyclase which can split FAD into AMP and cyclic FMN, which is subsequentyly hydrolyzed to produce FMN. (PMID: 4688871, PMID: 9480905)
+57	FBP26	Fructose 2 6 bisphosphate 2 phosphatase	6-phosphofructo-2-kinase activity are markedly influenced by the number of reticulocytes (PMID: 1667653). Furthermore, 6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 2 is absent from erytrhrocytes
+58	FCLT	Ferrochelatase	Removed from model. Ferrocheletase is a mitochondrial enzyme for heme synthesis, and healthy mature erythrocytes do not synthesize heme nor have mitochondria.
+59	GLNt4	L-glutamine reversible transport via sodium symport	Replaced by reactions involving the amino acid transport proteins for the ASCT system/N system (Gene ID: 6510, SLC1A5), the y+ system (Gene ID: 9057, SLC7A6; Gene ID: 6520, SLC3A2), and the L system (Gene ID: 8501; SLC43A1, Gene ID: 124935, SLC43A2)
+60	GLYK	Glycerol kinase	Replaced by TRIOK and DHAK. Crude hemolysates were found to phosphorylate DHA and glyceraldehyde but not glycerol (PMID: 4688871)
+61	GPAT_16_0	Glycerol-3-phosphate acyltransferase (C16:0)	Lipids are pooled, replaced with pooled version (GPAT)
+62	GPAT_18_9Z	Glycerol-3-phosphate acyltransferase (C18:1)	Lipids are pooled, replaced with pooled version (GPAT)
+63	GPAT_18_9Z12Z	Glycerol-3-phosphate acyltransferase (C18:2)	Lipids are pooled, replaced with pooled version (GPAT)
+64	HOXG	Heme oxygenase 1	Heme oxygenase occurs in macrophages. Furthermore, mature erythrocytes do not enzymatically degrade heme, heme degradation is from oxidative damage that under physiological conditions, does not form bilirubin. No evidence of glucuronidation in erythrocytes.
+65	LEUKTRB4t	Leukotriene B4 transmembrane (homo sapiens) transport	Replaced by LEUKTRB4ABCte. Leukotriene can be exported by ATP-binding cassette transporters including ABCC4
+66	LPAAT_16_0_16_0	1-acylglycerol-3-phosphate O-acyltransferase 1 (C16:0, C16:0)	Lipids are pooled, replaced with pooled version (LPAAT)
+67	LPAAT_16_0_18_9Z	1-acylglycerol-3-phosphate O-acyltransferase 1 (C16:0, C18:1)	Lipids are pooled, replaced with pooled version (LPAAT)
+68	LPAAT_16_0_18_9Z12Z	1-acylglycerol-3-phosphate O-acyltransferase 1 (C16:0, C18:2)	Lipids are pooled, replaced with pooled version (LPAAT)
+69	LPAAT_18_9Z12Z_16_0	1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:2,C16:0)	Lipids are pooled, replaced with pooled version (LPAAT)
+70	LPAAT_18_9Z12Z_18_9Z	1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:2,C18:1)	Lipids are pooled, replaced with pooled version (LPAAT)
+71	LPAAT_18_9Z_18_9Z	1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:1,C18:1)	Lipids are pooled, replaced with pooled version (LPAAT)
+72	LPAAT_18_9Z_18_9Z12Z	1-acylglycerol-3-phosphate O-acyltransferase 1 (C18:1,C18:2)	Lipids are pooled, replaced with pooled version (LPAAT)
+73	LPCLPLB_16_0	Lysophospholipase (C16:0)	Lipids are pooled, replaced with pooled version (LPCLPLB2)
+74	LPCLPLB_18_9Z	Lysophospholipase (C18:1)	Lipids are pooled, replaced with pooled version (LPCLPLB2)
+75	LPCLPLB_18_9Z12Z	Lysophospholipase (C18:w)	Lipids are pooled, replaced with pooled version (LPCLPLB2)
+76	MEPIVESSte	Metanephrine secretion via secretory vesicle (ATP driven)	Replaced by simple transport reaction (MEPIt), no evidence of formula for secretory vesicle (ATP driven) stoichiometry/formula
+77	MI1PS	Myo Inositol 1 phosphate synthase	Replaced by MI3PS, shown to synthesize myo-inositol 3 phosphate and not myo-inositol 1 phosphate
+78	NADHload	Demand NADH	Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions involving methemoglobin (METHBCYTBR, FCYTOB5OXR)
+79	NH4t3r	Ammonia transport via proton antiport	"Replaced by NH4c, NH4e, and NH3t. From UniProt Curation - Several mechanisms of transport has been proposed, namely electroneutral NH3 transport (pubmed:15572441, pubmed:19273840) and electroneutral NH4+/H+ exchange (pubmed:11861637, pubmed:19273840, pubmed:15572441).
 However, Caner T. et al demonstrates that RHAG is unlikely to be NH4+/H+ exchanger, but transports the ionic NH4+ and the neutral NH3 species and that the transport of NH4+ is electrogenic (pubmed:26354748)."
-82	NICRNS	Nicotinate D-ribonucleotide synthase (ATP)	"Replaced by NAMNPP and NAPRT. Synthesis of NAD using ATP from nicotinate can be accomplished using the nicotinate phosphoribosyltransferase (Gene 93100, NAPRT), which has proteomic evidence associated."
-83	NORMETEVESSte	L-Normetanephrine seceretion via secretory vesicle (ATP driven)	"Replaced by simple transport reaction (NORMETt), no evidence of formula for secretory vesicle (ATP driven) stoichiometry/formula"
-84	OPAH	5-Oxoproline amidohydrolase (ATP-hydrolysing) (ir)	"5-oxoprolinase is absent from mature erythrocytes (PMID: 24636780). 5-oxoproline is an end-product of glutathione metabolism in erythrocytes, and that 5-oxoproline passes out of the erythrocyte and is metabolized in other tissues (PMID: 4150022)"
-85	OROATP	Orotic acid transport inout via proton symporter	Replaced by OROTGLUex. Orotic acid is an excellent substrate for human OAT2 (PMID: 21446918). Efflux of glutamate drives uptake of orotic acid (PMID: 26377792)
-86	PAPP_16_0_16_0	"Phosphatidic acid phosphatase (C16:0, C16:0)"	"Lipids are pooled, replaced with pooled version (PAPP)"
-87	PAPP_16_0_18_9Z	"Phosphatidic acid phosphatase (C16:0, C18:1)"	"Lipids are pooled, replaced with pooled version (PAPP)"
-88	PAPP_16_0_18_9Z12Z	"Phosphatidic acid phosphatase (C16:0, C18:2)"	"Lipids are pooled, replaced with pooled version (PAPP)"
-89	PAPP_18_9Z_18_9Z	"Phosphatidic acid phosphatase (C18:1,C18:1)"	"Lipids are pooled, replaced with pooled version (PAPP)"
-90	PAPP_18_9Z_18_9Z12Z	"Phosphatidic acid phosphatase (C18:1,C18:2)"	"Lipids are pooled, replaced with pooled version (PAPP)"
-91	PAPP_18_9Z12Z_16_0	"Phosphatidic acid phosphatase (C18:2, C16:0)"	"Lipids are pooled, replaced with pooled version (PAPP)"
-92	PAPP_18_9Z12Z_18_9Z	"Phosphatidic acid phosphatase (C18:2, C18:1)"	"Lipids are pooled, replaced with pooled version (PAPP)"
-93	PCPLA2_16_0_16_0	"Phospholipase A2 (C16:0,C16:0)"	"Lipids are pooled, replaced with pooled version (PCPLA2)"
-94	PCPLA2_16_0_18_9Z	"Phospholipase A2 (C16:0,C18:1)"	"Lipids are pooled, replaced with pooled version (PCPLA2)"
-95	PCPLA2_16_0_18_9Z12Z	"Phospholipase A2 (C16:0,C18:2)"	"Lipids are pooled, replaced with pooled version (PCPLA2)"
-96	PCPLA2_18_9Z_18_9Z	"Phospholipase A2 (C18:1,C18:1)"	"Lipids are pooled, replaced with pooled version (PCPLA2)"
-97	PCPLA2_18_9Z_18_9Z12Z	"Phospholipase A2 (C18:1,C18:2)"	"Lipids are pooled, replaced with pooled version (PCPLA2)"
-99	PCPLA2_18_9Z12Z_16_0	"Phospholipase A2 (C18:2,C16:0)"	"Lipids are pooled, replaced with pooled version (PCPLA2)"
-100	PCPLA2_18_9Z12Z_18_9Z	"Phospholipase A2 (C18:2,C18:1)"	"Lipids are pooled, replaced with pooled version (PCPLA2)"
-101	PFK26	6 phosphofructo 2 kinase	"6-phosphofructo-2-kinase activity are markedly influenced by the number of reticulocytes (PMID: 1667653). Furthermore, 6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 2 is absent from erytrhrocytes"
-102	PI45P5P_16_0_16_0	"Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C16:0, C16:0)"	"Lipids are pooled, replaced with pooled version (PI45P5P)"
-103	PI45P5P_16_0_18_9Z	"Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C16:0, C18:1)"	"Lipids are pooled, replaced with pooled version (PI45P5P)"
-104	PI45P5P_16_0_18_9Z12Z	"Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C16:0, C18:2)"	"Lipids are pooled, replaced with pooled version (PI45P5P)"
-105	PI45P5P_18_9Z_18_9Z	"Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:1, C18:1)"	"Lipids are pooled, replaced with pooled version (PI45P5P)"
-106	PI45P5P_18_9Z_18_9Z12Z	"Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:1, C18:2)"	"Lipids are pooled, replaced with pooled version (PI45P5P)"
-107	PI45P5P_18_9Z12Z_16_0	"Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:2, C16:0)"	"Lipids are pooled, replaced with pooled version (PI45P5P)"
-108	PI45P5P_18_9Z12Z_18_9Z	"Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:2, C18:1)"	"Lipids are pooled, replaced with pooled version (PI45P5P)"
-109	PI45PLC_16_0_16_0	"Phosphatidylinositol 4,5-bisphosphate phospholipase C (C16:0, C16:0)"	"Lipids are pooled, replaced with pooled version (PI45PLC)"
-110	PI45PLC_16_0_18_9Z	"Phosphatidylinositol 4,5-bisphosphate phospholipase C (C16:0, C18:1)"	"Lipids are pooled, replaced with pooled version (PI45PLC)"
-111	PI45PLC_16_0_18_9Z12Z	"Phosphatidylinositol 4,5-bisphosphate phospholipase C (C16:0, C18:2)"	"Lipids are pooled, replaced with pooled version (PI45PLC)"
-112	PI45PLC_18_9Z_18_9Z	"Phosphatidylinositol 4,5-bisphosphate phospholipase C (C18:1, C18:1)"	"Lipids are pooled, replaced with pooled version (PI45PLC)"
-113	PI45PLC_18_9Z_18_9Z12Z	"Phosphatidylinositol 4,5-bisphosphate phospholipase C (C18:1, C18:2)"	"Lipids are pooled, replaced with pooled version (PI45PLC)"
-114	PI45PLC_18_9Z12Z_16_0	"Phosphatidylinositol 4,5-bisphosphate phospholipase C (C18:2, C16:0)"	"Lipids are pooled, replaced with pooled version (PI45PLC)"
-115	PI45PLC_18_9Z12Z_18_9Z	"Phosphatidylinositol 4,5-bisphosphate phospholipase C (C18:2, C18:1)"	"Lipids are pooled, replaced with pooled version (PI45PLC)"
-116	PI4K_16_0_16_0	"Phosphatidylinositol 4-kinase (C16:0,C16:0)"	"Lipids are pooled, replaced with pooled version (PI4K)"
-117	PI4K_16_0_18_9Z	"Phosphatidylinositol 4-kinase (C16:0,C18:1)"	"Lipids are pooled, replaced with pooled version (PI4K)"
-118	PI4K_16_0_18_9Z12Z	"Phosphatidylinositol 4-kinase (C16:0,C18:2)"	"Lipids are pooled, replaced with pooled version (PI4K)"
-119	PI4K_18_9Z_18_9Z	"Phosphatidylinositol 4-kinase (C18:1,C18:1)"	"Lipids are pooled, replaced with pooled version (PI4K)"
-120	PI4K_18_9Z_18_9Z12Z	"Phosphatidylinositol 4-kinase (C18:1,C18:2)"	"Lipids are pooled, replaced with pooled version (PI4K)"
-121	PI4K_18_9Z12Z_16_0	"Phosphatidylinositol 4-kinase (C18:2,C16:0)"	"Lipids are pooled, replaced with pooled version (PI4K)"
-122	PI4K_18_9Z12Z_18_9Z	"Phosphatidylinositol 4-kinase (C18:2,C18 1)"	"Lipids are pooled, replaced with pooled version (PI4K)"
-123	PI4P5K_16_0_16_0	"Phosphatidylinositol 4-phosphate 5-kinase (C16:0,C16:0)"	"Lipids are pooled, replaced with pooled version (PI4P5K)"
-124	PI4P5K_16_0_18_9Z	"Phosphatidylinositol 4-phosphate 5-kinase (C16:0,C18:1)"	"Lipids are pooled, replaced with pooled version (PI4P5K)"
-125	PI4P5K_16_0_18_9Z12Z	"Phosphatidylinositol 4-phosphate 5-kinase (C16:0,C18:2)"	"Lipids are pooled, replaced with pooled version (PI4P5K)"
-126	PI4P5K_18_9Z_18_9Z	"Phosphatidylinositol 4-phosphate 5-kinase (C18:1,C18:1)"	"Lipids are pooled, replaced with pooled version (PI4P5K)"
-127	PI4P5K_18_9Z_18_9Z12Z	"Phosphatidylinositol 4-phosphate 5-kinase (C18:1,C18:2)"	"Lipids are pooled, replaced with pooled version (PI4P5K)"
-128	PI4P5K_18_9Z12Z_16_0	"Phosphatidylinositol 4-phosphate 5-kinase (C18:2,C16:0)"	"Lipids are pooled, replaced with pooled version (PI4P5K)"
-129	PI4P5K_18_9Z12Z_18_9Z	"Phosphatidylinositol 4-phosphate 5-kinase (C18:2,C18:1)"	"Lipids are pooled, replaced with pooled version (PI4P5K)"
-130	PI4PLC_16_0_16_0	"Phosphatidylinositol 4-phosphate phospholipase C (C16:0,C16:0)"	"Lipids are pooled, replaced with pooled version (PI4PLC)"
-131	PI4PLC_16_0_18_9Z	"Phosphatidylinositol 4-phosphate phospholipase C (C16:0,C18:1)"	"Lipids are pooled, replaced with pooled version (PI4PLC)"
-132	PI4PLC_16_0_18_9Z12Z	"Phosphatidylinositol 4-phosphate phospholipase C (C16:0,C18:2)"	"Lipids are pooled, replaced with pooled version (PI4PLC)"
-133	PI4PLC_18_9Z_18_9Z	"Phosphatidylinositol 4-phosphate phospholipase C (C18:1,C18:1)"	"Lipids are pooled, replaced with pooled version (PI4PLC)"
-134	PI4PLC_18_9Z_18_9Z12Z	"Phosphatidylinositol 4-phosphate phospholipase C (C18:1,C18:2)"	"Lipids are pooled, replaced with pooled version (PI4PLC)"
-135	PI4PLC_18_9Z12Z_16_0	"Phosphatidylinositol 4-phosphate phospholipase C (C18:2,C16:0)"	"Lipids are pooled, replaced with pooled version (PI4PLC)"
-136	PI4PLC_18_9Z12Z_18_9Z	"Phosphatidylinositol 4-phosphate phospholipase C (C18:2,C18:1)"	"Lipids are pooled, replaced with pooled version (PI4PLC)"
-137	PI4PP_16_0_16_0	"Phosphatidylinositol-4-phosphate 4-phosphatase (C16:0,C16:0)"	"Lipids are pooled, replaced with pooled version (PI4PP)"
-138	PI4PP_16_0_18_9Z	"Phosphatidylinositol-4-phosphate 4-phosphatase (C16:0,C18:1)"	"Lipids are pooled, replaced with pooled version (PI4PP)"
-139	PI4PP_16_0_18_9Z12Z	"Phosphatidylinositol-4-phosphate 4-phosphatase (C16:0,C18:2)"	"Lipids are pooled, replaced with pooled version (PI4PP)"
-140	PI4PP_18_9Z_18_9Z	"Phosphatidylinositol-4-phosphate 4-phosphatase (C18:1,C18:1)"	"Lipids are pooled, replaced with pooled version (PI4PP)"
-141	PI4PP_18_9Z_18_9Z12Z	"Phosphatidylinositol-4-phosphate 4-phosphatase (C18:1,C18:2)"	"Lipids are pooled, replaced with pooled version (PI4PP)"
-142	PI4PP_18_9Z12Z_16_0	"Phosphatidylinositol-4-phosphate 4-phosphatase (C18:2,C16:0)"	"Lipids are pooled, replaced with pooled version (PI4PP)"
-143	PI4PP_18_9Z12Z_18_9Z	"Phosphatidylinositol-4-phosphate 4-phosphatase (C18:2,C18:1)"	"Lipids are pooled, replaced with pooled version (PI4PP)"
-144	PIPLC_16_0_16_0	"Phosphatidylinositol phospholipase C (C16:0,C16:0)"	"Lipids are pooled, replaced with pooled version (PIPLC)"
-145	PIPLC_16_0_18_9Z	"Phosphatidylinositol phospholipase C (C16:0,C18:1)"	"Lipids are pooled, replaced with pooled version (PIPLC)"
-146	PIPLC_16_0_18_9Z12Z	"Phosphatidylinositol phospholipase C (C16:0,C18:2)"	"Lipids are pooled, replaced with pooled version (PIPLC)"
-147	PIPLC_18_9Z_18_9Z	"Phosphatidylinositol phospholipase C (C18:1,C18:1)"	"Lipids are pooled, replaced with pooled version (PIPLC)"
-148	PIPLC_18_9Z_18_9Z12Z	"Phosphatidylinositol phospholipase C (C18:1,C18:2)"	"Lipids are pooled, replaced with pooled version (PIPLC)"
-149	PIPLC_18_9Z12Z_16_0	"Phosphatidylinositol phospholipase C (C18:2,C16:0)"	"Lipids are pooled, replaced with pooled version (PIPLC)"
-150	PIPLC_18_9Z12Z_18_9Z	"Phosphatidylinositol phospholipase C (C18:2,C18:1)"	"Lipids are pooled, replaced with pooled version (PIPLC)"
-152	PPPGO	Protoporphyrinogen oxidase (aerobic)	"Removed from model. Protoporphyrinogen oxidase is a mitochondrial enzyme for heme synthesis, and healthy mature erythrocytes do not synthesize heme nor have mitochondria."
-153	PUNP1	Purine-nucleoside phosphorylase (Adenosine)	"Removed from model. The natural substrates of purine-nucleoside phosphorylase are inosine, guanosine, and their 2′-deoxy counterparts, but not adenosine nor deoxyadenosine. Xanthosine/xanthine havce also shown to be substrates of PNP (PMID:12180982). Some reports indicate low activitiy with (deoxy)adenosine (PMID:9305964), however it is more likely that adenine nucleosides and nucleotides are deaminated by adenosine deaminase and AMP deaminase to their corresponding inosine derivatives which, in turn, may be further degraded (PMID: 14706628)"
-154	RIBFLVt3	Riboflavin transport (ATP dependent)	"No evidence of an ATP-dependent uptake system for riboflavin. Since RFVT1/2 are expressed in erythropoesis, it is possible that remnants of these proteins are responsible for riboflavin uptake. (PMID:5455272,DOI:10.1182/blood-2019-124380)"
-155	RNMK	Ribosylnicotinamide kinase	"Removed. Synthesis of NAD using ATP can be accomplished using the nicotinate phosphoribosyltransferase, which has proteomic evidence associated."
-156	SK_akg_c	Sink akg(c)	Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism
-157	SK_band_c	Sink band(c)	"Removed from model. No pseudoreactions kept other than exchanges. Replaced by generic methylation reactions and additional reactions involving protein methylation. Band 3 protein is a major methyl-accepting substrate of the intracellular erythrocyte PCMT1 (PMID: 7240192, PMID: 3828308)"
-158	SK_bandmt_c	"Demand for Band Membrane Protein (Methylated, Universal, Erythrocyte -> 2.1,3,4.1)"	"Removed from model. No pseudoreactions kept other than exchanges. Replaced by generic methylation reactions and additional reactions involving protein methylation. Band 3 protein is a major methyl-accepting substrate of the intracellular erythrocyte PCMT1 (PMID: 7240192, PMID: 3828308)"
-159	SK_for_c	Sink for(c)	Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions including membrane transport reactions.
-160	SK_pc_hs_16_0_16_0_c	Sink pchol hs 16 0 16 0(c)	"Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism"
-161	SK_pc_hs_16_0_18_9Z_c	Sink pchol hs 16 0 18 1(c)	"Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism"
-162	SK_pc_hs_16_0_18_9Z12Z_c	Sink pchol hs 16 0 18 2(c)	"Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism"
-163	SK_pc_hs_18_9Z_18_9Z_c	Sink pchol hs 18 1 18 1(c)	"Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism"
-164	SK_pc_hs_18_9Z_18_9Z12Z_c	Sink pchol hs 18 1 18 2(c)	"Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism"
-165	SK_pc_hs_18_9Z12Z_16_0_c	Sink pchol hs 18 2 16 0(c)	"Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism"
-166	SK_pc_hs_18_9Z12Z_18_9Z_c	Sink pchol hs 18 2 18 1(c)	"Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism"
-167	SK_pe_hs_16_0_16_0_c	Sink pe hs 16 0 16 0(c)	"Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism"
-168	SK_pe_hs_16_0_18_9Z_c	Sink pe hs 16 0 18 1(c)	"Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism"
-169	SK_pe_hs_16_0_18_9Z12Z_c	Sink pe hs 16 0 18 2(c)	"Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism"
-170	SK_pe_hs_18_9Z_18_9Z_c	Sink pe hs 18 1 18 1(c)	"Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism"
-171	SK_pe_hs_18_9Z_18_9Z12Z_c	Sink pe hs 18 1 18 2(c)	"Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism"
-172	SK_pe_hs_18_9Z12Z_16_0_c	Sink pe hs 18 2 16 0(c)	"Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism"
-173	SK_pe_hs_18_9Z12Z_18_9Z_c	Sink pe hs 18 2 18 1(c)	"Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism"
-174	THMMPtrbc	Thiamine monophosphate transport (passive - red blood cell)	"Replaced by reactions involving reduced folate carrier (Gene ID: 6573, SLC19A1), a bidirectional reduced folate/organic phosphate antiporter that can utilize the phosphorylated derivatives of thiamin for transport (PMID: 11038362). "
-175	TMDPPK	Thiamine diphosphate kinase	Replaced by ADK7. Adenylate kinase isozyme 1 has can phosphorylate thiamin diphosphate using ADP as a donor (PMID: 1332781)
-176	UDPGD	UDPglucose 6-dehydrogenase	No proteomic or activity evidence
-177	UDPGNP	UDP-glucuronate glucuronohydrolase	No proteomic or activity evidence
-178	SBTR	D sorbitol reductase	"Replaced by SBTRa. KEGG indicates alpha glucose is the substrate involved, let the original SBTR represent beta D-glucose/glucose without regard to anomer"
+80	NICRNS	Nicotinate D-ribonucleotide synthase (ATP)	Replaced by NAMNPP and NAPRT. Synthesis of NAD using ATP from nicotinate can be accomplished using the nicotinate phosphoribosyltransferase (Gene 93100, NAPRT), which has proteomic evidence associated.
+81	NORMETEVESSte	L-Normetanephrine seceretion via secretory vesicle (ATP driven)	Replaced by simple transport reaction (NORMETt), no evidence of formula for secretory vesicle (ATP driven) stoichiometry/formula
+82	OPAH	5-Oxoproline amidohydrolase (ATP-hydrolysing) (ir)	5-oxoprolinase is absent from mature erythrocytes (PMID: 24636780). 5-oxoproline is an end-product of glutathione metabolism in erythrocytes, and that 5-oxoproline passes out of the erythrocyte and is metabolized in other tissues (PMID: 4150022)
+83	OROATP	Orotic acid transport inout via proton symporter	Replaced by OROTGLUex. Orotic acid is an excellent substrate for human OAT2 (PMID: 21446918). Efflux of glutamate drives uptake of orotic acid (PMID: 26377792)
+84	PAPP_16_0_16_0	Phosphatidic acid phosphatase (C16:0, C16:0)	Lipids are pooled, replaced with pooled version (PAPP)
+85	PAPP_16_0_18_9Z	Phosphatidic acid phosphatase (C16:0, C18:1)	Lipids are pooled, replaced with pooled version (PAPP)
+86	PAPP_16_0_18_9Z12Z	Phosphatidic acid phosphatase (C16:0, C18:2)	Lipids are pooled, replaced with pooled version (PAPP)
+87	PAPP_18_9Z12Z_16_0	Phosphatidic acid phosphatase (C18:2, C16:0)	Lipids are pooled, replaced with pooled version (PAPP)
+88	PAPP_18_9Z12Z_18_9Z	Phosphatidic acid phosphatase (C18:2, C18:1)	Lipids are pooled, replaced with pooled version (PAPP)
+89	PAPP_18_9Z_18_9Z	Phosphatidic acid phosphatase (C18:1,C18:1)	Lipids are pooled, replaced with pooled version (PAPP)
+90	PAPP_18_9Z_18_9Z12Z	Phosphatidic acid phosphatase (C18:1,C18:2)	Lipids are pooled, replaced with pooled version (PAPP)
+91	PCPLA2_16_0_16_0	Phospholipase A2 (C16:0,C16:0)	Lipids are pooled, replaced with pooled version (PCPLA2)
+92	PCPLA2_16_0_18_9Z	Phospholipase A2 (C16:0,C18:1)	Lipids are pooled, replaced with pooled version (PCPLA2)
+93	PCPLA2_16_0_18_9Z12Z	Phospholipase A2 (C16:0,C18:2)	Lipids are pooled, replaced with pooled version (PCPLA2)
+94	PCPLA2_18_9Z12Z_16_0	Phospholipase A2 (C18:2,C16:0)	Lipids are pooled, replaced with pooled version (PCPLA2)
+95	PCPLA2_18_9Z12Z_18_9Z	Phospholipase A2 (C18:2,C18:1)	Lipids are pooled, replaced with pooled version (PCPLA2)
+96	PCPLA2_18_9Z_18_9Z	Phospholipase A2 (C18:1,C18:1)	Lipids are pooled, replaced with pooled version (PCPLA2)
+97	PCPLA2_18_9Z_18_9Z12Z	Phospholipase A2 (C18:1,C18:2)	Lipids are pooled, replaced with pooled version (PCPLA2)
+98	PFK26	6 phosphofructo 2 kinase	6-phosphofructo-2-kinase activity are markedly influenced by the number of reticulocytes (PMID: 1667653). Furthermore, 6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 2 is absent from erytrhrocytes
+99	PI45P5P_16_0_16_0	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C16:0, C16:0)	Lipids are pooled, replaced with pooled version (PI45P5P)
+100	PI45P5P_16_0_18_9Z	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C16:0, C18:1)	Lipids are pooled, replaced with pooled version (PI45P5P)
+101	PI45P5P_16_0_18_9Z12Z	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C16:0, C18:2)	Lipids are pooled, replaced with pooled version (PI45P5P)
+102	PI45P5P_18_9Z12Z_16_0	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:2, C16:0)	Lipids are pooled, replaced with pooled version (PI45P5P)
+103	PI45P5P_18_9Z12Z_18_9Z	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:2, C18:1)	Lipids are pooled, replaced with pooled version (PI45P5P)
+104	PI45P5P_18_9Z_18_9Z	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:1, C18:1)	Lipids are pooled, replaced with pooled version (PI45P5P)
+105	PI45P5P_18_9Z_18_9Z12Z	Phosphatidylinositol-4,5-bisphosphate 5-phosphatase (C18:1, C18:2)	Lipids are pooled, replaced with pooled version (PI45P5P)
+106	PI45PLC_16_0_16_0	Phosphatidylinositol 4,5-bisphosphate phospholipase C (C16:0, C16:0)	Lipids are pooled, replaced with pooled version (PI45PLC)
+107	PI45PLC_16_0_18_9Z	Phosphatidylinositol 4,5-bisphosphate phospholipase C (C16:0, C18:1)	Lipids are pooled, replaced with pooled version (PI45PLC)
+108	PI45PLC_16_0_18_9Z12Z	Phosphatidylinositol 4,5-bisphosphate phospholipase C (C16:0, C18:2)	Lipids are pooled, replaced with pooled version (PI45PLC)
+109	PI45PLC_18_9Z12Z_16_0	Phosphatidylinositol 4,5-bisphosphate phospholipase C (C18:2, C16:0)	Lipids are pooled, replaced with pooled version (PI45PLC)
+110	PI45PLC_18_9Z12Z_18_9Z	Phosphatidylinositol 4,5-bisphosphate phospholipase C (C18:2, C18:1)	Lipids are pooled, replaced with pooled version (PI45PLC)
+111	PI45PLC_18_9Z_18_9Z	Phosphatidylinositol 4,5-bisphosphate phospholipase C (C18:1, C18:1)	Lipids are pooled, replaced with pooled version (PI45PLC)
+112	PI45PLC_18_9Z_18_9Z12Z	Phosphatidylinositol 4,5-bisphosphate phospholipase C (C18:1, C18:2)	Lipids are pooled, replaced with pooled version (PI45PLC)
+113	PI4K_16_0_16_0	Phosphatidylinositol 4-kinase (C16:0,C16:0)	Lipids are pooled, replaced with pooled version (PI4K)
+114	PI4K_16_0_18_9Z	Phosphatidylinositol 4-kinase (C16:0,C18:1)	Lipids are pooled, replaced with pooled version (PI4K)
+115	PI4K_16_0_18_9Z12Z	Phosphatidylinositol 4-kinase (C16:0,C18:2)	Lipids are pooled, replaced with pooled version (PI4K)
+116	PI4K_18_9Z12Z_16_0	Phosphatidylinositol 4-kinase (C18:2,C16:0)	Lipids are pooled, replaced with pooled version (PI4K)
+117	PI4K_18_9Z12Z_18_9Z	Phosphatidylinositol 4-kinase (C18:2,C18 1)	Lipids are pooled, replaced with pooled version (PI4K)
+118	PI4K_18_9Z_18_9Z	Phosphatidylinositol 4-kinase (C18:1,C18:1)	Lipids are pooled, replaced with pooled version (PI4K)
+119	PI4K_18_9Z_18_9Z12Z	Phosphatidylinositol 4-kinase (C18:1,C18:2)	Lipids are pooled, replaced with pooled version (PI4K)
+120	PI4P5K_16_0_16_0	Phosphatidylinositol 4-phosphate 5-kinase (C16:0,C16:0)	Lipids are pooled, replaced with pooled version (PI4P5K)
+121	PI4P5K_16_0_18_9Z	Phosphatidylinositol 4-phosphate 5-kinase (C16:0,C18:1)	Lipids are pooled, replaced with pooled version (PI4P5K)
+122	PI4P5K_16_0_18_9Z12Z	Phosphatidylinositol 4-phosphate 5-kinase (C16:0,C18:2)	Lipids are pooled, replaced with pooled version (PI4P5K)
+123	PI4P5K_18_9Z12Z_16_0	Phosphatidylinositol 4-phosphate 5-kinase (C18:2,C16:0)	Lipids are pooled, replaced with pooled version (PI4P5K)
+124	PI4P5K_18_9Z12Z_18_9Z	Phosphatidylinositol 4-phosphate 5-kinase (C18:2,C18:1)	Lipids are pooled, replaced with pooled version (PI4P5K)
+125	PI4P5K_18_9Z_18_9Z	Phosphatidylinositol 4-phosphate 5-kinase (C18:1,C18:1)	Lipids are pooled, replaced with pooled version (PI4P5K)
+126	PI4P5K_18_9Z_18_9Z12Z	Phosphatidylinositol 4-phosphate 5-kinase (C18:1,C18:2)	Lipids are pooled, replaced with pooled version (PI4P5K)
+127	PI4PLC_16_0_16_0	Phosphatidylinositol 4-phosphate phospholipase C (C16:0,C16:0)	Lipids are pooled, replaced with pooled version (PI4PLC)
+128	PI4PLC_16_0_18_9Z	Phosphatidylinositol 4-phosphate phospholipase C (C16:0,C18:1)	Lipids are pooled, replaced with pooled version (PI4PLC)
+129	PI4PLC_16_0_18_9Z12Z	Phosphatidylinositol 4-phosphate phospholipase C (C16:0,C18:2)	Lipids are pooled, replaced with pooled version (PI4PLC)
+130	PI4PLC_18_9Z12Z_16_0	Phosphatidylinositol 4-phosphate phospholipase C (C18:2,C16:0)	Lipids are pooled, replaced with pooled version (PI4PLC)
+131	PI4PLC_18_9Z12Z_18_9Z	Phosphatidylinositol 4-phosphate phospholipase C (C18:2,C18:1)	Lipids are pooled, replaced with pooled version (PI4PLC)
+132	PI4PLC_18_9Z_18_9Z	Phosphatidylinositol 4-phosphate phospholipase C (C18:1,C18:1)	Lipids are pooled, replaced with pooled version (PI4PLC)
+133	PI4PLC_18_9Z_18_9Z12Z	Phosphatidylinositol 4-phosphate phospholipase C (C18:1,C18:2)	Lipids are pooled, replaced with pooled version (PI4PLC)
+134	PI4PP_16_0_16_0	Phosphatidylinositol-4-phosphate 4-phosphatase (C16:0,C16:0)	Lipids are pooled, replaced with pooled version (PI4PP)
+135	PI4PP_16_0_18_9Z	Phosphatidylinositol-4-phosphate 4-phosphatase (C16:0,C18:1)	Lipids are pooled, replaced with pooled version (PI4PP)
+136	PI4PP_16_0_18_9Z12Z	Phosphatidylinositol-4-phosphate 4-phosphatase (C16:0,C18:2)	Lipids are pooled, replaced with pooled version (PI4PP)
+137	PI4PP_18_9Z12Z_16_0	Phosphatidylinositol-4-phosphate 4-phosphatase (C18:2,C16:0)	Lipids are pooled, replaced with pooled version (PI4PP)
+138	PI4PP_18_9Z12Z_18_9Z	Phosphatidylinositol-4-phosphate 4-phosphatase (C18:2,C18:1)	Lipids are pooled, replaced with pooled version (PI4PP)
+139	PI4PP_18_9Z_18_9Z	Phosphatidylinositol-4-phosphate 4-phosphatase (C18:1,C18:1)	Lipids are pooled, replaced with pooled version (PI4PP)
+140	PI4PP_18_9Z_18_9Z12Z	Phosphatidylinositol-4-phosphate 4-phosphatase (C18:1,C18:2)	Lipids are pooled, replaced with pooled version (PI4PP)
+141	PIPLC_16_0_16_0	Phosphatidylinositol phospholipase C (C16:0,C16:0)	Lipids are pooled, replaced with pooled version (PIPLC)
+142	PIPLC_16_0_18_9Z	Phosphatidylinositol phospholipase C (C16:0,C18:1)	Lipids are pooled, replaced with pooled version (PIPLC)
+143	PIPLC_16_0_18_9Z12Z	Phosphatidylinositol phospholipase C (C16:0,C18:2)	Lipids are pooled, replaced with pooled version (PIPLC)
+144	PIPLC_18_9Z12Z_16_0	Phosphatidylinositol phospholipase C (C18:2,C16:0)	Lipids are pooled, replaced with pooled version (PIPLC)
+145	PIPLC_18_9Z12Z_18_9Z	Phosphatidylinositol phospholipase C (C18:2,C18:1)	Lipids are pooled, replaced with pooled version (PIPLC)
+146	PIPLC_18_9Z_18_9Z	Phosphatidylinositol phospholipase C (C18:1,C18:1)	Lipids are pooled, replaced with pooled version (PIPLC)
+147	PIPLC_18_9Z_18_9Z12Z	Phosphatidylinositol phospholipase C (C18:1,C18:2)	Lipids are pooled, replaced with pooled version (PIPLC)
+148	PPPGO	Protoporphyrinogen oxidase (aerobic)	Removed from model. Protoporphyrinogen oxidase is a mitochondrial enzyme for heme synthesis, and healthy mature erythrocytes do not synthesize heme nor have mitochondria.
+149	PUNP1	Purine-nucleoside phosphorylase (Adenosine)	Removed from model. The natural substrates of purine-nucleoside phosphorylase are inosine, guanosine, and their 2′-deoxy counterparts, but not adenosine nor deoxyadenosine. Xanthosine/xanthine havce also shown to be substrates of PNP (PMID:12180982). Some reports indicate low activitiy with (deoxy)adenosine (PMID:9305964), however it is more likely that adenine nucleosides and nucleotides are deaminated by adenosine deaminase and AMP deaminase to their corresponding inosine derivatives which, in turn, may be further degraded (PMID: 14706628)
+150	RIBFLVt3	Riboflavin transport (ATP dependent)	No evidence of an ATP-dependent uptake system for riboflavin. Since RFVT1/2 are expressed in erythropoesis, it is possible that remnants of these proteins are responsible for riboflavin uptake. (PMID:5455272,DOI:10.1182/blood-2019-124380)
+151	RNMK	Ribosylnicotinamide kinase	Removed. Synthesis of NAD using ATP can be accomplished using the nicotinate phosphoribosyltransferase, which has proteomic evidence associated.
+152	SBTR	D sorbitol reductase	Replaced by SBTRa. KEGG indicates alpha glucose is the substrate involved, let the original SBTR represent beta D-glucose/glucose without regard to anomer
+153	SK_akg_c	Sink akg(c)	Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism
+154	SK_band_c	Sink band(c)	Removed from model. No pseudoreactions kept other than exchanges. Replaced by generic methylation reactions and additional reactions involving protein methylation. Band 3 protein is a major methyl-accepting substrate of the intracellular erythrocyte PCMT1 (PMID: 7240192, PMID: 3828308)
+155	SK_bandmt_c	Demand for Band Membrane Protein (Methylated, Universal, Erythrocyte -> 2.1,3,4.1)	Removed from model. No pseudoreactions kept other than exchanges. Replaced by generic methylation reactions and additional reactions involving protein methylation. Band 3 protein is a major methyl-accepting substrate of the intracellular erythrocyte PCMT1 (PMID: 7240192, PMID: 3828308)
+156	SK_for_c	Sink for(c)	Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions including membrane transport reactions.
+157	SK_pc_hs_16_0_16_0_c	Sink pchol hs 16 0 16 0(c)	Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism
+158	SK_pc_hs_16_0_18_9Z12Z_c	Sink pchol hs 16 0 18 2(c)	Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism
+159	SK_pc_hs_16_0_18_9Z_c	Sink pchol hs 16 0 18 1(c)	Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism
+160	SK_pc_hs_18_9Z12Z_16_0_c	Sink pchol hs 18 2 16 0(c)	Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism
+161	SK_pc_hs_18_9Z12Z_18_9Z_c	Sink pchol hs 18 2 18 1(c)	Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism
+162	SK_pc_hs_18_9Z_18_9Z12Z_c	Sink pchol hs 18 1 18 2(c)	Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism
+163	SK_pc_hs_18_9Z_18_9Z_c	Sink pchol hs 18 1 18 1(c)	Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism
+164	SK_pe_hs_16_0_16_0_c	Sink pe hs 16 0 16 0(c)	Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism
+165	SK_pe_hs_16_0_18_9Z12Z_c	Sink pe hs 16 0 18 2(c)	Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism
+166	SK_pe_hs_16_0_18_9Z_c	Sink pe hs 16 0 18 1(c)	Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism
+167	SK_pe_hs_18_9Z12Z_16_0_c	Sink pe hs 18 2 16 0(c)	Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism
+168	SK_pe_hs_18_9Z12Z_18_9Z_c	Sink pe hs 18 2 18 1(c)	Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism
+169	SK_pe_hs_18_9Z_18_9Z12Z_c	Sink pe hs 18 1 18 2(c)	Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism
+170	SK_pe_hs_18_9Z_18_9Z_c	Sink pe hs 18 1 18 1(c)	Lipids are pooled, replaced with pooled versions. Removed from model. No pseudoreactions kept other than exchanges. No longer necessary due to reconstruction expansions in glycerophospholipid metabolism
+171	THMMPtrbc	Thiamine monophosphate transport (passive - red blood cell)	Replaced by reactions involving reduced folate carrier (Gene ID: 6573, SLC19A1), a bidirectional reduced folate/organic phosphate antiporter that can utilize the phosphorylated derivatives of thiamin for transport (PMID: 11038362).
+172	TMDPPK	Thiamine diphosphate kinase	Replaced by ADK7. Adenylate kinase isozyme 1 has can phosphorylate thiamin diphosphate using ADP as a donor (PMID: 1332781)
+173	UDPGD	UDPglucose 6-dehydrogenase	No proteomic or activity evidence
+174	UDPGNP	UDP-glucuronate glucuronohydrolase	No proteomic or activity evidence

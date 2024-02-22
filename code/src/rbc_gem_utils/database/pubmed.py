@@ -7,7 +7,7 @@ from Bio import Entrez
 from rbc_gem_utils.util import build_string
 
 
-PUBMED_ERYTHROCYTE_TERMS = [
+PUBMED_ERYTHROCYTE_KEYWORDS = [
     "red blood cell",
     "red cell",
     "erythrocyte",
@@ -16,15 +16,18 @@ PUBMED_ERYTHROCYTE_TERMS = [
 ]
 
 
-def search_erythrocyte_terms_PubMed(df, text_columns, search_terms=None):
+def search_erythrocyte_keywords_PubMed(
+    df, text_columns, search_keywords=None, column_name="RBC Keywords"
+):
     df = df.loc[:, text_columns].copy()
-    key = "RBC Terms"
-    df[key] = ""
+    df[column_name] = ""
     for idx, row in df.iterrows():
         hits = set()
         for value in row.values:
-            hits.update(re.findall("|".join(search_terms), value, flags=re.IGNORECASE))
-        df.loc[idx, key] = build_string(hits)
+            hits.update(
+                re.findall("|".join(search_keywords), value, flags=re.IGNORECASE)
+            )
+        df.loc[idx, column_name] = build_string(hits)
     return df
 
 

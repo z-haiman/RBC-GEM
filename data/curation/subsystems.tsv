@@ -1,4 +1,4 @@
-name	category	pathway	kegg.pathway	notes
+name	category	kegg.pathway.name	kegg.pathway	notes
 Acyl-CoA hydrolysis	Lipid metabolism			Curated category
 "Alanine, aspartate and glutamate metabolism"	Amino acid metabolism	"Alanine, aspartate and glutamate metabolism"	hsa00250
 Amino sugar and nucleotide sugar metabolism	Carbohydrate metabolism	Amino sugar and nucleotide sugar metabolism	hsa00520
@@ -7,6 +7,7 @@ Androgen metabolism	Lipid metabolism	Steroid hormone biosynthesis	hsa00140	"Subn
 Arachidonic acid metabolism	Lipid metabolism	Arachidonic acid metabolism	hsa00590
 Arginine and proline metabolism	Amino acid metabolism	Arginine and proline metabolism	hsa00330
 Ascorbate and aldarate metabolism	Carbohydrate metabolism	Ascorbate and aldarate metabolism	hsa00053
+Azathioprine and 6-mercaptopurine metabolism	Xenobiotics biodegradation and metabolism	Drug metabolism - other enzymes	hsa00983	"Subnetwork of KEGG pathway ""Drug metabolism - other enzymes"""
 Biopterin metabolism	Metabolism of cofactors and vitamins	Folate biosynthesis	hsa00790	"Subnetwork of KEGG pathway ""Folate biosynthesis"""
 Carnitine shuttle (cytosolic)	Lipid metabolism			Curated category
 Cholesterol metabolism	Lipid metabolism	Steroid biosynthesis	hsa00100	"Subnetwork of KEGG pathway ""Steroid biosynthesis"""
@@ -31,9 +32,9 @@ Glycerolipid metabolism	Lipid metabolism	Glycerolipid metabolism	hsa00561
 Glycerophospholipid metabolism	Lipid metabolism	Glycerophospholipid metabolism	hsa00564
 "Glycine, serine and threonine metabolism"	Amino acid metabolism	"Glycine, serine and threonine metabolism"	hsa00260
 Glycolysis / Gluconeogenesis	Carbohydrate metabolism	Glycolysis / Gluconeogenesis	hsa00010
+Glycosphingolipid biosynthesis - ganglio series	Glycan biosynthesis and metabolism	Glycosphingolipid biosynthesis - ganglio series	hsa00604
 Glycosphingolipid biosynthesis - globo and isoglobo series	Glycan biosynthesis and metabolism	Glycosphingolipid biosynthesis - globo and isoglobo series	hsa00603
 Glycosphingolipid biosynthesis - lacto and neolacto series	Glycan biosynthesis and metabolism	Glycosphingolipid biosynthesis - lacto and neolacto series	hsa00601
-Glycosphingolipid biosynthesis - ganglio series	Glycan biosynthesis and metabolism	Glycosphingolipid biosynthesis - ganglio series	hsa00604
 Hemoglobin binding and degradation	Reactive species			Curated category
 Histidine metabolism	Amino acid metabolism	Histidine metabolism	hsa00340
 Inositol phosphate metabolism	Carbohydrate metabolism	Inositol phosphate metabolism	hsa00562
