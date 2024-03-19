@@ -1,7 +1,7 @@
 # RBC-GEM: Genome-scale metabolic model for the erythrocyte of _Homo sapiens_
 
 [![GitHub version](https://badge.fury.io/gh/z-haiman%2Frbc-gem.svg)](https://badge.fury.io/gh/z-haiman%2Frbc-gem)
-[![Zenodo](https://zenodo.org/badge/{{Zenodo ID}}.svg)](https://zenodo.org/badge/latestdoi/{{Zenodo ID}})
+[![Zenodo](https://zenodo.org/badge/733772184.svg)](https://zenodo.org/badge/latestdoi/733772184)
 [![Gitter chat](https://badges.gitter.im/z-haiman/RBC-GEM.svg)](https://gitter.im/z-haiman/RBC-GEM)
 [![memote tested](https://img.shields.io/badge/memote-tested-blue.svg?style=plastic)](https://z-haiman.github.io/RBC-GEM)
 
