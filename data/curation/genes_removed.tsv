@@ -20,8 +20,8 @@
 18	CHPT1	Q8WUD6	CHPT1	56994	no proteomic evidence. evidence indicates activity does not occur in erythrocytes
 19	CLC	Q05315	CLC	1178	Evidence indicates other enzymes are present in erythrocytes and responsible for reactions. Galectin-10 does not have enzyamtic activity
 20	COMTD1	Q86VU5	COMTD1	118881	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
-21	CPOX	P36551	CPOX	1371	Coproporphyrinogen oxidase is a mitochondrial enzyme for heme synthesis, and healthy mature erythrocytes do not synthesize heme nor have mitochondria.
-22	CPT2	P23786	CPT2	1376	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+21	CPOX	P36551	CPOX	1371	Coproporphyrinogen oxidase is a mitochondrial enzyme for heme synthesis, and healthy mature erythrocytes do not synthesize heme nor have mitochondria. No evidence found supporting activity in cytosol.
+22	CPT2	P23786	CPT2	1376	evidence indicates other enzymes are present in erythrocytes and responsible for reactions
 23	CRYL1	Q9Y2S2	CRYL1	51084	no proteomic evidence.
 24	DGKB	Q9Y6T7	DGKB	1607	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
 25	DGKE	P52429	DGKE	8526	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
@@ -35,21 +35,21 @@
 33	ETNK2	Q9NVF9	ETNK2	55224	no proteomic evidence. evidence indicates activity does not occur in erythrocytes
 34	FBP1	P09467	FBP1	2203	no proteomic evidence.
 35	FBP2	O00757	FBP2	8789	no proteomic evidence.
-36	FECH	P22830	FECH	2235	Ferrochelatase  is a mitochondrial enzyme for heme synthesis, and healthy mature erythrocytes do not synthesize heme nor have mitochondria.
+36	FECH	P22830	FECH	2235	Ferrochelatase is a mitochondrial enzyme for heme synthesis, and healthy mature erythrocytes do not synthesize heme nor have mitochondria. No evidence found supporting activity in cytosol.
 37	GK	P32189	GK	2710	no proteomic evidence. evidence indicates activity does not occur in erythrocytes
 38	GK2	Q14410	GK2	2712	no proteomic evidence. evidence indicates activity does not occur in erythrocytes
-39	GK3		GK3P	2713	pseudogene
+39	GK3	Q14409	GK3	2713	pseudogene
 40	GPAM	Q9HCL2	GPAM	57678	no proteomic evidence.
 41	GPAT4	Q86UL3	GPAT4	137964	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
 42	GUCY1A2	P33402	GUCY1A2	2977	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
-43	GUCY1B2		GUCY1B2	2974	pseudogene
+43	GUCY1B2	O75343	GUCY1B2	2974	pseudogene
 44	GUCY2C	P25092	GUCY2C	2984	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
 45	GUCY2D	Q02846	GUCY2D	3000	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
 46	GUCY2F	P51841	GUCY2F	2986	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
 47	HK2	P52789	HK2	3099	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
 48	HKDC1	Q2TB90	HKDC1	80201	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
-49	HMOX1	P09601	HMOX1	3162	Heme oxygenase occurs in macrophages. Furthermore, mature erythrocytes do not enzymatically degrade heme, heme degradation is from oxidative damage that under physiological conditions, does not form bilirubin.
-50	HMOX2	P30519	HMOX2	3163	heme oxygenase occurs in macrophages. Furthermore, mature erythrocytes do not enzymatically degrade heme, heme degradation is from oxidative damage that under physiological conditions, does not form bilirubin.
+49	HMOX1	P09601	HMOX1	3162	Heme oxygenase occurs in macrophages. Furthermore, mature erythrocytes do not enzymatically degrade heme, heme degradation is from oxidative damage that under physiological conditions, does not form bilirubin. No evidence found supporting activity in cytosol.
+50	HMOX2	P30519	HMOX2	3163	heme oxygenase occurs in macrophages. Furthermore, mature erythrocytes do not enzymatically degrade heme, heme degradation is from oxidative damage that under physiological conditions, does not form bilirubin. No evidence found supporting activity in cytosol.
 51	IMPDH1	P20839	IMPDH1	3614	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
 52	ITPKA	P23677	ITPKA	3706	no proteomic evidence.
 53	ITPKB	P27987	ITPKB	3707	no proteomic evidence.
@@ -96,10 +96,10 @@
 94	SLC2A7	Q6PXP3	SLC2A7	155184	no proteomic evidence.
 95	SLC2A8	Q9NY64	SLC2A8	29988	no proteomic evidence.
 96	SLC38A1	Q9H2H9	SLC38A1	81539	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
-97	SLC38A2	Q96QD8	SLC38A2	54407	evidence indicates other enzymes are present in erythrocytes and responsible for reactions
+97	SLC38A2	Q96QD8	SLC38A2	54407	evidence indicates other enzymes are present in erythrocytes and responsible for reactions. Older studies refer to System N and this is System A. 
 98	SLC38A4	Q969I6	SLC38A4	55089	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
 99	SLC5A1	P13866	SLC5A1	6523	no proteomic evidence.
-100	SLC5A3		SLC5A3	6526	pseudogene
+100	SLC5A3	P53794	SLC5A3	6526	no proteomic evidence.
 101	SLC5A5	Q92911	SLC5A5	6528	no proteomic evidence.
 102	SLC5A7	Q9GZV3	SLC5A7	60482	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
 103	SLC6A14	Q9UN76	SLC6A14	11254	no proteomic evidence. evidence indicates other enzymes are present in erythrocytes and responsible for reactions
