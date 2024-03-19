@@ -17,7 +17,7 @@ from bs4 import BeautifulSoup
 from rbc_gem_utils.util import DATABASE_PATH, ROOT_PATH, build_string, strip_plural
 
 
-DRUGBANK_VERSION_EXPECTED = "5.1.11"
+DRUGBANK_VERSION_EXPECTED = "5.1.12"
 DRUGBANK_URL = "https://go.drugbank.com"
 DRUGBANK_DB_TAG = "DrugBank"
 DRUGBANK_PATH = "/DrugBank"
