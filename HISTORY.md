@@ -1,4 +1,16 @@
 # History
+### RBC-GEM 0.3.0
+* Not an official release, but changes are significant enough to warrant an increase in minor version.
+* Remove reactions that are "duplicated" other than having different directionality
+* Remove pseudoreactions that enable flux consistency to identify dead-ends. Leave exchanges.
+* Remove distinction for transcripts, ensuring only unique genes in model.
+* Change all gene identifiers to HGNC symbols.
+* Chemical formulas and charges are updated for some metabolites.
+* Metabolite formulas are standardized
+* Stoichiometric corrections for reactions
+* Lipids reactions are pooled.
+* As the model has stoichiometrically altered from the iAB-RBC-283 model, the ID of the model has been officially changed to RBC-GEM.
+
 
 ### RBC-GEM 0.2.0
 Updates to iAB-RBC-283 reconstruction for the following purposes:

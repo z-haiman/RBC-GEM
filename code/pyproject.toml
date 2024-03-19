@@ -22,8 +22,11 @@ dependencies = [
   "cobra",
   "scipy",
   "memote",
+  "pandas",
+  "openpyxl",
   "notebook",
   "depinfo",
+  "pre-commit",
 ]
 requires-python = ">=3.8"
 authors = [
@@ -45,8 +48,10 @@ classifiers = [
 dynamic = ["version", "readme"]
 
 [project.optional-dependencies]
-database = ["beautifulsoup4", "requests"]
+database = ["beautifulsoup4", "requests", "Bio"]
 vis = ["seaborn", "matplotlib"]
+network = ["pyvis", "kaleido", "networkx"]
+all = ["rbc_gem_utils[database,vis,network]"]
 
 [project.urls]
 "MEMOTE Report" = "https://z-haiman.github.io/RBC-GEM/"
@@ -67,6 +72,7 @@ python-version = [
     "py39",
     "py310",
     "py311",
+    "py312",
 ]
 
 

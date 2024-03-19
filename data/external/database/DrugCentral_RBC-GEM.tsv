@@ -1,0 +1,1310 @@
+	genes	uniprot	hgnc.symbol	drugcentral	drug_name	target_class	action_type
+0	SORD	Q00796	SORD	1021	epalrestat	Enzyme
+1	SORD	Q00796	SORD	3514	quercetin	Enzyme
+2	THTPA	Q9BU02	THTPA	2832	thiamine	Enzyme
+3	TKT	P29401	TKT	2832	thiamine	Enzyme
+4	TPK1	Q9H3S4	TPK1	2832	thiamine	Kinase
+5	GALE	Q14376	GALE	875	diethylstilbestrol	Enzyme
+6	GALE	Q14376	GALE	1071	ethacrynic acid	Enzyme
+7	GALE	Q14376	GALE	1355	haloprogin	Enzyme
+8	G6PD	P11413	G6PD	782	dapsone	Enzyme
+9	G6PD	P11413	G6PD	795	prasterone	Enzyme
+10	G6PD	P11413	G6PD	1949	nitrofurantoin	Enzyme
+11	G6PD	P11413	G6PD	1950	nitrofurazone	Enzyme
+12	G6PD	P11413	G6PD	2256	pregnenolone succinate	Enzyme
+13	G6PD	P11413	G6PD	2266	primaquine	Enzyme
+14	G6PD	P11413	G6PD	2533	aldesulfone	Enzyme
+15	G6PD	P11413	G6PD	5324	brexanolone	Enzyme
+16	AKR1A1	P14550	AKR1A1	1021	epalrestat	Enzyme
+17	AKR1A1	P14550	AKR1A1	2704	tolrestat	Enzyme
+18	AKR1A1	P14550	AKR1A1	2803	valproic acid	Enzyme
+19	AKR1B1	P15121	AKR1B1	24	phenylbutanoic acid	Enzyme
+20	AKR1B1	P15121	AKR1B1	1021	epalrestat	Enzyme	INHIBITOR
+21	AKR1B1	P15121	AKR1B1	1193	flufenamic acid	Enzyme
+22	AKR1B1	P15121	AKR1B1	1328	gossypol	Enzyme
+23	AKR1B1	P15121	AKR1B1	1401	hymecromone	Enzyme
+24	AKR1B1	P15121	AKR1B1	1440	indomethacin	Enzyme
+25	AKR1B1	P15121	AKR1B1	1663	mefenamic acid	Enzyme
+26	AKR1B1	P15121	AKR1B1	1795	mezlocillin	Enzyme
+27	AKR1B1	P15121	AKR1B1	1943	nitazoxanide	Enzyme
+28	AKR1B1	P15121	AKR1B1	2534	sulindac	Enzyme
+29	AKR1B1	P15121	AKR1B1	2699	tolmetin	Enzyme
+30	AKR1B1	P15121	AKR1B1	2704	tolrestat	Enzyme	INHIBITOR
+31	AKR1B1	P15121	AKR1B1	2767	troglitazone	Enzyme
+32	AKR1B1	P15121	AKR1B1	3514	quercetin	Enzyme
+33	AKR1B1	P15121	AKR1B1	4624	phenylacetic acid	Enzyme
+34	GAPDH	P04406	GAPDH	90	adenosine	Enzyme
+35	GLUL	P15104	GLUL	2245	prednisolone	Enzyme
+36	GLUL	P15104	GLUL	2251	prednisolone tebutate	Enzyme
+37	SLC6A9	P48067	SLC6A9	1319	glycine	Transporter
+38	GSR	P00390	GSR	512	carmustine	Enzyme	INHIBITOR
+39	GSR	P00390	GSR	1310	glutamic acid	Enzyme
+40	GSR	P00390	GSR	1622	lysine	Enzyme
+41	GSR	P00390	GSR	1683	menadione	Enzyme
+42	GSR	P00390	GSR	1763	methylthioninium chloride	Enzyme
+43	GSR	P00390	GSR	1922	nifedipine	Enzyme
+44	GSS	P48637	GSS	66	acetylcysteine	Enzyme	MODULATOR
+45	HPRT1	P00492	HPRT1	124	allopurinol	Enzyme
+46	HPRT1	P00492	HPRT1	2632	thioguanine	Enzyme
+47	CA2	P00918	CA2	52	paracetamol	Enzyme
+48	CA2	P00918	CA2	56	acetazolamide	Enzyme	INHIBITOR
+49	CA2	P00918	CA2	58	acetohydroxamic acid	Enzyme
+50	CA2	P00918	CA2	305	bendroflumethiazide	Enzyme
+51	CA2	P00918	CA2	332	benzthiazide	Enzyme
+52	CA2	P00918	CA2	391	bortezomib	Enzyme
+53	CA2	P00918	CA2	396	brinzolamide	Enzyme	INHIBITOR
+54	CA2	P00918	CA2	565	cefuroxime	Enzyme
+55	CA2	P00918	CA2	568	celecoxib	Enzyme
+56	CA2	P00918	CA2	609	chlorothiazide	Enzyme
+57	CA2	P00918	CA2	625	chlortalidone	Enzyme
+58	CA2	P00918	CA2	629	cianidanol	Enzyme
+59	CA2	P00918	CA2	657	cinoxacin	Enzyme
+60	CA2	P00918	CA2	719	clotrimazole	Enzyme
+61	CA2	P00918	CA2	738	coumarin	Enzyme
+62	CA2	P00918	CA2	864	dichlorphenamide	Enzyme	INHIBITOR
+63	CA2	P00918	CA2	880	diflunisal	Enzyme
+64	CA2	P00918	CA2	931	ditiocarb	Enzyme
+65	CA2	P00918	CA2	937	dobutamine	Enzyme
+66	CA2	P00918	CA2	949	dorzolamide	Enzyme	INHIBITOR
+67	CA2	P00918	CA2	1089	ethoxzolamide	Enzyme	INHIBITOR
+68	CA2	P00918	CA2	1129	famotidine	Enzyme
+69	CA2	P00918	CA2	1258	furosemide	Enzyme
+70	CA2	P00918	CA2	1334	guaiacol	Enzyme
+71	CA2	P00918	CA2	1385	hydrochlorothiazide	Enzyme
+72	CA2	P00918	CA2	1399	hydroxycarbamide	Enzyme
+73	CA2	P00918	CA2	1423	imatinib	Enzyme
+74	CA2	P00918	CA2	1433	indapamide	Enzyme
+75	CA2	P00918	CA2	1624	mafenide	Enzyme
+76	CA2	P00918	CA2	1741	methazolamide	Enzyme	INHIBITOR
+77	CA2	P00918	CA2	1766	methylparaben	Enzyme
+78	CA2	P00918	CA2	1795	mezlocillin	Enzyme
+79	CA2	P00918	CA2	1932	nilotinib	Enzyme
+80	CA2	P00918	CA2	2049	aminobenzoic acid	Enzyme
+81	CA2	P00918	CA2	2179	pioglitazone	Enzyme
+82	CA2	P00918	CA2	2268	probenecid	Enzyme
+83	CA2	P00918	CA2	2302	propofol	Enzyme
+84	CA2	P00918	CA2	2328	pyrazinamide	Enzyme
+85	CA2	P00918	CA2	2405	rosiglitazone	Enzyme
+86	CA2	P00918	CA2	2416	salicylic acid	Enzyme
+87	CA2	P00918	CA2	2443	silymarin	Enzyme
+88	CA2	P00918	CA2	2521	sulfanilamide	Enzyme
+89	CA2	P00918	CA2	2525	sulfasalazine	Enzyme
+90	CA2	P00918	CA2	2537	sulpiride	Enzyme
+91	CA2	P00918	CA2	2540	sultiame	Enzyme
+92	CA2	P00918	CA2	2706	topiramate	Enzyme	INHIBITOR
+93	CA2	P00918	CA2	2733	trichlormethiazide	Enzyme
+94	CA2	P00918	CA2	2738	trientine	Enzyme
+95	CA2	P00918	CA2	2767	troglitazone	Enzyme
+96	CA2	P00918	CA2	2799	valdecoxib	Enzyme
+97	CA2	P00918	CA2	2868	zoledronic acid	Enzyme
+98	CA2	P00918	CA2	2872	zonisamide	Enzyme
+99	CA2	P00918	CA2	3260	gentisic acid	Enzyme
+100	CA2	P00918	CA2	3282	hydroquinone	Enzyme
+101	CA2	P00918	CA2	3514	quercetin	Enzyme
+102	CA2	P00918	CA2	3524	resorcinol	Enzyme
+103	CA2	P00918	CA2	3607	tioxolone	Enzyme
+104	CA2	P00918	CA2	3686	benzylsulfamide	Enzyme
+105	CA2	P00918	CA2	4260	sulfur	Enzyme
+106	CA2	P00918	CA2	4266	phenol	Enzyme
+107	CA2	P00918	CA2	4310	lacosamide	Enzyme
+108	CA2	P00918	CA2	4344	zinc chloride	Enzyme
+109	CA2	P00918	CA2	4373	sodium benzoate	Enzyme
+110	CA2	P00918	CA2	4683	paraoxon	Enzyme
+111	CA2	P00918	CA2	4773	ethyl hydroxybenzoate	Enzyme
+112	CA2	P00918	CA2	4797	sodium nitrite	Enzyme
+113	CA2	P00918	CA2	4877	tavaborole	Enzyme
+114	CA2	P00918	CA2	5039	tannic acid	Enzyme
+115	CA1	P00915	CA1	52	paracetamol	Enzyme
+116	CA1	P00915	CA1	56	acetazolamide	Enzyme	INHIBITOR
+117	CA1	P00915	CA1	183	amlodipine	Enzyme
+118	CA1	P00915	CA1	305	bendroflumethiazide	Enzyme
+119	CA1	P00915	CA1	332	benzthiazide	Enzyme
+120	CA1	P00915	CA1	391	bortezomib	Enzyme
+121	CA1	P00915	CA1	396	brinzolamide	Enzyme
+122	CA1	P00915	CA1	568	celecoxib	Enzyme
+123	CA1	P00915	CA1	625	chlortalidone	Enzyme
+124	CA1	P00915	CA1	629	cianidanol	Enzyme
+125	CA1	P00915	CA1	738	coumarin	Enzyme
+126	CA1	P00915	CA1	864	dichlorphenamide	Enzyme	INHIBITOR
+127	CA1	P00915	CA1	880	diflunisal	Enzyme
+128	CA1	P00915	CA1	931	ditiocarb	Enzyme
+129	CA1	P00915	CA1	937	dobutamine	Enzyme
+130	CA1	P00915	CA1	949	dorzolamide	Enzyme
+131	CA1	P00915	CA1	1089	ethoxzolamide	Enzyme	INHIBITOR
+132	CA1	P00915	CA1	1129	famotidine	Enzyme
+133	CA1	P00915	CA1	1258	furosemide	Enzyme
+134	CA1	P00915	CA1	1334	guaiacol	Enzyme
+135	CA1	P00915	CA1	1385	hydrochlorothiazide	Enzyme
+136	CA1	P00915	CA1	1423	imatinib	Enzyme
+137	CA1	P00915	CA1	1433	indapamide	Enzyme
+138	CA1	P00915	CA1	1563	levetiracetam	Enzyme
+139	CA1	P00915	CA1	1624	mafenide	Enzyme
+140	CA1	P00915	CA1	1741	methazolamide	Enzyme	INHIBITOR
+141	CA1	P00915	CA1	1747	methocarbamol	Enzyme	INHIBITOR
+142	CA1	P00915	CA1	1766	methylparaben	Enzyme
+143	CA1	P00915	CA1	1932	nilotinib	Enzyme
+144	CA1	P00915	CA1	2049	aminobenzoic acid	Enzyme
+145	CA1	P00915	CA1	2302	propofol	Enzyme
+146	CA1	P00915	CA1	2416	salicylic acid	Enzyme
+147	CA1	P00915	CA1	2443	silymarin	Enzyme
+148	CA1	P00915	CA1	2521	sulfanilamide	Enzyme
+149	CA1	P00915	CA1	2525	sulfasalazine	Enzyme
+150	CA1	P00915	CA1	2537	sulpiride	Enzyme
+151	CA1	P00915	CA1	2540	sultiame	Enzyme
+152	CA1	P00915	CA1	2706	topiramate	Enzyme
+153	CA1	P00915	CA1	2733	trichlormethiazide	Enzyme
+154	CA1	P00915	CA1	2738	trientine	Enzyme
+155	CA1	P00915	CA1	2799	valdecoxib	Enzyme
+156	CA1	P00915	CA1	2815	verapamil	Enzyme
+157	CA1	P00915	CA1	2872	zonisamide	Enzyme
+158	CA1	P00915	CA1	3260	gentisic acid	Enzyme
+159	CA1	P00915	CA1	3282	hydroquinone	Enzyme
+160	CA1	P00915	CA1	3514	quercetin	Enzyme
+161	CA1	P00915	CA1	3686	benzylsulfamide	Enzyme
+162	CA1	P00915	CA1	4203	sodium acetate	Enzyme
+163	CA1	P00915	CA1	4260	sulfur	Enzyme
+164	CA1	P00915	CA1	4266	phenol	Enzyme
+165	CA1	P00915	CA1	4310	lacosamide	Enzyme
+166	CA1	P00915	CA1	4683	paraoxon	Enzyme
+167	CA1	P00915	CA1	4773	ethyl hydroxybenzoate	Enzyme
+168	CA1	P00915	CA1	4797	sodium nitrite	Enzyme
+169	CA1	P00915	CA1	4877	tavaborole	Enzyme
+170	CA1	P00915	CA1	5039	tannic acid	Enzyme
+171	CA3	P07451	CA3	52	paracetamol	Enzyme
+172	CA3	P07451	CA3	56	acetazolamide	Enzyme
+173	CA3	P07451	CA3	391	bortezomib	Enzyme
+174	CA3	P07451	CA3	568	celecoxib	Enzyme
+175	CA3	P07451	CA3	625	chlortalidone	Enzyme
+176	CA3	P07451	CA3	629	cianidanol	Enzyme
+177	CA3	P07451	CA3	738	coumarin	Enzyme
+178	CA3	P07451	CA3	937	dobutamine	Enzyme
+179	CA3	P07451	CA3	949	dorzolamide	Enzyme
+180	CA3	P07451	CA3	1089	ethoxzolamide	Enzyme	INHIBITOR
+181	CA3	P07451	CA3	1423	imatinib	Enzyme
+182	CA3	P07451	CA3	1741	methazolamide	Enzyme
+183	CA3	P07451	CA3	1932	nilotinib	Enzyme
+184	CA3	P07451	CA3	2443	silymarin	Enzyme
+185	CA3	P07451	CA3	2521	sulfanilamide	Enzyme
+186	CA3	P07451	CA3	2537	sulpiride	Enzyme
+187	CA3	P07451	CA3	2738	trientine	Enzyme
+188	CA3	P07451	CA3	2799	valdecoxib	Enzyme
+189	CA3	P07451	CA3	3282	hydroquinone	Enzyme
+190	CA3	P07451	CA3	3508	pyrithione	Enzyme
+191	CA3	P07451	CA3	3514	quercetin	Enzyme
+192	CA3	P07451	CA3	4248	pyrithione zinc	Enzyme
+193	CA3	P07451	CA3	4266	phenol	Enzyme
+194	CA3	P07451	CA3	4310	lacosamide	Enzyme
+195	CA3	P07451	CA3	4733	thiomersal	Enzyme
+196	IDH1	O75874	IDH1	5251	enasidenib	Enzyme
+197	IDH1	O75874	IDH1	5292	ivosidenib	Enzyme	INHIBITOR
+198	IMPDH2	P12268	IMPDH2	1859	mycophenolate mofetil	Enzyme	INHIBITOR
+199	IMPDH2	P12268	IMPDH2	1860	mycophenolic acid	Enzyme
+200	IMPDH2	P12268	IMPDH2	2373	ribavirin	Enzyme	INHIBITOR
+201	IMPDH2	P12268	IMPDH2	2632	thioguanine	Enzyme	INHIBITOR
+202	LDHB	P07195	LDHB	1328	gossypol	Enzyme
+203	LDHA	P00338	LDHA	92	adenosine phosphate	Enzyme
+204	LDHA	P00338	LDHA	1328	gossypol	Enzyme
+205	GLO1	Q04760	GLO1	47	acemetacin	Enzyme
+206	GLO1	Q04760	GLO1	1440	indomethacin	Enzyme
+207	GLO1	Q04760	GLO1	2502	sulfadimidine	Enzyme
+208	GLO1	Q04760	GLO1	2534	sulindac	Enzyme
+209	GLO1	Q04760	GLO1	2699	tolmetin	Enzyme
+210	GLO1	Q04760	GLO1	3514	quercetin	Enzyme
+211	PLA2G4A	P47712	PLA2G4A	1225	fluticasone propionate	Enzyme
+212	PLA2G4A	P47712	PLA2G4A	2855	zafirlukast	Enzyme
+213	LTA4H	P09960	LTA4H	484	captopril	Enzyme
+214	LTA4H	P09960	LTA4H	2787	ubenimex	Enzyme
+215	LTA4H	P09960	LTA4H	2862	zileuton	Enzyme
+216	LTA4H	P09960	LTA4H	4124	vorinostat	Enzyme
+217	MPI	P34949	MPI	228	apomorphine	Enzyme
+218	MDH1	P40925	MDH1	719	clotrimazole	Enzyme
+219	MDH1	P40925	MDH1	799	delavirdine	Enzyme
+220	MDH1	P40925	MDH1	983	econazole	Enzyme
+221	MDH1	P40925	MDH1	1800	miconazole	Enzyme
+222	MDH1	P40925	MDH1	1909	nicardipine	Enzyme
+223	MDH1	P40925	MDH1	2495	sulconazole	Enzyme
+224	SYNJ1	O43426	SYNJ1	2335	pyrvinium	Enzyme
+225	IMPA1	P29218	IMPA1	4207	lithium carbonate	Enzyme	INHIBITOR
+226	IMPA1	P29218	IMPA1	4512	lithium citrate	Enzyme	INHIBITOR
+227	NT5C2	P49902	NT5C2	2373	ribavirin	Enzyme
+228	UMPS	P11172	UMPS	2002	oteracil	Enzyme	INHIBITOR
+229	ODC1	P11926	ODC1	990	eflornithine	Enzyme	INHIBITOR
+230	PDE1A	P54750	PDE1A	2809	vardenafil	Enzyme
+231	PDE1A	P54750	PDE1A	2828	vinpocetine	Enzyme
+232	PDE1A	P54750	PDE1A	5201	crisaborole	Enzyme
+233	PDE4D	Q08499	PDE4D	1406	ibudilast	Enzyme
+234	PDE4D	Q08499	PDE4D	2056	papaverine	Enzyme
+235	PDE4D	Q08499	PDE4D	2441	sildenafil	Enzyme
+236	PDE4D	Q08499	PDE4D	2693	tofisopam	Enzyme
+237	PDE4D	Q08499	PDE4D	3531	roflumilast	Enzyme
+238	PDE4D	Q08499	PDE4D	4829	apremilast	Enzyme	INHIBITOR
+239	PDE2A	O00408	PDE2A	209	anagrelide	Enzyme
+240	PDE2A	O00408	PDE2A	691	clofarabine	Enzyme
+241	PDE2A	O00408	PDE2A	866	dicloxacillin	Enzyme
+242	PDE2A	O00408	PDE2A	924	dipyridamole	Enzyme	INHIBITOR
+243	PDE2A	O00408	PDE2A	2056	papaverine	Enzyme
+244	PDE2A	O00408	PDE2A	2441	sildenafil	Enzyme
+245	PDE2A	O00408	PDE2A	2809	vardenafil	Enzyme
+246	PDE3A	Q14432	PDE3A	201	amrinone	Enzyme	INHIBITOR
+247	PDE3A	Q14432	PDE3A	209	anagrelide	Enzyme	INHIBITOR
+248	PDE3A	Q14432	PDE3A	644	cilostazol	Enzyme	INHIBITOR
+249	PDE3A	Q14432	PDE3A	976	diprophylline	Enzyme	INHIBITOR
+250	PDE3A	Q14432	PDE3A	1014	enoximone	Enzyme
+251	PDE3A	Q14432	PDE3A	1576	levosimendan	Enzyme
+252	PDE3A	Q14432	PDE3A	1809	milrinone	Enzyme	INHIBITOR
+253	PDE3A	Q14432	PDE3A	2056	papaverine	Enzyme
+254	PDE3A	Q14432	PDE3A	2620	theophylline	Enzyme	INHIBITOR
+255	PDE3A	Q14432	PDE3A	2817	vesnarinone	Enzyme
+256	PDE3B	Q13370	PDE3B	201	amrinone	Enzyme	INHIBITOR
+257	PDE3B	Q13370	PDE3B	644	cilostazol	Enzyme	INHIBITOR
+258	PDE3B	Q13370	PDE3B	1809	milrinone	Enzyme
+259	PDE3B	Q13370	PDE3B	2056	papaverine	Enzyme
+260	PDE3B	Q13370	PDE3B	2817	vesnarinone	Enzyme
+261	PNPO	Q9NVS9	PNPO	2836	pyridoxine	Enzyme
+262	PDXP	Q96GD0	PDXP	2836	pyridoxine	Enzyme
+263	GOT1	P17174	GOT1	1550	aspartic acid	Enzyme
+264	PIP5K1C	O60331	PIP5K1C	3533	ruboxistaurin	Kinase
+265	PIP5K1C	O60331	PIP5K1C	4118	pazopanib	Kinase
+266	PIP4K2C	Q8TBX8	PIP4K2C	1045	erlotinib	Kinase
+267	PIP4K2C	Q8TBX8	PIP4K2C	1282	gefitinib	Kinase
+268	PIP4K2C	Q8TBX8	PIP4K2C	1423	imatinib	Kinase
+269	PIP4K2C	Q8TBX8	PIP4K2C	1932	nilotinib	Kinase
+270	PIP4K2C	Q8TBX8	PIP4K2C	4118	pazopanib	Kinase
+271	PIP4K2C	Q8TBX8	PIP4K2C	5347	fedratinib	Kinase
+272	PIP5K1A	Q99755	PIP5K1A	2544	sunitinib	Kinase
+273	PIP5K1A	Q99755	PIP5K1A	3533	ruboxistaurin	Kinase
+274	PIP5K1A	Q99755	PIP5K1A	4187	crizotinib	Kinase
+275	PIP5K1A	Q99755	PIP5K1A	4359	bosutinib	Kinase
+276	PIP5K1A	Q99755	PIP5K1A	4903	nintedanib	Kinase
+277	PIP5K1A	Q99755	PIP5K1A	5231	midostaurin	Kinase
+278	PIP5K1A	Q99755	PIP5K1A	5347	fedratinib	Kinase
+279	PIP4K2B	P78356	PIP4K2B	2544	sunitinib	Kinase
+280	PIP4K2B	P78356	PIP4K2B	3533	ruboxistaurin	Kinase
+281	PIP4K2B	P78356	PIP4K2B	4903	nintedanib	Kinase
+282	PIP4K2B	P78356	PIP4K2B	5231	midostaurin	Kinase
+283	PIP4K2B	P78356	PIP4K2B	5347	fedratinib	Kinase
+284	PI4K2A	Q9BTU6	PI4K2A	90	adenosine	Kinase	INHIBITOR
+285	PRPS1	P60891	PRPS1	691	clofarabine	Kinase
+286	PRPS1	P60891	PRPS1	2818	vidarabine	Kinase
+287	PDXK	O00764	PDXK	2836	pyridoxine	Kinase
+288	RFK	Q969G6	RFK	2834	riboflavin	Kinase
+289	ABCG2	Q9UNQ0	ABCG2	249	astemizole	Transporter
+290	ABCG2	Q9UNQ0	ABCG2	269	azathioprine	Transporter
+291	ABCG2	Q9UNQ0	ABCG2	760	ciclosporin	Transporter
+292	ABCG2	Q9UNQ0	ABCG2	786	daunorubicin	Transporter
+293	ABCG2	Q9UNQ0	ABCG2	960	doxorubicin	Transporter
+294	ABCG2	Q9UNQ0	ABCG2	1112	etoposide	Transporter
+295	ABCG2	Q9UNQ0	ABCG2	1115	etravirine	Transporter
+296	ABCG2	Q9UNQ0	ABCG2	1282	gefitinib	Transporter
+297	ABCG2	Q9UNQ0	ABCG2	1423	imatinib	Transporter
+298	ABCG2	Q9UNQ0	ABCG2	1482	irinotecan	Transporter
+299	ABCG2	Q9UNQ0	ABCG2	1548	lapatinib	Transporter
+300	ABCG2	Q9UNQ0	ABCG2	1634	maprotiline	Transporter
+301	ABCG2	Q9UNQ0	ABCG2	1751	methotrexate	Transporter
+302	ABCG2	Q9UNQ0	ABCG2	1781	metochalcone	Transporter
+303	ABCG2	Q9UNQ0	ABCG2	1821	mitoxantrone	Transporter
+304	ABCG2	Q9UNQ0	ABCG2	1909	nicardipine	Transporter
+305	ABCG2	Q9UNQ0	ABCG2	1974	novobiocin	Transporter
+306	ABCG2	Q9UNQ0	ABCG2	2370	reserpine	Transporter
+307	ABCG2	Q9UNQ0	ABCG2	2590	teniposide	Transporter
+308	ABCG2	Q9UNQ0	ABCG2	2707	topotecan	Transporter
+309	ABCG2	Q9UNQ0	ABCG2	2815	verapamil	Transporter
+310	ABCG2	Q9UNQ0	ABCG2	3514	quercetin	Transporter
+311	ABCG2	Q9UNQ0	ABCG2	4192	tafamidis	Transporter	INHIBITOR
+312	ABCG2	Q9UNQ0	ABCG2	4719	daunorubicinol	Transporter
+313	ABCG2	Q9UNQ0	ABCG2	5425	dotinurad	Transporter	INHIBITOR
+314	ADA	P00813	ADA	90	adenosine	Enzyme
+315	ADA	P00813	ADA	2098	pentostatin	Enzyme	INHIBITOR
+316	ADA	P00813	ADA	4836	afamelanotide	Enzyme
+317	ADK	P55263	ADK	90	adenosine	Kinase
+318	ADK	P55263	ADK	2373	ribavirin	Kinase
+319	SLC29A1	Q99808	SLC29A1	893	dilazep	Transporter
+320	SLC29A1	Q99808	SLC29A1	924	dipyridamole	Transporter	INHIBITOR
+321	SLC29A1	Q99808	SLC29A1	1580	lidoflazine	Transporter
+322	SLC29A1	Q99808	SLC29A1	4184	ticagrelor	Transporter	INHIBITOR
+323	AHCY	P23526	AHCY	90	adenosine	Enzyme
+324	ALDH1A1	P00352	ALDH1A1	2831	retinol	Enzyme
+325	CPT1A	P50416	CPT1A	513	levocarnitine	Enzyme
+326	CPT1A	P50416	CPT1A	2106	perhexiline	Enzyme
+327	ABCC4	O15439	ABCC4	269	azathioprine	Transporter
+328	ABCC4	O15439	ABCC4	1482	irinotecan	Transporter
+329	ABCC4	O15439	ABCC4	1708	mercaptopurine	Transporter
+330	ABCC4	O15439	ABCC4	1751	methotrexate	Transporter
+331	ABCC4	O15439	ABCC4	2632	thioguanine	Transporter
+332	ABCC4	O15439	ABCC4	2707	topotecan	Transporter
+333	PHOSPHO1	Q8TCT1	PHOSPHO1	1547	lansoprazole	Enzyme
+334	CMPK1	P30085	CMPK1	1283	gemcitabine	Kinase
+335	SLC2A1	P11166	SLC2A1	729	colforsin daropate	Transporter
+336	SLC2A1	P11166	SLC2A1	1328	gossypol	Transporter
+337	COMT	P21964	COMT	547	cefotetan	Enzyme
+338	COMT	P21964	COMT	937	dobutamine	Enzyme
+339	COMT	P21964	COMT	1018	entacapone	Enzyme	INHIBITOR
+340	COMT	P21964	COMT	1180	flopropione	Enzyme	INHIBITOR
+341	COMT	P21964	COMT	2697	tolcapone	Enzyme	INHIBITOR
+342	COMT	P21964	COMT	3290	oxyquinoline	Enzyme
+343	COMT	P21964	COMT	5143	opicapone	Enzyme	INHIBITOR
+344	SLC2A2	P11168	SLC2A2	3514	quercetin	Transporter
+345	GUCY1B1	Q02153	GUCY1B3	4807	riociguat	Enzyme	POSITIVE ALLOSTERIC MODULATOR
+346	GUCY1B1	Q02153	GUCY1B3	5439	vericiguat	Enzyme	ACTIVATOR
+347	ATP1A1	P05023	ATP1A1	427	bumetanide	Transporter
+348	ATP1A1	P05023	ATP1A1	881	digitoxin	Transporter	INHIBITOR
+349	ATP1A1	P05023	ATP1A1	1258	furosemide	Transporter
+350	ATP1A1	P05023	ATP1A1	1705	meproscillarin	Transporter
+351	ATP1A1	P05023	ATP1A1	1761	metildigoxin	Transporter
+352	ATP1A1	P05023	ATP1A1	2004	ouabain	Transporter
+353	ATP1A1	P05023	ATP1A1	2054	pantoprazole	Transporter
+354	ATP1A1	P05023	ATP1A1	2313	proscillaridin	Transporter
+355	ATP1A1	P05023	ATP1A1	2350	rabeprazole	Transporter
+356	HSPA8	P11142	HSPA8	91	adenosine triphosphate	Unclassified
+357	HSPA8	P11142	HSPA8	1364	hexachlorophene	Unclassified
+358	BLVRB	P30043	BLVRB	2834	riboflavin	Enzyme
+359	HBA	P69905	HBA1	1395	hydroxychloroquine	Secreted
+360	HBA	P69905	HBA1	1665	mefloquine	Secreted
+361	HBA	P69905	HBA1	2266	primaquine	Secreted
+362	HBA	P69905	HBA1	4523	quinine	Secreted
+363	HBA	P69905	HBA1	5356	voxelotor	Transporter	INHIBITOR
+364	VCP	P55072	VCP	719	clotrimazole	Enzyme
+365	VCP	P55072	VCP	1364	hexachlorophene	Enzyme
+366	VCP	P55072	VCP	2817	vesnarinone	Enzyme
+367	ACLY	P53396	ACLY	5382	bempedoic acid	Enzyme	INHIBITOR
+368	CSNK1A1	P48729	CSNK1A1	2459	sorafenib	Kinase
+369	CSNK1A1	P48729	CSNK1A1	2544	sunitinib	Kinase
+370	CSNK1A1	P48729	CSNK1A1	4190	ruxolitinib	Kinase
+371	CSNK1A1	P48729	CSNK1A1	4359	bosutinib	Kinase
+372	GSTO1	P78417	GSTO1	1071	ethacrynic acid	Unclassified
+373	GSTO1	P78417	GSTO1	1990	omeprazole	Unclassified
+374	GSTO1	P78417	GSTO1	2377	rifampicin	Unclassified
+375	GSTO1	P78417	GSTO1	4483	carfilzomib	Unclassified
+376	OXSR1	O95747	OXSR1	2544	sunitinib	Kinase
+377	OXSR1	O95747	OXSR1	4190	ruxolitinib	Kinase
+378	OXSR1	O95747	OXSR1	4903	nintedanib	Kinase
+379	PRKACA	P17612	PRKACA	1132	fasudil	Kinase
+380	PRKACA	P17612	PRKACA	3533	ruboxistaurin	Kinase
+381	PRKACA	P17612	PRKACA	4938	ripasudil	Kinase	INHIBITOR
+382	PRKACA	P17612	PRKACA	5231	midostaurin	Kinase
+383	RAC1	P63000	RAC1	269	azathioprine	Enzyme
+384	AQP1	P29972	AQP1	56	acetazolamide	Transporter
+385	HSP90AA1	P07900	HSP90AA1	1129	famotidine	Cytosolic other
+386	HSP90AA1	P07900	HSP90AA1	1239	formoterol	Cytosolic other
+387	HSP90AA1	P07900	HSP90AA1	1803	midodrine	Cytosolic other
+388	HSP90AA1	P07900	HSP90AA1	2266	primaquine	Cytosolic other
+389	HSP90AA1	P07900	HSP90AA1	2600	terfenadine	Cytosolic other
+390	HSP90AA1	P07900	HSP90AA1	2832	thiamine	Cytosolic other
+391	KRAS	P01116	KRAS	4185	vemurafenib	Enzyme
+392	KRAS	P01116	KRAS	4801	dabrafenib	Enzyme
+393	KRAS	P01116	KRAS	5414	lonafarnib	Enzyme	INHIBITOR
+394	KRAS	P01116	KRAS	5461	sotorasib	Enzyme	INHIBITOR
+395	PNP	P00491	PNP	85	acyclovir	Enzyme
+396	PNP	P00491	PNP	1708	mercaptopurine	Enzyme
+397	PNP	P00491	PNP	5229	forodesine	Enzyme	INHIBITOR
+398	PPIA	P62937	PPIA	760	ciclosporin	Enzyme	MODULATOR
+399	PPIA	P62937	PPIA	4366	voclosporin	Enzyme	INHIBITOR
+400	CBR1	P16152	CBR1	3631	triclosan	Enzyme
+401	NPEPPS	P55786	NPEPPS	2787	ubenimex	Enzyme
+402	PPIB	P23284	PPIB	760	ciclosporin	Enzyme
+403	YARS1	P54577	YARS	3064	capsaicin	Enzyme
+404	DARS1	P14868	DARS	1550	aspartic acid	Enzyme
+405	FASN	P49327	FASN	578	cerulenin	Enzyme
+406	FASN	P49327	FASN	1547	lansoprazole	Enzyme
+407	FASN	P49327	FASN	1990	omeprazole	Enzyme
+408	FASN	P49327	FASN	1996	orlistat	Enzyme
+409	FASN	P49327	FASN	2054	pantoprazole	Enzyme
+410	FASN	P49327	FASN	2350	rabeprazole	Enzyme
+411	FASN	P49327	FASN	4867	dexrabeprazole	Enzyme
+412	NAPRT	Q6XQN6	NAPRT	54	acetanilide	Enzyme
+413	NAPRT	Q6XQN6	NAPRT	74	acetylsalicylic acid	Enzyme
+414	NAPRT	Q6XQN6	NAPRT	171	aminophenazone	Enzyme
+415	NAPRT	Q6XQN6	NAPRT	861	phenazone	Enzyme
+416	NAPRT	Q6XQN6	NAPRT	1193	flufenamic acid	Enzyme
+417	NAPRT	Q6XQN6	NAPRT	1440	indomethacin	Enzyme
+418	NAPRT	Q6XQN6	NAPRT	1663	mefenamic acid	Enzyme
+419	NAPRT	Q6XQN6	NAPRT	2036	oxyphenbutazone	Enzyme
+420	NAPRT	Q6XQN6	NAPRT	2145	phenylbutazone	Enzyme
+421	NAPRT	Q6XQN6	NAPRT	2416	salicylic acid	Enzyme
+422	NAPRT	Q6XQN6	NAPRT	2528	sulfinpyrazone	Enzyme
+423	NAPRT	Q6XQN6	NAPRT	4664	benzoic acid	Enzyme
+424	DNPH1	O43598	DNPH1	92	adenosine phosphate	Enzyme
+425	MAPK1	P28482	MAPK1	43	aceclofenac	Kinase
+426	MAPK1	P28482	MAPK1	318	benzbromarone	Kinase
+427	MAPK1	P28482	MAPK1	867	dicoumarol	Kinase
+428	MAPK1	P28482	MAPK1	1364	hexachlorophene	Kinase
+429	MAPK1	P28482	MAPK1	1457	diiodohydroxyquinoline	Kinase
+430	MAPK1	P28482	MAPK1	1508	isotretinoin	Kinase
+431	MAPK1	P28482	MAPK1	1650	meclofenamic acid	Kinase
+432	MAPK1	P28482	MAPK1	2459	sorafenib	Kinase
+433	MAPK1	P28482	MAPK1	2525	sulfasalazine	Kinase
+434	MAPK1	P28482	MAPK1	2722	tretinoin	Kinase
+435	MAPK1	P28482	MAPK1	2767	troglitazone	Kinase
+436	MAPK1	P28482	MAPK1	2855	zafirlukast	Kinase
+437	MAPK1	P28482	MAPK1	3032	bithionol	Kinase
+438	MAPK1	P28482	MAPK1	3219	exisulind	Kinase
+439	MAPK1	P28482	MAPK1	4673	nalfurafine	Kinase
+440	MAPK1	P28482	MAPK1	5039	tannic acid	Kinase
+441	PCMT1	P22061	PCMT1	2414	ademetionine	Enzyme
+442	ROCK2	O75116	ROCK2	1132	fasudil	Kinase	INHIBITOR
+443	ROCK2	O75116	ROCK2	2544	sunitinib	Kinase
+444	ROCK2	O75116	ROCK2	4178	vandetanib	Kinase
+445	ROCK2	O75116	ROCK2	4187	crizotinib	Kinase
+446	ROCK2	O75116	ROCK2	4190	ruxolitinib	Kinase
+447	ROCK2	O75116	ROCK2	4359	bosutinib	Kinase
+448	ROCK2	O75116	ROCK2	4713	tofacitinib	Kinase
+449	ROCK2	O75116	ROCK2	4866	ceritinib	Kinase
+450	ROCK2	O75116	ROCK2	4938	ripasudil	Kinase	INHIBITOR
+451	ROCK2	O75116	ROCK2	5231	midostaurin	Kinase
+452	ROCK2	O75116	ROCK2	5269	netarsudil	Kinase	INHIBITOR
+453	ROCK2	O75116	ROCK2	5347	fedratinib	Kinase
+454	ROCK2	O75116	ROCK2	5426	delgocitinib	Kinase	INHIBITOR
+455	MAP2K2	P36507	MAP2K2	785	dasatinib	Kinase
+456	MAP2K2	P36507	MAP2K2	2544	sunitinib	Kinase
+457	MAP2K2	P36507	MAP2K2	4178	vandetanib	Kinase
+458	MAP2K2	P36507	MAP2K2	4190	ruxolitinib	Kinase
+459	MAP2K2	P36507	MAP2K2	4225	axitinib	Kinase
+460	MAP2K2	P36507	MAP2K2	4359	bosutinib	Kinase
+461	MAP2K2	P36507	MAP2K2	4802	trametinib	Kinase	INHIBITOR
+462	MAP2K2	P36507	MAP2K2	4903	nintedanib	Kinase
+463	MAP2K2	P36507	MAP2K2	5046	cobimetinib	Kinase	ALLOSTERIC MODULATOR
+464	MAP2K2	P36507	MAP2K2	5252	neratinib	Kinase
+465	MAP2K2	P36507	MAP2K2	5290	binimetinib	Kinase	INHIBITOR
+466	MAP2K2	P36507	MAP2K2	5347	fedratinib	Kinase
+467	MAP2K2	P36507	MAP2K2	5388	selumetinib	Kinase	INHIBITOR
+468	MAP2K3	P46734	MAP2K3	2544	sunitinib	Kinase
+469	MAP2K3	P46734	MAP2K3	4187	crizotinib	Kinase
+470	MAP2K3	P46734	MAP2K3	4190	ruxolitinib	Kinase
+471	MAP2K3	P46734	MAP2K3	4359	bosutinib	Kinase
+472	MAP2K3	P46734	MAP2K3	4903	nintedanib	Kinase
+473	MAP2K3	P46734	MAP2K3	5231	midostaurin	Kinase
+474	MAP2K3	P46734	MAP2K3	5347	fedratinib	Kinase
+475	NRAS	P01111	NRAS	5414	lonafarnib	Enzyme	INHIBITOR
+476	PREP	P48147	PREP	3514	quercetin	Enzyme
+477	PREP	P48147	PREP	4055	baicalin	Enzyme
+478	DTYMK	P23919	DTYMK	2861	zidovudine	Kinase
+479	FABP5	Q01469	FABP5	3400	oleic acid	Cytosolic other
+480	GSTP1	P09211	GSTP1	701	clomipramine	Enzyme
+481	GSTP1	P09211	GSTP1	1071	ethacrynic acid	Enzyme
+482	GSTP1	P09211	GSTP1	3613	Vitamin E	Enzyme
+483	MIF	P14174	MIF	1364	hexachlorophene	Unclassified
+484	MIF	P14174	MIF	2646	levothyroxine	Unclassified
+485	MIF	P14174	MIF	4894	iguratimod	Unclassified
+486	NQO2	P16083	NQO2	160	aminoacridine	Enzyme
+487	NQO2	P16083	NQO2	429	bunazosin	Enzyme
+488	NQO2	P16083	NQO2	607	chloroquine	Enzyme
+489	NQO2	P16083	NQO2	776	dabigatran etexilate	Enzyme
+490	NQO2	P16083	NQO2	1423	imatinib	Enzyme
+491	NQO2	P16083	NQO2	1672	melatonin	Enzyme
+492	NQO2	P16083	NQO2	1932	nilotinib	Enzyme
+493	NQO2	P16083	NQO2	2266	primaquine	Enzyme
+494	NQO2	P16083	NQO2	3584	terazosin	Enzyme
+495	NQO2	P16083	NQO2	4209	prazosin	Enzyme
+496	PTPN11	Q06124	PTPN11	558	cefsulodin	Enzyme
+497	PTPN11	Q06124	PTPN11	1066	estramustine phosphate	Enzyme
+498	PTPN11	Q06124	PTPN11	3178	enoxolone	Enzyme
+499	ACHE	P22303	ACHE	30	methoxsalen	Enzyme
+500	ACHE	P22303	ACHE	115	alfuzosin	Enzyme
+501	ACHE	P22303	ACHE	146	ambenonium	Enzyme	INHIBITOR
+502	ACHE	P22303	ACHE	285	bambuterol	Enzyme
+503	ACHE	P22303	ACHE	406	bromopride	Enzyme
+504	ACHE	P22303	ACHE	444	butenafine	Enzyme
+505	ACHE	P22303	ACHE	463	caffeine	Enzyme
+506	ACHE	P22303	ACHE	670	clebopride	Enzyme
+507	ACHE	P22303	ACHE	719	clotrimazole	Enzyme
+508	ACHE	P22303	ACHE	789	decamethonium	Enzyme
+509	ACHE	P22303	ACHE	801	demecarium	Enzyme	INHIBITOR
+510	ACHE	P22303	ACHE	875	diethylstilbestrol	Enzyme
+511	ACHE	P22303	ACHE	927	distigmine	Enzyme	INHIBITOR
+512	ACHE	P22303	ACHE	946	donepezil	Enzyme	INHIBITOR
+513	ACHE	P22303	ACHE	974	dyclonine	Enzyme
+514	ACHE	P22303	ACHE	977	ebastine	Enzyme
+515	ACHE	P22303	ACHE	982	echothiophate	Enzyme	INHIBITOR
+516	ACHE	P22303	ACHE	983	econazole	Enzyme
+517	ACHE	P22303	ACHE	988	edrophonium	Enzyme	INHIBITOR
+518	ACHE	P22303	ACHE	1086	profenamine	Enzyme
+519	ACHE	P22303	ACHE	1094	ethylestrenol	Enzyme
+520	ACHE	P22303	ACHE	1152	fenofibrate	Enzyme
+521	ACHE	P22303	ACHE	1209	fluoxetine	Enzyme
+522	ACHE	P22303	ACHE	1272	galantamine	Enzyme	INHIBITOR
+523	ACHE	P22303	ACHE	1273	gallamine	Enzyme
+524	ACHE	P22303	ACHE	1364	hexachlorophene	Enzyme
+525	ACHE	P22303	ACHE	1365	hexafluronium	Enzyme	INHIBITOR
+526	ACHE	P22303	ACHE	1482	irinotecan	Enzyme
+527	ACHE	P22303	ACHE	1494	fluostigmine	Enzyme	INHIBITOR
+528	ACHE	P22303	ACHE	1723	metergoline	Enzyme
+529	ACHE	P22303	ACHE	1800	miconazole	Enzyme
+530	ACHE	P22303	ACHE	1812	minaprine	Enzyme
+531	ACHE	P22303	ACHE	1890	nefazodone	Enzyme
+532	ACHE	P22303	ACHE	1897	neostigmine	Enzyme	INHIBITOR
+533	ACHE	P22303	ACHE	1955	nizatidine	Enzyme
+534	ACHE	P22303	ACHE	2056	papaverine	Enzyme
+535	ACHE	P22303	ACHE	2099	pentoxifylline	Enzyme
+536	ACHE	P22303	ACHE	2159	physostigmine	Enzyme	INHIBITOR
+537	ACHE	P22303	ACHE	2231	pralidoxime	Enzyme	ACTIVATOR
+538	ACHE	P22303	ACHE	2270	procainamide	Enzyme
+539	ACHE	P22303	ACHE	2296	propentofylline	Enzyme
+540	ACHE	P22303	ACHE	2330	pyridostigmine	Enzyme	INHIBITOR
+541	ACHE	P22303	ACHE	2338	mepacrine	Enzyme
+542	ACHE	P22303	ACHE	2351	raloxifene	Enzyme
+543	ACHE	P22303	ACHE	2358	ranitidine	Enzyme
+544	ACHE	P22303	ACHE	2392	rivastigmine	Enzyme	INHIBITOR
+545	ACHE	P22303	ACHE	2544	sunitinib	Enzyme
+546	ACHE	P22303	ACHE	2551	tacrine	Enzyme	INHIBITOR
+547	ACHE	P22303	ACHE	2599	terconazole	Enzyme
+548	ACHE	P22303	ACHE	3018	benzethonium	Enzyme
+549	ACHE	P22303	ACHE	3186	eseridine	Enzyme
+550	ACHE	P22303	ACHE	3408	oxiconazole	Enzyme
+551	ACHE	P22303	ACHE	3514	quercetin	Enzyme
+552	ACHE	P22303	ACHE	3521	rasagiline	Enzyme
+553	ACHE	P22303	ACHE	3535	rutoside	Enzyme
+554	ACHE	P22303	ACHE	3848	velnacrine	Enzyme
+555	ACHE	P22303	ACHE	4118	pazopanib	Enzyme
+556	ACHE	P22303	ACHE	4138	gentian violet	Enzyme
+557	ACHE	P22303	ACHE	4150	rimonabant	Enzyme
+558	ACHE	P22303	ACHE	4676	obidoxime	Enzyme
+559	ACHE	P22303	ACHE	4683	paraoxon	Enzyme
+560	ACHE	P22303	ACHE	4732	thioctic acid	Enzyme
+561	ACHE	P22303	ACHE	4808	ipidacrine	Enzyme
+562	ACHE	P22303	ACHE	4908	acotiamide	Enzyme	INHIBITOR
+563	AKR1C3	P42330	AKR1C3	371	bimatoprost	Enzyme
+564	AKR1C3	P42330	AKR1C3	721	cloxazolam	Enzyme
+565	AKR1C3	P42330	AKR1C3	852	diazepam	Enzyme
+566	AKR1C3	P42330	AKR1C3	865	diclofenac	Enzyme
+567	AKR1C3	P42330	AKR1C3	1193	flufenamic acid	Enzyme
+568	AKR1C3	P42330	AKR1C3	1219	flurbiprofen	Enzyme
+569	AKR1C3	P42330	AKR1C3	1407	ibuprofen	Enzyme
+570	AKR1C3	P42330	AKR1C3	1440	indomethacin	Enzyme
+571	AKR1C3	P42330	AKR1C3	1650	meclofenamic acid	Enzyme
+572	AKR1C3	P42330	AKR1C3	1659	medroxyprogesterone	Enzyme
+573	AKR1C3	P42330	AKR1C3	1663	mefenamic acid	Enzyme
+574	AKR1C3	P42330	AKR1C3	1795	mezlocillin	Enzyme
+575	AKR1C3	P42330	AKR1C3	1883	naproxen	Enzyme
+576	AKR1C3	P42330	AKR1C3	2698	tolfenamic acid	Enzyme
+577	AKR1C3	P42330	AKR1C3	3851	dexibuprofen	Enzyme
+578	FDPS	P14324	FDPS	112	alendronic acid	Enzyme	INHIBITOR
+579	FDPS	P14324	FDPS	1404	ibandronic acid	Enzyme	INHIBITOR
+580	FDPS	P14324	FDPS	1431	incadronic acid	Enzyme	INHIBITOR
+581	FDPS	P14324	FDPS	2048	pamidronic acid	Enzyme	INHIBITOR
+582	FDPS	P14324	FDPS	2387	risedronic acid	Enzyme	INHIBITOR
+583	FDPS	P14324	FDPS	2868	zoledronic acid	Enzyme	INHIBITOR
+584	FDPS	P14324	FDPS	3377	neridronic acid	Enzyme
+585	FDPS	P14324	FDPS	4074	minodronic acid	Enzyme
+586	FDPS	P14324	FDPS	4630	sodium pyrophosphate	Enzyme
+587	FKBP1A	P62942	FKBP1A	760	ciclosporin	Enzyme
+588	FKBP1A	P62942	FKBP1A	1118	everolimus	Enzyme	INHIBITOR
+589	FKBP1A	P62942	FKBP1A	2168	pimecrolimus	Enzyme	INHIBITOR
+590	FKBP1A	P62942	FKBP1A	2446	sirolimus	Enzyme	INHIBITOR
+591	FKBP1A	P62942	FKBP1A	2552	tacrolimus	Enzyme	INHIBITOR
+592	FKBP1A	P62942	FKBP1A	2621	thiabendazole	Enzyme
+593	FKBP1A	P62942	FKBP1A	2949	zotarolimus	Enzyme	INHIBITOR
+594	FKBP1A	P62942	FKBP1A	4161	temsirolimus	Enzyme	INHIBITOR
+595	LAP3	P28838	LAP3	2787	ubenimex	Enzyme
+596	TXNRD1	Q16881	TXNRD1	244	arsenic trioxide	Enzyme	INHIBITOR
+597	TXNRD1	Q16881	TXNRD1	1763	methylthioninium chloride	Enzyme
+598	TXNRD1	Q16881	TXNRD1	4122	auranofin	Enzyme
+599	TXNRD1	Q16881	TXNRD1	4349	aurothioglucose	Enzyme
+600	TXNRD1	Q16881	TXNRD1	4706	sodium aurothiomalate	Enzyme
+601	ABCC1	P33527	ABCC1	219	anhydrovinblastine	Transporter
+602	ABCC1	P33527	ABCC1	318	benzbromarone	Transporter
+603	ABCC1	P33527	ABCC1	726	colchicine	Transporter
+604	ABCC1	P33527	ABCC1	760	ciclosporin	Transporter
+605	ABCC1	P33527	ABCC1	786	daunorubicin	Transporter
+606	ABCC1	P33527	ABCC1	960	doxorubicin	Transporter
+607	ABCC1	P33527	ABCC1	1112	etoposide	Transporter
+608	ABCC1	P33527	ABCC1	1115	etravirine	Transporter
+609	ABCC1	P33527	ABCC1	1414	idarubicin	Transporter
+610	ABCC1	P33527	ABCC1	1423	imatinib	Transporter
+611	ABCC1	P33527	ABCC1	1440	indomethacin	Transporter
+612	ABCC1	P33527	ABCC1	1482	irinotecan	Transporter
+613	ABCC1	P33527	ABCC1	1751	methotrexate	Transporter
+614	ABCC1	P33527	ABCC1	1795	mezlocillin	Transporter
+615	ABCC1	P33527	ABCC1	1821	mitoxantrone	Transporter
+616	ABCC1	P33527	ABCC1	2172	pimozide	Transporter
+617	ABCC1	P33527	ABCC1	2422	saquinavir	Transporter
+618	ABCC1	P33527	ABCC1	2528	sulfinpyrazone	Transporter
+619	ABCC1	P33527	ABCC1	2815	verapamil	Transporter
+620	ABCC1	P33527	ABCC1	2823	vinblastine	Transporter
+621	ABCC1	P33527	ABCC1	2825	vincristine	Transporter
+622	ABCC1	P33527	ABCC1	3514	quercetin	Transporter
+623	ABCC1	P33527	ABCC1	4601	diosmetin	Transporter
+624	ABCC1	P33527	ABCC1	4719	daunorubicinol	Transporter
+625	KCNN4	O15554	KCNN4	6	(S)-nitrendipine	Ion channel	BLOCKER
+626	KCNN4	O15554	KCNN4	626	chlorzoxazone	Ion channel	ACTIVATOR
+627	KCNN4	O15554	KCNN4	719	clotrimazole	Ion channel
+628	KCNN4	O15554	KCNN4	1947	nitrendipine	Ion channel	BLOCKER
+629	KCNN4	O15554	KCNN4	2382	riluzole	Ion channel	ACTIVATOR
+630	NAMPT	P43490	NAMPT	854	diazoxide	Enzyme
+631	NAMPT	P43490	NAMPT	2835	nicotinic acid	Enzyme
+632	NAMPT	P43490	NAMPT	4973	chidamide	Enzyme
+633	NAMPT	P43490	NAMPT	4973	chidamide	Cytokine
+634	ABCC5	O15440	ABCC5	26	fluorouracil	Transporter
+635	ABCC5	O15440	ABCC5	269	azathioprine	Transporter
+636	ABCC5	O15440	ABCC5	1708	mercaptopurine	Transporter
+637	ABCC5	O15440	ABCC5	1751	methotrexate	Transporter
+638	ABCC5	O15440	ABCC5	2441	sildenafil	Transporter
+639	ABCC5	O15440	ABCC5	2632	thioguanine	Transporter
+640	ABCC5	O15440	ABCC5	4392	cisplatin	Transporter
+641	EPHX1	P07099	EPHX1	3630	triclocarban	Enzyme
+642	PAK2	Q13177	PAK2	4359	bosutinib	Kinase
+643	PAK2	Q13177	PAK2	4903	nintedanib	Kinase
+644	PAK2	Q13177	PAK2	5231	midostaurin	Kinase
+645	PAK2	Q13177	PAK2	5252	neratinib	Kinase
+646	PAK2	Q13177	PAK2	5347	fedratinib	Kinase
+647	ABHD16A	O95870	ABHD16A	1996	orlistat	Enzyme
+648	CSNK2A1	P68400	CSNK2A1	2544	sunitinib	Kinase
+649	CSNK2A1	P68400	CSNK2A1	3514	quercetin	Kinase
+650	CSNK2A1	P68400	CSNK2A1	3533	ruboxistaurin	Kinase
+651	CSNK2A1	P68400	CSNK2A1	4190	ruxolitinib	Kinase
+652	CSNK2A1	P68400	CSNK2A1	4903	nintedanib	Kinase
+653	CSNK2A1	P68400	CSNK2A1	5231	midostaurin	Kinase
+654	CSNK2A1	P68400	CSNK2A1	5347	fedratinib	Kinase
+655	CSNK2A2	P19784	CSNK2A2	2544	sunitinib	Kinase
+656	CSNK2A2	P19784	CSNK2A2	3533	ruboxistaurin	Kinase
+657	CSNK2A2	P19784	CSNK2A2	4190	ruxolitinib	Kinase
+658	CSNK2A2	P19784	CSNK2A2	4225	axitinib	Kinase
+659	CSNK2A2	P19784	CSNK2A2	4903	nintedanib	Kinase
+660	CSNK2A2	P19784	CSNK2A2	5347	fedratinib	Kinase
+661	GART	P22102	GART	2073	pemetrexed	Enzyme	INHIBITOR
+662	MAP2K1	Q02750	MAP2K1	785	dasatinib	Kinase
+663	MAP2K1	Q02750	MAP2K1	2544	sunitinib	Kinase
+664	MAP2K1	Q02750	MAP2K1	4178	vandetanib	Kinase
+665	MAP2K1	Q02750	MAP2K1	4190	ruxolitinib	Kinase
+666	MAP2K1	Q02750	MAP2K1	4225	axitinib	Kinase
+667	MAP2K1	Q02750	MAP2K1	4359	bosutinib	Kinase
+668	MAP2K1	Q02750	MAP2K1	4802	trametinib	Kinase	INHIBITOR
+669	MAP2K1	Q02750	MAP2K1	4903	nintedanib	Kinase
+670	MAP2K1	Q02750	MAP2K1	5046	cobimetinib	Kinase	INHIBITOR
+671	MAP2K1	Q02750	MAP2K1	5252	neratinib	Kinase
+672	MAP2K1	Q02750	MAP2K1	5290	binimetinib	Kinase	INHIBITOR
+673	MAP2K1	Q02750	MAP2K1	5347	fedratinib	Kinase
+674	MAP2K1	Q02750	MAP2K1	5388	selumetinib	Kinase	INHIBITOR
+675	RPS6KA3	P51812	RPS6KA3	2544	sunitinib	Kinase
+676	RPS6KA3	P51812	RPS6KA3	3533	ruboxistaurin	Kinase
+677	RPS6KA3	P51812	RPS6KA3	4359	bosutinib	Kinase
+678	RPS6KA3	P51812	RPS6KA3	4903	nintedanib	Kinase
+679	RPS6KA3	P51812	RPS6KA3	5231	midostaurin	Kinase
+680	RPS6KA3	P51812	RPS6KA3	5347	fedratinib	Kinase
+681	SHMT1	P34896	SHMT1	1811	mimosine	Enzyme
+682	SHMT1	P34896	SHMT1	2073	pemetrexed	Enzyme
+683	SHMT1	P34896	SHMT1	2836	pyridoxine	Enzyme
+684	KARS1	Q15046	KARS	1423	imatinib	Enzyme
+685	KARS1	Q15046	KARS	3514	quercetin	Enzyme
+686	PRKACB	P22694	PRKACB	3533	ruboxistaurin	Kinase
+687	PRKACB	P22694	PRKACB	5231	midostaurin	Kinase
+688	PRUNE1	Q86TP1	PRUNE	924	dipyridamole	Enzyme
+689	EBP	Q15125	EBP	176	amiodarone	Enzyme
+690	EBP	Q15125	EBP	422	buflomedil	Enzyme
+691	EBP	Q15125	EBP	700	clomifene	Enzyme
+692	EBP	Q15125	EBP	1353	haloperidol	Enzyme
+693	EBP	Q15125	EBP	1872	naftifine	Enzyme
+694	EBP	Q15125	EBP	1993	opipramol	Enzyme
+695	EBP	Q15125	EBP	2351	raloxifene	Enzyme
+696	EBP	Q15125	EBP	2561	tamoxifen	Enzyme
+697	EBP	Q15125	EBP	2740	trifluoperazine	Enzyme
+698	EBP	Q15125	EBP	2741	trifluperidol	Enzyme
+699	EBP	Q15125	EBP	2761	triparanol	Enzyme
+700	GSK3A	P49840	GSK3A	4903	nintedanib	Kinase
+701	GSK3A	P49840	GSK3A	5231	midostaurin	Kinase
+702	LYN	P07948	LYN	785	dasatinib	Kinase	INHIBITOR
+703	LYN	P07948	LYN	1045	erlotinib	Kinase
+704	LYN	P07948	LYN	1282	gefitinib	Kinase
+705	LYN	P07948	LYN	1423	imatinib	Kinase
+706	LYN	P07948	LYN	1912	niclosamide	Kinase
+707	LYN	P07948	LYN	1932	nilotinib	Kinase
+708	LYN	P07948	LYN	2459	sorafenib	Kinase
+709	LYN	P07948	LYN	2544	sunitinib	Kinase
+710	LYN	P07948	LYN	4118	pazopanib	Kinase
+711	LYN	P07948	LYN	4178	vandetanib	Kinase
+712	LYN	P07948	LYN	4187	crizotinib	Kinase
+713	LYN	P07948	LYN	4359	bosutinib	Kinase	INHIBITOR
+714	LYN	P07948	LYN	4716	ponatinib	Kinase	INHIBITOR
+715	LYN	P07948	LYN	4810	ibrutinib	Kinase
+716	LYN	P07948	LYN	4866	ceritinib	Kinase
+717	LYN	P07948	LYN	4903	nintedanib	Kinase
+718	LYN	P07948	LYN	5231	midostaurin	Kinase
+719	LYN	P07948	LYN	5252	neratinib	Kinase
+720	LYN	P07948	LYN	5260	acalabrutinib	Kinase	INHIBITOR
+721	LYN	P07948	LYN	5341	quizartinib	Kinase
+722	LYN	P07948	LYN	5347	fedratinib	Kinase
+723	LYN	P07948	LYN	5431	tirbanibulin	Kinase
+724	LYN	P07948	LYN	5459	infigratinib	Kinase
+725	PSAT1	Q9Y617	PSAT1	2836	pyridoxine	Enzyme
+726	SLC25A5	P05141	SLC25A5	690	clodronic acid	Enzyme
+727	CD38	P28907	CD38	3514	quercetin	Tumour-associated antigen
+728	CD38	P28907	CD38	5063	daratumumab	Tumour-associated antigen	ANTIBODY BINDING
+729	CD38	P28907	CD38	5385	isatuximab	Tumour-associated antigen	BINDING AGENT
+730	CSNK1G3	Q9Y6M4	CSNK1G3	2544	sunitinib	Kinase
+731	CSNK1G3	Q9Y6M4	CSNK1G3	5252	neratinib	Kinase
+732	GOT2	P00505	GOT2	1550	aspartic acid	Enzyme
+733	PLD1	Q13393	PLD1	2351	raloxifene	Enzyme
+734	PRKAA1	Q13131	PRKAA1	2544	sunitinib	Kinase
+735	PRKAA1	Q13131	PRKAA1	4178	vandetanib	Kinase
+736	PRKAA1	Q13131	PRKAA1	4187	crizotinib	Kinase
+737	PRKAA1	Q13131	PRKAA1	4359	bosutinib	Kinase
+738	PRKAA1	Q13131	PRKAA1	4903	nintedanib	Kinase
+739	PRKAA1	Q13131	PRKAA1	5231	midostaurin	Kinase
+740	PRKAA1	Q13131	PRKAA1	5347	fedratinib	Kinase
+741	PRKAA1	Q13131	PRKAA1	5375	cepharanthine	Kinase	INHIBITOR
+742	SIRT2	Q8IXJ6	SIRT2	1906	nicotinamide	Enzyme
+743	SIRT2	Q8IXJ6	SIRT2	2966	suramin	Enzyme
+744	SLC19A1	P41440	SLC19A1	1751	methotrexate	Transporter
+745	SLC19A1	P41440	SLC19A1	2073	pemetrexed	Transporter
+746	SLC19A1	P41440	SLC19A1	2353	raltitrexed	Transporter
+747	SLC19A1	P41440	SLC19A1	4117	pralatrexate	Transporter
+748	STK11	Q15831	STK11	2544	sunitinib	Kinase
+749	STK11	Q15831	STK11	3533	ruboxistaurin	Kinase
+750	STK11	Q15831	STK11	4903	nintedanib	Kinase
+751	STK11	Q15831	STK11	5231	midostaurin	Kinase
+752	STK11	Q15831	STK11	5347	fedratinib	Kinase
+753	SYK	P43405	SYK	785	dasatinib	Kinase
+754	SYK	P43405	SYK	1423	imatinib	Kinase
+755	SYK	P43405	SYK	3514	quercetin	Kinase
+756	SYK	P43405	SYK	4118	pazopanib	Kinase
+757	SYK	P43405	SYK	4187	crizotinib	Kinase
+758	SYK	P43405	SYK	4359	bosutinib	Kinase
+759	SYK	P43405	SYK	4866	ceritinib	Kinase
+760	SYK	P43405	SYK	5231	midostaurin	Kinase
+761	SYK	P43405	SYK	5252	neratinib	Kinase
+762	SYK	P43405	SYK	5280	fostamatinib	Kinase	INHIBITOR
+763	SYK	P43405	SYK	5347	fedratinib	Kinase
+764	SYK	P43405	SYK	5459	infigratinib	Kinase
+765	AGL	P35573	AGL	1807	miglustat	Enzyme
+766	AGL	P35573	AGL	5110	migalastat	Enzyme
+767	CSNK1G1	Q9HCP0	CSNK1G1	2544	sunitinib	Kinase
+768	DAGLB	Q8NCG7	DAGLB	1996	orlistat	Enzyme
+769	NAPEPLD	Q6IQ20	NAPEPLD	1364	hexachlorophene	Unclassified	INHIBITOR
+770	NAPEPLD	Q6IQ20	NAPEPLD	3032	bithionol	Unclassified	INHIBITOR
+771	PTPN1	P18031	PTPN1	318	benzbromarone	Enzyme
+772	PTPN1	P18031	PTPN1	690	clodronic acid	Enzyme
+773	PTPN1	P18031	PTPN1	1066	estramustine phosphate	Enzyme
+774	PTPN1	P18031	PTPN1	2050	aminosalicylic acid	Enzyme
+775	PTPN1	P18031	PTPN1	2666	tiludronic acid	Enzyme
+776	PTPN1	P18031	PTPN1	2767	troglitazone	Enzyme
+777	PTPN1	P18031	PTPN1	3178	enoxolone	Enzyme
+778	PTPN1	P18031	PTPN1	3217	evans blue	Enzyme
+779	PTPN1	P18031	PTPN1	3514	quercetin	Enzyme
+780	PTPN1	P18031	PTPN1	4608	trypan blue	Enzyme
+781	SLC25A6	P12236	SLC25A6	690	clodronic acid	Enzyme
+782	MAPK3	P27361	MAPK3	511	carmofur	Kinase
+783	MAPK3	P27361	MAPK3	928	disulfiram	Kinase
+784	MAPK3	P27361	MAPK3	1364	hexachlorophene	Kinase
+785	MAPK3	P27361	MAPK3	1457	diiodohydroxyquinoline	Kinase
+786	MAPK3	P27361	MAPK3	1893	nelfinavir	Kinase
+787	MAPK3	P27361	MAPK3	2459	sorafenib	Kinase
+788	MAPK3	P27361	MAPK3	2632	thioguanine	Kinase
+789	MAPK3	P27361	MAPK3	2855	zafirlukast	Kinase
+790	MAPK3	P27361	MAPK3	4063	tirilazad	Kinase
+791	MAPK3	P27361	MAPK3	4189	hydroxyprogesterone caproate	Kinase
+792	MAPK3	P27361	MAPK3	4392	cisplatin	Kinase
+793	MAPK3	P27361	MAPK3	4673	nalfurafine	Kinase
+794	MAPK3	P27361	MAPK3	4733	thiomersal	Kinase
+795	MAPK3	P27361	MAPK3	5039	tannic acid	Kinase
+796	TRPV2	Q9Y5S1	TRPV2	5288	cannabidiol	Ion channel	ACTIVATOR
+797	ANPEP	P15144	ANPEP	2787	ubenimex	Enzyme
+798	INSR	P06213	INSR	1423	imatinib	Kinase	AGONIST
+799	INSR	P06213	INSR	1548	lapatinib	Kinase	AGONIST
+800	INSR	P06213	INSR	1932	nilotinib	Kinase
+801	INSR	P06213	INSR	2459	sorafenib	Kinase	AGONIST
+802	INSR	P06213	INSR	2544	sunitinib	Kinase	AGONIST
+803	INSR	P06213	INSR	4187	crizotinib	Kinase	AGONIST
+804	INSR	P06213	INSR	4866	ceritinib	Kinase	AGONIST
+805	INSR	P06213	INSR	4901	insulin glargine	Kinase	AGONIST
+806	INSR	P06213	INSR	4903	nintedanib	Kinase	AGONIST
+807	INSR	P06213	INSR	4960	insulin degludec	Kinase	AGONIST
+808	INSR	P06213	INSR	4981	insulin aspart	Kinase	AGONIST
+809	INSR	P06213	INSR	4985	insulin detemir	Kinase	AGONIST
+810	INSR	P06213	INSR	5002	insulin lispro	Kinase	AGONIST
+811	INSR	P06213	INSR	5003	insulin human	Kinase	AGONIST
+812	INSR	P06213	INSR	5009	mecasermin	Kinase
+813	INSR	P06213	INSR	5057	insulin glulisine	Kinase	AGONIST
+814	INSR	P06213	INSR	5062	osimertinib	Kinase
+815	INSR	P06213	INSR	5233	brigatinib	Kinase	INHIBITOR
+816	INSR	P06213	INSR	5252	neratinib	Kinase
+817	INSR	P06213	INSR	5345	entrectinib	Kinase
+818	INSR	P06213	INSR	5347	fedratinib	Kinase
+819	INSR	P06213	INSR	5459	infigratinib	Kinase
+820	PRKAB1	Q9Y478	PRKAB1	1725	metformin	Kinase
+821	PRKAB1	Q9Y478	PRKAB1	2126	phenformin	Kinase
+822	PRMT1	Q99873	PRMT1	1207	fluorescein	Enzyme
+823	PRMT1	Q99873	PRMT1	2090	pentamidine	Enzyme
+824	PRMT1	Q99873	PRMT1	2414	ademetionine	Enzyme
+825	PRMT1	Q99873	PRMT1	2966	suramin	Enzyme
+826	PRMT1	Q99873	PRMT1	3275	hexamidine	Enzyme
+827	PRMT1	Q99873	PRMT1	4466	eosin	Enzyme
+828	PTPN6	P29350	PTPN6	558	cefsulodin	Enzyme
+829	PTPN6	P29350	PTPN6	1066	estramustine phosphate	Enzyme
+830	PTPN6	P29350	PTPN6	3178	enoxolone	Enzyme
+831	ABCB1	P08183	ABCB1	82	acrivastine	Transporter
+832	ABCB1	P08183	ABCB1	114	alfentanil	Transporter
+833	ABCB1	P08183	ABCB1	119	aliskiren	Transporter
+834	ABCB1	P08183	ABCB1	176	amiodarone	Transporter
+835	ABCB1	P08183	ABCB1	191	amoxapine	Transporter
+836	ABCB1	P08183	ABCB1	219	anhydrovinblastine	Transporter
+837	ABCB1	P08183	ABCB1	242	aripiprazole	Transporter
+838	ABCB1	P08183	ABCB1	249	astemizole	Transporter
+839	ABCB1	P08183	ABCB1	254	atazanavir	Transporter
+840	ABCB1	P08183	ABCB1	271	azelastine	Transporter
+841	ABCB1	P08183	ABCB1	276	azithromycin	Transporter
+842	ABCB1	P08183	ABCB1	419	budesonide	Transporter
+843	ABCB1	P08183	ABCB1	424	bufuralol	Transporter
+844	ABCB1	P08183	ABCB1	621	chlorpromazine	Transporter
+845	ABCB1	P08183	ABCB1	719	clotrimazole	Transporter
+846	ABCB1	P08183	ABCB1	726	colchicine	Transporter
+847	ABCB1	P08183	ABCB1	751	cyclobenzaprine	Transporter
+848	ABCB1	P08183	ABCB1	760	ciclosporin	Transporter
+849	ABCB1	P08183	ABCB1	765	cyproheptadine	Transporter
+850	ABCB1	P08183	ABCB1	786	daunorubicin	Transporter
+851	ABCB1	P08183	ABCB1	814	desloratadine	Transporter
+852	ABCB1	P08183	ABCB1	837	dexniguldipine	Transporter
+853	ABCB1	P08183	ABCB1	897	diltiazem	Transporter
+854	ABCB1	P08183	ABCB1	939	docetaxel	Transporter
+855	ABCB1	P08183	ABCB1	945	domperidone	Transporter
+856	ABCB1	P08183	ABCB1	946	donepezil	Transporter
+857	ABCB1	P08183	ABCB1	954	doxazosin	Transporter
+858	ABCB1	P08183	ABCB1	960	doxorubicin	Transporter
+859	ABCB1	P08183	ABCB1	977	ebastine	Transporter
+860	ABCB1	P08183	ABCB1	1027	epinastine	Transporter
+861	ABCB1	P08183	ABCB1	1112	etoposide	Transporter
+862	ABCB1	P08183	ABCB1	1115	etravirine	Transporter
+863	ABCB1	P08183	ABCB1	1118	everolimus	Transporter
+864	ABCB1	P08183	ABCB1	1170	fexofenadine	Transporter
+865	ABCB1	P08183	ABCB1	1353	haloperidol	Transporter
+866	ABCB1	P08183	ABCB1	1414	idarubicin	Transporter
+867	ABCB1	P08183	ABCB1	1423	imatinib	Transporter
+868	ABCB1	P08183	ABCB1	1440	indomethacin	Transporter
+869	ABCB1	P08183	ABCB1	1482	irinotecan	Transporter
+870	ABCB1	P08183	ABCB1	1527	ketoconazole	Transporter
+871	ABCB1	P08183	ABCB1	1530	ketotifen	Transporter
+872	ABCB1	P08183	ABCB1	1548	lapatinib	Transporter
+873	ABCB1	P08183	ABCB1	1564	levocabastine	Transporter
+874	ABCB1	P08183	ABCB1	1601	lopinavir	Transporter
+875	ABCB1	P08183	ABCB1	1605	loratadine	Transporter
+876	ABCB1	P08183	ABCB1	1610	losartan	Transporter
+877	ABCB1	P08183	ABCB1	1665	mefloquine	Transporter
+878	ABCB1	P08183	ABCB1	1667	megestrol acetate	Transporter
+879	ABCB1	P08183	ABCB1	1704	meprobamate	Transporter
+880	ABCB1	P08183	ABCB1	1751	methotrexate	Transporter
+881	ABCB1	P08183	ABCB1	1797	mibefradil	Transporter
+882	ABCB1	P08183	ABCB1	1802	midazolam	Transporter
+883	ABCB1	P08183	ABCB1	1821	mitoxantrone	Transporter
+884	ABCB1	P08183	ABCB1	1832	mometasone furoate	Transporter
+885	ABCB1	P08183	ABCB1	1893	nelfinavir	Transporter
+886	ABCB1	P08183	ABCB1	1909	nicardipine	Transporter
+887	ABCB1	P08183	ABCB1	1990	omeprazole	Transporter
+888	ABCB1	P08183	ABCB1	2044	paclitaxel	Transporter
+889	ABCB1	P08183	ABCB1	2172	pimozide	Transporter
+890	ABCB1	P08183	ABCB1	2279	progesterone	Transporter
+891	ABCB1	P08183	ABCB1	2291	propafenone	Transporter
+892	ABCB1	P08183	ABCB1	2303	propranolol	Transporter
+893	ABCB1	P08183	ABCB1	2346	quinidine	Transporter
+894	ABCB1	P08183	ABCB1	2359	ranolazine	Transporter
+895	ABCB1	P08183	ABCB1	2370	reserpine	Transporter
+896	ABCB1	P08183	ABCB1	2391	ritonavir	Transporter
+897	ABCB1	P08183	ABCB1	2422	saquinavir	Transporter
+898	ABCB1	P08183	ABCB1	2435	sertindole	Transporter
+899	ABCB1	P08183	ABCB1	2446	sirolimus	Transporter
+900	ABCB1	P08183	ABCB1	2557	talinolol	Transporter
+901	ABCB1	P08183	ABCB1	2561	tamoxifen	Transporter
+902	ABCB1	P08183	ABCB1	2590	teniposide	Transporter
+903	ABCB1	P08183	ABCB1	2600	terfenadine	Transporter
+904	ABCB1	P08183	ABCB1	2707	topotecan	Transporter
+905	ABCB1	P08183	ABCB1	2740	trifluoperazine	Transporter
+906	ABCB1	P08183	ABCB1	2742	triflupromazine	Transporter
+907	ABCB1	P08183	ABCB1	2815	verapamil	Transporter
+908	ABCB1	P08183	ABCB1	2823	vinblastine	Transporter
+909	ABCB1	P08183	ABCB1	2825	vincristine	Transporter
+910	ABCB1	P08183	ABCB1	2870	zolpidem	Transporter
+911	ABCB1	P08183	ABCB1	3514	quercetin	Transporter
+912	ABCB1	P08183	ABCB1	3609	tipranavir	Transporter
+913	ABCB1	P08183	ABCB1	3972	ivermectin	Transporter
+914	ABCB1	P08183	ABCB1	4114	saxagliptin	Transporter
+915	ABCB1	P08183	ABCB1	4141	udenafil	Transporter
+916	ABCB1	P08183	ABCB1	4143	darunavir	Transporter
+917	ABCB1	P08183	ABCB1	4151	silodosin	Transporter
+918	ABCB1	P08183	ABCB1	4161	temsirolimus	Transporter
+919	ABCB1	P08183	ABCB1	4523	quinine	Transporter
+920	ABCB1	P08183	ABCB1	4719	daunorubicinol	Transporter
+921	ABCB1	P08183	ABCB1	4802	trametinib	Transporter
+922	ABCB1	P08183	ABCB1	4866	ceritinib	Transporter
+923	ABCB1	P08183	ABCB1	4903	nintedanib	Transporter
+924	ABCC10	Q5T3U5	ABCC10	219	anhydrovinblastine	Transporter
+925	ABCC10	Q5T3U5	ABCC10	939	docetaxel	Transporter
+926	ABCC10	Q5T3U5	ABCC10	2044	paclitaxel	Transporter
+927	ABCC10	Q5T3U5	ABCC10	2823	vinblastine	Transporter
+928	ABCC10	Q5T3U5	ABCC10	2825	vincristine	Transporter
+929	DAGLA	Q9Y4D2	DAGLA	1996	orlistat	Enzyme
+930	DHFR	P00374	DHFR	21	aminopterin	Enzyme	INHIBITOR
+931	DHFR	P00374	DHFR	754	cycloguanil	Enzyme
+932	DHFR	P00374	DHFR	880	diflunisal	Enzyme	INHIBITOR
+933	DHFR	P00374	DHFR	986	edatrexate	Enzyme	INHIBITOR
+934	DHFR	P00374	DHFR	1232	leucovorin	Enzyme
+935	DHFR	P00374	DHFR	1751	methotrexate	Enzyme	INHIBITOR
+936	DHFR	P00374	DHFR	2073	pemetrexed	Enzyme	INHIBITOR
+937	DHFR	P00374	DHFR	2332	pyrimethamine	Enzyme
+938	DHFR	P00374	DHFR	2353	raltitrexed	Enzyme
+939	DHFR	P00374	DHFR	2497	sulfacetamide	Enzyme
+940	DHFR	P00374	DHFR	2755	trimethoprim	Enzyme
+941	DHFR	P00374	DHFR	2757	trimetrexate	Enzyme
+942	DHFR	P00374	DHFR	4117	pralatrexate	Enzyme	INHIBITOR
+943	DHFR	P00374	DHFR	4265	gentamicin	Enzyme
+944	DHFR	P00374	DHFR	4573	iclaprim	Enzyme
+945	DHFR	P00374	DHFR	4634	teriflunomide	Enzyme
+946	FABP1	P07148	FABP1	3400	oleic acid	Unclassified
+947	FYN	P06241	FYN	176	amiodarone	Kinase
+948	FYN	P06241	FYN	249	astemizole	Kinase
+949	FYN	P06241	FYN	496	carbidopa	Kinase
+950	FYN	P06241	FYN	621	chlorpromazine	Kinase
+951	FYN	P06241	FYN	700	clomifene	Kinase
+952	FYN	P06241	FYN	719	clotrimazole	Kinase
+953	FYN	P06241	FYN	785	dasatinib	Kinase	INHIBITOR
+954	FYN	P06241	FYN	875	diethylstilbestrol	Kinase
+955	FYN	P06241	FYN	937	dobutamine	Kinase
+956	FYN	P06241	FYN	960	doxorubicin	Kinase
+957	FYN	P06241	FYN	977	ebastine	Kinase
+958	FYN	P06241	FYN	983	econazole	Kinase
+959	FYN	P06241	FYN	1030	epirubicin	Kinase
+960	FYN	P06241	FYN	1043	ergotamine	Kinase
+961	FYN	P06241	FYN	1058	estradiol benzoate	Kinase
+962	FYN	P06241	FYN	1212	fluphenazine	Kinase
+963	FYN	P06241	FYN	1364	hexachlorophene	Kinase
+964	FYN	P06241	FYN	1423	imatinib	Kinase
+965	FYN	P06241	FYN	1457	diiodohydroxyquinoline	Kinase
+966	FYN	P06241	FYN	1513	itraconazole	Kinase
+967	FYN	P06241	FYN	1567	levodopa	Kinase
+968	FYN	P06241	FYN	1762	methyldopa	Kinase
+969	FYN	P06241	FYN	1800	miconazole	Kinase
+970	FYN	P06241	FYN	1805	mifepristone	Kinase
+971	FYN	P06241	FYN	1821	mitoxantrone	Kinase
+972	FYN	P06241	FYN	1836	montelukast	Kinase
+973	FYN	P06241	FYN	1893	nelfinavir	Kinase
+974	FYN	P06241	FYN	1932	nilotinib	Kinase
+975	FYN	P06241	FYN	2044	paclitaxel	Kinase
+976	FYN	P06241	FYN	2106	perhexiline	Kinase
+977	FYN	P06241	FYN	2274	prochlorperazine	Kinase
+978	FYN	P06241	FYN	2351	raloxifene	Kinase
+979	FYN	P06241	FYN	2459	sorafenib	Kinase
+980	FYN	P06241	FYN	2495	sulconazole	Kinase
+981	FYN	P06241	FYN	2536	suloctidil	Kinase
+982	FYN	P06241	FYN	2544	sunitinib	Kinase
+983	FYN	P06241	FYN	2561	tamoxifen	Kinase
+984	FYN	P06241	FYN	2599	terconazole	Kinase
+985	FYN	P06241	FYN	2600	terfenadine	Kinase
+986	FYN	P06241	FYN	2637	thioridazine	Kinase
+987	FYN	P06241	FYN	3018	benzethonium	Kinase
+988	FYN	P06241	FYN	4063	tirilazad	Kinase
+989	FYN	P06241	FYN	4118	pazopanib	Kinase
+990	FYN	P06241	FYN	4122	auranofin	Kinase
+991	FYN	P06241	FYN	4138	gentian violet	Kinase
+992	FYN	P06241	FYN	4178	vandetanib	Kinase
+993	FYN	P06241	FYN	4187	crizotinib	Kinase
+994	FYN	P06241	FYN	4211	acetic acid	Kinase
+995	FYN	P06241	FYN	4344	zinc chloride	Kinase
+996	FYN	P06241	FYN	4359	bosutinib	Kinase
+997	FYN	P06241	FYN	4392	cisplatin	Kinase
+998	FYN	P06241	FYN	4425	colistin	Kinase
+999	FYN	P06241	FYN	4706	sodium aurothiomalate	Kinase
+1000	FYN	P06241	FYN	4713	tofacitinib	Kinase
+1001	FYN	P06241	FYN	4794	gramicidin	Kinase
+1002	FYN	P06241	FYN	4810	ibrutinib	Kinase	INHIBITOR
+1003	FYN	P06241	FYN	4903	nintedanib	Kinase
+1004	FYN	P06241	FYN	5039	tannic acid	Kinase
+1005	FYN	P06241	FYN	5118	chromic chloride	Kinase
+1006	FYN	P06241	FYN	5231	midostaurin	Kinase
+1007	FYN	P06241	FYN	5252	neratinib	Kinase
+1008	FYN	P06241	FYN	5347	fedratinib	Kinase
+1009	FYN	P06241	FYN	5459	infigratinib	Kinase
+1010	HCK	P08631	HCK	785	dasatinib	Kinase	INHIBITOR
+1011	HCK	P08631	HCK	1045	erlotinib	Kinase
+1012	HCK	P08631	HCK	1282	gefitinib	Kinase
+1013	HCK	P08631	HCK	1932	nilotinib	Kinase
+1014	HCK	P08631	HCK	2459	sorafenib	Kinase
+1015	HCK	P08631	HCK	2544	sunitinib	Kinase
+1016	HCK	P08631	HCK	3533	ruboxistaurin	Kinase
+1017	HCK	P08631	HCK	4118	pazopanib	Kinase
+1018	HCK	P08631	HCK	4178	vandetanib	Kinase
+1019	HCK	P08631	HCK	4318	afatinib	Kinase
+1020	HCK	P08631	HCK	4359	bosutinib	Kinase	INHIBITOR
+1021	HCK	P08631	HCK	4810	ibrutinib	Kinase	INHIBITOR
+1022	HCK	P08631	HCK	4903	nintedanib	Kinase
+1023	HCK	P08631	HCK	5231	midostaurin	Kinase
+1024	HCK	P08631	HCK	5252	neratinib	Kinase
+1025	HCK	P08631	HCK	5347	fedratinib	Kinase
+1026	HEXB	P07686	HEXB	2332	pyrimethamine	Enzyme
+1027	IARS1	P41252	IARS	1857	mupirocin	Enzyme
+1028	MAP2K6	P52564	MAP2K6	2544	sunitinib	Kinase
+1029	MAP2K6	P52564	MAP2K6	3533	ruboxistaurin	Kinase
+1030	MAP2K6	P52564	MAP2K6	4118	pazopanib	Kinase
+1031	MAP2K6	P52564	MAP2K6	4359	bosutinib	Kinase
+1032	MAP2K6	P52564	MAP2K6	5231	midostaurin	Kinase
+1033	PIK3C3	Q8NEB9	PIK3C3	4878	idelalisib	Kinase
+1034	PLCG1	P19174	PLCG1	537	cefixime	Enzyme
+1035	PRKCB	P05771	PRKCB	3533	ruboxistaurin	Kinase
+1036	PRKCB	P05771	PRKCB	4226	ingenol mebutate	Kinase
+1037	PRKCI	P41743	PRKCI	3533	ruboxistaurin	Kinase
+1038	SLC12A2	P55011	SLC12A2	427	bumetanide	Transporter	INHIBITOR
+1039	SLC12A2	P55011	SLC12A2	1258	furosemide	Transporter	INHIBITOR
+1040	SLC12A2	P55011	SLC12A2	2201	piretanide	Transporter	INHIBITOR
+1041	SLC25A4	P12235	SLC25A4	690	clodronic acid	Transporter
+1042	TPMT	P51580	TPMT	269	azathioprine	Enzyme
+1043	TPMT	P51580	TPMT	1708	mercaptopurine	Enzyme
+1044	ABCA1	O95477	ABCA1	2269	probucol	Transporter	INHIBITOR
+1045	ALPL	P05186	ALPL	156	amifostine	Enzyme
+1046	ALPL	P05186	ALPL	1561	levamisole	Enzyme
+1047	ALPL	P05186	ALPL	1800	miconazole	Enzyme
+1048	ALPL	P05186	ALPL	2495	sulconazole	Enzyme
+1049	ALPL	P05186	ALPL	2620	theophylline	Enzyme
+1050	ALPL	P05186	ALPL	4390	choline theophyllinate	Enzyme
+1051	ALPL	P05186	ALPL	4426	bufylline	Enzyme
+1052	CA4	P22748	CA4	52	paracetamol	Enzyme
+1053	CA4	P22748	CA4	56	acetazolamide	Enzyme	INHIBITOR
+1054	CA4	P22748	CA4	305	bendroflumethiazide	Enzyme
+1055	CA4	P22748	CA4	332	benzthiazide	Enzyme
+1056	CA4	P22748	CA4	391	bortezomib	Enzyme
+1057	CA4	P22748	CA4	396	brinzolamide	Enzyme
+1058	CA4	P22748	CA4	568	celecoxib	Enzyme
+1059	CA4	P22748	CA4	625	chlortalidone	Enzyme
+1060	CA4	P22748	CA4	629	cianidanol	Enzyme
+1061	CA4	P22748	CA4	738	coumarin	Enzyme
+1062	CA4	P22748	CA4	864	dichlorphenamide	Enzyme	INHIBITOR
+1063	CA4	P22748	CA4	931	ditiocarb	Enzyme
+1064	CA4	P22748	CA4	937	dobutamine	Enzyme
+1065	CA4	P22748	CA4	949	dorzolamide	Enzyme
+1066	CA4	P22748	CA4	1089	ethoxzolamide	Enzyme	INHIBITOR
+1067	CA4	P22748	CA4	1129	famotidine	Enzyme
+1068	CA4	P22748	CA4	1258	furosemide	Enzyme
+1069	CA4	P22748	CA4	1362	hesperetin	Enzyme
+1070	CA4	P22748	CA4	1385	hydrochlorothiazide	Enzyme
+1071	CA4	P22748	CA4	1423	imatinib	Enzyme
+1072	CA4	P22748	CA4	1433	indapamide	Enzyme
+1073	CA4	P22748	CA4	1624	mafenide	Enzyme
+1074	CA4	P22748	CA4	1741	methazolamide	Enzyme	INHIBITOR
+1075	CA4	P22748	CA4	1932	nilotinib	Enzyme
+1076	CA4	P22748	CA4	2416	salicylic acid	Enzyme
+1077	CA4	P22748	CA4	2443	silymarin	Enzyme
+1078	CA4	P22748	CA4	2521	sulfanilamide	Enzyme
+1079	CA4	P22748	CA4	2706	topiramate	Enzyme	INHIBITOR
+1080	CA4	P22748	CA4	2733	trichlormethiazide	Enzyme
+1081	CA4	P22748	CA4	2738	trientine	Enzyme
+1082	CA4	P22748	CA4	2799	valdecoxib	Enzyme
+1083	CA4	P22748	CA4	2872	zonisamide	Enzyme
+1084	CA4	P22748	CA4	3282	hydroquinone	Enzyme
+1085	CA4	P22748	CA4	3508	pyrithione	Enzyme
+1086	CA4	P22748	CA4	3514	quercetin	Enzyme
+1087	CA4	P22748	CA4	4199	potassium chloride	Enzyme
+1088	CA4	P22748	CA4	4219	sodium phosphate	Enzyme
+1089	CA4	P22748	CA4	4248	pyrithione zinc	Enzyme
+1090	CA4	P22748	CA4	4266	phenol	Enzyme
+1091	CA4	P22748	CA4	4296	potassium iodide	Enzyme
+1092	CA4	P22748	CA4	4310	lacosamide	Enzyme
+1093	CA4	P22748	CA4	4373	sodium benzoate	Enzyme
+1094	CA4	P22748	CA4	4474	trisodium citrate dihydrate	Enzyme
+1095	CA4	P22748	CA4	4477	sodium citrate	Enzyme
+1096	CA4	P22748	CA4	4568	hydrochloric acid	Enzyme
+1097	CA4	P22748	CA4	4733	thiomersal	Enzyme
+1098	CACNA1A	O00555	CACNA1A	342	bepridil	Ion channel	BLOCKER
+1099	CACNA1A	O00555	CACNA1A	1599	loperamide	Ion channel
+1100	CACNA1A	O00555	CACNA1A	1942	nisoldipine	Ion channel
+1101	CDK4	P11802	CDK4	2544	sunitinib	Kinase
+1102	CDK4	P11802	CDK4	3533	ruboxistaurin	Kinase
+1103	CDK4	P11802	CDK4	4866	ceritinib	Kinase
+1104	CDK4	P11802	CDK4	4903	nintedanib	Kinase
+1105	CDK4	P11802	CDK4	4941	palbociclib	Kinase	INHIBITOR
+1106	CDK4	P11802	CDK4	5218	ribociclib	Kinase	INHIBITOR
+1107	CDK4	P11802	CDK4	5259	abemaciclib	Kinase	INHIBITOR
+1108	CDK4	P11802	CDK4	5347	fedratinib	Kinase
+1109	CDK4	P11802	CDK4	5442	trilaciclib	Kinase	INHIBITOR
+1110	CFTR	P13569	CFTR	1142	felodipine	Ion channel	ACTIVATOR
+1111	CFTR	P13569	CFTR	1314	glibenclamide	Ion channel	BLOCKER
+1112	CFTR	P13569	CFTR	4228	ivacaftor	Ion channel	POSITIVE MODULATOR
+1113	CFTR	P13569	CFTR	4744	crofelemer	Ion channel	INHIBITOR
+1114	CFTR	P13569	CFTR	5010	lumacaftor	Ion channel	PHARMACOLOGICAL CHAPERONE
+1115	CFTR	P13569	CFTR	5276	tezacaftor	Ion channel	PHARMACOLOGICAL CHAPERONE
+1116	CFTR	P13569	CFTR	5372	elexacaftor	Ion channel
+1117	CLCN2	P51788	CLCN2	4123	lubiprostone	Ion channel	OPENER
+1118	GRIA1	P42261	GRIA1	761	cyclothiazide	Ion channel
+1119	GRIA1	P42261	GRIA1	1310	glutamic acid	Ion channel
+1120	GRIA1	P42261	GRIA1	3201	kainic acid	Ion channel
+1121	HEXA	P06865	HEXA	2332	pyrimethamine	Enzyme
+1122	HNMT	P50135	HNMT	186	amodiaquine	Enzyme
+1123	HPGDS	O60760	HPGDS	2531	sulfobromophthalein	Enzyme
+1124	HPGDS	O60760	HPGDS	2714	tranilast	Enzyme
+1125	JAK3	P52333	JAK3	785	dasatinib	Kinase
+1126	JAK3	P52333	JAK3	1045	erlotinib	Kinase
+1127	JAK3	P52333	JAK3	2459	sorafenib	Kinase
+1128	JAK3	P52333	JAK3	2544	sunitinib	Kinase
+1129	JAK3	P52333	JAK3	3533	ruboxistaurin	Kinase
+1130	JAK3	P52333	JAK3	4118	pazopanib	Kinase
+1131	JAK3	P52333	JAK3	4187	crizotinib	Kinase
+1132	JAK3	P52333	JAK3	4190	ruxolitinib	Kinase
+1133	JAK3	P52333	JAK3	4225	axitinib	Kinase
+1134	JAK3	P52333	JAK3	4359	bosutinib	Kinase
+1135	JAK3	P52333	JAK3	4713	tofacitinib	Kinase	INHIBITOR
+1136	JAK3	P52333	JAK3	4810	ibrutinib	Kinase	INHIBITOR
+1137	JAK3	P52333	JAK3	4866	ceritinib	Kinase
+1138	JAK3	P52333	JAK3	4903	nintedanib	Kinase
+1139	JAK3	P52333	JAK3	4941	palbociclib	Kinase
+1140	JAK3	P52333	JAK3	5202	baricitinib	Kinase
+1141	JAK3	P52333	JAK3	5231	midostaurin	Kinase
+1142	JAK3	P52333	JAK3	5252	neratinib	Kinase
+1143	JAK3	P52333	JAK3	5297	dacomitinib	Kinase
+1144	JAK3	P52333	JAK3	5345	entrectinib	Kinase
+1145	JAK3	P52333	JAK3	5346	upadacitinib	Kinase	INHIBITOR
+1146	JAK3	P52333	JAK3	5347	fedratinib	Kinase	INHIBITOR
+1147	JAK3	P52333	JAK3	5419	filgotinib	Kinase	INHIBITOR
+1148	JAK3	P52333	JAK3	5426	delgocitinib	Kinase	INHIBITOR
+1149	MAPKAPK2	P49137	MAPKAPK2	91	adenosine triphosphate	Kinase
+1150	NOS3	P29474	NOS3	626	chlorzoxazone	Enzyme
+1151	PDE5A	O76074	PDE5A	568	celecoxib	Enzyme
+1152	PDE5A	O76074	PDE5A	924	dipyridamole	Enzyme	INHIBITOR
+1153	PDE5A	O76074	PDE5A	1809	milrinone	Enzyme
+1154	PDE5A	O76074	PDE5A	2056	papaverine	Enzyme
+1155	PDE5A	O76074	PDE5A	2099	pentoxifylline	Enzyme	INHIBITOR
+1156	PDE5A	O76074	PDE5A	2441	sildenafil	Enzyme	INHIBITOR
+1157	PDE5A	O76074	PDE5A	2553	tadalafil	Enzyme	INHIBITOR
+1158	PDE5A	O76074	PDE5A	2809	vardenafil	Enzyme	INHIBITOR
+1159	PDE5A	O76074	PDE5A	3574	sulmazole	Enzyme
+1160	PDE5A	O76074	PDE5A	4141	udenafil	Enzyme	INHIBITOR
+1161	PDE5A	O76074	PDE5A	4305	avanafil	Enzyme	INHIBITOR
+1162	PDE5A	O76074	PDE5A	5005	mirodenafil	Enzyme	INHIBITOR
+1163	PDE5A	O76074	PDE5A	5039	tannic acid	Enzyme
+1164	PDE9A	O76083	PDE9A	2441	sildenafil	Enzyme
+1165	PDE9A	O76083	PDE9A	2809	vardenafil	Enzyme
+1166	PRKCA	P17252	PRKCA	2544	sunitinib	Kinase
+1167	PRKCA	P17252	PRKCA	3533	ruboxistaurin	Kinase
+1168	PRKCA	P17252	PRKCA	4226	ingenol mebutate	Kinase
+1169	PRKCA	P17252	PRKCA	4376	dequalinium	Kinase
+1170	PRKCA	P17252	PRKCA	5231	midostaurin	Kinase
+1171	PRKD1	Q15139	PRKD1	1282	gefitinib	Kinase
+1172	PRKD1	Q15139	PRKD1	2544	sunitinib	Kinase
+1173	PRKD1	Q15139	PRKD1	4187	crizotinib	Kinase
+1174	PRKD1	Q15139	PRKD1	4226	ingenol mebutate	Kinase
+1175	PRKD1	Q15139	PRKD1	4903	nintedanib	Kinase
+1176	PRKD1	Q15139	PRKD1	5252	neratinib	Kinase
+1177	PRKG1	Q13976	PRKG1	4903	nintedanib	Kinase
+1178	PRKG1	Q13976	PRKG1	5231	midostaurin	Kinase
+1179	PRKG1	Q13976	PRKG1	5347	fedratinib	Kinase
+1180	PTGS2	P35354	PTGS2	43	aceclofenac	Enzyme	INHIBITOR
+1181	PTGS2	P35354	PTGS2	47	acemetacin	Enzyme	INHIBITOR
+1182	PTGS2	P35354	PTGS2	52	paracetamol	Enzyme	INHIBITOR
+1183	PTGS2	P35354	PTGS2	74	acetylsalicylic acid	Enzyme	INHIBITOR
+1184	PTGS2	P35354	PTGS2	107	alclofenac	Enzyme	INHIBITOR
+1185	PTGS2	P35354	PTGS2	171	aminophenazone	Enzyme
+1186	PTGS2	P35354	PTGS2	284	balsalazide	Enzyme	INHIBITOR
+1187	PTGS2	P35354	PTGS2	331	benzquinamide	Enzyme	INHIBITOR
+1188	PTGS2	P35354	PTGS2	401	bromfenac	Enzyme	INHIBITOR
+1189	PTGS2	P35354	PTGS2	484	captopril	Enzyme
+1190	PTGS2	P35354	PTGS2	518	carprofen	Enzyme	INHIBITOR
+1191	PTGS2	P35354	PTGS2	542	cefonicid	Enzyme
+1192	PTGS2	P35354	PTGS2	547	cefotetan	Enzyme
+1193	PTGS2	P35354	PTGS2	568	celecoxib	Enzyme	INHIBITOR
+1194	PTGS2	P35354	PTGS2	574	cefalotin	Enzyme
+1195	PTGS2	P35354	PTGS2	629	cianidanol	Enzyme
+1196	PTGS2	P35354	PTGS2	719	clotrimazole	Enzyme
+1197	PTGS2	P35354	PTGS2	824	dexamethasone	Enzyme
+1198	PTGS2	P35354	PTGS2	833	dexketoprofen	Enzyme	INHIBITOR
+1199	PTGS2	P35354	PTGS2	865	diclofenac	Enzyme	INHIBITOR
+1200	PTGS2	P35354	PTGS2	880	diflunisal	Enzyme	INHIBITOR
+1201	PTGS2	P35354	PTGS2	1103	etodolac	Enzyme	INHIBITOR
+1202	PTGS2	P35354	PTGS2	1113	etoricoxib	Enzyme	INHIBITOR
+1203	PTGS2	P35354	PTGS2	1141	felbinac	Enzyme	INHIBITOR
+1204	PTGS2	P35354	PTGS2	1145	fenbufen	Enzyme	INHIBITOR
+1205	PTGS2	P35354	PTGS2	1154	fenoprofen	Enzyme	INHIBITOR
+1206	PTGS2	P35354	PTGS2	1178	floctafenine	Enzyme	INHIBITOR
+1207	PTGS2	P35354	PTGS2	1193	flufenamic acid	Enzyme	INHIBITOR
+1208	PTGS2	P35354	PTGS2	1219	flurbiprofen	Enzyme	INHIBITOR
+1209	PTGS2	P35354	PTGS2	1364	hexachlorophene	Enzyme
+1210	PTGS2	P35354	PTGS2	1407	ibuprofen	Enzyme	INHIBITOR
+1211	PTGS2	P35354	PTGS2	1439	indobufen	Enzyme
+1212	PTGS2	P35354	PTGS2	1440	indomethacin	Enzyme	INHIBITOR
+1213	PTGS2	P35354	PTGS2	1494	fluostigmine	Enzyme
+1214	PTGS2	P35354	PTGS2	1509	isoxicam	Enzyme
+1215	PTGS2	P35354	PTGS2	1528	ketoprofen	Enzyme	INHIBITOR
+1216	PTGS2	P35354	PTGS2	1529	ketorolac	Enzyme	INHIBITOR
+1217	PTGS2	P35354	PTGS2	1615	loxoprofen	Enzyme	INHIBITOR
+1218	PTGS2	P35354	PTGS2	1618	lumiracoxib	Enzyme	INHIBITOR
+1219	PTGS2	P35354	PTGS2	1650	meclofenamic acid	Enzyme	INHIBITOR
+1220	PTGS2	P35354	PTGS2	1663	mefenamic acid	Enzyme	INHIBITOR
+1221	PTGS2	P35354	PTGS2	1676	meloxicam	Enzyme	INHIBITOR
+1222	PTGS2	P35354	PTGS2	1710	mesalazine	Enzyme	INHIBITOR
+1223	PTGS2	P35354	PTGS2	1795	mezlocillin	Enzyme
+1224	PTGS2	P35354	PTGS2	1800	miconazole	Enzyme
+1225	PTGS2	P35354	PTGS2	1829	mofezolac	Enzyme
+1226	PTGS2	P35354	PTGS2	1834	monobenzone	Enzyme
+1227	PTGS2	P35354	PTGS2	1863	nabumetone	Enzyme	INHIBITOR
+1228	PTGS2	P35354	PTGS2	1883	naproxen	Enzyme	INHIBITOR
+1229	PTGS2	P35354	PTGS2	1899	nepafenac	Enzyme	INHIBITOR
+1230	PTGS2	P35354	PTGS2	1925	niflumic acid	Enzyme
+1231	PTGS2	P35354	PTGS2	1935	nimesulide	Enzyme
+1232	PTGS2	P35354	PTGS2	1954	nitroxoline	Enzyme
+1233	PTGS2	P35354	PTGS2	2006	oxacillin	Enzyme
+1234	PTGS2	P35354	PTGS2	2013	oxaprozin	Enzyme	INHIBITOR
+1235	PTGS2	P35354	PTGS2	2063	parecoxib	Enzyme	INHIBITOR
+1236	PTGS2	P35354	PTGS2	2165	piketoprofen	Enzyme	INHIBITOR
+1237	PTGS2	P35354	PTGS2	2210	piroxicam	Enzyme	INHIBITOR
+1238	PTGS2	P35354	PTGS2	2213	pirprofen	Enzyme
+1239	PTGS2	P35354	PTGS2	2311	proquazone	Enzyme
+1240	PTGS2	P35354	PTGS2	2397	rofecoxib	Enzyme	INHIBITOR
+1241	PTGS2	P35354	PTGS2	2534	sulindac	Enzyme	INHIBITOR
+1242	PTGS2	P35354	PTGS2	2546	suprofen	Enzyme	INHIBITOR
+1243	PTGS2	P35354	PTGS2	2561	tamoxifen	Enzyme
+1244	PTGS2	P35354	PTGS2	2595	tenoxicam	Enzyme
+1245	PTGS2	P35354	PTGS2	2616	thalidomide	Enzyme
+1246	PTGS2	P35354	PTGS2	2652	tiaprofenic acid	Enzyme	INHIBITOR
+1247	PTGS2	P35354	PTGS2	2657	ticlopidine	Enzyme
+1248	PTGS2	P35354	PTGS2	2698	tolfenamic acid	Enzyme
+1249	PTGS2	P35354	PTGS2	2699	tolmetin	Enzyme	INHIBITOR
+1250	PTGS2	P35354	PTGS2	2799	valdecoxib	Enzyme	INHIBITOR
+1251	PTGS2	P35354	PTGS2	2871	zomepirac	Enzyme
+1252	PTGS2	P35354	PTGS2	3514	quercetin	Enzyme
+1253	PTGS2	P35354	PTGS2	3851	dexibuprofen	Enzyme
+1254	PTGS2	P35354	PTGS2	4728	tenidap	Enzyme
+1255	PTGS2	P35354	PTGS2	5060	esflurbiprofen	Enzyme
+1256	PTGS2	P35354	PTGS2	5240	polmacoxib	Enzyme	INHIBITOR
+1257	PTGS2	P35354	PTGS2	5250	imrecoxib	Enzyme	INHIBITOR
+1258	RPS6KA4	O75676	RPS6KA4	1045	erlotinib	Kinase
+1259	RPS6KA4	O75676	RPS6KA4	1282	gefitinib	Kinase
+1260	RPS6KA4	O75676	RPS6KA4	2544	sunitinib	Kinase
+1261	RPS6KA4	O75676	RPS6KA4	3533	ruboxistaurin	Kinase
+1262	RPS6KA4	O75676	RPS6KA4	4190	ruxolitinib	Kinase
+1263	RPS6KA4	O75676	RPS6KA4	4903	nintedanib	Kinase
+1264	RPS6KA4	O75676	RPS6KA4	5231	midostaurin	Kinase
+1265	RPS6KA4	O75676	RPS6KA4	5347	fedratinib	Kinase
+1266	RPS6KA5	O75582	RPS6KA5	1132	fasudil	Kinase
+1267	RPS6KA5	O75582	RPS6KA5	2544	sunitinib	Kinase
+1268	RPS6KA5	O75582	RPS6KA5	3533	ruboxistaurin	Kinase
+1269	RPS6KA5	O75582	RPS6KA5	4190	ruxolitinib	Kinase
+1270	RPS6KA5	O75582	RPS6KA5	4903	nintedanib	Kinase
+1271	RPS6KA5	O75582	RPS6KA5	5231	midostaurin	Kinase
+1272	RPS6KA5	O75582	RPS6KA5	5347	fedratinib	Kinase
+1273	SCN4A	P35499	SCN4A	4	levobupivacaine	Ion channel	BLOCKER
+1274	SCN4A	P35499	SCN4A	323	benzocaine	Ion channel	BLOCKER
+1275	SCN4A	P35499	SCN4A	432	bupivacaine	Ion channel	BLOCKER
+1276	SCN4A	P35499	SCN4A	489	carbamazepine	Ion channel	BLOCKER
+1277	SCN4A	P35499	SCN4A	1097	etidocaine	Ion channel	BLOCKER
+1278	SCN4A	P35499	SCN4A	1176	flecainide	Ion channel
+1279	SCN4A	P35499	SCN4A	1540	lamotrigine	Ion channel	BLOCKER
+1280	SCN4A	P35499	SCN4A	1579	lidocaine	Ion channel	BLOCKER
+1281	SCN4A	P35499	SCN4A	1700	mepivacaine	Ion channel	BLOCKER
+1282	SCN4A	P35499	SCN4A	1794	mexiletine	Ion channel	BLOCKER
+1283	SCN4A	P35499	SCN4A	1999	orphenadrine	Ion channel	BLOCKER
+1284	SCN4A	P35499	SCN4A	2152	phenytoin	Ion channel	BLOCKER
+1285	SCN4A	P35499	SCN4A	2167	pilsicainide	Ion channel	BLOCKER
+1286	SCN4A	P35499	SCN4A	2403	ropivacaine	Ion channel	BLOCKER
+1287	SCN9A	Q15858	SCN9A	180	amitriptyline	Ion channel
+1288	SCN9A	Q15858	SCN9A	323	benzocaine	Ion channel	BLOCKER
+1289	SCN9A	Q15858	SCN9A	489	carbamazepine	Ion channel	BLOCKER
+1290	SCN9A	Q15858	SCN9A	1540	lamotrigine	Ion channel	BLOCKER
+1291	SCN9A	Q15858	SCN9A	1579	lidocaine	Ion channel	BLOCKER
+1292	SCN9A	Q15858	SCN9A	1700	mepivacaine	Ion channel	BLOCKER
+1293	SCN9A	Q15858	SCN9A	1794	mexiletine	Ion channel	BLOCKER
+1294	SCN9A	Q15858	SCN9A	1797	mibefradil	Ion channel
+1295	SCN9A	Q15858	SCN9A	1999	orphenadrine	Ion channel	BLOCKER
+1296	SCN9A	Q15858	SCN9A	2152	phenytoin	Ion channel	BLOCKER
+1297	SCN9A	Q15858	SCN9A	2403	ropivacaine	Ion channel	BLOCKER
+1298	SCN9A	Q15858	SCN9A	2610	tetracaine	Ion channel	BLOCKER
+1299	SCN9A	Q15858	SCN9A	4310	lacosamide	Ion channel	BLOCKER
+1300	SCN9A	Q15858	SCN9A	4921	safinamide	Ion channel
+1301	SLC19A2	O60779	SLC19A2	2832	thiamine	Transporter
+1302	SLC1A1	P43005	SLC1A1	1310	glutamic acid	Transporter
+1303	SLC1A1	P43005	SLC1A1	1550	aspartic acid	Transporter
+1304	SLC9A1	P19634	SLC9A1	158	amiloride	Transporter
+1305	SMPD1	P17405	SMPD1	621	chlorpromazine	Enzyme
+1306	SMPD1	P17405	SMPD1	1427	imipramine	Enzyme
+1307	TRPC6	Q9Y210	TRPC6	672	clemizole	Ion channel	BLOCKER
+1308	TRPC6	Q9Y210	TRPC6	1968	norgestimate	Ion channel	BLOCKER

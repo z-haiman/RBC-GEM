@@ -313,7 +313,7 @@ octave-workspace
 .DS_Store
 
 ### Memote
-Results/
+results/
 
 # RBC-GEM
 ## Data folders should be ignored.
@@ -321,12 +321,12 @@ data/raw/*
 data/interim/*
 data/processed/*
 ## Leave README files for data
-## Leave ZIP for deprecated data and database files
-!data/external/database*
+## Leave ZIP for deprecated data and RBC-GEM specific database files
+data/external/database/*/
 !.deprecated/model/**/**.zip
+# Ignore other database files
 
-# DrugBank, MIM data should remain local, keave .keep files for repo structure
-data/external/database/DrugBank/*
-data/external/database/MIM/*
-!data/external/database/*/*.keep
 
+## Escher converter
+*.dylib
+*.jnilib

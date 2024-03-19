@@ -5,15 +5,21 @@ import logging
 from pathlib import Path
 from warnings import warn
 
+
 LOGGER = logging.getLogger(__name__)
 
 from cobra.io import (
-    load_json_model, load_matlab_model, load_yaml_model, read_sbml_model,
-    save_json_model, save_matlab_model, save_yaml_model, write_sbml_model,
+    load_json_model,
+    load_matlab_model,
+    load_yaml_model,
+    read_sbml_model,
+    save_json_model,
+    save_matlab_model,
+    save_yaml_model,
+    write_sbml_model,
 )
 
-
-from .util import GEM_NAME, ROOT_PATH, MODEL_PATH
+from .util import GEM_NAME, MODEL_PATH, ROOT_PATH
 
 
 IO_FUNCTIONS_DICT = {
@@ -27,6 +33,8 @@ ALTERNATE_FILETYPES_DICT = {
     "sbml": "xml",
     "yaml": "yml",
 }
+
+
 def write_cobra_model(model, filename, **kwargs):
     """Save/write the COBRA model file. Determines the function based on the file extension.
 
@@ -62,7 +70,7 @@ def write_cobra_model(model, filename, **kwargs):
         write_function = IO_FUNCTIONS_DICT[filetype]["write"]
     except KeyError as e:
         raise ValueError(f"Unrecognized file type {e}.")
-    
+
     write_function(model, filename, **kwargs)
 
 
@@ -98,10 +106,11 @@ def read_cobra_model(filename, **kwargs):
         read_function = IO_FUNCTIONS_DICT[filetype]["read"]
     except KeyError as e:
         raise ValueError(f"Unrecognized file type {e}.")
-    
+
     model = read_function(filename, **kwargs)
 
     return model
+
 
 def write_rbc_model(model, filetype="xml", **kwargs):
     """Save/write the RBC-GEM as a COBRA model. The `filetype` determines which function to use.
@@ -112,13 +121,13 @@ def write_rbc_model(model, filetype="xml", **kwargs):
         The RBC-GEM model to represent.
     filetype : str, iterable, optional
         The type of model file. Default value is 'xml' for the SBML model file.
-        If ``filetype="all"``, all possible functions will be used. 
+        If ``filetype="all"``, all possible functions will be used.
         Alternatively, an iterable of strings representing the filetypes can be provided.
     **kwargs
         Passed to the underlying function utilized in saving/writing the model file.
-        If ``filetype="all"`` or an iterable is provided to `filetype`, a `dict` should be passed with 
+        If ``filetype="all"`` or an iterable is provided to `filetype`, a `dict` should be passed with
         the keys representing filetypes and values representing dictionaries of ``kwargs``
-        for the `filetype` passed. 
+        for the `filetype` passed.
 
     See Also
     --------
@@ -131,16 +140,17 @@ def write_rbc_model(model, filetype="xml", **kwargs):
     write_sbml_model
         Underlying function utilized for saving a COBRA model as a `.xml` file or `.sbml` file.
 
-    """        
+    """
     if isinstance(filetype, str):
         if filetype == "all":
             # Ensure no duplicates when it comes to SBML or yaml files.
-            filetype = sorted(set(IO_FUNCTIONS_DICT).difference(set(ALTERNATE_FILETYPES_DICT)))
+            filetype = sorted(
+                set(IO_FUNCTIONS_DICT).difference(set(ALTERNATE_FILETYPES_DICT))
+            )
         else:
             kwargs = {filetype: kwargs}
             filetype = [filetype]
-            
-    
+
     for ftype in set(filetype):
         ftype_kwargs = kwargs.get(ftype, {})
         if ftype in ALTERNATE_FILETYPES_DICT:
@@ -154,12 +164,14 @@ def write_rbc_model(model, filetype="xml", **kwargs):
                 # No need to duplicate the export
                 warn(f"{msg}, skipping to prevent duplicate export")
                 continue
-            
-        write_cobra_model(model, f"{ROOT_PATH}{MODEL_PATH}/{GEM_NAME}.{ftype}", **ftype_kwargs)
+
+        write_cobra_model(
+            model, f"{ROOT_PATH}{MODEL_PATH}/{GEM_NAME}.{ftype}", **ftype_kwargs
+        )
         LOGGER.info("Model `%s` saved as a `.%s` file", model.id, ftype)
 
 
-def read_rbc_model(filetype='xml', **kwargs):
+def read_rbc_model(filetype="xml", **kwargs):
     """Load/read the RBC-GEM as a COBRA model. The `filetype` determines which function to use.
 
     Parameters
@@ -189,5 +201,3 @@ def read_rbc_model(filetype='xml', **kwargs):
     model = read_cobra_model(f"{ROOT_PATH}{MODEL_PATH}/{GEM_NAME}.{filetype}", **kwargs)
     LOGGER.info("Model `%s` loaded from a `.%s` file", model.id, filetype)
     return model
-
-    

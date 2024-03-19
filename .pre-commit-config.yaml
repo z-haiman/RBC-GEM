@@ -1,0 +1,32 @@
+minimum_pre_commit_version: '3.1.0'
+default_language_version:
+    python: python3
+repos:
+    - repo: https://github.com/pre-commit/pre-commit-hooks
+      rev: v4.5.0
+      hooks:
+      - id: check-merge-conflict
+      - id: check-toml
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+        exclude: setup.cfg
+    - repo: https://github.com/pre-commit/pygrep-hooks
+      rev: v1.10.0
+      hooks:
+      - id: python-check-blanket-noqa
+      - id: python-no-eval
+      - id: python-no-log-warn
+      - id: python-use-type-annotations
+      - id: rst-backticks
+      - id: rst-directive-colons
+      - id: rst-inline-touching-normal
+    - repo: https://github.com/pycqa/isort
+      rev: 5.13.2
+      hooks:
+      - id: isort
+    - repo: https://github.com/psf/black
+      rev: 23.12.1
+      hooks:
+      - id: black
+      - id: black-jupyter
