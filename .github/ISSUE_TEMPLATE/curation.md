@@ -5,6 +5,8 @@ labels: curation
 assignees: ''
 
 ---
+<!-- Note: Based on issue templates for standard-GEMs (e.g., Human-GEM, Yeast-GEM). -->
+
 <!-- Note: Please search to see if an issue already exists for the curation you propose. -->
 
 <!-- Make sure you use the latest RBC-GEM version. -->
@@ -33,7 +35,7 @@ Alternatively, this can also be written out in bullet points, linking to Metabol
 Identifier | Reaction equation | Genes
 ---|---|---
 r_0061 | (2R,3S)-3-isopropylmalate[c] + NAD[c] => (2S)-2-isopropyl-3-oxosuccinate[c] + H+[c] + NADH[c] | YCL018W
-r_0029 | (2S)-2-isopropyl-3-oxosuccinate[c] + H+[c] => 4-methyl-2-oxopentanoate[c] + carbon dioxide[c] |
+r_0029 | (2S)-2-isopropyl-3-oxosuccinate[c] + H+[c] => 4-methyl-2-oxopentanoate[c] + carbon dioxide[c] | 
 
 But a to-do list should always be present:
 - [ ] Leave r_0061 intact.
