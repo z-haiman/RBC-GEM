@@ -75,3 +75,4 @@ Sulfur metabolism	Reactive species	Sulfur metabolism	hsa00920	"Categorized as en
 Aminoacyl-tRNA biosynthesis	Translation	Aminoacyl-tRNA biosynthesis	has00970	
 "Transport, extracellular"	Transport reactions			"Representative subsystem for all transport reactions across the plasma membrane. In HumanGEM (v1.18.0), known as ""Transport Reactions"" and includes all transport reactions."
 Azathioprine and 6-mercaptopurine metabolism	Xenobiotics biodegradation and metabolism	Drug metabolism - other enzymes	hsa00983	"Subnetwork of KEGG pathway ""Drug metabolism - other enzymes"""
+Ribavirin metabolism	Xenobiotics biodegradation and metabolism			"Curated category, from reactome R-HSA-9755088, PharmGKB PA166271961"
