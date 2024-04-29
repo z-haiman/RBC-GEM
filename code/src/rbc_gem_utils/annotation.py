@@ -111,6 +111,6 @@ def get_annotation_df(objects, annotation_key, sep=";"):
     # Sort index to match original objects, then reset index to make IDs a regular column
     df.index.name = "id"
     df = df.loc[objects.list_attr("id")].reset_index()
-    # Replace empty strings with NaN
-    df = df.replace("", float("nan"))
+    # Replace empty strings with pd.NA
+    df = df.replace("", pd.NA)
     return df

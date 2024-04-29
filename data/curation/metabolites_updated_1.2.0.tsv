@@ -1,0 +1,50 @@
+metabolites	name	formula	charge	compartment	metabolomic evidence (#studies)	metabolomic evidence (pubmed)	references	notes
+2mop_c	2-methyl-3-oxopropanoate	C4H5O3	-1	c
+34dhmald_c	"3,4-dihydroxymandelaldehyde"	C8H8O4	0	c
+34dhoxmand_c	"3,4-dihydroxymandelate"	C8H7O5	-1	c
+3mlda_c	Methylimidazoleacetate	C6H7N2O2	-1	c
+3mlda_e	Methylimidazoleacetate	C6H7N2O2	-1	e
+3mldz_c	Methylimidazole-acetaldehyde	C6H8N2O	0	c
+3mox4hoxm_c	vanillylmandelate	C9H9O5	-1	c
+3mox4hoxm_e	vanillylmandelate	C9H9O5	-1	e
+4hoxpacd_c	4-hydroxyphenylacetaldehyde	C8H8O2	0	c
+4hphac_c	4-hydroxyphenylacetate	C8H7O3	-1	c
+56dh5flura_c	"5,6-Dihydro-5-fluorouracil"	C4H5FN2O2	0	c
+56dh5flura_e	"5,6-Dihydro-5-fluorouracil"	C4H5FN2O2	0	e
+56dthm_c	"5,6-dihydrothymine"	C5H8N2O2	0	c
+56dthm_e	"5,6-dihydrothymine"	C5H8N2O2	0	e
+56dura_c	"5,6-dihydrouracil"	C4H6N2O2	0	c
+56dura_e	"5,6-dihydrouracil"	C4H6N2O2	0	e
+5fludp_c	"5,6-Dihydro-5-fluorouradine 5-diphosphate"	C9H10FN2O12P2	-3	c
+5flump_c	"5,6-Dihydro-5-fluorouradine 5-monophosphate"	C9H10FN2O9P	-2	c
+5flutp_c	"5,6-Dihydro-5-fluorouradine 5-triphosphate"	C9H10FN2O15P3	-4	c
+ach_c	Acetylcholine	C7H16NO2	1	c
+cullin_lys__L_c	[cullin]-L-lysine 	C6H13N2OR	0	c
+cullin_nedd8lys_c	N6-[NEDD8-protein]-yl-[cullin]-L-lysine	C6H13N2ORCO2R	0	c
+e1nedd8act_cys__L_c	[E1 NEDD8-activating enzyme]-L-cysteine	C3H5NORS	0	c
+e2nedd8conj_cys__L_c	[E2 NEDD8-conjugating enzyme]-L-cysteine	C3H5NORS	0	c
+glac_c	"D-glucurono-6,3-lactone"	C6H8O6	0	c
+glcr_c	D-glucarate	C6H8O8	-2	c
+glyb_e	betaine	C5H11NO2	0	e
+hba1c_c	Glycated hemoglobin	C97H128FeN4O11R	-2	c
+id3acald_c	Indole-3-acetaldehyde	C10H9NO	0	c
+im4ac_c	Imidazole-4-acetate	C5H5N2O2	-1	c
+im4ac_e	Imidazole-4-acetate	C5H5N2O2	-1	e
+im4act_c	Imidazole-4-acetaldehyde	C5H6N2O	0	c
+ind3ac_c	indoleacetate	C10H8NO2	-1	c
+mmaln_c	Methylmalonate	C4H4O4	-2	c
+nedd8_c	NEDD8 protein	CO2R	0	c
+nedd8Se1nedd8act_cys__L_c	[E1 NEDD8-activating enzyme]-S-[NEDD8 protein]-yl-L-cysteine	C3H5NORSCO2R	0	c
+nedd8Se2nedd8conj_cys__L_c	[E2 NEDD8-conjugating enzyme]-S-[NEDD8-protein]-yl-L-cysteine	C3H5NORSCO2R	0	c
+urcan_c	trans-urocanate	C6H5N2O2	-1	c
+cdprib_c	CDP-D-ribose	C14H21N3O15P2	-2	c
+cdprbt_c	CDP-L-ribitol	C14H23N3O15P2	-2	c
+cdpru5p__D_c	CDP-D-ribulose	C14H21N3O15P2	-2	c
+rbt5p_c	D-ribitol 5-phosphate	C5H11O8P	-2	c
+smscys__L_c	Se-methylselenocysteine	C4H9NO2Se	0	c
+metselpyr_c	Methylselenopyruvate	C4H5O3Se	-1	c
+42a3hp24db_c	"4-(2-amino-3-hydroxyphenyl)-2,4-dioxobutanoate"	C10H7NO5	-2	c
+xanthurn_c	Xanthurenate	C10H6NO4	-1	c
+2amac_c	2-aminoprop-2-enoic acid	C3H5NO2	0	c
+2imppa_c	2-Iminopropanoate	C3H5NO2	0	c
+thcys_c	Thiocysteine	C3H7NO2S2	0	c

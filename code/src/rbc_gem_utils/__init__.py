@@ -1,4 +1,7 @@
-"""Contains main functions and constants to facilitate working with the RBC-GEM reconstruction."""
+"""Contains main functions and constants to facilitate working with the RBC-GEM reconstruction.
+
+Currently houses all code associated with the RBC-GEM.
+"""
 
 from .annotation import get_annotation_df, get_id_annotation_mapping
 from .database import check_database_version_online, check_version
@@ -16,6 +19,9 @@ from .util import (
     MAP_NAMES,
     MAP_PATH,
     MODEL_PATH,
+    PARAMETERIZATION_PATH,
+    PROCESSED_PATH,
+    RAW_PATH,
     RESULTS_PATH,
     ROOT_PATH,
     build_string,

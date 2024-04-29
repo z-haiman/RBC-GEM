@@ -10,8 +10,13 @@
 **TODO**
 
 #### Citation
+If you use RBC-GEM in your research, please cite the following:
 
-**TODO**
+> RBC-GEM: a Knowledge Base for Systems Biology of Human Red Blood Cell Metabolism;
+> Zachary Brandon Haiman, Angelo D'Alessandro, Bernhard Palsson
+> bioRxiv 2024.04.26.591249; doi: https://doi.org/10.1101/2024.04.26.591249
+
+All the releases are also archived in [Zenodo] from which specific version can be cited if used.
 
 #### Keywords
 

@@ -7,6 +7,7 @@ import seaborn as sns
 
 
 def visualize_comparison(df_comparison):
+    """TODO DOCSTRING."""
     if df_comparison.empty:
         raise ValueError("`df_comparison` should not be empty")
 

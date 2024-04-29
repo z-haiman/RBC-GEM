@@ -1,38 +1,38 @@
 name	category	kegg.pathway.name	kegg.pathway	notes
-"Alanine, aspartate and glutamate metabolism"	Amino acid metabolism	"Alanine, aspartate and glutamate metabolism"	hsa00250	
-Arginine and proline metabolism	Amino acid metabolism	Arginine and proline metabolism	hsa00330	
-Cysteine and methionine metabolism	Amino acid metabolism	Cysteine and methionine metabolism	hsa00270	
-"Glycine, serine and threonine metabolism"	Amino acid metabolism	"Glycine, serine and threonine metabolism"	hsa00260	
-Histidine metabolism	Amino acid metabolism	Histidine metabolism	hsa00340	
-Lysine metabolism	Amino acid metabolism	Lysine degradation	hsa00310	
+"Alanine, aspartate and glutamate metabolism"	Amino acid metabolism	"Alanine, aspartate and glutamate metabolism"	hsa00250
+Arginine and proline metabolism	Amino acid metabolism	Arginine and proline metabolism	hsa00330
+Cysteine and methionine metabolism	Amino acid metabolism	Cysteine and methionine metabolism	hsa00270
+"Glycine, serine and threonine metabolism"	Amino acid metabolism	"Glycine, serine and threonine metabolism"	hsa00260
+Histidine metabolism	Amino acid metabolism	Histidine metabolism	hsa00340
+Lysine metabolism	Amino acid metabolism	Lysine degradation	hsa00310
 "Phenylalanine, tyrosine and tryptophan metabolism"	Amino acid metabolism	Tyrosine metabolism;Phenylalanine metabolism;Tryptophan metabolism	hsa00350;hsa00360;hsa00370	Merged KEGG pathways into one representative subsystem.
 "Valine, leucine, and isoleucine metabolism"	Amino acid metabolism	"Valine, leucine and isoleucine degradation;Valine, leucine and isoleucine biosynthesis"	hsa00280;hsa00290	Merged KEGG pathways into one representative subsystem.
-Amino sugar and nucleotide sugar metabolism	Carbohydrate metabolism	Amino sugar and nucleotide sugar metabolism	hsa00520	
-Ascorbate and aldarate metabolism	Carbohydrate metabolism	Ascorbate and aldarate metabolism	hsa00053	
-Fructose and mannose metabolism	Carbohydrate metabolism	Fructose and mannose metabolism	hsa00051	
-Galactose metabolism	Carbohydrate metabolism	Galactose metabolism	hsa00052	
-Glycolysis / Gluconeogenesis	Carbohydrate metabolism	Glycolysis / Gluconeogenesis	hsa00010	
-Inositol phosphate metabolism	Carbohydrate metabolism	Inositol phosphate metabolism	hsa00562	
-Pentose and glucuronate interconversions	Carbohydrate metabolism	Pentose and glucuronate interconversions	hsa00040	
-Pentose phosphate pathway	Carbohydrate metabolism	Pentose phosphate pathway	hsa00030	
-Pyruvate metabolism	Carbohydrate metabolism	Pyruvate metabolism	hsa00620	
-Starch and sucrose metabolism	Carbohydrate metabolism	Starch and sucrose metabolism	hsa00500	
+Amino sugar and nucleotide sugar metabolism	Carbohydrate metabolism	Amino sugar and nucleotide sugar metabolism	hsa00520
+Ascorbate and aldarate metabolism	Carbohydrate metabolism	Ascorbate and aldarate metabolism	hsa00053
+Fructose and mannose metabolism	Carbohydrate metabolism	Fructose and mannose metabolism	hsa00051
+Galactose metabolism	Carbohydrate metabolism	Galactose metabolism	hsa00052
+Glycolysis / Gluconeogenesis	Carbohydrate metabolism	Glycolysis / Gluconeogenesis	hsa00010
+Inositol phosphate metabolism	Carbohydrate metabolism	Inositol phosphate metabolism	hsa00562
+Pentose and glucuronate interconversions	Carbohydrate metabolism	Pentose and glucuronate interconversions	hsa00040
+Pentose phosphate pathway	Carbohydrate metabolism	Pentose phosphate pathway	hsa00030
+Pyruvate metabolism	Carbohydrate metabolism	Pyruvate metabolism	hsa00620
+Starch and sucrose metabolism	Carbohydrate metabolism	Starch and sucrose metabolism	hsa00500
 Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism	Carbohydrate metabolism	Citrate cycle (TCA cycle);Glyoxylate and dicarboxylate metabolism	hsa00020;hsa00630 	Merged KEGG pathways into one representative subsystem.
-Renin-angiotensin system	Endocrine system	Renin-angiotensin system	hsa04614	
-Ubiquitin mediated proteolysis	"Folding, sorting and degradation"	Ubiquitin mediated proteolysis	hsa04120	
-Glycosphingolipid biosynthesis - ganglio series	Glycan biosynthesis and metabolism	Glycosphingolipid biosynthesis - ganglio series	hsa00604	
-Glycosphingolipid biosynthesis - globo and isoglobo series	Glycan biosynthesis and metabolism	Glycosphingolipid biosynthesis - globo and isoglobo series	hsa00603	
-Glycosphingolipid biosynthesis - lacto and neolacto series	Glycan biosynthesis and metabolism	Glycosphingolipid biosynthesis - lacto and neolacto series	hsa00601	
+Renin-angiotensin system	Endocrine system	Renin-angiotensin system	hsa04614
+Ubiquitin mediated proteolysis	"Folding, sorting and degradation"	Ubiquitin mediated proteolysis	hsa04120
+Glycosphingolipid biosynthesis - ganglio series	Glycan biosynthesis and metabolism	Glycosphingolipid biosynthesis - ganglio series	hsa00604
+Glycosphingolipid biosynthesis - globo and isoglobo series	Glycan biosynthesis and metabolism	Glycosphingolipid biosynthesis - globo and isoglobo series	hsa00603
+Glycosphingolipid biosynthesis - lacto and neolacto series	Glycan biosynthesis and metabolism	Glycosphingolipid biosynthesis - lacto and neolacto series	hsa00601
 N-glycan metabolism	Glycan biosynthesis and metabolism	N-Glycan biosynthesis	hsa00510	Curated category
 Acyl-CoA hydrolysis	Lipid metabolism			Curated category
 Androgen metabolism	Lipid metabolism	Steroid hormone biosynthesis	hsa00140	"Subnetwork of KEGG pathway ""Steroid hormone biosynthesis"""
-Arachidonic acid metabolism	Lipid metabolism	Arachidonic acid metabolism	hsa00590	
+Arachidonic acid metabolism	Lipid metabolism	Arachidonic acid metabolism	hsa00590
 Carnitine shuttle (cytosolic)	Lipid metabolism	Fatty acid degradation	hsa00071	"Technically a part KEGG pathway ""Fatty acid metabolism"" or ""Fatty acid degradation"", primarily corresponds to carntine buffering reactions across lipid species"
 Cholesterol metabolism	Lipid metabolism	Steroid biosynthesis	hsa00100	"Subnetwork of KEGG pathway ""Steroid biosynthesis"""
 Docosahexaenoic acid metabolism	Lipid metabolism			"Curated category, similar to linoleate metabolism, arachidonic acid metabolism subsystem"
 Eicosapentaenoic acid metabolism	Lipid metabolism			"Curated category, similar to linoleate metabolism, arachidonic acid metabolism subsystem"
 Estrogen metabolism	Lipid metabolism	Steroid hormone biosynthesis	hsa00140	"Subnetwork of KEGG pathway ""Steroid hormone biosynthesis"""
-Ether lipid metabolism	Lipid metabolism	Ether lipid metabolism	hsa00565	
+Ether lipid metabolism	Lipid metabolism	Ether lipid metabolism	hsa00565
 Fatty acid activation (cytosolic)	Lipid metabolism	Fatty acid biosynthesis	hsa00061	"Technically a part KEGG pathway ""Fatty acid biosynthesis"", primarily corresponds to acyl-CoA synthetase reactions across lipid species"
 Fatty acid biosynthesis	Lipid metabolism	Fatty acid biosynthesis	hsa00061	"Active remnants of enzymes for KEGG pathway ""Fatty acid biosynthesis"""
 Fatty acid biosynthesis (even-chain)	Lipid metabolism	Fatty acid biosynthesis	hsa00061	"Active remnants of enzymes for KEGG pathway ""Fatty acid biosynthesis"""
@@ -41,30 +41,30 @@ Fatty acid desaturation (even-chain)	Lipid metabolism	Biosynthesis of unsaturate
 Fatty acid elongation (even-chain)	Lipid metabolism	"Fatty acid biosynthesis, elongation"	hsa00061	"Active remnants of enzymes for module of KEGG pathway ""Fatty acid biosynthesis"""
 Fatty acid elongation (odd-chain)	Lipid metabolism	"Fatty acid biosynthesis, elongation"	hsa00061	"Active remnants of enzymes for module of KEGG pathway ""Fatty acid biosynthesis"""
 Fatty acid oxidation	Lipid metabolism	Fatty acid degradation	hsa00071	"Active remnants of enzymes for KEGG pathway ""Fatty acid degradation"""
-Glycerolipid metabolism	Lipid metabolism	Glycerolipid metabolism	hsa00561	
-Glycerophospholipid metabolism	Lipid metabolism	Glycerophospholipid metabolism	hsa00564	
+Glycerolipid metabolism	Lipid metabolism	Glycerolipid metabolism	hsa00561
+Glycerophospholipid metabolism	Lipid metabolism	Glycerophospholipid metabolism	hsa00564
 Leukotriene metabolism	Lipid metabolism			Curated category
-Linoleate metabolism	Lipid metabolism	Linoleic acid metabolism	hsa00591	
+Linoleate metabolism	Lipid metabolism	Linoleic acid metabolism	hsa00591
 Omega-3 fatty acid metabolism	Lipid metabolism			Curated category
 Omega-6 fatty acid metabolism	Lipid metabolism			Curated category
 Prostaglandin biosynthesis	Lipid metabolism			Curated category
 Retinol metabolism	Lipid metabolism	Retinol metabolism	hsa00830	Curated category
-Sphingolipid metabolism	Lipid metabolism	Sphingolipid metabolism	hsa00600	
+Sphingolipid metabolism	Lipid metabolism	Sphingolipid metabolism	hsa00600
 Steroid metabolism	Lipid metabolism	Steroid biosynthesis	hsa00100	"Subnetwork of KEGG pathway ""Steroid biosynthesis"""
 Biopterin metabolism	Metabolism of cofactors and vitamins	Folate biosynthesis	hsa00790	"Subnetwork of KEGG pathway ""Folate biosynthesis"""
-Folate metabolism	Metabolism of cofactors and vitamins	Folate biosynthesis;One carbon pool by folate	hsa00670;hsa00790	
-Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins	Nicotinate and nicotinamide metabolism	hsa00760	
-Pantothenate and CoA metabolism	Metabolism of cofactors and vitamins	Pantothenate and CoA biosynthesis	hsa00770	
-Porphyrin metabolism	Metabolism of cofactors and vitamins	Porphyrin metabolism	hsa00860	
-Riboflavin metabolism	Metabolism of cofactors and vitamins	Riboflavin metabolism	hsa00740	
-Thiamine metabolism	Metabolism of cofactors and vitamins	Thiamine metabolism	hsa00730	
-Vitamin B6 metabolism	Metabolism of cofactors and vitamins	Vitamin B6 metabolism	hsa00750	
+Folate metabolism	Metabolism of cofactors and vitamins	Folate biosynthesis;One carbon pool by folate	hsa00670;hsa00790
+Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins	Nicotinate and nicotinamide metabolism	hsa00760
+Pantothenate and CoA metabolism	Metabolism of cofactors and vitamins	Pantothenate and CoA biosynthesis	hsa00770
+Porphyrin metabolism	Metabolism of cofactors and vitamins	Porphyrin metabolism	hsa00860
+Riboflavin metabolism	Metabolism of cofactors and vitamins	Riboflavin metabolism	hsa00740
+Thiamine metabolism	Metabolism of cofactors and vitamins	Thiamine metabolism	hsa00730
+Vitamin B6 metabolism	Metabolism of cofactors and vitamins	Vitamin B6 metabolism	hsa00750
 Vitamin E metabolism	Metabolism of cofactors and vitamins			Curated category
 Glutathione metabolism	Metabolism of other amino acids	Glutathione metabolism	hsa00480	Grouped with amino acid category
 Selenocompound metabolism	Metabolism of other amino acids	Selenocompound metabolism	hsa00450	Group with amino acid category
 Nucleotide metabolism	Nucleotide metabolism			Curated category
-Purine metabolism	Nucleotide metabolism	Purine metabolism	hsa00230	
-Pyrimidine metabolism	Nucleotide metabolism	Pyrimidine metabolism	hsa00240	
+Purine metabolism	Nucleotide metabolism	Purine metabolism	hsa00230
+Pyrimidine metabolism	Nucleotide metabolism	Pyrimidine metabolism	hsa00240
 Miscellaneous	Other			"Representative subsystem for miscellaneous reactions that do not fit into any category (e.g., specie protonation/deprotatation/equilibration reactions)"
 Peptide metabolism	Other			Curated category
 Protein modification	Other			Curated category
@@ -72,7 +72,7 @@ Pseudoreactions	Pseudoreactions			"Representative subsystem for all exchanges, s
 Hemoglobin binding and degradation	Reactive species			Curated category
 Reactive species formation and detoxification	Reactive species	Chemical carcinogenesis - reactive oxygen species	hsa05208	"Curated category. Some reactions can be found in KEGG pathway ""Chemical carcinogenesis - reactive oxygen species"""
 Sulfur metabolism	Reactive species	Sulfur metabolism	hsa00920	"Categorized as energy metabolism in KEGG, but serves as reactive species in the context of RBCs"
-Aminoacyl-tRNA biosynthesis	Translation	Aminoacyl-tRNA biosynthesis	has00970	
+Aminoacyl-tRNA biosynthesis	Translation	Aminoacyl-tRNA biosynthesis	has00970
 "Transport, extracellular"	Transport reactions			"Representative subsystem for all transport reactions across the plasma membrane. In HumanGEM (v1.18.0), known as ""Transport Reactions"" and includes all transport reactions."
 Azathioprine and 6-mercaptopurine metabolism	Xenobiotics biodegradation and metabolism	Drug metabolism - other enzymes	hsa00983	"Subnetwork of KEGG pathway ""Drug metabolism - other enzymes"""
 Ribavirin metabolism	Xenobiotics biodegradation and metabolism			"Curated category, from reactome R-HSA-9755088, PharmGKB PA166271961"

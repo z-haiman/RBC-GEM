@@ -28,6 +28,7 @@ ANNOTATION_PATH = f"{DATA_PATH}/annotation"
 CURATION_PATH = f"{DATA_PATH}/curation"
 DATABASE_PATH = f"{EXTERNAL_PATH}/database"
 RESULTS_PATH = f"{DATA_PATH}/results"
+PARAMETERIZATION_PATH = f"{DATA_PATH}/parameterization"
 
 
 GEM_NAME = "RBC-GEM"
@@ -41,13 +42,11 @@ def show_versions():
     print_dependencies("rbc_gem_utils")
 
 
-def split_string(string_to_split, sep=None, raise_error=False):
+def split_string(string_to_split, sep=";", raise_error=False):
     """Split a string using the given seperator, removing any white space on each side of the item.
 
     Identical duplicates are removed, however the order of items is preserved in the returned list.
     """
-    if sep is None:
-        sep = ";"
     # Let any ordering occur before this method, e.g., first item is active acession and others are secondary accessions
     # Using dict constructor removes duplicates and preserves order based on entry into dict.
     if isinstance(string_to_split, str):
@@ -59,15 +58,13 @@ def split_string(string_to_split, sep=None, raise_error=False):
         return string_to_split
 
 
-def build_string(set_of_components, sep=None, raise_error=False):
+def build_string(set_of_components, sep=";", raise_error=False):
     """Build a string using the given seperator after sorting the given set of components.
 
     Identical duplicates are removed, however the order of items is preserved in the returned string.
     """
     # Using dict constructor removes duplicates and preserves order based on entry into dict.
     # Let any ordering occur before this
-    if sep is None:
-        sep = ";"
     if not isinstance(set_of_components, float):
         return sep.join(list(dict.fromkeys(ensure_iterable(set_of_components))))
 
@@ -110,6 +107,7 @@ def check_if_valid(to_check, valid_values, msg):
 
 
 def strip_plural(string):
+    """TODO DOCSTRING."""
     if string.endswith("ies"):
         return f'{string.rstrip("ies")}y'
     elif string.endswith("s"):
@@ -118,7 +116,8 @@ def strip_plural(string):
         return string
 
 
-def explode_column(df, name, sep=None):
+def explode_column(df, name, sep=";"):
+    """TODO DOCSTRING."""
     df = df.copy()
     name = ensure_iterable(name)
     for key in name:
@@ -127,4 +126,20 @@ def explode_column(df, name, sep=None):
 
 
 def has_value_type(element):
+    """TODO DOCSTRING."""
     return bool(element.text is not None and bool(element.text.strip()))
+
+
+def format_summary(header, body):
+    """Format the summary for pretty printing."""
+    LOGGER.debug("Formatting summary")
+    max_len = max([len(line) for line in body.split("\n")] + [len(header)])
+    header = "".join(
+        (
+            " " * int((max_len - len(header)) / 2),
+            header,
+            " " * int((max_len - len(header)) / 2),
+        )
+    )
+    summary = "\n".join(("=" * max_len, header, "-" * max_len, body, "=" * max_len))
+    return summary

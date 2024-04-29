@@ -1,17 +1,19 @@
 ---
-name: 🐞 Bug report
+name: "\U0001F41E Bug report"
 about: If you have run into a bug/problem/error when using the model.
+title: ''
 labels: bug
 assignees: ''
 
 ---
+
 <!-- Note: Based on issue templates for standard-GEMs (e.g., Human-GEM, Yeast-GEM). -->
 
 <!-- Note: Please search to see if an issue already exists for the bug you encountered. -->
 
 <!-- Make sure you use the latest RBC-GEM version. -->
 
-<!-- For convenience, when referring to a particular reaction/metabolite/gene identifiers, 
+<!-- For convenience, when referring to a particular reaction/metabolite/gene identifiers,
 
 #### Current behavior:
 <!-- A concise description of what you're experiencing. Try to be as clear as possible: Is it something wrong/missing in the model? Is it a simulation issue? How does the reaction/metabolite/gene/simulation look like in the `main` branch? -->
@@ -32,4 +34,3 @@ assignees: ''
 <!--
 Links? References? Anything that will give us more context about the issue that you are encountering!
 -->
-
