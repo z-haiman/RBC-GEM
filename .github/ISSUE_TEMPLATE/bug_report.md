@@ -1,10 +1,12 @@
 ---
-name: 🐞 Bug report
+name: "\U0001F41E Bug report"
 about: If you have run into a bug/problem/error when using the model.
+title: ''
 labels: bug
 assignees: ''
 
 ---
+
 <!-- Note: Based on issue templates for standard-GEMs (e.g., Human-GEM, Yeast-GEM). -->
 
 <!-- Note: Please search to see if an issue already exists for the bug you encountered. -->
@@ -32,4 +34,3 @@ assignees: ''
 <!--
 Links? References? Anything that will give us more context about the issue that you are encountering!
 -->
-

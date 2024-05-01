@@ -1,10 +1,12 @@
 ---
-name: ❔ Question/help
-about: If you have a question about the model or need some help with its use.  
-labels: help
+name: "❔ Question/help"
+about: If you have a question about the model or need some help with its use.
+title: ''
+labels: ''
 assignees: ''
 
 ---
+
 <!-- Note: Based on issue templates for standard-GEMs (e.g., Human-GEM, Yeast-GEM). -->
 
 <!-- Note: Please search to see if an issue already exists for the bug you encountered. -->

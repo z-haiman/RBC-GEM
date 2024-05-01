@@ -1,10 +1,13 @@
 ---
-name: ✏️ Propose curation
-about: If you want to suggest a specific change to the model (e.g. new reaction, correct gene association, remove duplicate metabolite).
+name: "✏️ Propose curation"
+about: If you want to suggest a specific change to the model (e.g. new reaction, correct
+  gene association, remove duplicate metabolite).
+title: ''
 labels: curation
 assignees: ''
 
 ---
+
 <!-- Note: Based on issue templates for standard-GEMs (e.g., Human-GEM, Yeast-GEM). -->
 
 <!-- Note: Please search to see if an issue already exists for the curation you propose. -->
