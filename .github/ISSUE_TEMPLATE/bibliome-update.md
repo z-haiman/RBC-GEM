@@ -26,7 +26,7 @@ PMID:19997026 | Follow-up study with additional results complimenting **PMID:168
 #### Affected items
 <!-- The PubMed ID or the DOI for the reference to be added/modified. Preferably, both can be supplied. If neither can be supplied, provide another method of access for the reference and a brief explanation for alternate access method.  If multiple articles are included in the change, consider using a table or a numerated list.
 
-Entry | Type | PubMed ID  or DOI 
+Entry | Type | PubMed ID  or DOI
 ---|---|---
 G6PD | Gene | pubmed:16888458;pubmed:19997026
 -->

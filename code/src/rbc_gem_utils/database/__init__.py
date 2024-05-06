@@ -2,17 +2,13 @@ from warnings import warn
 
 from rbc_gem_utils.util import ensure_iterable
 
-from .ec import (
-    get_version_EC,
-    EC_DB_TAG,
-    EC_VERSION_EXPECTED,
-)
 from .drugbank import (
     DRUGBANK_DB_TAG,
     DRUGBANK_PATH,
     DRUGBANK_VERSION_EXPECTED,
     get_version_DrugBank,
 )
+from .ec import EC_DB_TAG, EC_VERSION_EXPECTED, get_version_EC
 from .metatlas import (
     HUMANGEM_DB_TAG,
     HUMANGEM_PATH,

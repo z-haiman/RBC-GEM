@@ -7,11 +7,11 @@ Notes
 * Code last updated: May 2024
 
 """
-from warnings import warn
 import logging
 import pathlib
-
 import re
+from warnings import warn
+
 import requests
 
 from rbc_gem_utils.util import DATABASE_PATH, ROOT_PATH, check_if_valid
@@ -22,7 +22,7 @@ LOGGER = logging.getLogger(__name__)
 EC_URL = "https://ftp.expasy.org/databases/enzyme/"
 EC_RELEASE_RE = re.compile(r"Release:     (?P<release>\d+-\S+-\d+)")
 EC_FILENAMES = {
-    "enzyme.dat", 
+    "enzyme.dat",
     "enzyme.rdf",
     "enzclass.txt",
     "enzuser.txt",
@@ -31,6 +31,7 @@ EC_FILENAMES = {
 EC_PATH = "/EC"
 EC_DB_TAG = "EC"
 EC_VERSION_EXPECTED = "27-Mar-2024"
+
 
 def get_version_EC():
     """Return the current version of ENZYME nomenclature database."""
@@ -43,7 +44,6 @@ def get_version_EC():
         return None
 
     return match.group("release")
-
 
 
 def download_database_EC(filename=None, database_dirpath=None):
