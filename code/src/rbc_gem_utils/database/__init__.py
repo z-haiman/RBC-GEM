@@ -2,6 +2,11 @@ from warnings import warn
 
 from rbc_gem_utils.util import ensure_iterable
 
+from .ec import (
+    get_version_EC,
+    EC_DB_TAG,
+    EC_VERSION_EXPECTED,
+)
 from .drugbank import (
     DRUGBANK_DB_TAG,
     DRUGBANK_PATH,
@@ -36,6 +41,7 @@ def check_database_version_online(database, expected=None, verbose=False):
         DRUGBANK_DB_TAG: (get_version_DrugBank, DRUGBANK_VERSION_EXPECTED),
         HUMANGEM_DB_TAG: (get_version_HumanGEM, HUMANGEM_VERSION_EXPECTED),
         UNIPROT_DB_TAG: (get_version_UniProt, UNIPROT_VERSION_EXPECTED),
+        EC_DB_TAG: (get_version_EC, EC_VERSION_EXPECTED),
     }
     try:
         get_version_func, default_expected = database_versfunc_expected_dict[database]
@@ -51,7 +57,7 @@ def check_database_version_online(database, expected=None, verbose=False):
 
 
 def check_version(current, expected, verbose=False):
-    """Check the current version against the expected version, returning ``True`` if they match.."""
+    """Check the current version against the expected version, returning ``True`` if they match."""
     if current == expected:
         if verbose:
             print("Current and expected versions match.")
