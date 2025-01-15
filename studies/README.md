@@ -2,7 +2,7 @@
 
 This directory contains publication-related scripts and functions. Notebooks in this directory are often one-time use and do not get updated with later versions of the RBC-GEM.
 
-Some folders may be compressed in an effort to save space. Others may be too big for GitHub. Consequently, all items associated with a study can be found in the corresponding Zenodo. 
+Some folders may be compressed in an effort to save space. Others may be too big for GitHub. Consequently, all items associated with a study can be found in the corresponding Zenodo.
 Be sure to unzip all folders compressed associated with a study and double check filepaths for this reason!
 
 ## rbc1
