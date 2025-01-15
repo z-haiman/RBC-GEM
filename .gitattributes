@@ -10,4 +10,4 @@
 # Denote all files that are truly binary and should not be modified.
 *.xlsx
 *.zip
-*.psd filter=lfs diff=lfs merge=lfs -text
+studies/**/**.zip filter=lfs diff=lfs merge=lfs -text
