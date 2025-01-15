@@ -1,9 +1,11 @@
 """
 Contains various miscellaneous utility functions to help work with the RBC-GEM repository
 """
+
 import logging
 from pathlib import Path
 
+import numpy as np
 from cobra import Configuration
 from depinfo import print_dependencies
 
@@ -30,11 +32,23 @@ DATABASE_PATH = f"{EXTERNAL_PATH}/database"
 RESULTS_PATH = f"{DATA_PATH}/results"
 PARAMETERIZATION_PATH = f"{DATA_PATH}/parameterization"
 
-
 GEM_NAME = "RBC-GEM"
 GEM_URL = f"{RAW_GH_URL}/z-haiman/{GEM_NAME}"
 GEM_MODEL_FILETYPES = {"mat", "json", "xml", "yml"}
 MAP_NAMES = {f"{GEM_NAME}.full.map"}
+
+
+AVOGADRO_NUMBER = 6.02214076e23
+DEFAULT_DRY_MASS_PER_CELL = 30  # pg / living RBC
+# 31.4 pg/cell         PMID: 14919571
+# 27 to 32 pg/cell     PMID: 23005682
+# 27.3 +/- 5.3 pg/cell PMID: 22934287
+# 33.4 +/- 4.1 pg/cell PMID: 26720876
+DEFAULT_VOLUME_PER_CELL = 90  # fL / living RBC, fL = um^3
+# bionumbers:101722;bionumbers:101723;bionumers:101724
+DEFAULT_WATER_PER_VOLUME = 0.717
+# 87 +/- 7 fL/cell PMID: 21250103
+# 100.6 +/- 4 fL/cell PMID: 26720876
 
 
 def show_versions():
@@ -106,14 +120,16 @@ def check_if_valid(to_check, valid_values, msg):
     return to_check
 
 
-def strip_plural(string):
+def strip_plural(s):
     """TODO DOCSTRING."""
-    if string.endswith("ies"):
-        return f'{string.rstrip("ies")}y'
-    elif string.endswith("s"):
-        return string.rstrip("s")
+    if s.endswith("ies"):
+        return f"{s[:-3]}y"
+    elif s.endswith("xes"):
+        return f"{s[:-2]}"
+    elif s.endswith("s"):
+        return f"{s[:-1]}"
     else:
-        return string
+        return s
 
 
 def explode_column(df, name, sep=";"):
@@ -143,3 +159,35 @@ def format_summary(header, body):
     )
     summary = "\n".join(("=" * max_len, header, "-" * max_len, body, "=" * max_len))
     return summary
+
+
+def log_msg(logger, lvl, msg, *args, print_lvl=0):
+    """Log the message at the request level, and print to console if desired."""
+    logger.log(lvl, msg, *args)
+    if print_lvl and 0 <= lvl - print_lvl:
+        print(msg % args)
+
+
+def convert_gDW_to_L(
+    value,
+    pgDW_per_cell=DEFAULT_DRY_MASS_PER_CELL,
+    fL_per_cell=DEFAULT_VOLUME_PER_CELL,
+    water_fraction=DEFAULT_WATER_PER_VOLUME,
+):
+    """Convert the value given in per dry weight to per liter"""
+    # Conversion from Aq. volume
+    # (pgDW / (fL RBC * (H2O / RBC))) --> (pgDW / 0.001 pL) --> 1000 * (gDW / L) conversion factor to value per L
+    # Assuming value is given as mmol / gDW, then new value is returned as mmol / L
+    return value * 1000 * (pgDW_per_cell / (fL_per_cell * water_fraction))
+
+
+def convert_L_to_gDW(
+    value,
+    pgDW_per_cell=DEFAULT_DRY_MASS_PER_CELL,
+    fL_per_cell=DEFAULT_VOLUME_PER_CELL,
+    water_fraction=DEFAULT_WATER_PER_VOLUME,
+):
+    """Convert the value given in per liter to per dry weight"""
+    # (fL RBC * (H2O / RBC)/ pgDW) --> (0.001 pL / pgDW) --> 0.001 * (L / gDW) conversion factor to value per L
+    # Assuming value is given as mmol / L, then new value is returned as mmol / gDW
+    return value * 0.001 * ((fL_per_cell * water_fraction) / pgDW_per_cell)

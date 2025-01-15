@@ -1,25 +1,25 @@
-#	metabolites	name	formula	charge	compartment	metabolomic evidence (#studies)	metabolomic evidence (pubmed)	references	notes
-	diiodthy__L_c	"3,3'-Diiodo-L-thyronine (T2)"	C15H13I2NO4	0	c
-	diiodthy__L_e	"3,3'-Diiodo-L-thyronine (T2)"	C15H13I2NO4	0	e
-	hser__L_e	L-homoserine	C4H9NO3	0	e
-	hLkynr_c	3-hydroxy-L-kynurenine	C10H12N2O4	0	c
-	hser__L_c	L-homoserine	C4H9NO3	0	c
-	3mtp_c	3-(methylsulfanyl)propanoate	C4H7O2S	-1	c
-	3mtp_e	3-(methylsulfanyl)propanoate	C4H7O2S	-1	e
-	hLkynr_e	3-hydroxy-L-kynurenine	C10H12N2O4	0	e
-	mercpur_e	6-mercaptopurine	C5H4N4S	0	e
-	thiogmp_e	6-thioguanosine monophosphate	C10H12N5O7PS	-2	e
-	thioimp_e	6-thioinosine monophosphate	C10H11N4O7PS	-2	e
-	thioxmp_e	6-thioxanthosine 5'-monophosphate	C10H11N4O8PS	-2	e
-	thiogdp_c	6-thioguanosine diphosphate	C10H12N5O10P2S	-3	c
-	thiogtp_c	6-thioguanosine triphosphate	C10H12N5O13P3S	-4	c
-	triaz3crbxam_c	"1,2,4-triazole-3-carboxamide"	C3H4N4O	0	c
-	ribavirin_e	RIbavirin	C8H12N4O5	0	e
-	ribavirin_c	RIbavirin	C8H12N4O5	0	c
-	rbvcbxlt_c	Ribavirin carboxylate	C8H10N3O6	-1	c
-	rbvmp_c	Ribavirin monophosphate	C8H11N4O8P	-2	c
-	rbvdp_c	Ribavirin diphosphate	C8H11N4O11P2	-3	c
-	rbvtp_c	Ribavirin triphosphate	C8H11N4O14P3	-4	c
-	5flura_c	5-Fluorouracil	C4H3FN2O2	0	c
-	5flura_e	5-Fluorouracil	C4H3FN2O2	0	e
-	bilirub_e	Bilirubin	C33H34N4O6	-2	e
+metabolites	name	formula	charge	compartment	metabolomic evidence (#studies)	metabolomic evidence (pubmed)	references	notes
+diiodthy__L_c	"3,3'-Diiodo-L-thyronine (T2)"	C15H13I2NO4	0	c
+diiodthy__L_e	"3,3'-Diiodo-L-thyronine (T2)"	C15H13I2NO4	0	e
+hser__L_e	L-homoserine	C4H9NO3	0	e
+hLkynr_c	3-hydroxy-L-kynurenine	C10H12N2O4	0	c
+hser__L_c	L-homoserine	C4H9NO3	0	c
+3mtp_c	3-(methylsulfanyl)propanoate	C4H7O2S	-1	c
+3mtp_e	3-(methylsulfanyl)propanoate	C4H7O2S	-1	e
+hLkynr_e	3-hydroxy-L-kynurenine	C10H12N2O4	0	e
+mercpur_e	6-mercaptopurine	C5H4N4S	0	e
+thiogmp_e	6-thioguanosine monophosphate	C10H12N5O7PS	-2	e
+thioimp_e	6-thioinosine monophosphate	C10H11N4O7PS	-2	e
+thioxmp_e	6-thioxanthosine 5'-monophosphate	C10H11N4O8PS	-2	e
+thiogdp_c	6-thioguanosine diphosphate	C10H12N5O10P2S	-3	c
+thiogtp_c	6-thioguanosine triphosphate	C10H12N5O13P3S	-4	c
+triaz3crbxam_c	"1,2,4-triazole-3-carboxamide"	C3H4N4O	0	c
+ribavirin_e	RIbavirin	C8H12N4O5	0	e
+ribavirin_c	RIbavirin	C8H12N4O5	0	c
+rbvcbxlt_c	Ribavirin carboxylate	C8H10N3O6	-1	c
+rbvmp_c	Ribavirin monophosphate	C8H11N4O8P	-2	c
+rbvdp_c	Ribavirin diphosphate	C8H11N4O11P2	-3	c
+rbvtp_c	Ribavirin triphosphate	C8H11N4O14P3	-4	c
+5flura_c	5-Fluorouracil	C4H3FN2O2	0	c
+5flura_e	5-Fluorouracil	C4H3FN2O2	0	e
+bilirub_e	Bilirubin	C33H34N4O6	-2	e

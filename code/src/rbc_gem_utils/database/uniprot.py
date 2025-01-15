@@ -43,7 +43,7 @@ UNIPROT_PATH = "/UniProt"
 # Extracted from https://www.uniprot.org/help/return_fields_databases
 # Note some corrections were made due to what looked like typos in table
 # TODO Add the BeautifulSoup methods for table extraction
-UNIPROT_VERSION_EXPECTED = "2024_02"
+UNIPROT_VERSION_EXPECTED = "2024_06"
 UNIPROT_DB_TAG = "UniProt"
 UNIPROT_QUERY_LABEL_MIRIAM = {
     # query field: label, https://identifiers.org/
@@ -180,6 +180,7 @@ UNIPROT_QUERY_LABEL_MIRIAM = {
     "xref_pir": ("PIR", ""),
     ## 3D structure databases
     "xref_bmrb": ("BMRB", "bmrb"),
+    "xref_emdb": ("EMDB", "emdb"),
     "xref_pcddb": ("PCDDB", ""),
     "xref_pdb": ("PDB", "pdb"),
     "xref_pdbsum": ("PDBsum", ""),
@@ -230,7 +231,7 @@ UNIPROT_QUERY_LABEL_MIRIAM = {
     "xref_dbsnp": ("dbSNP", "dbsnp"),
     "xref_dmdm": ("DMDM", ""),
     ## 2D gel
-    "xref_compluyeast-2dpage": ("COMPLUYEAST-2DPAGE", "compluyeast"),
+    # "xref_compluyeast-2dpage": ("COMPLUYEAST-2DPAGE", "compluyeast"),
     "xref_dosac-cobs-2dpage": ("DOSAC-COBS-2DPAGE", ""),
     "xref_ogp": ("OGP", ""),
     "xref_reproduction-2dpage": ("REPRODUCTION-2DPAGE", ""),
@@ -239,10 +240,10 @@ UNIPROT_QUERY_LABEL_MIRIAM = {
     "xref_world-2dpage": ("World-2DPAGE", ""),
     ## Proteomic databases
     "xref_cptac": ("CPTAC", ""),
-    "xref_epd": ("EPD", "epd"),
+    # "xref_epd": ("EPD", "epd"), # Discontinued?
     "xref_jpost": ("jPOST", ""),
     "xref_massive": ("MassIVE", "massive"),
-    "xref_maxqb": ("MaxQB", "maxqb"),
+    # "xref_maxqb": ("MaxQB", "maxqb"),
     "xref_pride": ("PRIDE", "pride"),
     "xref_paxdb": ("PaxDb", "paxdb.protein"),
     "xref_peptideatlas": ("PeptideAtlas", "peptideatlas"),

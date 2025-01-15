@@ -107,9 +107,9 @@ def compare_series(old, new, to_compare=None):
     # Determine new entries that were made as blanks
     compared.loc[new[new.isna()].index, name] = "EMPTY"
     # Entries that were intentionally changed from having a value to being blank should be marked as removed
-    compared.loc[
-        old[~old.isna()].index.intersection(new[new.isna()].index), name
-    ] = "REMOVED"
+    compared.loc[old[~old.isna()].index.intersection(new[new.isna()].index), name] = (
+        "REMOVED"
+    )
     # All remaining entries are EMPTY in both datasets
     missing = set(to_compare).difference(compared.index)
     if missing:
@@ -146,6 +146,7 @@ def compare_tables(old, new, to_compare=None):
 
 
 def reset_subsystem_groups(model):
+    """Reset all groups in the model using the Reaction subsystem attribute."""
     model.remove_groups(model.groups)
     for subsystem in sorted(set(model.reactions.list_attr("subsystem"))):
         reaction_list = model.reactions.query(lambda x: x.subsystem == subsystem)
@@ -156,15 +157,19 @@ def reset_subsystem_groups(model):
             group = model.groups.get_by_id(subsystem).add_members(reaction_list)
 
 
-def reset_reaction_bounds(model):
-    for reaction in model.reactions:
+def reset_reaction_bounds(model, reaction_list=None):
+    if reaction_list is None:
+        reaction_list = model.reactions
+    else:
+        reaction_list = model.reactions.get_by_any(reaction_list)
+
+    for reaction in reaction_list:
         if reaction.bounds == COBRA_CONFIGURATION.bounds or reaction.bounds == (
             0.0,
             COBRA_CONFIGURATION.upper_bound,
         ):
             # Already at default, no need to change
             continue
-        print(f"Before: {reaction}")
         if reaction.boundary:
             if reaction.id.startswith("DM_"):
                 reaction.bounds = (0.0, COBRA_CONFIGURATION.upper_bound)

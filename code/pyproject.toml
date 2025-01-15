@@ -27,6 +27,11 @@ dependencies = [
   "notebook",
   "depinfo",
   "pre-commit",
+  "networkx",
+  "gurobipy",
+  "seaborn",
+  "matplotlib",
+  "matplotlib_venn",
 ]
 requires-python = ">=3.8"
 authors = [
@@ -48,9 +53,8 @@ classifiers = [
 dynamic = ["version", "readme"]
 
 [project.optional-dependencies]
+overlay = ["gurobipy"]
 database = ["beautifulsoup4", "requests", "Bio"]
-vis = ["seaborn", "matplotlib"]
-network = ["pyvis", "kaleido", "networkx"]
 all = ["rbc_gem_utils[database,vis,network]"]
 
 [project.urls]

@@ -1,0 +1,150 @@
+enzyme	compartment	complex	complex_keff	reactions	direction	unit	references	notes	conversions
+enzyme_ADK1	c	cplx_MONOMER_AK1	13680000	ADK1	amp_c + atp_c --> 2.0 adp_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"3.8 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_ADK1_rev	c	cplx_MONOMER_AK1	7488000	ADK1	amp_c + atp_c <-- 2.0 adp_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"2.08 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_DPGase	c	cplx_HOMODIMER_BPGM	1764	DPGase	23dpg_c + h2o_c --> 3pg_c + pi_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"0.49 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_DPGase_rev	c	cplx_HOMODIMER_BPGM	0	DPGase	23dpg_c + h2o_c <-- 3pg_c + pi_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model
+enzyme_DPGM	c	cplx_HOMODIMER_BPGM	35280	DPGM	13dpg_c --> 23dpg_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"9.8 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_DPGM	c	cplx_HOMODIMER_PGAM1	1080	DPGM	13dpg_c --> 23dpg_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"0.3 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_DPGM_rev	c	cplx_HOMODIMER_BPGM	0	DPGM	13dpg_c <-- 23dpg_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model
+enzyme_DPGM_rev	c	cplx_HOMODIMER_PGAM1	0	DPGM	13dpg_c <-- 23dpg_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model
+enzyme_ENO	c	cplx_HOMODIMER_ENO1	684000	ENO	2pg_c --> h2o_c + pep_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"190 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_ENO	c	cplx_HETERODIMER_ENO_AG	684000	ENO	2pg_c --> h2o_c + pep_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"190 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_ENO	c	cplx_HETERODIMER_ENO_AB	684000	ENO	2pg_c --> h2o_c + pep_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"190 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_ENO	c	cplx_HOMODIMER_ENO2	684000	ENO	2pg_c --> h2o_c + pep_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"190 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_ENO	c	cplx_HETERODIMER_ENO_BG	684000	ENO	2pg_c --> h2o_c + pep_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"190 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_ENO	c	cplx_HOMODIMER_ENO3	684000	ENO	2pg_c --> h2o_c + pep_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"190 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_ENO_rev	c	cplx_HOMODIMER_ENO1	180000	ENO	2pg_c <-- h2o_c + pep_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"50 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_ENO_rev	c	cplx_HETERODIMER_ENO_AG	180000	ENO	2pg_c <-- h2o_c + pep_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"50 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_ENO_rev	c	cplx_HETERODIMER_ENO_AB	180000	ENO	2pg_c <-- h2o_c + pep_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"50 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_ENO_rev	c	cplx_HOMODIMER_ENO2	180000	ENO	2pg_c <-- h2o_c + pep_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"50 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_ENO_rev	c	cplx_HETERODIMER_ENO_BG	180000	ENO	2pg_c <-- h2o_c + pep_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"50 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_ENO_rev	c	cplx_HOMODIMER_ENO3	180000	ENO	2pg_c <-- h2o_c + pep_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"50 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_FBA	c	cplx_HOMOTETRAMER_ALDOA	244800	FBA	fdp_c --> dhap_c + g3p_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"68 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_FBA	c	cplx_HOMOTETRAMER_ALDOB	244800	FBA	fdp_c --> dhap_c + g3p_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"68 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_FBA	c	cplx_HOMOTETRAMER_ALDOC	244800	FBA	fdp_c --> dhap_c + g3p_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"68 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_FBA_rev	c	cplx_HOMOTETRAMER_ALDOA	842400	FBA	fdp_c <-- dhap_c + g3p_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"234 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_FBA_rev	c	cplx_HOMOTETRAMER_ALDOB	842400	FBA	fdp_c <-- dhap_c + g3p_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"234 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_FBA_rev	c	cplx_HOMOTETRAMER_ALDOC	842400	FBA	fdp_c <-- dhap_c + g3p_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"234 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_GAPD	c	cplx_HOMOTETRAMER_GAPDH	835200	GAPD	g3p_c + nad_c + pi_c --> 13dpg_c + h_c + nadh_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"232 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_GAPD	c	cplx_HOMOTETRAMER_GAPDHS	835200	GAPD	g3p_c + nad_c + pi_c --> 13dpg_c + h_c + nadh_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"232 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_GAPD_rev	c	cplx_HOMOTETRAMER_GAPDH	9954000	GAPD	g3p_c + nad_c + pi_c --> 13dpg_c + h_c + nadh_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"2765 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_GAPD_rev	c	cplx_HOMOTETRAMER_GAPDHS	9954000	GAPD	g3p_c + nad_c + pi_c --> 13dpg_c + h_c + nadh_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"2765 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_HEX1	c	cplx_MONOMER_HK1	648000	HEX1	atp_c + glc__D_c --> adp_c + g6p_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"180 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_HEX1_rev	c	cplx_MONOMER_HK1	4176	HEX1	atp_c + glc__D_c <-- adp_c + g6p_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477271	Based on comprensive kinetic RBC model	"1.16 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_HEX1a	c	cplx_MONOMER_HK1	648000	HEX1a	atp_c + glc__aD_c --> adp_c + g6p__aD_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477274	Based on comprensive kinetic RBC model	"180  (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_HEX1a_rev	c	cplx_MONOMER_HK1	4176	HEX1a	atp_c + glc__aD_c <-- adp_c + g6p__aD_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477275	Based on comprensive kinetic RBC model	"1.16 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_LDH_L	c	cplx_HOMOTETRAMER_LDHA	3456000	LDH_L	h_c + nadh_c + pyr_c --> lac__L_c + nad_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"960 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_LDH_L	c	cplx_HETEROTETRAMER_LDHA_LDHB_A1B3	3456000	LDH_L	h_c + nadh_c + pyr_c --> lac__L_c + nad_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"960 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_LDH_L	c	cplx_HETEROTETRAMER_LDHA_LDHB_A2B2	3456000	LDH_L	h_c + nadh_c + pyr_c --> lac__L_c + nad_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"960 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_LDH_L	c	cplx_HETEROTETRAMER_LDHA_LDHB_A3B1	3456000	LDH_L	h_c + nadh_c + pyr_c --> lac__L_c + nad_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"960 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_LDH_L	c	cplx_HOMOTETRAMER_LDHB	3456000	LDH_L	h_c + nadh_c + pyr_c --> lac__L_c + nad_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"960 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_LDH_L_rev	c	cplx_HOMOTETRAMER_LDHA	734400	LDH_L	h_c + nadh_c + pyr_c <-- lac__L_c + nad_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"204 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_LDH_L_rev	c	cplx_HETEROTETRAMER_LDHA_LDHB_A1B3	734400	LDH_L	h_c + nadh_c + pyr_c <-- lac__L_c + nad_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"204 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_LDH_L_rev	c	cplx_HETEROTETRAMER_LDHA_LDHB_A2B2	734400	LDH_L	h_c + nadh_c + pyr_c <-- lac__L_c + nad_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"204 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_LDH_L_rev	c	cplx_HETEROTETRAMER_LDHA_LDHB_A3B1	734400	LDH_L	h_c + nadh_c + pyr_c <-- lac__L_c + nad_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"204 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_LDH_L_rev	c	cplx_HOMOTETRAMER_LDHB	734400	LDH_L	h_c + nadh_c + pyr_c <-- lac__L_c + nad_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"204 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_PFK	c	cplx_HOMOTETRAMER_PFKL	2959200	PFK	atp_c + f6p_c --> adp_c + fdp_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"822 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_PFK	c	cplx_HETEROTETRAMER_PFKL_PFKM_M1L3	2959200	PFK	atp_c + f6p_c --> adp_c + fdp_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"822 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_PFK	c	cplx_HETEROTETRAMER_PFKL_PFKM_M2L2	2959200	PFK	atp_c + f6p_c --> adp_c + fdp_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"822 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_PFK	c	cplx_HETEROTETRAMER_PFKL_PFKM_M3L1	2959200	PFK	atp_c + f6p_c --> adp_c + fdp_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"822 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_PFK	c	cplx_HETEROTETRAMER_PFKL_PFKP_P1L3	2959200	PFK	atp_c + f6p_c --> adp_c + fdp_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"822 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_PFK	c	cplx_HETEROTETRAMER_PFKL_PFKP_P2L2	2959200	PFK	atp_c + f6p_c --> adp_c + fdp_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"822 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_PFK	c	cplx_HETEROTETRAMER_PFKL_PFKP_P3L1	2959200	PFK	atp_c + f6p_c --> adp_c + fdp_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"822 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_PFK	c	cplx_HOMOTETRAMER_PFKM	2959200	PFK	atp_c + f6p_c --> adp_c + fdp_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"822 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_PFK	c	cplx_HOMOTETRAMER_PFKP	2959200	PFK	atp_c + f6p_c --> adp_c + fdp_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"822 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_PFK_rev	c	cplx_HOMOTETRAMER_PFKL	129600	PFK	atp_c + f6p_c <-- adp_c + fdp_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"36 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_PFK_rev	c	cplx_HETEROTETRAMER_PFKL_PFKM_M1L3	129600	PFK	atp_c + f6p_c <-- adp_c + fdp_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"36 (1 / s)
+* (3600 s / 1 hr)"
+enzyme_PFK_rev	c	cplx_HETEROTETRAMER_PFKL_PFKM_M2L2	129600	PFK	atp_c + f6p_c <-- adp_c + fdp_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"36 (1 / s)
+* (3600 s / 1 hr)"
+enzyme_PFK_rev	c	cplx_HETEROTETRAMER_PFKL_PFKM_M3L1	129600	PFK	atp_c + f6p_c <-- adp_c + fdp_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"36 (1 / s)
+* (3600 s / 1 hr)"
+enzyme_PFK_rev	c	cplx_HETEROTETRAMER_PFKL_PFKP_P1L3	129600	PFK	atp_c + f6p_c <-- adp_c + fdp_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"36 (1 / s)
+* (3600 s / 1 hr)"
+enzyme_PFK_rev	c	cplx_HETEROTETRAMER_PFKL_PFKP_P2L2	129600	PFK	atp_c + f6p_c <-- adp_c + fdp_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"36 (1 / s)
+* (3600 s / 1 hr)"
+enzyme_PFK_rev	c	cplx_HETEROTETRAMER_PFKL_PFKP_P3L1	129600	PFK	atp_c + f6p_c <-- adp_c + fdp_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"36 (1 / s)
+* (3600 s / 1 hr)"
+enzyme_PFK_rev	c	cplx_HOMOTETRAMER_PFKM	129600	PFK	atp_c + f6p_c <-- adp_c + fdp_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"36 (1 / s)
+* (3600 s / 1 hr)"
+enzyme_PFK_rev	c	cplx_HOMOTETRAMER_PFKP	129600	PFK	atp_c + f6p_c <-- adp_c + fdp_c + h_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"36 (1 / s)
+* (3600 s / 1 hr)"
+enzyme_PGI	c	cplx_HOMODIMER_GPI	5292000	PGI	g6p_c --> f6p_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"1470 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_PGI_rev	c	cplx_HOMODIMER_GPI	6336000	PGI	g6p_c <-- f6p_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"1760 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_PGK	c	cplx_MONOMER_PGK1	8244000	PGK	13dpg_c + adp_c --> 3pg_c + atp_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"2290 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_PGK	c	cplx_MONOMER_PGK2	8244000	PGK	13dpg_c + adp_c --> 3pg_c + atp_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"2290 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_PGK_rev	c	cplx_MONOMER_PGK1	3301200	PGK	13dpg_c + adp_c --> 3pg_c + atp_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"917 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_PGK_rev	c	cplx_MONOMER_PGK2	3301200	PGK	13dpg_c + adp_c --> 3pg_c + atp_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"917 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_PGM	c	cplx_HOMODIMER_BPGM	12.24	PGM	3pg_c --> 2pg_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"0.0034 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_PGM	c	cplx_HOMODIMER_PGAM1	2862000	PGM	3pg_c --> 2pg_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"795  (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_PGM_rev	c	cplx_HOMODIMER_BPGM	2016	PGM	3pg_c <-- 2pg_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"0.56  (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_PGM_rev	c	cplx_HOMODIMER_PGAM1	2570400	PGM	3pg_c <-- 2pg_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"714 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_PYK	c	cplx_HOMOTETRAMER_PKLR	4989600	PYK	adp_c + h_c + pep_c --> atp_c + pyr_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"1386 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_PYK_rev	c	cplx_HOMOTETRAMER_PKLR	11736	PYK	adp_c + h_c + pep_c <-- atp_c + pyr_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"3.26  (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_TPI	c	cplx_HOMODIMER_TPI1	4608000	TPI	dhap_c --> g3p_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"1280 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"
+enzyme_TPI_rev	c	cplx_HOMODIMER_TPI1	52416000	TPI	dhap_c <-- g3p_c	1 / hr	pubmed:10477268;pubmed:10477269;pubmed:10477270	Based on comprensive kinetic RBC model	"14560 (mol product /  mol enzyme / s)
+* (3600 s / 1 hr)"

@@ -8,15 +8,20 @@ Notes
 
 """
 
+from datetime import datetime
+
+import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-from datetime import datetime
-import pandas as pd
 
-COMPLEXPORTAL_URL = "https://ftp.ebi.ac.uk/pub/databases/intact/complex/current/complextab/"
-COMPLEXPORTAL_VERSION_EXPECTED = "2024-02-14"
+
+COMPLEXPORTAL_URL = (
+    "https://ftp.ebi.ac.uk/pub/databases/intact/complex/current/complextab/"
+)
+COMPLEXPORTAL_VERSION_EXPECTED = "2024-12-10"
 COMPLEXPORTAL_DB_TAG = "ComplexPortal"
 COMPLEXPORTAL_PATH = "/ComplexPortal"
+
 
 def get_version_ComplexPortal(taxomony_int=9606):
     """Return the current version of ComplexPortal database."""
@@ -29,7 +34,11 @@ def get_version_ComplexPortal(taxomony_int=9606):
     header = soup.table
     taxomony_int = str(taxomony_int)
     for tr in header.find_all("tr"):
-        ref = [ref.parent.parent for ref in tr.find_all("a") if ref.text.split(".")[0] == f"{taxomony_int}"]
+        ref = [
+            ref.parent.parent
+            for ref in tr.find_all("a")
+            if ref.text.split(".")[0] == f"{taxomony_int}"
+        ]
         if not ref:
             continue
         # Third item has date and time stamp
@@ -38,6 +47,7 @@ def get_version_ComplexPortal(taxomony_int=9606):
 
     release = datetime.strptime(date_time, "%Y-%m-%d %H:%M").strftime("%Y-%m-%d")
     return release
+
 
 def parse_complex_participants(series):
     """Parse complex participants and stoichiometry. A stoichiometric cefficient of 0 indicates unclear stoichiometry."""
@@ -49,10 +59,13 @@ def parse_complex_participants(series):
     col2 = series.apply(lambda x: x.split("(")[-1].rstrip(")"))
     col2.name = "stoichiometry"
 
-    df = pd.concat((
-        series, 
-        col1,
-        col2, 
-    ), axis=1)
-    
+    df = pd.concat(
+        (
+            series,
+            col1,
+            col2,
+        ),
+        axis=1,
+    )
+
     return df

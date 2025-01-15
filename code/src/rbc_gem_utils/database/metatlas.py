@@ -5,6 +5,7 @@ Notes
 Code based on Human-GEM (1.18.0)
 
 """
+
 import logging
 import pathlib
 
@@ -15,7 +16,7 @@ from rbc_gem_utils.util import DATABASE_PATH, RAW_GH_URL, ROOT_PATH, check_if_va
 
 
 LOGGER = logging.getLogger(__name__)
-HUMANGEM_VERSION_EXPECTED = "1.18.0"
+HUMANGEM_VERSION_EXPECTED = "1.19.0"
 HUMANGEM_PATH = "/Human-GEM"
 HUMANGEM_URL = f"{RAW_GH_URL}/SysBioChalmers/Human-GEM"
 HUMANGEM_MODEL_FILETYPES = {"mat", "txt", "xlsx", "xml", "yml"}

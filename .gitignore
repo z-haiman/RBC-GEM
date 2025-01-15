@@ -314,6 +314,7 @@ octave-workspace
 
 ### Memote
 results/
+parameterization/
 
 # RBC-GEM
 ## Data folders should be ignored.
@@ -321,9 +322,10 @@ data/raw/*
 data/interim/*
 data/processed/*
 ## Leave README files for data
-## Leave ZIP for deprecated data and RBC-GEM specific database files
+## Leave ZIP for deprecated data, RBC-GEM specific database files, and any studies
 data/external/database/*/
 !.deprecated/model/**/**.zip
+!**/studies/**/**.zip
 # Ignore other database files
 
 

@@ -1,6 +1,7 @@
 """
 Contains functions to help visualize updates to the RBC-GEM content.
 """
+
 import matplotlib as mpl
 import numpy as np
 import seaborn as sns

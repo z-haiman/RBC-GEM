@@ -7,6 +7,7 @@ Notes
 * Code last updated: May 2024
 
 """
+
 import logging
 import pathlib
 import re
@@ -30,7 +31,7 @@ EC_FILENAMES = {
 }
 EC_PATH = "/EC"
 EC_DB_TAG = "EC"
-EC_VERSION_EXPECTED = "27-Mar-2024"
+EC_VERSION_EXPECTED = "27-Nov-2024"
 
 
 def get_version_EC():
