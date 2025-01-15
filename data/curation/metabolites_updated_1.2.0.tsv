@@ -1,0 +1,225 @@
+metabolites	metabolite	name	formula	charge	compartment	metabolomic evidence (#studies)	metabolomic evidence (pubmed)	references	notes
+2amac_c	2amac	2-aminoprop-2-enoic acid	C3H5NO2	0	c
+2imppa_c	2imppa	2-Iminopropanoate	C3H5NO2	0	c
+2mop_c	2mop	2-methyl-3-oxopropanoate	C4H5O3	-1	c
+34dhmald_c	34dhmald	"3,4-dihydroxymandelaldehyde"	C8H8O4	0	c
+34dhoxmand_c	34dhoxmand	"3,4-dihydroxymandelate"	C8H7O5	-1	c
+3mlda_c	3mlda	Methylimidazoleacetate	C6H7N2O2	-1	c
+3mlda_e	3mlda	Methylimidazoleacetate	C6H7N2O2	-1	e
+3mldz_c	3mldz	Methylimidazole-acetaldehyde	C6H8N2O	0	c
+3mox4hoxm_c	3mox4hoxm	vanillylmandelate	C9H9O5	-1	c
+3mox4hoxm_e	3mox4hoxm	vanillylmandelate	C9H9O5	-1	e
+42a3hp24db_c	42a3hp24db	"4-(2-amino-3-hydroxyphenyl)-2,4-dioxobutanoate"	C10H7NO5	-2	c
+4hoxpacd_c	4hoxpacd	4-hydroxyphenylacetaldehyde	C8H8O2	0	c
+4hphac_c	4hphac	4-hydroxyphenylacetate	C8H7O3	-1	c
+56dh5flura_c	56dh5flura	"5,6-Dihydro-5-fluorouracil"	C4H5FN2O2	0	c
+56dh5flura_e	56dh5flura	"5,6-Dihydro-5-fluorouracil"	C4H5FN2O2	0	e
+56dthm_c	56dthm	"5,6-dihydrothymine"	C5H8N2O2	0	c
+56dthm_e	56dthm	"5,6-dihydrothymine"	C5H8N2O2	0	e
+56dura_c	56dura	"5,6-dihydrouracil"	C4H6N2O2	0	c
+56dura_e	56dura	"5,6-dihydrouracil"	C4H6N2O2	0	e
+5fludp_c	5fludp	"5,6-Dihydro-5-fluorouradine 5-diphosphate"	C9H10FN2O12P2	-3	c
+5flump_c	5flump	"5,6-Dihydro-5-fluorouradine 5-monophosphate"	C9H10FN2O9P	-2	c
+5flutp_c	5flutp	"5,6-Dihydro-5-fluorouradine 5-triphosphate"	C9H10FN2O15P3	-4	c
+acgal1p_c	acgal1p	N-acetyl-_-D-galactosamine 1-phosphate	C8H14NO9P	-2	c
+ach_c	ach	Acetylcholine	C7H16NO2	1	c
+acnagalgbside_hs_c	acnagalgbside_hs	Monosialylgalactosylgloboside	C62H105N3O36R	-1	c
+cdprbt_c	cdprbt	CDP-L-ribitol	C14H23N3O15P2	-2	c
+cdprib_c	cdprib	CDP-D-ribose	C14H21N3O15P2	-2	c
+cdpru5p__D_c	cdpru5p__D	CDP-D-ribulose	C14H21N3O15P2	-2	c
+cholate_c	cholate	cholate	C24H39O5	-1	c
+cholate_e	cholate	cholate	C24H39O5	-1	e
+cmpacna_c	cmpacna	CMP-N-acetylneuraminate	C20H29N4O16P	-2	c
+cullin_lys__L_c	cullin_lys__L	[cullin]-L-lysine 	C6H13N2OR	0	c
+cullin_nedd8lys_c	cullin_nedd8lys	N6-[NEDD8-protein]-yl-[cullin]-L-lysine	C6H13N2ORCO2R	0	c
+cysam_c	cysam	Cysteamine	C2H8NS	1	c
+dgchol_c	dgchol	glycochenodeoxycholate	C26H43NO5	0	c
+dgchol_e	dgchol	glycochenodeoxycholate	C26H43NO5	0	e
+dheas_c	dheas	dehydroepiandrosterone sulfate	C19H27O5S	-1	c
+dheas_e	dheas	dehydroepiandrosterone sulfate	C19H27O5S	-1	e
+e1nd8act_cys__L_c	e1nd8act_cys__L	[E1 NEDD8-activating enzyme]-L-cysteine	C3H5NORS	0	c
+e217obglcur_c	e217obglcur	17beta-estradiol 17-O-(beta-D-glucuronate)	C24H31O8	-1	e
+e217obglcur_e	e217obglcur	17beta-estradiol 17-O-(beta-D-glucuronate)	C24H31O8	-1	e
+e2nd8conj_cys__L_c	e2nd8conj_cys__L	[E2 NEDD8-conjugating enzyme]-L-cysteine	C3H5NORS	0	c
+estrones_c	estrones	estrone 3-sulfate	C18H21O5S	-1	c
+estrones_e	estrones	estrone 3-sulfate	C18H21O5S	-1	e
+frnsl2e6e_c	frnsl2e6e	"(2E,6E)-farnesal"	C15H24O	0	c
+frnsn2e6e_c	frnsn2e6e	"(2E,6E)-farnesoate"	C15H23O2	-1	c
+ga1_hs_c	ga1_hs	GA1	C44H79N2O22RCO	0	c
+ga1_hs_e	ga1_hs	GA1	C44H79N2O22RCO	0	e
+ga2_hs_c	ga2_hs	GA2	C38H69N2O17RCO	0	c
+galgluside_hs_e	galgluside_hs	LacCer pool	C31H56NO13R	0	e
+gchola_c	gchola	glycocholate	C26H43NO6	0	c
+gchola_e	gchola	glycocholate	C26H43NO6	0	e
+gd1a_hs_c	gd1a_hs	GD1a	C66H111N4O38RCO	-2	c
+gd1a_hs_e	gd1a_hs	GD1a	C66H111N4O38RCO	-2	e
+gd1b_hs_c	gd1b_hs	GD1b	C66H111N4O38RCO	-2	c
+gd1b_hs_e	gd1b_hs	GD1b	C66H111N4O38RCO	-2	e
+gd2_hs_e	gd2_hs	GD2	C60H101N4O33RCO	-2	e
+gd3_hs_e	gd3_hs	GD3	C52H88N3O28RCO	-2	e
+gdchac_c	gdchac	glycodeoxycholate	C26H42NO5	-1	c
+gdchac_e	gdchac	glycodeoxycholate	C26H42NO5	-1	e
+glac_c	glac	"D-glucurono-6,3-lactone"	C6H8O6	0	c
+glcn_c	glcn	D-gluconate	C6H11O7	-1	c
+glcn_e	glcn	D-gluconate	C6H11O7	-1	e
+glcr_c	glcr	D-glucarate	C6H8O8	-2	c
+glyb_e	glyb	betaine	C5H11NO2	0	e
+gm1_hs_c	gm1_hs	GM1	C56H95N3O31R	-1	c
+gm1_hs_e	gm1_hs	GM1	C56H95N3O31R	-1	e
+gm1b_hs_c	gm1b_hs	GM1b	C55H95N3O30RCO	-1	c
+gm1b_hs_e	gm1b_hs	GM1b	C55H95N3O30RCO	-1	e
+gm2_hs_e	gm2_hs	GM2	C50H85N3O26R	-1	e
+gm3_hs_e	gm3_hs	GM3	C42H72N2O21R	-1	e
+gq1b_hs_c	gq1b_hs	GQ1b	C88H143N6O54RCO	-4	c
+gq1b_hs_e	gq1b_hs	GQ1b	C88H143N6O54RCO	-4	e
+gt1b_hs_c	gt1b_hs	GT1b	C77H127N5O46RCO	-3	c
+gt1b_hs_e	gt1b_hs	GT1b	C77H127N5O46RCO	-3	e
+gthrd_e	gthrd	Reduced glutathione	C10H16N3O6S	-1	e
+gudchola_c	gudchola	glycoursodeoxycholate	C26H43NO5	0	c
+gudchola_e	gudchola	glycoursodeoxycholate	C26H43NO5	0	e
+i_c	i	Iodide	I	-1	c
+i_e	i	Iodide	I	-1	e
+id3acald_c	id3acald	Indole-3-acetaldehyde	C10H9NO	0	c
+im4ac_c	im4ac	Imidazole-4-acetate	C5H5N2O2	-1	c
+im4ac_e	im4ac	Imidazole-4-acetate	C5H5N2O2	-1	e
+im4act_c	im4act	Imidazole-4-acetaldehyde	C5H6N2O	0	c
+ind3ac_c	ind3ac	indoleacetate	C10H8NO2	-1	c
+lacphe__LL_c	lacphe__LL	N-[(S)-lactoyl]-L-phenylalanine	C12H14NO4	-1	c
+lacphe__LL_e	lacphe__LL	N-[(S)-lactoyl]-L-phenylalanine	C12H14NO4	-1	e
+metselpyr_c	metselpyr	Methylselenopyruvate	C4H5O3Se	-1	c
+metSox__SL_c	metSox__SL	L-methionine (S)-S-oxide	C5H11NO3S	0	c
+mmaln_c	mmaln	Methylmalonate	C4H4O4	-2	c
+mnl_e	mnl	D-Mannitol	C6H14O6	0	e
+mnlr_e	mnlr	D-Mannitol	C6H13O6	0	e
+nedd8_c	nedd8	NEDD8 protein	CO2R	0	c
+nedd8Se1nd8act_cys__L_c	nedd8Se1nd8act_cys__L	[E1 NEDD8-activating enzyme]-S-[NEDD8 protein]-yl-L-cysteine	C3H5NORSCO2R	0	c
+nedd8Se2nd8conj_cys__L_c	nedd8Se2nd8conj_cys__L	[E2 NEDD8-conjugating enzyme]-S-[NEDD8-protein]-yl-L-cysteine	C3H5NORSCO2R	0	c
+oh1r_e	oh1r	Hydroxyl radical	HO	0	e
+pcreat_e	pcreat	creatine-phosphate	C4H8N3O5P	-2	e
+polyubb_c	polyubb	Polyubiquitin-B	C3O6R3	-3	c
+pp2a_leu__L_c	pp2a_leu__L	[phosphatase 2A protein]-C-terminal L-leucine	C6H11NO2	-1	c
+pp2a_leumeo_c	pp2a_leumeo	[phosphatase 2A protein]-C-terminal L-leucine methyl ester	C7H14NO2	0	c
+prgnlone_c	prgnlone	Pregnenolone	C21H32O2	0	c
+prgnlone_e	prgnlone	Pregnenolone	C21H32O2	0	e
+prgnlones_c	prgnlones	pregnenolone sulfate	C21H31O5S	-1	c
+prgnlones_e	prgnlones	pregnenolone sulfate	C21H31O5S	-1	e
+prostgd2_e	prostgd2	Prostaglandin D2	C20H31O5	-1	e
+protres_aclys__L_c	protres_aclys__L	N-acetyl-L-lysyl-[protein]	C8CH14HNN2O2RR	0	c
+protres_admarg__L_c	protres_admarg__L	Asymmetrical dimethyl-L-arginyl-[protein]	C8H17N4OR	1	c
+protres_arg__L_c	protres_arg__L	L-arginyl-[protein] 	C6H13N4OR	1	c
+protres_arg__L_e	protres_arg__L	L-arginyl-[protein] 	C6H13N4OR	1	e
+protres_asn__L_c	protres_asn__L	L-asparaginyl-[protein]	C4H6N2O2R	0	c
+protres_asp__D_c	protres_asp__D	D-aspartyl-[protein]	C4H4NO3R	-1	c
+protres_asp__L_c	protres_asp__L	L-aspartyl-[protein]	C4H4NO3R	-1	c
+protres_aspmeo__D_c	protres_aspmeo__D	[protein]-D-aspartate beta-methyl ester	C5H7NO3R	0	c
+protres_cys__L_c	protres_cys__L	L-cysteinyl-[protein]	C3H5NORS	0	c
+protres_frulys_c	protres_frulys	N6-(D-fructosyl)-L-lysyl-[protein]	C12CH23HNN2O6RR	1	c
+protres_frulys3p_c	protres_frulys3p	N6-(3-O-phospho-D-fructosyl)-L-lysyl-[protein]	C12CH22HNN2O9PRR	-1	c
+protres_frulys6p_c	protres_frulys6p	N6-(6-O-phospho-D-fructosyl)-L-lysyl-[protein]	C12CH22HNN2O9PRR	-1	c
+protres_gln__L_c	protres_gln__L	L-glutaminyl-[protein]	C5H8N2O2R	0	c
+protres_glu__L_c	protres_glu__L	L-glutamyl-[protein]	C5H6NO3R	-1	c
+protres_glu5meo__L_c	protres_glu5meo__L	[protein]-L-glutamate 5-O-methyl ester	C6H9NO3R	0	c
+protres_gludpam_c	protres_gludpam	5-dopaminyl-L-glutamyl-[protein]	C13H16N2O4R	0	c
+protres_gluhista_c	protres_gluhista	5-histaminyl-L-glutamyl-[protein]	C10H14N4O2R	0	c
+protres_glunpphr_c	protres_glunpphr	5-(R)-noradrenalinyl-L-glutamyl-[protein]	C13H16N2O5R	0	c
+protres_glusrtn_c	protres_glusrtn	5-serotonyl-L-glutamyl-[protein]	C15H17N3O3R	0	c
+protres_his__L_c	protres_his__L	L-histidyl-[protein]	C6H7N3OR	0	c
+protres_hxdcacys_c	protres_hxdcacys	S-hexadecanoyl-L-cysteinyl-[protein]	C19H35NO2RS	0	c
+protres_isoasp__D_c	protres_isoasp__D	[protein]-D-isoaspartate	C4H4NO3R	-1	c
+protres_isoasp__L_c	protres_isoasp__L	[protein]-L-isoaspartate	C4H4NO3R	-1	c
+protres_isoaspmeo__L_c	protres_isoaspmeo__L	[protein]-L-isoaspartate alpha-methyl ester	C5H7NO3R	0	c
+protres_lacarg_c	protres_lacarg	N(omega)-(1-hydroxy-2-oxopropyl)-L-arginyl-[protein]	C9H17N4O3R	1	c
+protres_laccys_c	protres_laccys	S-(1-hydroxy-2-oxopropyl)-L-cysteinyl-[protein]	C6H9NO3RS	0	c
+protres_laclys_c	protres_laclys	N6-(1-hydroxy-2-oxopropyl)-L-lysyl-[protein]	C9CH17HNN2O3RR	1	c
+protres_lys__L_c	protres_lys__L	L-lysyl-[protein]	C6CH13HNN2ORR	1	c
+protres_lysglu_protres_c	protres_lysglu_protres	[protein]-L-lysyl-N6-5-L-glutamyl-[protein]	C11CH17HNN3O3RR2	0	c
+protres_met__L_c	protres_met__L	L-methionyl-[protein]	C5H9NOSR	0	c
+protres_metSox__SL_c	protres_metSox__SL	L-methionyl-(S)-S-oxide-[protein]	C5H9NO2SR	0	c
+protres_mmarg__L_c	protres_mmarg__L	N(omega)-methyl-L-arginyl-[protein]	C7H15N4OR	1	c
+protres_Nproshispi_c	protres_Nproshispi	N(pros)-phospho-L-histidyl-[protein]	C6H6N3O4PR	-2	c
+protres_Ntelehispi_c	protres_Ntelehispi	N(tele)-phospho-L-histidyl-[protein]	C6H6N3O4PR	-2	c
+protres_Nwadpribarg__L_e	protres_Nwadpribarg__L	Nomega-(ADP-D-ribosyl)-L-arginyl-[protein]	C21H32N9O14P2R	-1	e
+protres_oadpribser_c	protres_oadpribser	O-(ADP-D-ribosyl)-L-seryl-[protein]	C18H24N6O15P2R	-2	c
+protres_ocdcacys_c	protres_ocdcacys	S-octadecanoyl-L-cysteinyl-[protein]	C21H39NO2RS	0	c
+protres_pepproW0_c	protres_pepproW0	[protein]-peptidylproline (omega=0)	C6H7NO2	0	c
+protres_pepproW180_c	protres_pepproW180	[protein]-peptidylproline (omega=180)	C6H7NO2	0	c
+protres_rbllys_c	protres_rbllys	N6-D-ribulosyl-L-lysyl-[protein]	C11CH21HNN2O5RR	1	c
+protres_rbllys3p_c	protres_rbllys3p	N6-(3-O-phospho-D-ribulosyl)-L-lysyl-[protein]	C11CH20HNN2O8PRR	-1	c
+protres_rbllys5p_c	protres_rbllys5p	N6-(5-O-phospho-D-ribulosyl)-L-lysyl-[protein]	C11CH20HNN2O8PRR	-1	c
+protres_sadpribcys_c	protres_sadpribcys	S-(ADP-D-ribosyl)-L-cysteinyl-[protein]	C18H24N6O14P2RS	-2	c
+protres_sdmarg__L_c	protres_sdmarg__L	Symmetrical dimethyl-L-arginyl-[protein]	C8H17N4OR	1	c
+protres_ser__L_c	protres_ser__L	L-seryl-[protein]	C3H5NO2R	0	c
+protres_ser3oacgam_c	protres_ser3oacgam	3-O-(N-acetyl-beta-D-glucosaminyl)-L-seryl-[protein]	C11H18N2O7R	0	c
+protres_serpi_c	protres_serpi	O-phospho-L-seryl-[protein]	C3H4NO5PR	-2	c
+protres_serTAg_c	protres_serTAg	T-antigen (L-seryl-[protein])	C17H28N2O12R	0	c
+protres_serTnAg_c	protres_serTnAg	Tn-antigen (L-seryl-[protein])	C11H18N2O7R	0	c
+protres_succlys_c	protres_succlys	N6-succinyl-L-lysyl-[protein]	C10H15N2O4RCHNR	-1	c
+protres_sucim__D_c	protres_sucim__D	[protein]-D-succinimide	C4H3NO2R	0	c
+protres_sucim__L_c	protres_sucim__L	[protein]-L-succinimide	C4H3NO2R	0	c
+protres_thr__L_c	protres_thr__L	L-threonyl-[protein]	C4H7NO2R	0	c
+protres_thr3oacgam_c	protres_thr3oacgam	3-O-(N-acetyl-beta-D-glucosaminyl)-L-threonyl-[protein]	C12H20N2O7R	0	c
+protres_thrpi_c	protres_thrpi	O-phospho-L-threonyl-[protein]	C4H6NO5PR	-2	c
+protres_thrTAg_c	protres_thrTAg	T-antigen (L-threonyl-[protein])	C18H30N2O12R	0	c
+protres_thrTnAg_c	protres_thrTnAg	Tn-antigen (L-threonyl-[protein])	C12H20N2O7R	0	c
+protres_ttdcacys_c	protres_ttdcacys	S-tetradecanoyl-L-cysteinyl-[protein]	C17H31NO2RS	0	c
+protres_tyr__L_c	protres_tyr__L	L-tyrosyl-[protein]	C9H9NO2R	0	c
+protres_tyrpi_c	protres_tyrpi	O-phospho-L-tyrosyl-[protein]	C9H8NO5PR	-2	c
+pydx5p_e	pydx5p	Pyridoxal 5'-phosphate	C8H8NO6P	-2	e
+rbt5p_c	rbt5p	D-ribitol 5-phosphate	C5H11O8P	-2	c
+sarcs_e	sarcs	sarcosine	C3H7NO2	0	e
+smscys__L_c	smscys__L	Se-methylselenocysteine	C4H9NO2Se	0	c
+tchola_c	tchola	taurocholate	C26H45NO7S	0	c
+tchola_e	tchola	taurocholate	C26H45NO7S	0	e
+tdchola_c	tdchola	taurochenodeoxycholate	C26H45NO6S	0	c
+tdchola_e	tdchola	taurochenodeoxycholate	C26H45NO6S	0	e
+tdechola_c	tdechola	taurodeoxycholate	C26H44NO6S	-1	c
+tdechola_e	tdechola	taurodeoxycholate	C26H44NO6S	-1	e
+thcys_c	thcys	Thiocysteine	C3H7NO2S2	0	c
+tudchola_c	tudchola	tauroursodeoxycholate	C26H45NO6S	0	c
+tudchola_e	tudchola	tauroursodeoxycholate	C26H45NO6S	0	e
+urcan_c	urcan	trans-urocanate	C6H5N2O2	-1	c
+xanthurn_c	xanthurn	Xanthurenate	C10H6NO4	-1	c
+cmusa_c	cmusa	2-amino-3-carboxymuconate semialdehyde	C7H6NO5	-1	c
+nicrns_e	nicrns	Nicotinate D-ribonucleoside	C11H13NO6	0	e
+Lfmkynr_c	Lfmkynr	N-formyl-L-kynurenine	C11H12N2O4	0	c
+rnam_e	rnam	N-ribosylnicotinamide	C11H15N2O5	1	e
+quln_c	quln	quinolinate	C7H3NO4	-2	c
+clho_e	clho	Hypochlorite	ClHO	0	e
+L2aadp_e	L2aadp	L-2-aminoadipate	C6H10NO4	-1	e
+L2aadp_c	L2aadp	L-2-aminoadipate	C6H10NO4	-1	c
+orotdn_c	orotdn	Orotidine	C10H11N2O8	-1	c
+naccys__L_c	naccys	N-acetyl-L-cysteine	C5H8NO3S	-1	c
+naccys__L_e	naccys	N-acetyl-L-cysteine	C5H8NO3S	-1	e
+snocoa_c	snocoa	S-nitroso-coenzyme A	C21H31N8O17P3S	-4	c
+snoh2coa_c	snoh2coa	sulfinamide-CoA	C21H33N8O17P3S	-4	c
+protres_snocys__L_c	protres_snocys__L	S-nitroso-L-cysteinyl-[protein]	C3H4N2O2SR	0	c
+kdn_e	kdn	3-deoxy-D-glycero-D-galacto-2-nonulosonic acid	C9H15O9	-1	e
+4mop_c	4mop	4-methyl-2-oxopentanoate	C6H9O3	-1	c
+thiogsn_c	thiogsn	thioguanosine	C10H13N5O4S	0	c
+lpc_hs_e	lpc_hs	LPC	C9H19NO7PR	0	e
+mtthioimp_e	mtthioimp	6-methylthioinosine monophosphate	C11H13N4O7PS	-2	e
+leu__D_e	leu__D	D-leucine	C6H13NO2	0	e
+leu__D_c	leu__D	D-leucine	C6H13NO2	0	c
+carboxyhb_c	carboxyhb	Carboxyhemoglobin	C92H118FeN4O7R	-2	c
+cclmethb_c	cclmethb	Covalent crosslinked methemoglobin multimer	C182H236Fe2N8O12R2	0	c
+hb4_23dpg_c	hb4_23dpg	"Deoxyhemoglobin (tetramer, 2,3-bisphospho-D-glycerate)"	C367H475Fe4N16O34P2R4	-13	c
+hb_c	hb	Deoxyhemoglobin	C91H118FeN4O6R	-2	c
+nitrosylhb_c	nitrosylhb	Nitrosylhemoglobin (Iron-bound)	C91H118FeN5O7R	-2	c
+hbsno_c	hbsno	S-Nitrosylhemoglobin	C91H117FeN5O7R	-2	c
+hb_hco2_c	hb_hco2	Oxyhemoglobin (Protonated Carbamino Deoxyhemoglobin)	C92H119FeN4O8R	-1	c
+methb_c	methb	Methemoglobin	C91H118FeN4O6R	-1	c
+methb_onoo_c	methb_onoo	Methemoglobin-peroxynitrite complex	C91H118FeN5O9R	-2	c
+methbr_c	methbr	Methemoglobin cation radical	C91H118FeN4O6R	0	c
+oxoferrylhb_c	oxoferrylhb	Oxoferrylhemoglobin	C91H118FeN4O7R	-2	c
+oxoferrylhbr_c	oxoferrylhbr	Oxoferrylhemoglobin cation radical	C91H118FeN4O7R	-1	c
+oxyhb_c	oxyhb	Oxyhemoglobin (O2)	C91H118FeN4O8R	-2	c
+hba1c_c	hba1c	Glycated hemoglobin	C97H128FeN4O11R	-2	c
+cclglobin_c	cclglobin	Covalent crosslinked globin multimer	C114H176O4R2	2	c
+globin_c	globin	Globin	C57H88O2R	0	c
+globinr_c	globinr	Globin cation radical	C57H88O2R	1	c
+4mop_e	4mop	4-methyl-2-oxopentanoate	C6H9O3	-1	e
+3mob_e	3mob	3-methyl-2-oxobutyrate	C5H7O3	-1	e
+crm_hs_e	crm_hs	Ceramide (Cer d18:2)	C19H36NO3R	0	e
+alltn_e	alltn	Allantoin	C4H6N4O3	0	e
+3dfru_e	3dfru	3-deoxyfructose	C6H12O5	0	e
+mtthiogmp_e	mtthiogmp	6-methylthioguanosine monophosphate	C11H14N5O7PS	-2	e

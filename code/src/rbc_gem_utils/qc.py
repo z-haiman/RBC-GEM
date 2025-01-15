@@ -1,5 +1,10 @@
+from collections import Counter
+
 import pandas as pd
+from cobra.core.group import Group
 from cobra.core.metabolite import element_re
+
+from .util import COBRA_CONFIGURATION
 
 
 def standardardize_metabolite_formulas(metabolite_formulas):
@@ -37,15 +42,23 @@ def standardardize_metabolite_formulas(metabolite_formulas):
         # Parse formula
         parsed = element_re.findall(formula)
         # Identify whether carbons are in the formula
-        carbons = [(e, n) for e, n in parsed if e == "C"]
-        if carbons:
+        element_counter = Counter()
+        for e, n in parsed:
+            if e not in element_counter:
+                element_counter[e] = 0
+            element_counter[e] += int(n) if n != "" else 1
+
+        if element_counter.get("C"):
             # Presence of carbons, organize first carbons, then hydrogens, and alphabetically sort the remaining.
-            hydrogens = [(e, n) for e, n in parsed if e == "H"]
-            other = [(e, n) for e, n in parsed if e not in {"C", "H"}]
-            parsed = carbons + hydrogens + sorted(other)
+            carbons = [("C", element_counter.pop("C"))]
+            hydrogens = (
+                [("H", element_counter.pop("H"))] if element_counter.get("H") else []
+            )
+            parsed = carbons + hydrogens + sorted(element_counter.items())
         else:
             # Alphabetically sort, regardless of the presence of hydrogens.
-            parsed = sorted(parsed)
+            parsed = sorted(element_counter.items())
+
         # Add formula to return.
         updated_formulas[key] = "".join(e if n == 1 else f"{e}{n}" for e, n in parsed)
 
@@ -94,9 +107,9 @@ def compare_series(old, new, to_compare=None):
     # Determine new entries that were made as blanks
     compared.loc[new[new.isna()].index, name] = "EMPTY"
     # Entries that were intentionally changed from having a value to being blank should be marked as removed
-    compared.loc[
-        old[~old.isna()].index.intersection(new[new.isna()].index), name
-    ] = "REMOVED"
+    compared.loc[old[~old.isna()].index.intersection(new[new.isna()].index), name] = (
+        "REMOVED"
+    )
     # All remaining entries are EMPTY in both datasets
     missing = set(to_compare).difference(compared.index)
     if missing:
@@ -130,3 +143,47 @@ def compare_tables(old, new, to_compare=None):
         )
 
     return compared
+
+
+def reset_subsystem_groups(model):
+    """Reset all groups in the model using the Reaction subsystem attribute."""
+    model.remove_groups(model.groups)
+    for subsystem in sorted(set(model.reactions.list_attr("subsystem"))):
+        reaction_list = model.reactions.query(lambda x: x.subsystem == subsystem)
+        if subsystem not in model.groups:
+            group = Group(id=subsystem, name=subsystem, members=reaction_list)
+            model.add_groups([group])
+        else:
+            group = model.groups.get_by_id(subsystem).add_members(reaction_list)
+
+
+def reset_reaction_bounds(model, reaction_list=None):
+    if reaction_list is None:
+        reaction_list = model.reactions
+    else:
+        reaction_list = model.reactions.get_by_any(reaction_list)
+
+    for reaction in reaction_list:
+        if reaction.bounds == COBRA_CONFIGURATION.bounds or reaction.bounds == (
+            0.0,
+            COBRA_CONFIGURATION.upper_bound,
+        ):
+            # Already at default, no need to change
+            continue
+        if reaction.boundary:
+            if reaction.id.startswith("DM_"):
+                reaction.bounds = (0.0, COBRA_CONFIGURATION.upper_bound)
+            elif reaction.id.startswith("EX_") or reaction.id.startswith("SK_"):
+                reaction.bounds = COBRA_CONFIGURATION.bounds
+            else:
+                print(f"Unreccognized boundary type for {reaction}")
+        elif not reaction.reversibility:
+            if "<--" in reaction.reaction:
+                reaction.bounds = (COBRA_CONFIGURATION.lower_bound, 0.0)
+            else:
+                reaction.bounds = (0.0, COBRA_CONFIGURATION.upper_bound)
+        else:
+            reaction.bounds = (
+                COBRA_CONFIGURATION.lower_bound,
+                COBRA_CONFIGURATION.upper_bound,
+            )

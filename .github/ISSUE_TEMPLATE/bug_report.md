@@ -13,7 +13,7 @@ assignees: ''
 
 <!-- Make sure you use the latest RBC-GEM version. -->
 
-<!-- For convenience, when referring to a particular reaction/metabolite/gene identifiers, 
+<!-- For convenience, when referring to a particular reaction/metabolite/gene identifiers,
 
 #### Current behavior:
 <!-- A concise description of what you're experiencing. Try to be as clear as possible: Is it something wrong/missing in the model? Is it a simulation issue? How does the reaction/metabolite/gene/simulation look like in the `main` branch? -->

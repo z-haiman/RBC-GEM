@@ -2,7 +2,7 @@
 
 Notes
 -----
-Code based on samples provided from https://www.uniprot.org/help/id_mapping
+UniProt API Code based on samples provided from https://www.uniprot.org/help/id_mapping
 Page last modified date: Thu Oct. 13 2022
 
 """
@@ -13,6 +13,7 @@ import logging
 import re
 import time
 import zlib
+from collections import defaultdict
 from urllib.parse import parse_qs, urlencode, urlparse
 from warnings import warn
 from xml.etree import ElementTree
@@ -42,7 +43,7 @@ UNIPROT_PATH = "/UniProt"
 # Extracted from https://www.uniprot.org/help/return_fields_databases
 # Note some corrections were made due to what looked like typos in table
 # TODO Add the BeautifulSoup methods for table extraction
-UNIPROT_VERSION_EXPECTED = "2024_02"
+UNIPROT_VERSION_EXPECTED = "2024_06"
 UNIPROT_DB_TAG = "UniProt"
 UNIPROT_QUERY_LABEL_MIRIAM = {
     # query field: label, https://identifiers.org/
@@ -179,6 +180,7 @@ UNIPROT_QUERY_LABEL_MIRIAM = {
     "xref_pir": ("PIR", ""),
     ## 3D structure databases
     "xref_bmrb": ("BMRB", "bmrb"),
+    "xref_emdb": ("EMDB", "emdb"),
     "xref_pcddb": ("PCDDB", ""),
     "xref_pdb": ("PDB", "pdb"),
     "xref_pdbsum": ("PDBsum", ""),
@@ -229,7 +231,7 @@ UNIPROT_QUERY_LABEL_MIRIAM = {
     "xref_dbsnp": ("dbSNP", "dbsnp"),
     "xref_dmdm": ("DMDM", ""),
     ## 2D gel
-    "xref_compluyeast-2dpage": ("COMPLUYEAST-2DPAGE", "compluyeast"),
+    # "xref_compluyeast-2dpage": ("COMPLUYEAST-2DPAGE", "compluyeast"),
     "xref_dosac-cobs-2dpage": ("DOSAC-COBS-2DPAGE", ""),
     "xref_ogp": ("OGP", ""),
     "xref_reproduction-2dpage": ("REPRODUCTION-2DPAGE", ""),
@@ -238,10 +240,10 @@ UNIPROT_QUERY_LABEL_MIRIAM = {
     "xref_world-2dpage": ("World-2DPAGE", ""),
     ## Proteomic databases
     "xref_cptac": ("CPTAC", ""),
-    "xref_epd": ("EPD", "epd"),
+    # "xref_epd": ("EPD", "epd"), # Discontinued?
     "xref_jpost": ("jPOST", ""),
     "xref_massive": ("MassIVE", "massive"),
-    "xref_maxqb": ("MaxQB", "maxqb"),
+    # "xref_maxqb": ("MaxQB", "maxqb"),
     "xref_pride": ("PRIDE", "pride"),
     "xref_paxdb": ("PaxDb", "paxdb.protein"),
     "xref_peptideatlas": ("PeptideAtlas", "peptideatlas"),
@@ -533,7 +535,7 @@ def get_annotation_to_from_db_UniProt(miriam_only=True):
     response = requests.get(
         f"{UNIPROT_API_URL}/database/stream?compressed=False&format=json&query=%28*%29"
     )
-    response.raise_for_status()
+    check_response(response)
     results_json = json.loads(response.text)
 
     # Ensure UniProt understands that it can map to itself :)
@@ -553,11 +555,10 @@ def get_annotation_to_from_db_UniProt(miriam_only=True):
 
 
 def parse_chains_UniProt(df_chains):
+    """TODO DOCSTRING"""
     chain_re = re.compile(r"id=\W(?P<chain_id>PRO_\d+)")
-    for idx, (uniprot_id, uniprot_chain_value) in df_chains.loc[
-        :, ["uniprot", "uniprot.chain"]
-    ].iterrows():
-        df_chains.loc[idx, "uniprot.chain"] = build_string(
+    for gene, uniprot_chain_value in df_chains["uniprot.chain"].items():
+        df_chains.loc[gene, "uniprot.chain"] = build_string(
             [
                 chain_re.search(chain).group("chain_id")
                 for chain in uniprot_chain_value.split("; /")
@@ -568,7 +569,7 @@ def parse_chains_UniProt(df_chains):
 
 
 def parse_isoforms_UniProt(
-    df_isoforms, add_canonical=False, fill_missing_isoform=False
+    df_isoforms, add_canonical=False, keep_alternate_entries=False
 ):
     """TODO DOCSTRING"""
     total_count = (
@@ -577,53 +578,59 @@ def parse_isoforms_UniProt(
         .count()
     )
     LOGGER.info("Number of entries with defined isoforms: {total_count}", total_count)
-    if add_canonical:
-        df_isoforms["uniprot.canonical"] = None
-    for idx, (uniprot_id, uniprot_isoform_value) in df_isoforms.loc[
+
+    data = {}
+    idx = 0
+    for _, (uniprot_id, uniprot_isoform_value) in df_isoforms.loc[
         :, ["uniprot", "uniprot.isoform"]
     ].iterrows():
         num_isoforms = re.search(r"Named isoforms=(\d+);", uniprot_isoform_value)
-        isoforms = []
-        canonical = uniprot_id
         if num_isoforms:
             expected_num = int(num_isoforms.group(1))
-            for isoform in re.finditer(
-                f"IsoId=(?P<isoid>{UNIPROT_ISOFORM_ID_RE.pattern})",
-                uniprot_isoform_value,
-            ):
-                isoform_id = isoform.group("isoid")
-                if not isoform_id.startswith(uniprot_id):
-                    LOGGER.info(
-                        "Isoform is an alternate entry, decreasing expected number.",
-                        len(isoforms),
-                        expected_num,
-                    )
-                    expected_num -= 1
-                    continue
-                s = re.search(isoform_id, uniprot_isoform_value).start()
-                match = re.search("Sequence=(.+?(?=;))", uniprot_isoform_value[s:])
-                if match.group(1) == "Displayed":
-                    canonical = isoform_id
-                isoforms += [isoform_id]
-                if len(isoforms) != expected_num:
-                    LOGGER.info(
-                        "Number of parsed isoforms  (%s) does not match expected number (%s).",
-                        len(isoforms),
-                        expected_num,
-                    )
-        else:
-            # Add the `-1` suffix for the isoform, but do not use it for the canonical form
-            if fill_missing_isoform:
-                isoforms += [f"{uniprot_id}-1"]
-        df_isoforms.loc[idx, "uniprot.isoform"] = build_string(isoforms)
-        if add_canonical:
-            df_isoforms.loc[idx, "uniprot.canonical"] = canonical
+            uniprot_isoform_value = uniprot_isoform_value[num_isoforms.end() :].strip()
+            isoform_entries = defaultdict(dict)
+            count = 0
+            for item in uniprot_isoform_value.rstrip(";").split("; "):
+                item = item.split("=", 1)
+                if item[0] == "IsoId":
+                    isoid = item[1].split(",")
+                    if len(isoid) != 1:
+                        isoid = [x for x in isoid if x.startswith(uniprot_id)]
+                    isoform_entries[count][item[0]] = isoid[0]
+                elif item[0] == "Sequence":
+                    isoform_entries[count]["canonical"] = bool(item[1] == "Displayed")
+                    count += 1
+                else:
+                    isoform_entries[count][item[0]] = item[1]
 
-    return df_isoforms
+            if len(isoform_entries.values()) != expected_num:
+                LOGGER.info(
+                    "Number of parsed isoforms  (%s) does not match expected number (%s).",
+                    len(isoform_entries.values()),
+                    expected_num,
+                )
+
+        else:
+            isoform_entries = {0: {"canonical": True}}
+
+        for x in isoform_entries.values():
+            data[idx] = {"uniprot": uniprot_id}
+            data[idx].update(x)
+            idx += 1
+    df = pd.DataFrame.from_dict(data, orient="index")
+    rename_mapping = {
+        "uniprot": "uniprot",
+        "IsoId": "uniprot.isoform",
+        "Name": "uniprot.isoform.name",
+        "Synonyms": "uniprot.isoform.synonyms",
+        "canonical": "uniprot.canonical",
+    }
+    return df.loc[:, list(rename_mapping)].rename(rename_mapping, axis=1).fillna("")
 
 
 # Code taken from https://www.uniprot.org/help/id_mapping and adapted.
 def create_session():
+    """TODO DOCSTRING."""
     retries = Retry(total=5, backoff_factor=0.25, status_forcelist=[500, 502, 503, 504])
     session = requests.Session()
     session.mount("https://", HTTPAdapter(max_retries=retries))
@@ -631,6 +638,10 @@ def create_session():
 
 
 def check_response(response):
+    """TODO DOCSTRING.
+
+    Code based on samples provided from https://www.uniprot.org/help/id_mapping
+    """
     try:
         response.raise_for_status()
     except requests.HTTPError:
@@ -639,6 +650,10 @@ def check_response(response):
 
 
 def submit_id_mapping(from_db, to_db, ids):
+    """TODO DOCSTRING.
+
+    Code based on samples provided from https://www.uniprot.org/help/id_mapping
+    """
     request = requests.post(
         f"{UNIPROT_API_URL}/idmapping/run",
         data={"from": from_db, "to": to_db, "ids": ",".join(ids)},
@@ -648,6 +663,10 @@ def submit_id_mapping(from_db, to_db, ids):
 
 
 def check_id_mapping_results_ready(session, job_id):
+    """TODO DOCSTRING.
+
+    Code based on samples provided from https://www.uniprot.org/help/id_mapping
+    """
     while True:
         request = session.get(f"{UNIPROT_API_URL}/idmapping/status/{job_id}")
         check_response(request)
@@ -663,6 +682,10 @@ def check_id_mapping_results_ready(session, job_id):
 
 
 def get_id_mapping_results_link(session, job_id):
+    """TODO DOCSTRING.
+
+    Code based on samples provided from https://www.uniprot.org/help/id_mapping
+    """
     url = f"{UNIPROT_API_URL}/idmapping/details/{job_id}"
     request = session.get(url)
     check_response(request)
@@ -670,6 +693,7 @@ def get_id_mapping_results_link(session, job_id):
 
 
 def get_query_id_categories_UniProt(session, job_id):
+    """TODO DOCSTRING."""
     request = session.get(f"{UNIPROT_API_URL}/idmapping/status/{job_id}")
     check_response(request)
     result = request.json()
@@ -689,6 +713,10 @@ def get_query_id_categories_UniProt(session, job_id):
 
 
 def get_next_link(headers):
+    """TODO DOCSTRING.
+
+    Code based on samples provided from https://www.uniprot.org/help/id_mapping
+    """
     re_next_link = re.compile(r'<(.+)>; rel="next"')
     if "Link" in headers:
         match = re_next_link.match(headers["Link"])
@@ -697,15 +725,23 @@ def get_next_link(headers):
 
 
 def get_batch(session, batch_response, file_format, compressed):
+    """TODO DOCSTRING.
+
+    Code based on samples provided from https://www.uniprot.org/help/id_mapping
+    """
     batch_url = get_next_link(batch_response.headers)
     while batch_url:
         batch_response = session.get(batch_url)
-        batch_response.raise_for_status()
+        check_response(batch_response)
         yield decode_results(batch_response, file_format, compressed)
         batch_url = get_next_link(batch_response.headers)
 
 
 def combine_batches(all_results, batch_results, file_format):
+    """TODO DOCSTRING.
+
+    Code based on samples provided from https://www.uniprot.org/help/id_mapping
+    """
     if file_format == "json":
         for key in ("results", "failedIds"):
             if key in batch_results and batch_results[key]:
@@ -718,6 +754,10 @@ def combine_batches(all_results, batch_results, file_format):
 
 
 def decode_results(response, file_format, compressed):
+    """TODO DOCSTRING.
+
+    Code based on samples provided from https://www.uniprot.org/help/id_mapping
+    """
     if compressed:
         decompressed = zlib.decompress(response.content, 16 + zlib.MAX_WBITS)
         if file_format == "json":
@@ -743,11 +783,19 @@ def decode_results(response, file_format, compressed):
 
 
 def get_xml_namespace(element):
+    """TODO DOCSTRING.
+
+    Code based on samples provided from https://www.uniprot.org/help/id_mapping
+    """
     m = re.match(r"\{(.*)\}", element.tag)
     return m.groups()[0] if m else ""
 
 
 def merge_xml_results(xml_results):
+    """TODO DOCSTRING.
+
+    Code based on samples provided from https://www.uniprot.org/help/id_mapping
+    """
     merged_root = ElementTree.fromstring(xml_results[0])
     for result in xml_results[1:]:
         root = ElementTree.fromstring(result)
@@ -758,11 +806,19 @@ def merge_xml_results(xml_results):
 
 
 def print_progress_batches(batch_index, size, total):
+    """TODO DOCSTRING.
+
+    Code based on samples provided from https://www.uniprot.org/help/id_mapping
+    """
     n_fetched = min((batch_index + 1) * size, total)
     print(f"Fetched: {n_fetched} / {total}")
 
 
 def get_id_mapping_results_search(session, url):
+    """TODO DOCSTRING.
+
+    Code based on samples provided from https://www.uniprot.org/help/id_mapping
+    """
     parsed = urlparse(url)
     query = parse_qs(parsed.query)
     file_format = query["format"][0] if "format" in query else "json"
@@ -788,11 +844,20 @@ def get_id_mapping_results_search(session, url):
 
 
 def get_data_frame_from_tsv_results(tsv_results):
+    """Return DataFrame from query results provided in TSV format.
+
+    Code based on samples provided from https://www.uniprot.org/help/id_mapping
+    """
     reader = csv.DictReader(tsv_results, delimiter="\t", quotechar='"')
     return pd.DataFrame(list(reader))
 
 
 def add_query_parameters(link, **query_parameters):
+    """TODO DOCSTRING.
+
+    Code based on samples provided from https://www.uniprot.org/help/id_mapping
+
+    """
     parsed = urlparse(link)
     query = parse_qs(parsed.query)
 

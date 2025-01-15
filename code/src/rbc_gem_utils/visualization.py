@@ -1,12 +1,14 @@
 """
 Contains functions to help visualize updates to the RBC-GEM content.
 """
+
 import matplotlib as mpl
 import numpy as np
 import seaborn as sns
 
 
 def visualize_comparison(df_comparison):
+    """TODO DOCSTRING."""
     if df_comparison.empty:
         raise ValueError("`df_comparison` should not be empty")
 

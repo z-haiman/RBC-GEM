@@ -1,2009 +1,2158 @@
-	metabolites	references
-0	10fthf_c	
-1	12ppd__R_c	
-2	12ppd__S_c	
-3	13dampp_c	
-4	13dpg_c	
-5	15kprostge1_c	
-6	15kprostge2_c	
-7	15kprostge3_c	
-8	15kprostgf1_c	
-9	15kprostgf2_c	
-10	15kprostgf3_c	
-11	15ppins4p_c	
-12	1acadprib_c	
-13	1p3h5c__L_c	
-14	1p3h5c__L_e	
-15	1ppins5p_c	
-16	1pyr5c__L_c	
-17	1pyr5c__L_e	
-18	1sgth2hoxe1_c	
-19	1sgth2hoxe1_e	
-20	1sgth2hoxe2_c	
-21	1sgth2hoxe2_e	
-22	20bdhcrtsl_c	
-23	20bdhcrtstrn_c	
-24	23camp_c	
-25	23ccmp_c	
-26	23cgamp_c	
-27	23cgamp_e	
-28	23cgmp_c	
-29	23cump_c	
-30	23doguln_c	
-31	23dpg_c	
-32	2abut_c	
-33	2abut_e	
-34	2abuten_c	
-35	2abutgly_c	
-36	2acadprib_c	
-37	2amp_c	
-38	2cmp_c	
-39	2dadn_c	
-40	2dadn_e	
-41	2dcytd_c	
-42	2dcytd_e	
-43	2ddglcn_c	
-44	2dgsn_c	
-45	2dgsn_e	
-46	2dins_c	
-47	2dins_e	
-48	2dr1p_c	
-49	2dr5p_c	
-50	2duri_c	
-51	2duri_e	
-52	2gmp_c	
-53	2h34hppr_c	
-54	2h3mv_c	
-55	2h3ppr_c	
-56	2hb_c	
-57	2hb_e	
-58	2hglut__L_c	
-59	2hiv_c	
-60	2hox3mtoxe1_c	
-61	2hox3mtoxe1_e	
-62	2hox3mtoxe2_c	
-63	2hox3mtoxe2_e	
-64	2hoxe1_c	
-65	2hoxe2_c	
-66	2ibut_c	
-67	2kmb_c	
-68	2mtoxe1_c	
-69	2mtoxe1_e	
-70	2mtoxe2_c	
-71	2mtoxe2_e	
-72	2obut_c	
-73	2obut_e	
-74	2ogm_c	
-75	2oxosucc_c	
-76	2pg_c	
-77	2pglyc_c	
-78	2plac__L_c	
-79	2sgth4hoxe1_c	
-80	2sgth4hoxe1_e	
-81	2sgth4hoxe2_c	
-82	2sgth4hoxe2_e	
-83	2ump_c	
-84	34dhpac_c	
-85	34dhpha_c	
-86	34hpl_c	
-87	34hpp_c	
-88	35camp_c	
-89	35camp_e	
-90	35cgmp_c	
-91	35cgmp_e	
-92	35cimp_c	
-93	35cimp_e	
-94	3dfru_c	
-95	3dglc_c	
-96	3dglc_e	
-97	3dhguln_c	
-98	3dsphgn_c	
-99	3dxyl_c	
-100	3htmelys_c	
-101	3mob_c	
-102	3mop_c	
-103	3mox4hpac_c	
-104	3moxtyr_c	
-105	3moxtyr_e	
-106	3mtp_c	
-107	3mtp_e	
-108	3ohdcaACP_c	
-109	3ohddcaACP_c	
-110	3ohhxaACP_c	
-111	3ohhxdcaACP_c	
-112	3ohocaACP_c	
-113	3ohocdcaACP_c	
-114	3ohttdcaACP_c	
-115	3omdopa_c	
-116	3oxdcaACP_c	
-117	3oxddcaACP_c	
-118	3oxhxaACP_c	
-119	3oxhxdcaACP_c	
-120	3oxocaACP_c	
-121	3oxocdcaACP_c	
-122	3oxttdcaACP_c	
-123	3pg_c	
-124	3php_c	
-125	3sala__L_c	
-126	3snpyr_c	
-127	3spyr_c	
-128	45cfmn_c	
-129	4aabutn_c	
-130	4abut_c	
-131	4abut_e	
-132	4abutn_c	
-133	4aphdob_c	
-134	4fumacac_c	
-135	4h2hxea_2E_c	
-136	4h2hxeal_2E_c	
-137	4h2nonea_2E_c	
-138	4h2noneal_2E_c	
-139	4h2oglt_c	
-140	4hglusa__L_c	
-141	4hoxe1_c	
-142	4hoxe2_c	
-143	4hpro_LT_c	
-144	4hpro_LT_e	
-145	4mlacac_c	
-146	4mtoxe1_c	
-147	4mtoxe1_e	
-148	4mtoxe2_c	
-149	4mtoxe2_e	
-150	4ohbut_c	
-151	4pcys__R_c	
-152	4per_c	
-153	4ppcys__R_c	
-154	4ppnto__R_c	
-155	4pptth__R_c	
-156	4pyrdp_c	
-157	4pyrdx_c	
-158	4pyrdx_e	
-159	4pyrmp_c	
-160	4pyrn_c	
-161	4pyrn_e	
-162	4pyrnad_c	
-163	4pyrtp_c	
-164	4sgth2hoxe1_c	
-165	4sgth2hoxe1_e	
-166	4sgth2hoxe2_c	
-167	4sgth2hoxe2_e	
-168	4sgth56dhi_c	
-169	4sgth56dhi_e	
-170	4sgth56dhilne_c	
-171	4sgth56dhilne_e	
-172	4tmeabut_c	
-173	4tmeabutn_c	
-174	56dhi_c	
-175	56dhica_c	
-176	5aand3a17bdiol_c	
-177	5adtststerone_c	
-178	5aizc_c	
-179	5aop_c	
-180	5aop_e	
-181	5dpmev_c	
-182	5flura_c	
-183	5flura_e	
-184	5fthf_c	
-185	5fthf_e	
-186	5hiu_c	
-187	5houdic_c	
-188	5hoxindact_c	
-189	5hoxindoa_c	
-190	5mdr1p_c	
-191	5mdru1p_c	
-192	5mta_c	
-193	5mta_e	
-194	5mthf_c	
-195	5mthf_e	
-196	5oxpro_c	
-197	5oxpro_e	
-198	5ppins5p_c	
-199	5sgthadrnl__L_c	
-200	5sgthadrnl__L_e	
-201	5sgthdopa__L_c	
-202	5sgthdopa__L_e	
-203	5sgthdpam__L_c	
-204	5sgthdpam__L_e	
-205	5sgthleuadrnchrm_c	
-206	5sgthleuadrnchrm_e	
-207	5sgthleudopachr__L_c	
-208	5sgthleudopachr__L_e	
-209	5sgthleunrpphrchrm_c	
-210	5sgthleunrpphrchrm_e	
-211	5sgthnrpphr__L_c	
-212	5sgthnrpphr__L_e	
-213	67dhbpt_c	
-214	6hopthp_c	
-215	6lthp_c	
-216	6pgc_c	
-217	6pgl_c	
-218	6pthp_c	
-219	78dhbpt_c	
-220	78dhbpt_e	
-221	ACP_c	
-222	FA_hs_10_0_c	
-223	FA_hs_10_0_e	
-224	FA_hs_10_10OH_c	
-225	FA_hs_10_10O_c	
-226	FA_hs_10_DC_c	
-227	FA_hs_11_0_c	
-228	FA_hs_11_0_e	
-229	FA_hs_12_0_c	
-230	FA_hs_12_0_e	
-231	FA_hs_12_12OH_c	
-232	FA_hs_12_12O_c	
-233	FA_hs_12_DC_c	
-234	FA_hs_13_0_c	
-235	FA_hs_13_0_e	
-236	FA_hs_14_0_c	
-237	FA_hs_14_0_e	
-238	FA_hs_14_14OH_c	
-239	FA_hs_14_14O_c	
-240	FA_hs_14_5Z_c	
-241	FA_hs_14_5Z_e	
-242	FA_hs_14_7Z_c	
-243	FA_hs_14_7Z_e	
-244	FA_hs_14_9Z_c	
-245	FA_hs_14_9Z_e	
-246	FA_hs_14_DC_c	
-247	FA_hs_15_0_c	
-248	FA_hs_15_0_e	
-249	FA_hs_16_0_c	
-250	FA_hs_16_0_e	
-251	FA_hs_16_16OH_c	
-252	FA_hs_16_16O_c	
-253	FA_hs_16_2E_c	
-254	FA_hs_16_2E_e	
-255	FA_hs_16_7Z_c	
-256	FA_hs_16_7Z_e	
-257	FA_hs_16_9Z_c	
-258	FA_hs_16_9Z_e	
-259	FA_hs_16_DC_c	
-260	FA_hs_17_0_c	
-261	FA_hs_17_0_e	
-262	FA_hs_17_10Z_c	
-263	FA_hs_17_10Z_e	
-264	FA_hs_17_9Z_c	
-265	FA_hs_17_9Z_e	
-266	FA_hs_18_0_c	
-267	FA_hs_18_0_e	
-268	FA_hs_18_11Z_c	
-269	FA_hs_18_11Z_e	
-270	FA_hs_18_13Z_c	
-271	FA_hs_18_13Z_e	
-272	FA_hs_18_6Z9Z12Z15Z_c	
-273	FA_hs_18_6Z9Z12Z15Z_e	
-274	FA_hs_18_6Z9Z12Z_c	
-275	FA_hs_18_6Z9Z12Z_e	
-276	FA_hs_18_6Z9Z_c	
-277	FA_hs_18_6Z9Z_e	
-278	FA_hs_18_7Z_c	
-279	FA_hs_18_7Z_e	
-280	FA_hs_18_9E_c	
-281	FA_hs_18_9E_e	
-282	FA_hs_18_9Z12Z15Z_c	
-283	FA_hs_18_9Z12Z15Z_e	
-284	FA_hs_18_9Z12Z_c	
-285	FA_hs_18_9Z12Z_e	
-286	FA_hs_18_9Z12Zr_c	
-287	FA_hs_18_9Z12Zroo_c	
-288	FA_hs_18_9Z_c	
-289	FA_hs_18_9Z_e	
-290	FA_hs_19_0_c	
-291	FA_hs_19_0_e	
-292	FA_hs_20_0_c	
-293	FA_hs_20_0_e	
-294	FA_hs_20_11Z14Z17Z_c	
-295	FA_hs_20_11Z14Z17Z_e	
-296	FA_hs_20_11Z14Z_c	
-297	FA_hs_20_11Z14Z_e	
-298	FA_hs_20_11Z_c	
-299	FA_hs_20_11Z_e	
-300	FA_hs_20_13Z_c	
-301	FA_hs_20_13Z_e	
-302	FA_hs_20_5Z8Z11Z14Z17Z_c	
-303	FA_hs_20_5Z8Z11Z14Z17Z_e	
-304	FA_hs_20_5Z8Z11Z14Z17Zr_c	
-305	FA_hs_20_5Z8Z11Z14Z17Zroo_c	
-306	FA_hs_20_5Z8Z11Z14Z20DC_c	
-307	FA_hs_20_5Z8Z11Z14Z20OH_c	
-308	FA_hs_20_5Z8Z11Z14Z20O_c	
-309	FA_hs_20_5Z8Z11Z14Z_c	
-310	FA_hs_20_5Z8Z11Z14Z_e	
-311	FA_hs_20_5Z8Z11Z14Zr_c	
-312	FA_hs_20_5Z8Z11Z14Zroo_c	
-313	FA_hs_20_5Z8Z11Z_c	
-314	FA_hs_20_5Z8Z11Z_e	
-315	FA_hs_20_8Z11Z14Z17Z_c	
-316	FA_hs_20_8Z11Z14Z17Z_e	
-317	FA_hs_20_8Z11Z14Z_c	
-318	FA_hs_20_8Z11Z14Z_e	
-319	FA_hs_20_8Z11Z_c	
-320	FA_hs_20_8Z11Z_e	
-321	FA_hs_20_9Z_c	
-322	FA_hs_20_9Z_e	
-323	FA_hs_21_0_c	
-324	FA_hs_21_0_e	
-325	FA_hs_22_0_c	
-326	FA_hs_22_0_e	
-327	FA_hs_22_10Z13Z16Z19Z_c	
-328	FA_hs_22_10Z13Z16Z19Z_e	
-329	FA_hs_22_10Z13Z16Z_c	
-330	FA_hs_22_10Z13Z16Z_e	
-331	FA_hs_22_11Z_c	
-332	FA_hs_22_11Z_e	
-333	FA_hs_22_13Z16Z19Z_c	
-334	FA_hs_22_13Z16Z19Z_e	
-335	FA_hs_22_13Z16Z_c	
-336	FA_hs_22_13Z16Z_e	
-337	FA_hs_22_13Z_c	
-338	FA_hs_22_13Z_e	
-339	FA_hs_22_22OH_c	
-340	FA_hs_22_22O_c	
-341	FA_hs_22_4Z7Z10Z13Z16Z19Z_c	
-342	FA_hs_22_4Z7Z10Z13Z16Z19Z_e	
-343	FA_hs_22_4Z7Z10Z13Z16Z19Zr_c	
-344	FA_hs_22_4Z7Z10Z13Z16Z19Zroo_c	
-345	FA_hs_22_4Z7Z10Z13Z16Z_c	
-346	FA_hs_22_4Z7Z10Z13Z16Z_e	
-347	FA_hs_22_7Z10Z13Z16Z19Z_c	
-348	FA_hs_22_7Z10Z13Z16Z19Z_e	
-349	FA_hs_22_7Z10Z13Z16Z_c	
-350	FA_hs_22_7Z10Z13Z16Z_e	
-351	FA_hs_22_DC_c	
-352	FA_hs_23_0_c	
-353	FA_hs_23_0_e	
-354	FA_hs_24_0_c	
-355	FA_hs_24_0_e	
-356	FA_hs_24_12Z15Z18Z21Z_c	
-357	FA_hs_24_12Z15Z18Z21Z_e	
-358	FA_hs_24_15Z_c	
-359	FA_hs_24_15Z_e	
-360	FA_hs_24_6Z9Z12Z15Z18Z21Z_c	
-361	FA_hs_24_6Z9Z12Z15Z18Z21Z_e	
-362	FA_hs_24_6Z9Z12Z15Z18Z_c	
-363	FA_hs_24_6Z9Z12Z15Z18Z_e	
-364	FA_hs_24_9Z12Z15Z18Z21Z_c	
-365	FA_hs_24_9Z12Z15Z18Z21Z_e	
-366	FA_hs_24_9Z12Z15Z18Z_c	
-367	FA_hs_24_9Z12Z15Z18Z_e	
-368	FA_hs_26_0_c	
-369	FA_hs_26_0_e	
-370	FA_hs_26_17Z_c	
-371	FA_hs_26_17Z_e	
-372	FA_hs_c	
-373	FAcoa_10_DC_c	
-374	FAcoa_12_DC_c	
-375	FAcoa_16_DC_c	
-376	FAcoa_4_2M_c	
-377	FAcoa_4_DC_c	
-378	FAcoa_5_2E2M_c	
-379	FAcoa_5_2EDC_c	
-380	FAcoa_5_2M_c	
-381	FAcoa_5_3M3OH__S_c	
-382	FAcoa_5_DC_c	
-383	FAcoa_6_DC_c	
-384	FAcoa_7_DC_c	
-385	FAcoa_8_DC_c	
-386	FAcoa_hs_10_0_c	
-387	FAcoa_hs_10_2E6Z_c	
-388	FAcoa_hs_10_2E_c	
-389	FAcoa_hs_10_3OH__S_c	
-390	FAcoa_hs_11_0_c	
-391	FAcoa_hs_12_0_c	
-392	FAcoa_hs_12_2E_c	
-393	FAcoa_hs_12_3OH__S_c	
-394	FAcoa_hs_13_0_c	
-395	FAcoa_hs_14_0_c	
-396	FAcoa_hs_14_2E_c	
-397	FAcoa_hs_14_3OH__S_c	
-398	FAcoa_hs_14_5E8Z3OH__S_c	
-399	FAcoa_hs_14_5E8Z_c	
-400	FAcoa_hs_14_5Z_c	
-401	FAcoa_hs_14_7Z3OH__S_c	
-402	FAcoa_hs_14_7Z_c	
-403	FAcoa_hs_14_9Z_c	
-404	FAcoa_hs_15_0_c	
-405	FAcoa_hs_16_0_c	
-406	FAcoa_hs_16_2E_c	
-407	FAcoa_hs_16_3OH__R_c	
-408	FAcoa_hs_16_3OH__S_c	
-409	FAcoa_hs_16_3O_c	
-410	FAcoa_hs_16_7E10Z3OH__S_c	
-411	FAcoa_hs_16_7Z_c	
-412	FAcoa_hs_16_9Z3OH__S_c	
-413	FAcoa_hs_16_9Z_c	
-414	FAcoa_hs_17_0_c	
-415	FAcoa_hs_17_10Z_c	
-416	FAcoa_hs_17_2E_c	
-417	FAcoa_hs_17_3OH__R_c	
-418	FAcoa_hs_17_3O_c	
-419	FAcoa_hs_17_9Z_c	
-420	FAcoa_hs_18_0_c	
-421	FAcoa_hs_18_11Z_c	
-422	FAcoa_hs_18_13Z_c	
-423	FAcoa_hs_18_2E_c	
-424	FAcoa_hs_18_3OH__R_c	
-425	FAcoa_hs_18_3OH__S_c	
-426	FAcoa_hs_18_3O_c	
-427	FAcoa_hs_18_6Z9Z12Z15Z_c	
-428	FAcoa_hs_18_6Z9Z12Z_c	
-429	FAcoa_hs_18_6Z9Z_c	
-430	FAcoa_hs_18_7Z_c	
-431	FAcoa_hs_18_9E_c	
-432	FAcoa_hs_18_9Z12Z15Z_c	
-433	FAcoa_hs_18_9Z12Z3OH__S_c	
-434	FAcoa_hs_18_9Z12Z_c	
-435	FAcoa_hs_18_9Z3OH__S_c	
-436	FAcoa_hs_18_9Z_c	
-437	FAcoa_hs_19_0_c	
-438	FAcoa_hs_19_2E_c	
-439	FAcoa_hs_19_3OH__R_c	
-440	FAcoa_hs_19_3O_c	
-441	FAcoa_hs_20_0_c	
-442	FAcoa_hs_20_11Z14Z17Z3OH__R_c	
-443	FAcoa_hs_20_11Z14Z17Z3O_c	
-444	FAcoa_hs_20_11Z14Z17Z_c	
-445	FAcoa_hs_20_11Z14Z3OH__R_c	
-446	FAcoa_hs_20_11Z14Z3O_c	
-447	FAcoa_hs_20_11Z14Z_c	
-448	FAcoa_hs_20_11Z3OH__R_c	
-449	FAcoa_hs_20_11Z3O_c	
-450	FAcoa_hs_20_11Z_c	
-451	FAcoa_hs_20_13Z3OH__R_c	
-452	FAcoa_hs_20_13Z3O_c	
-453	FAcoa_hs_20_13Z_c	
-454	FAcoa_hs_20_2E11Z14Z17Z_c	
-455	FAcoa_hs_20_2E11Z14Z_c	
-456	FAcoa_hs_20_2E11Z_c	
-457	FAcoa_hs_20_2E13Z_c	
-458	FAcoa_hs_20_2E8Z11Z14Z17Z_c	
-459	FAcoa_hs_20_2E8Z11Z14Z_c	
-460	FAcoa_hs_20_2E8Z11Z_c	
-461	FAcoa_hs_20_2E9Z_c	
-462	FAcoa_hs_20_2E_c	
-463	FAcoa_hs_20_3OH__R_c	
-464	FAcoa_hs_20_3O_c	
-465	FAcoa_hs_20_5Z8Z11Z14Z17Z_c	
-466	FAcoa_hs_20_5Z8Z11Z14Z_c	
-467	FAcoa_hs_20_5Z8Z11Z_c	
-468	FAcoa_hs_20_8Z11Z14Z17Z3OH__R_c	
-469	FAcoa_hs_20_8Z11Z14Z17Z3O_c	
-470	FAcoa_hs_20_8Z11Z14Z17Z_c	
-471	FAcoa_hs_20_8Z11Z14Z3OH__R_c	
-472	FAcoa_hs_20_8Z11Z14Z3O_c	
-473	FAcoa_hs_20_8Z11Z14Z_c	
-474	FAcoa_hs_20_8Z11Z3OH__R_c	
-475	FAcoa_hs_20_8Z11Z3O_c	
-476	FAcoa_hs_20_8Z11Z_c	
-477	FAcoa_hs_20_9Z3OH__R_c	
-478	FAcoa_hs_20_9Z3O_c	
-479	FAcoa_hs_20_9Z_c	
-480	FAcoa_hs_21_0_c	
-481	FAcoa_hs_21_2E_c	
-482	FAcoa_hs_21_3OH__R_c	
-483	FAcoa_hs_21_3O_c	
-484	FAcoa_hs_22_0_c	
-485	FAcoa_hs_22_10Z13Z16Z19Z3OH__R_c	
-486	FAcoa_hs_22_10Z13Z16Z19Z3O_c	
-487	FAcoa_hs_22_10Z13Z16Z19Z_c	
-488	FAcoa_hs_22_10Z13Z16Z3OH__R_c	
-489	FAcoa_hs_22_10Z13Z16Z3O_c	
-490	FAcoa_hs_22_10Z13Z16Z_c	
-491	FAcoa_hs_22_11Z3OH__R_c	
-492	FAcoa_hs_22_11Z3O_c	
-493	FAcoa_hs_22_11Z_c	
-494	FAcoa_hs_22_13Z16Z19Z3OH__R_c	
-495	FAcoa_hs_22_13Z16Z19Z3O_c	
-496	FAcoa_hs_22_13Z16Z19Z_c	
-497	FAcoa_hs_22_13Z16Z3OH__R_c	
-498	FAcoa_hs_22_13Z16Z3O_c	
-499	FAcoa_hs_22_13Z16Z_c	
-500	FAcoa_hs_22_13Z3OH__R_c	
-501	FAcoa_hs_22_13Z3O_c	
-502	FAcoa_hs_22_13Z_c	
-503	FAcoa_hs_22_2E10Z13Z16Z19Z_c	
-504	FAcoa_hs_22_2E10Z13Z16Z_c	
-505	FAcoa_hs_22_2E11Z_c	
-506	FAcoa_hs_22_2E13Z16Z19Z_c	
-507	FAcoa_hs_22_2E13Z16Z_c	
-508	FAcoa_hs_22_2E13Z_c	
-509	FAcoa_hs_22_2E7Z10Z13Z16Z19Z_c	
-510	FAcoa_hs_22_2E7Z10Z13Z16Z_c	
-511	FAcoa_hs_22_2E_c	
-512	FAcoa_hs_22_3OH__R_c	
-513	FAcoa_hs_22_3O_c	
-514	FAcoa_hs_22_4Z7Z10Z13Z16Z19Z_c	
-515	FAcoa_hs_22_4Z7Z10Z13Z16Z_c	
-516	FAcoa_hs_22_7Z10Z13Z16Z19Z3OH__R_c	
-517	FAcoa_hs_22_7Z10Z13Z16Z19Z3O_c	
-518	FAcoa_hs_22_7Z10Z13Z16Z19Z_c	
-519	FAcoa_hs_22_7Z10Z13Z16Z3OH__R_c	
-520	FAcoa_hs_22_7Z10Z13Z16Z3O_c	
-521	FAcoa_hs_22_7Z10Z13Z16Z_c	
-522	FAcoa_hs_23_0_c	
-523	FAcoa_hs_23_2E_c	
-524	FAcoa_hs_23_3OH__R_c	
-525	FAcoa_hs_23_3O_c	
-526	FAcoa_hs_24_0_c	
-527	FAcoa_hs_24_12Z15Z18Z21Z3OH__R_c	
-528	FAcoa_hs_24_12Z15Z18Z21Z3O_c	
-529	FAcoa_hs_24_12Z15Z18Z21Z_c	
-530	FAcoa_hs_24_15Z3OH__R_c	
-531	FAcoa_hs_24_15Z3O_c	
-532	FAcoa_hs_24_15Z_c	
-533	FAcoa_hs_24_2E12Z15Z18Z21Z_c	
-534	FAcoa_hs_24_2E15Z_c	
-535	FAcoa_hs_24_2E9Z12Z15Z18Z21Z_c	
-536	FAcoa_hs_24_2E9Z12Z15Z18Z_c	
-537	FAcoa_hs_24_2E_c	
-538	FAcoa_hs_24_3OH__R_c	
-539	FAcoa_hs_24_3O_c	
-540	FAcoa_hs_24_6Z9Z12Z15Z18Z21Z_c	
-541	FAcoa_hs_24_6Z9Z12Z15Z18Z_c	
-542	FAcoa_hs_24_9Z12Z15Z18Z21Z3OH__R_c	
-543	FAcoa_hs_24_9Z12Z15Z18Z21Z3O_c	
-544	FAcoa_hs_24_9Z12Z15Z18Z21Z_c	
-545	FAcoa_hs_24_9Z12Z15Z18Z3OH__R_c	
-546	FAcoa_hs_24_9Z12Z15Z18Z3O_c	
-547	FAcoa_hs_24_9Z12Z15Z18Z_c	
-548	FAcoa_hs_26_0_c	
-549	FAcoa_hs_26_17Z3OH__R_c	
-550	FAcoa_hs_26_17Z3O_c	
-551	FAcoa_hs_26_17Z_c	
-552	FAcoa_hs_26_2E17Z_c	
-553	FAcoa_hs_26_2E_c	
-554	FAcoa_hs_26_3OH__R_c	
-555	FAcoa_hs_26_3O_c	
-556	FAcoa_hs_3_2E_c	
-557	FAcoa_hs_3_3OH__S_c	
-558	FAcoa_hs_4_2E_c	
-559	FAcoa_hs_4_3OH__R_c	
-560	FAcoa_hs_5_0_c	
-561	FAcoa_hs_6_0_c	
-562	FAcoa_hs_6_2E_c	
-563	FAcoa_hs_6_3OH__S_c	
-564	FAcoa_hs_7_0_c	
-565	FAcoa_hs_7_3OH__S_c	
-566	FAcoa_hs_8_0_c	
-567	FAcoa_hs_8_2E_c	
-568	FAcoa_hs_8_3OH__S_c	
-569	FAcoa_hs_9_0_c	
-570	FAcoa_hs_9_3OH__S_c	
-571	FAcoa_hs_c	
-572	FAcrn_10_DC_c	
-573	FAcrn_12_DC_c	
-574	FAcrn_16_DC_c	
-575	FAcrn_4_2M_c	
-576	FAcrn_4_DC_c	
-577	FAcrn_5_2E2M_c	
-578	FAcrn_5_2EDC_c	
-579	FAcrn_5_2M_c	
-580	FAcrn_5_3M3OH__S_c	
-581	FAcrn_5_DC_c	
-582	FAcrn_6_DC_c	
-583	FAcrn_7_DC_c	
-584	FAcrn_8_DC_c	
-585	FAcrn_hs_10_0_c	
-586	FAcrn_hs_10_2E6Z_c	
-587	FAcrn_hs_10_2E_c	
-588	FAcrn_hs_10_3OH__S_c	
-589	FAcrn_hs_11_0_c	
-590	FAcrn_hs_12_0_c	
-591	FAcrn_hs_12_2E_c	
-592	FAcrn_hs_12_3OH__S_c	
-593	FAcrn_hs_13_0_c	
-594	FAcrn_hs_14_0_c	
-595	FAcrn_hs_14_2E_c	
-596	FAcrn_hs_14_3OH__S_c	
-597	FAcrn_hs_14_5E8Z3OH__S_c	
-598	FAcrn_hs_14_5E8Z_c	
-599	FAcrn_hs_14_5Z_c	
-600	FAcrn_hs_14_7Z3OH__S_c	
-601	FAcrn_hs_14_7Z_c	
-602	FAcrn_hs_14_9Z_c	
-603	FAcrn_hs_15_0_c	
-604	FAcrn_hs_16_0_c	
-605	FAcrn_hs_16_2E_c	
-606	FAcrn_hs_16_3OH__S_c	
-607	FAcrn_hs_16_7E10Z3OH__S_c	
-608	FAcrn_hs_16_7Z_c	
-609	FAcrn_hs_16_9Z3OH__S_c	
-610	FAcrn_hs_16_9Z_c	
-611	FAcrn_hs_17_0_c	
-612	FAcrn_hs_17_10Z_c	
-613	FAcrn_hs_17_9Z_c	
-614	FAcrn_hs_18_0_c	
-615	FAcrn_hs_18_11Z_c	
-616	FAcrn_hs_18_13Z_c	
-617	FAcrn_hs_18_2E_c	
-618	FAcrn_hs_18_3OH__S_c	
-619	FAcrn_hs_18_6Z9Z12Z15Z_c	
-620	FAcrn_hs_18_6Z9Z12Z_c	
-621	FAcrn_hs_18_6Z9Z_c	
-622	FAcrn_hs_18_7Z_c	
-623	FAcrn_hs_18_9E_c	
-624	FAcrn_hs_18_9Z12Z15Z_c	
-625	FAcrn_hs_18_9Z12Z3OH__S_c	
-626	FAcrn_hs_18_9Z12Z_c	
-627	FAcrn_hs_18_9Z3OH__S_c	
-628	FAcrn_hs_18_9Z_c	
-629	FAcrn_hs_19_0_c	
-630	FAcrn_hs_20_0_c	
-631	FAcrn_hs_20_11Z14Z17Z_c	
-632	FAcrn_hs_20_11Z14Z_c	
-633	FAcrn_hs_20_11Z_c	
-634	FAcrn_hs_20_13Z_c	
-635	FAcrn_hs_20_5Z8Z11Z14Z17Z_c	
-636	FAcrn_hs_20_5Z8Z11Z14Z_c	
-637	FAcrn_hs_20_5Z8Z11Z_c	
-638	FAcrn_hs_20_8Z11Z14Z17Z_c	
-639	FAcrn_hs_20_8Z11Z14Z_c	
-640	FAcrn_hs_20_8Z11Z_c	
-641	FAcrn_hs_20_9Z_c	
-642	FAcrn_hs_21_0_c	
-643	FAcrn_hs_22_0_c	
-644	FAcrn_hs_22_10Z13Z16Z19Z_c	
-645	FAcrn_hs_22_10Z13Z16Z_c	
-646	FAcrn_hs_22_11Z_c	
-647	FAcrn_hs_22_13Z16Z19Z_c	
-648	FAcrn_hs_22_13Z16Z_c	
-649	FAcrn_hs_22_13Z_c	
-650	FAcrn_hs_22_4Z7Z10Z13Z16Z19Z_c	
-651	FAcrn_hs_22_4Z7Z10Z13Z16Z_c	
-652	FAcrn_hs_22_7Z10Z13Z16Z19Z_c	
-653	FAcrn_hs_22_7Z10Z13Z16Z_c	
-654	FAcrn_hs_23_0_c	
-655	FAcrn_hs_24_0_c	
-656	FAcrn_hs_24_12Z15Z18Z21Z_c	
-657	FAcrn_hs_24_15Z_c	
-658	FAcrn_hs_24_6Z9Z12Z15Z18Z21Z_c	
-659	FAcrn_hs_24_6Z9Z12Z15Z18Z_c	
-660	FAcrn_hs_24_9Z12Z15Z18Z21Z_c	
-661	FAcrn_hs_24_9Z12Z15Z18Z_c	
-662	FAcrn_hs_26_0_c	
-663	FAcrn_hs_26_17Z_c	
-664	FAcrn_hs_3_0_c	
-665	FAcrn_hs_3_2E_c	
-666	FAcrn_hs_3_3OH__S_c	
-667	FAcrn_hs_4_0_c	
-668	FAcrn_hs_4_2E_c	
-669	FAcrn_hs_4_3OH__R_c	
-670	FAcrn_hs_5_0_c	
-671	FAcrn_hs_6_0_c	
-672	FAcrn_hs_6_2E_c	
-673	FAcrn_hs_6_3OH__S_c	
-674	FAcrn_hs_7_0_c	
-675	FAcrn_hs_7_3OH__S_c	
-676	FAcrn_hs_8_0_c	
-677	FAcrn_hs_8_2E_c	
-678	FAcrn_hs_8_3OH__S_c	
-679	FAcrn_hs_9_0_c	
-680	FAcrn_hs_9_3OH__S_c	
-681	Lcyst_c	
-682	N1aspmd_c	
-683	N1sprm_c	
-684	PPP2CA_leu__L_c	
-685	PPP2CA_leumeo_c	
-686	Ssq23epx_c	
-687	aacACP_c	
-688	aacoa_c	
-689	aappal_c	
-690	abt__L_c	
-691	abt__L_e	
-692	ac4oacnam_c	
-693	ac9oacnam_c	
-694	acACP_c	
-695	ac_c	
-696	ac_e	
-697	acac_c	
-698	acac_e	
-699	acald_c	
-700	acald_e	
-701	accoa_c	
-702	accprot_lys__L_c	
-703	accprot_monoubiqlys_c	
-704	accprot_ubiqlys_c	
-705	acetol_c	
-706	acgal_c	
-707	acgalfuc12gal14acglcgalgluside_hs_c	
-708	acgalfucgalacgalfuc12gal14acglcgalgluside_hs_c	
-709	acgalfucgalacgalfucgalacglcgal14acglcgalgluside_hs_c	
-710	acgalfucgalacglcgal14acglcgalgluside_hs_c	
-711	acgalfucgalacglcgalgluside_hs_c	
-712	acgam1p_c	
-713	acgam6p_c	
-714	acgam_c	
-715	acglcgalacglcgal14acglcgalgluside_hs_c	
-716	ach_e	
-717	acmana_c	
-718	acmanap_c	
-719	acmet__L_c	
-720	acmetala_c	
-721	acnam_c	
-722	acnam_e	
-723	acnamp_c	
-724	acrn_c	
-725	actp_c	
-726	ade_c	
-727	ade_e	
-728	admarg__L_c	
-729	admarg__L_e	
-730	adn_c	
-731	adn_e	
-732	adp_c	
-733	adp_e	
-734	adpglc_c	
-735	adpman_c	
-736	adprbp_c	
-737	adprbp_e	
-738	adprib_c	
-739	adprib_e	
-740	adpribu_c	
-741	adrnchrm_c	
-742	adrnchrmsqn_c	
-743	adrnl__L_c	
-744	adrnl__L_e	
-745	adrnlqn__L_c	
-746	adrnlsqn__L_c	
-747	ag1_c	
-748	ag1_e	
-749	ahcys__L_c	
-750	ahdt_c	
-751	aic_c	
-752	aic_e	
-753	aica_c	
-754	aica_e	
-755	aicar_c	
-756	aicar_e	
-757	air_c	
-758	akg_c	
-759	akg_e	
-760	ala_B_c	
-761	ala_B_e	
-762	ala__L_c	
-763	ala__L_e	
-764	alapro_c	
-765	alatrna_c	
-766	alltn_c	
-767	alltt_c	
-768	amet__L_c	
-769	ametam_c	
-770	amp_c	
-771	amp_e	
-772	ampamd_c	
-773	anad_c	
-774	andrstndn_c	
-775	andrstndn_e	
-776	andrstrn_c	
-777	angiotensin17_c	
-778	angiotensin1_c	
-779	angiotensin2_c	
-780	angiotensin3_c	
-781	angiotensin4_c	
-782	angiotensin57_c	
-783	angiotensin58_c	
-784	ap4a_c	
-785	ap5a_c	
-786	ap6a_c	
-787	apoACP_c	
-788	aprgstrn_c	
-789	aprgstrn_e	
-790	aps_c	
-791	arab__L_c	
-792	arab__L_e	
-793	arg__L_c	
-794	arg__L_e	
-795	argpropro_c	
-796	argsuc_c	
-797	argtrna_c	
-798	arsdigth_c	
-799	arsgth_c	
-800	arsna_c	
-801	arsna_e	
-802	arsni_c	
-803	arsni_e	
-804	arsseldigth_c	
-805	arsseldigth_e	
-806	ascb__L_c	
-807	ascb__L_e	
-808	asn__L_c	
-809	asn__L_e	
-810	asntrna_c	
-811	asp__L_c	
-812	asp__L_e	
-813	asparg_c	
-814	asptrna_c	
-815	atp_c	
-816	atp_e	
-817	avite1_c	
-818	avite1qn_c	
-819	avite1r_c	
-820	bamppald_c	
-821	betald_c	
-822	bhbACP_c	
-823	bilirub_c	
-824	bilirub_e	
-825	biliverd_c	
-826	btcoa_c	
-827	butACP_c	
-828	but_c	
-829	but_e	
-830	buteACP_2E_c	
-831	bz_c	
-832	bzal_c	
-833	ca2_c	
-834	ca2_e	
-835	cadprbp_c	
-836	cadprbp_e	
-837	cadprib_c	
-838	cadprib_e	
-839	carboxyhb_c	
-840	cbasp_c	
-841	cbp_c	
-842	cclglobin_c	
-843	cclmethb_c	
-844	cd2_c	
-845	cd2_e	
-846	cdp_c	
-847	cdpchol_c	
-848	cdpdag_hs_c	
-849	cdpea_c	
-850	ch4s_c	
-851	chlstol_c	
-852	chol_c	
-853	chol_e	
-854	cholp_c	
-855	cholp_e	
-856	chsterol_c	
-857	chsterol_e	
-858	cit_c	
-859	cit_e	
-860	citr__L_c	
-861	citr__L_e	
-862	cl_c	
-863	cl_e	
-864	cmp_c	
-865	co2_c	
-866	co2_e	
-867	co3r_c	
-868	co_c	
-869	co_e	
-870	coa_c	
-871	cobalt2_c	
-872	cobalt2_e	
-873	cppp1_c	
-874	cppp1_e	
-875	cppp3_c	
-876	cppp3_e	
-877	cpppg1_c	
-878	cpppg3_c	
-879	cpppg3_e	
-880	creat_c	
-881	creat_e	
-882	crm_hs_c	
-883	crn_c	
-884	crn_e	
-885	crtn_c	
-886	crtn_e	
-887	crtsl_c	
-888	crtsl_e	
-889	crtstrn_c	
-890	crtstrn_e	
-891	csn_c	
-892	ctp_c	
-893	cu1_c	
-894	cu1_e	
-895	cu2_c	
-896	cu2_e	
-897	cynamd_c	
-898	cys__L_c	
-899	cys__L_e	
-900	cysgly_c	
-901	cysi__L_c	
-902	cysi__L_e	
-903	cyst__L_c	
-904	cystrna_c	
-905	cytd_c	
-906	cytd_e	
-907	dadp_c	
-908	dag_hs_c	
-909	dago_hs_c	
-910	dagoac_hs_c	
-911	dagthrd_c	
-912	damp_c	
-913	daophth_c	
-914	datp_c	
-915	dcaACP_c	
-916	dcdp_c	
-917	dceaACP_2E_c	
-918	dcmp_c	
-919	dctp_c	
-920	ddcaACP_c	
-921	ddceaACP_2E_c	
-922	dgdp_c	
-923	dgmp_c	
-924	dgtp_c	
-925	dh15kprostge1_c	
-926	dh15kprostge2_c	
-927	dh15kprostge3_c	
-928	dh15kprostgf1_c	
-929	dh15kprostgf2_c	
-930	dh15kprostgf3_c	
-931	dha_c	
-932	dha_e	
-933	dhap_c	
-934	dhdascb__L_c	
-935	dhdascb__L_e	
-936	dhet1112_c	
-937	dhet1112_e	
-938	dhet1415_c	
-939	dhet1415_e	
-940	dhet56_c	
-941	dhet56_e	
-942	dhet89_c	
-943	dhet89_e	
-944	dhf_c	
-945	dhlipoate_c	
-946	dhlipoate_e	
-947	dhmtp_c	
-948	dhnpt_c	
-949	dhnpt_e	
-950	dhor__S_c	
-951	dhurate_c	
-952	diam6tpop4oxpyr_c	
-953	diampyrntp_c	
-954	didp_c	
-955	dihdpa1011_c	
-956	dihdpa1011_e	
-957	dihdpa1314_c	
-958	dihdpa1314_e	
-959	dihdpa1617_c	
-960	dihdpa1617_e	
-961	dihdpa1920_c	
-962	dihdpa1920_e	
-963	dihdpa78_c	
-964	dihdpa78_e	
-965	dihete1112_c	
-966	dihete1112_e	
-967	dihete1415_c	
-968	dihete1415_e	
-969	dihete1718_c	
-970	dihete1718_e	
-971	dihete56_c	
-972	dihete56_e	
-973	dihete89_c	
-974	dihete89_e	
-975	dihome1213_c	
-976	dihome1213_e	
-977	dihome910_c	
-978	dihome910_e	
-979	diiodthy__L_c	
-980	diiodthy__L_e	
-981	dimp_c	
-982	ditp_c	
-983	dkmpp_c	
-984	dmgly_c	
-985	dmhptcoa_c	
-986	dmhptcrn_c	
-987	dmnoncoa_c	
-988	dmnoncrn_c	
-989	dmpp_c	
-990	dnad_c	
-991	dnadp_c	
-992	dnadp_e	
-993	dopa__D_c	
-994	dopa__L_c	
-995	dopa__L_e	
-996	dopaqn__L_c	
-997	dopasqn__L_c	
-998	dpam__D_c	
-999	dpam__L_c	
-1000	dpam__L_e	
-1001	dpamchrm_c	
-1002	dpamchrmsqn_c	
-1003	dpamqn__L_c	
-1004	dpamsqn__L_c	
-1005	dpchrm__D_c	
-1006	dpchrm__L_c	
-1007	dpchrmsqn__L_c	
-1008	dpcoa_c	
-1009	dtdp_c	
-1010	dtmp_c	
-1011	dttp_c	
-1012	dudp_c	
-1013	dump_c	
-1014	dutp_c	
-1015	e14bp_c	
-1016	e1act_cys__L_c	
-1017	e2conj_cys__L_c	
-1018	e4hglu_c	
-1019	e4p_c	
-1020	edp1011_c	
-1021	edp1011_e	
-1022	edp1314_c	
-1023	edp1314_e	
-1024	edp1617_c	
-1025	edp1617_e	
-1026	edp1920_c	
-1027	edp1920_e	
-1028	edp78_c	
-1029	edp78_e	
-1030	eeq1112_c	
-1031	eeq1112_e	
-1032	eeq1415_c	
-1033	eeq1415_e	
-1034	eeq1718_c	
-1035	eeq1718_e	
-1036	eeq56_c	
-1037	eeq56_e	
-1038	eeq89_c	
-1039	eeq89_e	
-1040	eet1112_c	
-1041	eet1112_e	
-1042	eet1415_c	
-1043	eet1415_e	
-1044	eet56_c	
-1045	eet56_e	
-1046	eet89_c	
-1047	eet89_e	
-1048	epome1213_c	
-1049	epome1213_e	
-1050	epome910_c	
-1051	epome910_e	
-1052	ergoth_c	
-1053	ergoth_e	
-1054	erthn__D_c	
-1055	erthrs__D_c	
-1056	erylt_c	
-1057	erylt_e	
-1058	eryth__L_c	
-1059	estradiol23qn_c	
-1060	estradiol23sqn_c	
-1061	estradiol34qn_c	
-1062	estradiol34sqn_c	
-1063	estradiol_c	
-1064	estradiol_e	
-1065	estrone23qn_c	
-1066	estrone23sqn_c	
-1067	estrone34qn_c	
-1068	estrone34sqn_c	
-1069	estrone_c	
-1070	estrone_e	
-1071	etha_c	
-1072	etha_e	
-1073	ethamp_c	
-1074	ethamp_e	
-1075	ethmalcoa__S_c	
-1076	etoh_c	
-1077	etoh_e	
-1078	f1p_c	
-1079	f3p_c	
-1080	f6p_c	
-1081	fad_c	
-1082	fadh2_c	
-1083	fald_c	
-1084	fdp_c	
-1085	fe2_c	
-1086	fe2_e	
-1087	fe3_c	
-1088	fe3_e	
-1089	fe3ooh_c	
-1090	fgam_c	
-1091	ficytb5_c	
-1092	fmn_c	
-1093	fmnh2_c	
-1094	focytb5_c	
-1095	for_c	
-1096	for_e	
-1097	forapyrntp_c	
-1098	fpram_c	
-1099	fprica_c	
-1100	frdp_c	
-1101	fru_c	
-1102	fru_e	
-1103	fuc12gal14acglcgalgluside_hs_c	
-1104	fuc1p__L_c	
-1105	fuc__L_c	
-1106	fucfucgalacglcgalacglcgal14acglcgalgluside_hs_c	
-1107	fucgalacgalfuc12gal14acglcgalgluside_hs_c	
-1108	fucgalacgalfucgalacglcgal14acglcgalgluside_hs_c	
-1109	fucgalacglcgal14acglcgalgluside_hs_c	
-1110	fucgalacglcgalacglcgal14acglcgalgluside_hs_c	
-1111	fucgalacglcgalgluside_hs_c	
-1112	fum_c	
-1113	fum_e	
-1114	g16bp_c	
-1115	g1p_c	
-1116	g3p_c	
-1117	g3pc_c	
-1118	g3pe_c	
-1119	g3pi_c	
-1120	g3pnae_hs_c	
-1121	g3ps_c	
-1122	g6p__aD_c	
-1123	g6p_c	
-1124	ga2_hs_c	
-1125	gal1p_c	
-1126	gal__bD_c	
-1127	gal__bD_e	
-1128	gal_c	
-1129	gal_e	
-1130	galacgalfuc12gal14acglcgalgluside_hs_c	
-1131	galacgalfucgalacglcgal14acglcgalgluside_hs_c	
-1132	galacglcgal14acglcgalgluside_hs_c	
-1133	galacglcgalacglcgal14acglcgalgluside_hs_c	
-1134	galacglcgalgluside_hs_c	
-1135	galfuc12gal14acglcgalgluside_hs_c	
-1136	galfucgalacglcgal14acglcgalgluside_hs_c	
-1137	galfucgalacglcgalgluside_hs_c	
-1138	galgal14acglcgalgluside_hs_c	
-1139	galgalacglcgalgluside_hs_c	
-1140	galgbside_hs_c	
-1141	galgluside_hs_c	
-1142	galt_c	
-1143	galt_e	
-1144	gam6p_c	
-1145	gam_c	
-1146	gam_e	
-1147	gar_c	
-1148	gbside_hs_c	
-1149	gdp_c	
-1150	gdpddman_c	
-1151	gdpfuc_c	
-1152	gdpmann_c	
-1153	gglu2abut_c	
-1154	gglucys__L_c	
-1155	ggn8Y_c	
-1156	ggnG11_c	
-1157	ggnG4G4_c	
-1158	ggnG4G7_c	
-1159	ggnG7G1_c	
-1160	ggnG7_c	
-1161	ggnG8_c	
-1162	glc__D_c	
-1163	glc__D_e	
-1164	glc__aD_c	
-1165	glc__aD_e	
-1166	glcur_c	
-1167	gln__L_c	
-1168	gln__L_e	
-1169	glntrna_c	
-1170	globin_c	
-1171	globinr_c	
-1172	globoA_hs_c	
-1173	globoB_hs_c	
-1174	globoH_hs_c	
-1175	glu5sa__L_c	
-1176	glu__L_c	
-1177	glu__L_e	
-1178	glutrna_c	
-1179	glx_c	
-1180	glx_e	
-1181	gly_c	
-1182	gly_e	
-1183	glyald_c	
-1184	glyb_c	
-1185	glyc3p_c	
-1186	glyc__R_c	
-1187	glyc__R_e	
-1188	glyc__S_c	
-1189	glyc__S_e	
-1190	glyc_c	
-1191	glyc_e	
-1192	glyclt_c	
-1193	glyclt_e	
-1194	glygly_c	
-1195	glyleu_c	
-1196	glyphe_c	
-1197	glypro_c	
-1198	glytrna_c	
-1199	glytrp_c	
-1200	gm2_hs_c	
-1201	gm3_hs_c	
-1202	gmp_c	
-1203	gp4g_c	
-1204	grdp_c	
-1205	grdx2cgth_c	
-1206	grdx2cox_c	
-1207	grdx2crd_c	
-1208	gsn_c	
-1209	gsn_e	
-1210	gthnhoh_c	
-1211	gthno_c	
-1212	gthno_e	
-1213	gthnoh2_c	
-1214	gthox_c	
-1215	gthox_e	
-1216	gthrd_c	
-1217	gtp_c	
-1218	gua_c	
-1219	gua_e	
-1220	gudac_c	
-1221	guln__L_c	
-1222	h2o2_c	
-1223	h2o2_e	
-1224	h2o_c	
-1225	h2o_e	
-1226	h2s_c	
-1227	h2s_e	
-1228	hLkynr_c	
-1229	hLkynr_e	
-1230	h_c	
-1231	h_e	
-1232	ham_c	
-1233	hb4_23dpg_c	
-1234	hb_c	
-1235	hb_hco2_c	
-1236	hco3_c	
-1237	hco3_e	
-1238	hcys__L_c	
-1239	hcys__L_e	
-1240	hcystin__L_c	
-1241	hcystin__L_e	
-1242	hdha10_c	
-1243	hdha10_e	
-1244	hdha11_c	
-1245	hdha11_e	
-1246	hdha13_c	
-1247	hdha13_e	
-1248	hdha14_c	
-1249	hdha14_e	
-1250	hdha16_c	
-1251	hdha16_e	
-1252	hdha17_c	
-1253	hdha17_e	
-1254	hdha20_c	
-1255	hdha20_e	
-1256	hdha4_c	
-1257	hdha4_e	
-1258	hdha7_c	
-1259	hdha7_e	
-1260	hdha8_c	
-1261	hdha8_e	
-1262	hematin_c	
-1263	hematin_e	
-1264	hemedegprods_c	
-1265	hemegth_c	
-1266	hemegthoh_c	
-1267	hepe11_c	
-1268	hepe11_e	
-1269	hepe12_c	
-1270	hepe12_e	
-1271	hepe15_c	
-1272	hepe15_e	
-1273	hepe18_c	
-1274	hepe18_e	
-1275	hepe5_c	
-1276	hepe5_e	
-1277	hepe8_c	
-1278	hepe8_e	
-1279	hepe9_c	
-1280	hepe9_e	
-1281	hete11_c	
-1282	hete11_e	
-1283	hete12_c	
-1284	hete12_e	
-1285	hete15_c	
-1286	hete15_e	
-1287	hete5_c	
-1288	hete5_e	
-1289	hete8_c	
-1290	hete8_e	
-1291	hete9_c	
-1292	hete9_e	
-1293	hgentis_c	
-1294	his__L_c	
-1295	his__L_e	
-1296	hista_c	
-1297	hista_e	
-1298	histrna_c	
-1299	hmbil_c	
-1300	hmgth_c	
-1301	hno_c	
-1302	hode13_c	
-1303	hode13_e	
-1304	hode9_c	
-1305	hode9_e	
-1306	homoval_c	
-1307	homoval_e	
-1308	hpdha10_c	
-1309	hpdha11_c	
-1310	hpdha13_c	
-1311	hpdha14_c	
-1312	hpdha16_c	
-1313	hpdha17_c	
-1314	hpdha20_c	
-1315	hpdha4_c	
-1316	hpdha7_c	
-1317	hpdha8_c	
-1318	hpepe11_c	
-1319	hpepe12_c	
-1320	hpepe15_c	
-1321	hpepe18_c	
-1322	hpepe5_c	
-1323	hpepe8_c	
-1324	hpepe9_c	
-1325	hpete11_c	
-1326	hpete12_c	
-1327	hpete15_c	
-1328	hpete5_c	
-1329	hpete8_c	
-1330	hpete9_c	
-1331	hpode13_c	
-1332	hpode9_c	
-1333	hpta_c	
-1334	hpta_e	
-1335	hptal_c	
-1336	hptea_2E_c	
-1337	hpteal_2E_c	
-1338	hpyr_c	
-1339	hser__L_c	
-1340	hser__L_e	
-1341	htsul_c	
-1342	hxaACP_c	
-1343	hxa_c	
-1344	hxa_e	
-1345	hxal_c	
-1346	hxan_c	
-1347	hxan_e	
-1348	hxdcaACP_c	
-1349	hxdcal_c	
-1350	hxdceaACP_2E_c	
-1351	hxdceal_2E_c	
-1352	hxeaACP_2E_c	
-1353	hxea_2E_c	
-1354	hxeal_2E_c	
-1355	hyptaur_c	
-1356	icit_c	
-1357	idp_c	
-1358	ile__L_c	
-1359	ile__L_e	
-1360	iletrna_c	
-1361	imp_c	
-1362	ind56qn_c	
-1363	ind56sqn_c	
-1364	inds_c	
-1365	inds_e	
-1366	inost_c	
-1367	inost_e	
-1368	ins6p_c	
-1369	ins_c	
-1370	ins_e	
-1371	insulinox_c	
-1372	insulinrd_c	
-1373	ipdp_c	
-1374	itp_c	
-1375	k_c	
-1376	k_e	
-1377	kdn_c	
-1378	kdnp_c	
-1379	kynate_c	
-1380	kynr__L_c	
-1381	kynr__L_e	
-1382	lac__D_c	
-1383	lac__D_e	
-1384	lac__L_c	
-1385	lac__L_e	
-1386	lald__D_c	
-1387	lald__L_c	
-1388	lanost_c	
-1389	leu__L_c	
-1390	leu__L_e	
-1391	leuadrnchrm_c	
-1392	leuala_c	
-1393	leudpamchrm_c	
-1394	leudpchrm__L_c	
-1395	leugly_c	
-1396	leuglygly_c	
-1397	leuglyphe_c	
-1398	leuktrA4_c	
-1399	leuktrA4_e	
-1400	leuktrA5_c	
-1401	leuktrA5_e	
-1402	leuktrB4_c	
-1403	leuktrB4_e	
-1404	leuktrB5_c	
-1405	leuktrB5_e	
-1406	leuktrC4_c	
-1407	leuktrC4_e	
-1408	leuktrC5_c	
-1409	leuktrC5_e	
-1410	leuleu_c	
-1411	leuleuleu_c	
-1412	leunrpphrchrm_c	
-1413	leupro_c	
-1414	leutrna_c	
-1415	li1_c	
-1416	li1_e	
-1417	lipoate_c	
-1418	lipoate_e	
-1419	lnape_hs_c	
-1420	lpa_hs_c	
-1421	lpail_hs_c	
-1422	lpao_hs_c	
-1423	lpc_hs_c	
-1424	lpco_hs_c	
-1425	lpcp_hs_c	
-1426	lpe_hs_c	
-1427	lpep_hs_c	
-1428	lps_hs_c	
-1429	lthstrl_c	
-1430	lys__L_c	
-1431	lys__L_e	
-1432	lysleu_c	
-1433	lystrna_c	
-1434	lyxnt__L_c	
-1435	m2mn_c	
-1436	mag2_hs_c	
-1437	mag_hs_c	
-1438	mago_hs_c	
-1439	malACP_c	
-1440	mal__L_c	
-1441	mal__L_e	
-1442	malcoa_c	
-1443	malcrn_c	
-1444	mald_c	
-1445	man16bp_c	
-1446	man1p_c	
-1447	man6p_c	
-1448	man_c	
-1449	man_e	
-1450	mdhdascb__L_c	
-1451	mdhdascb__L_e	
-1452	meoh_c	
-1453	mepi__L_c	
-1454	mepi__L_e	
-1455	mercplac_c	
-1456	mercppyr_c	
-1457	mercpur_c	
-1458	mercpur_e	
-1459	met__L_c	
-1460	met__L_e	
-1461	methb_c	
-1462	methb_onoo_c	
-1463	methbr_c	
-1464	methf_c	
-1465	methsel_c	
-1466	methselne_c	
-1467	methselni_c	
-1468	metpro_c	
-1469	mettrna_c	
-1470	mg2_c	
-1471	mg2_e	
-1472	mhista_c	
-1473	mi13456p_c	
-1474	mi1345p_c	
-1475	mi134p_c	
-1476	mi1456p_c	
-1477	mi145p_c	
-1478	mi14p_c	
-1479	mi1p__D_c	
-1480	mi3p__D_c	
-1481	mi4p__D_c	
-1482	mlthf_c	
-1483	mma_c	
-1484	mma_e	
-1485	mmarg__L_c	
-1486	mmarg__L_e	
-1487	mmcoa__S_c	
-1488	mn2_c	
-1489	mn2_e	
-1490	mn_c	
-1491	mndiol_c	
-1492	mndn_c	
-1493	mobd_c	
-1494	mobd_e	
-1495	moco_c	
-1496	mpt_c	
-1497	mptamp_c	
-1498	msa_c	
-1499	mthgxl_c	
-1500	mtmercpur_c	
-1501	mtthiogmp_c	
-1502	mtthioimp_c	
-1503	n2o3_c	
-1504	n2o3_e	
-1505	n4abutn_c	
-1506	na1_c	
-1507	na1_e	
-1508	nac_c	
-1509	nac_e	
-1510	nad_c	
-1511	nad_e	
-1512	nadh_c	
-1513	nadhx__R_c	
-1514	nadhx__S_c	
-1515	nadp_c	
-1516	nadp_e	
-1517	nadph_c	
-1518	nadphx__R_c	
-1519	nadphx__S_c	
-1520	nae_hs_c	
-1521	nape_hs_c	
-1522	ncam_c	
-1523	ncam_e	
-1524	nh3_c	
-1525	nh3_e	
-1526	nh4_c	
-1527	nh4_e	
-1528	nicrns_c	
-1529	nicrnt_c	
-1530	nitrosylhb_c	
-1531	nmn_c	
-1532	nmn_e	
-1533	nmnh_c	
-1534	no2_c	
-1535	no2_e	
-1536	no2r_c	
-1537	no3_c	
-1538	no3_e	
-1539	no_c	
-1540	no_e	
-1541	nona_c	
-1542	nona_e	
-1543	nonal_c	
-1544	nonea_2E_c	
-1545	noneal_2E_c	
-1546	normete__L_c	
-1547	normete__L_e	
-1548	nrpphr__L_c	
-1549	nrpphr__L_e	
-1550	nrpphrchrm_c	
-1551	nrpphrchrmsqn_c	
-1552	nrpphrqn__L_c	
-1553	nrpphrsqn__L_c	
-1554	nwharg_c	
-1555	o18bp_c	
-1556	o2_c	
-1557	o2_e	
-1558	o2s_c	
-1559	o2s_e	
-1560	oaa_c	
-1561	ocaACP_c	
-1562	ocdcaACP_c	
-1563	ocdceaACP_2E_c	
-1564	oceaACP_2E_c	
-1565	octa_c	
-1566	octa_e	
-1567	octal_c	
-1568	octea_2E_c	
-1569	octeal_2E_c	
-1570	oh1_c	
-1571	oh1_e	
-1572	oh1r_c	
-1573	onoo_c	
-1574	onoo_e	
-1575	onooco2_c	
-1576	onooh_c	
-1577	onooh_e	
-1578	ophth_c	
-1579	orn__L_c	
-1580	orn__L_e	
-1581	orot5p_c	
-1582	orot_c	
-1583	orot_e	
-1584	oxa_c	
-1585	oxa_e	
-1586	oxoferrylhb_c	
-1587	oxoferrylhbr_c	
-1588	oxyhb_c	
-1589	p4a_c	
-1590	pa_hs_c	
-1591	pac_c	
-1592	pacald_c	
-1593	paf_hs_c	
-1594	pail345p_hs_c	
-1595	pail34p_hs_c	
-1596	pail35p_hs_c	
-1597	pail3p_hs_c	
-1598	pail45p_hs_c	
-1599	pail4p_hs_c	
-1600	pail5p_hs_c	
-1601	pail_hs_c	
-1602	pail_hs_e	
-1603	pao_hs_c	
-1604	paoac_hs_c	
-1605	pap_c	
-1606	paps_c	
-1607	paragbside_hs_c	
-1608	pc_hs_c	
-1609	pc_hs_e	
-1610	pco_hs_c	
-1611	pcp_hs_c	
-1612	pcreat_c	
-1613	pdx5p_c	
-1614	pe_hs_c	
-1615	pe_hs_e	
-1616	penme2_hs_c	
-1617	penme_hs_c	
-1618	pep_c	
-1619	pep_hs_c	
-1620	peth_hs_c	
-1621	peth_hs_e	
-1622	phe__L_c	
-1623	phe__L_e	
-1624	phehisleu_c	
-1625	pheleu_c	
-1626	pheme_c	
-1627	pheme_e	
-1628	phepro_c	
-1629	phetrna_c	
-1630	phetyr_c	
-1631	phlac_c	
-1632	phpyr_c	
-1633	pi_c	
-1634	pi_e	
-1635	pnto__R_c	
-1636	pnto__R_e	
-1637	polyadprib1_c	
-1638	polyadprib2_c	
-1639	ppa_c	
-1640	ppa_e	
-1641	ppal_c	
-1642	ppbng_c	
-1643	ppcoa_c	
-1644	ppgpp_c	
-1645	ppi_c	
-1646	ppi_e	
-1647	ppp9_c	
-1648	ppp9_e	
-1649	pppi_c	
-1650	pram_c	
-1651	prdx1cgth_c	
-1652	prdx1crd_c	
-1653	prdx1cso_c	
-1654	prdx2cox_c	
-1655	prdx2crd_c	
-1656	prdx2cso2_c	
-1657	prdx2cso3_c	
-1658	prdx2cso_c	
-1659	prgstrn_c	
-1660	prgstrn_e	
-1661	pro__L_c	
-1662	pro__L_e	
-1663	proleu_c	
-1664	prophe_c	
-1665	propro_c	
-1666	prostga1_c	
-1667	prostga2_c	
-1668	prostga3_c	
-1669	prostgd21glyc_c	
-1670	prostgd2_c	
-1671	prostge1_c	
-1672	prostge1_e	
-1673	prostge21glyc_c	
-1674	prostge2_c	
-1675	prostge2_e	
-1676	prostge3_c	
-1677	prostge3_e	
-1678	prostgf1_c	
-1679	prostgf1_e	
-1680	prostgf21glyc_c	
-1681	prostgf2_c	
-1682	prostgf2_e	
-1683	prostgf3_c	
-1684	prostgf3_e	
-1685	prostgg1_c	
-1686	prostgg2_c	
-1687	prostgg3_c	
-1688	prostgh1_c	
-1689	prostgh2_c	
-1690	prostgh3_c	
-1691	protein_Nproshispi_c	
-1692	protein_Ntelehispi_c	
-1693	protein_Nwadpribarg__L_e	
-1694	protein_aclys__L_c	
-1695	protein_admarg__L_c	
-1696	protein_arg__L_c	
-1697	protein_arg__L_e	
-1698	protein_asn__L_c	
-1699	protein_asp__D_c	
-1700	protein_asp__L_c	
-1701	protein_aspmeo__D_c	
-1702	protein_cys__L_c	
-1703	protein_frulys3p_c	
-1704	protein_frulys6p_c	
-1705	protein_frulys_c	
-1706	protein_gln__L_c	
-1707	protein_glu5meo__L_c	
-1708	protein_glu__L_c	
-1709	protein_gludpam_c	
-1710	protein_gluhista_c	
-1711	protein_glunpphr_c	
-1712	protein_glusrtn_c	
-1713	protein_his__L_c	
-1714	protein_hxdcacys_c	
-1715	protein_isoasp__D_c	
-1716	protein_isoasp__L_c	
-1717	protein_isoaspmeo__L_c	
-1718	protein_lacarg_c	
-1719	protein_laccys_c	
-1720	protein_laclys_c	
-1721	protein_lys__L_c	
-1722	protein_lysglu_protein_c	
-1723	protein_mmarg__L_c	
-1724	protein_oadpribser_c	
-1725	protein_ocdcacys_c	
-1726	protein_pepproW0_c	
-1727	protein_pepproW180_c	
-1728	protein_rbllys3p_c	
-1729	protein_rbllys5p_c	
-1730	protein_rbllys_c	
-1731	protein_sadpribcys_c	
-1732	protein_sdmarg__L_c	
-1733	protein_ser3oacgam_c	
-1734	protein_serTAg_c	
-1735	protein_serTnAg_c	
-1736	protein_ser__L_c	
-1737	protein_serpi_c	
-1738	protein_sucim__D_c	
-1739	protein_sucim__L_c	
-1740	protein_thr3oacgam_c	
-1741	protein_thrTAg_c	
-1742	protein_thrTnAg_c	
-1743	protein_thr__L_c	
-1744	protein_thrpi_c	
-1745	protein_ttdcacys_c	
-1746	protein_tyr__L_c	
-1747	protein_tyrpi_c	
-1748	protrna_c	
-1749	prpp_c	
-1750	ps_hs_c	
-1751	ps_hs_e	
-1752	pser__L_c	
-1753	psump_c	
-1754	psuri_c	
-1755	pta_c	
-1756	pta_e	
-1757	ptrc_c	
-1758	ptrc_e	
-1759	ptth__R_c	
-1760	pyam5p_c	
-1761	pydam_c	
-1762	pydam_e	
-1763	pydx5p_c	
-1764	pydx_c	
-1765	pydx_e	
-1766	pydxn_c	
-1767	pydxn_e	
-1768	pyr_c	
-1769	pyr_e	
-1770	pyrrl_c	
-1771	q10_c	
-1772	q10h2_c	
-1773	q10h_c	
-1774	qmp_c	
-1775	que_c	
-1776	r15bp_c	
-1777	r1p_c	
-1778	r5p_c	
-1779	r5p_e	
-1780	rbl__D_c	
-1781	rblvrd_c	
-1782	rbt_c	
-1783	rbt_e	
-1784	rbvcbxlt_c	
-1785	rbvdp_c	
-1786	rbvmp_c	
-1787	rbvtp_c	
-1788	retinal_11Z_c	
-1789	retinal_13Z_c	
-1790	retinal_9Z_c	
-1791	retinal_c	
-1792	retinol_11Z_c	
-1793	retinol_13Z_c	
-1794	retinol_9Z_c	
-1795	retinol_c	
-1796	retinol_e	
-1797	retn_11Z_c	
-1798	retn_13Z_c	
-1799	retn_9Z_c	
-1800	retn_c	
-1801	rib__D_c	
-1802	rib__D_e	
-1803	ribavirin_c	
-1804	ribavirin_e	
-1805	ribflv_c	
-1806	ribflv_e	
-1807	rnam_c	
-1808	rnamh_c	
-1809	rnamh_e	
-1810	ru5p__D_c	
-1811	s17bp_c	
-1812	s7p_c	
-1813	saica_c	
-1814	saica_e	
-1815	saicar_c	
-1816	sarcs_c	
-1817	sbt__D_c	
-1818	sbt__D_e	
-1819	sdhplse_c	
-1820	selahcys__L_c	
-1821	selamet__L_c	
-1822	selcys__L_c	
-1823	selcyst__L_c	
-1824	seldigth_c	
-1825	selgth_c	
-1826	selhcys__L_c	
-1827	selmet__L_c	
-1828	seln_c	
-1829	seln_e	
-1830	selni_c	
-1831	selni_e	
-1832	ser__L_c	
-1833	ser__L_e	
-1834	sertrna_c	
-1835	sforgth_c	
-1836	sgthprostga1_c	
-1837	sgthprostga1_e	
-1838	sgthprostga2_c	
-1839	sgthprostga2_e	
-1840	sgthprostga3_c	
-1841	sgthprostga3_e	
-1842	sh1_c	
-1843	sh1_e	
-1844	slac__L_c	
-1845	slgth__R_c	
-1846	snocys__L_c	
-1847	snocys__L_e	
-1848	so2gth_c	
-1849	so3_c	
-1850	so4_c	
-1851	so4_e	
-1852	sph1p_c	
-1853	sph1p_e	
-1854	sphgn_c	
-1855	sphgn_e	
-1856	sphings_c	
-1857	sphings_e	
-1858	sphmyln_hs_c	
-1859	sphmyln_hs_e	
-1860	sphs1p_c	
-1861	sphs1p_e	
-1862	spmd_c	
-1863	spmd_e	
-1864	sppt_c	
-1865	sppt_e	
-1866	sprm_c	
-1867	sprm_e	
-1868	srdx1cgth_c	
-1869	srdx1crd_c	
-1870	srtn_c	
-1871	srtn_e	
-1872	ssgth_c	
-1873	sso2gth_c	
-1874	sucacetat_c	
-1875	sucaceto_c	
-1876	succ_c	
-1877	succ_e	
-1878	succadn_c	
-1879	succamp_c	
-1880	sucsal_c	
-1881	tag_hs_c	
-1882	taur_c	
-1883	taur_e	
-1884	tetiodthy__L_c	
-1885	tetiodthy__L_e	
-1886	thbpt4acam_c	
-1887	thbpt_c	
-1888	thbpt_e	
-1889	thcrm_hs_c	
-1890	thf_c	
-1891	thf_e	
-1892	thiogdp_c	
-1893	thiogmp_c	
-1894	thiogmp_e	
-1895	thiogtp_c	
-1896	thiogua_c	
-1897	thioimp_c	
-1898	thioimp_e	
-1899	thioxmp_c	
-1900	thioxmp_e	
-1901	thm_c	
-1902	thm_e	
-1903	thmmp_c	
-1904	thmmp_e	
-1905	thmpp_c	
-1906	thmtp_c	
-1907	thr__L_c	
-1908	thr__L_e	
-1909	thrnt__L_c	
-1910	thrtl__L_c	
-1911	thrtrna_c	
-1912	thym_c	
-1913	thym_e	
-1914	thymd_c	
-1915	thymd_e	
-1916	trdxox_c	
-1917	trdxrd_c	
-1918	triaz3crbxam_c	
-1919	triiodthy__L_c	
-1920	triiodthy__L_e	
-1921	trnaala_c	
-1922	trnaarg_c	
-1923	trnaasn_c	
-1924	trnaasp_c	
-1925	trnacys_c	
-1926	trnagln_c	
-1927	trnaglu_c	
-1928	trnagly_c	
-1929	trnahis_c	
-1930	trnaile_c	
-1931	trnaleu_c	
-1932	trnalys_c	
-1933	trnamet_c	
-1934	trnaphe_c	
-1935	trnapro_c	
-1936	trnaser_c	
-1937	trnathr_c	
-1938	trnatrp_c	
-1939	trnatyr_c	
-1940	trnaval_c	
-1941	trp__L_c	
-1942	trp__L_e	
-1943	trptrna_c	
-1944	tststerone_c	
-1945	tststerone_e	
-1946	ttdcaACP_c	
-1947	ttdceaACP_2E_c	
-1948	tyr__L_c	
-1949	tyr__L_e	
-1950	tyrtrna_c	
-1951	tyrtyr_c	
-1952	tyrtyrtyr_c	
-1953	uacgam_c	
-1954	ubiqSe1act_cys__L_c	
-1955	ubiqSe2conj_cys__L_c	
-1956	ubiquitin_c	
-1957	udp_c	
-1958	udpacgal_c	
-1959	udpgal_c	
-1960	udpglc__D_c	
-1961	ump_c	
-1962	upp1_c	
-1963	upp1_e	
-1964	upp3_c	
-1965	upp3_e	
-1966	uppg1_c	
-1967	uppg3_c	
-1968	ura_c	
-1969	ura_e	
-1970	urate_c	
-1971	urate_e	
-1972	urateooh_c	
-1973	urater_c	
-1974	urea_c	
-1975	urea_e	
-1976	uri_c	
-1977	uri_e	
-1978	utp_c	
-1979	val__L_c	
-1980	val__L_e	
-1981	valleu_c	
-1982	valpro_c	
-1983	valtrna_c	
-1984	valtyr_c	
-1985	vanillac_c	
-1986	vanillac_e	
-1987	vanilpyr_c	
-1988	xan_c	
-1989	xan_e	
-1990	xmp_c	
-1991	xolest2_hs_c	
-1992	xtp_c	
-1993	xtsn_c	
-1994	xu5p__D_c	
-1995	xyl__D_c	
-1996	xyl__D_e	
-1997	xylnt__L_c	
-1998	xylt_c	
-1999	xylt_e	
-2000	xylu__D_c	
-2001	xylu__D_e	
-2002	xylu__L_c	
-2003	zn2_c	
-2004	zn2_e	
-2005	ztp_c	
-2006	zymst_c	
-2007	zymstnl_c	
+metabolites	references
+10fthf_c
+12ppd__R_c
+12ppd__S_c
+13dampp_c
+13dpg_c
+15kprostge1_c
+15kprostge2_c
+15kprostge3_c
+15kprostgf1_c
+15kprostgf2_c
+15kprostgf3_c
+15ppins4p_c
+1acadprib_c
+1p3h5c__L_c
+1p3h5c__L_e
+1ppins5p_c
+1pyr5c__L_c
+1pyr5c__L_e
+1sgth2hoxe1_c
+1sgth2hoxe1_e
+1sgth2hoxe2_c
+1sgth2hoxe2_e
+20bdhcrtsl_c
+20bdhcrtstrn_c
+23camp_c
+23ccmp_c
+23cgamp_c
+23cgamp_e
+23cgmp_c
+23cump_c
+23doguln_c
+23dpg_c
+2abut_c
+2abut_e
+2abuten_c
+2abutgly_c
+2acadprib_c
+2amac_c
+2amp_c
+2cmp_c
+2dadn_c
+2dadn_e
+2dcytd_c
+2dcytd_e
+2ddglcn_c
+2dgsn_c
+2dgsn_e
+2dins_c
+2dins_e
+2dr1p_c
+2dr5p_c
+2duri_c
+2duri_e
+2gmp_c
+2h34hppr_c
+2h3mv_c
+2h3ppr_c
+2hb_c
+2hb_e
+2hglut__L_c
+2hiv_c
+2hox3mtoxe1_c
+2hox3mtoxe1_e
+2hox3mtoxe2_c
+2hox3mtoxe2_e
+2hoxe1_c
+2hoxe2_c
+2ibut_c
+2imppa_c
+2kmb_c
+2mop_c
+2mtoxe1_c
+2mtoxe1_e
+2mtoxe2_c
+2mtoxe2_e
+2obut_c
+2obut_e
+2ogm_c
+2oxosucc_c
+2pg_c
+2pglyc_c
+2plac__L_c
+2sgth4hoxe1_c
+2sgth4hoxe1_e
+2sgth4hoxe2_c
+2sgth4hoxe2_e
+2ump_c
+34dhmald_c
+34dhoxmand_c
+34dhpac_c
+34dhpha_c
+34hpl_c
+34hpp_c
+35camp_c
+35camp_e
+35cgmp_c
+35cgmp_e
+35cimp_c
+35cimp_e
+3dfru_c
+3dfru_e
+3dglc_c
+3dglc_e
+3dhguln_c
+3dsphgn_c
+3dxyl_c
+3htmelys_c
+3mlda_c
+3mlda_e
+3mldz_c
+3mob_c
+3mob_e
+3mop_c
+3mox4hoxm_c
+3mox4hoxm_e
+3mox4hpac_c
+3moxtyr_c
+3moxtyr_e
+3mtp_c
+3mtp_e
+3ohdcaACP_c
+3ohddcaACP_c
+3ohhxaACP_c
+3ohhxdcaACP_c
+3ohocaACP_c
+3ohocdcaACP_c
+3ohttdcaACP_c
+3omdopa_c
+3oxdcaACP_c
+3oxddcaACP_c
+3oxhxaACP_c
+3oxhxdcaACP_c
+3oxocaACP_c
+3oxocdcaACP_c
+3oxttdcaACP_c
+3pg_c
+3php_c
+3sala__L_c
+3snpyr_c
+3spyr_c
+42a3hp24db_c
+45cfmn_c
+4aabutn_c
+4abut_c
+4abut_e
+4abutn_c
+4aphdob_c
+4fumacac_c
+4h2hxea_2E_c
+4h2hxeal_2E_c
+4h2nonea_2E_c
+4h2noneal_2E_c
+4h2oglt_c
+4hglusa__L_c
+4hoxe1_c
+4hoxe2_c
+4hoxpacd_c
+4hphac_c
+4hpro_LT_c
+4hpro_LT_e
+4mlacac_c
+4mop_c
+4mop_e
+4mtoxe1_c
+4mtoxe1_e
+4mtoxe2_c
+4mtoxe2_e
+4ohbut_c
+4pcys__R_c
+4per_c
+4ppcys__R_c
+4ppnto__R_c
+4pptth__R_c
+4pyrdp_c
+4pyrdx_c
+4pyrdx_e
+4pyrmp_c
+4pyrn_c
+4pyrn_e
+4pyrnad_c
+4pyrtp_c
+4sgth2hoxe1_c
+4sgth2hoxe1_e
+4sgth2hoxe2_c
+4sgth2hoxe2_e
+4sgth56dhi_c
+4sgth56dhi_e
+4sgth56dhilne_c
+4sgth56dhilne_e
+4tmeabut_c
+4tmeabutn_c
+56dh5flura_c
+56dh5flura_e
+56dhi_c
+56dhica_c
+56dthm_c
+56dthm_e
+56dura_c
+56dura_e
+5aand3a17bdiol_c
+5adtststerone_c
+5aizc_c
+5aop_c
+5aop_e
+5dpmev_c
+5fludp_c
+5flump_c
+5flura_c
+5flura_e
+5flutp_c
+5fthf_c
+5fthf_e
+5hiu_c
+5houdic_c
+5hoxindact_c
+5hoxindoa_c
+5mdr1p_c
+5mdru1p_c
+5mta_c
+5mta_e
+5mthf_c
+5mthf_e
+5oxpro_c
+5oxpro_e
+5ppins5p_c
+5sgthadrnl__L_c
+5sgthadrnl__L_e
+5sgthdopa__L_c
+5sgthdopa__L_e
+5sgthdpam__L_c
+5sgthdpam__L_e
+5sgthleuadrnchrm_c
+5sgthleuadrnchrm_e
+5sgthleudopachr__L_c
+5sgthleudopachr__L_e
+5sgthleunrpphrchrm_c
+5sgthleunrpphrchrm_e
+5sgthnrpphr__L_c
+5sgthnrpphr__L_e
+67dhbpt_c
+6hopthp_c
+6lthp_c
+6pgc_c
+6pgl_c
+6pthp_c
+78dhbpt_c
+78dhbpt_e
+ACP_c
+FA_hs_10_0_c
+FA_hs_10_0_e
+FA_hs_10_10OH_c
+FA_hs_10_10O_c
+FA_hs_10_DC_c
+FA_hs_11_0_c
+FA_hs_11_0_e
+FA_hs_12_0_c
+FA_hs_12_0_e
+FA_hs_12_12OH_c
+FA_hs_12_12O_c
+FA_hs_12_DC_c
+FA_hs_13_0_c
+FA_hs_13_0_e
+FA_hs_14_0_c
+FA_hs_14_0_e
+FA_hs_14_14OH_c
+FA_hs_14_14O_c
+FA_hs_14_5Z_c
+FA_hs_14_5Z_e
+FA_hs_14_7Z_c
+FA_hs_14_7Z_e
+FA_hs_14_9Z_c
+FA_hs_14_9Z_e
+FA_hs_14_DC_c
+FA_hs_15_0_c
+FA_hs_15_0_e
+FA_hs_16_0_c
+FA_hs_16_0_e
+FA_hs_16_16OH_c
+FA_hs_16_16O_c
+FA_hs_16_2E_c
+FA_hs_16_2E_e
+FA_hs_16_7Z_c
+FA_hs_16_7Z_e
+FA_hs_16_9Z_c
+FA_hs_16_9Z_e
+FA_hs_16_DC_c
+FA_hs_17_0_c
+FA_hs_17_0_e
+FA_hs_17_10Z_c
+FA_hs_17_10Z_e
+FA_hs_17_9Z_c
+FA_hs_17_9Z_e
+FA_hs_18_0_c
+FA_hs_18_0_e
+FA_hs_18_11Z_c
+FA_hs_18_11Z_e
+FA_hs_18_13Z_c
+FA_hs_18_13Z_e
+FA_hs_18_6Z9Z12Z15Z_c
+FA_hs_18_6Z9Z12Z15Z_e
+FA_hs_18_6Z9Z12Z_c
+FA_hs_18_6Z9Z12Z_e
+FA_hs_18_6Z9Z_c
+FA_hs_18_6Z9Z_e
+FA_hs_18_7Z_c
+FA_hs_18_7Z_e
+FA_hs_18_9E_c
+FA_hs_18_9E_e
+FA_hs_18_9Z12Z15Z_c
+FA_hs_18_9Z12Z15Z_e
+FA_hs_18_9Z12Z_c
+FA_hs_18_9Z12Z_e
+FA_hs_18_9Z12Zr_c
+FA_hs_18_9Z12Zroo_c
+FA_hs_18_9Z_c
+FA_hs_18_9Z_e
+FA_hs_19_0_c
+FA_hs_19_0_e
+FA_hs_20_0_c
+FA_hs_20_0_e
+FA_hs_20_11Z14Z17Z_c
+FA_hs_20_11Z14Z17Z_e
+FA_hs_20_11Z14Z_c
+FA_hs_20_11Z14Z_e
+FA_hs_20_11Z_c
+FA_hs_20_11Z_e
+FA_hs_20_13Z_c
+FA_hs_20_13Z_e
+FA_hs_20_5Z8Z11Z14Z17Z_c
+FA_hs_20_5Z8Z11Z14Z17Z_e
+FA_hs_20_5Z8Z11Z14Z17Zr_c
+FA_hs_20_5Z8Z11Z14Z17Zroo_c
+FA_hs_20_5Z8Z11Z14Z20DC_c
+FA_hs_20_5Z8Z11Z14Z20OH_c
+FA_hs_20_5Z8Z11Z14Z20O_c
+FA_hs_20_5Z8Z11Z14Z_c
+FA_hs_20_5Z8Z11Z14Z_e
+FA_hs_20_5Z8Z11Z14Zr_c
+FA_hs_20_5Z8Z11Z14Zroo_c
+FA_hs_20_5Z8Z11Z_c
+FA_hs_20_5Z8Z11Z_e
+FA_hs_20_8Z11Z14Z17Z_c
+FA_hs_20_8Z11Z14Z17Z_e
+FA_hs_20_8Z11Z14Z_c
+FA_hs_20_8Z11Z14Z_e
+FA_hs_20_8Z11Z_c
+FA_hs_20_8Z11Z_e
+FA_hs_20_9Z_c
+FA_hs_20_9Z_e
+FA_hs_21_0_c
+FA_hs_21_0_e
+FA_hs_22_0_c
+FA_hs_22_0_e
+FA_hs_22_10Z13Z16Z19Z_c
+FA_hs_22_10Z13Z16Z19Z_e
+FA_hs_22_10Z13Z16Z_c
+FA_hs_22_10Z13Z16Z_e
+FA_hs_22_11Z_c
+FA_hs_22_11Z_e
+FA_hs_22_13Z16Z19Z_c
+FA_hs_22_13Z16Z19Z_e
+FA_hs_22_13Z16Z_c
+FA_hs_22_13Z16Z_e
+FA_hs_22_13Z_c
+FA_hs_22_13Z_e
+FA_hs_22_22OH_c
+FA_hs_22_22O_c
+FA_hs_22_4Z7Z10Z13Z16Z19Z_c
+FA_hs_22_4Z7Z10Z13Z16Z19Z_e
+FA_hs_22_4Z7Z10Z13Z16Z19Zr_c
+FA_hs_22_4Z7Z10Z13Z16Z19Zroo_c
+FA_hs_22_4Z7Z10Z13Z16Z_c
+FA_hs_22_4Z7Z10Z13Z16Z_e
+FA_hs_22_7Z10Z13Z16Z19Z_c
+FA_hs_22_7Z10Z13Z16Z19Z_e
+FA_hs_22_7Z10Z13Z16Z_c
+FA_hs_22_7Z10Z13Z16Z_e
+FA_hs_22_DC_c
+FA_hs_23_0_c
+FA_hs_23_0_e
+FA_hs_24_0_c
+FA_hs_24_0_e
+FA_hs_24_12Z15Z18Z21Z_c
+FA_hs_24_12Z15Z18Z21Z_e
+FA_hs_24_15Z_c
+FA_hs_24_15Z_e
+FA_hs_24_6Z9Z12Z15Z18Z21Z_c
+FA_hs_24_6Z9Z12Z15Z18Z21Z_e
+FA_hs_24_6Z9Z12Z15Z18Z_c
+FA_hs_24_6Z9Z12Z15Z18Z_e
+FA_hs_24_9Z12Z15Z18Z21Z_c
+FA_hs_24_9Z12Z15Z18Z21Z_e
+FA_hs_24_9Z12Z15Z18Z_c
+FA_hs_24_9Z12Z15Z18Z_e
+FA_hs_26_0_c
+FA_hs_26_0_e
+FA_hs_26_17Z_c
+FA_hs_26_17Z_e
+FA_hs_c
+FAcoa_10_DC_c
+FAcoa_12_DC_c
+FAcoa_16_DC_c
+FAcoa_4_2M_c
+FAcoa_4_DC_c
+FAcoa_5_2E2M_c
+FAcoa_5_2EDC_c
+FAcoa_5_2M_c
+FAcoa_5_3M3OH__S_c
+FAcoa_5_DC_c
+FAcoa_6_DC_c
+FAcoa_7_DC_c
+FAcoa_8_DC_c
+FAcoa_hs_10_0_c
+FAcoa_hs_10_2E6Z_c
+FAcoa_hs_10_2E_c
+FAcoa_hs_10_3OH__S_c
+FAcoa_hs_11_0_c
+FAcoa_hs_12_0_c
+FAcoa_hs_12_2E_c
+FAcoa_hs_12_3OH__S_c
+FAcoa_hs_13_0_c
+FAcoa_hs_14_0_c
+FAcoa_hs_14_2E_c
+FAcoa_hs_14_3OH__S_c
+FAcoa_hs_14_5E8Z3OH__S_c
+FAcoa_hs_14_5E8Z_c
+FAcoa_hs_14_5Z_c
+FAcoa_hs_14_7Z3OH__S_c
+FAcoa_hs_14_7Z_c
+FAcoa_hs_14_9Z_c
+FAcoa_hs_15_0_c
+FAcoa_hs_16_0_c
+FAcoa_hs_16_2E_c
+FAcoa_hs_16_3OH__R_c
+FAcoa_hs_16_3OH__S_c
+FAcoa_hs_16_3O_c
+FAcoa_hs_16_7E10Z3OH__S_c
+FAcoa_hs_16_7Z_c
+FAcoa_hs_16_9Z3OH__S_c
+FAcoa_hs_16_9Z_c
+FAcoa_hs_17_0_c
+FAcoa_hs_17_10Z_c
+FAcoa_hs_17_2E_c
+FAcoa_hs_17_3OH__R_c
+FAcoa_hs_17_3O_c
+FAcoa_hs_17_9Z_c
+FAcoa_hs_18_0_c
+FAcoa_hs_18_11Z_c
+FAcoa_hs_18_13Z_c
+FAcoa_hs_18_2E_c
+FAcoa_hs_18_3OH__R_c
+FAcoa_hs_18_3OH__S_c
+FAcoa_hs_18_3O_c
+FAcoa_hs_18_6Z9Z12Z15Z_c
+FAcoa_hs_18_6Z9Z12Z_c
+FAcoa_hs_18_6Z9Z_c
+FAcoa_hs_18_7Z_c
+FAcoa_hs_18_9E_c
+FAcoa_hs_18_9Z12Z15Z_c
+FAcoa_hs_18_9Z12Z3OH__S_c
+FAcoa_hs_18_9Z12Z_c
+FAcoa_hs_18_9Z3OH__S_c
+FAcoa_hs_18_9Z_c
+FAcoa_hs_19_0_c
+FAcoa_hs_19_2E_c
+FAcoa_hs_19_3OH__R_c
+FAcoa_hs_19_3O_c
+FAcoa_hs_20_0_c
+FAcoa_hs_20_11Z14Z17Z3OH__R_c
+FAcoa_hs_20_11Z14Z17Z3O_c
+FAcoa_hs_20_11Z14Z17Z_c
+FAcoa_hs_20_11Z14Z3OH__R_c
+FAcoa_hs_20_11Z14Z3O_c
+FAcoa_hs_20_11Z14Z_c
+FAcoa_hs_20_11Z3OH__R_c
+FAcoa_hs_20_11Z3O_c
+FAcoa_hs_20_11Z_c
+FAcoa_hs_20_13Z3OH__R_c
+FAcoa_hs_20_13Z3O_c
+FAcoa_hs_20_13Z_c
+FAcoa_hs_20_2E11Z14Z17Z_c
+FAcoa_hs_20_2E11Z14Z_c
+FAcoa_hs_20_2E11Z_c
+FAcoa_hs_20_2E13Z_c
+FAcoa_hs_20_2E8Z11Z14Z17Z_c
+FAcoa_hs_20_2E8Z11Z14Z_c
+FAcoa_hs_20_2E8Z11Z_c
+FAcoa_hs_20_2E9Z_c
+FAcoa_hs_20_2E_c
+FAcoa_hs_20_3OH__R_c
+FAcoa_hs_20_3O_c
+FAcoa_hs_20_5Z8Z11Z14Z17Z_c
+FAcoa_hs_20_5Z8Z11Z14Z_c
+FAcoa_hs_20_5Z8Z11Z_c
+FAcoa_hs_20_8Z11Z14Z17Z3OH__R_c
+FAcoa_hs_20_8Z11Z14Z17Z3O_c
+FAcoa_hs_20_8Z11Z14Z17Z_c
+FAcoa_hs_20_8Z11Z14Z3OH__R_c
+FAcoa_hs_20_8Z11Z14Z3O_c
+FAcoa_hs_20_8Z11Z14Z_c
+FAcoa_hs_20_8Z11Z3OH__R_c
+FAcoa_hs_20_8Z11Z3O_c
+FAcoa_hs_20_8Z11Z_c
+FAcoa_hs_20_9Z3OH__R_c
+FAcoa_hs_20_9Z3O_c
+FAcoa_hs_20_9Z_c
+FAcoa_hs_21_0_c
+FAcoa_hs_21_2E_c
+FAcoa_hs_21_3OH__R_c
+FAcoa_hs_21_3O_c
+FAcoa_hs_22_0_c
+FAcoa_hs_22_10Z13Z16Z19Z3OH__R_c
+FAcoa_hs_22_10Z13Z16Z19Z3O_c
+FAcoa_hs_22_10Z13Z16Z19Z_c
+FAcoa_hs_22_10Z13Z16Z3OH__R_c
+FAcoa_hs_22_10Z13Z16Z3O_c
+FAcoa_hs_22_10Z13Z16Z_c
+FAcoa_hs_22_11Z3OH__R_c
+FAcoa_hs_22_11Z3O_c
+FAcoa_hs_22_11Z_c
+FAcoa_hs_22_13Z16Z19Z3OH__R_c
+FAcoa_hs_22_13Z16Z19Z3O_c
+FAcoa_hs_22_13Z16Z19Z_c
+FAcoa_hs_22_13Z16Z3OH__R_c
+FAcoa_hs_22_13Z16Z3O_c
+FAcoa_hs_22_13Z16Z_c
+FAcoa_hs_22_13Z3OH__R_c
+FAcoa_hs_22_13Z3O_c
+FAcoa_hs_22_13Z_c
+FAcoa_hs_22_2E10Z13Z16Z19Z_c
+FAcoa_hs_22_2E10Z13Z16Z_c
+FAcoa_hs_22_2E11Z_c
+FAcoa_hs_22_2E13Z16Z19Z_c
+FAcoa_hs_22_2E13Z16Z_c
+FAcoa_hs_22_2E13Z_c
+FAcoa_hs_22_2E7Z10Z13Z16Z19Z_c
+FAcoa_hs_22_2E7Z10Z13Z16Z_c
+FAcoa_hs_22_2E_c
+FAcoa_hs_22_3OH__R_c
+FAcoa_hs_22_3O_c
+FAcoa_hs_22_4Z7Z10Z13Z16Z19Z_c
+FAcoa_hs_22_4Z7Z10Z13Z16Z_c
+FAcoa_hs_22_7Z10Z13Z16Z19Z3OH__R_c
+FAcoa_hs_22_7Z10Z13Z16Z19Z3O_c
+FAcoa_hs_22_7Z10Z13Z16Z19Z_c
+FAcoa_hs_22_7Z10Z13Z16Z3OH__R_c
+FAcoa_hs_22_7Z10Z13Z16Z3O_c
+FAcoa_hs_22_7Z10Z13Z16Z_c
+FAcoa_hs_23_0_c
+FAcoa_hs_23_2E_c
+FAcoa_hs_23_3OH__R_c
+FAcoa_hs_23_3O_c
+FAcoa_hs_24_0_c
+FAcoa_hs_24_12Z15Z18Z21Z3OH__R_c
+FAcoa_hs_24_12Z15Z18Z21Z3O_c
+FAcoa_hs_24_12Z15Z18Z21Z_c
+FAcoa_hs_24_15Z3OH__R_c
+FAcoa_hs_24_15Z3O_c
+FAcoa_hs_24_15Z_c
+FAcoa_hs_24_2E12Z15Z18Z21Z_c
+FAcoa_hs_24_2E15Z_c
+FAcoa_hs_24_2E9Z12Z15Z18Z21Z_c
+FAcoa_hs_24_2E9Z12Z15Z18Z_c
+FAcoa_hs_24_2E_c
+FAcoa_hs_24_3OH__R_c
+FAcoa_hs_24_3O_c
+FAcoa_hs_24_6Z9Z12Z15Z18Z21Z_c
+FAcoa_hs_24_6Z9Z12Z15Z18Z_c
+FAcoa_hs_24_9Z12Z15Z18Z21Z3OH__R_c
+FAcoa_hs_24_9Z12Z15Z18Z21Z3O_c
+FAcoa_hs_24_9Z12Z15Z18Z21Z_c
+FAcoa_hs_24_9Z12Z15Z18Z3OH__R_c
+FAcoa_hs_24_9Z12Z15Z18Z3O_c
+FAcoa_hs_24_9Z12Z15Z18Z_c
+FAcoa_hs_26_0_c
+FAcoa_hs_26_17Z3OH__R_c
+FAcoa_hs_26_17Z3O_c
+FAcoa_hs_26_17Z_c
+FAcoa_hs_26_2E17Z_c
+FAcoa_hs_26_2E_c
+FAcoa_hs_26_3OH__R_c
+FAcoa_hs_26_3O_c
+FAcoa_hs_3_2E_c
+FAcoa_hs_3_3OH__S_c
+FAcoa_hs_4_2E_c
+FAcoa_hs_4_3OH__R_c
+FAcoa_hs_5_0_c
+FAcoa_hs_6_0_c
+FAcoa_hs_6_2E_c
+FAcoa_hs_6_3OH__S_c
+FAcoa_hs_7_0_c
+FAcoa_hs_7_3OH__S_c
+FAcoa_hs_8_0_c
+FAcoa_hs_8_2E_c
+FAcoa_hs_8_3OH__S_c
+FAcoa_hs_9_0_c
+FAcoa_hs_9_3OH__S_c
+FAcoa_hs_c
+FAcrn_10_DC_c
+FAcrn_12_DC_c
+FAcrn_16_DC_c
+FAcrn_4_2M_c
+FAcrn_4_DC_c
+FAcrn_5_2E2M_c
+FAcrn_5_2EDC_c
+FAcrn_5_2M_c
+FAcrn_5_3M3OH__S_c
+FAcrn_5_DC_c
+FAcrn_6_DC_c
+FAcrn_7_DC_c
+FAcrn_8_DC_c
+FAcrn_hs_10_0_c
+FAcrn_hs_10_2E6Z_c
+FAcrn_hs_10_2E_c
+FAcrn_hs_10_3OH__S_c
+FAcrn_hs_11_0_c
+FAcrn_hs_12_0_c
+FAcrn_hs_12_2E_c
+FAcrn_hs_12_3OH__S_c
+FAcrn_hs_13_0_c
+FAcrn_hs_14_0_c
+FAcrn_hs_14_2E_c
+FAcrn_hs_14_3OH__S_c
+FAcrn_hs_14_5E8Z3OH__S_c
+FAcrn_hs_14_5E8Z_c
+FAcrn_hs_14_5Z_c
+FAcrn_hs_14_7Z3OH__S_c
+FAcrn_hs_14_7Z_c
+FAcrn_hs_14_9Z_c
+FAcrn_hs_15_0_c
+FAcrn_hs_16_0_c
+FAcrn_hs_16_2E_c
+FAcrn_hs_16_3OH__S_c
+FAcrn_hs_16_7E10Z3OH__S_c
+FAcrn_hs_16_7Z_c
+FAcrn_hs_16_9Z3OH__S_c
+FAcrn_hs_16_9Z_c
+FAcrn_hs_17_0_c
+FAcrn_hs_17_10Z_c
+FAcrn_hs_17_9Z_c
+FAcrn_hs_18_0_c
+FAcrn_hs_18_11Z_c
+FAcrn_hs_18_13Z_c
+FAcrn_hs_18_2E_c
+FAcrn_hs_18_3OH__S_c
+FAcrn_hs_18_6Z9Z12Z15Z_c
+FAcrn_hs_18_6Z9Z12Z_c
+FAcrn_hs_18_6Z9Z_c
+FAcrn_hs_18_7Z_c
+FAcrn_hs_18_9E_c
+FAcrn_hs_18_9Z12Z15Z_c
+FAcrn_hs_18_9Z12Z3OH__S_c
+FAcrn_hs_18_9Z12Z_c
+FAcrn_hs_18_9Z3OH__S_c
+FAcrn_hs_18_9Z_c
+FAcrn_hs_19_0_c
+FAcrn_hs_20_0_c
+FAcrn_hs_20_11Z14Z17Z_c
+FAcrn_hs_20_11Z14Z_c
+FAcrn_hs_20_11Z_c
+FAcrn_hs_20_13Z_c
+FAcrn_hs_20_5Z8Z11Z14Z17Z_c
+FAcrn_hs_20_5Z8Z11Z14Z_c
+FAcrn_hs_20_5Z8Z11Z_c
+FAcrn_hs_20_8Z11Z14Z17Z_c
+FAcrn_hs_20_8Z11Z14Z_c
+FAcrn_hs_20_8Z11Z_c
+FAcrn_hs_20_9Z_c
+FAcrn_hs_21_0_c
+FAcrn_hs_22_0_c
+FAcrn_hs_22_10Z13Z16Z19Z_c
+FAcrn_hs_22_10Z13Z16Z_c
+FAcrn_hs_22_11Z_c
+FAcrn_hs_22_13Z16Z19Z_c
+FAcrn_hs_22_13Z16Z_c
+FAcrn_hs_22_13Z_c
+FAcrn_hs_22_4Z7Z10Z13Z16Z19Z_c
+FAcrn_hs_22_4Z7Z10Z13Z16Z_c
+FAcrn_hs_22_7Z10Z13Z16Z19Z_c
+FAcrn_hs_22_7Z10Z13Z16Z_c
+FAcrn_hs_23_0_c
+FAcrn_hs_24_0_c
+FAcrn_hs_24_12Z15Z18Z21Z_c
+FAcrn_hs_24_15Z_c
+FAcrn_hs_24_6Z9Z12Z15Z18Z21Z_c
+FAcrn_hs_24_6Z9Z12Z15Z18Z_c
+FAcrn_hs_24_9Z12Z15Z18Z21Z_c
+FAcrn_hs_24_9Z12Z15Z18Z_c
+FAcrn_hs_26_0_c
+FAcrn_hs_26_17Z_c
+FAcrn_hs_3_0_c
+FAcrn_hs_3_2E_c
+FAcrn_hs_3_3OH__S_c
+FAcrn_hs_4_0_c
+FAcrn_hs_4_2E_c
+FAcrn_hs_4_3OH__R_c
+FAcrn_hs_5_0_c
+FAcrn_hs_6_0_c
+FAcrn_hs_6_2E_c
+FAcrn_hs_6_3OH__S_c
+FAcrn_hs_7_0_c
+FAcrn_hs_7_3OH__S_c
+FAcrn_hs_8_0_c
+FAcrn_hs_8_2E_c
+FAcrn_hs_8_3OH__S_c
+FAcrn_hs_9_0_c
+FAcrn_hs_9_3OH__S_c
+L2aadp_c
+L2aadp_e
+Lcyst_c
+Lfmkynr_c
+N1aspmd_c
+N1sprm_c
+Ssq23epx_c
+aacACP_c
+aacoa_c
+aappal_c
+abt__L_c
+abt__L_e
+ac4oacnam_c
+ac9oacnam_c
+acACP_c
+ac_c
+ac_e
+acac_c
+acac_e
+acald_c
+acald_e
+accoa_c
+accprot_lys__L_c
+accprot_monoubiqlys_c
+accprot_ubiqlys_c
+acetol_c
+acgal1p_c
+acgal_c
+acgalfuc12gal14acglcgalgluside_hs_c
+acgalfucgalacgalfuc12gal14acglcgalgluside_hs_c
+acgalfucgalacgalfucgalacglcgal14acglcgalgluside_hs_c
+acgalfucgalacglcgal14acglcgalgluside_hs_c
+acgalfucgalacglcgalgluside_hs_c
+acgam1p_c
+acgam6p_c
+acgam_c
+acglcgalacglcgal14acglcgalgluside_hs_c
+ach_c
+ach_e
+acmana_c
+acmanap_c
+acmet__L_c
+acmetala_c
+acnagalgbside_hs_c
+acnam_c
+acnam_e
+acnamp_c
+acrn_c
+actp_c
+ade_c
+ade_e
+admarg__L_c
+admarg__L_e
+adn_c
+adn_e
+adp_c
+adp_e
+adpglc_c
+adpman_c
+adprbp_c
+adprbp_e
+adprib_c
+adprib_e
+adpribu_c
+adrnchrm_c
+adrnchrmsqn_c
+adrnl__L_c
+adrnl__L_e
+adrnlqn__L_c
+adrnlsqn__L_c
+ag1_c
+ag1_e
+ahcys__L_c
+ahdt_c
+aic_c
+aic_e
+aica_c
+aica_e
+aicar_c
+aicar_e
+air_c
+akg_c
+akg_e
+ala_B_c
+ala_B_e
+ala__L_c
+ala__L_e
+alapro_c
+alatrna_c
+alltn_c
+alltn_e
+alltt_c
+amet__L_c
+ametam_c
+amp_c
+amp_e
+ampamd_c
+anad_c
+andrstndn_c
+andrstndn_e
+andrstrn_c
+angiotensin17_c
+angiotensin1_c
+angiotensin2_c
+angiotensin3_c
+angiotensin4_c
+angiotensin57_c
+angiotensin58_c
+ap4a_c
+ap5a_c
+ap6a_c
+apoACP_c
+aprgstrn_c
+aprgstrn_e
+aps_c
+arab__L_c
+arab__L_e
+arg__L_c
+arg__L_e
+argpropro_c
+argsuc_c
+argtrna_c
+arsdigth_c
+arsgth_c
+arsna_c
+arsna_e
+arsni_c
+arsni_e
+arsseldigth_c
+arsseldigth_e
+ascb__L_c
+ascb__L_e
+asn__L_c
+asn__L_e
+asntrna_c
+asp__L_c
+asp__L_e
+asparg_c
+asptrna_c
+atp_c
+atp_e
+avite1_c
+avite1qn_c
+avite1r_c
+bamppald_c
+betald_c
+bhbACP_c
+bilirub_c
+bilirub_e
+biliverd_c
+btcoa_c
+butACP_c
+but_c
+but_e
+buteACP_2E_c
+bz_c
+bzal_c
+ca2_c
+ca2_e
+cadprbp_c
+cadprbp_e
+cadprib_c
+cadprib_e
+carboxyhb_c
+cbasp_c
+cbp_c
+cclglobin_c
+cclmethb_c
+cd2_c
+cd2_e
+cdp_c
+cdpchol_c
+cdpdag_hs_c
+cdpea_c
+cdprbt_c
+cdprib_c
+cdpru5p__D_c
+ch4s_c
+chlstol_c
+chol_c
+chol_e
+cholate_c
+cholate_e
+cholp_c
+cholp_e
+chsterol_c
+chsterol_e
+cit_c
+cit_e
+citr__L_c
+citr__L_e
+cl_c
+cl_e
+clho_e
+cmp_c
+cmpacna_c
+cmusa_c
+co2_c
+co2_e
+co3r_c
+co_c
+co_e
+coa_c
+cobalt2_c
+cobalt2_e
+cppp1_c
+cppp1_e
+cppp3_c
+cppp3_e
+cpppg1_c
+cpppg3_c
+cpppg3_e
+creat_c
+creat_e
+crm_hs_c
+crm_hs_e
+crn_c
+crn_e
+crtn_c
+crtn_e
+crtsl_c
+crtsl_e
+crtstrn_c
+crtstrn_e
+csn_c
+ctp_c
+cu1_c
+cu1_e
+cu2_c
+cu2_e
+cullin_lys__L_c
+cullin_nedd8lys_c
+cynamd_c
+cys__L_c
+cys__L_e
+cysam_c
+cysgly_c
+cysi__L_c
+cysi__L_e
+cyst__L_c
+cystrna_c
+cytd_c
+cytd_e
+dadp_c
+dag_hs_c
+dago_hs_c
+dagoac_hs_c
+dagthrd_c
+damp_c
+daophth_c
+datp_c
+dcaACP_c
+dcdp_c
+dceaACP_2E_c
+dcmp_c
+dctp_c
+ddcaACP_c
+ddceaACP_2E_c
+dgchol_c
+dgchol_e
+dgdp_c
+dgmp_c
+dgtp_c
+dh15kprostge1_c
+dh15kprostge2_c
+dh15kprostge3_c
+dh15kprostgf1_c
+dh15kprostgf2_c
+dh15kprostgf3_c
+dha_c
+dha_e
+dhap_c
+dhdascb__L_c
+dhdascb__L_e
+dheas_c
+dheas_e
+dhet1112_c
+dhet1112_e
+dhet1415_c
+dhet1415_e
+dhet56_c
+dhet56_e
+dhet89_c
+dhet89_e
+dhf_c
+dhlipoate_c
+dhlipoate_e
+dhmtp_c
+dhnpt_c
+dhnpt_e
+dhor__S_c
+dhurate_c
+diam6tpop4oxpyr_c
+diampyrntp_c
+didp_c
+dihdpa1011_c
+dihdpa1011_e
+dihdpa1314_c
+dihdpa1314_e
+dihdpa1617_c
+dihdpa1617_e
+dihdpa1920_c
+dihdpa1920_e
+dihdpa78_c
+dihdpa78_e
+dihete1112_c
+dihete1112_e
+dihete1415_c
+dihete1415_e
+dihete1718_c
+dihete1718_e
+dihete56_c
+dihete56_e
+dihete89_c
+dihete89_e
+dihome1213_c
+dihome1213_e
+dihome910_c
+dihome910_e
+diiodthy__L_c
+diiodthy__L_e
+dimp_c
+ditp_c
+dkmpp_c
+dmgly_c
+dmhptcoa_c
+dmhptcrn_c
+dmnoncoa_c
+dmnoncrn_c
+dmpp_c
+dnad_c
+dnadp_c
+dnadp_e
+dopa__D_c
+dopa__L_c
+dopa__L_e
+dopaqn__L_c
+dopasqn__L_c
+dpam__D_c
+dpam__L_c
+dpam__L_e
+dpamchrm_c
+dpamchrmsqn_c
+dpamqn__L_c
+dpamsqn__L_c
+dpchrm__D_c
+dpchrm__L_c
+dpchrmsqn__L_c
+dpcoa_c
+dtdp_c
+dtmp_c
+dttp_c
+dudp_c
+dump_c
+dutp_c
+e14bp_c
+e1act_cys__L_c
+e1nd8act_cys__L_c
+e217obglcur_c
+e217obglcur_e
+e2conj_cys__L_c
+e2nd8conj_cys__L_c
+e4hglu_c
+e4p_c
+edp1011_c
+edp1011_e
+edp1314_c
+edp1314_e
+edp1617_c
+edp1617_e
+edp1920_c
+edp1920_e
+edp78_c
+edp78_e
+eeq1112_c
+eeq1112_e
+eeq1415_c
+eeq1415_e
+eeq1718_c
+eeq1718_e
+eeq56_c
+eeq56_e
+eeq89_c
+eeq89_e
+eet1112_c
+eet1112_e
+eet1415_c
+eet1415_e
+eet56_c
+eet56_e
+eet89_c
+eet89_e
+epome1213_c
+epome1213_e
+epome910_c
+epome910_e
+ergoth_c
+ergoth_e
+erthn__D_c
+erthrs__D_c
+erylt_c
+erylt_e
+eryth__L_c
+estradiol23qn_c
+estradiol23sqn_c
+estradiol34qn_c
+estradiol34sqn_c
+estradiol_c
+estradiol_e
+estrone23qn_c
+estrone23sqn_c
+estrone34qn_c
+estrone34sqn_c
+estrone_c
+estrone_e
+estrones_c
+estrones_e
+etha_c
+etha_e
+ethamp_c
+ethamp_e
+ethmalcoa__S_c
+etoh_c
+etoh_e
+f1p_c
+f3p_c
+f6p_c
+fad_c
+fadh2_c
+fald_c
+fdp_c
+fe2_c
+fe2_e
+fe3_c
+fe3_e
+fe3ooh_c
+fgam_c
+ficytb5_c
+fmn_c
+fmnh2_c
+focytb5_c
+for_c
+for_e
+forapyrntp_c
+fpram_c
+fprica_c
+frdp_c
+frnsl2e6e_c
+frnsn2e6e_c
+fru_c
+fru_e
+fuc12gal14acglcgalgluside_hs_c
+fuc1p__L_c
+fuc__L_c
+fucfucgalacglcgalacglcgal14acglcgalgluside_hs_c
+fucgalacgalfuc12gal14acglcgalgluside_hs_c
+fucgalacgalfucgalacglcgal14acglcgalgluside_hs_c
+fucgalacglcgal14acglcgalgluside_hs_c
+fucgalacglcgalacglcgal14acglcgalgluside_hs_c
+fucgalacglcgalgluside_hs_c
+fum_c
+fum_e
+g16bp_c
+g1p_c
+g3p_c
+g3pc_c
+g3pe_c
+g3pi_c
+g3pnae_hs_c
+g3ps_c
+g6p__aD_c
+g6p_c
+ga1_hs_c
+ga1_hs_e
+ga2_hs_c
+gal1p_c
+gal__bD_c
+gal__bD_e
+gal_c
+gal_e
+galacgalfuc12gal14acglcgalgluside_hs_c
+galacgalfucgalacglcgal14acglcgalgluside_hs_c
+galacglcgal14acglcgalgluside_hs_c
+galacglcgalacglcgal14acglcgalgluside_hs_c
+galacglcgalgluside_hs_c
+galfuc12gal14acglcgalgluside_hs_c
+galfucgalacglcgal14acglcgalgluside_hs_c
+galfucgalacglcgalgluside_hs_c
+galgal14acglcgalgluside_hs_c
+galgalacglcgalgluside_hs_c
+galgbside_hs_c
+galgluside_hs_c
+galgluside_hs_e
+galt_c
+galt_e
+gam6p_c
+gam_c
+gam_e
+gar_c
+gbside_hs_c
+gchola_c
+gchola_e
+gd1a_hs_c
+gd1a_hs_e
+gd1b_hs_c
+gd1b_hs_e
+gd2_hs_e
+gd3_hs_e
+gdchac_c
+gdchac_e
+gdp_c
+gdpddman_c
+gdpfuc_c
+gdpmann_c
+gglu2abut_c
+gglucys__L_c
+ggn8Y_c
+ggnG11_c
+ggnG4G4_c
+ggnG4G7_c
+ggnG7G1_c
+ggnG7_c
+ggnG8_c
+glac_c
+glc__D_c
+glc__D_e
+glc__aD_c
+glc__aD_e
+glcn_c
+glcn_e
+glcr_c
+glcur_c
+gln__L_c
+gln__L_e
+glntrna_c
+globin_c
+globinr_c
+globoA_hs_c
+globoB_hs_c
+globoH_hs_c
+glu5sa__L_c
+glu__L_c
+glu__L_e
+glutrna_c
+glx_c
+glx_e
+gly_c
+gly_e
+glyald_c
+glyb_c
+glyb_e
+glyc3p_c
+glyc__R_c
+glyc__R_e
+glyc__S_c
+glyc__S_e
+glyc_c
+glyc_e
+glyclt_c
+glyclt_e
+glygly_c
+glyleu_c
+glyphe_c
+glypro_c
+glytrna_c
+glytrp_c
+gm1_hs_c
+gm1_hs_e
+gm1b_hs_c
+gm1b_hs_e
+gm2_hs_c
+gm2_hs_e
+gm3_hs_c
+gm3_hs_e
+gmp_c
+gp4g_c
+gq1b_hs_c
+gq1b_hs_e
+grdp_c
+grdx2cgth_c
+grdx2cox_c
+grdx2crd_c
+gsn_c
+gsn_e
+gt1b_hs_c
+gt1b_hs_e
+gthnhoh_c
+gthno_c
+gthno_e
+gthnoh2_c
+gthox_c
+gthox_e
+gthrd_c
+gthrd_e
+gtp_c
+gua_c
+gua_e
+gudac_c
+gudchola_c
+gudchola_e
+guln__L_c
+h2o2_c
+h2o2_e
+h2o_c
+h2o_e
+h2s_c
+h2s_e
+hLkynr_c
+hLkynr_e
+h_c
+h_e
+ham_c
+hb4_23dpg_c
+hb_c
+hb_hco2_c
+hba1c_c
+hbsno_c
+hco3_c
+hco3_e
+hcys__L_c
+hcys__L_e
+hcystin__L_c
+hcystin__L_e
+hdha10_c
+hdha10_e
+hdha11_c
+hdha11_e
+hdha13_c
+hdha13_e
+hdha14_c
+hdha14_e
+hdha16_c
+hdha16_e
+hdha17_c
+hdha17_e
+hdha20_c
+hdha20_e
+hdha4_c
+hdha4_e
+hdha7_c
+hdha7_e
+hdha8_c
+hdha8_e
+hematin_c
+hematin_e
+hemedegprods_c
+hemegth_c
+hemegthoh_c
+hepe11_c
+hepe11_e
+hepe12_c
+hepe12_e
+hepe15_c
+hepe15_e
+hepe18_c
+hepe18_e
+hepe5_c
+hepe5_e
+hepe8_c
+hepe8_e
+hepe9_c
+hepe9_e
+hete11_c
+hete11_e
+hete12_c
+hete12_e
+hete15_c
+hete15_e
+hete5_c
+hete5_e
+hete8_c
+hete8_e
+hete9_c
+hete9_e
+hgentis_c
+his__L_c
+his__L_e
+hista_c
+hista_e
+histrna_c
+hmbil_c
+hmgth_c
+hno_c
+hode13_c
+hode13_e
+hode9_c
+hode9_e
+homoval_c
+homoval_e
+hpdha10_c
+hpdha11_c
+hpdha13_c
+hpdha14_c
+hpdha16_c
+hpdha17_c
+hpdha20_c
+hpdha4_c
+hpdha7_c
+hpdha8_c
+hpepe11_c
+hpepe12_c
+hpepe15_c
+hpepe18_c
+hpepe5_c
+hpepe8_c
+hpepe9_c
+hpete11_c
+hpete12_c
+hpete15_c
+hpete5_c
+hpete8_c
+hpete9_c
+hpode13_c
+hpode9_c
+hpta_c
+hpta_e
+hptal_c
+hptea_2E_c
+hpteal_2E_c
+hpyr_c
+hser__L_c
+hser__L_e
+htsul_c
+hxaACP_c
+hxa_c
+hxa_e
+hxal_c
+hxan_c
+hxan_e
+hxdcaACP_c
+hxdcal_c
+hxdceaACP_2E_c
+hxdceal_2E_c
+hxeaACP_2E_c
+hxea_2E_c
+hxeal_2E_c
+hyptaur_c
+i_c
+i_e
+icit_c
+id3acald_c
+idp_c
+ile__L_c
+ile__L_e
+iletrna_c
+im4ac_c
+im4ac_e
+im4act_c
+imp_c
+ind3ac_c
+ind56qn_c
+ind56sqn_c
+inds_c
+inds_e
+inost_c
+inost_e
+ins6p_c
+ins_c
+ins_e
+insulinox_c
+insulinrd_c
+ipdp_c
+itp_c
+k_c
+k_e
+kdn_c
+kdn_e
+kdnp_c
+kynate_c
+kynr__L_c
+kynr__L_e
+lac__D_c
+lac__D_e
+lac__L_c
+lac__L_e
+lacphe__LL_c
+lacphe__LL_e
+lald__D_c
+lald__L_c
+lanost_c
+leu__D_c
+leu__D_e
+leu__L_c
+leu__L_e
+leuadrnchrm_c
+leuala_c
+leudpamchrm_c
+leudpchrm__L_c
+leugly_c
+leuglygly_c
+leuglyphe_c
+leuktrA4_c
+leuktrA4_e
+leuktrA5_c
+leuktrA5_e
+leuktrB4_c
+leuktrB4_e
+leuktrB5_c
+leuktrB5_e
+leuktrC4_c
+leuktrC4_e
+leuktrC5_c
+leuktrC5_e
+leuleu_c
+leuleuleu_c
+leunrpphrchrm_c
+leupro_c
+leutrna_c
+li1_c
+li1_e
+lipoate_c
+lipoate_e
+lnape_hs_c
+lpa_hs_c
+lpail_hs_c
+lpao_hs_c
+lpc_hs_c
+lpc_hs_e
+lpco_hs_c
+lpcp_hs_c
+lpe_hs_c
+lpep_hs_c
+lps_hs_c
+lthstrl_c
+lys__L_c
+lys__L_e
+lysleu_c
+lystrna_c
+lyxnt__L_c
+m2mn_c
+mag2_hs_c
+mag_hs_c
+mago_hs_c
+malACP_c
+mal__L_c
+mal__L_e
+malcoa_c
+malcrn_c
+mald_c
+man16bp_c
+man1p_c
+man6p_c
+man_c
+man_e
+mdhdascb__L_c
+mdhdascb__L_e
+meoh_c
+mepi__L_c
+mepi__L_e
+mercplac_c
+mercppyr_c
+mercpur_c
+mercpur_e
+metSox__SL_c
+met__L_c
+met__L_e
+methb_c
+methb_onoo_c
+methbr_c
+methf_c
+methsel_c
+methselne_c
+methselni_c
+metpro_c
+metselpyr_c
+mettrna_c
+mg2_c
+mg2_e
+mhista_c
+mi13456p_c
+mi1345p_c
+mi134p_c
+mi1456p_c
+mi145p_c
+mi14p_c
+mi1p__D_c
+mi3p__D_c
+mi4p__D_c
+mlthf_c
+mma_c
+mma_e
+mmaln_c
+mmarg__L_c
+mmarg__L_e
+mmcoa__S_c
+mn2_c
+mn2_e
+mn_c
+mndiol_c
+mndn_c
+mnl_e
+mnlr_e
+mobd_c
+mobd_e
+moco_c
+mpt_c
+mptamp_c
+msa_c
+mthgxl_c
+mtmercpur_c
+mtthiogmp_c
+mtthiogmp_e
+mtthioimp_c
+mtthioimp_e
+n2o3_c
+n2o3_e
+n4abutn_c
+na1_c
+na1_e
+nac_c
+nac_e
+naccys__L_c
+naccys__L_e
+nad_c
+nad_e
+nadh_c
+nadhx__R_c
+nadhx__S_c
+nadp_c
+nadp_e
+nadph_c
+nadphx__R_c
+nadphx__S_c
+nae_hs_c
+nape_hs_c
+ncam_c
+ncam_e
+nedd8Se1nd8act_cys__L_c
+nedd8Se2nd8conj_cys__L_c
+nedd8_c
+nh3_c
+nh3_e
+nh4_c
+nh4_e
+nicrns_c
+nicrns_e
+nicrnt_c
+nitrosylhb_c
+nmn_c
+nmn_e
+nmnh_c
+no2_c
+no2_e
+no2r_c
+no3_c
+no3_e
+no_c
+no_e
+nona_c
+nona_e
+nonal_c
+nonea_2E_c
+noneal_2E_c
+normete__L_c
+normete__L_e
+nrpphr__L_c
+nrpphr__L_e
+nrpphrchrm_c
+nrpphrchrmsqn_c
+nrpphrqn__L_c
+nrpphrsqn__L_c
+nwharg_c
+o18bp_c
+o2_c
+o2_e
+o2s_c
+o2s_e
+oaa_c
+ocaACP_c
+ocdcaACP_c
+ocdceaACP_2E_c
+oceaACP_2E_c
+octa_c
+octa_e
+octal_c
+octea_2E_c
+octeal_2E_c
+oh1_c
+oh1_e
+oh1r_c
+oh1r_e
+onoo_c
+onoo_e
+onooco2_c
+onooh_c
+onooh_e
+ophth_c
+orn__L_c
+orn__L_e
+orot5p_c
+orot_c
+orot_e
+orotdn_c
+oxa_c
+oxa_e
+oxoferrylhb_c
+oxoferrylhbr_c
+oxyhb_c
+p4a_c
+pa_hs_c
+pac_c
+pacald_c
+paf_hs_c
+pail345p_hs_c
+pail34p_hs_c
+pail35p_hs_c
+pail3p_hs_c
+pail45p_hs_c
+pail4p_hs_c
+pail5p_hs_c
+pail_hs_c
+pail_hs_e
+pao_hs_c
+paoac_hs_c
+pap_c
+paps_c
+paragbside_hs_c
+pc_hs_c
+pc_hs_e
+pco_hs_c
+pcp_hs_c
+pcreat_c
+pcreat_e
+pdx5p_c
+pe_hs_c
+pe_hs_e
+penme2_hs_c
+penme_hs_c
+pep_c
+pep_hs_c
+peth_hs_c
+peth_hs_e
+phe__L_c
+phe__L_e
+phehisleu_c
+pheleu_c
+pheme_c
+pheme_e
+phepro_c
+phetrna_c
+phetyr_c
+phlac_c
+phpyr_c
+pi_c
+pi_e
+pnto__R_c
+pnto__R_e
+polyadprib1_c
+polyadprib2_c
+polyubb_c
+pp2a_leu__L_c
+pp2a_leumeo_c
+ppa_c
+ppa_e
+ppal_c
+ppbng_c
+ppcoa_c
+ppgpp_c
+ppi_c
+ppi_e
+ppp9_c
+ppp9_e
+pppi_c
+pram_c
+prdx1cgth_c
+prdx1crd_c
+prdx1cso_c
+prdx2cox_c
+prdx2crd_c
+prdx2cso2_c
+prdx2cso3_c
+prdx2cso_c
+prgnlone_c
+prgnlone_e
+prgnlones_c
+prgnlones_e
+prgstrn_c
+prgstrn_e
+pro__L_c
+pro__L_e
+proleu_c
+prophe_c
+propro_c
+prostga1_c
+prostga2_c
+prostga3_c
+prostgd21glyc_c
+prostgd2_c
+prostgd2_e
+prostge1_c
+prostge1_e
+prostge21glyc_c
+prostge2_c
+prostge2_e
+prostge3_c
+prostge3_e
+prostgf1_c
+prostgf1_e
+prostgf21glyc_c
+prostgf2_c
+prostgf2_e
+prostgf3_c
+prostgf3_e
+prostgg1_c
+prostgg2_c
+prostgg3_c
+prostgh1_c
+prostgh2_c
+prostgh3_c
+protres_Nproshispi_c
+protres_Ntelehispi_c
+protres_Nwadpribarg__L_e
+protres_aclys__L_c
+protres_admarg__L_c
+protres_arg__L_c
+protres_arg__L_e
+protres_asn__L_c
+protres_asp__D_c
+protres_asp__L_c
+protres_aspmeo__D_c
+protres_cys__L_c
+protres_frulys3p_c
+protres_frulys6p_c
+protres_frulys_c
+protres_gln__L_c
+protres_glu5meo__L_c
+protres_glu__L_c
+protres_gludpam_c
+protres_gluhista_c
+protres_glunpphr_c
+protres_glusrtn_c
+protres_his__L_c
+protres_hxdcacys_c
+protres_isoasp__D_c
+protres_isoasp__L_c
+protres_isoaspmeo__L_c
+protres_lacarg_c
+protres_laccys_c
+protres_laclys_c
+protres_lys__L_c
+protres_lysglu_protres_c
+protres_metSox__SL_c
+protres_met__L_c
+protres_mmarg__L_c
+protres_oadpribser_c
+protres_ocdcacys_c
+protres_pepproW0_c
+protres_pepproW180_c
+protres_rbllys3p_c
+protres_rbllys5p_c
+protres_rbllys_c
+protres_sadpribcys_c
+protres_sdmarg__L_c
+protres_ser3oacgam_c
+protres_serTAg_c
+protres_serTnAg_c
+protres_ser__L_c
+protres_serpi_c
+protres_snocys__L_c
+protres_succlys_c
+protres_sucim__D_c
+protres_sucim__L_c
+protres_thr3oacgam_c
+protres_thrTAg_c
+protres_thrTnAg_c
+protres_thr__L_c
+protres_thrpi_c
+protres_ttdcacys_c
+protres_tyr__L_c
+protres_tyrpi_c
+protrna_c
+prpp_c
+ps_hs_c
+ps_hs_e
+pser__L_c
+psump_c
+psuri_c
+pta_c
+pta_e
+ptrc_c
+ptrc_e
+ptth__R_c
+pyam5p_c
+pydam_c
+pydam_e
+pydx5p_c
+pydx5p_e
+pydx_c
+pydx_e
+pydxn_c
+pydxn_e
+pyr_c
+pyr_e
+pyrrl_c
+q10_c
+q10h2_c
+q10h_c
+qmp_c
+que_c
+quln_c
+r15bp_c
+r1p_c
+r5p_c
+r5p_e
+rbl__D_c
+rblvrd_c
+rbt5p_c
+rbt_c
+rbt_e
+rbvcbxlt_c
+rbvdp_c
+rbvmp_c
+rbvtp_c
+retinal_11Z_c
+retinal_13Z_c
+retinal_9Z_c
+retinal_c
+retinol_11Z_c
+retinol_13Z_c
+retinol_9Z_c
+retinol_c
+retinol_e
+retn_11Z_c
+retn_13Z_c
+retn_9Z_c
+retn_c
+rib__D_c
+rib__D_e
+ribavirin_c
+ribavirin_e
+ribflv_c
+ribflv_e
+rnam_c
+rnam_e
+rnamh_c
+rnamh_e
+ru5p__D_c
+s17bp_c
+s7p_c
+saica_c
+saica_e
+saicar_c
+sarcs_c
+sarcs_e
+sbt__D_c
+sbt__D_e
+sdhplse_c
+selahcys__L_c
+selamet__L_c
+selcys__L_c
+selcyst__L_c
+seldigth_c
+selgth_c
+selhcys__L_c
+selmet__L_c
+seln_c
+seln_e
+selni_c
+selni_e
+ser__L_c
+ser__L_e
+sertrna_c
+sforgth_c
+sgthprostga1_c
+sgthprostga1_e
+sgthprostga2_c
+sgthprostga2_e
+sgthprostga3_c
+sgthprostga3_e
+sh1_c
+sh1_e
+slac__L_c
+slgth__R_c
+smscys__L_c
+snocoa_c
+snocys__L_c
+snocys__L_e
+snoh2coa_c
+so2gth_c
+so3_c
+so4_c
+so4_e
+sph1p_c
+sph1p_e
+sphgn_c
+sphgn_e
+sphings_c
+sphings_e
+sphmyln_hs_c
+sphmyln_hs_e
+sphs1p_c
+sphs1p_e
+spmd_c
+spmd_e
+sppt_c
+sppt_e
+sprm_c
+sprm_e
+srdx1cgth_c
+srdx1crd_c
+srtn_c
+srtn_e
+ssgth_c
+sso2gth_c
+sucacetat_c
+sucaceto_c
+succ_c
+succ_e
+succadn_c
+succamp_c
+sucsal_c
+tag_hs_c
+taur_c
+taur_e
+tchola_c
+tchola_e
+tdchola_c
+tdchola_e
+tdechola_c
+tdechola_e
+tetiodthy__L_c
+tetiodthy__L_e
+thbpt4acam_c
+thbpt_c
+thbpt_e
+thcrm_hs_c
+thcys_c
+thf_c
+thf_e
+thiogdp_c
+thiogmp_c
+thiogmp_e
+thiogsn_c
+thiogtp_c
+thiogua_c
+thioimp_c
+thioimp_e
+thioxmp_c
+thioxmp_e
+thm_c
+thm_e
+thmmp_c
+thmmp_e
+thmpp_c
+thmtp_c
+thr__L_c
+thr__L_e
+thrnt__L_c
+thrtl__L_c
+thrtrna_c
+thym_c
+thym_e
+thymd_c
+thymd_e
+trdxox_c
+trdxrd_c
+triaz3crbxam_c
+triiodthy__L_c
+triiodthy__L_e
+trnaala_c
+trnaarg_c
+trnaasn_c
+trnaasp_c
+trnacys_c
+trnagln_c
+trnaglu_c
+trnagly_c
+trnahis_c
+trnaile_c
+trnaleu_c
+trnalys_c
+trnamet_c
+trnaphe_c
+trnapro_c
+trnaser_c
+trnathr_c
+trnatrp_c
+trnatyr_c
+trnaval_c
+trp__L_c
+trp__L_e
+trptrna_c
+tststerone_c
+tststerone_e
+ttdcaACP_c
+ttdceaACP_2E_c
+tudchola_c
+tudchola_e
+tyr__L_c
+tyr__L_e
+tyrtrna_c
+tyrtyr_c
+tyrtyrtyr_c
+uacgam_c
+ubiqSe1act_cys__L_c
+ubiqSe2conj_cys__L_c
+ubiquitin_c
+udp_c
+udpacgal_c
+udpgal_c
+udpglc__D_c
+ump_c
+upp1_c
+upp1_e
+upp3_c
+upp3_e
+uppg1_c
+uppg3_c
+ura_c
+ura_e
+urate_c
+urate_e
+urateooh_c
+urater_c
+urcan_c
+urea_c
+urea_e
+uri_c
+uri_e
+utp_c
+val__L_c
+val__L_e
+valleu_c
+valpro_c
+valtrna_c
+valtyr_c
+vanillac_c
+vanillac_e
+vanilpyr_c
+xan_c
+xan_e
+xanthurn_c
+xmp_c
+xolest2_hs_c
+xtp_c
+xtsn_c
+xu5p__D_c
+xyl__D_c
+xyl__D_e
+xylnt__L_c
+xylt_c
+xylt_e
+xylu__D_c
+xylu__D_e
+xylu__L_c
+zn2_c
+zn2_e
+ztp_c
+zymst_c
+zymstnl_c

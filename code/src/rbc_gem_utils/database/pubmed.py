@@ -1,4 +1,5 @@
 """Functions to extract metadata for PubMed articles."""
+
 import re
 
 import numpy as np
