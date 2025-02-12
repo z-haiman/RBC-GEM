@@ -6,9 +6,9 @@ Code based on DrugBank (5.1.11)
 
 """
 
-import pathlib
 import zipfile
 from collections import defaultdict
+from pathlib import Path
 from xml.etree import ElementTree
 
 import pandas as pd
@@ -21,7 +21,7 @@ from rbc_gem_utils.util import DATABASE_PATH, ROOT_PATH, build_string, strip_plu
 DRUGBANK_VERSION_EXPECTED = "5.1.13"
 DRUGBANK_URL = "https://go.drugbank.com"
 DRUGBANK_DB_TAG = "DrugBank"
-DRUGBANK_PATH = "/DrugBank"
+DRUGBANK_PATH = Path(DRUGBANK_DB_TAG)
 DRUGBANK_NS = "{http://www.drugbank.ca}"
 
 # Fields for the DrugBank XML schema are found [here](https://docs.drugbank.com/xml/#introduction).

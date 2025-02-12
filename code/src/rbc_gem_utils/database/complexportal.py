@@ -9,6 +9,7 @@ Notes
 """
 
 from datetime import datetime
+from pathlib import Path
 
 import pandas as pd
 import requests
@@ -20,7 +21,7 @@ COMPLEXPORTAL_URL = (
 )
 COMPLEXPORTAL_VERSION_EXPECTED = "2024-12-10"
 COMPLEXPORTAL_DB_TAG = "ComplexPortal"
-COMPLEXPORTAL_PATH = "/ComplexPortal"
+COMPLEXPORTAL_PATH = Path(COMPLEXPORTAL_DB_TAG)
 
 
 def get_version_ComplexPortal(taxomony_int=9606):

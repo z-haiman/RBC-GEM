@@ -1,0 +1,2182 @@
+reaction	genes	rho	pvalue	subsystem	category
+PSFLOPt	ABCA1;ABCA7	1.0	0.0	Transport, extracellular	Transport reactions
+PCFLOPt	ABCA1;ABCA7;ABCB1;ABCB4	1.0	0.0	Transport, extracellular	Transport reactions
+SMFLOPt	ABCA1;ABCA7;ABCB1;ABCB4	1.0	0.0	Transport, extracellular	Transport reactions
+PEFLOPt	ABCA7;ABCB1;ABCB4	1.0	0.0	Transport, extracellular	Transport reactions
+PRGNSABCte	ABCB1	1.0	0.0	Transport, extracellular	Transport reactions
+CPPP3ABCte	ABCB6	1.0	0.0	Transport, extracellular	Transport reactions
+HEMATINABCte	ABCB6;ABCG2	1.0	0.0	Transport, extracellular	Transport reactions
+23CGAMPABCte	ABCC1	1.0	0.0	Transport, extracellular	Transport reactions
+E217BGLCRABCte	ABCC1;ABCC4;ABCG2	1.0	0.0	Transport, extracellular	Transport reactions
+SPHS1PABCte	ABCC1;ABCG2	1.0	0.0	Transport, extracellular	Transport reactions
+CHOLATEGTHABCte	ABCC4	1.0	0.0	Transport, extracellular	Transport reactions
+DGCHOGTHABCte	ABCC4	1.0	0.0	Transport, extracellular	Transport reactions
+GCHOGTHABCte	ABCC4	1.0	0.0	Transport, extracellular	Transport reactions
+GDCHOGTHABCte	ABCC4	1.0	0.0	Transport, extracellular	Transport reactions
+GUDCHOGTHABCte	ABCC4	1.0	0.0	Transport, extracellular	Transport reactions
+LEUKTRB4ABCte	ABCC4	1.0	0.0	Transport, extracellular	Transport reactions
+LEUKTRB5ABCte	ABCC4	1.0	0.0	Transport, extracellular	Transport reactions
+PGE1ABCte	ABCC4	1.0	0.0	Transport, extracellular	Transport reactions
+PGE2ABCte	ABCC4	1.0	0.0	Transport, extracellular	Transport reactions
+PGE3ABCte	ABCC4	1.0	0.0	Transport, extracellular	Transport reactions
+PGF1ABCte	ABCC4	1.0	0.0	Transport, extracellular	Transport reactions
+PGF2ABCte	ABCC4	1.0	0.0	Transport, extracellular	Transport reactions
+PGF3ABCte	ABCC4	1.0	0.0	Transport, extracellular	Transport reactions
+TCHOGTHABCte	ABCC4	1.0	0.0	Transport, extracellular	Transport reactions
+TDCHOGTHABCte	ABCC4	1.0	0.0	Transport, extracellular	Transport reactions
+TUDCHOGTHABCte	ABCC4	1.0	0.0	Transport, extracellular	Transport reactions
+CAMPABCte	ABCC4;ABCC5	1.0	0.0	Transport, extracellular	Transport reactions
+CGMPABCte	ABCC4;ABCC5	1.0	0.0	Transport, extracellular	Transport reactions
+CIMPABCte	ABCC4;ABCC5	1.0	0.0	Transport, extracellular	Transport reactions
+5FLURAABCte	ABCC4;ABCC5;ABCG2	1.0	0.0	Transport, extracellular	Transport reactions
+5FTHFABCte	ABCC4;ABCG2	1.0	0.0	Transport, extracellular	Transport reactions
+5MTHFABCte	ABCC4;ABCG2	1.0	0.0	Transport, extracellular	Transport reactions
+DHEASABCte	ABCC4;ABCG2	1.0	0.0	Transport, extracellular	Transport reactions
+URATEABCte	ABCC4;ABCG2	1.0	0.0	Transport, extracellular	Transport reactions
+LLACPHEABCte	ABCC5	1.0	0.0	Transport, extracellular	Transport reactions
+NTPC	ABCE1	1.0	0.0	Nucleotide metabolism	Nucleotide metabolism
+NTPU	ABCE1	1.0	0.0	Nucleotide metabolism	Nucleotide metabolism
+INDSABCte	ABCG2	1.0	0.0	Transport, extracellular	Transport reactions
+RIBFLVABCte	ABCG2	1.0	0.0	Transport, extracellular	Transport reactions
+ACHEe	ACHE	1.0	0.0	Glycerophospholipid metabolism	Lipid metabolism
+ACITL	ACLY	1.0	0.0	Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism	Carbohydrate metabolism
+ACONT	ACO1	1.0	0.0	Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism	Carbohydrate metabolism
+FACOAE_10_0	ACOT7	1.0	0.0	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_11_0	ACOT7	1.0	0.0	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_8_0	ACOT7	1.0	0.0	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_9_0	ACOT7	1.0	0.0	Acyl-CoA hydrolysis	Lipid metabolism
+PROTYPP	ACP1;DUSP23;MDP1;PGP;PTPN1;PTPN11;PTPN3;PTPN6	1.0	0.0	Protein modification	Other
+ADNCYC	ADCY10;ADCY2	1.0	0.0	Purine metabolism	Nucleotide metabolism
+ALCD2x	ADH5	1.0	0.0	Pyruvate metabolism	Carbohydrate metabolism
+HMGTHDH	ADH5	1.0	0.0	Glutathione metabolism	Amino acid metabolism
+LALDO	ADH5	1.0	0.0	Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism	Carbohydrate metabolism
+LCARR	ADH5	1.0	0.0	Pyruvate metabolism	Carbohydrate metabolism
+LCARS	ADH5	1.0	0.0	Pyruvate metabolism	Carbohydrate metabolism
+ADPGKa	ADPGK	1.0	0.0	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+ADSL1	ADSL	1.0	0.0	Purine metabolism	Nucleotide metabolism
+AHC	AHCY	1.0	0.0	Cysteine and methionine metabolism	Amino acid metabolism
+ADK1	AK1	1.0	0.0	Purine metabolism	Nucleotide metabolism
+DADK1	AK1	1.0	0.0	Purine metabolism	Nucleotide metabolism
+DADK3	AK1	1.0	0.0	Nucleotide metabolism	Nucleotide metabolism
+DADK5	AK1	1.0	0.0	Nucleotide metabolism	Nucleotide metabolism
+3DGRy	AKR1A1;AKR1B1	1.0	0.0	Fructose and mannose metabolism	Carbohydrate metabolism
+PRGSTRNRy	AKR1C3;DHRS11	1.0	0.0	Steroid metabolism	Lipid metabolism
+ESTRONEDHy	AKR1C3;DHRS11;HSD17B11;HSD17B12	1.0	0.0	Estrogen metabolism	Lipid metabolism
+ANDRSTNDNRy	AKR1C3;DHRS11;HSD17B12	1.0	0.0	Androgen metabolism	Lipid metabolism
+PPBNGS	ALAD	1.0	0.0	Porphyrin metabolism	Metabolism of cofactors and vitamins
+RBTDG_Dx	ALDH3A1;ALDH3B1	1.0	0.0	Pentose and glucuronate interconversions	Carbohydrate metabolism
+GLYALDD	ALDH3A2;ALDH9A1	1.0	0.0	Glycerolipid metabolism	Lipid metabolism
+BETALDDHx	ALDH9A1	1.0	0.0	Glycine, serine and threonine metabolism	Amino acid metabolism
+FBA2	ALDOA;ALDOB;ALDOC	1.0	0.0	Pentose phosphate pathway	Carbohydrate metabolism
+AHDTPPPH	ALPL	1.0	0.0	Biopterin metabolism	Metabolism of cofactors and vitamins
+ALKP	ALPL	1.0	0.0	Glycerolipid metabolism	Lipid metabolism
+CRTNP	ALPL	1.0	0.0	Arginine and proline metabolism	Amino acid metabolism
+CRTNPe	ALPL	1.0	0.0	Arginine and proline metabolism	Amino acid metabolism
+PPAe	ALPL	1.0	0.0	Nucleotide metabolism	Nucleotide metabolism
+PYDXPPe	ALPL	1.0	0.0	Vitamin B6 metabolism	Metabolism of cofactors and vitamins
+THMMPPe	ALPL	1.0	0.0	Thiamine metabolism	Metabolism of cofactors and vitamins
+NDPADPe	ALPL;ENTPD1	1.0	0.0	Nucleotide metabolism	Nucleotide metabolism
+NTPAe	ALPL;ENTPD1	1.0	0.0	Nucleotide metabolism	Nucleotide metabolism
+ETHPe	ALPL;PHOSPHO1	1.0	0.0	Glycerophospholipid metabolism	Lipid metabolism
+AMPDA	AMPD3	1.0	0.0	Purine metabolism	Nucleotide metabolism
+MDRPD	APIP	1.0	0.0	Cysteine and methionine metabolism	Amino acid metabolism
+NOt	AQP1	1.0	0.0	Transport, extracellular	Transport reactions
+O2St	AQP1	1.0	0.0	Transport, extracellular	Transport reactions
+O2t	AQP1	1.0	0.0	Transport, extracellular	Transport reactions
+H2Ot	AQP1;AQP3	1.0	0.0	Transport, extracellular	Transport reactions
+NH3t	AQP1;AQP3;RHAG;RHCE;RHD	1.0	0.0	Transport, extracellular	Transport reactions
+NH4t	AQP1;AQP3;RHAG;RHCE;RHD	1.0	0.0	Transport, extracellular	Transport reactions
+CO2t	AQP1;RHAG;RHCE;RHD	1.0	0.0	Transport, extracellular	Transport reactions
+ARSNIt	AQP3	1.0	0.0	Transport, extracellular	Transport reactions
+GLYCt	AQP3	1.0	0.0	Transport, extracellular	Transport reactions
+PROTGMT	ARMT1	1.0	0.0	Protein modification	Other
+R5PP	ARMT1	1.0	0.0	Pentose and glucuronate interconversions	Carbohydrate metabolism
+PROTRADPRTe	ART4	1.0	0.0	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+PI3K	ATG14;BECN1;PIK3C3;PIK3R4	1.0	0.0	Inositol phosphate metabolism	Carbohydrate metabolism
+PEFLIPt	ATP11A;ATP11B;ATP11C;TMEM30A	1.0	0.0	Transport, extracellular	Transport reactions
+PSFLIPt	ATP11A;ATP11B;ATP11C;TMEM30A	1.0	0.0	Transport, extracellular	Transport reactions
+NaKt	ATP1A1;ATP1A3;ATP1A4;ATP1B1;ATP1B2;ATP1B3	1.0	0.0	Transport, extracellular	Transport reactions
+CAATPS1	ATP2B1;ATP2B4	1.0	0.0	Transport, extracellular	Transport reactions
+VATPASEte	ATP6AP1;ATP6AP2;ATP6V0A1;ATP6V0B;ATP6V0C;ATP6V0D1;ATP6V0E1;ATP6V1A;ATP6V1B2;ATP6V1C1;ATP6V1D;ATP6V1E1;ATP6V1F;ATP6V1G1;ATP6V1H	1.0	0.0	Transport, extracellular	Transport reactions
+CU1ABCte	ATP7A;ATP7B	1.0	0.0	Transport, extracellular	Transport reactions
+BHMT	BHMT	1.0	0.0	Glycine, serine and threonine metabolism	Amino acid metabolism
+PROTCSNOCOANT	BLVRB	1.0	0.0	Protein modification	Other
+2OBUT_BUTtex	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+2OBUT_LLACtex	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+2OBUT_PPAtex	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+2OBUTt	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+5OXPRO_ACACtex	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+5OXPRO_ACtex	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+5OXPRO_DLACtex	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+ACAC_ACtex	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+ACt2	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+BUT_ACtex	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+BUT_PPAtex	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+BUTt2r	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+DLAC_ACACtex	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+DLAC_ACtex	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+DLAC_BUTtex	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+DLAC_PPAtex	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+D_LACt2	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+H2SUCCt	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+LLAC_ACtex	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+LLAC_BUTtex	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+LLAC_DLACtex	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+LLAC_PPAtex	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+L_LACt2	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+PPA_ACtex	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+PPAt2r	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+PYR_2OBUTtex	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+PYR_ACtex	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+PYR_BUTtex	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+PYR_DLACtex	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+PYR_LLACtex	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+PYR_PPAtex	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+PYRt2	BSG;EMB;SLC16A1;SLC16A7	1.0	0.0	Transport, extracellular	Transport reactions
+HCO3Ee	CA4	1.0	0.0	Miscellaneous	Other
+CA2t	CACNA1A;GRIA1;P2RX1;P2RX2;P2RX7;PANX1;PIEZO1;TMEM109;TRPC6;TRPV2;VDAC1	1.0	0.0	Transport, extracellular	Transport reactions
+NEDD8E2CONJT	CAND1;CUL1;NEDD8;RBX1;SKP1	1.0	0.0	Ubiquitin mediated proteolysis	Other
+PRMTMMA	CARM1;CLNS1A;PRMT1;PRMT5;WDR77	1.0	0.0	Protein modification	Other
+CAT	CAT	1.0	0.0	Reactive species formation and detoxification	Reactive species
+56DHIPX	CAT;PRDX6	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+ADRNLPX_L	CAT;PRDX6	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+DOPAPX_L	CAT;PRDX6	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+DPAMPX_L	CAT;PRDX6	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+LADRNCHRPX	CAT;PRDX6	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+LDPAMCHRPX	CAT;PRDX6	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+LDPCHRPX_L	CAT;PRDX6	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+LNRPPHRCHRPX	CAT;PRDX6	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+NRPPHRPX_L	CAT;PRDX6	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+ADRNCHR2ERy	CBR1;CBR3	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+ADRNLQ2ERy_L	CBR1;CBR3	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+DOPAQ2ERy_L	CBR1;CBR3	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+DPAMCHR2ERy	CBR1;CBR3	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+DPAMQ2ERy_L	CBR1;CBR3	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+DPCHR2ERy_L	CBR1;CBR3	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+IND56Q2ERy	CBR1;CBR3	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+NRPPHRCHR2ERy	CBR1;CBR3	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+NRPPHRQ2ERy_L	CBR1;CBR3	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+CADPRIBH	CD38	1.0	0.0	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+CADPRIBtec	CD38	1.0	0.0	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+NADL	CD38	1.0	0.0	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+CK	CKB;CKM	1.0	0.0	Arginine and proline metabolism	Amino acid metabolism
+CKe	CKB;CKM	1.0	0.0	Arginine and proline metabolism	Amino acid metabolism
+H_2Clt	CLCN2;CLCN3;CLCN4;CLCN5	1.0	0.0	Transport, extracellular	Transport reactions
+NO3t	CLCN2;CLIC1;CLIC4;PANX1	1.0	0.0	Transport, extracellular	Transport reactions
+FEROXe	CP;SLC40A1	1.0	0.0	Porphyrin metabolism	Metabolism of cofactors and vitamins
+PROTSPP	CPPED1;DUSP23;PPP1CA;PPP1CB;PPP1CC;PPP2CA;PPP2CB;PPP2R1A;PPP2R1B;PPP2R5B;PPP2R5D	1.0	0.0	Protein modification	Other
+PROTTPP	CPPED1;DUSP23;PPP1CA;PPP1CB;PPP1CC;PPP2CA;PPP2CB;PPP2R1A;PPP2R1B;PPP2R5B;PPP2R5D	1.0	0.0	Protein modification	Other
+GULN3D	CRYL1	1.0	0.0	Pentose and glucuronate interconversions	Carbohydrate metabolism
+CYSTL1	CTH	1.0	0.0	Cysteine and methionine metabolism	Amino acid metabolism
+CYSL2	CTH;KYAT1	1.0	0.0	Cysteine and methionine metabolism	Amino acid metabolism
+CYSLNET	CTH;KYAT1	1.0	0.0	Cysteine and methionine metabolism	Amino acid metabolism
+CYSTL2	CTH;KYAT1	1.0	0.0	Selenocompound metabolism	Amino acid metabolism
+CTPS1	CTPS1;CTPS2	1.0	0.0	Pyrimidine metabolism	Nucleotide metabolism
+CTPS2	CTPS1;CTPS2	1.0	0.0	Pyrimidine metabolism	Nucleotide metabolism
+GLUN	CTPS1;CTPS2;GMPS	1.0	0.0	Alanine, aspartate and glutamate metabolism	Amino acid metabolism
+TMASCBOXt	CYB561D2;CYBRD1	1.0	0.0	Transport, extracellular	Transport reactions
+TMASCBOXt2	CYB561D2;CYBRD1	1.0	0.0	Transport, extracellular	Transport reactions
+TMASCBOXt3	CYB561D2;CYBRD1	1.0	0.0	Transport, extracellular	Transport reactions
+ADRNCHR1ERx	CYB5A;CYB5B;CYB5R3	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+ADRNLQ1ERx_L	CYB5A;CYB5B;CYB5R3	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+AVITE1RCYTB5R	CYB5A;CYB5B;CYB5R3	1.0	0.0	Vitamin E metabolism	Metabolism of cofactors and vitamins
+CYTB5ASCBR	CYB5A;CYB5B;CYB5R3	1.0	0.0	Ascorbate and aldarate metabolism	Carbohydrate metabolism
+DOPAQ1ERx_L	CYB5A;CYB5B;CYB5R3	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+DPAMCHR1ERx	CYB5A;CYB5B;CYB5R3	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+DPAMQ1ERx_L	CYB5A;CYB5B;CYB5R3	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+DPCHR1ERx_L	CYB5A;CYB5B;CYB5R3	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+ESTRADIOL23Q1ERx	CYB5A;CYB5B;CYB5R3	1.0	0.0	Estrogen metabolism	Lipid metabolism
+ESTRADIOL34Q1ERx	CYB5A;CYB5B;CYB5R3	1.0	0.0	Estrogen metabolism	Lipid metabolism
+ESTRONE23Q1ERx	CYB5A;CYB5B;CYB5R3	1.0	0.0	Estrogen metabolism	Lipid metabolism
+ESTRONE34Q1ERx	CYB5A;CYB5B;CYB5R3	1.0	0.0	Estrogen metabolism	Lipid metabolism
+FCYTOB5OXR	CYB5A;CYB5B;CYB5R3	1.0	0.0	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+IND56Q1ERx	CYB5A;CYB5B;CYB5R3	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+NRPPHRCHR1ERx	CYB5A;CYB5B;CYB5R3	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+NRPPHRQ1ERx_L	CYB5A;CYB5B;CYB5R3	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+NDPC	DCTPP1	1.0	0.0	Nucleotide metabolism	Nucleotide metabolism
+DAGK	DGKA	1.0	0.0	Glycerolipid metabolism	Lipid metabolism
+DAGOACK	DGKA	1.0	0.0	Glycerolipid metabolism	Lipid metabolism
+D5FURADy	DPYD	1.0	0.0	5-fluorouracil metabolism	Other
+DTHYMy	DPYD	1.0	0.0	Pyrimidine metabolism	Nucleotide metabolism
+DURADy	DPYD	1.0	0.0	Pyrimidine metabolism	Nucleotide metabolism
+ENO	ENO1;ENO2;ENO3	1.0	0.0	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+EDP1011EPHX	EPHX1;EPHX2	1.0	0.0	Docosahexaenoic acid metabolism	Lipid metabolism
+EDP1314EPHX	EPHX1;EPHX2	1.0	0.0	Docosahexaenoic acid metabolism	Lipid metabolism
+EDP1617EPHX	EPHX1;EPHX2	1.0	0.0	Docosahexaenoic acid metabolism	Lipid metabolism
+EDP1920EPHX	EPHX1;EPHX2	1.0	0.0	Docosahexaenoic acid metabolism	Lipid metabolism
+EDP78EPHX	EPHX1;EPHX2	1.0	0.0	Docosahexaenoic acid metabolism	Lipid metabolism
+EEQ1112EPHX	EPHX1;EPHX2	1.0	0.0	Eicosapentaenoic acid metabolism	Lipid metabolism
+EEQ1415EPHX	EPHX1;EPHX2	1.0	0.0	Eicosapentaenoic acid metabolism	Lipid metabolism
+EEQ1718EPHX	EPHX1;EPHX2	1.0	0.0	Eicosapentaenoic acid metabolism	Lipid metabolism
+EEQ56EPHX	EPHX1;EPHX2	1.0	0.0	Eicosapentaenoic acid metabolism	Lipid metabolism
+EEQ89EPHX	EPHX1;EPHX2	1.0	0.0	Eicosapentaenoic acid metabolism	Lipid metabolism
+EET1112EPHX	EPHX1;EPHX2	1.0	0.0	Arachidonic acid metabolism	Lipid metabolism
+EET1314EPHX	EPHX1;EPHX2	1.0	0.0	Arachidonic acid metabolism	Lipid metabolism
+EET56EPHX	EPHX1;EPHX2	1.0	0.0	Arachidonic acid metabolism	Lipid metabolism
+EET89EPHX	EPHX1;EPHX2	1.0	0.0	Arachidonic acid metabolism	Lipid metabolism
+EPOME1213EPHX	EPHX1;EPHX2	1.0	0.0	Linoleate metabolism	Lipid metabolism
+EPOME910EPHX	EPHX1;EPHX2	1.0	0.0	Linoleate metabolism	Lipid metabolism
+FUMAC	FAH	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+OAADC	FAHD1;ME1	1.0	0.0	Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism	Carbohydrate metabolism
+FUM	FH	1.0	0.0	Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism	Carbohydrate metabolism
+PI35P5P	FIG4	1.0	0.0	Inositol phosphate metabolism	Carbohydrate metabolism
+PI345P5P	FIG4;INPP5D	1.0	0.0	Inositol phosphate metabolism	Carbohydrate metabolism
+FEROX	FXN	1.0	0.0	Porphyrin metabolism	Metabolism of cofactors and vitamins
+G6PDH2	G6PD	1.0	0.0	Pentose phosphate pathway	Carbohydrate metabolism
+UGLT	GALT	1.0	0.0	Galactose metabolism	Carbohydrate metabolism
+NADHHR	GAPDH	1.0	0.0	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+NADHHS	GAPDH	1.0	0.0	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+GAPD	GAPDH;GAPDHS	1.0	0.0	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+AP4ASYN	GARS1;KARS1	1.0	0.0	Nucleotide metabolism	Nucleotide metabolism
+GTPCH1	GCH1	1.0	0.0	Biopterin metabolism	Metabolism of cofactors and vitamins
+GTPCH2	GCH1	1.0	0.0	Biopterin metabolism	Metabolism of cofactors and vitamins
+GTPCH3	GCH1	1.0	0.0	Biopterin metabolism	Metabolism of cofactors and vitamins
+GTPCH4	GCH1	1.0	0.0	Biopterin metabolism	Metabolism of cofactors and vitamins
+GLU2ABUTS	GCLC;GCLM	1.0	0.0	Cysteine and methionine metabolism	Amino acid metabolism
+GLUCYS	GCLC;GCLM	1.0	0.0	Glutathione metabolism	Amino acid metabolism
+GRDX2CGTHR	GLRX	1.0	0.0	Glutathione metabolism	Amino acid metabolism
+GRDX2CGTHRDG	GLRX	1.0	0.0	Glutathione metabolism	Amino acid metabolism
+GTHNODN	GLRX	1.0	0.0	Reactive species formation and detoxification	Reactive species
+SNOCYSDN	GLRX	1.0	0.0	Reactive species formation and detoxification	Reactive species
+PRDX1GRDX2CDG	GLRX;PRDX6	1.0	0.0	Reactive species formation and detoxification	Reactive species
+GLNS	GLUL	1.0	0.0	Alanine, aspartate and glutamate metabolism	Amino acid metabolism
+GMPR	GMPR;GMPR2	1.0	0.0	Purine metabolism	Nucleotide metabolism
+GMPS	GMPS	1.0	0.0	Purine metabolism	Nucleotide metabolism
+GMPS2	GMPS	1.0	0.0	Purine metabolism	Nucleotide metabolism
+G6PDA	GNPDA1;GNPDA2	1.0	0.0	Amino sugar and nucleotide sugar metabolism	Carbohydrate metabolism
+2ABUTTA	GOT1	1.0	0.0	Alanine, aspartate and glutamate metabolism	Amino acid metabolism
+3SALATA	GOT1	1.0	0.0	Cysteine and methionine metabolism	Amino acid metabolism
+ASPTA	GOT1	1.0	0.0	Alanine, aspartate and glutamate metabolism	Amino acid metabolism
+CYSTA	GOT1;GOT2	1.0	0.0	Cysteine and methionine metabolism	Amino acid metabolism
+G6PM	GPI	1.0	0.0	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+PGI	GPI	1.0	0.0	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+ALATA_L	GPT	1.0	0.0	Alanine, aspartate and glutamate metabolism	Amino acid metabolism
+VANILPYR	GPT	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+SELDIGTHOXy	GPX1	1.0	0.0	Selenocompound metabolism	Amino acid metabolism
+SELGTHGTHR	GPX1	1.0	0.0	Selenocompound metabolism	Amino acid metabolism
+GTHP	GPX1;GPX4	1.0	0.0	Glutathione metabolism	Amino acid metabolism
+HPDHA10GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Docosahexaenoic acid metabolism	Lipid metabolism
+HPDHA11GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Docosahexaenoic acid metabolism	Lipid metabolism
+HPDHA13GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Docosahexaenoic acid metabolism	Lipid metabolism
+HPDHA14GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Docosahexaenoic acid metabolism	Lipid metabolism
+HPDHA16GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Docosahexaenoic acid metabolism	Lipid metabolism
+HPDHA17GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Docosahexaenoic acid metabolism	Lipid metabolism
+HPDHA20GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Docosahexaenoic acid metabolism	Lipid metabolism
+HPDHA4GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Docosahexaenoic acid metabolism	Lipid metabolism
+HPDHA7GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Docosahexaenoic acid metabolism	Lipid metabolism
+HPDHA8GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Docosahexaenoic acid metabolism	Lipid metabolism
+HPEPE11GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Eicosapentaenoic acid metabolism	Lipid metabolism
+HPEPE12GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Eicosapentaenoic acid metabolism	Lipid metabolism
+HPEPE15GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Eicosapentaenoic acid metabolism	Lipid metabolism
+HPEPE18GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Eicosapentaenoic acid metabolism	Lipid metabolism
+HPEPE5GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Eicosapentaenoic acid metabolism	Lipid metabolism
+HPEPE8GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Eicosapentaenoic acid metabolism	Lipid metabolism
+HPEPE9GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Eicosapentaenoic acid metabolism	Lipid metabolism
+HPETE11GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Arachidonic acid metabolism	Lipid metabolism
+HPETE12GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Arachidonic acid metabolism	Lipid metabolism
+HPETE15GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Arachidonic acid metabolism	Lipid metabolism
+HPETE5GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Arachidonic acid metabolism	Lipid metabolism
+HPETE8GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Arachidonic acid metabolism	Lipid metabolism
+HPETE9GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Arachidonic acid metabolism	Lipid metabolism
+HPODE13GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Linoleate metabolism	Lipid metabolism
+HPODE9GTHR	GPX1;GPX4;PRDX6	1.0	0.0	Linoleate metabolism	Lipid metabolism
+HPYRRx_R	GRHPR	1.0	0.0	Glycine, serine and threonine metabolism	Amino acid metabolism
+HPYRRy_R	GRHPR	1.0	0.0	Glycine, serine and threonine metabolism	Amino acid metabolism
+LIt	GRIA1	1.0	0.0	Transport, extracellular	Transport reactions
+Kt1	GRIA1;KCNAB2;KCNK5;KCNN4;P2RX1;P2RX2;P2RX7;PANX1;PIEZO1;SLC22A4;TMEM109;VDAC1	1.0	0.0	Transport, extracellular	Transport reactions
+NAt	GRIA1;P2RX1;P2RX2;P2RX7;PANX1;PIEZO1;SCN4A;SCN9A;VDAC1	1.0	0.0	Transport, extracellular	Transport reactions
+MG2tec	GRIA1;PIEZO1;VDAC1	1.0	0.0	Transport, extracellular	Transport reactions
+GTHOx	GSR	1.0	0.0	Glutathione metabolism	Amino acid metabolism
+GTHOy	GSR	1.0	0.0	Glutathione metabolism	Amino acid metabolism
+GTHS	GSS	1.0	0.0	Glutathione metabolism	Amino acid metabolism
+GTHS2	GSS	1.0	0.0	Cysteine and methionine metabolism	Amino acid metabolism
+GTHDH	GSTO1	1.0	0.0	Ascorbate and aldarate metabolism	Carbohydrate metabolism
+GUACYC	GUCY1A1;GUCY1B1	1.0	0.0	Purine metabolism	Nucleotide metabolism
+GUACYC2	GUCY1A1;GUCY1B1	1.0	0.0	Purine metabolism	Nucleotide metabolism
+E217BGLCRHYD	GUSB	1.0	0.0	Pentose and glucuronate interconversions	Carbohydrate metabolism
+HEX1	HK1;HK3	1.0	0.0	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+HEX1a	HK1;HK3	1.0	0.0	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+HEX7	HK1;HK3	1.0	0.0	Fructose and mannose metabolism	Carbohydrate metabolism
+PGD2S	HPGDS	1.0	0.0	Prostaglandin biosynthesis	Lipid metabolism
+IMPD	IMPDH2	1.0	0.0	Purine metabolism	Nucleotide metabolism
+THIOIMPD	IMPDH2	1.0	0.0	Azathioprine and 6-mercaptopurine metabolism	Other
+HSERL1	KYAT1	1.0	0.0	Cysteine and methionine metabolism	Amino acid metabolism
+PHPYRAT	KYAT1	1.0	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+2HBO	LDHA;LDHB	1.0	0.0	Cysteine and methionine metabolism	Amino acid metabolism
+HPYRRx_S	LDHA;LDHB	1.0	0.0	Glycine, serine and threonine metabolism	Amino acid metabolism
+LDH_L	LDHA;LDHB	1.0	0.0	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+PAPP	LPIN2	1.0	0.0	Glycerolipid metabolism	Lipid metabolism
+PAPPO	LPIN2	1.0	0.0	Glycerolipid metabolism	Lipid metabolism
+ALABt	LRRC8A	1.0	0.0	Transport, extracellular	Transport reactions
+INOSTt	LRRC8A	1.0	0.0	Transport, extracellular	Transport reactions
+TAURt	LRRC8A	1.0	0.0	Transport, extracellular	Transport reactions
+ASPte	LRRC8A;PANX1	1.0	0.0	Transport, extracellular	Transport reactions
+GLUte	LRRC8A;PANX1;SLC22A7;VDAC1	1.0	0.0	Transport, extracellular	Transport reactions
+METAT	MAT2A;MAT2B	1.0	0.0	Cysteine and methionine metabolism	Amino acid metabolism
+MDH	MDH1;MDH2;PHGDH	1.0	0.0	Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism	Carbohydrate metabolism
+ME2	ME1	1.0	0.0	Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism	Carbohydrate metabolism
+MPOe	MPO	1.0	0.0	Reactive species formation and detoxification	Reactive species
+HTSULDHLA	MPST	1.0	0.0	Sulfur metabolism	Reactive species
+FTHFL	MTHFD1	1.0	0.0	Folate metabolism	Metabolism of cofactors and vitamins
+MTHFC	MTHFD1	1.0	0.0	Folate metabolism	Metabolism of cofactors and vitamins
+NADK	NADK2	1.0	0.0	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+NADS2	NADSYN1	1.0	0.0	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+NMNS	NAMPT	1.0	0.0	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+NAPRT	NAPRT	1.0	0.0	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+NADPHXE	NAXE	1.0	0.0	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+NEU31e	NEU1;NEU3	1.0	0.0	Glycosphingolipid biosynthesis - ganglio series	Other
+NEU32e	NEU1;NEU3	1.0	0.0	Glycosphingolipid biosynthesis - ganglio series	Other
+NEU33e	NEU1;NEU3	1.0	0.0	Glycosphingolipid biosynthesis - ganglio series	Other
+NEU34e	NEU1;NEU3	1.0	0.0	Glycosphingolipid biosynthesis - ganglio series	Other
+NEU35e	NEU1;NEU3	1.0	0.0	Glycosphingolipid biosynthesis - ganglio series	Other
+NEU36e	NEU1;NEU3	1.0	0.0	Glycosphingolipid biosynthesis - ganglio series	Other
+NEU37e	NEU1;NEU3	1.0	0.0	Glycosphingolipid biosynthesis - ganglio series	Other
+NEU39e	NEU1;NEU3	1.0	0.0	Glycosphingolipid biosynthesis - ganglio series	Other
+OXOGAH	NIT2	1.0	0.0	Alanine, aspartate and glutamate metabolism	Amino acid metabolism
+PROTNK1	NME1;NME2	1.0	0.0	Protein modification	Other
+PROTNK2	NME1;NME2	1.0	0.0	Protein modification	Other
+NDPK9	NME1;NME2;NME3	1.0	0.0	Purine metabolism	Nucleotide metabolism
+NOS1	NOS3	1.0	0.0	Arginine and proline metabolism	Amino acid metabolism
+NOS2	NOS3	1.0	0.0	Arginine and proline metabolism	Amino acid metabolism
+ACNML	NPL	1.0	0.0	Amino sugar and nucleotide sugar metabolism	Carbohydrate metabolism
+4PYRNN	NT5C2	1.0	0.0	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+AMPINSPT	NT5C2	1.0	0.0	Purine metabolism	Nucleotide metabolism
+CMPINSPT	NT5C2	1.0	0.0	Nucleotide metabolism	Nucleotide metabolism
+DGMPGSNPT	NT5C2	1.0	0.0	Purine metabolism	Nucleotide metabolism
+DGMPINSPT	NT5C2	1.0	0.0	Purine metabolism	Nucleotide metabolism
+DIMPGSNPT	NT5C2	1.0	0.0	Purine metabolism	Nucleotide metabolism
+DIMPINSPT	NT5C2	1.0	0.0	Purine metabolism	Nucleotide metabolism
+IMGPT	NT5C2	1.0	0.0	Purine metabolism	Nucleotide metabolism
+NTDAMP	NT5C2	1.0	0.0	Purine metabolism	Nucleotide metabolism
+NTDGMP	NT5C2	1.0	0.0	Purine metabolism	Nucleotide metabolism
+NTDIMP	NT5C2	1.0	0.0	Purine metabolism	Nucleotide metabolism
+NTDSZMP	NT5C2	1.0	0.0	Purine metabolism	Nucleotide metabolism
+NTDXMP	NT5C2	1.0	0.0	Purine metabolism	Nucleotide metabolism
+NTDZMP	NT5C2	1.0	0.0	Purine metabolism	Nucleotide metabolism
+RBVIMPT	NT5C2	1.0	0.0	Ribavirin metabolism	Other
+RBVNTD	NT5C2	1.0	0.0	Ribavirin metabolism	Other
+UMPINSPT	NT5C2	1.0	0.0	Purine metabolism	Nucleotide metabolism
+ORNDC	ODC1	1.0	0.0	Arginine and proline metabolism	Amino acid metabolism
+PROTS3OACGAMH	OGA	1.0	0.0	Protein modification	Other
+PROTT3OACGAMH	OGA	1.0	0.0	Protein modification	Other
+PAFH	PAFAH1B1;PAFAH1B2;PAFAH1B3	1.0	0.0	Glycerophospholipid metabolism	Lipid metabolism
+PAN4PP	PANK4	1.0	0.0	Pantothenate and CoA metabolism	Metabolism of cofactors and vitamins
+PDEA	PDE2A;PDE3A;PDE3B;PDE4D	1.0	0.0	Purine metabolism	Nucleotide metabolism
+PDEI	PDE2A;PDE3A;PDE3B;PDE4D	1.0	0.0	Purine metabolism	Nucleotide metabolism
+PYDAMK	PDXK	1.0	0.0	Vitamin B6 metabolism	Metabolism of cofactors and vitamins
+PYDXK	PDXK	1.0	0.0	Vitamin B6 metabolism	Metabolism of cofactors and vitamins
+PYDXNK	PDXK	1.0	0.0	Vitamin B6 metabolism	Metabolism of cofactors and vitamins
+PFK	PFKL;PFKM;PFKP	1.0	0.0	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+PGMT	PGM2	1.0	0.0	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+PPM	PGM2	1.0	0.0	Pentose phosphate pathway	Carbohydrate metabolism
+G16BPS1	PGM2L1	1.0	0.0	Starch and sucrose metabolism	Carbohydrate metabolism
+G16BPS2	PGM2L1	1.0	0.0	Starch and sucrose metabolism	Carbohydrate metabolism
+PGCD	PHGDH	1.0	0.0	Glycine, serine and threonine metabolism	Amino acid metabolism
+CHLPe	PHOSPHO1	1.0	0.0	Glycerophospholipid metabolism	Lipid metabolism
+PHPT1	PHPT1	1.0	0.0	Protein modification	Other
+PHPT2	PHPT1	1.0	0.0	Protein modification	Other
+CD2t	PIEZO1	1.0	0.0	Transport, extracellular	Transport reactions
+MN2t	PIEZO1	1.0	0.0	Transport, extracellular	Transport reactions
+PSDC	PISD	1.0	0.0	Glycerophospholipid metabolism	Lipid metabolism
+2LACK_L	PKLR;PKM	1.0	0.0	Pyruvate metabolism	Carbohydrate metabolism
+PGLYCK	PKLR;PKM	1.0	0.0	Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism	Carbohydrate metabolism
+PYK	PKLR;PKM	1.0	0.0	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+PCETHTP	PLD1	1.0	0.0	Glycerophospholipid metabolism	Lipid metabolism
+PCPLD	PLD1	1.0	0.0	Glycerophospholipid metabolism	Lipid metabolism
+PRDX2SO2OX1	PRDX1;PRDX2;PRDX4	1.0	0.0	Reactive species formation and detoxification	Reactive species
+PRDX2SOOX1	PRDX1;PRDX2;PRDX4	1.0	0.0	Reactive species formation and detoxification	Reactive species
+2OHE1PX	PRDX6	1.0	0.0	Estrogen metabolism	Lipid metabolism
+2OHE2PX	PRDX6	1.0	0.0	Estrogen metabolism	Lipid metabolism
+4OHE1PX	PRDX6	1.0	0.0	Estrogen metabolism	Lipid metabolism
+4OHE2PX	PRDX6	1.0	0.0	Estrogen metabolism	Lipid metabolism
+PRDX1GTHDG	PRDX6	1.0	0.0	Reactive species formation and detoxification	Reactive species
+PRDX1OX1	PRDX6	1.0	0.0	Reactive species formation and detoxification	Reactive species
+PRMTADMA	PRMT1	1.0	0.0	Protein modification	Other
+ASNTA	PSAT1	1.0	0.0	Alanine, aspartate and glutamate metabolism	Amino acid metabolism
+PGG2S	PTGS1;PTGS2	1.0	0.0	Prostaglandin biosynthesis	Lipid metabolism
+PTHPS	PTS	1.0	0.0	Biopterin metabolism	Metabolism of cofactors and vitamins
+HPROy	PYCR3	1.0	0.0	Arginine and proline metabolism	Amino acid metabolism
+P5CRx	PYCR3	1.0	0.0	Arginine and proline metabolism	Amino acid metabolism
+P5CRy	PYCR3	1.0	0.0	Arginine and proline metabolism	Amino acid metabolism
+DHPRx	QDPR	1.0	0.0	Biopterin metabolism	Metabolism of cofactors and vitamins
+DHPRy	QDPR	1.0	0.0	Biopterin metabolism	Metabolism of cofactors and vitamins
+RBK	RBKS	1.0	0.0	Pentose phosphate pathway	Carbohydrate metabolism
+SERHL	SDSL	1.0	0.0	Glycine, serine and threonine metabolism	Amino acid metabolism
+THRHL	SDSL	1.0	0.0	Glycine, serine and threonine metabolism	Amino acid metabolism
+GHMT2	SHMT1	1.0	0.0	Folate metabolism	Metabolism of cofactors and vitamins
+GHMT4	SHMT1	1.0	0.0	Folate metabolism	Metabolism of cofactors and vitamins
+THRA	SHMT1	1.0	0.0	Glycine, serine and threonine metabolism	Amino acid metabolism
+PROTKNADDAC	SIRT2	1.0	0.0	Protein modification	Other
+NKCC2t	SLC12A2	1.0	0.0	Transport, extracellular	Transport reactions
+NKCCt	SLC12A2	1.0	0.0	Transport, extracellular	Transport reactions
+KCC2t	SLC12A4;SLC12A6;SLC12A7	1.0	0.0	Transport, extracellular	Transport reactions
+KCCt	SLC12A4;SLC12A6;SLC12A7	1.0	0.0	Transport, extracellular	Transport reactions
+UREAt	SLC14A1	1.0	0.0	Transport, extracellular	Transport reactions
+LDOPAt	SLC16A10	1.0	0.0	Transport, extracellular	Transport reactions
+TRPtec	SLC16A10;SLC3A2;SLC43A1;SLC43A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+CREATt	SLC16A9	1.0	0.0	Transport, extracellular	Transport reactions
+CRNt	SLC16A9;SLC22A16	1.0	0.0	Transport, extracellular	Transport reactions
+NO2_2Natex	SLC17A7	1.0	0.0	Transport, extracellular	Transport reactions
+PI2Natex	SLC17A7	1.0	0.0	Transport, extracellular	Transport reactions
+THF_OHtex	SLC19A1	1.0	0.0	Transport, extracellular	Transport reactions
+THMMP_OHtex	SLC19A1	1.0	0.0	Transport, extracellular	Transport reactions
+PYDXNHt	SLC19A2	1.0	0.0	Transport, extracellular	Transport reactions
+THMt3	SLC19A2	1.0	0.0	Transport, extracellular	Transport reactions
+ASPNaHKtex	SLC1A1	1.0	0.0	Transport, extracellular	Transport reactions
+GLUNaHKtex	SLC1A1	1.0	0.0	Transport, extracellular	Transport reactions
+ALAHCYSNaEx	SLC1A4	1.0	0.0	Transport, extracellular	Transport reactions
+ALAPROASCT1	SLC1A4	1.0	0.0	Transport, extracellular	Transport reactions
+HCYSALANaEx	SLC1A4	1.0	0.0	Transport, extracellular	Transport reactions
+HCYSSERNaEx	SLC1A4	1.0	0.0	Transport, extracellular	Transport reactions
+HCYSTHRNaEx	SLC1A4	1.0	0.0	Transport, extracellular	Transport reactions
+SERHCYSNaEx	SLC1A4	1.0	0.0	Transport, extracellular	Transport reactions
+THRHCYSNaEx	SLC1A4	1.0	0.0	Transport, extracellular	Transport reactions
+ALACYSNaEx	SLC1A4;SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+ALASERNaEx	SLC1A4;SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+ALATHRNaEx	SLC1A4;SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+CYSALANaEx	SLC1A4;SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+CYSSERNaEx	SLC1A4;SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+CYSTHRNaEx	SLC1A4;SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+SERALANaEx	SLC1A4;SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+SERCYSNaEx	SLC1A4;SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+SERTHRNaEx	SLC1A4;SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+THRALANaEx	SLC1A4;SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+THRCYSNaEx	SLC1A4;SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+THRSERNaEx	SLC1A4;SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+ALAASNNaEx	SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+ALAGLNNaEx	SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+ASNALANaEx	SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+ASNCYSNaEx	SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+ASNGLNNaEx	SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+ASNSERNaEx	SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+ASNTHRNaEx	SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLNALANaEx	SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLNASNNaEx	SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLNCYSNaEx	SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLNSERNaEx	SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLNTHRNaEx	SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+SERASNNaEx	SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+SERGLNNaEx	SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+THRASNNaEx	SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+THRGLNNaEx	SLC1A5	1.0	0.0	Transport, extracellular	Transport reactions
+CRNtuNa	SLC22A16;SLC22A4	1.0	0.0	Transport, extracellular	Transport reactions
+GLYBNatex	SLC22A4	1.0	0.0	Transport, extracellular	Transport reactions
+CRTNt	SLC22A7	1.0	0.0	Transport, extracellular	Transport reactions
+ClFORtex2	SLC26A6	1.0	0.0	Transport, extracellular	Transport reactions
+ClHCO3tex2	SLC26A6	1.0	0.0	Transport, extracellular	Transport reactions
+ClOHtex2	SLC26A6	1.0	0.0	Transport, extracellular	Transport reactions
+SO4Cltex2	SLC26A6	1.0	0.0	Transport, extracellular	Transport reactions
+SO4OXAtex2	SLC26A6	1.0	0.0	Transport, extracellular	Transport reactions
+CYTDt	SLC29A1	1.0	0.0	Transport, extracellular	Transport reactions
+THBPTt	SLC29A1	1.0	0.0	Transport, extracellular	Transport reactions
+HYXNt	SLC29A1;SLC43A3	1.0	0.0	Transport, extracellular	Transport reactions
+ASCBt	SLC2A1;SLC2A14;SLC2A2;SLC2A3;SLC2A4	1.0	0.0	Transport, extracellular	Transport reactions
+DHAAt1r	SLC2A1;SLC2A14;SLC2A2;SLC2A3;SLC2A4	1.0	0.0	Transport, extracellular	Transport reactions
+GLC_Dt	SLC2A1;SLC2A14;SLC2A2;SLC2A3;SLC2A4	1.0	0.0	Transport, extracellular	Transport reactions
+GLC_aDt	SLC2A1;SLC2A14;SLC2A2;SLC2A3;SLC2A4	1.0	0.0	Transport, extracellular	Transport reactions
+GAL_Dt	SLC2A1;SLC2A2;SLC2A3	1.0	0.0	Transport, extracellular	Transport reactions
+GAL_bDt	SLC2A1;SLC2A2;SLC2A3	1.0	0.0	Transport, extracellular	Transport reactions
+ARAB_Lt	SLC2A1;SLC2A3	1.0	0.0	Transport, extracellular	Transport reactions
+MANt1r	SLC2A1;SLC2A3	1.0	0.0	Transport, extracellular	Transport reactions
+GAMt1r	SLC2A1;SLC2A4	1.0	0.0	Transport, extracellular	Transport reactions
+FRUt1r	SLC2A2;SLC2A5	1.0	0.0	Transport, extracellular	Transport reactions
+XYLt	SLC2A3	1.0	0.0	Transport, extracellular	Transport reactions
+ZN2Htex2	SLC30A1	1.0	0.0	Transport, extracellular	Transport reactions
+ZN2t	SLC39A10	1.0	0.0	Transport, extracellular	Transport reactions
+COBALT2_2HCO3t	SLC39A8	1.0	0.0	Transport, extracellular	Transport reactions
+FE2_2HCO3t	SLC39A8	1.0	0.0	Transport, extracellular	Transport reactions
+ZN2_2HCO3t	SLC39A8	1.0	0.0	Transport, extracellular	Transport reactions
+ZN2_HCO3_SELNIt	SLC39A8	1.0	0.0	Transport, extracellular	Transport reactions
+ASNtec	SLC3A2;SLC43A1;SLC43A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+CYSIt	SLC3A2;SLC43A1;SLC43A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+CYStec	SLC3A2;SLC43A1;SLC43A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLNtec	SLC3A2;SLC43A1;SLC43A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+HIStec	SLC3A2;SLC43A1;SLC43A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ILEtec	SLC3A2;SLC43A1;SLC43A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+LEUtec	SLC3A2;SLC43A1;SLC43A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+VALtec	SLC3A2;SLC43A1;SLC43A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ADMARGARGtex	SLC3A2;SLC7A1;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+ADMARGCITRtex	SLC3A2;SLC7A1;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+ADMARGHIStex	SLC3A2;SLC7A1;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+ADMARGLYStex	SLC3A2;SLC7A1;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+ADMARGORNtex	SLC3A2;SLC7A1;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+ARGLYStex	SLC3A2;SLC7A1;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+ARGORNtex	SLC3A2;SLC7A1;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+HISCITRtex	SLC3A2;SLC7A1;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+HISLYStex	SLC3A2;SLC7A1;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+HISORNtex	SLC3A2;SLC7A1;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+LYSCITRtex	SLC3A2;SLC7A1;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+LYSORNtex	SLC3A2;SLC7A1;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+MMARGARGtex	SLC3A2;SLC7A1;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+MMARGCITRtex	SLC3A2;SLC7A1;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+MMARGHIStex	SLC3A2;SLC7A1;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+MMARGLYStex	SLC3A2;SLC7A1;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+MMARGORNtex	SLC3A2;SLC7A1;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+ALAASNex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ALACYSex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ALAGLNex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ALAGLYex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ALAILEex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ALALEUex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ALAMETex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ALAPHEex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ALAPROex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ALASERex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ALATHRex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ALATRPex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ALATYRex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ALAVALex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ASNCYSex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ASNGLNex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ASNGLYex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ASNILEex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ASNLEUex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ASNMETex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ASNPHEex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ASNPROex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ASNSERex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ASNTHRex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ASNTRPex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ASNTYRex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ASNVALex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+CYSGLNex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+CYSGLYex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+CYSILEex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+CYSMETex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+CYSPHEex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+CYSPROex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+CYSSERex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+CYSTHRex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+CYSTRPex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+CYSTYRex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+CYSVALex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLNGLYex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLNILEex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLNLEUex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLNMETex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLNPHEex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLNPROex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLNSERex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLNTHRex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLNTRPex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLNTYRex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLNVALex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLYILEex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLYLEUex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLYMETex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLYPHEex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLYPROex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLYSERex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLYTHRex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLYTRPex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLYTYRex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+GLYVALex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ILELEUex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ILEMETex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ILEPHEex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ILEPROex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ILESERex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ILETHRex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ILETRPex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ILETYRex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ILEVALex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+LEULDOPAex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+LEUMETex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+LEUPHEex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+LEUPROex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+LEUSERex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+LEUTHRex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+LEUTRPex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+LEUTYRex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+LEUVALex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+METPHEex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+METPROex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+METSERex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+METTHRex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+METTRPex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+METTYRex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+METVALex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+PHEPROex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+PHESERex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+PHETHRex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+PHETRPex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+PHETYRex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+PHEVALex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+PROSERex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+PROTHRex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+PROTRPex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+PROTYRex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+PROVALex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+SERTHRex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+SERTRPex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+SERTYRex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+SERVALex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+THRTRPex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+THRTYRex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+THRVALex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+TRPTYRex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+TRPVALex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+TYRVALex	SLC3A2;SLC7A5	1.0	0.0	Transport, extracellular	Transport reactions
+ALAADMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+ALAARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+ALACITRNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+ALALYSNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+ALAMMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+ALAORNNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+ASNADMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+ASNARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+ASNCITRNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+ASNLYSNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+ASNMMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+ASNORNNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+CYSADMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+CYSARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+CYSCITRNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+CYSLYSNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+CYSMMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+CYSORNNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+GLNADMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+GLNARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+GLNCITRNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+GLNLYSNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+GLNMMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+GLNORNNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+GLYADMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+GLYALANaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+GLYARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+GLYCITRNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+GLYLYSNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+GLYMMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+GLYORNNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+HCYSADMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+HCYSARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+HCYSCITRNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+HCYSLYSNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+HCYSMMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+HCYSORNNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+HISADMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+HISARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+HISCITRNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+HISLYSNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+HISMMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+HISORNNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+ILEADMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+ILEARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+ILECITRNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+ILELYSNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+ILEMMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+ILEORNNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+LEUADMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+LEUALANaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+LEUARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+LEUCITRNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+LEULYSNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+LEUMMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+LEUORNNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+METADMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+METARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+METCITRNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+METLYSNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+METMMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+METORNNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+PHEADMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+PHEALANaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+PHEARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+PHECITRNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+PHELYSNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+PHEMMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+PHEORNNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+PROADMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+PROARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+PROCITRNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+PROLYSNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+PROMMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+PROORNNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+SERADMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+SERARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+SERCITRNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+SERLYSNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+SERMMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+SERORNNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+THRADMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+THRARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+THRCITRNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+THRLYSNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+THRMMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+THRORNNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+TRPADMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+TRPARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+TRPCITRNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+TRPLYSNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+TRPMMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+TRPORNNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+TYRADMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+TYRARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+TYRCITRNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+TYRLYSNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+TYRMMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+TYRORNNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+VALADMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+VALALANaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+VALARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+VALCITRNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+VALLYSNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+VALMMARGNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+VALORNNaEx	SLC3A2;SLC7A6	1.0	0.0	Transport, extracellular	Transport reactions
+COBALT2te	SLC40A1	1.0	0.0	Transport, extracellular	Transport reactions
+FE2t	SLC40A1	1.0	0.0	Transport, extracellular	Transport reactions
+CHOLtec	SLC44A1;SLC44A2	1.0	0.0	Transport, extracellular	Transport reactions
+CYS_Cltex	SLC4A1	1.0	0.0	Transport, extracellular	Transport reactions
+Cl_OH1tex	SLC4A1	1.0	0.0	Transport, extracellular	Transport reactions
+Cl_PItex	SLC4A1	1.0	0.0	Transport, extracellular	Transport reactions
+FOR_Cltex	SLC4A1	1.0	0.0	Transport, extracellular	Transport reactions
+GLXCLtex	SLC4A1	1.0	0.0	Transport, extracellular	Transport reactions
+GLY_Cltex	SLC4A1	1.0	0.0	Transport, extracellular	Transport reactions
+LLAC_Cltex	SLC4A1	1.0	0.0	Transport, extracellular	Transport reactions
+NO2_Cltex	SLC4A1	1.0	0.0	Transport, extracellular	Transport reactions
+NO3_Cltex	SLC4A1	1.0	0.0	Transport, extracellular	Transport reactions
+O2S_Cltex	SLC4A1	1.0	0.0	Transport, extracellular	Transport reactions
+ONOO_Cltex	SLC4A1	1.0	0.0	Transport, extracellular	Transport reactions
+PYR_Cltex	SLC4A1	1.0	0.0	Transport, extracellular	Transport reactions
+SELNI_Cltex	SLC4A1	1.0	0.0	Transport, extracellular	Transport reactions
+SER_Cltex	SLC4A1	1.0	0.0	Transport, extracellular	Transport reactions
+SH1_Cltex	SLC4A1	1.0	0.0	Transport, extracellular	Transport reactions
+HCO3_Cltex	SLC4A1;SLC4A2	1.0	0.0	Transport, extracellular	Transport reactions
+CREAT2NaClt	SLC6A8	1.0	0.0	Transport, extracellular	Transport reactions
+GLY_Cl_2Nat	SLC6A9	1.0	0.0	Transport, extracellular	Transport reactions
+PRO_Cl_2Nat	SLC6A9	1.0	0.0	Transport, extracellular	Transport reactions
+SARCS_Cl_2Nat	SLC6A9	1.0	0.0	Transport, extracellular	Transport reactions
+ADMARGt_L	SLC7A1	1.0	0.0	Transport, extracellular	Transport reactions
+ARGtec	SLC7A1	1.0	0.0	Transport, extracellular	Transport reactions
+LYStec	SLC7A1	1.0	0.0	Transport, extracellular	Transport reactions
+MMARGt_L	SLC7A1	1.0	0.0	Transport, extracellular	Transport reactions
+ORNtec	SLC7A1	1.0	0.0	Transport, extracellular	Transport reactions
+KHtex	SLC9A6;SLC9A7	1.0	0.0	Transport, extracellular	Transport reactions
+NaHtex	SLC9A6;SLC9A7;SLC9B2	1.0	0.0	Transport, extracellular	Transport reactions
+PGE2te	SLCO1A2;SLCO2B1	1.0	0.0	Transport, extracellular	Transport reactions
+PGD2te	SLCO2B1	1.0	0.0	Transport, extracellular	Transport reactions
+PRGNStec	SLCO2B1	1.0	0.0	Transport, extracellular	Transport reactions
+SMOX	SMOX	1.0	0.0	Arginine and proline metabolism	Amino acid metabolism
+SPMDOX	SMOX	1.0	0.0	Arginine and proline metabolism	Amino acid metabolism
+SPODM	SOD1	1.0	0.0	Reactive species formation and detoxification	Reactive species
+ERTHSD_Dy	SORD	1.0	0.0	Pentose and glucuronate interconversions	Carbohydrate metabolism
+SBTD_D2	SORD	1.0	0.0	Fructose and mannose metabolism	Carbohydrate metabolism
+XYLTD_Dx	SORD	1.0	0.0	Pentose and glucuronate interconversions	Carbohydrate metabolism
+SERPT	SPTLC1;SPTLC2	1.0	0.0	Sphingolipid metabolism	Lipid metabolism
+CU2RD	STEAP3	1.0	0.0	Reactive species formation and detoxification	Reactive species
+FE3RD	STEAP3	1.0	0.0	Reactive species formation and detoxification	Reactive species
+TMCU2RDte	STEAP3	1.0	0.0	Transport, extracellular	Transport reactions
+TMFE3RDte	STEAP3	1.0	0.0	Transport, extracellular	Transport reactions
+FE3t	TF;TFR2;TFRC	1.0	0.0	Transport, extracellular	Transport reactions
+PROTQADRNLGMT	TGM2	1.0	0.0	Protein modification	Other
+PROTQDPAMGMT	TGM2	1.0	0.0	Protein modification	Other
+PROTQGLUN	TGM2	1.0	0.0	Protein modification	Other
+PROTQHISTAGMT	TGM2	1.0	0.0	Protein modification	Other
+PROTQSRTNGMT	TGM2	1.0	0.0	Protein modification	Other
+PROTQPROTLGMT	TGM2;TGM3	1.0	0.0	Protein modification	Other
+DHAK	TKFC	1.0	0.0	Glycerolipid metabolism	Lipid metabolism
+FADL	TKFC	1.0	0.0	Riboflavin metabolism	Metabolism of cofactors and vitamins
+TRIOK	TKFC	1.0	0.0	Fructose and mannose metabolism	Carbohydrate metabolism
+TRDRy	TXN;TXNDC17;TXNL1;TXNRD1	1.0	0.0	Reactive species formation and detoxification	Reactive species
+MDHDASCBRy	TXN;TXNL1;TXNRD1	1.0	0.0	Ascorbate and aldarate metabolism	Carbohydrate metabolism
+Q102ERx	TXNRD1	1.0	0.0	Miscellaneous	Other
+Q102ERy	TXNRD1	1.0	0.0	Miscellaneous	Other
+UAGDP	UAP1	1.0	0.0	Amino sugar and nucleotide sugar metabolism	Carbohydrate metabolism
+UBIQE1ACT	UBA1;UBA6	1.0	0.0	Ubiquitin mediated proteolysis	Other
+POLYUBBPL	UBB;USP5	1.0	0.0	Ubiquitin mediated proteolysis	Other
+GALT	UGP2	1.0	0.0	Galactose metabolism	Carbohydrate metabolism
+GALU	UGP2	1.0	0.0	Galactose metabolism	Carbohydrate metabolism
+OMPDC	UMPS	1.0	0.0	Pyrimidine metabolism	Nucleotide metabolism
+ORPT	UMPS	1.0	0.0	Pyrimidine metabolism	Nucleotide metabolism
+LDPAMt	VDAC1	1.0	0.0	Transport, extracellular	Transport reactions
+GLYCTCLtex	SLC4A1	0.9999999961971828	0.0	Transport, extracellular	Transport reactions
+78DHBPTt	SLC29A1	0.9999980168307452	0.0	Transport, extracellular	Transport reactions
+SPPTt	SLC29A1	0.9999980168307452	0.0	Transport, extracellular	Transport reactions
+PNP	PNP	0.999896888508594	0.0	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+PNP2	PNP	0.999896888508594	0.0	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+PUNP3	PNP	0.999896888508594	0.0	Purine metabolism	Nucleotide metabolism
+PUNP5	PNP	0.999896888508594	0.0	Purine metabolism	Nucleotide metabolism
+URIt	SLC29A1	0.9997799651845228	0.0	Transport, extracellular	Transport reactions
+TPI	TPI1	0.999714773486458	0.0	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+MG2NAtex2	SLC41A1	0.999708312499757	0.0	Transport, extracellular	Transport reactions
+ADK3	AK1	0.999490610712732	0.0	Nucleotide metabolism	Nucleotide metabolism
+ADK5	AK1	0.999490610712732	0.0	Nucleotide metabolism	Nucleotide metabolism
+COBALT2DMT1t	SLC11A2	0.999471895147077	0.0	Transport, extracellular	Transport reactions
+FE2DMT1t	SLC11A2	0.999471895147077	0.0	Transport, extracellular	Transport reactions
+NDPK2	AK1;NME1;NME2;NME3	0.9991915495496207	0.0	Nucleotide metabolism	Nucleotide metabolism
+PUNP4	PNP	0.9991167291179914	0.0	Purine metabolism	Nucleotide metabolism
+PUNP6	PNP	0.9991167291179914	0.0	Purine metabolism	Nucleotide metabolism
+PRDX2OX1	PRDX1;PRDX2;PRDX4;PRDX5	0.9990223507966608	0.0	Reactive species formation and detoxification	Reactive species
+PRDX2OX2	PRDX1;PRDX2;PRDX4;PRDX5	0.9990223507966608	0.0	Purine metabolism	Nucleotide metabolism
+THF_AICARtex	SLC19A1	0.9990057819214072	0.0	Transport, extracellular	Transport reactions
+NTDDIMP	NT5C;NT5C2	0.9989586498030024	0.0	Purine metabolism	Nucleotide metabolism
+ADK7	AK1	0.998461883967973	0.0	Thiamine metabolism	Metabolism of cofactors and vitamins
+DADK7	AK1	0.998261739788716	0.0	Thiamine metabolism	Metabolism of cofactors and vitamins
+DADK6	AK1	0.9979577083433104	0.0	Nucleotide metabolism	Nucleotide metabolism
+SERtec	SLC3A2;SLC43A1;SLC43A2;SLC7A5	0.9975273206853632	0.0	Transport, extracellular	Transport reactions
+ADK6	AK1	0.9962206403152696	0.0	Nucleotide metabolism	Nucleotide metabolism
+PROtec	SLC3A2;SLC43A1;SLC43A2;SLC7A5	0.9961959067911365	0.0	Transport, extracellular	Transport reactions
+GOATA	GOT1;PSAT1	0.9952018484308728	0.0	Alanine, aspartate and glutamate metabolism	Amino acid metabolism
+UMPCYTDPT	NT5C3A	0.9939202989793268	0.0	Pyrimidine metabolism	Nucleotide metabolism
+2DADNt	SLC29A1	0.9924492437300984	0.0	Transport, extracellular	Transport reactions
+DADK4	AK1	0.991901636128326	0.0	Nucleotide metabolism	Nucleotide metabolism
+GLYtec	SLC3A2;SLC43A1;SLC43A2;SLC7A5	0.99183243626076	0.0	Transport, extracellular	Transport reactions
+PRMTSDMA	CARM1;CLNS1A;PRMT5;WDR77	0.9898913223628468	0.0	Protein modification	Other
+ADK4	AK1	0.988794808497172	0.0	Nucleotide metabolism	Nucleotide metabolism
+THRtec	SLC3A2;SLC43A1;SLC43A2;SLC7A5	0.9865042936412968	0.0	Transport, extracellular	Transport reactions
+HCYSte	SLC3A2;SLC43A1;SLC43A2;SLC7A5	0.9819018882931452	0.0	Transport, extracellular	Transport reactions
+5FTHF_5MTHFtex	SLC19A1	0.9815947556501796	0.0	Transport, extracellular	Transport reactions
+THF_5FTHFtex	SLC19A1	0.9815947556501796	0.0	Transport, extracellular	Transport reactions
+NDPK1	AK1;CMPK1;CMPK2;NME1;NME2;NME3	0.980480026289333	0.0	Pyrimidine metabolism	Nucleotide metabolism
+THF_5MTHFtex	SLC19A1	0.9797707875411538	0.0	Transport, extracellular	Transport reactions
+NDPK3	AK1;CMPK1;CMPK2;NME1;NME2;NME3	0.979067043864065	0.0	Pyrimidine metabolism	Nucleotide metabolism
+5FTHF_AICARtex	SLC19A1	0.9773922773928928	0.0	Transport, extracellular	Transport reactions
+5MTHF_AICARtex	SLC19A1	0.9773922773928928	0.0	Transport, extracellular	Transport reactions
+BAMPPALDOXx	ALDH3A2;ALDH3B1;ALDH9A1	0.9589178274712798	0.0	Arginine and proline metabolism	Amino acid metabolism
+PI34P5K	PIP5K1A;PIP5K1C	0.957118980773758	0.0	Inositol phosphate metabolism	Carbohydrate metabolism
+TKT1	TKT	0.95475942006442	0.0	Pentose phosphate pathway	Carbohydrate metabolism
+TKT2	TKT	0.95475942006442	0.0	Pentose phosphate pathway	Carbohydrate metabolism
+LHCYSTINt	SLC3A2;SLC43A1;SLC43A2;SLC7A5	0.9539641425733882	0.0	Transport, extracellular	Transport reactions
+NACCYSDAC	ACY1	0.9524768702095128	0.0	Cysteine and methionine metabolism	Amino acid metabolism
+5FTHF_OHtex	SLC19A1	0.9517128765955232	0.0	Transport, extracellular	Transport reactions
+PSP_L	PSPH	0.949304493415462	0.0	Glycine, serine and threonine metabolism	Amino acid metabolism
+PGM	BPGM;PGAM1	0.9487971595509788	0.0	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+DPGM	BPGM;PGAM1	0.9486089828379652	0.0	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+5MTHF_OHtex	SLC19A1	0.9475863672207092	0.0	Transport, extracellular	Transport reactions
+PI3PP	MTM1;MTMR1;MTMR12;MTMR2;SACM1L;SBF1	0.947112876529354	0.0	Inositol phosphate metabolism	Carbohydrate metabolism
+SMPD	SMPD1;SMPD3	0.945029693177553	0.0	Sphingolipid metabolism	Lipid metabolism
+MERCPURPRT	HPRT1	0.9439142812109896	0.0	Azathioprine and 6-mercaptopurine metabolism	Other
+MTMERCPURPRT	HPRT1	0.9439142812109896	0.0	Azathioprine and 6-mercaptopurine metabolism	Other
+GAPP	ARMT1	0.9375179005743592	0.0	Glycerolipid metabolism	Lipid metabolism
+METtec	SLC3A2;SLC43A1;SLC43A2;SLC7A5	0.9367398802685236	0.0	Transport, extracellular	Transport reactions
+THIOGMPMT	TPMT	0.9366273092689252	0.0	Azathioprine and 6-mercaptopurine metabolism	Other
+PTTHK	PANK2	0.9312978565788804	0.0	Pantothenate and CoA metabolism	Metabolism of cofactors and vitamins
+ARGCITRtex	SLC3A2;SLC7A1;SLC7A6	0.928032432449576	0.0	Transport, extracellular	Transport reactions
+THIOGMPS	GMPS	0.9269345115414768	0.0	Azathioprine and 6-mercaptopurine metabolism	Other
+THIOGMPS2	GMPS	0.9269345115414768	0.0	Azathioprine and 6-mercaptopurine metabolism	Other
+PPA2	NUDT3	0.922907194854776	0.0	Nucleotide metabolism	Nucleotide metabolism
+ARGHIStex	SLC3A2;SLC7A1;SLC7A6	0.9215866798351134	0.0	Transport, extracellular	Transport reactions
+HSERALAex	SLC3A2;SLC7A5	0.9199754888646264	0.0	Transport, extracellular	Transport reactions
+HSERASNex	SLC3A2;SLC7A5	0.9199754888646264	0.0	Transport, extracellular	Transport reactions
+HSERCYSex	SLC3A2;SLC7A5	0.9199754888646264	0.0	Transport, extracellular	Transport reactions
+HSERGLNex	SLC3A2;SLC7A5	0.9199754888646264	0.0	Transport, extracellular	Transport reactions
+HSERGLYex	SLC3A2;SLC7A5	0.9199754888646264	0.0	Transport, extracellular	Transport reactions
+HSERILEex	SLC3A2;SLC7A5	0.9199754888646264	0.0	Transport, extracellular	Transport reactions
+HSERLEUex	SLC3A2;SLC7A5	0.9199754888646264	0.0	Transport, extracellular	Transport reactions
+HSERMETex	SLC3A2;SLC7A5	0.9199754888646264	0.0	Transport, extracellular	Transport reactions
+HSERPHEex	SLC3A2;SLC7A5	0.9199754888646264	0.0	Transport, extracellular	Transport reactions
+HSERPROex	SLC3A2;SLC7A5	0.9199754888646264	0.0	Transport, extracellular	Transport reactions
+HSERSERex	SLC3A2;SLC7A5	0.9199754888646264	0.0	Transport, extracellular	Transport reactions
+HSERTHRex	SLC3A2;SLC7A5	0.9199754888646264	0.0	Transport, extracellular	Transport reactions
+HSERTRPex	SLC3A2;SLC7A5	0.9199754888646264	0.0	Transport, extracellular	Transport reactions
+HSERTYRex	SLC3A2;SLC7A5	0.9199754888646264	0.0	Transport, extracellular	Transport reactions
+HSERVALex	SLC3A2;SLC7A5	0.9199754888646264	0.0	Transport, extracellular	Transport reactions
+PENMT1	PEMT	0.9172057904998028	0.0	Glycerophospholipid metabolism	Lipid metabolism
+PENMT2	PEMT	0.9172057904998028	0.0	Glycerophospholipid metabolism	Lipid metabolism
+PENMT3	PEMT	0.9172057904998028	0.0	Glycerophospholipid metabolism	Lipid metabolism
+NaLitex	SLC25A3;SLC9A1;SLC9B2	0.8737986476884837	0.0	Transport, extracellular	Transport reactions
+6HOPTHPDH	AKR1B1	0.8671896116034699	0.0	Biopterin metabolism	Metabolism of cofactors and vitamins
+XYLR_Dy	AKR1B1	0.8671896116034699	0.0	Pentose and glucuronate interconversions	Carbohydrate metabolism
+THGMPABCte	ABCC4;ABCC5	0.8603808116209355	0.0	Transport, extracellular	Transport reactions
+THXMPABCte	ABCC4;ABCC5	0.8603808116209355	0.0	Transport, extracellular	Transport reactions
+PGMTa	PGM1;PGM2	0.8559894702421006	0.0	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+LCAD	ALDH3B1	0.8489150149455859	0.0	Pyruvate metabolism	Carbohydrate metabolism
+PRDX2TRDXRD	PRDX1;PRDX2;PRDX4;PRDX5;TXN;TXNL1	0.8485118383472843	0.0	Reactive species formation and detoxification	Reactive species
+MAN6PI	MPI	0.8482979545888925	0.0	Fructose and mannose metabolism	Carbohydrate metabolism
+NADPHPPS	HDDC3	0.8377528827437661	0.0	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+PHEtec	SLC16A10;SLC3A2;SLC43A1;SLC43A2;SLC7A5	0.8304507204477426	0.0	Transport, extracellular	Transport reactions
+INSt	SLC29A1	0.8300787326560489	0.0	Transport, extracellular	Transport reactions
+AP4AH1	NUDT2;NUDT3	0.829579645201019	0.0	Nucleotide metabolism	Nucleotide metabolism
+2OHE1MT	COMT	0.8202057118081029	0.0	Estrogen metabolism	Lipid metabolism
+2OHE1MT2	COMT	0.8202057118081029	0.0	Estrogen metabolism	Lipid metabolism
+2OHE2MT	COMT	0.8202057118081029	0.0	Estrogen metabolism	Lipid metabolism
+2OHE2MT2	COMT	0.8202057118081029	0.0	Estrogen metabolism	Lipid metabolism
+4OHE1MT	COMT	0.8202057118081029	0.0	Estrogen metabolism	Lipid metabolism
+4OHE2MT	COMT	0.8202057118081029	0.0	Estrogen metabolism	Lipid metabolism
+LDPAMMT	COMT	0.8202057118081029	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+SALMCOM	COMT	0.8202057118081029	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+SALMCOM2	COMT	0.8202057118081029	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+ADPGK	ADPGK	0.8178763530742668	0.0	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+CGMPtec	SLC22A7	0.8054439030419845	0.0	Transport, extracellular	Transport reactions
+CIMPtec	SLC22A7	0.8054439030419845	0.0	Transport, extracellular	Transport reactions
+R15BPS1	PGM2L1	0.8052866014031463	0.0	Starch and sucrose metabolism	Carbohydrate metabolism
+GUAt	SLC29A1;SLC43A3	0.8008540926249412	0.0	Transport, extracellular	Transport reactions
+INDStec	SLC22A7	0.7994030649133587	0.0	Transport, extracellular	Transport reactions
+RIBFLVt	SLC52A1	0.7994030649133587	0.0	Transport, extracellular	Transport reactions
+THYMt	SLC29A1;SLC43A3	0.7986983496164334	0.0	Transport, extracellular	Transport reactions
+URAt	SLC29A1;SLC43A3	0.7986983496164334	0.0	Transport, extracellular	Transport reactions
+34DHALDDx	ALDH3A1;ALDH3B1	0.795863337863389	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+3M4HDXPACx	ALDH3A1;ALDH3B1	0.795863337863389	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+HISTANMT	HNMT	0.7914693573293037	0.0	Histidine metabolism	Amino acid metabolism
+TYRtec	SLC16A10;SLC3A2;SLC43A1;SLC43A2;SLC7A5	0.7909103279655795	0.0	Transport, extracellular	Transport reactions
+MACOXO	ALDH3A1;ALDH3A2;ALDH3B1	0.7904898124215084	0.0	Histidine metabolism	Amino acid metabolism
+34DHALDDy	ALDH3A1;ALDH3B1	0.7903205889502352	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+3M4HDXPACy	ALDH3A1;ALDH3B1	0.7903205889502352	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+34DHXMANDACOXx	ALDH3A1;ALDH3B1	0.7894348880679309	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+34DHXMANDACOXy	ALDH3A1;ALDH3B1	0.7883784920240338	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+DHEASte	SLCO1A2;SLCO2B1	0.7862701359226941	0.0	Transport, extracellular	Transport reactions
+OROTGLUex	SLC22A7	0.7815010112585034	0.0	Transport, extracellular	Transport reactions
+34DHOXMANDMT	COMT	0.7795954784212533	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+34DHPHAMT	COMT	0.7789554072166927	0.0	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+CITt	ANKH	0.7700394471188795	0.0	Transport, extracellular	Transport reactions
+GLCM	GALM	0.7675262906162239	0.0	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+LALD_Ly	AKR1B1	0.7495658275880718	0.0	Pyruvate metabolism	Carbohydrate metabolism
+ADNt	SLC29A1	0.7452977279143578	0.0	Transport, extracellular	Transport reactions
+NMNN	CD38	0.7430791737714547	0.0	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+ADEt	SLC29A1;SLC43A3	0.7402356741300546	1.3715e-320	Transport, extracellular	Transport reactions
+5FTHF_THMMPtex	SLC19A1	0.7349432513740883	1.01016699715e-313	Transport, extracellular	Transport reactions
+5MTHF_THMMPtex	SLC19A1	0.7349432513740883	1.01016699715e-313	Transport, extracellular	Transport reactions
+2DINSt	SLC29A1	0.7281107541351524	4.2536862727367705e-305	Transport, extracellular	Transport reactions
+THF_THMMPtex	SLC19A1	0.722673166431964	2.024848257626649e-298	Transport, extracellular	Transport reactions
+DGCHOLte	SLCO1A2	0.7218506911911475	2.0068693856471424e-297	Transport, extracellular	Transport reactions
+GCHOLAte	SLCO1A2	0.7218506911911475	2.0068693856471424e-297	Transport, extracellular	Transport reactions
+GDCHOLAte	SLCO1A2	0.7218506911911475	2.0068693856471424e-297	Transport, extracellular	Transport reactions
+GUDCHOLAte	SLCO1A2	0.7218506911911475	2.0068693856471424e-297	Transport, extracellular	Transport reactions
+TDCHOLAte	SLCO1A2	0.7218506911911475	2.0068693856471424e-297	Transport, extracellular	Transport reactions
+TUDCHOLAte	SLCO1A2	0.7218506911911475	2.0068693856471424e-297	Transport, extracellular	Transport reactions
+CHOLATEt	SLCO1A2;SLCO2B1	0.7218506911911475	2.0068693856471424e-297	Transport, extracellular	Transport reactions
+TCHOLAte	SLCO1A2;SLCO2B1	0.7218506911911475	2.0068693856471424e-297	Transport, extracellular	Transport reactions
+ARDFE2	ADI1	0.7193875816664063	1.837571049902783e-294	Cysteine and methionine metabolism	Amino acid metabolism
+ARDNI2	ADI1	0.7193875816664063	1.837571049902783e-294	Cysteine and methionine metabolism	Amino acid metabolism
+RNAMt	SLC29A1	0.7152181213708788	1.6060842765153553e-289	Transport, extracellular	Transport reactions
+2DURIt	SLC29A1	0.7145984560842913	8.562122082514343e-289	Transport, extracellular	Transport reactions
+THYMDt	SLC29A1	0.7145984560842913	8.562122082514343e-289	Transport, extracellular	Transport reactions
+2DGSNt	SLC29A1	0.7136869150580012	9.958925884420298e-288	Transport, extracellular	Transport reactions
+AGDC	AMDHD2	0.709009181602102	2.520807997376532e-282	Amino sugar and nucleotide sugar metabolism	Carbohydrate metabolism
+PROTSACGAMT	OGT	0.7081113744507207	2.6688137271039554e-281	Protein modification	Other
+PROTTACGAMT	OGT	0.7081113744507207	2.6688137271039554e-281	Protein modification	Other
+CHLP	PHOSPHO1	0.706602494478585	1.379783713094517e-279	Glycerophospholipid metabolism	Lipid metabolism
+AICAK	ADK	0.7008110451126666	4.132572283694712e-273	Purine metabolism	Nucleotide metabolism
+GLPASE1	PYGB;PYGL;PYGM	0.6978764527841379	6.8931736155863886e-270	Starch and sucrose metabolism	Carbohydrate metabolism
+GLPASE2	PYGB;PYGL;PYGM	0.6978764527841379	6.8931736155863886e-270	Starch and sucrose metabolism	Carbohydrate metabolism
+RNAMHt	SLC29A1	0.693796539330481	1.7927655007389174e-265	Transport, extracellular	Transport reactions
+LDOPAMT	COMT	0.6930596369873898	1.1042757831009428e-264	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+AMGLSDASEa	AGL	0.6903671738432215	8.085652176922232e-262	Starch and sucrose metabolism	Carbohydrate metabolism
+GLDBRAN	AGL	0.6903671738432215	8.085652176922232e-262	Starch and sucrose metabolism	Carbohydrate metabolism
+PROTKTnAgGALT	C1GALT1;C1GALT1C1	0.6903671738432215	8.085652176922232e-262	Protein modification	Other
+PROTSTnAgGALT	C1GALT1;C1GALT1C1	0.6903671738432215	8.085652176922232e-262	Protein modification	Other
+PROTSACGALT	GALNT10;GALNT2;GALNT4;GALNT5;GALNT6;GALNT7	0.6903671738432215	8.085652176922232e-262	Protein modification	Other
+PROTTACGALT	GALNT10;GALNT2;GALNT4;GALNT5;GALNT6;GALNT7	0.6903671738432215	8.085652176922232e-262	Protein modification	Other
+GGNG	GYG1;GYS1	0.6903671738432215	8.085652176922232e-262	Starch and sucrose metabolism	Carbohydrate metabolism
+GLGNS1	GYG1;GYS1	0.6903671738432215	8.085652176922232e-262	Starch and sucrose metabolism	Carbohydrate metabolism
+ICDHy	IDH1;IDH2	0.6873719265777428	1.1421367374842989e-258	Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism	Carbohydrate metabolism
+ACGAMK	NAGK	0.6819794136687655	4.299215004835796e-253	Amino sugar and nucleotide sugar metabolism	Carbohydrate metabolism
+PESCRt	PLSCR1;PLSCR4	0.6758833700404718	6.207940518628291e-247	Transport, extracellular	Transport reactions
+ABUTDx	ALDH1A1;ALDH3A2;ALDH9A1	0.6661694001273512	2.02439778812011e-237	Arginine and proline metabolism	Amino acid metabolism
+THBPT4ACAMDASE	PCBD1;PCBD2	0.6611494169115419	1.2105843276167956e-232	Biopterin metabolism	Metabolism of cofactors and vitamins
+4HPROLTASCT1	SLC1A4	0.6477919296541459	2.2576207665385637e-220	Transport, extracellular	Transport reactions
+SPMDtex2	PANX1;SLC22A16	0.6462295212247997	5.6066601588488544e-219	Transport, extracellular	Transport reactions
+4PYRNK	ADK	0.6366300427340462	1.3899738219150993e-210	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+RBVK	ADK	0.6366300427340462	1.3899738219150993e-210	Ribavirin metabolism	Other
+ADNK1	ADK	0.6362741617752962	2.80850282056032e-210	Purine metabolism	Nucleotide metabolism
+CD2DMT1t	SLC11A2	0.6359451686367158	5.376578530550944e-210	Transport, extracellular	Transport reactions
+ME2DMT1t	SLC11A2	0.6359451686367158	5.376578530550944e-210	Transport, extracellular	Transport reactions
+CD2_2HCO3t	SLC39A8	0.6359451686367158	5.376578530550944e-210	Transport, extracellular	Transport reactions
+MN2_2HCO3t	SLC39A8	0.6359451686367158	5.376578530550944e-210	Transport, extracellular	Transport reactions
+CPPP3te	SLCO2B1	0.6319681594209187	1.296634465559948e-206	Transport, extracellular	Transport reactions
+ACNAM9PL	NANS	0.6302965378797061	3.309321646508664e-205	Amino sugar and nucleotide sugar metabolism	Carbohydrate metabolism
+ACNAM9PL3	NANS	0.6302965378797061	3.309321646508664e-205	Amino sugar and nucleotide sugar metabolism	Carbohydrate metabolism
+ALR2y	AKR1A1;AKR1B1;AKR7A2	0.6293684526964755	1.9821619423989728e-204	Pyruvate metabolism	Carbohydrate metabolism
+ALR3y	AKR1A1;AKR1B1;AKR7A2	0.6293684526964755	1.9821619423989728e-204	Pyruvate metabolism	Carbohydrate metabolism
+PPDOy	AKR1A1;AKR1B1;AKR7A2	0.6293684526964755	1.9821619423989728e-204	Pyruvate metabolism	Carbohydrate metabolism
+UBIQE1T	CDC34;UBE2O	0.6222855722580914	1.3927935642362453e-198	Ubiquitin mediated proteolysis	Other
+DADNK1	ADK	0.6207895458086449	2.2889795629063025e-197	Purine metabolism	Nucleotide metabolism
+NRHK	ADK	0.6207895458086449	2.2889795629063025e-197	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+H2SMT	TMT1A	0.6177913627681615	5.9755992686974084e-195	Sulfur metabolism	Reactive species
+SAICAABCte	ABCC5	0.6162800908239041	9.653328297405368e-194	Transport, extracellular	Transport reactions
+LCMTPP2A	LCMT1;PPP2CA;PPP2CB	0.6127948885692943	5.574725113111184e-191	Protein modification	Other
+PI3P5K	PIP5K1A;PIP5K1C	0.6096962236856115	1.4881263629478282e-188	Inositol phosphate metabolism	Carbohydrate metabolism
+ClOXAtex2	SLC26A6	0.6079864028439813	3.1626050540557493e-187	Transport, extracellular	Transport reactions
+ARSNA_Cltex	SLC4A1	0.601421447116438	3.328378395556429e-182	Transport, extracellular	Transport reactions
+PROTSADPRH	ADPRS	0.6007929840118797	9.928782577753573e-182	Protein modification	Other
+AMANK	NAGK	0.596712254853898	1.1309684873225144e-178	Amino sugar and nucleotide sugar metabolism	Carbohydrate metabolism
+PSSCRt	ANO6;PLSCR1;PLSCR4	0.5960703659026375	3.390361502695173e-178	Transport, extracellular	Transport reactions
+NDPK8	NME1;NME2;NME3	0.5932957809175013	3.791970675292453e-176	Purine metabolism	Nucleotide metabolism
+GLBRAN	GBE1	0.5919936125902097	3.415538015217181e-175	Starch and sucrose metabolism	Carbohydrate metabolism
+2ABUTtec	SLC3A2;SLC43A1;SLC43A2;SLC7A5	0.5902566966748635	6.309472037762536e-174	Transport, extracellular	Transport reactions
+23CGAMP_AICARtex	SLC19A1	0.586544677280008	3.0274866649475694e-171	Transport, extracellular	Transport reactions
+23CGAMP_OHtex	SLC19A1	0.586544677280008	3.0274866649475694e-171	Transport, extracellular	Transport reactions
+23CGAMP_THMMPtex	SLC19A1	0.586544677280008	3.0274866649475694e-171	Transport, extracellular	Transport reactions
+PDEG	PDE1A;PDE2A;PDE3A;PDE3B;PDE5A;PDE9A	0.5841166696609418	1.6446451870335762e-169	Purine metabolism	Nucleotide metabolism
+ACNAMPH	NANP	0.5777886617791008	4.674010831174938e-165	Amino sugar and nucleotide sugar metabolism	Carbohydrate metabolism
+CAMPtec	SLC22A7	0.5771264220507188	1.3494278764734869e-164	Transport, extracellular	Transport reactions
+NDPK7	NME1;NME2;NME3	0.5760005086040055	8.139343686023808e-164	Pyrimidine metabolism	Nucleotide metabolism
+NADN	CD38	0.5750975524379138	3.4221098422311246e-163	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+NMNHYD	NT5C;NT5C2	0.5749799122827698	4.1248598354264496e-163	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+ALAtec	SLC3A2;SLC43A1;SLC43A2;SLC7A5	0.5749526784062201	4.307078688041068e-163	Transport, extracellular	Transport reactions
+CYSTRDX	TXN;TXNDC17;TXNL1	0.5738355266507128	2.5279613256865126e-162	Cysteine and methionine metabolism	Amino acid metabolism
+DHLIPTRD	TXN;TXNDC17;TXNL1	0.5738355266507128	2.5279613256865126e-162	Cysteine and methionine metabolism	Amino acid metabolism
+HCYSTRDX	TXN;TXNDC17;TXNL1	0.5738355266507128	2.5279613256865126e-162	Cysteine and methionine metabolism	Amino acid metabolism
+GK1	GUK1	0.5727209379941085	1.467742528130123e-161	Purine metabolism	Nucleotide metabolism
+GK2	GUK1	0.5727209379941085	1.467742528130123e-161	Purine metabolism	Nucleotide metabolism
+GK3	GUK1	0.5727209379941085	1.467742528130123e-161	Purine metabolism	Nucleotide metabolism
+RBVMPK	GUK1	0.5727209379941085	1.467742528130123e-161	Ribavirin metabolism	Other
+LALDO2x	GRHPR	0.5709517779903359	2.361196543160914e-160	Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism	Carbohydrate metabolism
+LALDO2y	GRHPR	0.5709517779903359	2.361196543160914e-160	Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism	Carbohydrate metabolism
+NACCYS_Cltex	SLC4A1	0.5700173135809778	1.017265347107728e-159	Transport, extracellular	Transport reactions
+PGH2Ry	AKR1B1;AKR1C3	0.5695936930365293	1.9692993109314449e-159	Prostaglandin biosynthesis	Lipid metabolism
+ACGAMPM	PGM3	0.5684624043074727	1.1438834597078048e-158	Amino sugar and nucleotide sugar metabolism	Carbohydrate metabolism
+RBVDPK	NME1;NME2	0.5674201110117686	5.750727785048523e-158	Ribavirin metabolism	Other
+Clt	CFTR;CLCN2;CLIC1;CLIC2;CLIC3;CLIC4;LRRC8A;PANX1	0.565948048015939	5.5716917014486844e-157	Transport, extracellular	Transport reactions
+PDX5PO	PNPO	0.5650116898035337	2.348290516604386e-156	Vitamin B6 metabolism	Metabolism of cofactors and vitamins
+PYAM5PO	PNPO	0.5650116898035337	2.348290516604386e-156	Vitamin B6 metabolism	Metabolism of cofactors and vitamins
+PGG1S	PTGS1;PTGS2	0.564887079084162	2.842789392797353e-156	Prostaglandin biosynthesis	Lipid metabolism
+PGG3S	PTGS1;PTGS2	0.564887079084162	2.842789392797353e-156	Prostaglandin biosynthesis	Lipid metabolism
+F6PP	ARMT1	0.558471937248068	4.774560889634785e-152	Fructose and mannose metabolism	Carbohydrate metabolism
+GULND	AKR1A1	0.5572845379488108	2.8241975053774645e-151	Pentose and glucuronate interconversions	Carbohydrate metabolism
+METHBCYTBR	CYB5A;CYB5B;HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	0.5566890395665693	6.868653627892381e-151	Hemoglobin binding and degradation	Reactive species
+NTDDGMP	HDDC2;NT5C;NT5C2	0.5537952704824394	5.028027867559274e-149	Purine metabolism	Nucleotide metabolism
+PNTOK	PANK2	0.5532232050607925	1.1690348920231165e-148	Pantothenate and CoA metabolism	Metabolism of cofactors and vitamins
+NTDDAMP	HDDC2;NT5C	0.5511166172695269	2.576673803041095e-147	Purine metabolism	Nucleotide metabolism
+UDPG4E	GALE	0.5503942169704521	7.404243798844645e-147	Galactose metabolism	Carbohydrate metabolism
+PCSCRt	ANO6;PLSCR1;PLSCR4	0.5488078260734021	7.451503830843999e-146	Transport, extracellular	Transport reactions
+SPMS	SRM	0.547555982329692	4.568194600654701e-145	Arginine and proline metabolism	Amino acid metabolism
+FMNRy	BLVRB	0.5474584780924884	5.259468977110094e-145	Riboflavin metabolism	Metabolism of cofactors and vitamins
+PROTYK	FYN;HCK;INSR;JAK3;LYN;MAP2K1;MAP2K2;MAP2K3;MAP2K6;SYK;YES1	0.5472178833449344	7.444950334317377e-145	Protein modification	Other
+FACOAL_12_0	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_13_0	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_14_0	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_14_5Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_14_7Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_14_9Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_15_0	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_16_0	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_16_7Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_16_9Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_17_0	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_17_10Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_17_9Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_18_0	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_18_11Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_18_13Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_18_6Z9Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_18_6Z9Z12Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_18_6Z9Z12Z15Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_18_7Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_18_9E	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_18_9Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_18_9Z12Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_18_9Z12Z15Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_19_0	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_20_0	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_20_11Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_20_11Z14Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_20_11Z14Z17Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_20_13Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_20_5Z8Z11Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_20_5Z8Z11Z14Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_20_5Z8Z11Z14Z17Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_20_8Z11Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_20_8Z11Z14Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_20_8Z11Z14Z17Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_20_9Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_21_0	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_22_0	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_22_10Z13Z16Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_22_10Z13Z16Z19Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_22_11Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_22_13Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_22_13Z16Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_22_13Z16Z19Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_22_4Z7Z10Z13Z16Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_22_4Z7Z10Z13Z16Z19Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_22_7Z10Z13Z16Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_22_7Z10Z13Z16Z19Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_23_0	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_24_0	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_24_12Z15Z18Z21Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_24_15Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_24_6Z9Z12Z15Z18Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_24_6Z9Z12Z15Z18Z21Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_24_9Z12Z15Z18Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_24_9Z12Z15Z18Z21Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_26_0	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_26_17Z	ACSL1;ACSL3;ACSL4;ACSL6;SLC27A4	0.5471595842533411	8.098658456501863e-145	Fatty acid activation (cytosolic)	Lipid metabolism
+MTOX	SELENBP1	0.546792720758045	1.3748553184109505e-144	Sulfur metabolism	Reactive species
+DADA	ADA	0.5459485561483951	4.635038922004808e-144	Purine metabolism	Nucleotide metabolism
+PROTSK	BMP2K;CAB39;CAB39L;CDK2;CDK4;CDK5;CDK6;CSNK1A1;CSNK1G1;CSNK1G2;CSNK1G3;CSNK2A1;CSNK2A2;CSNK2B;GSK3A;MAP2K1;MAP2K2;MAP2K3;MAP2K6;MAPK1;MAPK14;MAPK3;MAPKAPK2;OXSR1;PAK2;PRKAA1;PRKAB1;PRKACA;PRKACB;PRKAG1;PRKAR1A;PRKAR1B;PRKAR2A;PRKAR2B;PRKCA;PRKCB;PRKCI;PRKCZ;PRKD1;PRKG1;ROCK2;RPS6KA3;RPS6KA4;RPS6KA5;SLK;STK11;STRADB;WNK1	0.5418348869864097	1.6466776900841875e-141	Protein modification	Other
+PROTTK	BMP2K;CAB39;CAB39L;CDK2;CDK4;CDK5;CDK6;CSNK1A1;CSNK1G1;CSNK1G2;CSNK1G3;CSNK2A1;CSNK2A2;CSNK2B;GSK3A;MAP2K1;MAP2K2;MAP2K3;MAP2K6;MAPK1;MAPK14;MAPK3;MAPKAPK2;OXSR1;PAK2;PRKAA1;PRKAB1;PRKACA;PRKACB;PRKAG1;PRKAR1A;PRKAR1B;PRKAR2A;PRKAR2B;PRKCA;PRKCB;PRKCI;PRKCZ;PRKD1;PRKG1;ROCK2;RPS6KA3;RPS6KA4;RPS6KA5;SLK;STK11;STRADB;WNK1	0.5418348869864097	1.6466776900841875e-141	Protein modification	Other
+ALCD19y	AKR1A1;AKR1B1	0.5367450308043609	2.1078319708399486e-138	Glycerolipid metabolism	Lipid metabolism
+NTPG	ABCE1;ARF1;ARF6;CDC42;DNM2;DNM3;EEF2;HRAS;KRAS;NRAS;RAB10;RAB11B;RAB1A;RAB2A;RAB2B;RAB3C;RAB5A;RAB5B;RAB5C;RAB6B;RAB8A;RAC1;RALA;RAN;RAP1A;RAP2B;RHOA	0.5315980277843801	2.584106390184385e-135	Nucleotide metabolism	Nucleotide metabolism
+6PTHPDH	AKR1B1;CBR1	0.5305516673755056	1.0806357166334744e-134	Biopterin metabolism	Metabolism of cofactors and vitamins
+UAG4E	GALE	0.5287287355342112	1.29125127956073e-133	Amino sugar and nucleotide sugar metabolism	Carbohydrate metabolism
+F1PP	ARMT1	0.5204726479109713	8.104938272088749e-129	Fructose and mannose metabolism	Carbohydrate metabolism
+NACt	SLC22A7	0.5168125902125728	9.855168554751019e-127	Transport, extracellular	Transport reactions
+PPCDC	PPCDC	0.5126806218934334	2.074891603530104e-124	Pantothenate and CoA metabolism	Metabolism of cofactors and vitamins
+LEUKTRC4ABCte	ABCC4;RALBP1	0.5104809810626884	3.473926811070552e-123	Transport, extracellular	Transport reactions
+LEUKTRC5ABCte	ABCC4;RALBP1	0.5104809810626884	3.473926811070552e-123	Transport, extracellular	Transport reactions
+MERCPURMT	TPMT	0.5087873088849928	2.999471764414874e-122	Azathioprine and 6-mercaptopurine metabolism	Other
+THIOIMPMT	TPMT	0.5087873088849928	2.999471764414874e-122	Azathioprine and 6-mercaptopurine metabolism	Other
+PGE1S	PTGES3	0.5049388006707304	3.8449130006515575e-120	Prostaglandin biosynthesis	Lipid metabolism
+PGE3S	PTGES3	0.5049388006707304	3.8449130006515575e-120	Prostaglandin biosynthesis	Lipid metabolism
+PRDX2SOR	PRDX1;PRDX2;PRDX4;PRDX5	0.5043809558846148	7.730112815124248e-120	Reactive species formation and detoxification	Reactive species
+CDS	CDS2	0.5030841818537535	3.9000335603738856e-119	Glycerophospholipid metabolism	Lipid metabolism
+XYLK	XYLB	0.5030335283264699	4.153959714113264e-119	Pentose and glucuronate interconversions	Carbohydrate metabolism
+PPA	LHPP;PPA1;PPA2;PRUNE1	0.5020285748944593	1.4487656342442021e-118	Nucleotide metabolism	Nucleotide metabolism
+GPDDA5	GDE1	0.5015096614511041	2.7569603109160215e-118	Glycerophospholipid metabolism	Lipid metabolism
+LPCLPLD	GDPD1	0.5003456190560943	1.1628144970587707e-117	Glycerophospholipid metabolism	Lipid metabolism
+LPELPLD	GDPD1	0.5003456190560943	1.1628144970587707e-117	Glycerophospholipid metabolism	Lipid metabolism
+ATPte	ANKH;PANX1;SLC25A31;SLC25A4;SLC25A5;SLC25A6;TSPO2;VDAC1;VDAC2;VDAC3	0.4998087867373216	2.2540847592768e-117	Transport, extracellular	Transport reactions
+PIPLA2	ABHD16A	0.4997995725108495	2.2798157251693e-117	Glycerophospholipid metabolism	Lipid metabolism
+PAPLA2	ABHD16A;PLA2G4A;PLA2G4B	0.4997995725108495	2.2798157251693e-117	Glycerolipid metabolism	Lipid metabolism
+PEPLA2	ABHD16A;PLA2G4A;PLA2G4B	0.4997995725108495	2.2798157251693e-117	Glycerophospholipid metabolism	Lipid metabolism
+PSPLA2	ABHD16A;PLA2G4A;PLA2G4B	0.4997995725108495	2.2798157251693e-117	Glycerophospholipid metabolism	Lipid metabolism
+ACER	ACER2;ACER3	0.4997995725108495	2.2798157251693e-117	Sphingolipid metabolism	Lipid metabolism
+FACOAL_2_0	ACSS2	0.4997995725108495	2.2798157251693e-117	Fatty acid activation (cytosolic)	Lipid metabolism
+FACOAL_3_0	ACSS2	0.4997995725108495	2.2798157251693e-117	Fatty acid activation (cytosolic)	Lipid metabolism
+LPIAT	AGPAT3	0.4997995725108495	2.2798157251693e-117	Glycerophospholipid metabolism	Lipid metabolism
+CYTBFADSD5_20_8Z11Z14Z	CYB5A;CYB5B;FADS1	0.4997995725108495	2.2798157251693e-117	Fatty acid desaturation (even-chain)	Lipid metabolism
+CYTBFADSD5_20_8Z11Z14Z17Z	CYB5A;CYB5B;FADS1	0.4997995725108495	2.2798157251693e-117	Fatty acid desaturation (even-chain)	Lipid metabolism
+CYTBFADSD6_18_9Z	CYB5A;CYB5B;FADS2	0.4997995725108495	2.2798157251693e-117	Fatty acid desaturation (even-chain)	Lipid metabolism
+CYTBFADSD6_18_9Z12Z	CYB5A;CYB5B;FADS2	0.4997995725108495	2.2798157251693e-117	Fatty acid desaturation (even-chain)	Lipid metabolism
+CYTBFADSD6_18_9Z12Z15Z	CYB5A;CYB5B;FADS2	0.4997995725108495	2.2798157251693e-117	Fatty acid desaturation (even-chain)	Lipid metabolism
+CYTBFADSD6_20_11Z14Z	CYB5A;CYB5B;FADS2	0.4997995725108495	2.2798157251693e-117	Fatty acid desaturation (even-chain)	Lipid metabolism
+CYTBFADSD6_20_11Z14Z17Z	CYB5A;CYB5B;FADS2	0.4997995725108495	2.2798157251693e-117	Fatty acid desaturation (even-chain)	Lipid metabolism
+CYTBFADSD9_16_0	CYB5A;CYB5B;SCD	0.4997995725108495	2.2798157251693e-117	Fatty acid desaturation (even-chain)	Lipid metabolism
+CYTBFADSD9_18_0	CYB5A;CYB5B;SCD	0.4997995725108495	2.2798157251693e-117	Fatty acid desaturation (even-chain)	Lipid metabolism
+DAGL1	DAGLA;DAGLB	0.4997995725108495	2.2798157251693e-117	Glycerolipid metabolism	Lipid metabolism
+DAGL2	DAGLA;DAGLB	0.4997995725108495	2.2798157251693e-117	Glycerolipid metabolism	Lipid metabolism
+TAGL	DAGLA;DAGLB	0.4997995725108495	2.2798157251693e-117	Glycerolipid metabolism	Lipid metabolism
+NTPPDC	DCTPP1	0.4997995725108495	2.2798157251693e-117	Nucleotide metabolism	Nucleotide metabolism
+GTHLEUKTRA4	GSTM4;MGST2	0.4997995725108495	2.2798157251693e-117	Leukotriene metabolism	Lipid metabolism
+GTHLEUKTRA5	GSTM4;MGST2	0.4997995725108495	2.2798157251693e-117	Leukotriene metabolism	Lipid metabolism
+LPALPLB	LYPLA2	0.4997995725108495	2.2798157251693e-117	Glycerolipid metabolism	Lipid metabolism
+SPH1tex	MFSD2B	0.4997995725108495	2.2798157251693e-117	Transport, extracellular	Transport reactions
+SPHS1tex	MFSD2B	0.4997995725108495	2.2798157251693e-117	Transport, extracellular	Transport reactions
+PI35P3P	MTM1;MTMR1;MTMR12;MTMR2;SBF1	0.4997995725108495	2.2798157251693e-117	Inositol phosphate metabolism	Carbohydrate metabolism
+PEPCK	PCK1	0.4997995725108495	2.2798157251693e-117	Pyruvate metabolism	Carbohydrate metabolism
+CHLPCTD	PCYT1A;PCYT1B	0.4997995725108495	2.2798157251693e-117	Glycerophospholipid metabolism	Lipid metabolism
+PI45P4P	PIP4P1	0.4997995725108495	2.2798157251693e-117	Inositol phosphate metabolism	Carbohydrate metabolism
+PI4P5K	PIP5K1A;PIP5K1C	0.4997995725108495	2.2798157251693e-117	Inositol phosphate metabolism	Carbohydrate metabolism
+PI5K	PIP5K1A;PIP5K1C	0.4997995725108495	2.2798157251693e-117	Inositol phosphate metabolism	Carbohydrate metabolism
+PI45PLC	PLCB2;PLCB3;PLCG1	0.4997995725108495	2.2798157251693e-117	Inositol phosphate metabolism	Carbohydrate metabolism
+PI4PLC	PLCB2;PLCB3;PLCG1	0.4997995725108495	2.2798157251693e-117	Inositol phosphate metabolism	Carbohydrate metabolism
+PIPLC	PLCB2;PLCB3;PLCG1	0.4997995725108495	2.2798157251693e-117	Inositol phosphate metabolism	Carbohydrate metabolism
+CDPCHOLPP	SMPDL3B	0.4997995725108495	2.2798157251693e-117	Glycerolipid metabolism	Lipid metabolism
+PROTCSAT_14_0	ZDHHC2;ZDHHC20;ZDHHC3;ZDHHC5	0.4997995725108495	2.2798157251693e-117	Protein modification	Other
+PROTCSAT_16_0	ZDHHC2;ZDHHC20;ZDHHC3;ZDHHC5	0.4997995725108495	2.2798157251693e-117	Protein modification	Other
+PROTCSAT_18_0	ZDHHC2;ZDHHC20;ZDHHC3;ZDHHC5	0.4997995725108495	2.2798157251693e-117	Protein modification	Other
+HXDCAL2EDHx	ALDH3A2;ALDH3B1	0.499503525080499	3.2824738967501786e-117	Sphingolipid metabolism	Lipid metabolism
+HXDCAL2EDHy	ALDH3A2;ALDH3B1	0.499503525080499	3.2824738967501786e-117	Sphingolipid metabolism	Lipid metabolism
+HXDCALDHx	ALDH3A2;ALDH3B1	0.499503525080499	3.2824738967501786e-117	Sphingolipid metabolism	Lipid metabolism
+HXDCALDHy	ALDH3A2;ALDH3B1	0.499503525080499	3.2824738967501786e-117	Sphingolipid metabolism	Lipid metabolism
+PROTKF6PPP	MDP1	0.4990771493948706	5.545209004226746e-117	Protein modification	Other
+ADSS	ADSS2	0.497797855014021	2.6620943031148373e-116	Purine metabolism	Nucleotide metabolism
+PHETA1	GOT1;GOT2	0.495608928621198	3.8394412247089563e-115	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+FMNPH	ACP1	0.4955372284012153	4.188814546165459e-115	Riboflavin metabolism	Metabolism of cofactors and vitamins
+ACNAM9PL2	NANS	0.4952022268112003	6.290583352705966e-115	Amino sugar and nucleotide sugar metabolism	Carbohydrate metabolism
+GPDDA3	GDE1	0.4951466163114832	6.729574271277027e-115	Glycerophospholipid metabolism	Lipid metabolism
+DAGOK	DGKA	0.4906142322394484	1.5762597219026136e-112	Glycerolipid metabolism	Lipid metabolism
+ETHAt	SLC44A1;SLC44A2	0.4892615586947502	7.90593919842553e-112	Transport, extracellular	Transport reactions
+6PTHPDH2	AKR1C3	0.4877798612611296	4.586455699638863e-111	Biopterin metabolism	Metabolism of cofactors and vitamins
+PROTCSAE_14_0	ABHD17B;LYPLA1;LYPLA2;LYPLAL1	0.4877642716113475	4.67186888595297e-111	Protein modification	Other
+PROTCSAE_16_0	ABHD17B;LYPLA1;LYPLA2;LYPLAL1	0.4877642716113475	4.67186888595297e-111	Protein modification	Other
+PROTCSAE_18_0	ABHD17B;LYPLA1;LYPLA2;LYPLAL1	0.4877642716113475	4.67186888595297e-111	Protein modification	Other
+2OBUT_ACACtex	BSG;EMB;SLC16A1;SLC16A7	0.4873604618439549	7.532060186501731e-111	Transport, extracellular	Transport reactions
+GGCLUT2	CHAC2	0.4871718344970837	9.412605639710297e-111	Glutathione metabolism	Amino acid metabolism
+PETHCT	PCYT2	0.4867485333892936	1.5513530121476906e-110	Glycerophospholipid metabolism	Lipid metabolism
+CDIPT	CDIPT	0.4864521189870675	2.2003045902178202e-110	Glycerophospholipid metabolism	Lipid metabolism
+PPM2	PGM2	0.4829956945528571	1.2626450220014702e-108	Pentose phosphate pathway	Carbohydrate metabolism
+MAGL1	ABHD16A;PNPLA6	0.4828065215016942	1.5738392270990338e-108	Glycerolipid metabolism	Lipid metabolism
+MAGL2	ABHD16A;PNPLA6	0.4828065215016942	1.5738392270990338e-108	Glycerolipid metabolism	Lipid metabolism
+PDXPP	PDXP	0.4816901246054335	5.759491939867648e-108	Vitamin B6 metabolism	Metabolism of cofactors and vitamins
+PYDAMPP	PDXP	0.4816901246054335	5.759491939867648e-108	Vitamin B6 metabolism	Metabolism of cofactors and vitamins
+PYDXPP	PDXP	0.4816901246054335	5.759491939867648e-108	Vitamin B6 metabolism	Metabolism of cofactors and vitamins
+THMMPP	ACP1;ALPL	0.4790562685810649	1.2061235902911656e-106	Thiamine metabolism	Metabolism of cofactors and vitamins
+ADA	ADA	0.4765290758795202	2.178139141875141e-105	Purine metabolism	Nucleotide metabolism
+THIMPABCte	ABCC4;ABCC5	0.4759226729184883	4.345750460583603e-105	Transport, extracellular	Transport reactions
+PI45P5P	FIG4;INPP5B;INPP5D;SYNJ1	0.4744718334463652	2.2559392179493208e-104	Inositol phosphate metabolism	Carbohydrate metabolism
+LPAAT	AGPAT1;AGPAT3;AGPAT4;LPCAT1;MBOAT2	0.4743123965255773	2.7022132827453232e-104	Glycerolipid metabolism	Lipid metabolism
+2HB_ACACtex	BSG;EMB;SLC16A1;SLC16A7	0.4738462224548296	4.578158958576256e-104	Transport, extracellular	Transport reactions
+GPDDA2	GDE1;GPCPD1	0.4731330934244874	1.0239382664849564e-103	Glycerophospholipid metabolism	Lipid metabolism
+1SGTH2OHE1ABCte	ABCC1;ABCC4;RALBP1	0.4672774962338704	7.073412944228295e-101	Transport, extracellular	Transport reactions
+1SGTH2OHE2ABCte	ABCC1;ABCC4;RALBP1	0.4672774962338704	7.073412944228295e-101	Transport, extracellular	Transport reactions
+2SGTH4OHE1ABCte	ABCC1;ABCC4;RALBP1	0.4672774962338704	7.073412944228295e-101	Transport, extracellular	Transport reactions
+2SGTH4OHE2ABCte	ABCC1;ABCC4;RALBP1	0.4672774962338704	7.073412944228295e-101	Transport, extracellular	Transport reactions
+4GTH56DHIABCte	ABCC1;ABCC4;RALBP1	0.4672774962338704	7.073412944228295e-101	Transport, extracellular	Transport reactions
+4SGTH2OHE1ABCte	ABCC1;ABCC4;RALBP1	0.4672774962338704	7.073412944228295e-101	Transport, extracellular	Transport reactions
+4SGTH2OHE2ABCte	ABCC1;ABCC4;RALBP1	0.4672774962338704	7.073412944228295e-101	Transport, extracellular	Transport reactions
+56DHIGTHABCte	ABCC1;ABCC4;RALBP1	0.4672774962338704	7.073412944228295e-101	Transport, extracellular	Transport reactions
+ADRNLGTHABCte	ABCC1;ABCC4;RALBP1	0.4672774962338704	7.073412944228295e-101	Transport, extracellular	Transport reactions
+ARSSELDIGTHABCte	ABCC1;ABCC4;RALBP1	0.4672774962338704	7.073412944228295e-101	Transport, extracellular	Transport reactions
+DOPAGTHABCte	ABCC1;ABCC4;RALBP1	0.4672774962338704	7.073412944228295e-101	Transport, extracellular	Transport reactions
+DPAMGTHABCte	ABCC1;ABCC4;RALBP1	0.4672774962338704	7.073412944228295e-101	Transport, extracellular	Transport reactions
+GTHNOABCte	ABCC1;ABCC4;RALBP1	0.4672774962338704	7.073412944228295e-101	Transport, extracellular	Transport reactions
+GTHOXABCte	ABCC1;ABCC4;RALBP1	0.4672774962338704	7.073412944228295e-101	Transport, extracellular	Transport reactions
+LADRNCHRGTHABCte	ABCC1;ABCC4;RALBP1	0.4672774962338704	7.073412944228295e-101	Transport, extracellular	Transport reactions
+LDPCHRGTHABCte	ABCC1;ABCC4;RALBP1	0.4672774962338704	7.073412944228295e-101	Transport, extracellular	Transport reactions
+LNRPPHRCHRGTHABCte	ABCC1;ABCC4;RALBP1	0.4672774962338704	7.073412944228295e-101	Transport, extracellular	Transport reactions
+NRPPHRGTHABCte	ABCC1;ABCC4;RALBP1	0.4672774962338704	7.073412944228295e-101	Transport, extracellular	Transport reactions
+PGA1GTHABC	ABCC1;ABCC4;RALBP1	0.4672774962338704	7.073412944228295e-101	Transport, extracellular	Transport reactions
+PGA2GTHABC	ABCC1;ABCC4;RALBP1	0.4672774962338704	7.073412944228295e-101	Transport, extracellular	Transport reactions
+PGA3GTHABC	ABCC1;ABCC4;RALBP1	0.4672774962338704	7.073412944228295e-101	Transport, extracellular	Transport reactions
+TMDPK	TPK1	0.4662721035764544	2.14587435945102e-100	Thiamine metabolism	Metabolism of cofactors and vitamins
+TMDPK2	TPK1	0.4662721035764544	2.14587435945102e-100	Thiamine metabolism	Metabolism of cofactors and vitamins
+TMDPK3	TPK1	0.4662721035764544	2.14587435945102e-100	Thiamine metabolism	Metabolism of cofactors and vitamins
+TMDPK4	TPK1	0.4662721035764544	2.14587435945102e-100	Thiamine metabolism	Metabolism of cofactors and vitamins
+PGD2Ry	AKR1C3	0.4623072025311432	1.647039558779985e-98	Prostaglandin biosynthesis	Lipid metabolism
+PRPPPP	NUDT4	0.4621778877266926	1.895695359923221e-98	Starch and sucrose metabolism	Carbohydrate metabolism
+ALDD2y	ALDH3A1;ALDH3B1	0.4614810252476233	4.0400438824853705e-98	Pyruvate metabolism	Carbohydrate metabolism
+LTA4H	LTA4H	0.4604751610408542	1.2005395248640812e-97	Leukotriene metabolism	Lipid metabolism
+LTA5H	LTA4H	0.4604751610408542	1.2005395248640812e-97	Leukotriene metabolism	Lipid metabolism
+PSERT	PSAT1	0.4586072361659219	8.985550326478261e-97	Glycine, serine and threonine metabolism	Amino acid metabolism
+UNK3	GOT1	0.4580246996866643	1.6790154966717051e-96	Cysteine and methionine metabolism	Amino acid metabolism
+HTSULGTHST	TSTD1	0.4573806773548627	3.3466444501949353e-96	Sulfur metabolism	Reactive species
+GPDDA1	GPCPD1	0.4549151872664517	4.628738662604993e-95	Glycerophospholipid metabolism	Lipid metabolism
+XPPT	HPRT1	0.454504709258812	7.153092079805572e-95	Purine metabolism	Nucleotide metabolism
+GALOR	AKR1A1;AKR1B1	0.4511104741983577	2.5568804698683947e-93	Galactose metabolism	Carbohydrate metabolism
+LPSAT	AGPAT3;LPCAT3	0.4504247425657118	5.240512626796408e-93	Glycerophospholipid metabolism	Lipid metabolism
+FACOAE_12_0	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_13_0	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_14_0	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_14_5Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_14_7Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_14_9Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_15_0	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_16_0	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_16_7Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_16_9Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_17_0	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_17_10Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_17_9Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_18_0	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_18_11Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_18_13Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_18_6Z9Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_18_6Z9Z12Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_18_6Z9Z12Z15Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_18_7Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_18_9E	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_18_9Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_18_9Z12Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_18_9Z12Z15Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_19_0	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_20_0	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_20_11Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_20_11Z14Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_20_11Z14Z17Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_20_13Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_20_5Z8Z11Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_20_5Z8Z11Z14Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_20_5Z8Z11Z14Z17Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_20_8Z11Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_20_8Z11Z14Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_20_8Z11Z14Z17Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+FACOAE_20_9Z	ACOT7;MBLAC2	0.44893994583594	2.4647333063456848e-92	Acyl-CoA hydrolysis	Lipid metabolism
+DGSHAMID	NIT1	0.446580366112515	2.8410412370533347e-91	Glutathione metabolism	Amino acid metabolism
+DOPHAMID	NIT1	0.446580366112515	2.8410412370533347e-91	Glutathione metabolism	Amino acid metabolism
+5FLURAt	SLC29A1	0.4437054437912392	5.442509298227203e-90	Transport, extracellular	Transport reactions
+NTDDTMP	HDDC2;NT5C;NT5C3A	0.4409709138813942	8.792369656779779e-89	Pyrimidine metabolism	Nucleotide metabolism
+GUAPRT	HPRT1	0.4400925010985675	2.137507715017258e-88	Purine metabolism	Nucleotide metabolism
+HXPRT	HPRT1	0.4389474195509329	6.778427158700919e-88	Purine metabolism	Nucleotide metabolism
+LLACPHEHYD	CNDP2	0.4380876576858661	1.607674803384499e-87	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+METSOXTRD	MSRA	0.4372433789916953	3.745086845627073e-87	Protein modification	Other
+PROTMSOXTRD	MSRA	0.4372433789916953	3.745086845627073e-87	Cysteine and methionine metabolism	Amino acid metabolism
+PAFS	LPCAT1;LPCAT3	0.4364735480530525	8.080438837040838e-87	Glycerophospholipid metabolism	Lipid metabolism
+2HB_BUTtex	BSG;EMB;SLC16A1;SLC16A7	0.4364247141738773	8.483816899974443e-87	Transport, extracellular	Transport reactions
+2HB_PPAtex	BSG;EMB;SLC16A1;SLC16A7	0.4364247141738773	8.483816899974443e-87	Transport, extracellular	Transport reactions
+2HBt2	BSG;EMB;SLC16A1;SLC16A7	0.4364247141738773	8.483816899974443e-87	Transport, extracellular	Transport reactions
+2OBUT_2HBtex	BSG;EMB;SLC16A1;SLC16A7	0.4364247141738773	8.483816899974443e-87	Transport, extracellular	Transport reactions
+PYR_2HBtex	BSG;EMB;SLC16A1;SLC16A7	0.4364247141738773	8.483816899974443e-87	Transport, extracellular	Transport reactions
+5MTAtec	SLC29A1	0.435443052998219	2.254977974182478e-86	Transport, extracellular	Transport reactions
+GALK	GALK1;GALK2	0.434842436023806	4.094578818887289e-86	Galactose metabolism	Carbohydrate metabolism
+PI4PP	SACM1L;SYNJ1	0.4333119408377754	1.862114763031829e-85	Inositol phosphate metabolism	Carbohydrate metabolism
+MTHFD	MTHFD1	0.4327485401354917	3.2456501548054e-85	Folate metabolism	Metabolism of cofactors and vitamins
+DTMPCYTDPT	NT5C3A	0.4314215337065893	1.1962816724805035e-84	Nucleotide metabolism	Nucleotide metabolism
+DTMPURIPT	NT5C3A	0.4314215337065893	1.1962816724805035e-84	Nucleotide metabolism	Nucleotide metabolism
+DUMPCYTDPT	NT5C3A	0.4314215337065893	1.1962816724805035e-84	Pyrimidine metabolism	Nucleotide metabolism
+DUMPURIPT	NT5C3A	0.4314215337065893	1.1962816724805035e-84	Pyrimidine metabolism	Nucleotide metabolism
+NTDCMP	NT5C3A	0.426527444661012	1.3979601171311203e-82	Pyrimidine metabolism	Nucleotide metabolism
+NTDUMP	NT5C3A	0.426527444661012	1.3979601171311203e-82	Pyrimidine metabolism	Nucleotide metabolism
+2HB_5OXPROtex	BSG;EMB;SLC16A1;SLC16A7	0.4259934853707575	2.3389758158095947e-82	Transport, extracellular	Transport reactions
+2HB_ACtex	BSG;EMB;SLC16A1;SLC16A7	0.4259934853707575	2.3389758158095947e-82	Transport, extracellular	Transport reactions
+2HB_DLACtex	BSG;EMB;SLC16A1;SLC16A7	0.4259934853707575	2.3389758158095947e-82	Transport, extracellular	Transport reactions
+2OBUT_5OXPROtex	BSG;EMB;SLC16A1;SLC16A7	0.4259934853707575	2.3389758158095947e-82	Transport, extracellular	Transport reactions
+2OBUT_ACtex	BSG;EMB;SLC16A1;SLC16A7	0.4259934853707575	2.3389758158095947e-82	Transport, extracellular	Transport reactions
+2OBUT_DLACtex	BSG;EMB;SLC16A1;SLC16A7	0.4259934853707575	2.3389758158095947e-82	Transport, extracellular	Transport reactions
+LPCOAT	LPCAT1;LPCAT3	0.425512849185576	3.7144107020799827e-82	Ether lipid metabolism	Lipid metabolism
+LPCPAT	LPCAT1;LPCAT3	0.425512849185576	3.7144107020799827e-82	Ether lipid metabolism	Lipid metabolism
+LLAC_2HBtex	BSG;EMB;SLC16A1;SLC16A7	0.4212724701490342	2.1278519624847504e-80	Transport, extracellular	Transport reactions
+GLXO1	LDHA;LDHB	0.420901811442009	3.022881158611565e-80	Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism	Carbohydrate metabolism
+ACYP	ACYP1;ACYP2	0.4184713719212387	2.988926859469257e-79	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+E14BPP	ACYP1;ACYP2	0.4184713719212387	2.988926859469257e-79	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+GGLUCT2ABUT	GGCT	0.4173982681992543	8.170985335437616e-79	Cysteine and methionine metabolism	Amino acid metabolism
+GGLUCTC	GGCT	0.4173982681992543	8.170985335437616e-79	Glutathione metabolism	Amino acid metabolism
+DTMPNH	DNPH1	0.417238511841808	9.487686546982959e-79	Nucleotide metabolism	Nucleotide metabolism
+DUMPNH	DNPH1	0.417238511841808	9.487686546982959e-79	Nucleotide metabolism	Nucleotide metabolism
+LPCLPLB	LYPLA1;LYPLA2;PLA2G4B;PNPLA6	0.4170031098413639	1.182241077135435e-78	Glycerophospholipid metabolism	Lipid metabolism
+LPSLPLB	LYPLA1;LYPLA2	0.4085073876819544	2.953269056264523e-75	Glycerophospholipid metabolism	Lipid metabolism
+BPNT	BPNT1	0.4083223958284828	3.492982821592619e-75	Purine metabolism	Nucleotide metabolism
+LPCSCRt	ANO6;PLSCR1;PLSCR4	0.4071680087867594	9.93179704231145e-75	Transport, extracellular	Transport reactions
+FBA	ALDOA;ALDOB;ALDOC	0.4018823702569699	1.1279060293670592e-72	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+FMNAT	FLAD1	0.4005933045369045	3.530909275842602e-72	Riboflavin metabolism	Metabolism of cofactors and vitamins
+GLYCLTDx	LDHA;LDHB	0.3978411048361794	3.969372423986965e-71	Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism	Carbohydrate metabolism
+EMCD	ECHDC1	0.3977430054580583	4.325083801188659e-71	Pantothenate and CoA metabolism	Metabolism of cofactors and vitamins
+MMCD	ECHDC1	0.3977430054580583	4.325083801188659e-71	Pantothenate and CoA metabolism	Metabolism of cofactors and vitamins
+NTPA	ABCE1;ACTA1;ACTB;ACTC1;ACTG1;ACTG2;CDC37;CFTR;DERL1;FAF1;FAF2;HSP90AA1;HSP90AB1;HSPA8;NPLOC4;NSF;NSFL1C;PLAA;RUVBL1;RUVBL2;UBXN1;UBXN6;UBXN7;UFD1;VCP;VCPIP1;VPS4A;VPS4B	0.3962271720343732	1.6230618268766727e-70	Nucleotide metabolism	Nucleotide metabolism
+NMNAT	NMNAT3	0.3904635022492961	2.327718675013792e-68	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+NMNHAT	NMNAT3	0.3904635022492961	2.327718675013792e-68	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+SRDX1GTHRD	PRDX1;PRDX2;PRDX4;SRXN1	0.3878649839052791	2.114644986453424e-67	Reactive species formation and detoxification	Reactive species
+5OXPRO_BUTtex	BSG;EMB;SLC16A1;SLC16A7	0.3868025470859998	5.182870975021744e-67	Transport, extracellular	Transport reactions
+5OXPRO_PPAtex	BSG;EMB;SLC16A1;SLC16A7	0.3868025470859998	5.182870975021744e-67	Transport, extracellular	Transport reactions
+5OXPROt2	BSG;EMB;SLC16A1;SLC16A7	0.3868025470859998	5.182870975021744e-67	Transport, extracellular	Transport reactions
+LLAC_5OXPROtex	BSG;EMB;SLC16A1;SLC16A7	0.3868025470859998	5.182870975021744e-67	Transport, extracellular	Transport reactions
+PYR_5OXPROtex	BSG;EMB;SLC16A1;SLC16A7	0.3868025470859998	5.182870975021744e-67	Transport, extracellular	Transport reactions
+SPHGANK	SPHK1	0.3864316335902113	7.081975948276012e-67	Sphingolipid metabolism	Lipid metabolism
+SPHGNSK	SPHK1	0.3864316335902113	7.081975948276012e-67	Sphingolipid metabolism	Lipid metabolism
+PPNCL3	PPCS	0.3864139219683402	7.188270238843772e-67	Pantothenate and CoA metabolism	Metabolism of cofactors and vitamins
+PROTKDAC	ABHD14B	0.382532228468354	1.840770790401709e-65	Protein modification	Other
+PGE2S	PTGES3	0.3812822899361431	5.181609097618811e-65	Prostaglandin biosynthesis	Lipid metabolism
+NAMNPP	NAPRT	0.3808388300935086	7.472345261080391e-65	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+NTDDUMP	NT5C;NT5C3A	0.3797645398925068	1.8096639682663964e-64	Pyrimidine metabolism	Nucleotide metabolism
+NTPPI	ITPA	0.3769627647632206	1.7892509413310046e-63	Nucleotide metabolism	Nucleotide metabolism
+RBVNTPP	ITPA	0.3769627647632206	1.7892509413310046e-63	Ribavirin metabolism	Other
+PI5P4KA	PIP4K2A;PIP4K2B;PIP4K2C	0.3744913765050787	1.3253048016150137e-62	Inositol phosphate metabolism	Carbohydrate metabolism
+PI5P4KG	PIP4K2A;PIP4K2B;PIP4K2C	0.3744913765050787	1.3253048016150137e-62	Inositol phosphate metabolism	Carbohydrate metabolism
+2IMPPADA	RIDA	0.3731900771215545	3.7773948144375086e-62	Glycine, serine and threonine metabolism	Amino acid metabolism
+MI3PP	IMPA1;IMPA2	0.3717182213792712	1.2279436626805961e-61	Inositol phosphate metabolism	Carbohydrate metabolism
+FAt_hs_20_8Z11Z14Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.3679917531798427	2.363659255504516e-60	Transport, extracellular	Transport reactions
+PUNP7	PNP	0.3641407275004857	4.821721789228838e-59	Purine metabolism	Nucleotide metabolism
+HEMEGTHOHDEG	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.364139010528446	4.828164353419738e-59	Porphyrin metabolism	Metabolism of cofactors and vitamins
+2ABUTGLYDP	CNDP2;LAP3;NPEPPS	0.3639931686797331	5.407870869225452e-59	Cysteine and methionine metabolism	Amino acid metabolism
+AMPTASECG	CNDP2;LAP3;NPEPPS	0.3639931686797331	5.407870869225452e-59	Glutathione metabolism	Amino acid metabolism
+UPPG3S	UROS	0.3614848873889378	3.7667163516236164e-58	Porphyrin metabolism	Metabolism of cofactors and vitamins
+ALDD2x	ALDH1A1;ALDH3A1;ALDH3A2;ALDH3B1;ALDH9A1	0.3603949714113889	8.707499152518732e-58	Pyruvate metabolism	Carbohydrate metabolism
+METHBONOOD1	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.3603115242885699	9.283218123397014e-58	Hemoglobin binding and degradation	Reactive species
+OXYHBNO2OX	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.3603115242885699	9.283218123397014e-58	Hemoglobin binding and degradation	Reactive species
+DPCOAK	COASY	0.3599518329068214	1.2230802836910798e-57	Pantothenate and CoA metabolism	Metabolism of cofactors and vitamins
+PTPAT	COASY	0.3599518329068214	1.2230802836910798e-57	Pantothenate and CoA metabolism	Metabolism of cofactors and vitamins
+THMTP	THTPA	0.3586616092288688	3.279117427854971e-57	Thiamine metabolism	Metabolism of cofactors and vitamins
+AASDHPPT	AASDHPPT	0.3569365676107406	1.2170577087585777e-56	Pantothenate and CoA metabolism	Metabolism of cofactors and vitamins
+PRPPS	PRPS1;PRPS1L1;PRPS2	0.3547853290393999	6.175161152637253e-56	Pentose phosphate pathway	Carbohydrate metabolism
+SPODM2	SOD1	0.3544773616780231	7.783526056426519e-56	Sulfur metabolism	Reactive species
+XYLUR_Ly	DCXR	0.3537210364452471	1.3727323434155943e-55	Pentose and glucuronate interconversions	Carbohydrate metabolism
+ETHP	PHOSPHO1	0.3524820405200002	3.4657454468641236e-55	Glycerophospholipid metabolism	Lipid metabolism
+SELNIOR3y	TXN;TXNDC17;TXNL1;TXNRD1	0.3500297005740327	2.1408785856095623e-54	Selenocompound metabolism	Amino acid metabolism
+E4PP	ARMT1	0.3490437517217969	4.431484777840182e-54	Pentose and glucuronate interconversions	Carbohydrate metabolism
+UBIQE2CONJT	CUL1;CUL2;CUL3;CUL4A;CUL4B;CUL5;DCAF11;DCAF6;DCAF7;DDB1;ELOB;ELOC;FBXL20;FBXO4;FBXO7;HUWE1;KLHL18;RBX1;RNF123;SKP1;TRIM58;UBAC1;UBR4	0.3474383733576502	1.4407592667437403e-53	Ubiquitin mediated proteolysis	Other
+FAt_18_9Z12Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.3454998948121704	5.927868983650712e-53	Transport, extracellular	Transport reactions
+FAt_20_5Z8Z11Z14Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.3454998948121704	5.927868983650712e-53	Transport, extracellular	Transport reactions
+FAt_hs_20_5Z8Z11Z14Z17Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.3454998948121704	5.927868983650712e-53	Transport, extracellular	Transport reactions
+FAt_hs_22_4Z7Z10Z13Z16Z19Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.3454998948121704	5.927868983650712e-53	Transport, extracellular	Transport reactions
+SRDX1GRDX2CDG	GLRX;SRXN1	0.3451198678645699	7.813056559518982e-53	Reactive species formation and detoxification	Reactive species
+SRDX1GTHDG	SRXN1	0.3451198678645699	7.813056559518982e-53	Reactive species formation and detoxification	Reactive species
+PPMEPP2A	PPME1;PPP2CA;PPP2CB	0.3440034405457703	1.754533058387715e-52	Protein modification	Other
+NNAT	NMNAT3	0.3430828792366937	3.4102382232311514e-52	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+MCPST	MPST	0.3421917498326029	6.4752088681845305e-52	Sulfur metabolism	Reactive species
+MCPST4	MPST	0.3421917498326029	6.4752088681845305e-52	Cysteine and methionine metabolism	Amino acid metabolism
+MCPST3	MPST;TXN;TXNDC17;TXNL1	0.3421917498326029	6.4752088681845305e-52	Cysteine and methionine metabolism	Amino acid metabolism
+GSNt	SLC29A1	0.3394620456979924	4.5562425101875254e-51	Transport, extracellular	Transport reactions
+GLYCLTDy	GRHPR	0.3388166410420791	7.20627899571351e-51	Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism	Carbohydrate metabolism
+NICRNSt	SLC29A1	0.3362490966454888	4.416755069124063e-50	Transport, extracellular	Transport reactions
+SBTRa	AKR1A1;AKR1B1;AKR7A2	0.3356345176271252	6.79939020241912e-50	Fructose and mannose metabolism	Carbohydrate metabolism
+FAt_16_0	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_16_2E	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_18_0	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_18_9Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_12_0	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_13_0	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_14_0	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_14_5Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_14_7Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_14_9Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_15_0	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_16_7Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_16_9Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_17_0	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_17_10Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_17_9Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_18_11Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_18_13Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_18_6Z9Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_18_6Z9Z12Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_18_6Z9Z12Z15Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_18_7Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_18_9E	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_18_9Z12Z15Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_19_0	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_20_0	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_20_11Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_20_11Z14Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_20_11Z14Z17Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_20_13Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_20_5Z8Z11Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_20_8Z11Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_20_8Z11Z14Z17Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_20_9Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_21_0	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_22_0	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_22_10Z13Z16Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_22_10Z13Z16Z19Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_22_11Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_22_13Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_22_13Z16Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_22_13Z16Z19Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_22_4Z7Z10Z13Z16Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_22_7Z10Z13Z16Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_22_7Z10Z13Z16Z19Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_23_0	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_24_0	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_24_12Z15Z18Z21Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_24_15Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_24_6Z9Z12Z15Z18Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_24_6Z9Z12Z15Z18Z21Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_24_9Z12Z15Z18Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_24_9Z12Z15Z18Z21Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_26_0	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+FAt_hs_26_17Z	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.334404230153641	1.6079285538567717e-49	Transport, extracellular	Transport reactions
+MTAP	MTAP	0.3294506593402703	4.9442581533434935e-48	Cysteine and methionine metabolism	Amino acid metabolism
+ACACt2	BSG;EMB;SLC16A1;SLC16A7	0.3286920695297545	8.308573297617148e-48	Transport, extracellular	Transport reactions
+BUT_ACACtex	BSG;EMB;SLC16A1;SLC16A7	0.3286920695297545	8.308573297617148e-48	Transport, extracellular	Transport reactions
+LLAC_ACACtex	BSG;EMB;SLC16A1;SLC16A7	0.3286920695297545	8.308573297617148e-48	Transport, extracellular	Transport reactions
+PPA_ACACtex	BSG;EMB;SLC16A1;SLC16A7	0.3286920695297545	8.308573297617148e-48	Transport, extracellular	Transport reactions
+PYR_ACACtex	BSG;EMB;SLC16A1;SLC16A7	0.3286920695297545	8.308573297617148e-48	Transport, extracellular	Transport reactions
+2LACP_L	PGP	0.3270054553810856	2.620800792627333e-47	Pyruvate metabolism	Carbohydrate metabolism
+PGLYCP	PGP	0.3270054553810856	2.620800792627333e-47	Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism	Carbohydrate metabolism
+ADPRUDP	NUDT5	0.3260380300522282	5.048686381160305e-47	Nucleotide metabolism	Nucleotide metabolism
+ADPRDP	NUDT5	0.3260083623725658	5.151031065809936e-47	Nucleotide metabolism	Nucleotide metabolism
+FAt_hs_4_0	CD36;FABP1;FABP5;SLC27A2;SLC27A4	0.3241076971415413	1.854576723894237e-46	Transport, extracellular	Transport reactions
+G1PPa	IMPA1;IMPA2	0.3238361094324736	2.22544452704615e-46	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+GAL1PP	IMPA1;IMPA2	0.3238361094324736	2.22544452704615e-46	Galactose metabolism	Carbohydrate metabolism
+MI1PP	IMPA1;IMPA2	0.3238361094324736	2.22544452704615e-46	Inositol phosphate metabolism	Carbohydrate metabolism
+MI4PP	IMPA1;IMPA2	0.3238361094324736	2.22544452704615e-46	Inositol phosphate metabolism	Carbohydrate metabolism
+SPRMS	SMS	0.3238233243604971	2.2446147602768684e-46	Arginine and proline metabolism	Amino acid metabolism
+SFGTH	ESD	0.3232805254212808	3.2294231630474727e-46	Glutathione metabolism	Amino acid metabolism
+CYTK13	CMPK1;CMPK2	0.322215881066522	6.5773593140739495e-46	Nucleotide metabolism	Nucleotide metabolism
+CYTK2	CMPK1;CMPK2	0.322215881066522	6.5773593140739495e-46	Nucleotide metabolism	Nucleotide metabolism
+2HB_GLYCLTtex	BSG;EMB;SLC16A1;SLC16A7	0.3202489783626576	2.4294863654612574e-45	Transport, extracellular	Transport reactions
+PI4K	PI4K2A;PI4KA	0.3178245244764176	1.1999546038445302e-44	Inositol phosphate metabolism	Carbohydrate metabolism
+PROTCDGLAC_L	PARK7	0.3169589747233233	2.114719778010461e-44	Protein modification	Other
+PROTKDGLAC_L	PARK7	0.3169589747233233	2.114719778010461e-44	Protein modification	Other
+PROTRDGLAC_L	PARK7	0.3169589747233233	2.114719778010461e-44	Protein modification	Other
+HB23DPGB	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.3155976079381319	5.136446651740443e-44	Hemoglobin binding and degradation	Reactive species
+23E1QN1GST	GSTM1;GSTM2;GSTM3;GSTM4;GSTM5;GSTO1;GSTP1;GSTT1;LANCL1;MGST2	0.3147843088956139	8.708707712337233e-44	Estrogen metabolism	Lipid metabolism
+23E1QN4GST	GSTM1;GSTM2;GSTM3;GSTM4;GSTM5;GSTO1;GSTP1;GSTT1;LANCL1;MGST2	0.3147843088956139	8.708707712337233e-44	Estrogen metabolism	Lipid metabolism
+23E2QN1GST	GSTM1;GSTM2;GSTM3;GSTM4;GSTM5;GSTO1;GSTP1;GSTT1;LANCL1;MGST2	0.3147843088956139	8.708707712337233e-44	Estrogen metabolism	Lipid metabolism
+23E2QN4GST	GSTM1;GSTM2;GSTM3;GSTM4;GSTM5;GSTO1;GSTP1;GSTT1;LANCL1;MGST2	0.3147843088956139	8.708707712337233e-44	Estrogen metabolism	Lipid metabolism
+34E1QN2GST	GSTM1;GSTM2;GSTM3;GSTM4;GSTM5;GSTO1;GSTP1;GSTT1;LANCL1;MGST2	0.3147843088956139	8.708707712337233e-44	Estrogen metabolism	Lipid metabolism
+34E2QN2GST	GSTM1;GSTM2;GSTM3;GSTM4;GSTM5;GSTO1;GSTP1;GSTT1;LANCL1;MGST2	0.3147843088956139	8.708707712337233e-44	Estrogen metabolism	Lipid metabolism
+ADRNCHRGST	GSTM1;GSTM2;GSTM3;GSTM4;GSTM5;GSTO1;GSTP1;GSTT1;LANCL1;MGST2	0.3147843088956139	8.708707712337233e-44	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+ADRNLQGST_L	GSTM1;GSTM2;GSTM3;GSTM4;GSTM5;GSTO1;GSTP1;GSTT1;LANCL1;MGST2	0.3147843088956139	8.708707712337233e-44	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+DOPAQGST_L	GSTM1;GSTM2;GSTM3;GSTM4;GSTM5;GSTO1;GSTP1;GSTT1;LANCL1;MGST2	0.3147843088956139	8.708707712337233e-44	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+DPAMCHRGST	GSTM1;GSTM2;GSTM3;GSTM4;GSTM5;GSTO1;GSTP1;GSTT1;LANCL1;MGST2	0.3147843088956139	8.708707712337233e-44	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+DPAMQGST_L	GSTM1;GSTM2;GSTM3;GSTM4;GSTM5;GSTO1;GSTP1;GSTT1;LANCL1;MGST2	0.3147843088956139	8.708707712337233e-44	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+DPCHRGST_L	GSTM1;GSTM2;GSTM3;GSTM4;GSTM5;GSTO1;GSTP1;GSTT1;LANCL1;MGST2	0.3147843088956139	8.708707712337233e-44	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+IND56QNGST	GSTM1;GSTM2;GSTM3;GSTM4;GSTM5;GSTO1;GSTP1;GSTT1;LANCL1;MGST2	0.3147843088956139	8.708707712337233e-44	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+NRPPHRCHRGST	GSTM1;GSTM2;GSTM3;GSTM4;GSTM5;GSTO1;GSTP1;GSTT1;LANCL1;MGST2	0.3147843088956139	8.708707712337233e-44	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+NRPPHRQGST_L	GSTM1;GSTM2;GSTM3;GSTM4;GSTM5;GSTO1;GSTP1;GSTT1;LANCL1;MGST2	0.3147843088956139	8.708707712337233e-44	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+PROSTGA1GST	GSTM1;GSTM2;GSTM3;GSTM4;GSTM5;GSTO1;GSTP1;GSTT1;LANCL1;MGST2	0.3147843088956139	8.708707712337233e-44	Prostaglandin biosynthesis	Lipid metabolism
+PROSTGA2GST	GSTM1;GSTM2;GSTM3;GSTM4;GSTM5;GSTO1;GSTP1;GSTT1;LANCL1;MGST2	0.3147843088956139	8.708707712337233e-44	Prostaglandin biosynthesis	Lipid metabolism
+PROSTGA3GST	GSTM1;GSTM2;GSTM3;GSTM4;GSTM5;GSTO1;GSTP1;GSTT1;LANCL1;MGST2	0.3147843088956139	8.708707712337233e-44	Prostaglandin biosynthesis	Lipid metabolism
+GALM	GALM	0.3145437730917291	1.017724274986998e-43	Galactose metabolism	Carbohydrate metabolism
+ATPR5PT	NUDT5	0.3143423397573858	1.1594624442821886e-43	Nucleotide metabolism	Nucleotide metabolism
+ARGN	ARG1	0.3137691715187036	1.6793640678517491e-43	Arginine and proline metabolism	Amino acid metabolism
+ADSL2	ADSL	0.3132391975810462	2.3637030687617984e-43	Purine metabolism	Nucleotide metabolism
+GLYOX	HAGH	0.3121501885754385	4.7607918061981886e-43	Pyruvate metabolism	Carbohydrate metabolism
+LPEAT	LPCAT3;MBOAT2	0.3110487348500083	9.637019381318305e-43	Glycerophospholipid metabolism	Lipid metabolism
+4PERK	PGK1;PGK2	0.3061031784742314	2.2032527019696278e-41	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+ADPRDACAC2	OARD1	0.3057528781499625	2.7437447863860857e-41	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+MTRI	MRI1	0.3046685960463379	5.40051975374442e-41	Cysteine and methionine metabolism	Amino acid metabolism
+SPPTDH	CBR1	0.3008876106571843	5.600488239638932e-40	Biopterin metabolism	Metabolism of cofactors and vitamins
+AICART	ATIC	0.2950709562177796	1.9123894005117982e-38	Purine metabolism	Nucleotide metabolism
+IMPC	ATIC	0.2950709562177796	1.9123894005117982e-38	Purine metabolism	Nucleotide metabolism
+DPGase	BPGM	-0.292666950080504	8.035231673232447e-38	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+OXOSUCAH	NIT2	0.2917210144725684	1.408189658495822e-37	Alanine, aspartate and glutamate metabolism	Amino acid metabolism
+5AOPt2	TSPO2	0.289928081156047	4.054739166463284e-37	Transport, extracellular	Transport reactions
+CYTK1	CMPK1;CMPK2	0.2887684652404487	8.003133085369439e-37	Nucleotide metabolism	Nucleotide metabolism
+CYTK8	CMPK1;CMPK2	0.2887684652404487	8.003133085369439e-37	Nucleotide metabolism	Nucleotide metabolism
+UMPK1	CMPK1;CMPK2	0.2887684652404487	8.003133085369439e-37	Nucleotide metabolism	Nucleotide metabolism
+UMPK5	CMPK1;CMPK2	0.2887684652404487	8.003133085369439e-37	Nucleotide metabolism	Nucleotide metabolism
+DGMPNH	DNPH1	0.2870396303120002	2.192509446655492e-36	Nucleotide metabolism	Nucleotide metabolism
+2IMBUTDA	RIDA	0.2866178750494685	2.800592489308021e-36	Glycine, serine and threonine metabolism	Amino acid metabolism
+ARABR_Ly	AKR1A1;AKR1B1;AKR7A2	0.2844093983725791	1.0021894177960436e-35	Pentose and glucuronate interconversions	Carbohydrate metabolism
+NEDD8E1ACT	NAE1;NEDD8;UBA3	0.2796254446220787	1.5251685036976735e-34	Ubiquitin mediated proteolysis	Other
+UPPG1DC	UROD	0.278274758049453	3.257939189078676e-34	Porphyrin metabolism	Metabolism of cofactors and vitamins
+UPPG3DC	UROD	0.278274758049453	3.257939189078676e-34	Porphyrin metabolism	Metabolism of cofactors and vitamins
+PGE1Ry	CBR1	0.276276778722093	9.934806093716468e-34	Prostaglandin biosynthesis	Lipid metabolism
+PGE2Ry	CBR1	0.276276778722093	9.934806093716468e-34	Prostaglandin biosynthesis	Lipid metabolism
+PGE3Ry	CBR1	0.276276778722093	9.934806093716468e-34	Prostaglandin biosynthesis	Lipid metabolism
+5OXPRO_GLYCLTtex	BSG;EMB;SLC16A1;SLC16A7	0.2738491114551808	3.8028517842672175e-33	Transport, extracellular	Transport reactions
+PGG2GTHR	GPX1;GPX4;PRDX6	0.273179555106191	5.4934944488478816e-33	Prostaglandin biosynthesis	Lipid metabolism
+NICHYD	NT5C;NT5C2	0.2712717767052878	1.5578964520391354e-32	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+G3PP	PGP	0.2666789791752055	1.8513285502856352e-31	Glycerolipid metabolism	Lipid metabolism
+PROTKRU5PPP	ACP1	0.2665205252827061	2.014634537058124e-31	Protein modification	Other
+LPELPLB	LYPLA1;PLA2G4B	0.2659842063442775	2.6808577631416355e-31	Glycerophospholipid metabolism	Lipid metabolism
+ACAC_GLYCLTtex	BSG;EMB;SLC16A1;SLC16A7	0.2626876865773906	1.5299976821483336e-30	Transport, extracellular	Transport reactions
+NADHXE	NAXE	0.2626843876333277	1.5326478740408855e-30	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+NADPHXD	NAXD	0.256289322771505	4.1920407270290025e-29	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+AICt	SLC43A3	0.2543226501380912	1.1384801700126764e-28	Transport, extracellular	Transport reactions
+UBIQE1E2T	CDC34;UBE2L3;UBE2N;UBE2V1;UBE2V2	0.2540383629204377	1.3144265628388303e-28	Ubiquitin mediated proteolysis	Other
+2OBUT_GLYCLTtex	BSG;EMB;SLC16A1;SLC16A7	0.2517142558773807	4.226925520648045e-28	Transport, extracellular	Transport reactions
+AC_GLYCLTtex	BSG;EMB;SLC16A1;SLC16A7	0.2517142558773807	4.226925520648045e-28	Transport, extracellular	Transport reactions
+BUT_GLYCLTtex	BSG;EMB;SLC16A1;SLC16A7	0.2517142558773807	4.226925520648045e-28	Transport, extracellular	Transport reactions
+DLAC_GLYCLTtex	BSG;EMB;SLC16A1;SLC16A7	0.2517142558773807	4.226925520648045e-28	Transport, extracellular	Transport reactions
+GLYCLTt2	BSG;EMB;SLC16A1;SLC16A7	0.2517142558773807	4.226925520648045e-28	Transport, extracellular	Transport reactions
+LLAC_GLYCLTtex	BSG;EMB;SLC16A1;SLC16A7	0.2517142558773807	4.226925520648045e-28	Transport, extracellular	Transport reactions
+PPA_GLYCLTtex	BSG;EMB;SLC16A1;SLC16A7	0.2517142558773807	4.226925520648045e-28	Transport, extracellular	Transport reactions
+PYR_GLYCLTtex	BSG;EMB;SLC16A1;SLC16A7	0.2517142558773807	4.226925520648045e-28	Transport, extracellular	Transport reactions
+ENOPH	ENOPH1	0.2512029461673441	5.456686488147071e-28	Cysteine and methionine metabolism	Amino acid metabolism
+MI14P1PP	BPNT1;IMPA1;IMPA2;MINPP1	0.2469854505842879	4.386485178987406e-27	Inositol phosphate metabolism	Carbohydrate metabolism
+DRPA	DERA	0.2463830215674011	5.888716270983733e-27	Pentose phosphate pathway	Carbohydrate metabolism
+ADPRPI	RPIA	0.2453293198196061	9.837871413212264e-27	Nucleotide metabolism	Nucleotide metabolism
+NEDD8E1E2T	NEDD8;UBE2M	0.2438300971021653	2.0332503532901183e-26	Ubiquitin mediated proteolysis	Other
+GTHGLXTA	GOT1;PSAT1	0.2430183800316707	3.006092382509659e-26	Glutathione metabolism	Amino acid metabolism
+OPHGLXTA	GOT1;PSAT1	0.2430183800316707	3.006092382509659e-26	Cysteine and methionine metabolism	Amino acid metabolism
+GTHOXATA	GOT1;PSAT1	0.2425780860344913	3.7140651495743177e-26	Glutathione metabolism	Amino acid metabolism
+OPHOXATA	GOT1;PSAT1	0.2425780860344913	3.7140651495743177e-26	Cysteine and methionine metabolism	Amino acid metabolism
+CPPP1ABCte	ABCB6	0.2352253272534447	1.192632563816041e-24	Transport, extracellular	Transport reactions
+CPPPG3ABCte	ABCB6	0.2352253272534447	1.192632563816041e-24	Transport, extracellular	Transport reactions
+UPP1ABCte	ABCB6	0.2352253272534447	1.192632563816041e-24	Transport, extracellular	Transport reactions
+UPP3ABCte	ABCB6	0.2352253272534447	1.192632563816041e-24	Transport, extracellular	Transport reactions
+LPILPLB	LYPLA1	0.2324641281854285	4.2573528216378814e-24	Glycerophospholipid metabolism	Lipid metabolism
+MACACI	GSTZ1	0.2290997585511397	1.962650232433618e-23	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+RPI	RPIA	0.2246914337899588	1.401300903851156e-22	Pentose phosphate pathway	Carbohydrate metabolism
+METHBONOOX	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.2241112607616927	1.8094288181643725e-22	Hemoglobin binding and degradation	Reactive species
+OXYHBONOOX	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.2241112607616927	1.8094288181643725e-22	Hemoglobin binding and degradation	Reactive species
+MI3PS	ISYNA1	0.2197361041735575	1.2152648748893837e-21	Inositol phosphate metabolism	Carbohydrate metabolism
+PROTCDGLAC_D	PARK7	0.2195273960495976	1.3294953675646169e-21	Protein modification	Other
+PROTKDGLAC_D	PARK7	0.2195273960495976	1.3294953675646169e-21	Protein modification	Other
+PROTRDGLAC_D	PARK7	0.2195273960495976	1.3294953675646169e-21	Protein modification	Other
+DAMPNH	DNPH1	0.2141082006725884	1.326689163169271e-20	Nucleotide metabolism	Nucleotide metabolism
+RPE	RPE	0.2130189406810346	2.0909580551712604e-20	Pentose phosphate pathway	Carbohydrate metabolism
+PGG1GTHR	GPX1;GPX4;PRDX6	0.1997149134301367	4.434026390114089e-18	Prostaglandin biosynthesis	Lipid metabolism
+PGG3GTHR	GPX1;GPX4;PRDX6	0.1997149134301367	4.434026390114089e-18	Prostaglandin biosynthesis	Lipid metabolism
+MEOHP	CAT;PRDX6	0.1944677232853021	3.316499170053253e-17	Reactive species formation and detoxification	Reactive species
+PGL	PGLS	-0.1933789272374668	4.9996779068684946e-17	Pentose phosphate pathway	Carbohydrate metabolism
+TYRTA	GOT1;GOT2	0.1915240384204571	1.0004873459504819e-16	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+ADRNCHR2ERz	NQO2	0.1897833501102861	1.9061806756269584e-16	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+ADRNLQ2ERz_L	NQO2	0.1897833501102861	1.9061806756269584e-16	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+DOPAQ2ERz_L	NQO2	0.1897833501102861	1.9061806756269584e-16	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+DPAMCHR2ERz	NQO2	0.1897833501102861	1.9061806756269584e-16	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+DPAMQ2ERz_L	NQO2	0.1897833501102861	1.9061806756269584e-16	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+DPCHR2ERz_L	NQO2	0.1897833501102861	1.9061806756269584e-16	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+ESTRADIOL23Q2ERz	NQO2	0.1897833501102861	1.9061806756269584e-16	Estrogen metabolism	Lipid metabolism
+ESTRADIOL34Q2ERz	NQO2	0.1897833501102861	1.9061806756269584e-16	Estrogen metabolism	Lipid metabolism
+ESTRONE23Q2ERz	NQO2	0.1897833501102861	1.9061806756269584e-16	Estrogen metabolism	Lipid metabolism
+ESTRONE34Q2ERz	NQO2	0.1897833501102861	1.9061806756269584e-16	Estrogen metabolism	Lipid metabolism
+IND56Q2ERz	NQO2	0.1897833501102861	1.9061806756269584e-16	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+NRPPHRCHR2ERz	NQO2	0.1897833501102861	1.9061806756269584e-16	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+NRPPHRQ2ERz_L	NQO2	0.1897833501102861	1.9061806756269584e-16	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+Q102ERz	NQO2	0.1897833501102861	1.9061806756269584e-16	Miscellaneous	Other
+HEX4	HK1;HK3	0.1813324612661851	3.993960375084611e-15	Fructose and mannose metabolism	Carbohydrate metabolism
+SNOHBGTHTN	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.1754841274567327	3.01436624641726e-14	Hemoglobin binding and degradation	Reactive species
+HEX10	HK1;HK3	0.1733136713478449	6.272054225681378e-14	Amino sugar and nucleotide sugar metabolism	Carbohydrate metabolism
+GND	PGD	0.1666404551141849	5.627466923239511e-13	Pentose phosphate pathway	Carbohydrate metabolism
+CU1tec	SLC31A1	0.1607163140419971	3.666391889293081e-12	Transport, extracellular	Transport reactions
+AICRT	APRT	0.1508630621401158	7.110455787758324e-11	Purine metabolism	Nucleotide metabolism
+PROTDMT_D	PCMT1	0.1489892866306696	1.2231832758056188e-10	Protein modification	Other
+PROTISODMT_L	PCMT1	0.1489892866306696	1.2231832758056188e-10	Protein modification	Other
+HBNOOXDNT	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.148469490933686	1.420116046060085e-10	Hemoglobin binding and degradation	Reactive species
+OXYHBNOD	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.148469490933686	1.420116046060085e-10	Hemoglobin binding and degradation	Reactive species
+CCLMETHBH	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.1455077788131286	3.2915766548930144e-10	Hemoglobin binding and degradation	Reactive species
+GLOBINRCCL	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.1455077788131286	3.2915766548930144e-10	Hemoglobin binding and degradation	Reactive species
+HBFE4OAR	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.1455077788131286	3.2915766548930144e-10	Hemoglobin binding and degradation	Reactive species
+HBFE4OCPP	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.1455077788131286	3.2915766548930144e-10	Hemoglobin binding and degradation	Reactive species
+HBFE4OPX	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.1455077788131286	3.2915766548930144e-10	Hemoglobin binding and degradation	Reactive species
+HBNONT	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.1455077788131286	3.2915766548930144e-10	Hemoglobin binding and degradation	Reactive species
+METHBONOOD2	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.1455077788131286	3.2915766548930144e-10	Hemoglobin binding and degradation	Reactive species
+METHBRCCL	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.1455077788131286	3.2915766548930144e-10	Hemoglobin binding and degradation	Reactive species
+METHBRHEMED	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.1455077788131286	3.2915766548930144e-10	Hemoglobin binding and degradation	Reactive species
+OXYHBAOX	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.1455077788131286	3.2915766548930144e-10	Hemoglobin binding and degradation	Reactive species
+OXYHBPX	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.1455077788131286	3.2915766548930144e-10	Hemoglobin binding and degradation	Reactive species
+SNOHBNO	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.1455077788131286	3.2915766548930144e-10	Hemoglobin binding and degradation	Reactive species
+LPCAT	AGPAT3;LPCAT1;LPCAT3;PRDX6	0.1453699704160964	3.421466399118456e-10	Glycerophospholipid metabolism	Lipid metabolism
+METHBHEMED	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.1453107814652401	3.4787770777699323e-10	Hemoglobin binding and degradation	Reactive species
+RBFK	RFK	0.1420692580430661	8.551746838172554e-10	Riboflavin metabolism	Metabolism of cofactors and vitamins
+FUMAC2	FAH	0.1385670210680759	2.2093361187776436e-09	Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+PCOPLA2	ABHD16A;PLA2G4A;PLA2G4B;PRDX6	0.1382804445543695	2.385284671564508e-09	Ether lipid metabolism	Lipid metabolism
+PCPLA2	ABHD16A;PLA2G4A;PLA2G4B;PRDX6	0.1382804445543695	2.385284671564508e-09	Glycerophospholipid metabolism	Lipid metabolism
+PCPPLA2	ABHD16A;PLA2G4A;PLA2G4B;PRDX6	0.1382804445543695	2.385284671564508e-09	Ether lipid metabolism	Lipid metabolism
+PEPPLA2	ABHD16A;PLA2G4A;PLA2G4B;PRDX6	0.1382804445543695	2.385284671564508e-09	Ether lipid metabolism	Lipid metabolism
+HMBS	HMBS	0.1347751482128103	6.0128802266992474e-09	Porphyrin metabolism	Metabolism of cofactors and vitamins
+AICAt	SLC29A1	0.1235234672677116	9.990792557949804e-08	Transport, extracellular	Transport reactions
+DIMPNH	DNPH1	0.1199605088064675	2.314721623969473e-07	Nucleotide metabolism	Nucleotide metabolism
+HBCOB	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	0.118271879164596	3.4184945498792135e-07	Hemoglobin binding and degradation	Reactive species
+SNOHBCYSTN	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	0.1181196847094771	3.539837768539641e-07	Hemoglobin binding and degradation	Reactive species
+MI145P5PP	INPP5A;INPP5B;MINPP1;SYNJ1	0.1158130325981193	5.974152852398327e-07	Inositol phosphate metabolism	Carbohydrate metabolism
+ADPT	APRT	0.106258676436794	4.699773954116923e-06	Purine metabolism	Nucleotide metabolism
+HCO3E	CA1;CA2;CA3	0.1044259219182494	6.84777282816952e-06	Miscellaneous	Other
+TALA	TALDO1	-0.0917470474193946	7.824265474141186e-05	Pentose phosphate pathway	Carbohydrate metabolism
+MI14P4PP	IMPA1;IMPA2;MINPP1	0.0848191584083005	0.0002618833684071	Inositol phosphate metabolism	Carbohydrate metabolism
+MI1345P3PP	MINPP1;PTEN	0.0832054442684927	0.0003427319997281	Inositol phosphate metabolism	Carbohydrate metabolism
+PROTKFRU3K	FN3K	-0.0813571077058005	0.0004637810194141	Protein modification	Other
+PRDX1GTHG	GSTP1;PRDX6	0.0776575463406285	0.0008342940919494	Reactive species formation and detoxification	Reactive species
+ESTRADIOL23Q2ERy	AKR1B1;AKR1C3;AKR7A2	0.0696818119204794	0.0027253961441652	Estrogen metabolism	Lipid metabolism
+ESTRADIOL34Q2ERy	AKR1B1;AKR1C3;AKR7A2	0.0696818119204794	0.0027253961441652	Estrogen metabolism	Lipid metabolism
+ESTRONE23Q2ERy	AKR1B1;AKR1C3;AKR7A2	0.0696818119204794	0.0027253961441652	Estrogen metabolism	Lipid metabolism
+ESTRONE34Q2ERy	AKR1B1;AKR1C3;AKR7A2	0.0696818119204794	0.0027253961441652	Estrogen metabolism	Lipid metabolism
+HBO2B1	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.0647543740680316	0.0053573233143106	Hemoglobin binding and degradation	Reactive species
+MERCPURt	SLC29A1	0.0637772116253146	0.0060951973228599	Transport, extracellular	Transport reactions
+NADHXD	NAXD	-0.0489357680607842	0.0354215780573211	Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+PGK	PGK1;PGK2	-0.0350482783446006	0.1320385159440572	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+METHBFMNR	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.0314860975595073	0.1760698038793189	Hemoglobin binding and degradation	Reactive species
+LGTHL	GLO1	0.0250213194497744	0.282345060253366	Pyruvate metabolism	Carbohydrate metabolism
+HBGLYC	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ	-0.0187007175547491	0.4217206435454604	Hemoglobin binding and degradation	Reactive species
+DPG3P	MINPP1	0.007044831349252	0.762160672176756	Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+A4GALTc	A4GALT			Glycosphingolipid biosynthesis - globo and isoglobo series	Other
+ALATRS	AARS1			Aminoacyl-tRNA biosynthesis	Other
+PRGNABCte	ABCB1			Transport, extracellular	Transport reactions
+FE2PHEMEABCte	ABCB6;ABCG2			Transport, extracellular	Transport reactions
+PPP9ABCte	ABCB6;ABCG2			Transport, extracellular	Transport reactions
+BILRUBABCte	ABCC4			Transport, extracellular	Transport reactions
+PGD21GH	ABHD16A;LYPLA2			Prostaglandin biosynthesis	Lipid metabolism
+ABO1A	ABO			Glycosphingolipid biosynthesis - lacto and neolacto series	Other
+ABO1B	ABO			Glycosphingolipid biosynthesis - lacto and neolacto series	Other
+ABO2A	ABO			Glycosphingolipid biosynthesis - lacto and neolacto series	Other
+ABO2B	ABO			Glycosphingolipid biosynthesis - lacto and neolacto series	Other
+ABO3A	ABO			Glycosphingolipid biosynthesis - lacto and neolacto series	Other
+ABO3AB	ABO			Glycosphingolipid biosynthesis - lacto and neolacto series	Other
+ABO4A	ABO			Glycosphingolipid biosynthesis - globo and isoglobo series	Other
+ABO4B	ABO			Glycosphingolipid biosynthesis - globo and isoglobo series	Other
+ABO5A	ABO			Glycosphingolipid biosynthesis - lacto and neolacto series	Other
+ABO5B	ABO			Glycosphingolipid biosynthesis - lacto and neolacto series	Other
+ACACT1	ACAT2			Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism	Carbohydrate metabolism
+ACMDAC	ACY1			Peptide metabolism	Other
+ACYP2	ACYP1;ACYP2			Pyruvate metabolism	Carbohydrate metabolism
+RBVDA	ADA			Ribavirin metabolism	Other
+FAWOXx_10_10OH	ADH5			Fatty acid oxidation	Lipid metabolism
+FAWOXx_10_10OXO	ADH5			Fatty acid oxidation	Lipid metabolism
+FAWOXx_12_12OH	ADH5			Fatty acid oxidation	Lipid metabolism
+FAWOXx_12_12OXO	ADH5			Fatty acid oxidation	Lipid metabolism
+FAWOXx_14_14OH	ADH5			Fatty acid oxidation	Lipid metabolism
+FAWOXx_14_14OXO	ADH5			Fatty acid oxidation	Lipid metabolism
+FAWOXx_16_016OH	ADH5			Fatty acid oxidation	Lipid metabolism
+FAWOXx_16_016OXO	ADH5			Fatty acid oxidation	Lipid metabolism
+FAWOXx_20_5Z8Z11Z14Z20OH	ADH5			Fatty acid oxidation	Lipid metabolism
+FAWOXx_20_5Z8Z11Z14Z20OXO	ADH5			Fatty acid oxidation	Lipid metabolism
+FAWOXx_22_22OH	ADH5			Fatty acid oxidation	Lipid metabolism
+FAWOXx_22_22OXO	ADH5			Fatty acid oxidation	Lipid metabolism
+GTHNORDx	ADH5			Reactive species formation and detoxification	Reactive species
+CYSAMO	ADO			Cysteine and methionine metabolism	Amino acid metabolism
+ADPRDACAC1	ADPRS			Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+POLYADPRH	ADPRS			Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+NADN2	ADPRS;OARD1			Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+FKYNH	AFMID			Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+ANGIO3ARGH	AGT;ANPEP;DPP3			Renin-angiotensin system	Other
+ANGIO2ASPH	AGT;DNPEP			Renin-angiotensin system	Other
+ANGIO2DDP	AGT;DPP3			Renin-angiotensin system	Other
+ANGIO4DDP	AGT;DPP3			Renin-angiotensin system	Other
+ANGIO58PEP	AGT;PREP			Renin-angiotensin system	Other
+ANGIO1THOP	AGT;THOP1			Renin-angiotensin system	Other
+SEAHCYSHYD	AHCY			Selenocompound metabolism	Amino acid metabolism
+SNOCOARD	AKR1A1			Reactive species formation and detoxification	Reactive species
+GHBDHy	AKR1A1;AKR7A2			Arginine and proline metabolism	Amino acid metabolism
+GTHNORDy	AKR1A1;CBR1			Reactive species formation and detoxification	Reactive species
+ANDRSTRNRy	AKR1C3			Androgen metabolism	Lipid metabolism
+5ADHTRy	AKR1C3;DHRS11			Androgen metabolism	Lipid metabolism
+RDH2y	AKR1C3;RDH11;RDH14			Retinol metabolism	Lipid metabolism
+3DGDH	ALDH1A1			Fructose and mannose metabolism	Carbohydrate metabolism
+MALDHx	ALDH1A1			Miscellaneous	Other
+RADH1x	ALDH1A1			Retinol metabolism	Lipid metabolism
+RADH2x	ALDH1A1			Retinol metabolism	Lipid metabolism
+RADH3x	ALDH1A1			Retinol metabolism	Lipid metabolism
+RADH4x	ALDH1A1			Retinol metabolism	Lipid metabolism
+HPTALDHx	ALDH1A1;ALDH3A1;ALDH3A2;ALDH3B1;ALDH9A1			Miscellaneous	Other
+HPTEAL2EDHx	ALDH1A1;ALDH3A1;ALDH3A2;ALDH3B1;ALDH9A1			Miscellaneous	Other
+HXALDHx	ALDH1A1;ALDH3A1;ALDH3A2;ALDH3B1;ALDH9A1			Miscellaneous	Other
+HXEAL2EDHx	ALDH1A1;ALDH3A1;ALDH3A2;ALDH3B1;ALDH9A1			Miscellaneous	Other
+NONALDHx	ALDH1A1;ALDH3A1;ALDH3A2;ALDH3B1;ALDH9A1			Miscellaneous	Other
+NONEAL2EDHx	ALDH1A1;ALDH3A1;ALDH3A2;ALDH3B1;ALDH9A1			Miscellaneous	Other
+OCTALDHx	ALDH1A1;ALDH3A1;ALDH3A2;ALDH3B1;ALDH9A1			Miscellaneous	Other
+OCTEAL2EDHx	ALDH1A1;ALDH3A1;ALDH3A2;ALDH3B1;ALDH9A1			Miscellaneous	Other
+4H2HXEAL2EDHx	ALDH1A1;ALDH3A1;ALDH3B1			Miscellaneous	Other
+4H2NNEAL2EDHx	ALDH1A1;ALDH3A1;ALDH3B1			Miscellaneous	Other
+BZALDHx	ALDH1A1;ALDH3A1;ALDH3B1;ALDH9A1			Miscellaneous	Other
+PPALDHx	ALDH1A1;ALDH3A2;ALDH9A1			Miscellaneous	Other
+4HOXPACDORx	ALDH3A1;ALDH3B1			Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+4HOXPACDORy	ALDH3A1;ALDH3B1			Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+ALDD19x	ALDH3A1;ALDH3B1			Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+ALDD19y	ALDH3A1;ALDH3B1			Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+FRNSL2E6EDH	ALDH3A2			Cholesterol metabolism	Lipid metabolism
+5HOXINDACTOX	ALDH3A2;ALDH9A1			Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+GLACOx	ALDH3A2;ALDH9A1			Ascorbate and aldarate metabolism	Carbohydrate metabolism
+IMACTD	ALDH3A2;ALDH9A1			Histidine metabolism	Amino acid metabolism
+MMALNDHx	ALDH3A2;ALDH9A1			Valine, leucine, and isoleucine metabolism	Amino acid metabolism
+NABTNO	ALDH3A2;ALDH9A1			Arginine and proline metabolism	Amino acid metabolism
+TMABADH	ALDH3A2;ALDH9A1			Lysine metabolism	Amino acid metabolism
+ALDD20x	ALDH9A1			Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+FBA3	ALDOA;ALDOB;ALDOC			Pentose phosphate pathway	Carbohydrate metabolism
+FBA6	ALDOA;ALDOB;ALDOC			Pentose phosphate pathway	Carbohydrate metabolism
+NTDAMPe	ALPL			Nucleotide metabolism	Nucleotide metabolism
+ACMAH	APEH			Peptide metabolism	Other
+ARGSL	ASL			Arginine and proline metabolism	Amino acid metabolism
+B3GALNT1c	B3GALNT1			Glycosphingolipid biosynthesis - globo and isoglobo series	Other
+BILIREDx	BLVRA;BLVRB			Porphyrin metabolism	Metabolism of cofactors and vitamins
+BILIREDy	BLVRA;BLVRB			Porphyrin metabolism	Metabolism of cofactors and vitamins
+FADRy	BLVRB			Riboflavin metabolism	Metabolism of cofactors and vitamins
+FLVRy	BLVRB			Riboflavin metabolism	Metabolism of cofactors and vitamins
+BPNT2	BPNT1			Sulfur metabolism	Reactive species
+3MOBt2	BSG;EMB;SLC16A1;SLC16A7			Transport, extracellular	Transport reactions
+4MOPt2	BSG;EMB;SLC16A1;SLC16A7			Transport, extracellular	Transport reactions
+UREAHYDL	CA1;CA2;CA3			Arginine and proline metabolism	Amino acid metabolism
+ASPCT	CAD			Pyrimidine metabolism	Nucleotide metabolism
+DHORTS	CAD			Pyrimidine metabolism	Nucleotide metabolism
+CYSTRS	CARS1			Aminoacyl-tRNA biosynthesis	Other
+CRTSLRy	CBR1			Steroid metabolism	Lipid metabolism
+CRTSTRNRy	CBR1			Steroid metabolism	Lipid metabolism
+MNDN2ERy	CBR1			Miscellaneous	Other
+PGE1DHy	CBR1			Prostaglandin biosynthesis	Lipid metabolism
+PGE2DHy	CBR1			Prostaglandin biosynthesis	Lipid metabolism
+PGE3DHy	CBR1			Prostaglandin biosynthesis	Lipid metabolism
+PGF1DHy	CBR1			Prostaglandin biosynthesis	Lipid metabolism
+PGF2DHy	CBR1			Prostaglandin biosynthesis	Lipid metabolism
+PGF3DHy	CBR1			Prostaglandin biosynthesis	Lipid metabolism
+FAt_hs_10_0	CD36;FABP1;FABP5;SLC27A2;SLC27A4			Transport, extracellular	Transport reactions
+FAt_hs_11_0	CD36;FABP1;FABP5;SLC27A2;SLC27A4			Transport, extracellular	Transport reactions
+FAt_hs_5_0	CD36;FABP1;FABP5;SLC27A2;SLC27A4			Transport, extracellular	Transport reactions
+FAt_hs_6_0	CD36;FABP1;FABP5;SLC27A2;SLC27A4			Transport, extracellular	Transport reactions
+FAt_hs_7_0	CD36;FABP1;FABP5;SLC27A2;SLC27A4			Transport, extracellular	Transport reactions
+FAt_hs_8_0	CD36;FABP1;FABP5;SLC27A2;SLC27A4			Transport, extracellular	Transport reactions
+FAt_hs_9_0	CD36;FABP1;FABP5;SLC27A2;SLC27A4			Transport, extracellular	Transport reactions
+CADPRBPH	CD38			Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+DNADPL	CD38			Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+NADPL	CD38			Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+NADPN	CD38			Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+It	CLCN2;CLIC1;CLIC4;LRRC8A;PANX1			Transport, extracellular	Transport reactions
+5FLUMPK	CMPK1			5-fluorouracil metabolism	Other
+GFDPP	CNDP2			Peptide metabolism	Other
+GGDPP	CNDP2			Peptide metabolism	Other
+GLDPP	CNDP2			Peptide metabolism	Other
+GWDPP	CNDP2			Peptide metabolism	Other
+LADPP	CNDP2			Peptide metabolism	Other
+LGDPP	CNDP2			Peptide metabolism	Other
+LLDPP	CNDP2			Peptide metabolism	Other
+VLDPP	CNDP2			Peptide metabolism	Other
+FLDPP	CNDP2;LTA4H			Peptide metabolism	Other
+FYDPP	CNDP2;LTA4H			Peptide metabolism	Other
+KLDPP	CNDP2;LTA4H			Peptide metabolism	Other
+PFDPP	CNDP2;LTA4H			Peptide metabolism	Other
+PLDPP	CNDP2;LTA4H			Peptide metabolism	Other
+23CN3PA	CNP			Nucleotide metabolism	Nucleotide metabolism
+23CN3PC	CNP			Nucleotide metabolism	Nucleotide metabolism
+23CN3PG	CNP			Nucleotide metabolism	Nucleotide metabolism
+23CN3PU	CNP			Nucleotide metabolism	Nucleotide metabolism
+CRNAT_10_0	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_10_2E	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_10_2E6Z	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_10_3OH_S	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_10_DC	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_11_0	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_12_0	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_12_2E	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_12_3OH_S	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_12_DC	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_13_0	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_14_0	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_14_2E	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_14_3OH_S	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_14_5E8Z	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_14_5E8Z3OH_S	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_14_5Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_14_7Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_14_7Z3OH_S	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_14_9Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_15_0	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_16_0	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_16_2E	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_16_3OH_S	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_16_7E10Z3OH_S	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_16_7Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_16_9Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_16_9Z3OH_S	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_16_DC	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_17_0	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_17_10Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_17_9Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_18_0	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_18_11Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_18_13Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_18_2E	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_18_3OH_S	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_18_6Z9Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_18_6Z9Z12Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_18_6Z9Z12Z15Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_18_7Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_18_9E	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_18_9Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_18_9Z12Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_18_9Z12Z15Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_18_9Z12Z3OH_S	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_18_9Z3OH_S	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_19_0	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_20_0	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_20_11Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_20_11Z14Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_20_11Z14Z17Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_20_13Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_20_5Z8Z11Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_20_5Z8Z11Z14Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_20_5Z8Z11Z14Z17Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_20_8Z11Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_20_8Z11Z14Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_20_8Z11Z14Z17Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_20_9Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_21_0	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_22_0	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_22_10Z13Z16Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_22_10Z13Z16Z19Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_22_11Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_22_13Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_22_13Z16Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_22_13Z16Z19Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_22_4Z7Z10Z13Z16Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_22_4Z7Z10Z13Z16Z19Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_22_7Z10Z13Z16Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_22_7Z10Z13Z16Z19Z	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_6_0	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_6_2E	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_6_3OH_S	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_6_DC	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_7_0	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_7_3OH_S	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_7_DC	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_8_0	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_8_2E	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_8_3OH_S	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_8_DC	CPT1A			Fatty acid oxidation	Lipid metabolism
+CRNAT_9_0	CPT1A			Carnitine shuttle (cytosolic)	Lipid metabolism
+CRNAT_9_3OH_S	CPT1A			Fatty acid oxidation	Lipid metabolism
+PROTKSUCT	CPT1A			Protein modification	Other
+R5PCT	CRPPA			Pentose and glucuronate interconversions	Carbohydrate metabolism
+RBTCT	CRPPA			Pentose and glucuronate interconversions	Carbohydrate metabolism
+RU5PCT	CRPPA			Pentose and glucuronate interconversions	Carbohydrate metabolism
+SELCYSTL1	CTH			Selenocompound metabolism	Amino acid metabolism
+SELMETHL1	CTH			Selenocompound metabolism	Amino acid metabolism
+CYSIL2	CTH;KYAT1			Cysteine and methionine metabolism	Amino acid metabolism
+ASPTRS	DARS1			Aminoacyl-tRNA biosynthesis	Other
+DOPACHRMDC_D	DDT			Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+MAGOK	DGKA			Glycerolipid metabolism	Lipid metabolism
+DHFRy	DHFR			Folate metabolism	Metabolism of cofactors and vitamins
+DCMPNH	DNPH1			Nucleotide metabolism	Nucleotide metabolism
+DTMPK1	DTYMK			Pyrimidine metabolism	Nucleotide metabolism
+DTMPK2	DTYMK			Pyrimidine metabolism	Nucleotide metabolism
+DUMPK1	DTYMK			Nucleotide metabolism	Nucleotide metabolism
+DUMPK2	DTYMK			Nucleotide metabolism	Nucleotide metabolism
+CHLSTD78I	EBP			Cholesterol metabolism	Lipid metabolism
+CHLSTI1	EBP			Cholesterol metabolism	Lipid metabolism
+GLUTRS	EPRS1			Aminoacyl-tRNA biosynthesis	Other
+PROTRS	EPRS1			Aminoacyl-tRNA biosynthesis	Other
+AC4OACNAMDC	ESD			Amino sugar and nucleotide sugar metabolism	Carbohydrate metabolism
+AC9OACNAMDC	ESD			Amino sugar and nucleotide sugar metabolism	Carbohydrate metabolism
+PHETRS	FARSA;FARSB			Aminoacyl-tRNA biosynthesis	Other
+3OHAACPDH1	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+3OHAACPDH2	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+3OHAACPDH3	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+3OHAACPDH4	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+3OHAACPDH5	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+3OHAACPDH6	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+3OHAACPDH7	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+3OHAACPDH8	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+3OXAACPR1y	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+3OXAACPR2y	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+3OXAACPR3y	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+3OXAACPR4y	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+3OXAACPR5y	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+3OXAACPR6y	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+3OXAACPR7y	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+3OXAACPR8y	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+ACOATA	FASN			Fatty acid biosynthesis	Lipid metabolism
+BKAACPSYN1	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+BKAACPSYN2	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+BKAACPSYN3	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+BKAACPSYN4	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+BKAACPSYN5	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+BKAACPSYN6	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+BKAACPSYN7	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+BKAACPSYN8	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+EACPR1y	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+EACPR2y	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+EACPR3y	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+EACPR4y	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+EACPR5y	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+EACPR6y	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+EACPR7y	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+EACPR8y	FASN			Fatty acid biosynthesis (even-chain)	Lipid metabolism
+FA120ACPH	FASN			Fatty acid biosynthesis	Lipid metabolism
+FA140ACPH	FASN			Fatty acid biosynthesis	Lipid metabolism
+FA160ACPH	FASN			Fatty acid biosynthesis	Lipid metabolism
+FA180ACPH	FASN			Fatty acid biosynthesis	Lipid metabolism
+MCOATA	FASN			Fatty acid biosynthesis	Lipid metabolism
+FK	FCSK			Fructose and mannose metabolism	Carbohydrate metabolism
+DMATT	FDPS			Cholesterol metabolism	Lipid metabolism
+GRTT	FDPS			Cholesterol metabolism	Lipid metabolism
+PEPTDPROI	FKBP1A;FKBP2;FKBP3;FKBP4;FKBP5;PPIA;PPIB;PTPA			Miscellaneous	Other
+PHEMEt	FLVCR1			Transport, extracellular	Transport reactions
+FRU3K	FN3K			Fructose and mannose metabolism	Carbohydrate metabolism
+PROTKRBLK	FN3K;FN3KRP			Protein modification	Other
+FISC	FTH1;FTL			Reactive species formation and detoxification	Reactive species
+FUTGAL2A	FUT1			Glycosphingolipid biosynthesis - lacto and neolacto series	Other
+FUTGLOBO1	FUT1			Glycosphingolipid biosynthesis - globo and isoglobo series	Other
+FUTINLC8CER1	FUT1			Glycosphingolipid biosynthesis - lacto and neolacto series	Other
+FUTINLC8CER2	FUT1			Glycosphingolipid biosynthesis - lacto and neolacto series	Other
+FUTLC4CER	FUT1			Glycosphingolipid biosynthesis - lacto and neolacto series	Other
+FUTLC5CER	FUT1			Glycosphingolipid biosynthesis - lacto and neolacto series	Other
+FUTNLC5CER	FUT1			Glycosphingolipid biosynthesis - lacto and neolacto series	Other
+FUTNLC6CER	FUT1			Glycosphingolipid biosynthesis - lacto and neolacto series	Other
+FUTNLC7CER	FUT1			Glycosphingolipid biosynthesis - lacto and neolacto series	Other
+FUTPGBSIDE	FUT1			Glycosphingolipid biosynthesis - lacto and neolacto series	Other
+E4PD	GAPDH			Glycolysis / Gluconeogenesis	Carbohydrate metabolism
+GLYTRS	GARS1			Aminoacyl-tRNA biosynthesis	Other
+GARFT	GART			Purine metabolism	Nucleotide metabolism
+PRAGS	GART			Purine metabolism	Nucleotide metabolism
+PRAIS	GART			Purine metabolism	Nucleotide metabolism
+ACGAMNT2	GCNT2			Glycosphingolipid biosynthesis - lacto and neolacto series	Other
+GPDDA6	GDE1;GDPD1			Glycerophospholipid metabolism	Lipid metabolism
+LNAPELPLD	GDPD1			Glycerophospholipid metabolism	Lipid metabolism
+LPCOLPLD	GDPD1			Ether lipid metabolism	Lipid metabolism
+GFUCSx	GFUS			Fructose and mannose metabolism	Carbohydrate metabolism
+GFUCSy	GFUS			Fructose and mannose metabolism	Carbohydrate metabolism
+GMAND	GMDS			Fructose and mannose metabolism	Carbohydrate metabolism
+MAN1PT	GMPPA;GMPPB			Fructose and mannose metabolism	Carbohydrate metabolism
+EHGLAT	GOT1			Arginine and proline metabolism	Amino acid metabolism
+LCYSTAT	GOT1;GOT2			Cysteine and methionine metabolism	Amino acid metabolism
+3HKYNAKGAT	GOT2;KYAT1			Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+KYNAKGAT	GOT2;KYAT1			Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+MPMOBDT	GPHN			Folate metabolism	Metabolism of cofactors and vitamins
+MPTAT	GPHN			Folate metabolism	Metabolism of cofactors and vitamins
+DGK1	GUK1			Purine metabolism	Nucleotide metabolism
+DGK2	GUK1			Purine metabolism	Nucleotide metabolism
+THGMPK	GUK1			Azathioprine and 6-mercaptopurine metabolism	Other
+FACOA3OHDH_16_3OH	HACD3			Fatty acid elongation (even-chain)	Lipid metabolism
+FACOA3OHDH_17_3OH	HACD3			Fatty acid elongation (odd-chain)	Lipid metabolism
+FACOA3OHDH_18_3OH	HACD3			Fatty acid elongation (even-chain)	Lipid metabolism
+FACOA3OHDH_19_3OH	HACD3			Fatty acid elongation (odd-chain)	Lipid metabolism
+FACOA3OHDH_20_11Z14Z17Z3OH	HACD3			Omega-3 fatty acid metabolism	Lipid metabolism
+FACOA3OHDH_20_11Z14Z3OH	HACD3			Omega-6 fatty acid metabolism	Lipid metabolism
+FACOA3OHDH_20_11Z3OH	HACD3			Fatty acid biosynthesis (unsaturated)	Lipid metabolism
+FACOA3OHDH_20_13Z3OH	HACD3			Fatty acid biosynthesis (unsaturated)	Lipid metabolism
+FACOA3OHDH_20_3OH	HACD3			Fatty acid elongation (even-chain)	Lipid metabolism
+FACOA3OHDH_20_5Z8Z11Z14Z3OH	HACD3			Omega-3 fatty acid metabolism	Lipid metabolism
+FACOA3OHDH_20_8Z11Z14Z3OH	HACD3			Omega-6 fatty acid metabolism	Lipid metabolism
+FACOA3OHDH_20_8Z11Z3OH	HACD3			Fatty acid biosynthesis (unsaturated)	Lipid metabolism
+FACOA3OHDH_20_9Z3OH	HACD3			Fatty acid biosynthesis (unsaturated)	Lipid metabolism
+FACOA3OHDH_21_3OH	HACD3			Fatty acid elongation (odd-chain)	Lipid metabolism
+FACOA3OHDH_22_10Z13Z16Z19Z3OH	HACD3			Omega-3 fatty acid metabolism	Lipid metabolism
+FACOA3OHDH_22_10Z13Z16Z3OH	HACD3			Omega-6 fatty acid metabolism	Lipid metabolism
+FACOA3OHDH_22_11Z3OH	HACD3			Fatty acid biosynthesis (unsaturated)	Lipid metabolism
+FACOA3OHDH_22_13Z16Z19Z3OH	HACD3			Omega-3 fatty acid metabolism	Lipid metabolism
+FACOA3OHDH_22_13Z16Z3OH	HACD3			Omega-6 fatty acid metabolism	Lipid metabolism
+FACOA3OHDH_22_13Z3OH	HACD3			Fatty acid biosynthesis (unsaturated)	Lipid metabolism
+FACOA3OHDH_22_3OH	HACD3			Fatty acid elongation (even-chain)	Lipid metabolism
+FACOA3OHDH_22_7Z10Z13Z16Z19Z3OH	HACD3			Omega-3 fatty acid metabolism	Lipid metabolism
+FACOA3OHDH_22_7Z10Z13Z16Z3OH	HACD3			Omega-6 fatty acid metabolism	Lipid metabolism
+FACOA3OHDH_23_3OH	HACD3			Fatty acid elongation (odd-chain)	Lipid metabolism
+FACOA3OHDH_24_12Z15Z18Z21Z3OH	HACD3			Omega-3 fatty acid metabolism	Lipid metabolism
+FACOA3OHDH_24_15Z3OH	HACD3			Fatty acid biosynthesis (unsaturated)	Lipid metabolism
+FACOA3OHDH_24_3OH	HACD3			Fatty acid elongation (even-chain)	Lipid metabolism
+FACOA3OHDH_24_9Z12Z15Z18Z21Z3OH	HACD3			Omega-3 fatty acid metabolism	Lipid metabolism
+FACOA3OHDH_24_9Z12Z15Z18Z3OH	HACD3			Omega-6 fatty acid metabolism	Lipid metabolism
+FACOA3OHDH_26_17Z3OH	HACD3			Fatty acid biosynthesis (unsaturated)	Lipid metabolism
+FACOA3OHDH_26_3OH	HACD3			Fatty acid elongation (even-chain)	Lipid metabolism
+HISD	HAL			Histidine metabolism	Amino acid metabolism
+HISTRS	HARS1			Aminoacyl-tRNA biosynthesis	Other
+HBFE4ORPX	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ			Hemoglobin binding and degradation	Reactive species
+HBNO2R	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ			Hemoglobin binding and degradation	Reactive species
+HBO2B2	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ			Hemoglobin binding and degradation	Reactive species
+METHBNO2A	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ			Hemoglobin binding and degradation	Reactive species
+METHBPX	HBA;HBB;HBD;HBE1;HBG1;HBG2;HBM;HBQ1;HBZ			Hemoglobin binding and degradation	Reactive species
+NTDDCMP	HDDC2;NT5C3A			Pyrimidine metabolism	Nucleotide metabolism
+PPGPPDP	HDDC3			Nucleotide metabolism	Nucleotide metabolism
+HEXGA2	HEXA;HEXB			Glycosphingolipid biosynthesis - ganglio series	Other
+HEXGBSIDE	HEXA;HEXB			Glycosphingolipid biosynthesis - globo and isoglobo series	Other
+HEXGM2	HEXA;HEXB			Glycosphingolipid biosynthesis - ganglio series	Other
+AMPAMD	HINT1			Purine metabolism	Nucleotide metabolism
+THIOGUAPRT	HPRT1			Azathioprine and 6-mercaptopurine metabolism	Other
+FACOA3ORy_16_3O	HSD17B12			Fatty acid elongation (even-chain)	Lipid metabolism
+FACOA3ORy_17_3O	HSD17B12			Fatty acid elongation (odd-chain)	Lipid metabolism
+FACOA3ORy_18_3O	HSD17B12			Fatty acid elongation (even-chain)	Lipid metabolism
+FACOA3ORy_19_3O	HSD17B12			Fatty acid elongation (odd-chain)	Lipid metabolism
+FACOA3ORy_20_11Z14Z17Z3O	HSD17B12			Omega-3 fatty acid metabolism	Lipid metabolism
+FACOA3ORy_20_11Z14Z3O	HSD17B12			Omega-6 fatty acid metabolism	Lipid metabolism
+FACOA3ORy_20_11Z3O	HSD17B12			Fatty acid biosynthesis (unsaturated)	Lipid metabolism
+FACOA3ORy_20_13Z3O	HSD17B12			Fatty acid biosynthesis (unsaturated)	Lipid metabolism
+FACOA3ORy_20_3O	HSD17B12			Fatty acid elongation (even-chain)	Lipid metabolism
+FACOA3ORy_20_5Z8Z11Z14Z3O	HSD17B12			Omega-3 fatty acid metabolism	Lipid metabolism
+FACOA3ORy_20_8Z11Z14Z3O	HSD17B12			Omega-6 fatty acid metabolism	Lipid metabolism
+FACOA3ORy_20_8Z11Z3O	HSD17B12			Fatty acid biosynthesis (unsaturated)	Lipid metabolism
+FACOA3ORy_20_9Z3O	HSD17B12			Fatty acid biosynthesis (unsaturated)	Lipid metabolism
+FACOA3ORy_21_3O	HSD17B12			Fatty acid elongation (odd-chain)	Lipid metabolism
+FACOA3ORy_22_10Z13Z16Z19Z3O	HSD17B12			Omega-3 fatty acid metabolism	Lipid metabolism
+FACOA3ORy_22_10Z13Z16Z3O	HSD17B12			Omega-6 fatty acid metabolism	Lipid metabolism
+FACOA3ORy_22_11Z3O	HSD17B12			Fatty acid biosynthesis (unsaturated)	Lipid metabolism
+FACOA3ORy_22_13Z16Z19Z3O	HSD17B12			Omega-3 fatty acid metabolism	Lipid metabolism
+FACOA3ORy_22_13Z16Z3O	HSD17B12			Omega-6 fatty acid metabolism	Lipid metabolism
+FACOA3ORy_22_13Z3O	HSD17B12			Fatty acid biosynthesis (unsaturated)	Lipid metabolism
+FACOA3ORy_22_3O	HSD17B12			Fatty acid elongation (even-chain)	Lipid metabolism
+FACOA3ORy_22_7Z10Z13Z16Z19Z3O	HSD17B12			Omega-3 fatty acid metabolism	Lipid metabolism
+FACOA3ORy_22_7Z10Z13Z16Z3O	HSD17B12			Omega-6 fatty acid metabolism	Lipid metabolism
+FACOA3ORy_23_3O	HSD17B12			Fatty acid elongation (odd-chain)	Lipid metabolism
+FACOA3ORy_24_12Z15Z18Z21Z3O	HSD17B12			Omega-3 fatty acid metabolism	Lipid metabolism
+FACOA3ORy_24_15Z3O	HSD17B12			Fatty acid biosynthesis (unsaturated)	Lipid metabolism
+FACOA3ORy_24_3O	HSD17B12			Fatty acid elongation (even-chain)	Lipid metabolism
+FACOA3ORy_24_9Z12Z15Z18Z21Z3O	HSD17B12			Omega-3 fatty acid metabolism	Lipid metabolism
+FACOA3ORy_24_9Z12Z15Z18Z3O	HSD17B12			Omega-6 fatty acid metabolism	Lipid metabolism
+FACOA3ORy_26_17Z3O	HSD17B12			Fatty acid biosynthesis (unsaturated)	Lipid metabolism
+FACOA3ORy_26_3O	HSD17B12			Fatty acid elongation (even-chain)	Lipid metabolism
+ILETRS	IARS1			Aminoacyl-tRNA biosynthesis	Other
+NTD2AMP	IMPA1;IMPA2;NT5C			Nucleotide metabolism	Nucleotide metabolism
+NTD2CMP	IMPA1;IMPA2;NT5C			Nucleotide metabolism	Nucleotide metabolism
+NTD2GMP	IMPA1;IMPA2;NT5C			Nucleotide metabolism	Nucleotide metabolism
+NTD2UMP	IMPA1;IMPA2;NT5C			Nucleotide metabolism	Nucleotide metabolism
+MI1345P5PP	INPP5A;INPP5B;INPP5D			Inositol phosphate metabolism	Carbohydrate metabolism
+NTPPDI	ITPA			Nucleotide metabolism	Nucleotide metabolism
+NTPPX	ITPA			Nucleotide metabolism	Nucleotide metabolism
+LYSTRS	KARS1			Aminoacyl-tRNA biosynthesis	Other
+METMSPYRAT	KYAT1			Selenocompound metabolism	Amino acid metabolism
+SELCYSTL2	KYAT1			Selenocompound metabolism	Amino acid metabolism
+LEUTRS	LARS1			Aminoacyl-tRNA biosynthesis	Other
+2H3MV	LDHA;LDHB			Valine, leucine, and isoleucine metabolism	Amino acid metabolism
+2HIV	LDHA;LDHB			Valine, leucine, and isoleucine metabolism	Amino acid metabolism
+MCLOR	LDHA;LDHB			Cysteine and methionine metabolism	Amino acid metabolism
+L2HGDHx	LDHA;LDHB;MDH1;MDH2;PHGDH			Alanine, aspartate and glutamate metabolism	Amino acid metabolism
+LNSTLS	LSS			Cholesterol metabolism	Lipid metabolism
+LGFTPAP	LTA4H			Peptide metabolism	Other
+LGGTPAP	LTA4H			Peptide metabolism	Other
+LLLTPAP	LTA4H			Peptide metabolism	Other
+YYYTPAP	LTA4H			Peptide metabolism	Other
+PGDF21GH	LYPLA2			Prostaglandin biosynthesis	Lipid metabolism
+PGE21GH	LYPLA2			Prostaglandin biosynthesis	Lipid metabolism
+A_MANASE	MAN2C1			N-glycan metabolism	Other
+METTRS	MARS1			Aminoacyl-tRNA biosynthesis	Other
+SELMETAT	MAT2A;MAT2B			Selenocompound metabolism	Amino acid metabolism
+34HPLDH	MDH1;MDH2			Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+PHLAC	MDH1;MDH2			Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+SLDx	MDH1;MDH2			Cysteine and methionine metabolism	Amino acid metabolism
+34HPPT	MIF			Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+DCT	MIF			Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+PHPYRT	MIF			Phenylalanine, tyrosine and tryptophan metabolism	Amino acid metabolism
+MI13456P3PP	MINPP1			Inositol phosphate metabolism	Carbohydrate metabolism
+MI1456P6PP	MINPP1			Inositol phosphate metabolism	Carbohydrate metabolism
+DPMVD	MVD			Cholesterol metabolism	Lipid metabolism
+NAPEPLD	NAPEPLD			Ether lipid metabolism	Lipid metabolism
+ASNTRS	NARS1			Aminoacyl-tRNA biosynthesis	Other
+DAGOACAH	NCEH1			Glycerolipid metabolism	Lipid metabolism
+XOLEST2EH	NCEH1			Cholesterol metabolism	Lipid metabolism
+NEU25	NEU1;NEU2;NEU3			Glycosphingolipid biosynthesis - ganglio series	Other
+NEU31	NEU1;NEU2;NEU3			Glycosphingolipid biosynthesis - ganglio series	Other
+NEU32	NEU1;NEU2;NEU3			Glycosphingolipid biosynthesis - ganglio series	Other
+NEU34	NEU1;NEU2;NEU3			Glycosphingolipid biosynthesis - ganglio series	Other
+NEU36	NEU1;NEU2;NEU3			Glycosphingolipid biosynthesis - ganglio series	Other
+NEU24	NEU2			Glycosphingolipid biosynthesis - ganglio series	Other
+NEU33	NEU2			Glycosphingolipid biosynthesis - ganglio series	Other
+THGDPK	NME1;NME2			Azathioprine and 6-mercaptopurine metabolism	Other
+5FLUDPK	NME1;NME2;NME3			5-fluorouracil metabolism	Other
+NDPK10	NME1;NME2;NME3			Purine metabolism	Nucleotide metabolism
+NDPK4	NME1;NME2;NME3			Pyrimidine metabolism	Nucleotide metabolism
+NDPK5	NME1;NME2;NME3			Purine metabolism	Nucleotide metabolism
+NDPK6	NME1;NME2;NME3			Pyrimidine metabolism	Nucleotide metabolism
+4PYRNMAT	NMNAT3			Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+NTDSAMP	NT5C2			Purine metabolism	Nucleotide metabolism
+DCMPCYTDPT	NT5C3A			Pyrimidine metabolism	Nucleotide metabolism
+DCMPURIPT	NT5C3A			Pyrimidine metabolism	Nucleotide metabolism
+GP4AH1	NUDT2			Nucleotide metabolism	Nucleotide metabolism
+AP5AH1	NUDT3			Nucleotide metabolism	Nucleotide metabolism
+AP6AH1	NUDT3			Nucleotide metabolism	Nucleotide metabolism
+5INS7P5PP	NUDT4			Inositol phosphate metabolism	Carbohydrate metabolism
+AP6AH2	NUDT4			Nucleotide metabolism	Nucleotide metabolism
+ADPGLCDP	NUDT5			Starch and sucrose metabolism	Carbohydrate metabolism
+ADPMNDP	NUDT5			Fructose and mannose metabolism	Carbohydrate metabolism
+INSULINGTHOR	P4HB;PDIA3;PDIA4;PDIA6;TXNDC5			Miscellaneous	Other
+AIRC	PAICS			Purine metabolism	Nucleotide metabolism
+PRASCS	PAICS			Purine metabolism	Nucleotide metabolism
+4PCYSK	PANK2			Pantothenate and CoA metabolism	Metabolism of cofactors and vitamins
+GLCNte	PANX1			Transport, extracellular	Transport reactions
+APDPP	PEPD;XPNPEP1			Peptide metabolism	Other
+FPDPP	PEPD;XPNPEP1			Peptide metabolism	Other
+GPDPP	PEPD;XPNPEP1			Peptide metabolism	Other
+LPDPP	PEPD;XPNPEP1			Peptide metabolism	Other
+MPDPP	PEPD;XPNPEP1			Peptide metabolism	Other
+PPDPP	PEPD;XPNPEP1			Peptide metabolism	Other
+VPDPP	PEPD;XPNPEP1			Peptide metabolism	Other
+PRFGS	PFAS			Purine metabolism	Nucleotide metabolism
+PMANM	PGM2;PMM2			Fructose and mannose metabolism	Carbohydrate metabolism
+M16BPS1	PGM2L1			Starch and sucrose metabolism	Carbohydrate metabolism
+4PERP	PGP			Pentose phosphate pathway	Carbohydrate metabolism
+PI35P4K	PIP5K1A;PIP5K1C			Inositol phosphate metabolism	Carbohydrate metabolism
+PI3P4K	PIP5K1A;PIP5K1C			Inositol phosphate metabolism	Carbohydrate metabolism
+RBVPNP	PNP			Ribavirin metabolism	Other
+THIOGSNPNP	PNP			Azathioprine and 6-mercaptopurine metabolism	Other
+5PPINSP5P1K	PPIP5K2			Inositol phosphate metabolism	Carbohydrate metabolism
+INS6P1K	PPIP5K2			Inositol phosphate metabolism	Carbohydrate metabolism
+PRPPSZ	PRPS1;PRPS1L1;PRPS2			Purine metabolism	Nucleotide metabolism
+15KPGE1Ry	PTGR1			Prostaglandin biosynthesis	Lipid metabolism
+15KPGE2Ry	PTGR1			Prostaglandin biosynthesis	Lipid metabolism
+15KPGE3Ry	PTGR1			Prostaglandin biosynthesis	Lipid metabolism
+15KPGF1Ry	PTGR1			Prostaglandin biosynthesis	Lipid metabolism
+15KPGF2Ry	PTGR1			Prostaglandin biosynthesis	Lipid metabolism
+15KPGF3Ry	PTGR1			Prostaglandin biosynthesis	Lipid metabolism
+NTDPSUMP	PUDP			Miscellaneous	Other
+GLNTRS	QARS1			Aminoacyl-tRNA biosynthesis	Other
+QMPNH	QNG1			Miscellaneous	Other
+NNDPR	QPRT			Nicotinate and nicotinamide metabolism	Metabolism of cofactors and vitamins
+ARGTRS	RARS1			Aminoacyl-tRNA biosynthesis	Other
+RDH4y	RDH11			Retinol metabolism	Lipid metabolism
+RDH1y	RDH11;RDH14			Retinol metabolism	Lipid metabolism
+RDH3y	RDH11;RDH14			Retinol metabolism	Lipid metabolism
+MMAt2	RHAG;RHCE;RHD			Transport, extracellular	Transport reactions
+SERTRS	SARS1			Aminoacyl-tRNA biosynthesis	Other
+GHMT3	SHMT1			Lysine metabolism	Amino acid metabolism
+SHPK	SHPK			Pentose phosphate pathway	Carbohydrate metabolism
+TRIIODTHYt2	SLC16A10;SLC3A2;SLC7A5;SLCO1A2			Transport, extracellular	Transport reactions
+TETIODTHYt2	SLC16A10;SLC3A2;SLC7A5;SLCO1A2;SLCO2B1			Transport, extracellular	Transport reactions
+ERGOTHtuNa	SLC22A16;SLC22A4			Transport, extracellular	Transport reactions
+ACHt	SLC22A4;VDAC1			Transport, extracellular	Transport reactions
+2DCYTt	SLC29A1			Transport, extracellular	Transport reactions
+4PYRNt	SLC29A1			Transport, extracellular	Transport reactions
+RBVt	SLC29A1			Transport, extracellular	Transport reactions
+AG1tec	SLC31A1			Transport, extracellular	Transport reactions
+LKYNRtr	SLC3A2;SLC43A1;SLC43A2;SLC7A5			Transport, extracellular	Transport reactions
+DIIODTHYt2	SLC3A2;SLC7A5			Transport, extracellular	Transport reactions
+TRPHLKYNR	SLC3A2;SLC7A5			Transport, extracellular	Transport reactions
+DLEUtec	SLC43A1			Transport, extracellular	Transport reactions
+HMOBD_Cltex	SLC4A1			Transport, extracellular	Transport reactions
+TDECHOLAte	SLCO1A2			Transport, extracellular	Transport reactions
+ESTRONESte	SLCO1A2;SLCO2B1			Transport, extracellular	Transport reactions
+N1ASPMDOX	SMOX			Arginine and proline metabolism	Amino acid metabolism
+N1SPRMOX	SMOX			Arginine and proline metabolism	Amino acid metabolism
+RBTDG2_Dx	SORD			Pentose and glucuronate interconversions	Carbohydrate metabolism
+THRTLD_Lx	SORD			Pentose and glucuronate interconversions	Carbohydrate metabolism
+CMPACNAGA1	ST3GAL1;ST3GAL2			Glycosphingolipid biosynthesis - ganglio series	Other
+CMPACNAGALBSD	ST3GAL1;ST3GAL2			Glycosphingolipid biosynthesis - globo and isoglobo series	Other
+CMPACNAGD1B	ST3GAL1;ST3GAL2			Glycosphingolipid biosynthesis - ganglio series	Other
+CMPACNAGM1	ST3GAL1;ST3GAL2			Glycosphingolipid biosynthesis - ganglio series	Other
+THRTRS	TARS1			Aminoacyl-tRNA biosynthesis	Other
+FACOA2ERy_16_2E	TECR			Fatty acid elongation (even-chain)	Lipid metabolism
+FACOA2ERy_17_2E	TECR			Fatty acid elongation (odd-chain)	Lipid metabolism
+FACOA2ERy_18_2E	TECR			Fatty acid elongation (even-chain)	Lipid metabolism
+FACOA2ERy_19_2E	TECR			Fatty acid elongation (odd-chain)	Lipid metabolism
+FACOA2ERy_20_2E	TECR			Fatty acid elongation (even-chain)	Lipid metabolism
+FACOA2ERy_20_2E11Z	TECR			Fatty acid biosynthesis (unsaturated)	Lipid metabolism
+FACOA2ERy_20_2E11Z14Z	TECR			Omega-6 fatty acid metabolism	Lipid metabolism
+FACOA2ERy_20_2E11Z14Z17Z	TECR			Omega-3 fatty acid metabolism	Lipid metabolism
+FACOA2ERy_20_2E13Z	TECR			Fatty acid biosynthesis (unsaturated)	Lipid metabolism
+FACOA2ERy_20_2E5Z8Z11Z14Z	TECR			Omega-3 fatty acid metabolism	Lipid metabolism
+FACOA2ERy_20_2E8Z11Z	TECR			Fatty acid biosynthesis (unsaturated)	Lipid metabolism
+FACOA2ERy_20_2E8Z11Z14Z	TECR			Omega-6 fatty acid metabolism	Lipid metabolism
+FACOA2ERy_20_2E9Z	TECR			Fatty acid biosynthesis (unsaturated)	Lipid metabolism
+FACOA2ERy_21_2E	TECR			Fatty acid elongation (odd-chain)	Lipid metabolism
+FACOA2ERy_22_2E	TECR			Fatty acid elongation (even-chain)	Lipid metabolism
+FACOA2ERy_22_2E10Z13Z16Z	TECR			Omega-6 fatty acid metabolism	Lipid metabolism
+FACOA2ERy_22_2E10Z13Z16Z19Z	TECR			Omega-3 fatty acid metabolism	Lipid metabolism
+FACOA2ERy_22_2E11Z	TECR			Fatty acid biosynthesis (unsaturated)	Lipid metabolism
+FACOA2ERy_22_2E13Z	TECR			Fatty acid biosynthesis (unsaturated)	Lipid metabolism
+FACOA2ERy_22_2E13Z16Z	TECR			Omega-6 fatty acid metabolism	Lipid metabolism
+FACOA2ERy_22_2E13Z16Z19Z	TECR			Omega-3 fatty acid metabolism	Lipid metabolism
+FACOA2ERy_22_2E7Z10Z13Z16Z	TECR			Omega-6 fatty acid metabolism	Lipid metabolism
+FACOA2ERy_22_2E7Z10Z13Z16Z19Z	TECR			Omega-3 fatty acid metabolism	Lipid metabolism
+FACOA2ERy_23_2E	TECR			Fatty acid elongation (odd-chain)	Lipid metabolism
+FACOA2ERy_24_2E	TECR			Fatty acid elongation (even-chain)	Lipid metabolism
+FACOA2ERy_24_2E12Z15Z18Z21Z	TECR			Omega-3 fatty acid metabolism	Lipid metabolism
+FACOA2ERy_24_2E15Z	TECR			Fatty acid biosynthesis (unsaturated)	Lipid metabolism
+FACOA2ERy_24_2E9Z12Z15Z18Z	TECR			Omega-6 fatty acid metabolism	Lipid metabolism
+FACOA2ERy_24_2E9Z12Z15Z18Z21Z	TECR			Omega-3 fatty acid metabolism	Lipid metabolism
+FACOA2ERy_26_2E	TECR			Fatty acid elongation (even-chain)	Lipid metabolism
+FACOA2ERy_26_2E17Z	TECR			Fatty acid biosynthesis (unsaturated)	Lipid metabolism
+METSELNEORy	TXN;TXNDC17;TXNL1;TXNRD1			Selenocompound metabolism	Amino acid metabolism
+METSELNIORy	TXN;TXNDC17;TXNL1;TXNRD1			Selenocompound metabolism	Amino acid metabolism
+UAGALDP	UAP1			Amino sugar and nucleotide sugar metabolism	Carbohydrate metabolism
+5FLURAPT	UMPS			5-fluorouracil metabolism	Other
+VALTRS	VARS1			Aminoacyl-tRNA biosynthesis	Other
+TRPTRS	WARS1			Aminoacyl-tRNA biosynthesis	Other
+RPPTPAP	XPNPEP1			Peptide metabolism	Other
+TYRTRS	YARS1			Aminoacyl-tRNA biosynthesis	Other

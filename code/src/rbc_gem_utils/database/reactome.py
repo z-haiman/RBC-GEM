@@ -1,5 +1,5 @@
 import logging
-import pathlib
+from pathlib import Path
 
 import requests
 
@@ -13,8 +13,8 @@ REACTOME_URL = "https://reactome.org"
 REACTOME_FILENAMES = {
     "ComplexParticipantsPubMedIdentifiers_human",
 }
-REACTOME_PATH = "/Reactome"
 REACTOME_DB_TAG = "Reactome"
+REACTOME_PATH = Path(REACTOME_DB_TAG)
 
 
 def download_database_Reactome(filename=None, database_dirpath=None):
@@ -26,16 +26,16 @@ def download_database_Reactome(filename=None, database_dirpath=None):
 
     if database_dirpath is not None:
         # Ensure the path exists
-        pathlib.Path(f"{database_dirpath}").mkdir(parents=False, exist_ok=True)
+        Path(database_dirpath).mkdir(parents=False, exist_ok=True)
     else:
-        database_dirpath = f"{ROOT_PATH}{DATABASE_PATH}{REACTOME_PATH}"
+        database_dirpath = ROOT_PATH / DATABASE_PATH / REACTOME_PATH
 
     for fname in filename:
         fileurl = f"{REACTOME_URL}/download/current/{fname}"
         response = requests.get(fileurl)
         response.raise_for_status()
 
-        with open(f"{database_dirpath}/{fname}.tsv", "w") as file:
+        with open(database_dirpath / f"{fname}.tsv", "w") as file:
             file.write(response.text)
 
         LOGGER.info("`%s.tsv` saved at `%s`", fname, database_dirpath)

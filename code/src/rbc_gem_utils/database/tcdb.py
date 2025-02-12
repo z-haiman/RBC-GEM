@@ -1,5 +1,5 @@
 import logging
-import pathlib
+from pathlib import Path
 
 import requests
 
@@ -21,8 +21,8 @@ TCDB_FILENAMES = {
     "pfam",
 }
 TCDB_MIRIAMS = ["tcdb", "uniprot", "pfam", "refseq", "pdb", "go", "chebi"]
-TCDB_PATH = "/TCDB"
 TCDB_DB_TAG = "TCDB"
+TCDB_PATH = Path(TCDB_DB_TAG)
 
 
 def download_database_TCDB(filename=None, database_dirpath=None):
@@ -34,9 +34,9 @@ def download_database_TCDB(filename=None, database_dirpath=None):
 
     if database_dirpath is not None:
         # Ensure the path exists
-        pathlib.Path(f"{database_dirpath}").mkdir(parents=False, exist_ok=True)
+        Path(database_dirpath).mkdir(parents=False, exist_ok=True)
     else:
-        database_dirpath = f"{ROOT_PATH}{DATABASE_PATH}{TCDB_PATH}"
+        database_dirpath = ROOT_PATH / DATABASE_PATH / TCDB_PATH
 
     for fname in filename:
         if fname in {"getSubstrates", "listSuperfamilies"}:
@@ -46,7 +46,7 @@ def download_database_TCDB(filename=None, database_dirpath=None):
         response = requests.get(fileurl)
         response.raise_for_status()
 
-        with open(f"{database_dirpath}/{fname}.tsv", "w") as file:
+        with open(database_dirpath / f"{fname}.tsv", "w") as file:
             file.write(response.text)
 
         LOGGER.info("`%s.tsv` saved at `%s`", fname, database_dirpath)

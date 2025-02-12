@@ -14,6 +14,7 @@ import re
 import time
 import zlib
 from collections import defaultdict
+from pathlib import Path
 from urllib.parse import parse_qs, urlencode, urlparse
 from warnings import warn
 from xml.etree import ElementTree
@@ -36,7 +37,8 @@ UNIPROT_ID_RE = re.compile(
 UNIPROT_ISOFORM_ID_RE = re.compile(
     "|".join([s + "-[0-9]{1,2}" for s in UNIPROT_ID_RE.pattern.split("|")])
 )
-UNIPROT_PATH = "/UniProt"
+UNIPROT_DB_TAG = "UniProt"
+UNIPROT_PATH = Path(UNIPROT_DB_TAG)
 # Fields that are completely irrelevant to human RBCs are commented out below, but they
 # are left here nonetheless to indicate that they were intentionally excluded.
 # Extracted from https://www.uniprot.org/help/return_fields,
@@ -44,7 +46,7 @@ UNIPROT_PATH = "/UniProt"
 # Note some corrections were made due to what looked like typos in table
 # TODO Add the BeautifulSoup methods for table extraction
 UNIPROT_VERSION_EXPECTED = "2024_06"
-UNIPROT_DB_TAG = "UniProt"
+
 UNIPROT_QUERY_LABEL_MIRIAM = {
     # query field: label, https://identifiers.org/
     ## Names & Taxonomy

@@ -16,18 +16,18 @@ import pandas as pd
 from rbc_gem_utils.util import DATABASE_PATH, RAW_GH_URL, ROOT_PATH, check_if_valid
 
 
-MIM_PATH = "/MIM"
 MIM_FILENAMES = ["mim2gene", "genemap2", "morbidmap", "mimTitles"]
 MIM_NUMBER_RE = re.compile(r"^\d{6}\Z")
 MIM_DB_TAG = "MIM"
+MIM_PATH = Path(MIM_DB_TAG)
 
 
 def load_data_MIM(mim_filename, mim_directory=None, print_footer_notes=False):
     """Load the MIM file, ignoring any initial lines before the header that are not relevant."""
     if mim_directory is None:
-        mim_directory = f"{ROOT_PATH}{DATABASE_PATH}{MIM_PATH}"
+        mim_directory = ROOT_PATH / DATABASE_PATH / MIM_PATH
     else:
-        Path(f"{mim_directory}").mkdir(parents=False, exist_ok=True)
+        Path(mim_directory).mkdir(parents=False, exist_ok=True)
 
     check_if_valid(mim_filename, MIM_FILENAMES, "Invalid MIM filename:")
     header = {
@@ -37,7 +37,7 @@ def load_data_MIM(mim_filename, mim_directory=None, print_footer_notes=False):
         "mimTitles": 2,
     }.get(mim_filename)
     df = pd.read_csv(
-        f"{mim_directory}/{mim_filename}.txt", sep="\t", header=header, dtype=str
+        mim_directory / f"{mim_filename}.txt", sep="\t", header=header, dtype=str
     )
     try:
         if print_footer_notes:
@@ -69,7 +69,7 @@ def get_last_updated_dates_MIM(mim_directory=None, mim_filenames=None, verbose=T
 
     last_updated_dict = {}
     for mim_file in mim_filenames:
-        with open(f"{mim_directory}/{mim_file}.txt") as file:
+        with open(mim_directory / f"{mim_file}.txt") as file:
             for line in file:
                 if line.startswith("# Generated"):
                     break

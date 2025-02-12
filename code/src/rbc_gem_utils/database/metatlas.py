@@ -7,7 +7,7 @@ Code based on Human-GEM (1.18.0)
 """
 
 import logging
-import pathlib
+from pathlib import Path
 
 import pandas as pd
 import requests
@@ -17,7 +17,7 @@ from rbc_gem_utils.util import DATABASE_PATH, RAW_GH_URL, ROOT_PATH, check_if_va
 
 LOGGER = logging.getLogger(__name__)
 HUMANGEM_VERSION_EXPECTED = "1.19.0"
-HUMANGEM_PATH = "/Human-GEM"
+HUMANGEM_PATH = Path("Human-GEM")
 HUMANGEM_URL = f"{RAW_GH_URL}/SysBioChalmers/Human-GEM"
 HUMANGEM_MODEL_FILETYPES = {"mat", "txt", "xlsx", "xml", "yml"}
 HUMANGEM_ANNOTATION_TYPES = {"reactions", "metabolites", "genes"}
@@ -100,7 +100,7 @@ def get_annotations_HumanGEM(
         annotation_type, HUMANGEM_ANNOTATION_TYPES, "Must be one of the following"
     )
     df_annotations = pd.read_csv(
-        f"{database_dirpath}/{annotation_type}.tsv", sep="\t", dtype=str
+        database_dirpath / f"{annotation_type}.tsv", sep="\t", dtype=str
     )
 
     # Only keep a specific set of columns after ensuring they are valid
@@ -151,10 +151,10 @@ def download_database_HumanGEM(
         )
 
     if database_dirpath is None:
-        database_dirpath = f"{ROOT_PATH}{DATABASE_PATH}{HUMANGEM_PATH}"
+        database_dirpath = ROOT_PATH / DATABASE_PATH / HUMANGEM_PATH
     else:
         # Ensure the path exists
-        pathlib.Path(f"{database_dirpath}").mkdir(parents=False, exist_ok=True)
+        Path(database_dirpath).mkdir(parents=False, exist_ok=True)
 
     model_filetype = check_if_valid(
         model_filetype, HUMANGEM_MODEL_FILETYPES, "Unrecognized filetypes for Human-GEM"
@@ -169,7 +169,7 @@ def download_database_HumanGEM(
         response = requests.get(f"{HUMANGEM_URL}/v{model_version}/model/{ann_type}.tsv")
         response.raise_for_status()
 
-        filepath = f"{database_dirpath}/{ann_type}.tsv"
+        filepath = database_dirpath / f"{ann_type}.tsv"
         with open(filepath, "w") as file:
             file.write(response.text)
 
@@ -182,7 +182,7 @@ def download_database_HumanGEM(
         response.raise_for_status()
 
         # Write file
-        filepath = f"{database_dirpath}/{filename}"
+        filepath = database_dirpath / filename
         # Is there a better way of checking whether binary file?
         if not response.encoding:
             with open(filepath, "wb") as file:

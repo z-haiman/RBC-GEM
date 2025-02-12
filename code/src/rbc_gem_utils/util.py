@@ -17,20 +17,21 @@ COBRA_CONFIGURATION = Configuration()
 RAW_GH_URL = "https://raw.githubusercontent.com"
 # TODO Probably a better way to determine the root directory, considering its the name of the project.
 # FIXME Right now this only works with an editable install './RBC-GEM'
-ROOT_PATH = str(Path(__file__).resolve().parent.parent.parent.parent)
+ROOT_PATH = Path(__file__).resolve().parent.parent.parent.parent
 # Relevant relative paths
-MAP_PATH = "/map"
-MODEL_PATH = "/model"
-DATA_PATH = "/data"
-RAW_PATH = f"{DATA_PATH}/raw"
-INTERIM_PATH = f"{DATA_PATH}/interim"
-PROCESSED_PATH = f"{DATA_PATH}/processed"
-EXTERNAL_PATH = f"{DATA_PATH}/external"
-ANNOTATION_PATH = f"{DATA_PATH}/annotation"
-CURATION_PATH = f"{DATA_PATH}/curation"
-DATABASE_PATH = f"{EXTERNAL_PATH}/database"
-RESULTS_PATH = f"{DATA_PATH}/results"
-PARAMETERIZATION_PATH = f"{DATA_PATH}/parameterization"
+MAP_PATH = Path("map")
+MODEL_PATH = Path("model")
+DATA_PATH = Path("data")
+RAW_PATH = DATA_PATH / "raw"
+INTERIM_PATH = DATA_PATH / "interim"
+PROCESSED_PATH = DATA_PATH / "processed"
+EXTERNAL_PATH = DATA_PATH / "external"
+ANNOTATION_PATH = DATA_PATH / "annotation"
+ANALYSIS_PATH = DATA_PATH / "analysis"
+CURATION_PATH = DATA_PATH / "curation"
+DATABASE_PATH = EXTERNAL_PATH / "database"
+RESULTS_PATH = DATA_PATH / "results"
+PARAMETERIZATION_PATH = DATA_PATH / "parameterization"
 
 GEM_NAME = "RBC-GEM"
 GEM_URL = f"{RAW_GH_URL}/z-haiman/{GEM_NAME}"

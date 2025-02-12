@@ -1,3 +1,4 @@
+from pathlib import Path
 from warnings import warn
 
 from rbc_gem_utils.util import ensure_iterable
@@ -32,9 +33,9 @@ from .uniprot import (
 
 
 CDCDB_DB_TAG = "CDCDB"
-CDCDB_PATH = "/CDCDB"
+CDCDB_PATH = Path(CDCDB_DB_TAG)
 DRUGCENTRAL_DB_TAG = "DrugCentral"
-DRUGCENTRAL_PATH = "/DrugCentral"
+DRUGCENTRAL_PATH = Path(DRUGCENTRAL_DB_TAG)
 
 
 def check_database_version_online(database, expected=None, verbose=False):

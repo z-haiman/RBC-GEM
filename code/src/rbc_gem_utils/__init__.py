@@ -8,6 +8,7 @@ from .database import check_database_version_online, check_version
 from .io import read_cobra_model, read_rbc_model, write_cobra_model, write_rbc_model
 from .qc import compare_tables
 from .util import (
+    ANALYSIS_PATH,
     ANNOTATION_PATH,
     COBRA_CONFIGURATION,
     CURATION_PATH,
