@@ -19,12 +19,12 @@ jobs:
       id: setup
       uses: actions/setup-python@v4
       with:
-        python-version: '3.11'
+        python-version: '3.12'
     - name: Install dependencies
       id: install-deps
       run: |
         python -m pip install --upgrade pip setuptools wheel
-        python -m pip install memote==0.16.1
+        python -m pip install memote==0.17.0
     - name: Run memote on deployment branch
       id: memote-diff
       run: |
@@ -35,8 +35,8 @@ jobs:
         git checkout $deployment
         git pull
         git add "diff${GITHUB_SHA}.html"
-        git config --global user.email zhaiman@ucsd.edu
-        git config --global user.name z-haiman
+        git config --global user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
+        git config --global user.name "${{ github.actor }}"
         git commit -m 'test: add diff report'
         git push
     - name: Post PR comment

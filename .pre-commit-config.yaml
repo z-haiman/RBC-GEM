@@ -1,6 +1,9 @@
 minimum_pre_commit_version: '3.1.0'
 default_language_version:
     python: python3
+ci:
+    autoupdate_branch: 'develop'
+    autoupdate_schedule: monthly
 repos:
     - repo: https://github.com/pre-commit/pre-commit-hooks
       rev: v5.0.0

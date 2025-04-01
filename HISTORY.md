@@ -1,7 +1,7 @@
 # History
 ### RBC-GEM 1.2.1
 * Updates to repository README files
-* Filepaths are corrected to be independent of platform 
+* Filepaths are corrected to be independent of platform
 * Pre-commit hooks and GitHub workflows updated for newer versions
 
 
