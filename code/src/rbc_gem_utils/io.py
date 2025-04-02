@@ -155,7 +155,7 @@ def write_rbc_model(model, filetype="xml", directory=None, **kwargs):
             kwargs = {filetype: kwargs}
             filetype = [filetype]
     if not directory:
-        directory = f"{ROOT_PATH}{MODEL_PATH}"
+        directory = ROOT_PATH / MODEL_PATH
     for ftype in set(filetype):
         ftype_kwargs = kwargs.get(ftype, {})
         if ftype in ALTERNATE_FILETYPES_DICT:
@@ -170,7 +170,9 @@ def write_rbc_model(model, filetype="xml", directory=None, **kwargs):
                 warn(f"{msg}, skipping to prevent duplicate export")
                 continue
 
-        write_cobra_model(model, f"{directory}/{GEM_NAME}.{ftype}", **ftype_kwargs)
+        write_cobra_model(
+            model, Path(directory) / f"{GEM_NAME}.{ftype}", **ftype_kwargs
+        )
         LOGGER.info("Model `%s` saved as a `.%s` file", model.id, ftype)
 
 
@@ -205,7 +207,7 @@ def read_rbc_model(filetype="xml", directory=None, **kwargs):
 
     """
     if not directory:
-        directory = f"{ROOT_PATH}{MODEL_PATH}"
-    model = read_cobra_model(f"{directory}/{GEM_NAME}.{filetype}", **kwargs)
+        directory = ROOT_PATH / MODEL_PATH
+    model = read_cobra_model(Path(directory) / f"{GEM_NAME}.{filetype}", **kwargs)
     LOGGER.info("Model `%s` loaded from a `.%s` file", model.id, filetype)
     return model

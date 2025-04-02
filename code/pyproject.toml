@@ -35,10 +35,10 @@ dependencies = [
 ]
 requires-python = ">=3.8"
 authors = [
-  {name = "Zachary B. Haiman", email = "zhaiman@ucsd.edu"},
+  {name = "Zachary B. Haiman"},
 ]
 maintainers = [
-  {name = "Zachary B. Haiman", email = "zhaiman@ucsd.edu"},
+  {name = "Zachary B. Haiman"},
 ]
 description = "Source code for working with the RBC-GEM reconstruction."
 keywords = ["python", "red blood cell", "erythrocyte"]
@@ -75,8 +75,6 @@ python-version = [
     "py39",
     "py39",
     "py310",
-    "py311",
-    "py312",
 ]
 
 

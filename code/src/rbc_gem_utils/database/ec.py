@@ -9,8 +9,8 @@ Notes
 """
 
 import logging
-import pathlib
 import re
+from pathlib import Path
 from warnings import warn
 
 import requests
@@ -29,8 +29,8 @@ EC_FILENAMES = {
     "enzuser.txt",
     "enzyme.get",
 }
-EC_PATH = "/EC"
 EC_DB_TAG = "EC"
+EC_PATH = Path(EC_DB_TAG)
 EC_VERSION_EXPECTED = "27-Nov-2024"
 
 
@@ -56,9 +56,9 @@ def download_database_EC(filename=None, database_dirpath=None):
 
     if database_dirpath is not None:
         # Ensure the path exists
-        pathlib.Path(f"{database_dirpath}").mkdir(parents=False, exist_ok=True)
+        Path(database_dirpath).mkdir(parents=False, exist_ok=True)
     else:
-        database_dirpath = f"{ROOT_PATH}{DATABASE_PATH}{EC_PATH}"
+        database_dirpath = ROOT_PATH / DATABASE_PATH / EC_PATH
 
     for fname in filename:
         fileurl = f"{EC_URL}{fname}"
@@ -66,7 +66,7 @@ def download_database_EC(filename=None, database_dirpath=None):
         response.raise_for_status()
 
         fname = f"ec_{fname}"
-        with open(f"{database_dirpath}/{fname}", "w") as file:
+        with open(database_dirpath / fname, "w") as file:
             file.write(response.text)
 
         LOGGER.info("`%s` saved at `%s`", fname, database_dirpath)

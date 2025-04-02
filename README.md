@@ -5,18 +5,13 @@
 [![Gitter chat](https://badges.gitter.im/z-haiman/RBC-GEM.svg)](https://gitter.im/z-haiman/RBC-GEM)
 [![memote tested](https://img.shields.io/badge/memote-tested-blue.svg?style=plastic)](https://z-haiman.github.io/RBC-GEM)
 
-#### Description
-
-**TODO**
 
 #### Citation
 If you use RBC-GEM in your research, please cite the following:
 
-> RBC-GEM: a Knowledge Base for Systems Biology of Human Red Blood Cell Metabolism;
-> Zachary Brandon Haiman, Angelo D'Alessandro, Bernhard Palsson
-> bioRxiv 2024.04.26.591249; doi: https://doi.org/10.1101/2024.04.26.591249
+> Haiman ZB, Key A, D'Alessandro A, Palsson BO. RBC-GEM: A genome-scale metabolic model for systems biology of the human red blood cell. PLoS Comput Biol. 2025 Mar 12;21(3):e1012109. doi: 10.1371/journal.pcbi.1012109. PMID: 40072998; PMCID: PMC11925312.
 
-All the releases are also archived in [Zenodo] from which specific version can be cited if used.
+All the releases are also archived in [Zenodo](https://doi.org/10.5281/zenodo.10836860) from which specific version can be cited if used.
 
 #### Keywords
 
@@ -49,9 +44,6 @@ install the software. It is recommended to do this inside a [virtual environment
         python -c "from rbc_gem_utils import show_versions; show_versions()"
 
 
-### Usage
-
-**TODO**
 
 ### Contributing
 

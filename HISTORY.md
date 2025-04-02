@@ -1,4 +1,13 @@
 # History
+### RBC-GEM 1.2.1
+* Updates to repository README files
+* Filepaths are corrected to be independent of platform
+* Pre-commit hooks and GitHub workflows updated for newer versions
+
+
+### RBC-GEM 1.2.0
+* RBC-GEM has been officially published!
+
 ### RBC-GEM 1.1.1
 * Patch to fix issues recognizing the ISSUE_TEMPLATE folder due to capitalization sensitivity.
 * Update the version in version.txt to match
