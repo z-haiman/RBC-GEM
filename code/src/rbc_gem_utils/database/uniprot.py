@@ -45,7 +45,7 @@ UNIPROT_PATH = Path(UNIPROT_DB_TAG)
 # Extracted from https://www.uniprot.org/help/return_fields_databases
 # Note some corrections were made due to what looked like typos in table
 # TODO Add the BeautifulSoup methods for table extraction
-UNIPROT_VERSION_EXPECTED = "2024_06"
+UNIPROT_VERSION_EXPECTED = "2025_01"
 
 UNIPROT_QUERY_LABEL_MIRIAM = {
     # query field: label, https://identifiers.org/
