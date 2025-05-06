@@ -38,40 +38,18 @@ CDCDB_PATH = Path(CDCDB_DB_TAG)
 DRUGCENTRAL_DB_TAG = "DrugCentral"
 DRUGCENTRAL_PATH = Path(DRUGCENTRAL_DB_TAG)
 
-
-def get_database_dirpath(database, use_interim=False):
-    """Return the path variable corresponding to the database."""
-    database_release_paths = {
-        CDCDB_DB_TAG: CDCDB_PATH,
-        COMPLEXPORTAL_DB_TAG: COMPLEXPORTAL_PATH,
-        DRUGBANK_DB_TAG: DRUGBANK_PATH,
-        DRUGCENTRAL_DB_TAG: DRUGCENTRAL_PATH,
-        EC_DB_TAG: EC_PATH,
-        HUMANGEM_DB_TAG: HUMANGEM_PATH,
-        MGI_DB_TAG: MGI_PATH,
-        MIM_DB_TAG: MIM_PATH,
-        TCDB_DB_TAG: TCDB_PATH,
-        UNIPROT_DB_TAG: UNIPROT_PATH,
-    }
-    try:
-        database_path = database_release_paths[database]
-    except KeyError as e:
-        raise KeyError(
-            f"Unrecognized database: {e}. "
-            f"Must be one of the following: {list(database_release_paths)}"
-        )
-    if use_interim:
-        return ROOT_PATH / INTERIM_PATH / database_path
-    else:
-        return ROOT_PATH / DATABASE_PATH / database_path
-
-
-def get_annotation_dirpath(use_interim=False):
-    """Return the path variable corresponding to the annotations."""
-    if use_interim:
-        return ROOT_PATH / INTERIM_PATH / ANNOTATION_PATH
-    else:
-        return ROOT_PATH / ANNOTATION_PATH
+DATABASE_DIRPATHS = {
+    CDCDB_DB_TAG: CDCDB_PATH,
+    COMPLEXPORTAL_DB_TAG: COMPLEXPORTAL_PATH,
+    DRUGBANK_DB_TAG: DRUGBANK_PATH,
+    DRUGCENTRAL_DB_TAG: DRUGCENTRAL_PATH,
+    EC_DB_TAG: EC_PATH,
+    HUMANGEM_DB_TAG: HUMANGEM_PATH,
+    MGI_DB_TAG: MGI_PATH,
+    MIM_DB_TAG: MIM_PATH,
+    TCDB_DB_TAG: TCDB_PATH,
+    UNIPROT_DB_TAG: UNIPROT_PATH,
+}
 
 
 def check_database_release_online(database, expected=None, verbose=False, **kwargs):

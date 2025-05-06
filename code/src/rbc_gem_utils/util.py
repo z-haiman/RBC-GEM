@@ -32,6 +32,7 @@ CURATION_PATH = DATA_PATH / "curation"
 DATABASE_PATH = EXTERNAL_PATH / "database"
 RESULTS_PATH = DATA_PATH / "results"
 PARAMETERIZATION_PATH = DATA_PATH / "parameterization"
+DEPRECATEDIDS_DIRPATH = DATA_PATH / "deprecatedIdentifiers"
 
 GEM_NAME = "RBC-GEM"
 GEM_URL = f"{RAW_GH_URL}/z-haiman/{GEM_NAME}"
