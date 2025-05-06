@@ -1,3 +1,13 @@
+"""Functions to extract relevant information from the Transporter Classification Database
+
+Notes
+-----
+* Main site: https://enzyme.expasy.org/
+* Code written or updated based on release on 01-May-25
+* Code last updated: May 2025
+
+"""
+
 import logging
 from pathlib import Path
 

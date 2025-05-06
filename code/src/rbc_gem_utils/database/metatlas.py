@@ -2,8 +2,9 @@
 
 Notes
 -----
-Code based on Human-GEM (1.18.0)
-
+* Main site: https://github.com/SysBioChalmers/Human-GEM
+* Code written or updated based on Human-GEM 1.19.0, released 24-Jun-2024
+* Code last updated: May 2025
 """
 
 import logging
@@ -16,7 +17,7 @@ from rbc_gem_utils.util import DATABASE_PATH, RAW_GH_URL, ROOT_PATH, check_if_va
 
 
 LOGGER = logging.getLogger(__name__)
-HUMANGEM_VERSION_EXPECTED = "1.19.0"
+HUMANGEM_RELEASE_EXPECTED = "1.19.0"
 HUMANGEM_PATH = Path("Human-GEM")
 HUMANGEM_URL = f"{RAW_GH_URL}/SysBioChalmers/Human-GEM"
 HUMANGEM_MODEL_FILETYPES = {"mat", "txt", "xlsx", "xml", "yml"}
@@ -58,7 +59,7 @@ HUMANGEM_MIRIAM = {
 }
 
 
-def get_version_HumanGEM(branch="main"):
+def get_release_HumanGEM(branch="main"):
     """Return the version of the Human-GEM model at the specified branch.
 
     Parameters
@@ -118,7 +119,7 @@ def download_database_HumanGEM(
     annotation_type=None,
     database_dirpath=None,
     model_filetype="xml",
-    model_version=None,
+    model_release=None,
 ):
     """Download the HumanGEM database files. Requires internet connection.
 
@@ -135,9 +136,9 @@ def download_database_HumanGEM(
     model_filetype : {'mat', 'txt', 'xlsx', 'xml', 'yml'}
         The type of model file(s) to download. Default value is `xml`.
         Valid values exist in ``:const:HUMANGEM_MODEL_FILETYPES``
-    model_version : str
+    model_release : str
         The version of the Human-GEM model and associated annotation values.
-        Default is the value of ``:const:HUMANGEM_VERSION_EXPECTED``
+        Default is the value of ``:const:HUMANGEM_RELEASE_EXPECTED``
 
     """
     # Check inputs
@@ -160,13 +161,13 @@ def download_database_HumanGEM(
         model_filetype, HUMANGEM_MODEL_FILETYPES, "Unrecognized filetypes for Human-GEM"
     )
 
-    if model_version is None:
+    if model_release is None:
         # Use expected version if None provided.
-        model_version = get_version_HumanGEM(f"v{HUMANGEM_VERSION_EXPECTED}")
+        model_release = get_release_HumanGEM(f"v{HUMANGEM_RELEASE_EXPECTED}")
 
     for ann_type in annotation_type:
         # Probably a better way to do this instead of erroring out.
-        response = requests.get(f"{HUMANGEM_URL}/v{model_version}/model/{ann_type}.tsv")
+        response = requests.get(f"{HUMANGEM_URL}/v{model_release}/model/{ann_type}.tsv")
         response.raise_for_status()
 
         filepath = database_dirpath / f"{ann_type}.tsv"
@@ -178,7 +179,7 @@ def download_database_HumanGEM(
     for ftype in model_filetype:
         filename = f"Human-GEM.{ftype}"
         # FIXME probably a better way to do this instead of erroring out.
-        response = requests.get(f"{HUMANGEM_URL}/v{model_version}/model/{filename}")
+        response = requests.get(f"{HUMANGEM_URL}/v{model_release}/model/{filename}")
         response.raise_for_status()
 
         # Write file

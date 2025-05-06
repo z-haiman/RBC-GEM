@@ -4,7 +4,12 @@ Currently houses all code associated with the RBC-GEM.
 """
 
 from .annotation import get_annotation_df, get_id_annotation_mapping
-from .database import check_database_version_online, check_version
+from .database import (
+    check_database_release_online,
+    check_release,
+    get_annotation_dirpath,
+    get_database_dirpath,
+)
 from .io import read_cobra_model, read_rbc_model, write_cobra_model, write_rbc_model
 from .qc import compare_tables
 from .util import (
