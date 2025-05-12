@@ -72,6 +72,8 @@ def get_dirpath(*args, use_temp=None):
     # Return path variable corresponding to annotations
     elif main_dir == "curation":
         dirpath /= CURATION_PATH
+    elif main_dir == "analysis":
+        dirpath /= ANALYSIS_PATH
     elif main_dir == "map":
         dirpath /= MAP_PATH
     # Return path variable corresponding to omics

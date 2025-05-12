@@ -193,30 +193,29 @@ DEFAULT_MAX_WEIGHT_FRACTION = 150  # 150 mg / gDW
 DEFAULT_CONCENTRATION_BOUND = 1e6  # either nmol / gDW or nmol / L
 DEFAULT_KEFF = 65 * 3600  # 1 / s  # s / hr
 DEFAULT_PROTEIN_MOLAR_MASS = 30000  # g / mol --> mg / mmol
-DEFAULT_ENZYME_FORWARD_SUFFIX = "_fwd"
-DEFAULT_ENZYME_REVERSE_SUFFIX = "_rev"
-DEFAULT_ENZYME_TOTAL_SUFFIX = "_total"
-DEFAULT_CONSTRAINT_PREFIX = "CONS_"
-DEFAULT_ISOFORM_CONSTRAINT_PREFIX = f"ISO{DEFAULT_CONSTRAINT_PREFIX}"
-DEFAULT_COMPARTMENT_CONSTRAINT_PREFIX = f"COMP{DEFAULT_CONSTRAINT_PREFIX}"
-DEFAULT_VALUES = {
+DEFAULT_PREFIX_SUFFIX_VALUES = {
     "proteins": {
         "prefix.metabolite": "protein_",
         "prefix.dilution": "PROTDL_",
         "prefix.formation": "PROTFM_",
-        "bounds": (0, DEFAULT_CONCENTRATION_BOUND),  # nmol / gDW
     },
     "complexes": {
         "prefix.metabolite": "cplx_",
         "prefix.dilution": "CPLXDL_",
         "prefix.formation": "CPLXFM_",
-        "bounds": (0, DEFAULT_CONCENTRATION_BOUND),  # nmol / gDW
     },
     "enzymes": {
         "prefix.metabolite": "enzyme_",
         "prefix.dilution": "ENZDL_",
         "prefix.formation": "ENZFM_",
-        "bounds": (0, DEFAULT_CONCENTRATION_BOUND),  # nmol / gDW
+        "suffix.forward": "_fwd",
+        "suffix.reverse": "_rev",
+        "suffix.total": "_total",
+    },
+    "constraints": {
+        "prefix.constraint": "CONS_",
+        "prefix.isoform": "ISOCONS_",
+        "prefix.compartent": f"COMPCONS_",
     },
 }
 
@@ -423,7 +422,7 @@ def create_protein_table(
         Must be {"genes", "sequence.id"} or a value provided in `annotation_columns`.
         If ``None`` provided, generic identifiers are used instead and prefix will be considered ``True``,
     prefix : str, optional
-        Prefix to use for identifiers. Default is defined in :const:`DEFAULT_VALUES`.
+        Prefix to use for identifiers. Default is defined in :const:`DEFAULT_PREFIX_SUFFIX_VALUES`.
     optional_columns : list, bool
         Optional columns to use when generating table.
         Possible values are defined in :const:`TABLE_COLUMNS`.
@@ -529,7 +528,7 @@ def create_protein_table(
         prefix = (
             prefix
             if (prefix and isinstance(prefix, str))
-            else DEFAULT_VALUES[table_type]["prefix.metabolite"]
+            else DEFAULT_PREFIX_SUFFIX_VALUES[table_type]["prefix.metabolite"]
         )
         table[table_type_strip] = [
             f"{prefix}{x}".replace("-", "_") for x in table.index
@@ -539,7 +538,7 @@ def create_protein_table(
             prefix = (
                 prefix
                 if (prefix and isinstance(prefix, str))
-                else DEFAULT_VALUES[table_type]["prefix.metabolite"]
+                else DEFAULT_PREFIX_SUFFIX_VALUES[table_type]["prefix.metabolite"]
             )
         else:
             prefix = ""
@@ -600,7 +599,7 @@ def create_complex_table(
         Must be a value provided in `annotation_columns`.
         If ``None`` provided, generic identifiers are used instead and prefix will be considered ``True``,
     prefix : str, optional
-        Prefix to use for identifiers. Default is defined in :const:`DEFAULT_VALUES`.
+        Prefix to use for identifiers. Default is defined in :const:`DEFAULT_PREFIX_SUFFIX_VALUES`.
     optional_columns : list, bool
         Optional columns to use when generating table.
         Possible values are defined in :const:`TABLE_COLUMNS`.
@@ -678,7 +677,7 @@ def create_complex_table(
         prefix = (
             prefix
             if (prefix and isinstance(prefix, str))
-            else DEFAULT_VALUES[table_type]["prefix.metabolite"]
+            else DEFAULT_PREFIX_SUFFIX_VALUES[table_type]["prefix.metabolite"]
         )
         table[table_type_strip] = [
             f"{prefix}{x}".replace("-", "_") for x in table.index
@@ -688,7 +687,7 @@ def create_complex_table(
             prefix = (
                 prefix
                 if (prefix and isinstance(prefix, str))
-                else DEFAULT_VALUES[table_type]["prefix.metabolite"]
+                else DEFAULT_PREFIX_SUFFIX_VALUES[table_type]["prefix.metabolite"]
             )
         else:
             prefix = ""
@@ -742,9 +741,9 @@ def create_complex_table(
 def create_enzyme_table(
     model,
     complexes_to_reactions,
-    enzyme_keff_base=DEFAULT_KEFF,
-    enzyme_forward_suffix=DEFAULT_ENZYME_FORWARD_SUFFIX,
-    enzyme_reverse_suffix=DEFAULT_ENZYME_REVERSE_SUFFIX,
+    enzyme_keff_base=None,
+    enzyme_forward_suffix=None,
+    enzyme_reverse_suffix=None,
     id_key=None,
     prefix=None,
     optional_columns=False,
@@ -769,7 +768,7 @@ def create_enzyme_table(
         Must be {"reactions"} or a value provided in `annotation_columns`.
         If ``None`` provided, generic identifiers are used instead and prefix will be considered ``True``,
     prefix : str, optional
-        Prefix to use for identifiers. Default is defined in :const:`DEFAULT_VALUES`.
+        Prefix to use for identifiers. Default is defined in :const:`DEFAULT_PREFIX_SUFFIX_VALUES`.
     optional_columns : list, bool
         Optional columns to use when generating table.
         Possible values are defined in :const:`TABLE_COLUMNS`.
@@ -836,7 +835,7 @@ def create_enzyme_table(
         prefix = (
             prefix
             if (prefix and isinstance(prefix, str))
-            else DEFAULT_VALUES[table_type]["prefix.metabolite"]
+            else DEFAULT_PREFIX_SUFFIX_VALUES[table_type]["prefix.metabolite"]
         )
         id_key = {rid: i for i, rid in enumerate(sorted(table["reactions"].unique()))}
         table[table_type_strip] = [
@@ -848,7 +847,7 @@ def create_enzyme_table(
             prefix = (
                 prefix
                 if (prefix and isinstance(prefix, str))
-                else DEFAULT_VALUES[table_type]["prefix.metabolite"]
+                else DEFAULT_PREFIX_SUFFIX_VALUES[table_type]["prefix.metabolite"]
             )
         else:
             prefix = ""
@@ -856,13 +855,13 @@ def create_enzyme_table(
             lambda x: f"{prefix}{x}".replace("-", "_")
         )
     if not enzyme_forward_suffix:
-        enzyme_forward_suffix = DEFAULT_ENZYME_FORWARD_SUFFIX
+        enzyme_forward_suffix = DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["suffix.forward"]
     table[f"{table_type_strip}{enzyme_forward_suffix}"] = table[table_type_strip].apply(
         lambda x: f"{x}{enzyme_forward_suffix}"
     )
 
     if not enzyme_reverse_suffix:
-        enzyme_reverse_suffix = DEFAULT_ENZYME_REVERSE_SUFFIX
+        enzyme_reverse_suffix = DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["suffix.reverse"]
     table[f"{table_type_strip}{enzyme_reverse_suffix}"] = table[table_type_strip].apply(
         lambda x: f"{x}{enzyme_reverse_suffix}"
     )
@@ -1100,18 +1099,18 @@ def add_dilution_reaction(
     cls, prefix, default_bounds = {
         "protein": (
             ProteinDilution,
-            DEFAULT_VALUES["proteins"]["prefix.dilution"],
-            DEFAULT_VALUES["proteins"]["bounds"],
+            DEFAULT_PREFIX_SUFFIX_VALUES["proteins"]["prefix.dilution"],
+            (0, DEFAULT_CONCENTRATION_BOUND)
         ),
         "complex": (
             ComplexDilution,
-            DEFAULT_VALUES["complexes"]["prefix.dilution"],
-            DEFAULT_VALUES["complexes"]["bounds"],
+            DEFAULT_PREFIX_SUFFIX_VALUES["complexes"]["prefix.dilution"],
+            (0, DEFAULT_CONCENTRATION_BOUND),
         ),
         "enzyme": (
             EnzymeDilution,
-            DEFAULT_VALUES["enzymes"]["prefix.dilution"],
-            DEFAULT_VALUES["enzymes"]["bounds"],
+            DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["prefix.dilution"],
+            (0, DEFAULT_CONCENTRATION_BOUND),
         ),
     }[protein_type]
 
@@ -1194,13 +1193,13 @@ def add_complex_formation_reaction(
     cls, prefix, default_bounds = {
         "complex": (
             ComplexForm,
-            DEFAULT_VALUES["complexes"]["prefix.formation"],
-            DEFAULT_VALUES["complexes"]["bounds"],
+            DEFAULT_PREFIX_SUFFIX_VALUES["complexes"]["prefix.formation"],
+            (0, DEFAULT_CONCENTRATION_BOUND),
         ),
         "enzyme": (
             EnzymeForm,
-            DEFAULT_VALUES["enzymes"]["prefix.formation"],
-            DEFAULT_VALUES["enzymes"]["bounds"],
+            DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["prefix.formation"],
+            (0, DEFAULT_CONCENTRATION_BOUND),
         ),
     }[complex_type]
     coeff_mapping_attr = (
@@ -1299,9 +1298,9 @@ def construct_pcmodel_from_tables(
     enzyme_table,
     max_weight_fraction=DEFAULT_MAX_WEIGHT_FRACTION,
     enzyme_keff_base=DEFAULT_KEFF,
-    enzyme_forward_suffix=DEFAULT_ENZYME_FORWARD_SUFFIX,
-    enzyme_reverse_suffix=DEFAULT_ENZYME_REVERSE_SUFFIX,
-    enzyme_total_suffix=DEFAULT_ENZYME_TOTAL_SUFFIX,
+    enzyme_forward_suffix=None,
+    enzyme_reverse_suffix=None,
+    enzyme_total_suffix=None,
     include_complex_dilutions=False,
     irrev_rxn_complex_keff=None,
     verbose=0,
@@ -1327,8 +1326,8 @@ def construct_pcmodel_from_tables(
     tables = {}
     add_table_cols = defaultdict(dict)
     direction_dict = {
-        "forward": (enzyme_forward_suffix, -1),
-        "reverse": (enzyme_reverse_suffix, 1),
+        "forward": (DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["suffix.forward"] if not enzyme_forward_suffix else enzyme_forward_suffix, -1),
+        "reverse": (DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["suffix.reverse"] if not enzyme_reverse_suffix else enzyme_reverse_suffix, 1),
     }
     for table_type, table, additional in zip(
         ["proteins", "complexes", "enzymes"],
@@ -1478,12 +1477,12 @@ def construct_pcmodel_from_tables(
                 (
                     float(row.get("lower_bound"))
                     if row.get("lower_bound")
-                    else DEFAULT_VALUES[table_type]["bounds"][0]
+                    else 0
                 ),
                 (
                     float(row.get("upper_bound"))
                     if row.get("upper_bound")
-                    else DEFAULT_VALUES[table_type]["bounds"][1]
+                    else DEFAULT_CONCENTRATION_BOUND
                 ),
             )
             gene_reaction_rule = (
@@ -1568,12 +1567,12 @@ def construct_pcmodel_from_tables(
                 (
                     float(row.get("lower_bound"))
                     if row.get("lower_bound")
-                    else DEFAULT_VALUES[table_type]["bounds"][0]
+                    else 0
                 ),
                 (
                     float(row.get("upper_bound"))
                     if row.get("upper_bound")
-                    else DEFAULT_VALUES[table_type]["bounds"][1]
+                    else DEFAULT_CONCENTRATION_BOUND
                 ),
             )
             formation_rxn.bounds = bounds
@@ -1637,7 +1636,7 @@ def construct_pcmodel_from_tables(
         table_type,
         print_lvl=verbose,
     )
-    cplx_prefix = DEFAULT_VALUES["complexes"]["prefix.formation"]
+    cplx_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["complexes"]["prefix.formation"]
     try:
         for sid, row in tables[table_type].set_index(table_type).iterrows():
             # 4.1 Create objects
@@ -1718,6 +1717,8 @@ def construct_pcmodel_from_tables(
             )
 
             # Summation variable
+            if not enzyme_total_suffix:
+                enzyme_total_suffix = DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["suffix.total"]
             sum_var = item.id.replace(
                 f"{direction_dict[direction][0]}_", f"{enzyme_total_suffix}_"
             )
@@ -1904,16 +1905,16 @@ def load_overlay_model(
 ):
     model = read_cobra_model(filename)
     if protein_prefixes is None:
-        protein_met_prefix = DEFAULT_VALUES["proteins"]["prefix.metabolite"]
-        protein_dil_prefix = DEFAULT_VALUES["proteins"]["prefix.dilution"]
+        protein_met_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["proteins"]["prefix.metabolite"]
+        protein_dil_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["proteins"]["prefix.dilution"]
     if complex_prefixes is None:
-        complex_met_prefix = DEFAULT_VALUES["complexes"]["prefix.metabolite"]
-        complex_form_prefix = DEFAULT_VALUES["complexes"]["prefix.formation"]
-        complex_dil_prefix = DEFAULT_VALUES["complexes"]["prefix.dilution"]
+        complex_met_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["complexes"]["prefix.metabolite"]
+        complex_form_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["complexes"]["prefix.formation"]
+        complex_dil_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["complexes"]["prefix.dilution"]
     if enzyme_prefixes is None:
-        enzyme_met_prefix = DEFAULT_VALUES["enzymes"]["prefix.metabolite"]
-        enzyme_form_prefix = DEFAULT_VALUES["enzymes"]["prefix.formation"]
-        enzyme_dil_prefix = DEFAULT_VALUES["enzymes"]["prefix.dilution"]
+        enzyme_met_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["prefix.metabolite"]
+        enzyme_form_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["prefix.formation"]
+        enzyme_dil_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["prefix.dilution"]
 
     for prefix, cls in zip(
         [protein_met_prefix, complex_met_prefix, enzyme_met_prefix],
@@ -2022,8 +2023,8 @@ def add_relaxation_budget(pcmodel, slack_value, verbose=False):
             id=rid,
             name=protdl.name,
             subsystem=f"Pseudoreactions, Relaxation concentrations",
-            lower_bound=DEFAULT_VALUES["proteins"]["bounds"][0],
-            upper_bound=DEFAULT_VALUES["proteins"]["bounds"][1],
+            lower_bound=0,
+            upper_bound=DEFAULT_CONCENTRATION_BOUND,
         )
         # Store MW for relaxation bound
         relax_to_protmw_dict[rid] = protmw
