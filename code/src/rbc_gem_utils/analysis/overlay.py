@@ -855,13 +855,17 @@ def create_enzyme_table(
             lambda x: f"{prefix}{x}".replace("-", "_")
         )
     if not enzyme_forward_suffix:
-        enzyme_forward_suffix = DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["suffix.forward"]
+        enzyme_forward_suffix = DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"][
+            "suffix.forward"
+        ]
     table[f"{table_type_strip}{enzyme_forward_suffix}"] = table[table_type_strip].apply(
         lambda x: f"{x}{enzyme_forward_suffix}"
     )
 
     if not enzyme_reverse_suffix:
-        enzyme_reverse_suffix = DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["suffix.reverse"]
+        enzyme_reverse_suffix = DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"][
+            "suffix.reverse"
+        ]
     table[f"{table_type_strip}{enzyme_reverse_suffix}"] = table[table_type_strip].apply(
         lambda x: f"{x}{enzyme_reverse_suffix}"
     )
@@ -1100,7 +1104,7 @@ def add_dilution_reaction(
         "protein": (
             ProteinDilution,
             DEFAULT_PREFIX_SUFFIX_VALUES["proteins"]["prefix.dilution"],
-            (0, DEFAULT_CONCENTRATION_BOUND)
+            (0, DEFAULT_CONCENTRATION_BOUND),
         ),
         "complex": (
             ComplexDilution,
@@ -1326,8 +1330,22 @@ def construct_pcmodel_from_tables(
     tables = {}
     add_table_cols = defaultdict(dict)
     direction_dict = {
-        "forward": (DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["suffix.forward"] if not enzyme_forward_suffix else enzyme_forward_suffix, -1),
-        "reverse": (DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["suffix.reverse"] if not enzyme_reverse_suffix else enzyme_reverse_suffix, 1),
+        "forward": (
+            (
+                DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["suffix.forward"]
+                if not enzyme_forward_suffix
+                else enzyme_forward_suffix
+            ),
+            -1,
+        ),
+        "reverse": (
+            (
+                DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["suffix.reverse"]
+                if not enzyme_reverse_suffix
+                else enzyme_reverse_suffix
+            ),
+            1,
+        ),
     }
     for table_type, table, additional in zip(
         ["proteins", "complexes", "enzymes"],
@@ -1474,11 +1492,7 @@ def construct_pcmodel_from_tables(
             # Pseudoreactions use the "flux bounds" to be representative of concentrations in nmol / gDW
             # Concetrations are always positive, therefore pseudoreactions are irreversible in the direction that facilitates a positive concentration.
             bounds = (
-                (
-                    float(row.get("lower_bound"))
-                    if row.get("lower_bound")
-                    else 0
-                ),
+                (float(row.get("lower_bound")) if row.get("lower_bound") else 0),
                 (
                     float(row.get("upper_bound"))
                     if row.get("upper_bound")
@@ -1564,11 +1578,7 @@ def construct_pcmodel_from_tables(
                 gene_reaction_rule=gene_reaction_rule,
             )
             bounds = (
-                (
-                    float(row.get("lower_bound"))
-                    if row.get("lower_bound")
-                    else 0
-                ),
+                (float(row.get("lower_bound")) if row.get("lower_bound") else 0),
                 (
                     float(row.get("upper_bound"))
                     if row.get("upper_bound")
@@ -1718,7 +1728,9 @@ def construct_pcmodel_from_tables(
 
             # Summation variable
             if not enzyme_total_suffix:
-                enzyme_total_suffix = DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["suffix.total"]
+                enzyme_total_suffix = DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"][
+                    "suffix.total"
+                ]
             sum_var = item.id.replace(
                 f"{direction_dict[direction][0]}_", f"{enzyme_total_suffix}_"
             )
@@ -1905,12 +1917,20 @@ def load_overlay_model(
 ):
     model = read_cobra_model(filename)
     if protein_prefixes is None:
-        protein_met_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["proteins"]["prefix.metabolite"]
+        protein_met_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["proteins"][
+            "prefix.metabolite"
+        ]
         protein_dil_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["proteins"]["prefix.dilution"]
     if complex_prefixes is None:
-        complex_met_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["complexes"]["prefix.metabolite"]
-        complex_form_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["complexes"]["prefix.formation"]
-        complex_dil_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["complexes"]["prefix.dilution"]
+        complex_met_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["complexes"][
+            "prefix.metabolite"
+        ]
+        complex_form_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["complexes"][
+            "prefix.formation"
+        ]
+        complex_dil_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["complexes"][
+            "prefix.dilution"
+        ]
     if enzyme_prefixes is None:
         enzyme_met_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["prefix.metabolite"]
         enzyme_form_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["prefix.formation"]
