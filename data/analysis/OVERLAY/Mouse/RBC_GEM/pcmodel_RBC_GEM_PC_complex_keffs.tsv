@@ -45,7 +45,7 @@ enzyme_23E1QN1GST_fwd	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	23E1QN1GST	estr
 enzyme_23E1QN1GST_fwd	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	23E1QN1GST	estrone23qn_c + gthrd_c --> 1sgth2hoxe1_c
 enzyme_23E1QN1GST_fwd	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	23E1QN1GST	estrone23qn_c + gthrd_c --> 1sgth2hoxe1_c
 enzyme_23E1QN1GST_fwd	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	23E1QN1GST	estrone23qn_c + gthrd_c --> 1sgth2hoxe1_c
-enzyme_23E1QN1GST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	23E1QN1GST	estrone23qn_c + gthrd_c --> 1sgth2hoxe1_c
+enzyme_23E1QN1GST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	23E1QN1GST	estrone23qn_c + gthrd_c --> 1sgth2hoxe1_c
 enzyme_23E1QN1GST_fwd	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	23E1QN1GST	estrone23qn_c + gthrd_c --> 1sgth2hoxe1_c
 enzyme_23E1QN1GST_fwd	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	23E1QN1GST	estrone23qn_c + gthrd_c --> 1sgth2hoxe1_c
 enzyme_23E1QN1GST_fwd	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	23E1QN1GST	estrone23qn_c + gthrd_c --> 1sgth2hoxe1_c
@@ -58,7 +58,7 @@ enzyme_23E1QN1GST_rev	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	23E1QN1GST	estr
 enzyme_23E1QN1GST_rev	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	23E1QN1GST	estrone23qn_c + gthrd_c <-- 1sgth2hoxe1_c
 enzyme_23E1QN1GST_rev	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	23E1QN1GST	estrone23qn_c + gthrd_c <-- 1sgth2hoxe1_c
 enzyme_23E1QN1GST_rev	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	23E1QN1GST	estrone23qn_c + gthrd_c <-- 1sgth2hoxe1_c
-enzyme_23E1QN1GST_rev	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	23E1QN1GST	estrone23qn_c + gthrd_c <-- 1sgth2hoxe1_c
+enzyme_23E1QN1GST_rev	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	23E1QN1GST	estrone23qn_c + gthrd_c <-- 1sgth2hoxe1_c
 enzyme_23E1QN1GST_rev	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	23E1QN1GST	estrone23qn_c + gthrd_c <-- 1sgth2hoxe1_c
 enzyme_23E1QN1GST_rev	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	23E1QN1GST	estrone23qn_c + gthrd_c <-- 1sgth2hoxe1_c
 enzyme_23E1QN1GST_rev	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	23E1QN1GST	estrone23qn_c + gthrd_c <-- 1sgth2hoxe1_c
@@ -71,7 +71,7 @@ enzyme_23E1QN4GST_fwd	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	23E1QN4GST	estr
 enzyme_23E1QN4GST_fwd	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	23E1QN4GST	estrone23qn_c + gthrd_c --> 4sgth2hoxe1_c
 enzyme_23E1QN4GST_fwd	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	23E1QN4GST	estrone23qn_c + gthrd_c --> 4sgth2hoxe1_c
 enzyme_23E1QN4GST_fwd	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	23E1QN4GST	estrone23qn_c + gthrd_c --> 4sgth2hoxe1_c
-enzyme_23E1QN4GST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	23E1QN4GST	estrone23qn_c + gthrd_c --> 4sgth2hoxe1_c
+enzyme_23E1QN4GST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	23E1QN4GST	estrone23qn_c + gthrd_c --> 4sgth2hoxe1_c
 enzyme_23E1QN4GST_fwd	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	23E1QN4GST	estrone23qn_c + gthrd_c --> 4sgth2hoxe1_c
 enzyme_23E1QN4GST_fwd	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	23E1QN4GST	estrone23qn_c + gthrd_c --> 4sgth2hoxe1_c
 enzyme_23E1QN4GST_fwd	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	23E1QN4GST	estrone23qn_c + gthrd_c --> 4sgth2hoxe1_c
@@ -84,7 +84,7 @@ enzyme_23E1QN4GST_rev	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	23E1QN4GST	estr
 enzyme_23E1QN4GST_rev	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	23E1QN4GST	estrone23qn_c + gthrd_c <-- 4sgth2hoxe1_c
 enzyme_23E1QN4GST_rev	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	23E1QN4GST	estrone23qn_c + gthrd_c <-- 4sgth2hoxe1_c
 enzyme_23E1QN4GST_rev	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	23E1QN4GST	estrone23qn_c + gthrd_c <-- 4sgth2hoxe1_c
-enzyme_23E1QN4GST_rev	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	23E1QN4GST	estrone23qn_c + gthrd_c <-- 4sgth2hoxe1_c
+enzyme_23E1QN4GST_rev	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	23E1QN4GST	estrone23qn_c + gthrd_c <-- 4sgth2hoxe1_c
 enzyme_23E1QN4GST_rev	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	23E1QN4GST	estrone23qn_c + gthrd_c <-- 4sgth2hoxe1_c
 enzyme_23E1QN4GST_rev	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	23E1QN4GST	estrone23qn_c + gthrd_c <-- 4sgth2hoxe1_c
 enzyme_23E1QN4GST_rev	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	23E1QN4GST	estrone23qn_c + gthrd_c <-- 4sgth2hoxe1_c
@@ -97,7 +97,7 @@ enzyme_23E2QN1GST_fwd	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	23E2QN1GST	estr
 enzyme_23E2QN1GST_fwd	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	23E2QN1GST	estradiol23qn_c + gthrd_c --> 1sgth2hoxe2_c
 enzyme_23E2QN1GST_fwd	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	23E2QN1GST	estradiol23qn_c + gthrd_c --> 1sgth2hoxe2_c
 enzyme_23E2QN1GST_fwd	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	23E2QN1GST	estradiol23qn_c + gthrd_c --> 1sgth2hoxe2_c
-enzyme_23E2QN1GST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	23E2QN1GST	estradiol23qn_c + gthrd_c --> 1sgth2hoxe2_c
+enzyme_23E2QN1GST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	23E2QN1GST	estradiol23qn_c + gthrd_c --> 1sgth2hoxe2_c
 enzyme_23E2QN1GST_fwd	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	23E2QN1GST	estradiol23qn_c + gthrd_c --> 1sgth2hoxe2_c
 enzyme_23E2QN1GST_fwd	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	23E2QN1GST	estradiol23qn_c + gthrd_c --> 1sgth2hoxe2_c
 enzyme_23E2QN1GST_fwd	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	23E2QN1GST	estradiol23qn_c + gthrd_c --> 1sgth2hoxe2_c
@@ -110,7 +110,7 @@ enzyme_23E2QN1GST_rev	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	23E2QN1GST	estr
 enzyme_23E2QN1GST_rev	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	23E2QN1GST	estradiol23qn_c + gthrd_c <-- 1sgth2hoxe2_c
 enzyme_23E2QN1GST_rev	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	23E2QN1GST	estradiol23qn_c + gthrd_c <-- 1sgth2hoxe2_c
 enzyme_23E2QN1GST_rev	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	23E2QN1GST	estradiol23qn_c + gthrd_c <-- 1sgth2hoxe2_c
-enzyme_23E2QN1GST_rev	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	23E2QN1GST	estradiol23qn_c + gthrd_c <-- 1sgth2hoxe2_c
+enzyme_23E2QN1GST_rev	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	23E2QN1GST	estradiol23qn_c + gthrd_c <-- 1sgth2hoxe2_c
 enzyme_23E2QN1GST_rev	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	23E2QN1GST	estradiol23qn_c + gthrd_c <-- 1sgth2hoxe2_c
 enzyme_23E2QN1GST_rev	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	23E2QN1GST	estradiol23qn_c + gthrd_c <-- 1sgth2hoxe2_c
 enzyme_23E2QN1GST_rev	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	23E2QN1GST	estradiol23qn_c + gthrd_c <-- 1sgth2hoxe2_c
@@ -123,7 +123,7 @@ enzyme_23E2QN4GST_fwd	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	23E2QN4GST	estr
 enzyme_23E2QN4GST_fwd	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	23E2QN4GST	estradiol23qn_c + gthrd_c --> 4sgth2hoxe2_c
 enzyme_23E2QN4GST_fwd	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	23E2QN4GST	estradiol23qn_c + gthrd_c --> 4sgth2hoxe2_c
 enzyme_23E2QN4GST_fwd	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	23E2QN4GST	estradiol23qn_c + gthrd_c --> 4sgth2hoxe2_c
-enzyme_23E2QN4GST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	23E2QN4GST	estradiol23qn_c + gthrd_c --> 4sgth2hoxe2_c
+enzyme_23E2QN4GST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	23E2QN4GST	estradiol23qn_c + gthrd_c --> 4sgth2hoxe2_c
 enzyme_23E2QN4GST_fwd	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	23E2QN4GST	estradiol23qn_c + gthrd_c --> 4sgth2hoxe2_c
 enzyme_23E2QN4GST_fwd	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	23E2QN4GST	estradiol23qn_c + gthrd_c --> 4sgth2hoxe2_c
 enzyme_23E2QN4GST_fwd	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	23E2QN4GST	estradiol23qn_c + gthrd_c --> 4sgth2hoxe2_c
@@ -136,7 +136,7 @@ enzyme_23E2QN4GST_rev	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	23E2QN4GST	estr
 enzyme_23E2QN4GST_rev	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	23E2QN4GST	estradiol23qn_c + gthrd_c <-- 4sgth2hoxe2_c
 enzyme_23E2QN4GST_rev	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	23E2QN4GST	estradiol23qn_c + gthrd_c <-- 4sgth2hoxe2_c
 enzyme_23E2QN4GST_rev	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	23E2QN4GST	estradiol23qn_c + gthrd_c <-- 4sgth2hoxe2_c
-enzyme_23E2QN4GST_rev	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	23E2QN4GST	estradiol23qn_c + gthrd_c <-- 4sgth2hoxe2_c
+enzyme_23E2QN4GST_rev	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	23E2QN4GST	estradiol23qn_c + gthrd_c <-- 4sgth2hoxe2_c
 enzyme_23E2QN4GST_rev	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	23E2QN4GST	estradiol23qn_c + gthrd_c <-- 4sgth2hoxe2_c
 enzyme_23E2QN4GST_rev	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	23E2QN4GST	estradiol23qn_c + gthrd_c <-- 4sgth2hoxe2_c
 enzyme_23E2QN4GST_rev	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	23E2QN4GST	estradiol23qn_c + gthrd_c <-- 4sgth2hoxe2_c
@@ -473,7 +473,7 @@ enzyme_34E1QN2GST_fwd	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	34E1QN2GST	estr
 enzyme_34E1QN2GST_fwd	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	34E1QN2GST	estrone34qn_c + gthrd_c --> 2sgth4hoxe1_c
 enzyme_34E1QN2GST_fwd	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	34E1QN2GST	estrone34qn_c + gthrd_c --> 2sgth4hoxe1_c
 enzyme_34E1QN2GST_fwd	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	34E1QN2GST	estrone34qn_c + gthrd_c --> 2sgth4hoxe1_c
-enzyme_34E1QN2GST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	34E1QN2GST	estrone34qn_c + gthrd_c --> 2sgth4hoxe1_c
+enzyme_34E1QN2GST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	34E1QN2GST	estrone34qn_c + gthrd_c --> 2sgth4hoxe1_c
 enzyme_34E1QN2GST_fwd	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	34E1QN2GST	estrone34qn_c + gthrd_c --> 2sgth4hoxe1_c
 enzyme_34E1QN2GST_fwd	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	34E1QN2GST	estrone34qn_c + gthrd_c --> 2sgth4hoxe1_c
 enzyme_34E1QN2GST_fwd	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	34E1QN2GST	estrone34qn_c + gthrd_c --> 2sgth4hoxe1_c
@@ -486,7 +486,7 @@ enzyme_34E1QN2GST_rev	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	34E1QN2GST	estr
 enzyme_34E1QN2GST_rev	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	34E1QN2GST	estrone34qn_c + gthrd_c <-- 2sgth4hoxe1_c
 enzyme_34E1QN2GST_rev	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	34E1QN2GST	estrone34qn_c + gthrd_c <-- 2sgth4hoxe1_c
 enzyme_34E1QN2GST_rev	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	34E1QN2GST	estrone34qn_c + gthrd_c <-- 2sgth4hoxe1_c
-enzyme_34E1QN2GST_rev	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	34E1QN2GST	estrone34qn_c + gthrd_c <-- 2sgth4hoxe1_c
+enzyme_34E1QN2GST_rev	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	34E1QN2GST	estrone34qn_c + gthrd_c <-- 2sgth4hoxe1_c
 enzyme_34E1QN2GST_rev	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	34E1QN2GST	estrone34qn_c + gthrd_c <-- 2sgth4hoxe1_c
 enzyme_34E1QN2GST_rev	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	34E1QN2GST	estrone34qn_c + gthrd_c <-- 2sgth4hoxe1_c
 enzyme_34E1QN2GST_rev	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	34E1QN2GST	estrone34qn_c + gthrd_c <-- 2sgth4hoxe1_c
@@ -499,7 +499,7 @@ enzyme_34E2QN2GST_fwd	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	34E2QN2GST	estr
 enzyme_34E2QN2GST_fwd	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	34E2QN2GST	estradiol34qn_c + gthrd_c --> 2sgth4hoxe2_c
 enzyme_34E2QN2GST_fwd	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	34E2QN2GST	estradiol34qn_c + gthrd_c --> 2sgth4hoxe2_c
 enzyme_34E2QN2GST_fwd	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	34E2QN2GST	estradiol34qn_c + gthrd_c --> 2sgth4hoxe2_c
-enzyme_34E2QN2GST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	34E2QN2GST	estradiol34qn_c + gthrd_c --> 2sgth4hoxe2_c
+enzyme_34E2QN2GST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	34E2QN2GST	estradiol34qn_c + gthrd_c --> 2sgth4hoxe2_c
 enzyme_34E2QN2GST_fwd	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	34E2QN2GST	estradiol34qn_c + gthrd_c --> 2sgth4hoxe2_c
 enzyme_34E2QN2GST_fwd	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	34E2QN2GST	estradiol34qn_c + gthrd_c --> 2sgth4hoxe2_c
 enzyme_34E2QN2GST_fwd	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	34E2QN2GST	estradiol34qn_c + gthrd_c --> 2sgth4hoxe2_c
@@ -512,7 +512,7 @@ enzyme_34E2QN2GST_rev	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	34E2QN2GST	estr
 enzyme_34E2QN2GST_rev	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	34E2QN2GST	estradiol34qn_c + gthrd_c <-- 2sgth4hoxe2_c
 enzyme_34E2QN2GST_rev	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	34E2QN2GST	estradiol34qn_c + gthrd_c <-- 2sgth4hoxe2_c
 enzyme_34E2QN2GST_rev	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	34E2QN2GST	estradiol34qn_c + gthrd_c <-- 2sgth4hoxe2_c
-enzyme_34E2QN2GST_rev	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	34E2QN2GST	estradiol34qn_c + gthrd_c <-- 2sgth4hoxe2_c
+enzyme_34E2QN2GST_rev	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	34E2QN2GST	estradiol34qn_c + gthrd_c <-- 2sgth4hoxe2_c
 enzyme_34E2QN2GST_rev	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	34E2QN2GST	estradiol34qn_c + gthrd_c <-- 2sgth4hoxe2_c
 enzyme_34E2QN2GST_rev	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	34E2QN2GST	estradiol34qn_c + gthrd_c <-- 2sgth4hoxe2_c
 enzyme_34E2QN2GST_rev	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	34E2QN2GST	estradiol34qn_c + gthrd_c <-- 2sgth4hoxe2_c
@@ -683,10 +683,10 @@ enzyme_56DHIPX_rev	cplx_HOMODIMER_Prdx6	0	pc	56DHIPX	2.0 56dhi_c + h2o2_c <-- 2.
 enzyme_56DHIPX_rev	cplx_HOMOTETRAMER_Cat	0	pc	56DHIPX	2.0 56dhi_c + h2o2_c <-- 2.0 h2o_c + 2.0 ind56sqn_c
 enzyme_5ADHTRy_fwd	cplx_HOMOTETRAMER_Dhrs11	235400.5677892584	pc	5ADHTRy	5adtststerone_c + h_c + nadph_c --> 5aand3a17bdiol_c + nadp_c
 enzyme_5ADHTRy_fwd	cplx_MONOMER_Akr1c18	102196.76955376353	pc	5ADHTRy	5adtststerone_c + h_c + nadph_c --> 5aand3a17bdiol_c + nadp_c
-enzyme_5ADHTRy_fwd	cplx_MONOMER_Akr1c6	101949.01701113187	pc	5ADHTRy	5adtststerone_c + h_c + nadph_c --> 5aand3a17bdiol_c + nadp_c
+enzyme_5ADHTRy_fwd	cplx_MONOMER_Akr1c6	101949.01701113189	pc	5ADHTRy	5adtststerone_c + h_c + nadph_c --> 5aand3a17bdiol_c + nadp_c
 enzyme_5ADHTRy_rev	cplx_HOMOTETRAMER_Dhrs11	235400.5677892584	pc	5ADHTRy	5adtststerone_c + h_c + nadph_c <-- 5aand3a17bdiol_c + nadp_c
 enzyme_5ADHTRy_rev	cplx_MONOMER_Akr1c18	102196.76955376353	pc	5ADHTRy	5adtststerone_c + h_c + nadph_c <-- 5aand3a17bdiol_c + nadp_c
-enzyme_5ADHTRy_rev	cplx_MONOMER_Akr1c6	101949.01701113187	pc	5ADHTRy	5adtststerone_c + h_c + nadph_c <-- 5aand3a17bdiol_c + nadp_c
+enzyme_5ADHTRy_rev	cplx_MONOMER_Akr1c6	101949.01701113189	pc	5ADHTRy	5adtststerone_c + h_c + nadph_c <-- 5aand3a17bdiol_c + nadp_c
 enzyme_5AOPt2_fwd	cplx_HOMOTETRAMER_Tspo2	169803.780637468	pc	5AOPt2	5aop_e + h_e --> 5aop_c + h_c
 enzyme_5AOPt2_rev	cplx_HOMOTETRAMER_Tspo2	0	pc	5AOPt2	5aop_e + h_e <-- 5aop_c + h_c
 enzyme_5FLUDPK_fwd	cplx_HETEROHEXAMER_Nme1_Nme2_1a1b	221118.14116037745	pc	5FLUDPK	5fludp_c + atp_c --> 5flutp_c + adp_c
@@ -844,7 +844,7 @@ enzyme_5PPINSP5P1K_rev	cplx_MONOMER_Ppip5k2	0	pc	5PPINSP5P1K	5ppins5p_c + atp_c 
 enzyme_6HOPTHPDH_fwd	cplx_MONOMER_Akr1b1	99211.66593810685	pc	6HOPTHPDH	6hopthp_c + h_c + nadph_c --> nadp_c + thbpt_c
 enzyme_6HOPTHPDH_rev	cplx_MONOMER_Akr1b1	99211.66593810685	pc	6HOPTHPDH	6hopthp_c + h_c + nadph_c <-- nadp_c + thbpt_c
 enzyme_6PTHPDH2_fwd	cplx_MONOMER_Akr1c18	102196.76955376353	pc	6PTHPDH2	6pthp_c + h_c + nadph_c --> 6hopthp_c + nadp_c
-enzyme_6PTHPDH2_fwd	cplx_MONOMER_Akr1c6	101949.01701113187	pc	6PTHPDH2	6pthp_c + h_c + nadph_c --> 6hopthp_c + nadp_c
+enzyme_6PTHPDH2_fwd	cplx_MONOMER_Akr1c6	101949.01701113189	pc	6PTHPDH2	6pthp_c + h_c + nadph_c --> 6hopthp_c + nadp_c
 enzyme_6PTHPDH2_rev	cplx_MONOMER_Akr1c18	0	pc	6PTHPDH2	6pthp_c + h_c + nadph_c <-- 6hopthp_c + nadp_c
 enzyme_6PTHPDH2_rev	cplx_MONOMER_Akr1c6	0	pc	6PTHPDH2	6pthp_c + h_c + nadph_c <-- 6hopthp_c + nadp_c
 enzyme_6PTHPDH_fwd	cplx_MONOMER_Akr1b1	99211.66593810685	pc	6PTHPDH	6pthp_c + h_c + nadph_c --> 6lthp_c + nadp_c
@@ -1081,7 +1081,7 @@ enzyme_ADRNCHRGST_fwd	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	ADRNCHRGST	adrn
 enzyme_ADRNCHRGST_fwd	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	ADRNCHRGST	adrnchrm_c + gthrd_c --> 5sgthleuadrnchrm_c
 enzyme_ADRNCHRGST_fwd	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	ADRNCHRGST	adrnchrm_c + gthrd_c --> 5sgthleuadrnchrm_c
 enzyme_ADRNCHRGST_fwd	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	ADRNCHRGST	adrnchrm_c + gthrd_c --> 5sgthleuadrnchrm_c
-enzyme_ADRNCHRGST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	ADRNCHRGST	adrnchrm_c + gthrd_c --> 5sgthleuadrnchrm_c
+enzyme_ADRNCHRGST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	ADRNCHRGST	adrnchrm_c + gthrd_c --> 5sgthleuadrnchrm_c
 enzyme_ADRNCHRGST_fwd	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	ADRNCHRGST	adrnchrm_c + gthrd_c --> 5sgthleuadrnchrm_c
 enzyme_ADRNCHRGST_fwd	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	ADRNCHRGST	adrnchrm_c + gthrd_c --> 5sgthleuadrnchrm_c
 enzyme_ADRNCHRGST_fwd	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	ADRNCHRGST	adrnchrm_c + gthrd_c --> 5sgthleuadrnchrm_c
@@ -1094,7 +1094,7 @@ enzyme_ADRNCHRGST_rev	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	ADRNCHRGST	adrn
 enzyme_ADRNCHRGST_rev	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	ADRNCHRGST	adrnchrm_c + gthrd_c <-- 5sgthleuadrnchrm_c
 enzyme_ADRNCHRGST_rev	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	ADRNCHRGST	adrnchrm_c + gthrd_c <-- 5sgthleuadrnchrm_c
 enzyme_ADRNCHRGST_rev	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	ADRNCHRGST	adrnchrm_c + gthrd_c <-- 5sgthleuadrnchrm_c
-enzyme_ADRNCHRGST_rev	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	ADRNCHRGST	adrnchrm_c + gthrd_c <-- 5sgthleuadrnchrm_c
+enzyme_ADRNCHRGST_rev	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	ADRNCHRGST	adrnchrm_c + gthrd_c <-- 5sgthleuadrnchrm_c
 enzyme_ADRNCHRGST_rev	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	ADRNCHRGST	adrnchrm_c + gthrd_c <-- 5sgthleuadrnchrm_c
 enzyme_ADRNCHRGST_rev	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	ADRNCHRGST	adrnchrm_c + gthrd_c <-- 5sgthleuadrnchrm_c
 enzyme_ADRNCHRGST_rev	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	ADRNCHRGST	adrnchrm_c + gthrd_c <-- 5sgthleuadrnchrm_c
@@ -1129,7 +1129,7 @@ enzyme_ADRNLQGST_L_fwd	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	ADRNLQGST_L	ad
 enzyme_ADRNLQGST_L_fwd	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	ADRNLQGST_L	adrnlqn__L_c + gthrd_c --> 5sgthadrnl__L_c
 enzyme_ADRNLQGST_L_fwd	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	ADRNLQGST_L	adrnlqn__L_c + gthrd_c --> 5sgthadrnl__L_c
 enzyme_ADRNLQGST_L_fwd	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	ADRNLQGST_L	adrnlqn__L_c + gthrd_c --> 5sgthadrnl__L_c
-enzyme_ADRNLQGST_L_fwd	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	ADRNLQGST_L	adrnlqn__L_c + gthrd_c --> 5sgthadrnl__L_c
+enzyme_ADRNLQGST_L_fwd	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	ADRNLQGST_L	adrnlqn__L_c + gthrd_c --> 5sgthadrnl__L_c
 enzyme_ADRNLQGST_L_fwd	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	ADRNLQGST_L	adrnlqn__L_c + gthrd_c --> 5sgthadrnl__L_c
 enzyme_ADRNLQGST_L_fwd	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	ADRNLQGST_L	adrnlqn__L_c + gthrd_c --> 5sgthadrnl__L_c
 enzyme_ADRNLQGST_L_fwd	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	ADRNLQGST_L	adrnlqn__L_c + gthrd_c --> 5sgthadrnl__L_c
@@ -1142,7 +1142,7 @@ enzyme_ADRNLQGST_L_rev	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	ADRNLQGST_L	ad
 enzyme_ADRNLQGST_L_rev	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	ADRNLQGST_L	adrnlqn__L_c + gthrd_c <-- 5sgthadrnl__L_c
 enzyme_ADRNLQGST_L_rev	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	ADRNLQGST_L	adrnlqn__L_c + gthrd_c <-- 5sgthadrnl__L_c
 enzyme_ADRNLQGST_L_rev	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	ADRNLQGST_L	adrnlqn__L_c + gthrd_c <-- 5sgthadrnl__L_c
-enzyme_ADRNLQGST_L_rev	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	ADRNLQGST_L	adrnlqn__L_c + gthrd_c <-- 5sgthadrnl__L_c
+enzyme_ADRNLQGST_L_rev	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	ADRNLQGST_L	adrnlqn__L_c + gthrd_c <-- 5sgthadrnl__L_c
 enzyme_ADRNLQGST_L_rev	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	ADRNLQGST_L	adrnlqn__L_c + gthrd_c <-- 5sgthadrnl__L_c
 enzyme_ADRNLQGST_L_rev	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	ADRNLQGST_L	adrnlqn__L_c + gthrd_c <-- 5sgthadrnl__L_c
 enzyme_ADRNLQGST_L_rev	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	ADRNLQGST_L	adrnlqn__L_c + gthrd_c <-- 5sgthadrnl__L_c
@@ -1309,16 +1309,16 @@ enzyme_AMPTASECG_rev	cplx_HOMOHEXAMER_Lap3	0	pc	AMPTASECG	cysgly_c + h2o_c <-- c
 enzyme_AMPTASECG_rev	cplx_MONOMER_Npepps	0	pc	AMPTASECG	cysgly_c + h2o_c <-- cys__L_c + gly_c
 enzyme_ANDRSTNDNRy_fwd	cplx_HOMOTETRAMER_Dhrs11	235400.5677892584	pc	ANDRSTNDNRy	andrstndn_c + h_c + nadph_c --> nadp_c + tststerone_c
 enzyme_ANDRSTNDNRy_fwd	cplx_MONOMER_Akr1c18	102196.76955376353	pc	ANDRSTNDNRy	andrstndn_c + h_c + nadph_c --> nadp_c + tststerone_c
-enzyme_ANDRSTNDNRy_fwd	cplx_MONOMER_Akr1c6	101949.01701113187	pc	ANDRSTNDNRy	andrstndn_c + h_c + nadph_c --> nadp_c + tststerone_c
+enzyme_ANDRSTNDNRy_fwd	cplx_MONOMER_Akr1c6	101949.01701113189	pc	ANDRSTNDNRy	andrstndn_c + h_c + nadph_c --> nadp_c + tststerone_c
 enzyme_ANDRSTNDNRy_fwd	cplx_MONOMER_Hsd17b12	97175.7617636381	pc	ANDRSTNDNRy	andrstndn_c + h_c + nadph_c --> nadp_c + tststerone_c
 enzyme_ANDRSTNDNRy_rev	cplx_HOMOTETRAMER_Dhrs11	235400.5677892584	pc	ANDRSTNDNRy	andrstndn_c + h_c + nadph_c <-- nadp_c + tststerone_c
 enzyme_ANDRSTNDNRy_rev	cplx_MONOMER_Akr1c18	102196.76955376353	pc	ANDRSTNDNRy	andrstndn_c + h_c + nadph_c <-- nadp_c + tststerone_c
-enzyme_ANDRSTNDNRy_rev	cplx_MONOMER_Akr1c6	101949.01701113187	pc	ANDRSTNDNRy	andrstndn_c + h_c + nadph_c <-- nadp_c + tststerone_c
+enzyme_ANDRSTNDNRy_rev	cplx_MONOMER_Akr1c6	101949.01701113189	pc	ANDRSTNDNRy	andrstndn_c + h_c + nadph_c <-- nadp_c + tststerone_c
 enzyme_ANDRSTNDNRy_rev	cplx_MONOMER_Hsd17b12	97175.7617636381	pc	ANDRSTNDNRy	andrstndn_c + h_c + nadph_c <-- nadp_c + tststerone_c
 enzyme_ANDRSTRNRy_fwd	cplx_MONOMER_Akr1c18	102196.76955376353	pc	ANDRSTRNRy	andrstrn_c + h_c + nadph_c --> 5aand3a17bdiol_c + nadp_c
-enzyme_ANDRSTRNRy_fwd	cplx_MONOMER_Akr1c6	101949.01701113187	pc	ANDRSTRNRy	andrstrn_c + h_c + nadph_c --> 5aand3a17bdiol_c + nadp_c
+enzyme_ANDRSTRNRy_fwd	cplx_MONOMER_Akr1c6	101949.01701113189	pc	ANDRSTRNRy	andrstrn_c + h_c + nadph_c --> 5aand3a17bdiol_c + nadp_c
 enzyme_ANDRSTRNRy_rev	cplx_MONOMER_Akr1c18	102196.76955376353	pc	ANDRSTRNRy	andrstrn_c + h_c + nadph_c <-- 5aand3a17bdiol_c + nadp_c
-enzyme_ANDRSTRNRy_rev	cplx_MONOMER_Akr1c6	101949.01701113187	pc	ANDRSTRNRy	andrstrn_c + h_c + nadph_c <-- 5aand3a17bdiol_c + nadp_c
+enzyme_ANDRSTRNRy_rev	cplx_MONOMER_Akr1c6	101949.01701113189	pc	ANDRSTRNRy	andrstrn_c + h_c + nadph_c <-- 5aand3a17bdiol_c + nadp_c
 enzyme_ANGIO1THOP_fwd	cplx_COMPLEX_Agt_Thop1	261336.2111666204	pc	ANGIO1THOP	angiotensin1_c + h2o_c --> angiotensin17_c + phehisleu_c
 enzyme_ANGIO1THOP_rev	cplx_COMPLEX_Agt_Thop1	0	pc	ANGIO1THOP	angiotensin1_c + h2o_c <-- angiotensin17_c + phehisleu_c
 enzyme_ANGIO2ASPH_fwd	cplx_COMPLEX_Agt_Dnpep	902418.3907638952	pc	ANGIO2ASPH	angiotensin2_c + h2o_c --> angiotensin3_c + asp__L_c + h_c
@@ -2157,7 +2157,7 @@ enzyme_CU1ABCte_rev	cplx_MONOMER_Atp7a	0	pc	CU1ABCte	atp_c + cu1_c + h2o_c <-- a
 enzyme_CU1ABCte_rev	cplx_MONOMER_Atp7b	0	pc	CU1ABCte	atp_c + cu1_c + h2o_c <-- adp_c + cu1_e + h_c + pi_c
 enzyme_CU1tec_fwd	cplx_HOMOTRIMER_Slc31a1	156972.7551824552	pc	CU1tec	cu1_e --> cu1_c
 enzyme_CU1tec_rev	cplx_HOMOTRIMER_Slc31a1	0	pc	CU1tec	cu1_e <-- cu1_c
-enzyme_CU2RD_fwd	cplx_HOMODIMER_Steap3	229831.44028799635	pc	CU2RD	2.0 cu2_c + nadph_c --> 2.0 cu1_c + h_c + nadp_c
+enzyme_CU2RD_fwd	cplx_HOMODIMER_Steap3	229831.44028799632	pc	CU2RD	2.0 cu2_c + nadph_c --> 2.0 cu1_c + h_c + nadp_c
 enzyme_CU2RD_rev	cplx_HOMODIMER_Steap3	0	pc	CU2RD	2.0 cu2_c + nadph_c <-- 2.0 cu1_c + h_c + nadp_c
 enzyme_CYSADMARGNaEx_fwd	cplx_HETERODIMER_Slc7a6_Slc3a2	238549.2106838629	pc	CYSADMARGNaEx	admarg__L_c + cys__L_e + na1_e --> admarg__L_e + cys__L_c + na1_c
 enzyme_CYSADMARGNaEx_rev	cplx_HETERODIMER_Slc7a6_Slc3a2	0	pc	CYSADMARGNaEx	admarg__L_c + cys__L_e + na1_e <-- admarg__L_e + cys__L_c + na1_c
@@ -2575,7 +2575,7 @@ enzyme_DOPAQGST_L_fwd	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	DOPAQGST_L	dopa
 enzyme_DOPAQGST_L_fwd	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	DOPAQGST_L	dopaqn__L_c + gthrd_c --> 5sgthdopa__L_c
 enzyme_DOPAQGST_L_fwd	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	DOPAQGST_L	dopaqn__L_c + gthrd_c --> 5sgthdopa__L_c
 enzyme_DOPAQGST_L_fwd	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	DOPAQGST_L	dopaqn__L_c + gthrd_c --> 5sgthdopa__L_c
-enzyme_DOPAQGST_L_fwd	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	DOPAQGST_L	dopaqn__L_c + gthrd_c --> 5sgthdopa__L_c
+enzyme_DOPAQGST_L_fwd	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	DOPAQGST_L	dopaqn__L_c + gthrd_c --> 5sgthdopa__L_c
 enzyme_DOPAQGST_L_fwd	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	DOPAQGST_L	dopaqn__L_c + gthrd_c --> 5sgthdopa__L_c
 enzyme_DOPAQGST_L_fwd	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	DOPAQGST_L	dopaqn__L_c + gthrd_c --> 5sgthdopa__L_c
 enzyme_DOPAQGST_L_fwd	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	DOPAQGST_L	dopaqn__L_c + gthrd_c --> 5sgthdopa__L_c
@@ -2588,7 +2588,7 @@ enzyme_DOPAQGST_L_rev	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	DOPAQGST_L	dopa
 enzyme_DOPAQGST_L_rev	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	DOPAQGST_L	dopaqn__L_c + gthrd_c <-- 5sgthdopa__L_c
 enzyme_DOPAQGST_L_rev	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	DOPAQGST_L	dopaqn__L_c + gthrd_c <-- 5sgthdopa__L_c
 enzyme_DOPAQGST_L_rev	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	DOPAQGST_L	dopaqn__L_c + gthrd_c <-- 5sgthdopa__L_c
-enzyme_DOPAQGST_L_rev	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	DOPAQGST_L	dopaqn__L_c + gthrd_c <-- 5sgthdopa__L_c
+enzyme_DOPAQGST_L_rev	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	DOPAQGST_L	dopaqn__L_c + gthrd_c <-- 5sgthdopa__L_c
 enzyme_DOPAQGST_L_rev	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	DOPAQGST_L	dopaqn__L_c + gthrd_c <-- 5sgthdopa__L_c
 enzyme_DOPAQGST_L_rev	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	DOPAQGST_L	dopaqn__L_c + gthrd_c <-- 5sgthdopa__L_c
 enzyme_DOPAQGST_L_rev	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	DOPAQGST_L	dopaqn__L_c + gthrd_c <-- 5sgthdopa__L_c
@@ -2615,7 +2615,7 @@ enzyme_DPAMCHRGST_fwd	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	DPAMCHRGST	dpam
 enzyme_DPAMCHRGST_fwd	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	DPAMCHRGST	dpamchrm_c + gthrd_c --> 4sgth56dhilne_c
 enzyme_DPAMCHRGST_fwd	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	DPAMCHRGST	dpamchrm_c + gthrd_c --> 4sgth56dhilne_c
 enzyme_DPAMCHRGST_fwd	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	DPAMCHRGST	dpamchrm_c + gthrd_c --> 4sgth56dhilne_c
-enzyme_DPAMCHRGST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	DPAMCHRGST	dpamchrm_c + gthrd_c --> 4sgth56dhilne_c
+enzyme_DPAMCHRGST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	DPAMCHRGST	dpamchrm_c + gthrd_c --> 4sgth56dhilne_c
 enzyme_DPAMCHRGST_fwd	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	DPAMCHRGST	dpamchrm_c + gthrd_c --> 4sgth56dhilne_c
 enzyme_DPAMCHRGST_fwd	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	DPAMCHRGST	dpamchrm_c + gthrd_c --> 4sgth56dhilne_c
 enzyme_DPAMCHRGST_fwd	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	DPAMCHRGST	dpamchrm_c + gthrd_c --> 4sgth56dhilne_c
@@ -2628,7 +2628,7 @@ enzyme_DPAMCHRGST_rev	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	DPAMCHRGST	dpam
 enzyme_DPAMCHRGST_rev	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	DPAMCHRGST	dpamchrm_c + gthrd_c <-- 4sgth56dhilne_c
 enzyme_DPAMCHRGST_rev	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	DPAMCHRGST	dpamchrm_c + gthrd_c <-- 4sgth56dhilne_c
 enzyme_DPAMCHRGST_rev	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	DPAMCHRGST	dpamchrm_c + gthrd_c <-- 4sgth56dhilne_c
-enzyme_DPAMCHRGST_rev	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	DPAMCHRGST	dpamchrm_c + gthrd_c <-- 4sgth56dhilne_c
+enzyme_DPAMCHRGST_rev	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	DPAMCHRGST	dpamchrm_c + gthrd_c <-- 4sgth56dhilne_c
 enzyme_DPAMCHRGST_rev	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	DPAMCHRGST	dpamchrm_c + gthrd_c <-- 4sgth56dhilne_c
 enzyme_DPAMCHRGST_rev	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	DPAMCHRGST	dpamchrm_c + gthrd_c <-- 4sgth56dhilne_c
 enzyme_DPAMCHRGST_rev	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	DPAMCHRGST	dpamchrm_c + gthrd_c <-- 4sgth56dhilne_c
@@ -2663,7 +2663,7 @@ enzyme_DPAMQGST_L_fwd	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	DPAMQGST_L	dpam
 enzyme_DPAMQGST_L_fwd	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	DPAMQGST_L	dpamqn__L_c + gthrd_c --> 5sgthdpam__L_c
 enzyme_DPAMQGST_L_fwd	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	DPAMQGST_L	dpamqn__L_c + gthrd_c --> 5sgthdpam__L_c
 enzyme_DPAMQGST_L_fwd	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	DPAMQGST_L	dpamqn__L_c + gthrd_c --> 5sgthdpam__L_c
-enzyme_DPAMQGST_L_fwd	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	DPAMQGST_L	dpamqn__L_c + gthrd_c --> 5sgthdpam__L_c
+enzyme_DPAMQGST_L_fwd	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	DPAMQGST_L	dpamqn__L_c + gthrd_c --> 5sgthdpam__L_c
 enzyme_DPAMQGST_L_fwd	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	DPAMQGST_L	dpamqn__L_c + gthrd_c --> 5sgthdpam__L_c
 enzyme_DPAMQGST_L_fwd	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	DPAMQGST_L	dpamqn__L_c + gthrd_c --> 5sgthdpam__L_c
 enzyme_DPAMQGST_L_fwd	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	DPAMQGST_L	dpamqn__L_c + gthrd_c --> 5sgthdpam__L_c
@@ -2676,7 +2676,7 @@ enzyme_DPAMQGST_L_rev	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	DPAMQGST_L	dpam
 enzyme_DPAMQGST_L_rev	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	DPAMQGST_L	dpamqn__L_c + gthrd_c <-- 5sgthdpam__L_c
 enzyme_DPAMQGST_L_rev	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	DPAMQGST_L	dpamqn__L_c + gthrd_c <-- 5sgthdpam__L_c
 enzyme_DPAMQGST_L_rev	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	DPAMQGST_L	dpamqn__L_c + gthrd_c <-- 5sgthdpam__L_c
-enzyme_DPAMQGST_L_rev	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	DPAMQGST_L	dpamqn__L_c + gthrd_c <-- 5sgthdpam__L_c
+enzyme_DPAMQGST_L_rev	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	DPAMQGST_L	dpamqn__L_c + gthrd_c <-- 5sgthdpam__L_c
 enzyme_DPAMQGST_L_rev	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	DPAMQGST_L	dpamqn__L_c + gthrd_c <-- 5sgthdpam__L_c
 enzyme_DPAMQGST_L_rev	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	DPAMQGST_L	dpamqn__L_c + gthrd_c <-- 5sgthdpam__L_c
 enzyme_DPAMQGST_L_rev	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	DPAMQGST_L	dpamqn__L_c + gthrd_c <-- 5sgthdpam__L_c
@@ -2701,7 +2701,7 @@ enzyme_DPCHRGST_L_fwd	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	DPCHRGST_L	dpch
 enzyme_DPCHRGST_L_fwd	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	DPCHRGST_L	dpchrm__L_c + gthrd_c --> 5sgthleudopachr__L_c
 enzyme_DPCHRGST_L_fwd	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	DPCHRGST_L	dpchrm__L_c + gthrd_c --> 5sgthleudopachr__L_c
 enzyme_DPCHRGST_L_fwd	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	DPCHRGST_L	dpchrm__L_c + gthrd_c --> 5sgthleudopachr__L_c
-enzyme_DPCHRGST_L_fwd	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	DPCHRGST_L	dpchrm__L_c + gthrd_c --> 5sgthleudopachr__L_c
+enzyme_DPCHRGST_L_fwd	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	DPCHRGST_L	dpchrm__L_c + gthrd_c --> 5sgthleudopachr__L_c
 enzyme_DPCHRGST_L_fwd	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	DPCHRGST_L	dpchrm__L_c + gthrd_c --> 5sgthleudopachr__L_c
 enzyme_DPCHRGST_L_fwd	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	DPCHRGST_L	dpchrm__L_c + gthrd_c --> 5sgthleudopachr__L_c
 enzyme_DPCHRGST_L_fwd	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	DPCHRGST_L	dpchrm__L_c + gthrd_c --> 5sgthleudopachr__L_c
@@ -2714,7 +2714,7 @@ enzyme_DPCHRGST_L_rev	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	DPCHRGST_L	dpch
 enzyme_DPCHRGST_L_rev	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	DPCHRGST_L	dpchrm__L_c + gthrd_c <-- 5sgthleudopachr__L_c
 enzyme_DPCHRGST_L_rev	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	DPCHRGST_L	dpchrm__L_c + gthrd_c <-- 5sgthleudopachr__L_c
 enzyme_DPCHRGST_L_rev	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	DPCHRGST_L	dpchrm__L_c + gthrd_c <-- 5sgthleudopachr__L_c
-enzyme_DPCHRGST_L_rev	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	DPCHRGST_L	dpchrm__L_c + gthrd_c <-- 5sgthleudopachr__L_c
+enzyme_DPCHRGST_L_rev	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	DPCHRGST_L	dpchrm__L_c + gthrd_c <-- 5sgthleudopachr__L_c
 enzyme_DPCHRGST_L_rev	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	DPCHRGST_L	dpchrm__L_c + gthrd_c <-- 5sgthleudopachr__L_c
 enzyme_DPCHRGST_L_rev	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	DPCHRGST_L	dpchrm__L_c + gthrd_c <-- 5sgthleudopachr__L_c
 enzyme_DPCHRGST_L_rev	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	DPCHRGST_L	dpchrm__L_c + gthrd_c <-- 5sgthleudopachr__L_c
@@ -2902,7 +2902,7 @@ enzyme_ESTRADIOL23Q1ERx_rev	cplx_MONOMER_Cyb5r3	0	pc	ESTRADIOL23Q1ERx	2.0 estrad
 enzyme_ESTRADIOL23Q2ERy_fwd	cplx_HOMODIMER_Akr7a5	183681.60079952388	pc	ESTRADIOL23Q2ERy	estradiol23qn_c + h_c + nadph_c --> 2hoxe2_c + nadp_c
 enzyme_ESTRADIOL23Q2ERy_fwd	cplx_MONOMER_Akr1b1	99211.66593810685	pc	ESTRADIOL23Q2ERy	estradiol23qn_c + h_c + nadph_c --> 2hoxe2_c + nadp_c
 enzyme_ESTRADIOL23Q2ERy_fwd	cplx_MONOMER_Akr1c18	102196.76955376353	pc	ESTRADIOL23Q2ERy	estradiol23qn_c + h_c + nadph_c --> 2hoxe2_c + nadp_c
-enzyme_ESTRADIOL23Q2ERy_fwd	cplx_MONOMER_Akr1c6	101949.01701113187	pc	ESTRADIOL23Q2ERy	estradiol23qn_c + h_c + nadph_c --> 2hoxe2_c + nadp_c
+enzyme_ESTRADIOL23Q2ERy_fwd	cplx_MONOMER_Akr1c6	101949.01701113189	pc	ESTRADIOL23Q2ERy	estradiol23qn_c + h_c + nadph_c --> 2hoxe2_c + nadp_c
 enzyme_ESTRADIOL23Q2ERy_rev	cplx_HOMODIMER_Akr7a5	0	pc	ESTRADIOL23Q2ERy	estradiol23qn_c + h_c + nadph_c <-- 2hoxe2_c + nadp_c
 enzyme_ESTRADIOL23Q2ERy_rev	cplx_MONOMER_Akr1b1	0	pc	ESTRADIOL23Q2ERy	estradiol23qn_c + h_c + nadph_c <-- 2hoxe2_c + nadp_c
 enzyme_ESTRADIOL23Q2ERy_rev	cplx_MONOMER_Akr1c18	0	pc	ESTRADIOL23Q2ERy	estradiol23qn_c + h_c + nadph_c <-- 2hoxe2_c + nadp_c
@@ -2918,7 +2918,7 @@ enzyme_ESTRADIOL34Q1ERx_rev	cplx_MONOMER_Cyb5r3	0	pc	ESTRADIOL34Q1ERx	2.0 estrad
 enzyme_ESTRADIOL34Q2ERy_fwd	cplx_HOMODIMER_Akr7a5	183681.60079952388	pc	ESTRADIOL34Q2ERy	estradiol34qn_c + h_c + nadph_c --> 4hoxe2_c + nadp_c
 enzyme_ESTRADIOL34Q2ERy_fwd	cplx_MONOMER_Akr1b1	99211.66593810685	pc	ESTRADIOL34Q2ERy	estradiol34qn_c + h_c + nadph_c --> 4hoxe2_c + nadp_c
 enzyme_ESTRADIOL34Q2ERy_fwd	cplx_MONOMER_Akr1c18	102196.76955376353	pc	ESTRADIOL34Q2ERy	estradiol34qn_c + h_c + nadph_c --> 4hoxe2_c + nadp_c
-enzyme_ESTRADIOL34Q2ERy_fwd	cplx_MONOMER_Akr1c6	101949.01701113187	pc	ESTRADIOL34Q2ERy	estradiol34qn_c + h_c + nadph_c --> 4hoxe2_c + nadp_c
+enzyme_ESTRADIOL34Q2ERy_fwd	cplx_MONOMER_Akr1c6	101949.01701113189	pc	ESTRADIOL34Q2ERy	estradiol34qn_c + h_c + nadph_c --> 4hoxe2_c + nadp_c
 enzyme_ESTRADIOL34Q2ERy_rev	cplx_HOMODIMER_Akr7a5	0	pc	ESTRADIOL34Q2ERy	estradiol34qn_c + h_c + nadph_c <-- 4hoxe2_c + nadp_c
 enzyme_ESTRADIOL34Q2ERy_rev	cplx_MONOMER_Akr1b1	0	pc	ESTRADIOL34Q2ERy	estradiol34qn_c + h_c + nadph_c <-- 4hoxe2_c + nadp_c
 enzyme_ESTRADIOL34Q2ERy_rev	cplx_MONOMER_Akr1c18	0	pc	ESTRADIOL34Q2ERy	estradiol34qn_c + h_c + nadph_c <-- 4hoxe2_c + nadp_c
@@ -2934,7 +2934,7 @@ enzyme_ESTRONE23Q1ERx_rev	cplx_MONOMER_Cyb5r3	0	pc	ESTRONE23Q1ERx	2.0 estrone23q
 enzyme_ESTRONE23Q2ERy_fwd	cplx_HOMODIMER_Akr7a5	183681.60079952388	pc	ESTRONE23Q2ERy	estrone23qn_c + h_c + nadph_c --> 2hoxe1_c + nadp_c
 enzyme_ESTRONE23Q2ERy_fwd	cplx_MONOMER_Akr1b1	99211.66593810685	pc	ESTRONE23Q2ERy	estrone23qn_c + h_c + nadph_c --> 2hoxe1_c + nadp_c
 enzyme_ESTRONE23Q2ERy_fwd	cplx_MONOMER_Akr1c18	102196.76955376353	pc	ESTRONE23Q2ERy	estrone23qn_c + h_c + nadph_c --> 2hoxe1_c + nadp_c
-enzyme_ESTRONE23Q2ERy_fwd	cplx_MONOMER_Akr1c6	101949.01701113187	pc	ESTRONE23Q2ERy	estrone23qn_c + h_c + nadph_c --> 2hoxe1_c + nadp_c
+enzyme_ESTRONE23Q2ERy_fwd	cplx_MONOMER_Akr1c6	101949.01701113189	pc	ESTRONE23Q2ERy	estrone23qn_c + h_c + nadph_c --> 2hoxe1_c + nadp_c
 enzyme_ESTRONE23Q2ERy_rev	cplx_HOMODIMER_Akr7a5	0	pc	ESTRONE23Q2ERy	estrone23qn_c + h_c + nadph_c <-- 2hoxe1_c + nadp_c
 enzyme_ESTRONE23Q2ERy_rev	cplx_MONOMER_Akr1b1	0	pc	ESTRONE23Q2ERy	estrone23qn_c + h_c + nadph_c <-- 2hoxe1_c + nadp_c
 enzyme_ESTRONE23Q2ERy_rev	cplx_MONOMER_Akr1c18	0	pc	ESTRONE23Q2ERy	estrone23qn_c + h_c + nadph_c <-- 2hoxe1_c + nadp_c
@@ -2950,7 +2950,7 @@ enzyme_ESTRONE34Q1ERx_rev	cplx_MONOMER_Cyb5r3	0	pc	ESTRONE34Q1ERx	2.0 estrone34q
 enzyme_ESTRONE34Q2ERy_fwd	cplx_HOMODIMER_Akr7a5	183681.60079952388	pc	ESTRONE34Q2ERy	estrone34qn_c + h_c + nadph_c --> 4hoxe1_c + nadp_c
 enzyme_ESTRONE34Q2ERy_fwd	cplx_MONOMER_Akr1b1	99211.66593810685	pc	ESTRONE34Q2ERy	estrone34qn_c + h_c + nadph_c --> 4hoxe1_c + nadp_c
 enzyme_ESTRONE34Q2ERy_fwd	cplx_MONOMER_Akr1c18	102196.76955376353	pc	ESTRONE34Q2ERy	estrone34qn_c + h_c + nadph_c --> 4hoxe1_c + nadp_c
-enzyme_ESTRONE34Q2ERy_fwd	cplx_MONOMER_Akr1c6	101949.01701113187	pc	ESTRONE34Q2ERy	estrone34qn_c + h_c + nadph_c --> 4hoxe1_c + nadp_c
+enzyme_ESTRONE34Q2ERy_fwd	cplx_MONOMER_Akr1c6	101949.01701113189	pc	ESTRONE34Q2ERy	estrone34qn_c + h_c + nadph_c --> 4hoxe1_c + nadp_c
 enzyme_ESTRONE34Q2ERy_rev	cplx_HOMODIMER_Akr7a5	0	pc	ESTRONE34Q2ERy	estrone34qn_c + h_c + nadph_c <-- 4hoxe1_c + nadp_c
 enzyme_ESTRONE34Q2ERy_rev	cplx_MONOMER_Akr1b1	0	pc	ESTRONE34Q2ERy	estrone34qn_c + h_c + nadph_c <-- 4hoxe1_c + nadp_c
 enzyme_ESTRONE34Q2ERy_rev	cplx_MONOMER_Akr1c18	0	pc	ESTRONE34Q2ERy	estrone34qn_c + h_c + nadph_c <-- 4hoxe1_c + nadp_c
@@ -2959,12 +2959,12 @@ enzyme_ESTRONE34Q2ERz_fwd	cplx_HOMODIMER_Nqo2	132391.65550529145	pc	ESTRONE34Q2E
 enzyme_ESTRONE34Q2ERz_rev	cplx_HOMODIMER_Nqo2	0	pc	ESTRONE34Q2ERz	estrone34qn_c + h_c + rnamh_c <-- 4hoxe1_c + rnam_c
 enzyme_ESTRONEDHy_fwd	cplx_HOMOTETRAMER_Dhrs11	235400.5677892584	pc	ESTRONEDHy	estrone_c + h_c + nadph_c --> estradiol_c + nadp_c
 enzyme_ESTRONEDHy_fwd	cplx_MONOMER_Akr1c18	102196.76955376353	pc	ESTRONEDHy	estrone_c + h_c + nadph_c --> estradiol_c + nadp_c
-enzyme_ESTRONEDHy_fwd	cplx_MONOMER_Akr1c6	101949.01701113187	pc	ESTRONEDHy	estrone_c + h_c + nadph_c --> estradiol_c + nadp_c
+enzyme_ESTRONEDHy_fwd	cplx_MONOMER_Akr1c6	101949.01701113189	pc	ESTRONEDHy	estrone_c + h_c + nadph_c --> estradiol_c + nadp_c
 enzyme_ESTRONEDHy_fwd	cplx_MONOMER_Hsd17b11	93224.91325695318	pc	ESTRONEDHy	estrone_c + h_c + nadph_c --> estradiol_c + nadp_c
 enzyme_ESTRONEDHy_fwd	cplx_MONOMER_Hsd17b12	97175.7617636381	pc	ESTRONEDHy	estrone_c + h_c + nadph_c --> estradiol_c + nadp_c
 enzyme_ESTRONEDHy_rev	cplx_HOMOTETRAMER_Dhrs11	235400.5677892584	pc	ESTRONEDHy	estrone_c + h_c + nadph_c <-- estradiol_c + nadp_c
 enzyme_ESTRONEDHy_rev	cplx_MONOMER_Akr1c18	102196.76955376353	pc	ESTRONEDHy	estrone_c + h_c + nadph_c <-- estradiol_c + nadp_c
-enzyme_ESTRONEDHy_rev	cplx_MONOMER_Akr1c6	101949.01701113187	pc	ESTRONEDHy	estrone_c + h_c + nadph_c <-- estradiol_c + nadp_c
+enzyme_ESTRONEDHy_rev	cplx_MONOMER_Akr1c6	101949.01701113189	pc	ESTRONEDHy	estrone_c + h_c + nadph_c <-- estradiol_c + nadp_c
 enzyme_ESTRONEDHy_rev	cplx_MONOMER_Hsd17b11	93224.91325695318	pc	ESTRONEDHy	estrone_c + h_c + nadph_c <-- estradiol_c + nadp_c
 enzyme_ESTRONEDHy_rev	cplx_MONOMER_Hsd17b12	97175.7617636381	pc	ESTRONEDHy	estrone_c + h_c + nadph_c <-- estradiol_c + nadp_c
 enzyme_ESTRONESte_fwd	cplx_MONOMER_Slco1a1	171984.65153736778	pc	ESTRONESte	estrones_e --> estrones_c
@@ -4565,7 +4565,7 @@ enzyme_FE2_2HCO3t_fwd	cplx_HOMODIMER_Slc39a8	214901.11648976372	pc	FE2_2HCO3t	fe
 enzyme_FE2_2HCO3t_rev	cplx_HOMODIMER_Slc39a8	0	pc	FE2_2HCO3t	fe2_e + 2.0 hco3_e <-- fe2_c + 2.0 hco3_c
 enzyme_FE2t_fwd	cplx_MONOMER_Slc40a1	151251.1137140463	pc	FE2t	fe2_c --> fe2_e
 enzyme_FE2t_rev	cplx_MONOMER_Slc40a1	0	pc	FE2t	fe2_c <-- fe2_e
-enzyme_FE3RD_fwd	cplx_HOMODIMER_Steap3	229831.44028799635	pc	FE3RD	2.0 fe3_c + nadph_c --> 2.0 fe2_c + h_c + nadp_c
+enzyme_FE3RD_fwd	cplx_HOMODIMER_Steap3	229831.44028799632	pc	FE3RD	2.0 fe3_c + nadph_c --> 2.0 fe2_c + h_c + nadp_c
 enzyme_FE3RD_rev	cplx_HOMODIMER_Steap3	0	pc	FE3RD	2.0 fe3_c + nadph_c <-- 2.0 fe2_c + h_c + nadp_c
 enzyme_FE3t_fwd	cplx_COMPLEX_Tfr2_Trf	525858.8735942107	pc	FE3t	fe3_e --> fe3_c
 enzyme_FE3t_fwd	cplx_COMPLEX_Tfrc_Trf	519497.73878276045	pc	FE3t	fe3_e --> fe3_c
@@ -5799,7 +5799,7 @@ enzyme_IND56QNGST_fwd	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	IND56QNGST	gthr
 enzyme_IND56QNGST_fwd	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	IND56QNGST	gthrd_c + ind56qn_c --> 4sgth56dhi_c
 enzyme_IND56QNGST_fwd	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	IND56QNGST	gthrd_c + ind56qn_c --> 4sgth56dhi_c
 enzyme_IND56QNGST_fwd	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	IND56QNGST	gthrd_c + ind56qn_c --> 4sgth56dhi_c
-enzyme_IND56QNGST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	IND56QNGST	gthrd_c + ind56qn_c --> 4sgth56dhi_c
+enzyme_IND56QNGST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	IND56QNGST	gthrd_c + ind56qn_c --> 4sgth56dhi_c
 enzyme_IND56QNGST_fwd	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	IND56QNGST	gthrd_c + ind56qn_c --> 4sgth56dhi_c
 enzyme_IND56QNGST_fwd	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	IND56QNGST	gthrd_c + ind56qn_c --> 4sgth56dhi_c
 enzyme_IND56QNGST_fwd	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	IND56QNGST	gthrd_c + ind56qn_c --> 4sgth56dhi_c
@@ -5812,7 +5812,7 @@ enzyme_IND56QNGST_rev	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	IND56QNGST	gthr
 enzyme_IND56QNGST_rev	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	IND56QNGST	gthrd_c + ind56qn_c <-- 4sgth56dhi_c
 enzyme_IND56QNGST_rev	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	IND56QNGST	gthrd_c + ind56qn_c <-- 4sgth56dhi_c
 enzyme_IND56QNGST_rev	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	IND56QNGST	gthrd_c + ind56qn_c <-- 4sgth56dhi_c
-enzyme_IND56QNGST_rev	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	IND56QNGST	gthrd_c + ind56qn_c <-- 4sgth56dhi_c
+enzyme_IND56QNGST_rev	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	IND56QNGST	gthrd_c + ind56qn_c <-- 4sgth56dhi_c
 enzyme_IND56QNGST_rev	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	IND56QNGST	gthrd_c + ind56qn_c <-- 4sgth56dhi_c
 enzyme_IND56QNGST_rev	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	IND56QNGST	gthrd_c + ind56qn_c <-- 4sgth56dhi_c
 enzyme_IND56QNGST_rev	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	IND56QNGST	gthrd_c + ind56qn_c <-- 4sgth56dhi_c
@@ -5852,13 +5852,13 @@ enzyme_It_rev	cplx_MONOMER_Clcn2	213800.30679963966	pc	It	i_c <-- i_e
 enzyme_It_rev	cplx_MONOMER_Clic1	80418.70765380743	pc	It	i_c <-- i_e
 enzyme_It_rev	cplx_MONOMER_Clic4	84228.80665964827	pc	It	i_c <-- i_e
 enzyme_KCC2t_fwd	cplx_HOMODIMER_Slc12a4	415525.4453052791	pc	KCC2t	cl_c + nh4_c --> cl_e + nh4_e
-enzyme_KCC2t_fwd	cplx_HOMODIMER_Slc12a6	433249.0405156633	pc	KCC2t	cl_c + nh4_c --> cl_e + nh4_e
+enzyme_KCC2t_fwd	cplx_HOMODIMER_Slc12a6	433249.0405156634	pc	KCC2t	cl_c + nh4_c --> cl_e + nh4_e
 enzyme_KCC2t_fwd	cplx_HOMODIMER_Slc12a7	412572.1163378328	pc	KCC2t	cl_c + nh4_c --> cl_e + nh4_e
 enzyme_KCC2t_rev	cplx_HOMODIMER_Slc12a4	0	pc	KCC2t	cl_c + nh4_c <-- cl_e + nh4_e
 enzyme_KCC2t_rev	cplx_HOMODIMER_Slc12a6	0	pc	KCC2t	cl_c + nh4_c <-- cl_e + nh4_e
 enzyme_KCC2t_rev	cplx_HOMODIMER_Slc12a7	0	pc	KCC2t	cl_c + nh4_c <-- cl_e + nh4_e
 enzyme_KCCt_fwd	cplx_HOMODIMER_Slc12a4	415525.4453052791	pc	KCCt	cl_c + k_c --> cl_e + k_e
-enzyme_KCCt_fwd	cplx_HOMODIMER_Slc12a6	433249.0405156633	pc	KCCt	cl_c + k_c --> cl_e + k_e
+enzyme_KCCt_fwd	cplx_HOMODIMER_Slc12a6	433249.0405156634	pc	KCCt	cl_c + k_c --> cl_e + k_e
 enzyme_KCCt_fwd	cplx_HOMODIMER_Slc12a7	412572.1163378328	pc	KCCt	cl_c + k_c --> cl_e + k_e
 enzyme_KCCt_rev	cplx_HOMODIMER_Slc12a4	0	pc	KCCt	cl_c + k_c <-- cl_e + k_e
 enzyme_KCCt_rev	cplx_HOMODIMER_Slc12a6	0	pc	KCCt	cl_c + k_c <-- cl_e + k_e
@@ -7141,7 +7141,7 @@ enzyme_NRPPHRCHRGST_fwd	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	NRPPHRCHRGST	
 enzyme_NRPPHRCHRGST_fwd	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	NRPPHRCHRGST	gthrd_c + nrpphrchrm_c --> 5sgthleunrpphrchrm_c
 enzyme_NRPPHRCHRGST_fwd	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	NRPPHRCHRGST	gthrd_c + nrpphrchrm_c --> 5sgthleunrpphrchrm_c
 enzyme_NRPPHRCHRGST_fwd	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	NRPPHRCHRGST	gthrd_c + nrpphrchrm_c --> 5sgthleunrpphrchrm_c
-enzyme_NRPPHRCHRGST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	NRPPHRCHRGST	gthrd_c + nrpphrchrm_c --> 5sgthleunrpphrchrm_c
+enzyme_NRPPHRCHRGST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	NRPPHRCHRGST	gthrd_c + nrpphrchrm_c --> 5sgthleunrpphrchrm_c
 enzyme_NRPPHRCHRGST_fwd	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	NRPPHRCHRGST	gthrd_c + nrpphrchrm_c --> 5sgthleunrpphrchrm_c
 enzyme_NRPPHRCHRGST_fwd	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	NRPPHRCHRGST	gthrd_c + nrpphrchrm_c --> 5sgthleunrpphrchrm_c
 enzyme_NRPPHRCHRGST_fwd	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	NRPPHRCHRGST	gthrd_c + nrpphrchrm_c --> 5sgthleunrpphrchrm_c
@@ -7154,7 +7154,7 @@ enzyme_NRPPHRCHRGST_rev	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	NRPPHRCHRGST	
 enzyme_NRPPHRCHRGST_rev	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	NRPPHRCHRGST	gthrd_c + nrpphrchrm_c <-- 5sgthleunrpphrchrm_c
 enzyme_NRPPHRCHRGST_rev	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	NRPPHRCHRGST	gthrd_c + nrpphrchrm_c <-- 5sgthleunrpphrchrm_c
 enzyme_NRPPHRCHRGST_rev	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	NRPPHRCHRGST	gthrd_c + nrpphrchrm_c <-- 5sgthleunrpphrchrm_c
-enzyme_NRPPHRCHRGST_rev	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	NRPPHRCHRGST	gthrd_c + nrpphrchrm_c <-- 5sgthleunrpphrchrm_c
+enzyme_NRPPHRCHRGST_rev	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	NRPPHRCHRGST	gthrd_c + nrpphrchrm_c <-- 5sgthleunrpphrchrm_c
 enzyme_NRPPHRCHRGST_rev	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	NRPPHRCHRGST	gthrd_c + nrpphrchrm_c <-- 5sgthleunrpphrchrm_c
 enzyme_NRPPHRCHRGST_rev	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	NRPPHRCHRGST	gthrd_c + nrpphrchrm_c <-- 5sgthleunrpphrchrm_c
 enzyme_NRPPHRCHRGST_rev	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	NRPPHRCHRGST	gthrd_c + nrpphrchrm_c <-- 5sgthleunrpphrchrm_c
@@ -7189,7 +7189,7 @@ enzyme_NRPPHRQGST_L_fwd	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	NRPPHRQGST_L	
 enzyme_NRPPHRQGST_L_fwd	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	NRPPHRQGST_L	gthrd_c + nrpphrqn__L_c --> 5sgthnrpphr__L_c
 enzyme_NRPPHRQGST_L_fwd	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	NRPPHRQGST_L	gthrd_c + nrpphrqn__L_c --> 5sgthnrpphr__L_c
 enzyme_NRPPHRQGST_L_fwd	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	NRPPHRQGST_L	gthrd_c + nrpphrqn__L_c --> 5sgthnrpphr__L_c
-enzyme_NRPPHRQGST_L_fwd	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	NRPPHRQGST_L	gthrd_c + nrpphrqn__L_c --> 5sgthnrpphr__L_c
+enzyme_NRPPHRQGST_L_fwd	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	NRPPHRQGST_L	gthrd_c + nrpphrqn__L_c --> 5sgthnrpphr__L_c
 enzyme_NRPPHRQGST_L_fwd	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	NRPPHRQGST_L	gthrd_c + nrpphrqn__L_c --> 5sgthnrpphr__L_c
 enzyme_NRPPHRQGST_L_fwd	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	NRPPHRQGST_L	gthrd_c + nrpphrqn__L_c --> 5sgthnrpphr__L_c
 enzyme_NRPPHRQGST_L_fwd	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	NRPPHRQGST_L	gthrd_c + nrpphrqn__L_c --> 5sgthnrpphr__L_c
@@ -7202,7 +7202,7 @@ enzyme_NRPPHRQGST_L_rev	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	NRPPHRQGST_L	
 enzyme_NRPPHRQGST_L_rev	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	NRPPHRQGST_L	gthrd_c + nrpphrqn__L_c <-- 5sgthnrpphr__L_c
 enzyme_NRPPHRQGST_L_rev	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	NRPPHRQGST_L	gthrd_c + nrpphrqn__L_c <-- 5sgthnrpphr__L_c
 enzyme_NRPPHRQGST_L_rev	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	NRPPHRQGST_L	gthrd_c + nrpphrqn__L_c <-- 5sgthnrpphr__L_c
-enzyme_NRPPHRQGST_L_rev	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	NRPPHRQGST_L	gthrd_c + nrpphrqn__L_c <-- 5sgthnrpphr__L_c
+enzyme_NRPPHRQGST_L_rev	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	NRPPHRQGST_L	gthrd_c + nrpphrqn__L_c <-- 5sgthnrpphr__L_c
 enzyme_NRPPHRQGST_L_rev	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	NRPPHRQGST_L	gthrd_c + nrpphrqn__L_c <-- 5sgthnrpphr__L_c
 enzyme_NRPPHRQGST_L_rev	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	NRPPHRQGST_L	gthrd_c + nrpphrqn__L_c <-- 5sgthnrpphr__L_c
 enzyme_NRPPHRQGST_L_rev	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	NRPPHRQGST_L	gthrd_c + nrpphrqn__L_c <-- 5sgthnrpphr__L_c
@@ -7776,7 +7776,7 @@ enzyme_PGD21GH_fwd	cplx_MONOMER_Lypla2	75426.52068146295	pc	PGD21GH	h2o_c + pros
 enzyme_PGD21GH_rev	cplx_MONOMER_Abhd16a	0	pc	PGD21GH	h2o_c + prostgd21glyc_c <-- glyc_c + h_c + prostgd2_c
 enzyme_PGD21GH_rev	cplx_MONOMER_Lypla2	0	pc	PGD21GH	h2o_c + prostgd21glyc_c <-- glyc_c + h_c + prostgd2_c
 enzyme_PGD2Ry_fwd	cplx_MONOMER_Akr1c18	102196.76955376353	pc	PGD2Ry	h_c + nadph_c + prostgd2_c --> nadp_c + prostgf2_c
-enzyme_PGD2Ry_fwd	cplx_MONOMER_Akr1c6	101949.01701113187	pc	PGD2Ry	h_c + nadph_c + prostgd2_c --> nadp_c + prostgf2_c
+enzyme_PGD2Ry_fwd	cplx_MONOMER_Akr1c6	101949.01701113189	pc	PGD2Ry	h_c + nadph_c + prostgd2_c --> nadp_c + prostgf2_c
 enzyme_PGD2Ry_rev	cplx_MONOMER_Akr1c18	0	pc	PGD2Ry	h_c + nadph_c + prostgd2_c <-- nadp_c + prostgf2_c
 enzyme_PGD2Ry_rev	cplx_MONOMER_Akr1c6	0	pc	PGD2Ry	h_c + nadph_c + prostgd2_c <-- nadp_c + prostgf2_c
 enzyme_PGD2S_fwd	cplx_HOMODIMER_Hpgds	120789.85498697206	pc	PGD2S	prostgh2_c --> prostgd2_c
@@ -7865,7 +7865,7 @@ enzyme_PGG3S_rev	cplx_HOMODIMER_Ptgs1	0	pc	PGG3S	FA_hs_20_5Z8Z11Z14Z17Z_c + 2.0 
 enzyme_PGG3S_rev	cplx_HOMODIMER_Ptgs2	0	pc	PGG3S	FA_hs_20_5Z8Z11Z14Z17Z_c + 2.0 o2_c <-- prostgg3_c
 enzyme_PGH2Ry_fwd	cplx_MONOMER_Akr1b1	99211.66593810685	pc	PGH2Ry	h_c + nadph_c + prostgh2_c --> nadp_c + prostgf2_c
 enzyme_PGH2Ry_fwd	cplx_MONOMER_Akr1c18	102196.76955376353	pc	PGH2Ry	h_c + nadph_c + prostgh2_c --> nadp_c + prostgf2_c
-enzyme_PGH2Ry_fwd	cplx_MONOMER_Akr1c6	101949.01701113187	pc	PGH2Ry	h_c + nadph_c + prostgh2_c --> nadp_c + prostgf2_c
+enzyme_PGH2Ry_fwd	cplx_MONOMER_Akr1c6	101949.01701113189	pc	PGH2Ry	h_c + nadph_c + prostgh2_c --> nadp_c + prostgf2_c
 enzyme_PGH2Ry_rev	cplx_MONOMER_Akr1b1	0	pc	PGH2Ry	h_c + nadph_c + prostgh2_c <-- nadp_c + prostgf2_c
 enzyme_PGH2Ry_rev	cplx_MONOMER_Akr1c18	0	pc	PGH2Ry	h_c + nadph_c + prostgh2_c <-- nadp_c + prostgf2_c
 enzyme_PGH2Ry_rev	cplx_MONOMER_Akr1c6	0	pc	PGH2Ry	h_c + nadph_c + prostgh2_c <-- nadp_c + prostgf2_c
@@ -8265,10 +8265,10 @@ enzyme_PRGNStec_fwd	cplx_MONOMER_Slco2b1	172216.3066130894	pc	PRGNStec	prgnlones
 enzyme_PRGNStec_rev	cplx_MONOMER_Slco2b1	172216.3066130894	pc	PRGNStec	prgnlones_e <-- prgnlones_c
 enzyme_PRGSTRNRy_fwd	cplx_HOMOTETRAMER_Dhrs11	235400.5677892584	pc	PRGSTRNRy	h_c + nadph_c + prgstrn_c --> aprgstrn_c + nadp_c
 enzyme_PRGSTRNRy_fwd	cplx_MONOMER_Akr1c18	102196.76955376353	pc	PRGSTRNRy	h_c + nadph_c + prgstrn_c --> aprgstrn_c + nadp_c
-enzyme_PRGSTRNRy_fwd	cplx_MONOMER_Akr1c6	101949.01701113187	pc	PRGSTRNRy	h_c + nadph_c + prgstrn_c --> aprgstrn_c + nadp_c
+enzyme_PRGSTRNRy_fwd	cplx_MONOMER_Akr1c6	101949.01701113189	pc	PRGSTRNRy	h_c + nadph_c + prgstrn_c --> aprgstrn_c + nadp_c
 enzyme_PRGSTRNRy_rev	cplx_HOMOTETRAMER_Dhrs11	235400.5677892584	pc	PRGSTRNRy	h_c + nadph_c + prgstrn_c <-- aprgstrn_c + nadp_c
 enzyme_PRGSTRNRy_rev	cplx_MONOMER_Akr1c18	102196.76955376353	pc	PRGSTRNRy	h_c + nadph_c + prgstrn_c <-- aprgstrn_c + nadp_c
-enzyme_PRGSTRNRy_rev	cplx_MONOMER_Akr1c6	101949.01701113187	pc	PRGSTRNRy	h_c + nadph_c + prgstrn_c <-- aprgstrn_c + nadp_c
+enzyme_PRGSTRNRy_rev	cplx_MONOMER_Akr1c6	101949.01701113189	pc	PRGSTRNRy	h_c + nadph_c + prgstrn_c <-- aprgstrn_c + nadp_c
 enzyme_PRMTADMA_fwd	cplx_HOMOOCTOMER_Prmt1	536765.0177031127	pc	PRMTADMA	amet__L_c + protres_mmarg__L_c --> ahcys__L_c + h_c + protres_admarg__L_c
 enzyme_PRMTADMA_rev	cplx_HOMOOCTOMER_Prmt1	0	pc	PRMTADMA	amet__L_c + protres_mmarg__L_c <-- ahcys__L_c + h_c + protres_admarg__L_c
 enzyme_PRMTMMA_fwd	cplx_COMPLEX_Prmt5_Wdr77_Clns1a	762884.5036135114	pc	PRMTMMA	amet__L_c + protres_arg__L_c --> ahcys__L_c + h_c + protres_mmarg__L_c
@@ -8301,7 +8301,7 @@ enzyme_PROSTGA1GST_fwd	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	PROSTGA1GST	gt
 enzyme_PROSTGA1GST_fwd	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	PROSTGA1GST	gthrd_c + prostga1_c --> sgthprostga1_c
 enzyme_PROSTGA1GST_fwd	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	PROSTGA1GST	gthrd_c + prostga1_c --> sgthprostga1_c
 enzyme_PROSTGA1GST_fwd	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	PROSTGA1GST	gthrd_c + prostga1_c --> sgthprostga1_c
-enzyme_PROSTGA1GST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	PROSTGA1GST	gthrd_c + prostga1_c --> sgthprostga1_c
+enzyme_PROSTGA1GST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	PROSTGA1GST	gthrd_c + prostga1_c --> sgthprostga1_c
 enzyme_PROSTGA1GST_fwd	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	PROSTGA1GST	gthrd_c + prostga1_c --> sgthprostga1_c
 enzyme_PROSTGA1GST_fwd	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	PROSTGA1GST	gthrd_c + prostga1_c --> sgthprostga1_c
 enzyme_PROSTGA1GST_fwd	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	PROSTGA1GST	gthrd_c + prostga1_c --> sgthprostga1_c
@@ -8327,7 +8327,7 @@ enzyme_PROSTGA2GST_fwd	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	PROSTGA2GST	gt
 enzyme_PROSTGA2GST_fwd	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	PROSTGA2GST	gthrd_c + prostga2_c --> sgthprostga2_c
 enzyme_PROSTGA2GST_fwd	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	PROSTGA2GST	gthrd_c + prostga2_c --> sgthprostga2_c
 enzyme_PROSTGA2GST_fwd	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	PROSTGA2GST	gthrd_c + prostga2_c --> sgthprostga2_c
-enzyme_PROSTGA2GST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	PROSTGA2GST	gthrd_c + prostga2_c --> sgthprostga2_c
+enzyme_PROSTGA2GST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	PROSTGA2GST	gthrd_c + prostga2_c --> sgthprostga2_c
 enzyme_PROSTGA2GST_fwd	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	PROSTGA2GST	gthrd_c + prostga2_c --> sgthprostga2_c
 enzyme_PROSTGA2GST_fwd	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	PROSTGA2GST	gthrd_c + prostga2_c --> sgthprostga2_c
 enzyme_PROSTGA2GST_fwd	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	PROSTGA2GST	gthrd_c + prostga2_c --> sgthprostga2_c
@@ -8353,7 +8353,7 @@ enzyme_PROSTGA3GST_fwd	cplx_HOMODIMER_Gstm3	130326.45878104927	pc	PROSTGA3GST	gt
 enzyme_PROSTGA3GST_fwd	cplx_HOMODIMER_Gstm4	129625.4028758363	pc	PROSTGA3GST	gthrd_c + prostga3_c --> sgthprostga3_c
 enzyme_PROSTGA3GST_fwd	cplx_HOMODIMER_Gstm5	133856.16077383986	pc	PROSTGA3GST	gthrd_c + prostga3_c --> sgthprostga3_c
 enzyme_PROSTGA3GST_fwd	cplx_HOMODIMER_Gstm6	130006.02045145401	pc	PROSTGA3GST	gthrd_c + prostga3_c --> sgthprostga3_c
-enzyme_PROSTGA3GST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972073	pc	PROSTGA3GST	gthrd_c + prostga3_c --> sgthprostga3_c
+enzyme_PROSTGA3GST_fwd	cplx_HOMODIMER_Gstm7	130349.23015972077	pc	PROSTGA3GST	gthrd_c + prostga3_c --> sgthprostga3_c
 enzyme_PROSTGA3GST_fwd	cplx_HOMODIMER_Gsto1	137094.73842164542	pc	PROSTGA3GST	gthrd_c + prostga3_c --> sgthprostga3_c
 enzyme_PROSTGA3GST_fwd	cplx_HOMODIMER_Gstp1	122285.25068667841	pc	PROSTGA3GST	gthrd_c + prostga3_c --> sgthprostga3_c
 enzyme_PROSTGA3GST_fwd	cplx_HOMODIMER_Gstp2	122004.8816476359	pc	PROSTGA3GST	gthrd_c + prostga3_c --> sgthprostga3_c
@@ -8897,7 +8897,7 @@ enzyme_PROTYK_fwd	cplx_MONOMER_Hck	144751.77923499714	pc	PROTYK	atp_c + protres_
 enzyme_PROTYK_fwd	cplx_MONOMER_Jak3	250167.06120036746	pc	PROTYK	atp_c + protres_tyr__L_c --> adp_c + h_c + protres_tyrpi_c
 enzyme_PROTYK_fwd	cplx_MONOMER_Lyn	144169.17062041664	pc	PROTYK	atp_c + protres_tyr__L_c --> adp_c + h_c + protres_tyrpi_c
 enzyme_PROTYK_fwd	cplx_MONOMER_Syk	166706.27342175902	pc	PROTYK	atp_c + protres_tyr__L_c --> adp_c + h_c + protres_tyrpi_c
-enzyme_PROTYK_fwd	cplx_MONOMER_Yes1	147492.8704941782	pc	PROTYK	atp_c + protres_tyr__L_c --> adp_c + h_c + protres_tyrpi_c
+enzyme_PROTYK_fwd	cplx_MONOMER_Yes1	147492.87049417818	pc	PROTYK	atp_c + protres_tyr__L_c --> adp_c + h_c + protres_tyrpi_c
 enzyme_PROTYK_rev	cplx_HETERODIMER_Map2k1_Map2k2	0	pc	PROTYK	atp_c + protres_tyr__L_c <-- adp_c + h_c + protres_tyrpi_c
 enzyme_PROTYK_rev	cplx_HETERODIMER_Map2k3_Map2k6	0	pc	PROTYK	atp_c + protres_tyr__L_c <-- adp_c + h_c + protres_tyrpi_c
 enzyme_PROTYK_rev	cplx_HOMODIMER_Insr	0	pc	PROTYK	atp_c + protres_tyr__L_c <-- adp_c + h_c + protres_tyrpi_c
@@ -9228,11 +9228,11 @@ enzyme_RDH1y_fwd	cplx_MONOMER_Rdh14	100536.66862062454	pc	RDH1y	h_c + nadph_c + 
 enzyme_RDH1y_rev	cplx_MONOMER_Rdh11	98011.17287422293	pc	RDH1y	h_c + nadph_c + retinal_c <-- nadp_c + retinol_c
 enzyme_RDH1y_rev	cplx_MONOMER_Rdh14	100536.66862062454	pc	RDH1y	h_c + nadph_c + retinal_c <-- nadp_c + retinol_c
 enzyme_RDH2y_fwd	cplx_MONOMER_Akr1c18	102196.76955376353	pc	RDH2y	h_c + nadph_c + retinal_9Z_c --> nadp_c + retinol_9Z_c
-enzyme_RDH2y_fwd	cplx_MONOMER_Akr1c6	101949.01701113187	pc	RDH2y	h_c + nadph_c + retinal_9Z_c --> nadp_c + retinol_9Z_c
+enzyme_RDH2y_fwd	cplx_MONOMER_Akr1c6	101949.01701113189	pc	RDH2y	h_c + nadph_c + retinal_9Z_c --> nadp_c + retinol_9Z_c
 enzyme_RDH2y_fwd	cplx_MONOMER_Rdh11	98011.17287422293	pc	RDH2y	h_c + nadph_c + retinal_9Z_c --> nadp_c + retinol_9Z_c
 enzyme_RDH2y_fwd	cplx_MONOMER_Rdh14	100536.66862062454	pc	RDH2y	h_c + nadph_c + retinal_9Z_c --> nadp_c + retinol_9Z_c
 enzyme_RDH2y_rev	cplx_MONOMER_Akr1c18	102196.76955376353	pc	RDH2y	h_c + nadph_c + retinal_9Z_c <-- nadp_c + retinol_9Z_c
-enzyme_RDH2y_rev	cplx_MONOMER_Akr1c6	101949.01701113187	pc	RDH2y	h_c + nadph_c + retinal_9Z_c <-- nadp_c + retinol_9Z_c
+enzyme_RDH2y_rev	cplx_MONOMER_Akr1c6	101949.01701113189	pc	RDH2y	h_c + nadph_c + retinal_9Z_c <-- nadp_c + retinol_9Z_c
 enzyme_RDH2y_rev	cplx_MONOMER_Rdh11	98011.17287422293	pc	RDH2y	h_c + nadph_c + retinal_9Z_c <-- nadp_c + retinol_9Z_c
 enzyme_RDH2y_rev	cplx_MONOMER_Rdh14	100536.66862062454	pc	RDH2y	h_c + nadph_c + retinal_9Z_c <-- nadp_c + retinol_9Z_c
 enzyme_RDH3y_fwd	cplx_MONOMER_Rdh11	98011.17287422293	pc	RDH3y	h_c + nadph_c + retinal_11Z_c --> nadp_c + retinol_11Z_c
@@ -9673,7 +9673,7 @@ enzyme_TMASCBOXt_fwd	cplx_HOMODIMER_Cybrd1	153058.64853612025	pc	TMASCBOXt	ascb_
 enzyme_TMASCBOXt_fwd	cplx_MONOMER_Cyb561d2	74069.58941113345	pc	TMASCBOXt	ascb__L_c + mdhdascb__L_e --> ascb__L_e + mdhdascb__L_c
 enzyme_TMASCBOXt_rev	cplx_HOMODIMER_Cybrd1	0	pc	TMASCBOXt	ascb__L_c + mdhdascb__L_e <-- ascb__L_e + mdhdascb__L_c
 enzyme_TMASCBOXt_rev	cplx_MONOMER_Cyb561d2	0	pc	TMASCBOXt	ascb__L_c + mdhdascb__L_e <-- ascb__L_e + mdhdascb__L_c
-enzyme_TMCU2RDte_fwd	cplx_HOMODIMER_Steap3	229831.44028799635	pc	TMCU2RDte	2.0 cu2_e + nadph_c --> 2.0 cu1_e + h_c + nadp_c
+enzyme_TMCU2RDte_fwd	cplx_HOMODIMER_Steap3	229831.44028799632	pc	TMCU2RDte	2.0 cu2_e + nadph_c --> 2.0 cu1_e + h_c + nadp_c
 enzyme_TMCU2RDte_rev	cplx_HOMODIMER_Steap3	0	pc	TMCU2RDte	2.0 cu2_e + nadph_c <-- 2.0 cu1_e + h_c + nadp_c
 enzyme_TMDPK2_fwd	cplx_MONOMER_Tpk1	80542.05578709378	pc	TMDPK2	gtp_c + thm_c --> gmp_c + h_c + thmpp_c
 enzyme_TMDPK2_rev	cplx_MONOMER_Tpk1	0	pc	TMDPK2	gtp_c + thm_c <-- gmp_c + h_c + thmpp_c
@@ -9683,7 +9683,7 @@ enzyme_TMDPK4_fwd	cplx_MONOMER_Tpk1	80542.05578709378	pc	TMDPK4	thm_c + utp_c --
 enzyme_TMDPK4_rev	cplx_MONOMER_Tpk1	0	pc	TMDPK4	thm_c + utp_c <-- h_c + thmpp_c + ump_c
 enzyme_TMDPK_fwd	cplx_MONOMER_Tpk1	80542.05578709378	pc	TMDPK	atp_c + thm_c --> amp_c + h_c + thmpp_c
 enzyme_TMDPK_rev	cplx_MONOMER_Tpk1	0	pc	TMDPK	atp_c + thm_c <-- amp_c + h_c + thmpp_c
-enzyme_TMFE3RDte_fwd	cplx_HOMODIMER_Steap3	229831.44028799635	pc	TMFE3RDte	2.0 fe3_e + nadph_c --> 2.0 fe2_e + h_c + nadp_c
+enzyme_TMFE3RDte_fwd	cplx_HOMODIMER_Steap3	229831.44028799632	pc	TMFE3RDte	2.0 fe3_e + nadph_c --> 2.0 fe2_e + h_c + nadp_c
 enzyme_TMFE3RDte_rev	cplx_HOMODIMER_Steap3	0	pc	TMFE3RDte	2.0 fe3_e + nadph_c <-- 2.0 fe2_e + h_c + nadp_c
 enzyme_TPI_fwd	cplx_HOMODIMER_Tpi1	134148.7794447945	pc	TPI	dhap_c --> g3p_c
 enzyme_TPI_rev	cplx_HOMODIMER_Tpi1	134148.7794447945	pc	TPI	dhap_c <-- g3p_c

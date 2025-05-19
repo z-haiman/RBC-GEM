@@ -56,7 +56,7 @@ def download_database_TCDB(filename=None, database_dirpath=None):
         response = requests.get(fileurl)
         response.raise_for_status()
 
-        with open(database_dirpath / f"{fname}.tsv", "w") as file:
+        with open(database_dirpath / f"{fname}.tsv", "w", encoding="utf-8") as file:
             file.write(response.text)
 
         LOGGER.info("`%s.tsv` saved at `%s`", fname, database_dirpath)

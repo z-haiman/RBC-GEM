@@ -3,7 +3,7 @@
 Notes
 -----
 * Main site: https://www.informatics.jax.org/
-* Code written or updated based on MGI 6.24, released 22-Apr-25
+* Code written or updated based on MGI 6.24, released 05/06/2025
 * Code last updated: May 2025
 """
 
@@ -26,7 +26,7 @@ MGI_FILENAMES = {
     "MRK_SwissProt_TrEMBL.rpt",
     "MRK_Sequence.rpt",
 }
-MGI_RELEASE_EXPECTED = "MGI 6.24, 04/25/2025"
+MGI_RELEASE_EXPECTED = "MGI 6.24, 05/06/2025"
 MGI_DB_TAG = "MGI"
 MGI_PATH = Path(MGI_DB_TAG)
 

@@ -78,10 +78,11 @@ def get_dirpath(*args, use_temp=None):
         dirpath /= MAP_PATH
     # Return path variable corresponding to omics
     elif main_dir.endswith("omics"):
+        valid = {"proteomics", "metabolomics", "genomics"}
         check_if_valid(
             main_dir,
-            {"proteomics", "metabolomics"},
-            msg="`Must` be one of the following",
+            valid,
+            msg=f"Must be one of the following {valid}. Invalid directory: ",
         )
         dirpath /= main_dir
         if sub_dir is not None:

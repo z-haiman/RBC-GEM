@@ -19,6 +19,8 @@ readme = {file = "README.md", content-type = "text/markdown"}
 [project]
 name = "rbc_gem_utils"
 dependencies = [
+  "Bio",
+  "beautifulsoup4",
   "cobra",
   "scipy",
   "memote",
@@ -30,6 +32,7 @@ dependencies = [
   "networkx",
   "gurobipy",
   "seaborn",
+  "scikit-learn",
   "matplotlib",
   "matplotlib_venn",
 ]

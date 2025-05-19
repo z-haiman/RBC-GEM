@@ -1332,17 +1332,17 @@ def construct_pcmodel_from_tables(
     direction_dict = {
         "forward": (
             (
-                DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["suffix.forward"]
-                if not enzyme_forward_suffix
-                else enzyme_forward_suffix
+                enzyme_forward_suffix
+                if enzyme_forward_suffix
+                else DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["suffix.forward"]
             ),
             -1,
         ),
         "reverse": (
             (
-                DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["suffix.reverse"]
-                if not enzyme_reverse_suffix
-                else enzyme_reverse_suffix
+                enzyme_reverse_suffix
+                if enzyme_reverse_suffix
+                else DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["suffix.reverse"]
             ),
             1,
         ),
@@ -2027,13 +2027,13 @@ def add_relaxation_budget(pcmodel, slack_value, verbose=False):
     for protdl in pcmodel.reactions.query(lambda x: isinstance(x, ProteinDilution)):
         protein = [m for m in protdl.metabolites if "budget" not in m.id][0]
         protmw = (
-            calculate_protein_molar_mass(protdl.annotation.get("uniprot.aa_sequence"))
+            calculate_protein_molar_mass(protdl.annotation.get("uniprot.sequence"))
             / 1e6
         )
 
         # Upper bound represents protein concentration measurement, slack is introduced via lower bound
         prot_bound = protdl.upper_bound
-        protdl.bounds = (prot_bound * (1 - slack_value), prot_bound)
+        protdl.bounds = (max(prot_bound * (1 - slack_value), 0), prot_bound)
         relax_extra = prot_bound * slack_value * protmw
         total_slack_mg_prot_per_gDW += relax_extra
 
@@ -2080,7 +2080,7 @@ def update_slack_value(pcmodel, slack_value, verbose):
     hb_slack_mg_prot_per_gDW = 0
     for protdl in pcmodel.reactions.query(lambda x: x.id.startswith("PROTDL")):
         protmw = (
-            calculate_protein_molar_mass(protdl.annotation.get("uniprot.aa_sequence"))
+            calculate_protein_molar_mass(protdl.annotation.get("uniprot.sequence"))
             / 1e6
         )
         # Store MW for relaxation bound

@@ -22,7 +22,7 @@ DRUGBANK_URL = "https://go.drugbank.com"
 DRUGBANK_DB_TAG = "DrugBank"
 DRUGBANK_PATH = Path(DRUGBANK_DB_TAG)
 DRUGBANK_NS = "{http://www.drugbank.ca}"
-DRUGBANK_RELEASE_RE = re.compile("DrugBank Release Version (\d+.\d+.\d+)")
+DRUGBANK_RELEASE_RE = re.compile(r"DrugBank Release Version (\d+.\d+.\d+)")
 
 # Fields for the DrugBank XML schema are found [here](https://docs.drugbank.com/xml/#introduction).
 DRUGBANK_GENERAL_ELEMENTS = [
