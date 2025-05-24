@@ -106,4 +106,4 @@ def get_dirpath(*args, use_temp=None):
 
 
 # FIXME Find a way to single source version with version.txt outside repository, only if tools are to be included as same version as model
-__version__ = "0.0.2"
+__version__ = "0.0.3"

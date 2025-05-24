@@ -79,6 +79,8 @@ python-version = [
     "py39",
     "py310",
     "py311",
+    "py312",
+    "py313",
 ]
 
 
