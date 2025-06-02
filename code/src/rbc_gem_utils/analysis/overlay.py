@@ -1198,6 +1198,7 @@ def add_formation_reaction(
             raise ValueError("`bounds` must be a tuple of non-negative numbers.")
     else:
         bounds = default_bounds
+    formation_rxn.bounds = bounds
     if gene_reaction_rule:
         formation_rxn.gene_reaction_rule = gene_reaction_rule
     return formation_rxn
@@ -1906,13 +1907,15 @@ def load_overlay_model(
             new = cls(old)
             new.__dict__.update(old.__dict__)
             model.reactions._replace_on_id(new)
-            new._metabolites = {
-                model.metabolites.get_by_id(m.id): coeff
-                for m, coeff in new.metabolites.items()
-            }
             new.annotation.update(old.annotation)
+    # Replace old objects stored in reaction metabolite dictionaries updated objects
+    for reaction in model.reactions:
+        reaction._metabolites = {
+            model.metabolites.get_by_id(m.id): coeff
+            for m, coeff in reaction.metabolites.items()
+        }
 
-    model.repair()
+    model.repair(rebuild_index=True, rebuild_relationships=True)
     return model
 
 
