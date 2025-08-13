@@ -2,6 +2,7 @@
 Functions for importing and exporting the RBC-GEM using COBRApy from anywhere in the repo.
 """
 
+import io
 import logging
 from pathlib import Path
 from warnings import warn
@@ -36,7 +37,7 @@ ALTERNATE_FILETYPES_DICT = {
 }
 
 
-def write_cobra_model(model, filename, **kwargs):
+def write_cobra_model(model, filename, filetype=None, **kwargs):
     """Save/write the COBRA model file. Determines the function based on the file extension.
 
     Parameters
@@ -45,6 +46,8 @@ def write_cobra_model(model, filename, **kwargs):
         The COBRA model to represent.
     filename : str or file-like
         File path or descriptor to which the model is written.
+    filetype : str
+        Model filetype. Required for BytesIO and StringIO objects, otherwise attempts automatic determination from file extension.
     **kwargs
         Passed to the function utilized in saving the model.
 
@@ -65,7 +68,15 @@ def write_cobra_model(model, filename, **kwargs):
         Underlying function utilized for saving a COBRA model as a `.xml` file or `.sbml` file.
 
     """
-    filetype = Path(filename).suffix[1:]
+
+    if isinstance(filename, (io.BytesIO, io.StringIO)) and filetype is None:
+        raise ValueError("The `filetype` must be defined for IO objects.")
+    elif not isinstance(filename, (io.BytesIO, io.StringIO)) and filetype is None:
+        fname = filename.name if hasattr(filename, "name") else str(filename)
+        filetype = fname.rsplit(".")[-1]
+        if filetype in {"zip", "bz", "gz"}:
+            filetype = fname.rsplit(".")[-2]
+
     filetype = ALTERNATE_FILETYPES_DICT.get(filetype, filetype)
     try:
         write_function = IO_FUNCTIONS_DICT[filetype]["write"]
@@ -75,13 +86,15 @@ def write_cobra_model(model, filename, **kwargs):
     write_function(model, filename, **kwargs)
 
 
-def read_cobra_model(filename, **kwargs):
+def read_cobra_model(filename, filetype=None, **kwargs):
     """Load/read the COBRA model file. Determines the function based on the file extension.
 
     Parameters
     ----------
     filename : str or file-like
         File path or descriptor that contains the model.
+    filetype : str
+        Model filetype. Required for BytesIO and StringIO objects, otherwise attempts automatic determination from file extension.
     **kwargs
         Passed to the function utilized in loading the model.
 
@@ -101,7 +114,14 @@ def read_cobra_model(filename, **kwargs):
     load_yaml_model
         Underlying function utilized for loading a COBRA model from a `.yml` file or `.yaml` file.
     """
-    filetype = Path(filename).suffix[1:]
+    if isinstance(filename, io.StringIO) and filetype is None:
+        raise ValueError("The `filetype` must be defined for IO objects.")
+    elif not isinstance(filename, io.StringIO) and filetype is None:
+        fname = filename.name if hasattr(filename, "name") else str(filename)
+        filetype = fname.rsplit(".")[-1]
+        if filetype in {"zip", "bz", "gz"}:
+            filetype = fname.rsplit(".")[-2]
+
     filetype = ALTERNATE_FILETYPES_DICT.get(filetype, filetype)
     try:
         read_function = IO_FUNCTIONS_DICT[filetype]["read"]
