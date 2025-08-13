@@ -4,7 +4,7 @@ cplx_COMPLEX_Agt_Dnpep	c	protein_Agt;protein_Dnpep	Agt;Dnpep	ANGIO2ASPH	1;12
 cplx_COMPLEX_Agt_Dpp3	c	protein_Agt;protein_Dpp3	Agt;Dpp3	ANGIO2DDP;ANGIO3ARGH;ANGIO4DDP	1;1		
 cplx_COMPLEX_Agt_Prep	c	protein_Agt;protein_Prep	Agt;Prep	ANGIO58PEP	1;1		
 cplx_COMPLEX_Agt_Thop1	c	protein_Agt;protein_Thop1	Agt;Thop1	ANGIO1THOP	1;1		
-cplx_COMPLEX_Atp6v0v1	pm	protein_Atp6ap1;protein_Atp6ap2;protein_Atp6v0a1;protein_Atp6v0b;protein_Atp6v0c;protein_Atp6v0d1;protein_Atp6v0e;protein_Atp6v1a;protein_Atp6v1b2;protein_Atp6v1c1;protein_Atp6v1d;protein_Atp6v1e1;protein_Atp6v1f;protein_Atp6v1g1;protein_Atp6v1h	Atp6ap1;Atp6ap2;Atp6v0a1;Atp6v0b;Atp6v0c;Atp6v0d1;Atp6v0e;Atp6v1a;Atp6v1b2;Atp6v1c1;Atp6v1d;Atp6v1e1;Atp6v1f;Atp6v1g1;Atp6v1h	VATPASEte	1;9;3		
+cplx_COMPLEX_Atp6v0v1	pm	protein_Atp6ap1;protein_Atp6ap2;protein_Atp6v0a1;protein_Atp6v0b;protein_Atp6v0c;protein_Atp6v0d1;protein_Atp6v0e;protein_Atp6v1a;protein_Atp6v1b2;protein_Atp6v1c1;protein_Atp6v1d;protein_Atp6v1e1;protein_Atp6v1f;protein_Atp6v1g1;protein_Atp6v1h	Atp6ap1;Atp6ap2;Atp6v0a1;Atp6v0b;Atp6v0c;Atp6v0d1;Atp6v0e;Atp6v1a;Atp6v1b2;Atp6v1c1;Atp6v1d;Atp6v1e1;Atp6v1f;Atp6v1g1;Atp6v1h	VATPASEte	1;1;1;1;9;1;1;3;3;1;1;3;1;3;1		
 cplx_COMPLEX_C1galt1_C1galt1c1	c	protein_C1galt1;protein_C1galt1c1	C1galt1;C1galt1c1	PROTKTnAgGALT;PROTSTnAgGALT	2;1		
 cplx_COMPLEX_Cyb5r3_B5a	c	protein_Cyb5a;protein_Cyb5r3	Cyb5a;Cyb5r3	CYTB5ASCBR;ESTRADIOL23Q1ERx;ESTRADIOL34Q1ERx;ESTRONE23Q1ERx;ESTRONE34Q1ERx;FCYTOB5OXR;ADRNCHR1ERx;ADRNLQ1ERx_L;DOPAQ1ERx_L;DPAMCHR1ERx;DPAMQ1ERx_L;DPCHR1ERx_L;IND56Q1ERx;NRPPHRCHR1ERx;NRPPHRQ1ERx_L;AVITE1RCYTB5R	2;1		
 cplx_COMPLEX_Cyb5r3_B5b	c	protein_Cyb5b;protein_Cyb5r3	Cyb5b;Cyb5r3	CYTB5ASCBR;ESTRADIOL23Q1ERx;ESTRADIOL34Q1ERx;ESTRONE23Q1ERx;ESTRONE34Q1ERx;FCYTOB5OXR;ADRNCHR1ERx;ADRNLQ1ERx_L;DOPAQ1ERx_L;DPAMCHR1ERx;DPAMQ1ERx_L;DPCHR1ERx_L;IND56Q1ERx;NRPPHRCHR1ERx;NRPPHRQ1ERx_L;AVITE1RCYTB5R	2;1		
@@ -29,7 +29,7 @@ cplx_COMPLEX_Hbb_y_Cyb5b	c	protein_Cyb5b;protein_Hbb_y	Cyb5b;Hbb_y	METHBCYTBR	2;
 cplx_COMPLEX_Mpst_Txn1	c	protein_Mpst;protein_Txn1	Mpst;Txn1	MCPST3	1;2		
 cplx_COMPLEX_Mpst_Txndc17	c	protein_Mpst;protein_Txndc17	Mpst;Txndc17	MCPST3	1;2		
 cplx_COMPLEX_Mpst_Txnl1	c	protein_Mpst;protein_Txnl1	Mpst;Txnl1	MCPST3	1;2		
-cplx_COMPLEX_Pik3c3_Atg14	c	protein_Atg14;protein_Becn1;protein_Pik3c3;protein_Pik3r4	Atg14;Becn1;Pik3c3;Pik3r4	PI3K	1;1		
+cplx_COMPLEX_Pik3c3_Atg14	c	protein_Atg14;protein_Becn1;protein_Pik3c3;protein_Pik3r4	Atg14;Becn1;Pik3c3;Pik3r4	PI3K	1;1;1;1		
 cplx_COMPLEX_Ppme1_Ppp2ca	c	protein_Ppme1;protein_Ppp2ca	Ppme1;Ppp2ca	PPMEPP2A	1;1		
 cplx_COMPLEX_Ppme1_Ppp2cb	c	protein_Ppme1;protein_Ppp2cb	Ppme1;Ppp2cb	PPMEPP2A	1;1		
 cplx_COMPLEX_Prdx1_Srxn1	c	protein_Prdx1;protein_Srxn1	Prdx1;Srxn1	SRDX1GTHRD	2;1		
@@ -73,15 +73,15 @@ cplx_COMPLEX_Txnrd1_Txn	c	protein_Txnrd1	Txnrd1	Q102ERx;Q102ERy;METSELNEORy;METS
 cplx_COMPLEX_Txnrd1_Txndc17	c	protein_Txndc17	Txndc17	CYSTRDX;DHLIPTRD;HCYSTRDX	2;2		
 cplx_COMPLEX_Txnrd1_Txnl1	c	protein_Txnl1	Txnl1	CYSTRDX;DHLIPTRD;HCYSTRDX	2;2		
 cplx_COMPLEX_Uba3_Nae_Nedd8	c	protein_Nae1;protein_Nedd8;protein_Uba3	Nae1;Nedd8;Uba3	NEDD8E1ACT	1;1;1		
-cplx_COMPLEX_Ube2m_Nedd8	c	protein_Nedd8;protein_Ube2m	Nedd8;Ube2m	NEDD8E1E2T	1;1;1		
+cplx_COMPLEX_Ube2m_Nedd8	c	protein_Nedd8;protein_Ube2m	Nedd8;Ube2m	NEDD8E1E2T	1;1		
 cplx_COMPLEX_Usp5_Ubb	c	protein_Ubb;protein_Usp5	Ubb;Usp5	POLYUBBPL	1;1		
 cplx_COMPLEX_Vcp_Derl1	c	protein_Derl1;protein_Vcp	Derl1;Vcp	NTPA	4;10		
 cplx_COMPLEX_Vcp_Faf1	c	protein_Faf1;protein_Vcp	Faf1;Vcp	NTPA	3;6		
-cplx_COMPLEX_Vcp_Nploc4_Ufd1	c	protein_Nploc4;protein_Ufd1;protein_Vcp	Nploc4;Ufd1;Vcp	NTPA	1;6		
-cplx_COMPLEX_Vcp_Nploc4_Ufd1_Faf1	c	protein_Faf1;protein_Nploc4;protein_Ufd1;protein_Vcp	Faf1;Nploc4;Ufd1;Vcp	NTPA	1;6		
-cplx_COMPLEX_Vcp_Nploc4_Ufd1_Faf2	c	protein_Faf2;protein_Nploc4;protein_Ufd1;protein_Vcp	Faf2;Nploc4;Ufd1;Vcp	NTPA	1;6		
-cplx_COMPLEX_Vcp_Nploc4_Ufd1_Ubxn1	c	protein_Nploc4;protein_Ubxn1;protein_Ufd1;protein_Vcp	Nploc4;Ubxn1;Ufd1;Vcp	NTPA	1;6		
-cplx_COMPLEX_Vcp_Nploc4_Ufd1_Ubxn7	c	protein_Nploc4;protein_Ubxn7;protein_Ufd1;protein_Vcp	Nploc4;Ubxn7;Ufd1;Vcp	NTPA	1;6		
+cplx_COMPLEX_Vcp_Nploc4_Ufd1	c	protein_Nploc4;protein_Ufd1;protein_Vcp	Nploc4;Ufd1;Vcp	NTPA	1;1;6		
+cplx_COMPLEX_Vcp_Nploc4_Ufd1_Faf1	c	protein_Faf1;protein_Nploc4;protein_Ufd1;protein_Vcp	Faf1;Nploc4;Ufd1;Vcp	NTPA	1;1;1;6		
+cplx_COMPLEX_Vcp_Nploc4_Ufd1_Faf2	c	protein_Faf2;protein_Nploc4;protein_Ufd1;protein_Vcp	Faf2;Nploc4;Ufd1;Vcp	NTPA	1;1;1;6		
+cplx_COMPLEX_Vcp_Nploc4_Ufd1_Ubxn1	c	protein_Nploc4;protein_Ubxn1;protein_Ufd1;protein_Vcp	Nploc4;Ubxn1;Ufd1;Vcp	NTPA	1;1;1;6		
+cplx_COMPLEX_Vcp_Nploc4_Ufd1_Ubxn7	c	protein_Nploc4;protein_Ubxn7;protein_Ufd1;protein_Vcp	Nploc4;Ubxn7;Ufd1;Vcp	NTPA	1;1;1;6		
 cplx_COMPLEX_Vcp_Nsfl1c	c	protein_Nsfl1c;protein_Vcp	Nsfl1c;Vcp	NTPA	3;6		
 cplx_COMPLEX_Vcp_Plaa	c	protein_Plaa;protein_Vcp	Plaa;Vcp	NTPA	1;6		
 cplx_COMPLEX_Vcp_Ubxn6	c	protein_Ubxn6;protein_Vcp	Ubxn6;Vcp	NTPA	1;6		
@@ -99,8 +99,8 @@ cplx_HETERODIMER_Atp1_A3b3	pm	protein_Atp1a3;protein_Atp1b3	Atp1a3;Atp1b3	NaKt	1
 cplx_HETERODIMER_Atp1_A4b1	pm	protein_Atp1a4;protein_Atp1b1	Atp1a4;Atp1b1	NaKt	1;1		
 cplx_HETERODIMER_Atp1_A4b2	pm	protein_Atp1a4;protein_Atp1b2	Atp1a4;Atp1b2	NaKt	1;1		
 cplx_HETERODIMER_Atp1_A4b3	pm	protein_Atp1a4;protein_Atp1b3	Atp1a4;Atp1b3	NaKt	1;1		
-cplx_HETERODIMER_Ck	c	protein_Ckb;protein_Ckm	Ckb;Ckm	CK	1;1		ASSUMED MONOMER
-cplx_HETERODIMER_Ck	pm	protein_Ckb;protein_Ckm	Ckb;Ckm	CKe	1;1		ASSUMED MONOMER
+cplx_HETERODIMER_Ck	c	protein_Ckb;protein_Ckm	Ckb;Ckm	CK	1;1		
+cplx_HETERODIMER_Ck	pm	protein_Ckb;protein_Ckm	Ckb;Ckm	CKe	1;1		
 cplx_HETERODIMER_Clcn34	pm	protein_Clcn3;protein_Clcn4	Clcn3;Clcn4	H_2Clt	1;1		
 cplx_HETERODIMER_Eno_Ab	c	protein_Eno1;protein_Eno3	Eno1;Eno3	ENO	1;1		
 cplx_HETERODIMER_Eno_Ag	c	protein_Eno1;protein_Eno2	Eno1;Eno2	ENO	1;1		
@@ -223,21 +223,21 @@ cplx_HOMODIMER_Afmid	c	protein_Afmid	Afmid	FKYNH	2
 cplx_HOMODIMER_Akr7a5	c	protein_Akr7a5	Akr7a5	GHBDHy;ESTRADIOL23Q2ERy;ESTRADIOL34Q2ERy;ESTRONE23Q2ERy;ESTRONE34Q2ERy;SBTRa;ARABR_Ly;ALR2y;ALR3y;PPDOy	2		
 cplx_HOMODIMER_Aldh3a1	c	protein_Aldh3a1	Aldh3a1	ALDD2x;4H2HXEAL2EDHx;4H2NNEAL2EDHx;BZALDHx;HPTALDHx;HPTEAL2EDHx;HXALDHx;HXEAL2EDHx;NONALDHx;NONEAL2EDHx;OCTALDHx;OCTEAL2EDHx;RBTDG_Dx;34DHALDDx;34DHALDDy;3M4HDXPACx;3M4HDXPACy;ALDD19x;ALDD19y;ALDD2y;MACOXO;34DHXMANDACOXx;34DHXMANDACOXy;4HOXPACDORx;4HOXPACDORy	2		
 cplx_HOMODIMER_Aldh3a2	c	protein_Aldh3a2	Aldh3a2	ALDD2x;ABUTDx;BAMPPALDOXx;NABTNO;GLYALDD;TMABADH;HPTALDHx;HPTEAL2EDHx;HXALDHx;HXEAL2EDHx;NONALDHx;NONEAL2EDHx;OCTALDHx;OCTEAL2EDHx;PPALDHx;5HOXINDACTOX;HXDCAL2EDHx;HXDCAL2EDHy;HXDCALDHx;HXDCALDHy;GLACOx;FRNSL2E6EDH;IMACTD;MACOXO;MMALNDHx	2		
-cplx_HOMODIMER_Alpl	c	protein_Alpl	Alpl	AHDTPPPH;ALKP;CRTNP;THMMPP	2		ASSUMED MONOMER
-cplx_HOMODIMER_Alpl	pm	protein_Alpl	Alpl	CRTNPe;ETHPe;NDPADPe;NTDAMPe;NTPAe;PPAe;PYDXPPe;THMMPPe	2		ASSUMED MONOMER
+cplx_HOMODIMER_Alpl	c	protein_Alpl	Alpl	AHDTPPPH;ALKP;CRTNP;THMMPP	2		
+cplx_HOMODIMER_Alpl	pm	protein_Alpl	Alpl	CRTNPe;ETHPe;NDPADPe;NTDAMPe;NTPAe;PPAe;PYDXPPe;THMMPPe	2		
 cplx_HOMODIMER_Ano6	pm	protein_Ano6	Ano6	PCSCRt;PSSCRt;LPCSCRt	2		
 cplx_HOMODIMER_Aprt	c	protein_Aprt	Aprt	ADPT;AICRT	2		
 cplx_HOMODIMER_Atic	c	protein_Atic	Atic	AICART;IMPC	2		
 cplx_HOMODIMER_Bpgm	c	protein_Bpgm	Bpgm	DPGM;DPGase;PGM	2		
 cplx_HOMODIMER_Carm1	c	protein_Carm1	Carm1	PRMTMMA;PRMTSDMA	2		
 cplx_HOMODIMER_Cars1	c	protein_Cars1	Cars1	CYSTRS	2		
-cplx_HOMODIMER_Cd38	c	protein_Cd38	Cd38	NADPN;CADPRBPH;CADPRIBH;DNADPL;NADL;NADN;NADPL;NMNN	2		ASSUMED MONOMER
-cplx_HOMODIMER_Cd38	pm	protein_Cd38	Cd38	CADPRIBtec	2		ASSUMED MONOMER
+cplx_HOMODIMER_Cd38	c	protein_Cd38	Cd38	NADPN;CADPRBPH;CADPRIBH;DNADPL;NADL;NADN;NADPL;NMNN	2		
+cplx_HOMODIMER_Cd38	pm	protein_Cd38	Cd38	CADPRIBtec	2		
 cplx_HOMODIMER_Cds2	c	protein_Cds2	Cds2	CDS	2		
-cplx_HOMODIMER_Ckb	c	protein_Ckb	Ckb	CK	2		ASSUMED MONOMER
-cplx_HOMODIMER_Ckb	pm	protein_Ckb	Ckb	CKe	2		ASSUMED MONOMER
-cplx_HOMODIMER_Ckm	c	protein_Ckm	Ckm	CK	2		ASSUMED MONOMER
-cplx_HOMODIMER_Ckm	pm	protein_Ckm	Ckm	CKe	2		ASSUMED MONOMER
+cplx_HOMODIMER_Ckb	c	protein_Ckb	Ckb	CK	2		
+cplx_HOMODIMER_Ckb	pm	protein_Ckb	Ckb	CKe	2		
+cplx_HOMODIMER_Ckm	c	protein_Ckm	Ckm	CK	2		
+cplx_HOMODIMER_Ckm	pm	protein_Ckm	Ckm	CKe	2		
 cplx_HOMODIMER_Cndp2	c	protein_Cndp2	Cndp2	2ABUTGLYDP;AMPTASECG;FLDPP;FYDPP;GFDPP;GGDPP;GLDPP;GWDPP;KLDPP;LADPP;LGDPP;LLDPP;PFDPP;PLDPP;VLDPP;LLACPHEHYD	2		
 cplx_HOMODIMER_Crppa	c	protein_Crppa	Crppa	R5PCT;RBTCT;RU5PCT	2		
 cplx_HOMODIMER_Cryl1	c	protein_Cryl1	Cryl1	GULN3D	2		
@@ -361,7 +361,7 @@ cplx_HOMODIMER_Pmm2	c	protein_Pmm2	Pmm2	PMANM	2
 cplx_HOMODIMER_Pnpo	c	protein_Pnpo	Pnpo	PDX5PO;PYAM5PO	2		
 cplx_HOMODIMER_Ppa1	c	protein_Ppa1	Ppa1	PPA	2		
 cplx_HOMODIMER_Ppa2	c	protein_Ppa2	Ppa2	PPA	2		
-cplx_HOMODIMER_Ppcs	c	protein_Ppcs	Ppcs	PPNCL3	2		ASSUMED MONOMER
+cplx_HOMODIMER_Ppcs	c	protein_Ppcs	Ppcs	PPNCL3	2		
 cplx_HOMODIMER_Prdx1	c	protein_Prdx1	Prdx1	PRDX2OX2;PRDX2OX1;PRDX2SO2OX1;PRDX2SOOX1;PRDX2SOR	2		
 cplx_HOMODIMER_Prdx2	c	protein_Prdx2	Prdx2	PRDX2OX2;PRDX2OX1;PRDX2SO2OX1;PRDX2SOOX1;PRDX2SOR	2		
 cplx_HOMODIMER_Prdx4	c	protein_Prdx4	Prdx4	PRDX2OX2;PRDX2OX1;PRDX2SO2OX1;PRDX2SOOX1;PRDX2SOR	2		
@@ -402,8 +402,8 @@ cplx_HOMODIMER_Sms	c	protein_Sms	Sms	SPRMS	2
 cplx_HOMODIMER_Sod1	c	protein_Sod1	Sod1	SPODM;SPODM2	2		
 cplx_HOMODIMER_Srm	c	protein_Srm	Srm	SPMS	2		
 cplx_HOMODIMER_St3gal2	c	protein_St3gal2	St3gal2	CMPACNAGA1;CMPACNAGD1B;CMPACNAGM1;CMPACNAGALBSD	2		
-cplx_HOMODIMER_Steap3	c	protein_Steap3	Steap3	TMCU2RDte;TMFE3RDte	2		ASSUMED MONOMER
-cplx_HOMODIMER_Steap3	pm	protein_Steap3	Steap3	CU2RD;FE3RD	2		ASSUMED MONOMER
+cplx_HOMODIMER_Steap3	c	protein_Steap3	Steap3	TMCU2RDte;TMFE3RDte	2		
+cplx_HOMODIMER_Steap3	pm	protein_Steap3	Steap3	CU2RD;FE3RD	2		
 cplx_HOMODIMER_Taldo1	c	protein_Taldo1	Taldo1	TALA	2		
 cplx_HOMODIMER_Tars1	c	protein_Tars1	Tars1	THRTRS	2		
 cplx_HOMODIMER_Tkfc	c	protein_Tkfc	Tkfc	TRIOK;DHAK;FADL	2		
@@ -577,7 +577,9 @@ cplx_MONOMER_Agpat4	c	protein_Agpat4	Agpat4	LPAAT	1		ASSUMED MONOMER
 cplx_MONOMER_Ak1	c	protein_Ak1	Ak1	ADK1;NDPK1;NDPK2;NDPK3;ADK3;ADK4;ADK5;ADK6;DADK3;DADK4;DADK5;DADK6;DADK1;ADK7;DADK7	1		
 cplx_MONOMER_Akr1a1	c	protein_Akr1a1	Akr1a1	GULND;GALOR;GHBDHy;3DGRy;SBTRa;ALCD19y;ARABR_Ly;ALR2y;ALR3y;PPDOy;GTHNORDy;SNOCOARD	1		
 cplx_MONOMER_Akr1b1	c	protein_Akr1b1	Akr1b1	GALOR;6HOPTHPDH;6PTHPDH;ESTRADIOL23Q2ERy;ESTRADIOL34Q2ERy;ESTRONE23Q2ERy;ESTRONE34Q2ERy;3DGRy;SBTRa;ALCD19y;ARABR_Ly;XYLR_Dy;PGH2Ry;ALR2y;ALR3y;LALD_Ly;PPDOy	1		
+cplx_MONOMER_Akr1c13	c	protein_Akr1c13	Akr1c13	5ADHTRy;ANDRSTNDNRy;ANDRSTRNRy;6PTHPDH2;ESTRADIOL23Q2ERy;ESTRADIOL34Q2ERy;ESTRONE23Q2ERy;ESTRONE34Q2ERy;ESTRONEDHy;PGD2Ry;PGH2Ry;RDH2y;PRGSTRNRy	1		ASSUMED MONOMER
 cplx_MONOMER_Akr1c18	c	protein_Akr1c18	Akr1c18	5ADHTRy;ANDRSTNDNRy;ANDRSTRNRy;6PTHPDH2;ESTRADIOL23Q2ERy;ESTRADIOL34Q2ERy;ESTRONE23Q2ERy;ESTRONE34Q2ERy;ESTRONEDHy;PGD2Ry;PGH2Ry;RDH2y;PRGSTRNRy	1		ASSUMED MONOMER
+cplx_MONOMER_Akr1c21	c	protein_Akr1c21	Akr1c21	5ADHTRy;ANDRSTNDNRy;ANDRSTRNRy;6PTHPDH2;ESTRADIOL23Q2ERy;ESTRADIOL34Q2ERy;ESTRONE23Q2ERy;ESTRONE34Q2ERy;ESTRONEDHy;PGD2Ry;PGH2Ry;RDH2y;PRGSTRNRy	1		ASSUMED MONOMER
 cplx_MONOMER_Akr1c6	c	protein_Akr1c6	Akr1c6	5ADHTRy;ANDRSTNDNRy;ANDRSTRNRy;6PTHPDH2;ESTRADIOL23Q2ERy;ESTRADIOL34Q2ERy;ESTRONE23Q2ERy;ESTRONE34Q2ERy;ESTRONEDHy;PGD2Ry;PGH2Ry;RDH2y;PRGSTRNRy	1		ASSUMED MONOMER
 cplx_MONOMER_Aldh3b1	c	protein_Aldh3b1	Aldh3b1	ALDD2x;BAMPPALDOXx;4H2HXEAL2EDHx;4H2NNEAL2EDHx;BZALDHx;HPTALDHx;HPTEAL2EDHx;HXALDHx;HXEAL2EDHx;NONALDHx;NONEAL2EDHx;OCTALDHx;OCTEAL2EDHx;RBTDG_Dx;34DHALDDx;34DHALDDy;3M4HDXPACx;3M4HDXPACy;ALDD19x;ALDD19y;ALDD2y;LCAD;HXDCAL2EDHx;HXDCAL2EDHy;HXDCALDHx;HXDCALDHy;MACOXO;34DHXMANDACOXx;34DHXMANDACOXy;4HOXPACDORx;4HOXPACDORy	1		ASSUMED MONOMER
 cplx_MONOMER_Amdhd2	c	protein_Amdhd2	Amdhd2	AGDC	1		ASSUMED MONOMER
@@ -817,6 +819,7 @@ cplx_MONOMER_Ran	c	protein_Ran	Ran	NTPG	1
 cplx_MONOMER_Rap1a	c	protein_Rap1a	Rap1a	NTPG	1		ASSUMED MONOMER
 cplx_MONOMER_Rap2b	c	protein_Rap2b	Rap2b	NTPG	1		ASSUMED MONOMER
 cplx_MONOMER_Rars1	c	protein_Rars1	Rars1	ARGTRS	1		
+cplx_MONOMER_Rasl2_9	c	protein_Rasl2_9	Rasl2_9	NTPG	1		
 cplx_MONOMER_Rdh11	c	protein_Rdh11	Rdh11	RDH1y;RDH2y;RDH3y;RDH4y	1		ASSUMED MONOMER
 cplx_MONOMER_Rdh14	c	protein_Rdh14	Rdh14	RDH1y;RDH2y;RDH3y	1		ASSUMED MONOMER
 cplx_MONOMER_Rfk	c	protein_Rfk	Rfk	RBFK	1		
