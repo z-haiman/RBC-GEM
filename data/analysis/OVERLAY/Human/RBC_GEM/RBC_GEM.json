@@ -48183,6 +48183,26 @@
 }
 },
 {
+"id":"PI35P4K",
+"name":"Phosphatidylinositol-3,5-bisphosphate (PIP2[3',5']) 4-kinase",
+"metabolites":{
+"adp_c":1.0,
+"atp_c":-1.0,
+"h_c":1.0,
+"pail345p_hs_c":1.0,
+"pail35p_hs_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PIP5K1A or PIP5K1C",
+"subsystem":"Inositol phosphate metabolism",
+"annotation":{
+"bigg.reaction":"PI35P4K",
+"sbo":"SBO:0000176",
+"spontaneous":"0.0"
+}
+},
+{
 "id":"PI3K",
 "name":"Phosphatidylinositol (PI) 3-kinase",
 "metabolites":{
@@ -48205,6 +48225,35 @@
 ],
 "sbo":"SBO:0000176",
 "spontaneous":"0.0"
+}
+},
+{
+"id":"PI3P4K",
+"name":"Phosphatidylinositol 3-phosphate (PIP[3']) 4-kinase",
+"metabolites":{
+"adp_c":1.0,
+"atp_c":-1.0,
+"h_c":1.0,
+"pail34p_hs_c":1.0,
+"pail3p_hs_c":-1.0
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"PIP5K1A or PIP5K1C",
+"subsystem":"Inositol phosphate metabolism",
+"annotation":{
+"bigg.reaction":"PI3P4K",
+"ec-code":"2.7.1.68",
+"metanetx.reaction":"MNXR102706",
+"metatlas":"MAR08813",
+"references":[
+"pubmed:1318025",
+"pubmed:2170402",
+"pubmed:9367159"
+],
+"sbo":"SBO:0000176",
+"spontaneous":"0.0",
+"vmhreaction":"PI3P4K"
 }
 },
 {
@@ -73523,15 +73572,11 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"ABCB4 or ABCA7 or ABCB1 or ABCA1",
+"gene_reaction_rule":"ABCB4 or ABCA7 or ABCB1 or ABCA1 or ABCC1",
 "subsystem":"Transport, extracellular",
 "annotation":{
 "bigg.reaction":"PCFLOPt",
-"references":[
-"pubmed:10947968",
-"pubmed:28134466",
-"pubmed:9651491"
-],
+"references":"pubmed:10947968;pubmed:28134466;pubmed:9651491;pubmed:9778357;pubmed:14578045",
 "sbo":"SBO:0000185",
 "spontaneous":"0.0"
 }
@@ -75508,11 +75553,11 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"ABCB4 or ABCA7 or ABCB1 or ABCA1",
+"gene_reaction_rule":"ABCB4 or ABCA7 or ABCB1 or ABCA1 or ABCC1",
 "subsystem":"Transport, extracellular",
 "annotation":{
 "bigg.reaction":"SMFLOPt",
-"references":"pubmed:10947968",
+"references":"pubmed:10947968;pubmed:9778357;pubmed:14578045",
 "sbo":"SBO:0000185",
 "spontaneous":"0.0"
 }
@@ -90498,6 +90543,202 @@
 "name":"Glutaredoxin (2-cys) disulfide sink",
 "metabolites":{
 "grdx2cox_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Pseudoreactions",
+"annotation":{
+"sbo":"SBO:0000632"
+}
+},
+{
+"id":"SK_pc_hs_c",
+"name":"PC sink",
+"metabolites":{
+"pc_hs_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Pseudoreactions",
+"annotation":{
+"sbo":"SBO:0000632"
+}
+},
+{
+"id":"SK_pco_hs_c",
+"name":"PC(O-) sink",
+"metabolites":{
+"pco_hs_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Pseudoreactions",
+"annotation":{
+"sbo":"SBO:0000632"
+}
+},
+{
+"id":"SK_pe_hs_c",
+"name":"PE sink",
+"metabolites":{
+"pe_hs_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Pseudoreactions",
+"annotation":{
+"sbo":"SBO:0000632"
+}
+},
+{
+"id":"SK_ps_hs_c",
+"name":"PS sink",
+"metabolites":{
+"ps_hs_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Pseudoreactions",
+"annotation":{
+"sbo":"SBO:0000632"
+}
+},
+{
+"id":"SK_paf_hs_c",
+"name":"1-O-alkyl-2-acetyl-sn-glycero-3-phosphocholine sink",
+"metabolites":{
+"paf_hs_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Pseudoreactions",
+"annotation":{
+"sbo":"SBO:0000632"
+}
+},
+{
+"id":"SK_pail_hs_c",
+"name":"PI sink",
+"metabolites":{
+"pail_hs_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Pseudoreactions",
+"annotation":{
+"sbo":"SBO:0000632"
+}
+},
+{
+"id":"SK_pail345p_hs_c",
+"name":"PIP3[3',4',5'] sink",
+"metabolites":{
+"pail345p_hs_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Pseudoreactions",
+"annotation":{
+"sbo":"SBO:0000632"
+}
+},
+{
+"id":"SK_pail34p_hs_c",
+"name":"PIP2[3',4'] sink",
+"metabolites":{
+"pail34p_hs_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Pseudoreactions",
+"annotation":{
+"sbo":"SBO:0000632"
+}
+},
+{
+"id":"SK_pail35p_hs_c",
+"name":"1-phosphatidyl-myo-inositol-3,5-bisphosphate sink",
+"metabolites":{
+"pail35p_hs_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Pseudoreactions",
+"annotation":{
+"sbo":"SBO:0000632"
+}
+},
+{
+"id":"SK_pail3p_hs_c",
+"name":"PIP[3'] sink",
+"metabolites":{
+"pail3p_hs_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Pseudoreactions",
+"annotation":{
+"sbo":"SBO:0000632"
+}
+},
+{
+"id":"SK_pail45p_hs_c",
+"name":"PIP2[4',5'] sink",
+"metabolites":{
+"pail45p_hs_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Pseudoreactions",
+"annotation":{
+"sbo":"SBO:0000632"
+}
+},
+{
+"id":"SK_pail4p_hs_c",
+"name":"PIP[4'] sink",
+"metabolites":{
+"pail4p_hs_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Pseudoreactions",
+"annotation":{
+"sbo":"SBO:0000632"
+}
+},
+{
+"id":"SK_pail5p_hs_c",
+"name":"PIP[5'] sink",
+"metabolites":{
+"pail5p_hs_c":-1.0
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"subsystem":"Pseudoreactions",
+"annotation":{
+"sbo":"SBO:0000632"
+}
+},
+{
+"id":"SK_sphmyln_hs_c",
+"name":"SM sink",
+"metabolites":{
+"sphmyln_hs_c":-1.0
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,

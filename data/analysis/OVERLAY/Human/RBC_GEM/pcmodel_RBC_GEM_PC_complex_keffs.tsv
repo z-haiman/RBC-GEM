@@ -1267,8 +1267,12 @@ enzyme_CAATPS1_fwd	cplx_MONOMER_ATP2B1	263967.4151558384	pc	CAATPS1	atp_c + ca2_
 enzyme_CAATPS1_fwd	cplx_MONOMER_ATP2B4	268725.9566623854	pc	CAATPS1	atp_c + ca2_c + h2o_c --> adp_c + ca2_e + h_c + pi_c
 enzyme_CAATPS1_rev	cplx_MONOMER_ATP2B1	0	pc	CAATPS1	atp_c + ca2_c + h2o_c <-- adp_c + ca2_e + h_c + pi_c
 enzyme_CAATPS1_rev	cplx_MONOMER_ATP2B4	0	pc	CAATPS1	atp_c + ca2_c + h2o_c <-- adp_c + ca2_e + h_c + pi_c
+enzyme_CADPRBPHe_fwd	cplx_HOMODIMER_CD38	159273.18336983348	pc	CADPRBPHe	cadprbp_e + h2o_e --> adprbp_e
+enzyme_CADPRBPHe_rev	cplx_HOMODIMER_CD38	0	pc	CADPRBPHe	cadprbp_e + h2o_e <-- adprbp_e
 enzyme_CADPRIBH_fwd	cplx_HOMODIMER_CD38	159273.18336983348	pc	CADPRIBH	cadprib_c + h2o_c --> adprib_c
 enzyme_CADPRIBH_rev	cplx_HOMODIMER_CD38	0	pc	CADPRIBH	cadprib_c + h2o_c <-- adprib_c
+enzyme_CADPRIBHe_fwd	cplx_HOMODIMER_CD38	159273.18336983348	pc	CADPRIBHe	cadprib_e + h2o_e --> adprib_e
+enzyme_CADPRIBHe_rev	cplx_HOMODIMER_CD38	0	pc	CADPRIBHe	cadprib_e + h2o_e <-- adprib_e
 enzyme_CADPRIBtec_fwd	cplx_HOMODIMER_CD38	159273.18336983348	pc	CADPRIBtec	cadprib_e --> cadprib_c
 enzyme_CADPRIBtec_rev	cplx_HOMODIMER_CD38	0	pc	CADPRIBtec	cadprib_e <-- cadprib_c
 enzyme_CAMPABCte_fwd	cplx_MONOMER_ABCC4	285538.4741282754	pc	CAMPABCte	35camp_c + atp_c + h2o_c --> 35camp_e + adp_c + h_c + pi_c
@@ -1729,6 +1733,8 @@ enzyme_DLAC_PPAtex_rev	cplx_HETEROTETRAMER_SLC16A7_BSG	340108.3745661201	pc	DLAC
 enzyme_DLAC_PPAtex_rev	cplx_HETEROTETRAMER_SLC16A7_EMB	325661.5827768428	pc	DLAC_PPAtex	lac__D_c + ppa_e <-- lac__D_e + ppa_c
 enzyme_DLAC_PPAtex_rev	cplx_HOMODIMER_SLC16A1	223564.07006191486	pc	DLAC_PPAtex	lac__D_c + ppa_e <-- lac__D_e + ppa_c
 enzyme_DLAC_PPAtex_rev	cplx_HOMODIMER_SLC16A7	218138.08906035378	pc	DLAC_PPAtex	lac__D_c + ppa_e <-- lac__D_e + ppa_c
+enzyme_DNADPLe_fwd	cplx_HOMODIMER_CD38	159273.18336983348	pc	DNADPLe	dnadp_e --> cadprbp_e + h_e + nac_e
+enzyme_DNADPLe_rev	cplx_HOMODIMER_CD38	159273.18336983348	pc	DNADPLe	dnadp_e <-- cadprbp_e + h_e + nac_e
 enzyme_DOPAGTHABCte_fwd	cplx_MONOMER_ABCC1	316572.9045753174	pc	DOPAGTHABCte	5sgthdopa__L_c + atp_c + h2o_c --> 5sgthdopa__L_e + adp_c + h_c + pi_c
 enzyme_DOPAGTHABCte_fwd	cplx_MONOMER_ABCC4	285538.4741282754	pc	DOPAGTHABCte	5sgthdopa__L_c + atp_c + h2o_c --> 5sgthdopa__L_e + adp_c + h_c + pi_c
 enzyme_DOPAGTHABCte_fwd	cplx_MONOMER_RALBP1	171956.50996353733	pc	DOPAGTHABCte	5sgthdopa__L_c + atp_c + h2o_c --> 5sgthdopa__L_e + adp_c + h_c + pi_c
@@ -5247,14 +5253,22 @@ enzyme_NADK_fwd	cplx_HOMODIMER_NADK2	209373.40024341104	pc	NADK	atp_c + nad_c --
 enzyme_NADK_rev	cplx_HOMODIMER_NADK2	0	pc	NADK	atp_c + nad_c <-- adp_c + h_c + nadp_c
 enzyme_NADL_fwd	cplx_HOMODIMER_CD38	159273.18336983348	pc	NADL	nad_c --> cadprib_c + h_c + ncam_c
 enzyme_NADL_rev	cplx_HOMODIMER_CD38	159273.18336983348	pc	NADL	nad_c <-- cadprib_c + h_c + ncam_c
+enzyme_NADLe_fwd	cplx_HOMODIMER_CD38	159273.18336983348	pc	NADLe	nad_e --> cadprib_e + h_e + ncam_e
+enzyme_NADLe_rev	cplx_HOMODIMER_CD38	159273.18336983348	pc	NADLe	nad_e <-- cadprib_e + h_e + ncam_e
 enzyme_NADN_fwd	cplx_HOMODIMER_CD38	159273.18336983348	pc	NADN	h2o_c + nad_c --> adprib_c + h_c + ncam_c
 enzyme_NADN_rev	cplx_HOMODIMER_CD38	0	pc	NADN	h2o_c + nad_c <-- adprib_c + h_c + ncam_c
+enzyme_NADNe_fwd	cplx_HOMODIMER_CD38	159273.18336983348	pc	NADNe	h2o_e + nad_e --> adprib_e + h_e + ncam_e
+enzyme_NADNe_rev	cplx_HOMODIMER_CD38	0	pc	NADNe	h2o_e + nad_e <-- adprib_e + h_e + ncam_e
 enzyme_NADPHPPS_fwd	cplx_MONOMER_HDDC3	63921.78433535248	pc	NADPHPPS	h2o_c + nadph_c --> nadh_c + pi_c
 enzyme_NADPHPPS_rev	cplx_MONOMER_HDDC3	0	pc	NADPHPPS	h2o_c + nadph_c <-- nadh_c + pi_c
 enzyme_NADPHXD_fwd	cplx_MONOMER_NAXD	99317.39148554979	pc	NADPHXD	atp_c + nadphx__S_c --> adp_c + h_c + nadph_c + pi_c
 enzyme_NADPHXD_rev	cplx_MONOMER_NAXD	0	pc	NADPHXD	atp_c + nadphx__S_c <-- adp_c + h_c + nadph_c + pi_c
 enzyme_NADPHXE_fwd	cplx_HOMODIMER_NAXE	149943.06835764917	pc	NADPHXE	nadphx__R_c --> nadphx__S_c
 enzyme_NADPHXE_rev	cplx_HOMODIMER_NAXE	149943.06835764917	pc	NADPHXE	nadphx__R_c <-- nadphx__S_c
+enzyme_NADPLe_fwd	cplx_HOMODIMER_CD38	159273.18336983348	pc	NADPLe	nadp_e --> cadprbp_e + h_e + ncam_e
+enzyme_NADPLe_rev	cplx_HOMODIMER_CD38	159273.18336983348	pc	NADPLe	nadp_e <-- cadprbp_e + h_e + ncam_e
+enzyme_NADPNe_fwd	cplx_HOMODIMER_CD38	159273.18336983348	pc	NADPNe	h2o_e + nadp_e --> adprbp_e + h_e + ncam_e
+enzyme_NADPNe_rev	cplx_HOMODIMER_CD38	0	pc	NADPNe	h2o_e + nadp_e <-- adprbp_e + h_e + ncam_e
 enzyme_NADS2_fwd	cplx_HOMOHEXAMER_NADSYN1	680109.6019297987	pc	NADS2	atp_c + dnad_c + gln__L_c + h2o_c --> amp_c + glu__L_c + h_c + nad_c + ppi_c
 enzyme_NADS2_rev	cplx_HOMOHEXAMER_NADSYN1	0	pc	NADS2	atp_c + dnad_c + gln__L_c + h2o_c <-- amp_c + glu__L_c + h_c + nad_c + ppi_c
 enzyme_NAMNPP_fwd	cplx_HOMODIMER_NAPRT	234712.5411124741	pc	NAMNPP	atp_c + h2o_c + nac_c + prpp_c --> adp_c + nicrnt_c + pi_c + ppi_c
@@ -5485,6 +5499,8 @@ enzyme_NMNHYD_rev	cplx_HOMODIMER_NT5C	0	pc	NMNHYD	h2o_c + nmn_c <-- pi_c + rnam_
 enzyme_NMNHYD_rev	cplx_HOMOTETRAMER_NT5C2	0	pc	NMNHYD	h2o_c + nmn_c <-- pi_c + rnam_c
 enzyme_NMNN_fwd	cplx_HOMODIMER_CD38	159273.18336983348	pc	NMNN	h2o_c + nmn_c --> h_c + ncam_c + r5p_c
 enzyme_NMNN_rev	cplx_HOMODIMER_CD38	0	pc	NMNN	h2o_c + nmn_c <-- h_c + ncam_c + r5p_c
+enzyme_NMNNe_fwd	cplx_HOMODIMER_CD38	159273.18336983348	pc	NMNNe	h2o_e + nmn_e --> h_e + ncam_e + r5p_e
+enzyme_NMNNe_rev	cplx_HOMODIMER_CD38	0	pc	NMNNe	h2o_e + nmn_e <-- h_e + ncam_e + r5p_e
 enzyme_NMNS_fwd	cplx_HOMODIMER_NAMPT	228409.67355590942	pc	NMNS	h_c + ncam_c + prpp_c --> nmn_c + ppi_c
 enzyme_NMNS_rev	cplx_HOMODIMER_NAMPT	0	pc	NMNS	h_c + ncam_c + prpp_c <-- nmn_c + ppi_c
 enzyme_NNAT_fwd	cplx_HOMOTETRAMER_NMNAT3	231913.27959197303	pc	NNAT	atp_c + h_c + nicrnt_c --> dnad_c + ppi_c
@@ -5937,10 +5953,12 @@ enzyme_PCFLOPt_fwd	cplx_HOMOTETRAMER_ABCA1	1202685.9245881569	pc	PCFLOPt	atp_c +
 enzyme_PCFLOPt_fwd	cplx_MONOMER_ABCA7	399944.6960401112	pc	PCFLOPt	atp_c + h2o_c + pc_hs_c --> adp_c + h_c + pc_hs_e + pi_c
 enzyme_PCFLOPt_fwd	cplx_MONOMER_ABCB1	273947.5522754013	pc	PCFLOPt	atp_c + h2o_c + pc_hs_c --> adp_c + h_c + pc_hs_e + pi_c
 enzyme_PCFLOPt_fwd	cplx_MONOMER_ABCB4	274000.5920368618	pc	PCFLOPt	atp_c + h2o_c + pc_hs_c --> adp_c + h_c + pc_hs_e + pi_c
+enzyme_PCFLOPt_fwd	cplx_MONOMER_ABCC1	316572.9045753174	pc	PCFLOPt	atp_c + h2o_c + pc_hs_c --> adp_c + h_c + pc_hs_e + pi_c
 enzyme_PCFLOPt_rev	cplx_HOMOTETRAMER_ABCA1	0	pc	PCFLOPt	atp_c + h2o_c + pc_hs_c <-- adp_c + h_c + pc_hs_e + pi_c
 enzyme_PCFLOPt_rev	cplx_MONOMER_ABCA7	0	pc	PCFLOPt	atp_c + h2o_c + pc_hs_c <-- adp_c + h_c + pc_hs_e + pi_c
 enzyme_PCFLOPt_rev	cplx_MONOMER_ABCB1	0	pc	PCFLOPt	atp_c + h2o_c + pc_hs_c <-- adp_c + h_c + pc_hs_e + pi_c
 enzyme_PCFLOPt_rev	cplx_MONOMER_ABCB4	0	pc	PCFLOPt	atp_c + h2o_c + pc_hs_c <-- adp_c + h_c + pc_hs_e + pi_c
+enzyme_PCFLOPt_rev	cplx_MONOMER_ABCC1	0	pc	PCFLOPt	atp_c + h2o_c + pc_hs_c <-- adp_c + h_c + pc_hs_e + pi_c
 enzyme_PCOPLA2_fwd	cplx_HOMODIMER_PRDX6	125680.15585547239	pc	PCOPLA2	h2o_c + pco_hs_c --> FA_hs_c + h_c + lpco_hs_c
 enzyme_PCOPLA2_fwd	cplx_MONOMER_ABHD16A	149758.69829385256	pc	PCOPLA2	h2o_c + pco_hs_c --> FA_hs_c + h_c + lpco_hs_c
 enzyme_PCOPLA2_fwd	cplx_MONOMER_PLA2G4A	187275.47456853805	pc	PCOPLA2	h2o_c + pco_hs_c --> FA_hs_c + h_c + lpco_hs_c
@@ -6239,10 +6257,18 @@ enzyme_PI35P3P_rev	cplx_HETERODIMER_MTMR2_MTMR12	0	pc	PI35P3P	h2o_c + pail35p_hs
 enzyme_PI35P3P_rev	cplx_HETERODIMER_MTMR2_SBF1	0	pc	PI35P3P	h2o_c + pail35p_hs_c <-- pail5p_hs_c + pi_c
 enzyme_PI35P3P_rev	cplx_HOMODIMER_MTMR1	0	pc	PI35P3P	h2o_c + pail35p_hs_c <-- pail5p_hs_c + pi_c
 enzyme_PI35P3P_rev	cplx_HOMODIMER_MTMR2	0	pc	PI35P3P	h2o_c + pail35p_hs_c <-- pail5p_hs_c + pi_c
+enzyme_PI35P4K_fwd	cplx_MONOMER_PIP5K1A	148674.13462966625	pc	PI35P4K	atp_c + pail35p_hs_c --> adp_c + h_c + pail345p_hs_c
+enzyme_PI35P4K_fwd	cplx_MONOMER_PIP5K1C	167167.85889500822	pc	PI35P4K	atp_c + pail35p_hs_c --> adp_c + h_c + pail345p_hs_c
+enzyme_PI35P4K_rev	cplx_MONOMER_PIP5K1A	0	pc	PI35P4K	atp_c + pail35p_hs_c <-- adp_c + h_c + pail345p_hs_c
+enzyme_PI35P4K_rev	cplx_MONOMER_PIP5K1C	0	pc	PI35P4K	atp_c + pail35p_hs_c <-- adp_c + h_c + pail345p_hs_c
 enzyme_PI35P5P_fwd	cplx_MONOMER_FIG4	216880.63410073332	pc	PI35P5P	h2o_c + pail35p_hs_c --> pail3p_hs_c + pi_c
 enzyme_PI35P5P_rev	cplx_MONOMER_FIG4	0	pc	PI35P5P	h2o_c + pail35p_hs_c <-- pail3p_hs_c + pi_c
 enzyme_PI3K_fwd	cplx_COMPLEX_PIK3C3_ATG14	553961.9180123856	pc	PI3K	atp_c + pail_hs_c --> adp_c + h_c + pail3p_hs_c
 enzyme_PI3K_rev	cplx_COMPLEX_PIK3C3_ATG14	0	pc	PI3K	atp_c + pail_hs_c <-- adp_c + h_c + pail3p_hs_c
+enzyme_PI3P4K_fwd	cplx_MONOMER_PIP5K1A	148674.13462966625	pc	PI3P4K	atp_c + pail3p_hs_c --> adp_c + h_c + pail34p_hs_c
+enzyme_PI3P4K_fwd	cplx_MONOMER_PIP5K1C	167167.85889500822	pc	PI3P4K	atp_c + pail3p_hs_c --> adp_c + h_c + pail34p_hs_c
+enzyme_PI3P4K_rev	cplx_MONOMER_PIP5K1A	0	pc	PI3P4K	atp_c + pail3p_hs_c <-- adp_c + h_c + pail34p_hs_c
+enzyme_PI3P4K_rev	cplx_MONOMER_PIP5K1C	0	pc	PI3P4K	atp_c + pail3p_hs_c <-- adp_c + h_c + pail34p_hs_c
 enzyme_PI3P5K_fwd	cplx_MONOMER_PIP5K1A	148674.13462966625	pc	PI3P5K	atp_c + pail3p_hs_c --> adp_c + h_c + pail35p_hs_c
 enzyme_PI3P5K_fwd	cplx_MONOMER_PIP5K1C	167167.85889500822	pc	PI3P5K	atp_c + pail3p_hs_c --> adp_c + h_c + pail35p_hs_c
 enzyme_PI3P5K_rev	cplx_MONOMER_PIP5K1A	0	pc	PI3P5K	atp_c + pail3p_hs_c <-- adp_c + h_c + pail35p_hs_c
@@ -7499,10 +7525,12 @@ enzyme_SMFLOPt_fwd	cplx_HOMOTETRAMER_ABCA1	1202685.9245881569	pc	SMFLOPt	atp_c +
 enzyme_SMFLOPt_fwd	cplx_MONOMER_ABCA7	399944.6960401112	pc	SMFLOPt	atp_c + h2o_c + sphmyln_hs_c --> adp_c + h_c + pi_c + sphmyln_hs_e
 enzyme_SMFLOPt_fwd	cplx_MONOMER_ABCB1	273947.5522754013	pc	SMFLOPt	atp_c + h2o_c + sphmyln_hs_c --> adp_c + h_c + pi_c + sphmyln_hs_e
 enzyme_SMFLOPt_fwd	cplx_MONOMER_ABCB4	274000.5920368618	pc	SMFLOPt	atp_c + h2o_c + sphmyln_hs_c --> adp_c + h_c + pi_c + sphmyln_hs_e
+enzyme_SMFLOPt_fwd	cplx_MONOMER_ABCC1	316572.9045753174	pc	SMFLOPt	atp_c + h2o_c + sphmyln_hs_c --> adp_c + h_c + pi_c + sphmyln_hs_e
 enzyme_SMFLOPt_rev	cplx_HOMOTETRAMER_ABCA1	0	pc	SMFLOPt	atp_c + h2o_c + sphmyln_hs_c <-- adp_c + h_c + pi_c + sphmyln_hs_e
 enzyme_SMFLOPt_rev	cplx_MONOMER_ABCA7	0	pc	SMFLOPt	atp_c + h2o_c + sphmyln_hs_c <-- adp_c + h_c + pi_c + sphmyln_hs_e
 enzyme_SMFLOPt_rev	cplx_MONOMER_ABCB1	0	pc	SMFLOPt	atp_c + h2o_c + sphmyln_hs_c <-- adp_c + h_c + pi_c + sphmyln_hs_e
 enzyme_SMFLOPt_rev	cplx_MONOMER_ABCB4	0	pc	SMFLOPt	atp_c + h2o_c + sphmyln_hs_c <-- adp_c + h_c + pi_c + sphmyln_hs_e
+enzyme_SMFLOPt_rev	cplx_MONOMER_ABCC1	0	pc	SMFLOPt	atp_c + h2o_c + sphmyln_hs_c <-- adp_c + h_c + pi_c + sphmyln_hs_e
 enzyme_SMOX_fwd	cplx_MONOMER_SMOX	147170.2394961072	pc	SMOX	h2o_c + o2_c + sprm_c --> bamppald_c + h2o2_c + spmd_c
 enzyme_SMOX_rev	cplx_MONOMER_SMOX	0	pc	SMOX	h2o_c + o2_c + sprm_c <-- bamppald_c + h2o2_c + spmd_c
 enzyme_SMPD_fwd	cplx_MONOMER_SMPD1	161483.31566245985	pc	SMPD	h2o_c + sphmyln_hs_c --> cholp_c + crm_hs_c + h_c

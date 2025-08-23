@@ -525,8 +525,12 @@ enzyme_CA2t_fwd	234000.0	CA2t	ca2_e --> ca2_c
 enzyme_CA2t_rev	234000.0	CA2t	ca2_e <-- ca2_c
 enzyme_CAATPS1_fwd	234000.0	CAATPS1	atp_c + ca2_c + h2o_c --> adp_c + ca2_e + h_c + pi_c
 enzyme_CAATPS1_rev	234000.0	CAATPS1	atp_c + ca2_c + h2o_c <-- adp_c + ca2_e + h_c + pi_c
+enzyme_CADPRBPHe_fwd	234000.0	CADPRBPHe	cadprbp_e + h2o_e --> adprbp_e
+enzyme_CADPRBPHe_rev	234000.0	CADPRBPHe	cadprbp_e + h2o_e <-- adprbp_e
 enzyme_CADPRIBH_fwd	234000.0	CADPRIBH	cadprib_c + h2o_c --> adprib_c
 enzyme_CADPRIBH_rev	234000.0	CADPRIBH	cadprib_c + h2o_c <-- adprib_c
+enzyme_CADPRIBHe_fwd	234000.0	CADPRIBHe	cadprib_e + h2o_e --> adprib_e
+enzyme_CADPRIBHe_rev	234000.0	CADPRIBHe	cadprib_e + h2o_e <-- adprib_e
 enzyme_CADPRIBtec_fwd	234000.0	CADPRIBtec	cadprib_e --> cadprib_c
 enzyme_CADPRIBtec_rev	234000.0	CADPRIBtec	cadprib_e <-- cadprib_c
 enzyme_CAMPABCte_fwd	234000.0	CAMPABCte	35camp_c + atp_c + h2o_c --> 35camp_e + adp_c + h_c + pi_c
@@ -791,6 +795,8 @@ enzyme_DLAC_GLYCLTtex_fwd	234000.0	DLAC_GLYCLTtex	glyclt_e + lac__D_c --> glyclt
 enzyme_DLAC_GLYCLTtex_rev	234000.0	DLAC_GLYCLTtex	glyclt_e + lac__D_c <-- glyclt_c + lac__D_e
 enzyme_DLAC_PPAtex_fwd	234000.0	DLAC_PPAtex	lac__D_c + ppa_e --> lac__D_e + ppa_c
 enzyme_DLAC_PPAtex_rev	234000.0	DLAC_PPAtex	lac__D_c + ppa_e <-- lac__D_e + ppa_c
+enzyme_DNADPLe_fwd	234000.0	DNADPLe	dnadp_e --> cadprbp_e + h_e + nac_e
+enzyme_DNADPLe_rev	234000.0	DNADPLe	dnadp_e <-- cadprbp_e + h_e + nac_e
 enzyme_DOPAGTHABCte_fwd	234000.0	DOPAGTHABCte	5sgthdopa__L_c + atp_c + h2o_c --> 5sgthdopa__L_e + adp_c + h_c + pi_c
 enzyme_DOPAGTHABCte_rev	234000.0	DOPAGTHABCte	5sgthdopa__L_c + atp_c + h2o_c <-- 5sgthdopa__L_e + adp_c + h_c + pi_c
 enzyme_DOPAPX_L_fwd	234000.0	DOPAPX_L	2.0 dopa__L_c + h2o2_c --> 2.0 dopasqn__L_c + 2.0 h2o_c
@@ -2163,14 +2169,22 @@ enzyme_NADK_fwd	234000.0	NADK	atp_c + nad_c --> adp_c + h_c + nadp_c
 enzyme_NADK_rev	234000.0	NADK	atp_c + nad_c <-- adp_c + h_c + nadp_c
 enzyme_NADL_fwd	234000.0	NADL	nad_c --> cadprib_c + h_c + ncam_c
 enzyme_NADL_rev	234000.0	NADL	nad_c <-- cadprib_c + h_c + ncam_c
+enzyme_NADLe_fwd	234000.0	NADLe	nad_e --> cadprib_e + h_e + ncam_e
+enzyme_NADLe_rev	234000.0	NADLe	nad_e <-- cadprib_e + h_e + ncam_e
 enzyme_NADN_fwd	234000.0	NADN	h2o_c + nad_c --> adprib_c + h_c + ncam_c
 enzyme_NADN_rev	234000.0	NADN	h2o_c + nad_c <-- adprib_c + h_c + ncam_c
+enzyme_NADNe_fwd	234000.0	NADNe	h2o_e + nad_e --> adprib_e + h_e + ncam_e
+enzyme_NADNe_rev	234000.0	NADNe	h2o_e + nad_e <-- adprib_e + h_e + ncam_e
 enzyme_NADPHPPS_fwd	234000.0	NADPHPPS	h2o_c + nadph_c --> nadh_c + pi_c
 enzyme_NADPHPPS_rev	234000.0	NADPHPPS	h2o_c + nadph_c <-- nadh_c + pi_c
 enzyme_NADPHXD_fwd	234000.0	NADPHXD	atp_c + nadphx__S_c --> adp_c + h_c + nadph_c + pi_c
 enzyme_NADPHXD_rev	234000.0	NADPHXD	atp_c + nadphx__S_c <-- adp_c + h_c + nadph_c + pi_c
 enzyme_NADPHXE_fwd	234000.0	NADPHXE	nadphx__R_c --> nadphx__S_c
 enzyme_NADPHXE_rev	234000.0	NADPHXE	nadphx__R_c <-- nadphx__S_c
+enzyme_NADPLe_fwd	234000.0	NADPLe	nadp_e --> cadprbp_e + h_e + ncam_e
+enzyme_NADPLe_rev	234000.0	NADPLe	nadp_e <-- cadprbp_e + h_e + ncam_e
+enzyme_NADPNe_fwd	234000.0	NADPNe	h2o_e + nadp_e --> adprbp_e + h_e + ncam_e
+enzyme_NADPNe_rev	234000.0	NADPNe	h2o_e + nadp_e <-- adprbp_e + h_e + ncam_e
 enzyme_NADS2_fwd	234000.0	NADS2	atp_c + dnad_c + gln__L_c + h2o_c --> amp_c + glu__L_c + h_c + nad_c + ppi_c
 enzyme_NADS2_rev	234000.0	NADS2	atp_c + dnad_c + gln__L_c + h2o_c <-- amp_c + glu__L_c + h_c + nad_c + ppi_c
 enzyme_NAMNPP_fwd	234000.0	NAMNPP	atp_c + h2o_c + nac_c + prpp_c --> adp_c + nicrnt_c + pi_c + ppi_c
@@ -2237,6 +2251,8 @@ enzyme_NMNHYD_fwd	234000.0	NMNHYD	h2o_c + nmn_c --> pi_c + rnam_c
 enzyme_NMNHYD_rev	234000.0	NMNHYD	h2o_c + nmn_c <-- pi_c + rnam_c
 enzyme_NMNN_fwd	234000.0	NMNN	h2o_c + nmn_c --> h_c + ncam_c + r5p_c
 enzyme_NMNN_rev	234000.0	NMNN	h2o_c + nmn_c <-- h_c + ncam_c + r5p_c
+enzyme_NMNNe_fwd	234000.0	NMNNe	h2o_e + nmn_e --> h_e + ncam_e + r5p_e
+enzyme_NMNNe_rev	234000.0	NMNNe	h2o_e + nmn_e <-- h_e + ncam_e + r5p_e
 enzyme_NMNS_fwd	234000.0	NMNS	h_c + ncam_c + prpp_c --> nmn_c + ppi_c
 enzyme_NMNS_rev	234000.0	NMNS	h_c + ncam_c + prpp_c <-- nmn_c + ppi_c
 enzyme_NNAT_fwd	234000.0	NNAT	atp_c + h_c + nicrnt_c --> dnad_c + ppi_c
@@ -2539,10 +2555,14 @@ enzyme_PI34P5K_fwd	234000.0	PI34P5K	atp_c + pail34p_hs_c --> adp_c + h_c + pail3
 enzyme_PI34P5K_rev	234000.0	PI34P5K	atp_c + pail34p_hs_c <-- adp_c + h_c + pail345p_hs_c
 enzyme_PI35P3P_fwd	234000.0	PI35P3P	h2o_c + pail35p_hs_c --> pail5p_hs_c + pi_c
 enzyme_PI35P3P_rev	234000.0	PI35P3P	h2o_c + pail35p_hs_c <-- pail5p_hs_c + pi_c
+enzyme_PI35P4K_fwd	234000.0	PI35P4K	atp_c + pail35p_hs_c --> adp_c + h_c + pail345p_hs_c
+enzyme_PI35P4K_rev	234000.0	PI35P4K	atp_c + pail35p_hs_c <-- adp_c + h_c + pail345p_hs_c
 enzyme_PI35P5P_fwd	234000.0	PI35P5P	h2o_c + pail35p_hs_c --> pail3p_hs_c + pi_c
 enzyme_PI35P5P_rev	234000.0	PI35P5P	h2o_c + pail35p_hs_c <-- pail3p_hs_c + pi_c
 enzyme_PI3K_fwd	234000.0	PI3K	atp_c + pail_hs_c --> adp_c + h_c + pail3p_hs_c
 enzyme_PI3K_rev	234000.0	PI3K	atp_c + pail_hs_c <-- adp_c + h_c + pail3p_hs_c
+enzyme_PI3P4K_fwd	234000.0	PI3P4K	atp_c + pail3p_hs_c --> adp_c + h_c + pail34p_hs_c
+enzyme_PI3P4K_rev	234000.0	PI3P4K	atp_c + pail3p_hs_c <-- adp_c + h_c + pail34p_hs_c
 enzyme_PI3P5K_fwd	234000.0	PI3P5K	atp_c + pail3p_hs_c --> adp_c + h_c + pail35p_hs_c
 enzyme_PI3P5K_rev	234000.0	PI3P5K	atp_c + pail3p_hs_c <-- adp_c + h_c + pail35p_hs_c
 enzyme_PI3PP_fwd	234000.0	PI3PP	h2o_c + pail3p_hs_c --> pail_hs_c + pi_c

@@ -232,7 +232,7 @@ cplx_HOMODIMER_Bpgm	c	protein_Bpgm	Bpgm	DPGM;DPGase;PGM	2
 cplx_HOMODIMER_Carm1	c	protein_Carm1	Carm1	PRMTMMA;PRMTSDMA	2
 cplx_HOMODIMER_Cars1	c	protein_Cars1	Cars1	CYSTRS	2
 cplx_HOMODIMER_Cd38	c	protein_Cd38	Cd38	NADPN;CADPRBPH;CADPRIBH;DNADPL;NADL;NADN;NADPL;NMNN	2
-cplx_HOMODIMER_Cd38	pm	protein_Cd38	Cd38	CADPRIBtec	2
+cplx_HOMODIMER_Cd38	pm	protein_Cd38	Cd38	CADPRIBtec;CADPRBPHe;CADPRIBHe;DNADPLe;NADLe;NADNe;NADPLe;NADPNe;NMNNe	2
 cplx_HOMODIMER_Cds2	c	protein_Cds2	Cds2	CDS	2
 cplx_HOMODIMER_Ckb	c	protein_Ckb	Ckb	CK	2
 cplx_HOMODIMER_Ckb	pm	protein_Ckb	Ckb	CKe	2
