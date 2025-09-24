@@ -1,8 +1,8 @@
 metabolites	metabolite	name	formula	charge	compartment	metabolomic evidence (#studies)	metabolomic evidence (pubmed)	references	notes
 10fthf_c	10fthf	10-formyl-tetrahydrofolate	C20H21N7O7	-2	c
-12ppd__R_c	12ppd__R	(R)-propane-1,2-diol	C3H8O2	0	c
-12ppd__S_c	12ppd__S	(S)-propane-1,2-diol	C3H8O2	0	c
-13dampp_c	13dampp	1,3-diaminopropane	C3H12N2	2	c
+12ppd__R_c	12ppd__R	"(R)-propane-1,2-diol"	C3H8O2	0	c
+12ppd__S_c	12ppd__S	"(S)-propane-1,2-diol"	C3H8O2	0	c
+13dampp_c	13dampp	"1,3-diaminopropane"	C3H12N2	2	c
 13dpg_c	13dpg	3-Phospho-D-glyceroyl phosphate	C3H4O10P2	-4	c
 15kprostge1_c	15kprostge1	15-oxo-prostaglandin E1	C20H31O5	-1	c
 15kprostge2_c	15kprostge2	15-oxo-prostaglandin E2	C20H29O5	-1	c
@@ -10,11 +10,11 @@ metabolites	metabolite	name	formula	charge	compartment	metabolomic evidence (#st
 15kprostgf1_c	15kprostgf1	15-oxo-prostaglandin F1alpha	C20H33O5	-1	c
 15kprostgf2_c	15kprostgf2	15-oxo-prostaglandin F2alpha	C20H31O5	-1	c
 15kprostgf3_c	15kprostgf3	15-oxo-prostaglandin F3alpha	C20H29O5	-1	c
-15ppins4p_c	15ppins4p	1,5-bis(diphospho)-1D-myo-inositol 2,3,4,6-tetrakisphosphate	C6H6O30P8	-14	c
+15ppins4p_c	15ppins4p	"1,5-bis(diphospho)-1D-myo-inositol 2,3,4,6-tetrakisphosphate"	C6H6O30P8	-14	c
 1acadprib_c	1acadprib	1''-O-acetyl-ADP-D-ribose	C17H23N5O15P2	-2	c
 1p3h5c__L_c	1p3h5c__L	L-1-pyrroline-3-hydroxy-5-carboxylate	C5H6NO3	-1	c
 1p3h5c__L_e	1p3h5c__L	L-1-pyrroline-3-hydroxy-5-carboxylate	C5H6NO3	-1	e
-1ppins5p_c	1ppins5p	1-diphospho-1D-myo-inositol 2,3,4,5,6-pentakisphosphate	C6H6O27P7	-13	c
+1ppins5p_c	1ppins5p	"1-diphospho-1D-myo-inositol 2,3,4,5,6-pentakisphosphate"	C6H6O27P7	-13	c
 1pyr5c__L_c	1pyr5c__L	L-1-pyrroline-5-carboxylate	C5H6NO2	-1	c
 1pyr5c__L_e	1pyr5c__L	L-1-pyrroline-5-carboxylate	C5H6NO2	-1	e
 1sgth2hoxe1_c	1sgth2hoxe1	2-hydroxyestrone-1-S-glutathione	C28H36N3O9S	-1	c
@@ -23,14 +23,14 @@ metabolites	metabolite	name	formula	charge	compartment	metabolomic evidence (#st
 1sgth2hoxe2_e	1sgth2hoxe2	2-hydroxy-17beta-estradiol-1-S-glutathione	C28H38N3O9S	-1	e
 20bdhcrtsl_c	20bdhcrtsl	20beta-dihydrocortisol	C21H32O5	0	c
 20bdhcrtstrn_c	20bdhcrtstrn	20beta-dihydrocorticosterone	C21H32O4	0	c
-23camp_c	23camp	2,3-Cyclic-AMP	C10H11N5O6P	-1	c
-23ccmp_c	23ccmp	2,3-Cyclic-CMP	C9H11N3O7P	-1	c
-23cgamp_c	23cgamp	2,3-Cyclic-GMP-AMP	C20H22N10O13P2	-2	c
-23cgamp_e	23cgamp	2,3-Cyclic-GMP-AMP	C20H22N10O13P2	-2	e
-23cgmp_c	23cgmp	2,3-Cyclic-GMP	C10H11N5O7P	-1	c
-23cump_c	23cump	2,3-Cyclic-UMP	C9H10N2O8P	-1	c
-23doguln_c	23doguln	2,3-diketo-L-gulonate	C6H7O7	-1	c
-23dpg_c	23dpg	2,3-bisphospho-D-glycerate	C3H3O10P2	-5	c
+23camp_c	23camp	"2,3-Cyclic-AMP"	C10H11N5O6P	-1	c
+23ccmp_c	23ccmp	"2,3-Cyclic-CMP"	C9H11N3O7P	-1	c
+23cgamp_c	23cgamp	"2,3-Cyclic-GMP-AMP"	C20H22N10O13P2	-2	c
+23cgamp_e	23cgamp	"2,3-Cyclic-GMP-AMP"	C20H22N10O13P2	-2	e
+23cgmp_c	23cgmp	"2,3-Cyclic-GMP"	C10H11N5O7P	-1	c
+23cump_c	23cump	"2,3-Cyclic-UMP"	C9H10N2O8P	-1	c
+23doguln_c	23doguln	"2,3-diketo-L-gulonate"	C6H7O7	-1	c
+23dpg_c	23dpg	"2,3-bisphospho-D-glycerate"	C3H3O10P2	-5	c
 2abut_c	2abut	(S)-2-Aminobutanoate	C4H9NO2	0	c
 2abut_e	2abut	(S)-2-Aminobutanoate	C4H9NO2	0	e
 2abuten_c	2abuten	2-aminobut-2-enoate	C4H7NO2	0	c
@@ -86,18 +86,18 @@ metabolites	metabolite	name	formula	charge	compartment	metabolomic evidence (#st
 2sgth4hoxe2_c	2sgth4hoxe2	4-hydroxy-17beta-estradiol-2-S-glutathione	C28H38N3O9S	-1	c
 2sgth4hoxe2_e	2sgth4hoxe2	4-hydroxy-17beta-estradiol-2-S-glutathione	C28H38N3O9S	-1	e
 2ump_c	2ump	Uridine 2'-monophosphate	C9H11N2O9P	-2	c
-34dhmald_c	34dhmald	3,4-dihydroxymandelaldehyde	C8H8O4	0	c
-34dhoxmand_c	34dhoxmand	3,4-dihydroxymandelate	C8H7O5	-1	c
-34dhpac_c	34dhpac	3,4-dihydroxyphenylacetaldehyde	C8H8O3	0	c
-34dhpha_c	34dhpha	3,4-dihydroxyphenylacetate	C8H7O4	-1	c
+34dhmald_c	34dhmald	"3,4-dihydroxymandelaldehyde"	C8H8O4	0	c
+34dhoxmand_c	34dhoxmand	"3,4-dihydroxymandelate"	C8H7O5	-1	c
+34dhpac_c	34dhpac	"3,4-dihydroxyphenylacetaldehyde"	C8H8O3	0	c
+34dhpha_c	34dhpha	"3,4-dihydroxyphenylacetate"	C8H7O4	-1	c
 34hpl_c	34hpl	4-hydroxyphenyllactate	C9H9O4	-1	c
 34hpp_c	34hpp	3-(4-Hydroxyphenyl)pyruvate	C9H7O4	-1	c
-35camp_c	35camp	3',5'-Cyclic AMP	C10H11N5O6P	-1	c
-35camp_e	35camp	3',5'-Cyclic AMP	C10H11N5O6P	-1	e
-35cgmp_c	35cgmp	3',5'-Cyclic GMP	C10H11N5O7P	-1	c
-35cgmp_e	35cgmp	3',5'-Cyclic GMP	C10H11N5O7P	-1	e
-35cimp_c	35cimp	3',5'-Cyclic IMP	C10H10N4O7P	-1	c
-35cimp_e	35cimp	3',5'-Cyclic IMP	C10H10N4O7P	-1	e
+35camp_c	35camp	"3',5'-Cyclic AMP"	C10H11N5O6P	-1	c
+35camp_e	35camp	"3',5'-Cyclic AMP"	C10H11N5O6P	-1	e
+35cgmp_c	35cgmp	"3',5'-Cyclic GMP"	C10H11N5O7P	-1	c
+35cgmp_e	35cgmp	"3',5'-Cyclic GMP"	C10H11N5O7P	-1	e
+35cimp_c	35cimp	"3',5'-Cyclic IMP"	C10H10N4O7P	-1	c
+35cimp_e	35cimp	"3',5'-Cyclic IMP"	C10H10N4O7P	-1	e
 3dfru_c	3dfru	3-deoxyfructose	C6H12O5	0	c
 3dfru_e	3dfru	3-deoxyfructose	C6H12O5	0	e
 3dglc_c	3dglc	3-deoxyglucosone	C6H10O5	0	c
@@ -105,7 +105,7 @@ metabolites	metabolite	name	formula	charge	compartment	metabolomic evidence (#st
 3dhguln_c	3dhguln	3-dehydro-L-gulonate	C6H9O7	-1	c
 3dsphgn_c	3dsphgn	3-dehydrosphinganine	C18H38NO2	1	c
 3dxyl_c	3dxyl	3-deoxyxylosone	C5H8O4	0	c
-3htmelys_c	3htmelys	3-hydroxy-N6,N6,N6-trimethyl-L-lysine	C9H20N2O3	0	c
+3htmelys_c	3htmelys	"3-hydroxy-N6,N6,N6-trimethyl-L-lysine"	C9H20N2O3	0	c
 3mlda_c	3mlda	Methylimidazoleacetate	C6H7N2O2	-1	c
 3mlda_e	3mlda	Methylimidazoleacetate	C6H7N2O2	-1	e
 3mldz_c	3mldz	Methylimidazole-acetaldehyde	C6H8N2O	0	c
@@ -139,13 +139,13 @@ metabolites	metabolite	name	formula	charge	compartment	metabolomic evidence (#st
 3sala__L_c	3sala__L	3-Sulfino-L-alanine	C3H6NO4S	-1	c
 3snpyr_c	3snpyr	3-Sulfinopyruvate	C3H2O5S	-2	c
 3spyr_c	3spyr	3-sulfopyruvate	C3H2O6S	-2	c
-42a3hp24db_c	42a3hp24db	4-(2-amino-3-hydroxyphenyl)-2,4-dioxobutanoate	C10H7NO5	-2	c
-45cfmn_c	45cfmn	Riboflavin cyclic-4',5'-phosphate	C17H17N4O8P	-2	c
+42a3hp24db_c	42a3hp24db	"4-(2-amino-3-hydroxyphenyl)-2,4-dioxobutanoate"	C10H7NO5	-2	c
+45cfmn_c	45cfmn	"Riboflavin cyclic-4',5'-phosphate"	C17H17N4O8P	-2	c
 4aabutn_c	4aabutn	4-acetamidobutanoate	C6H10NO3	-1	c
 4abut_c	4abut	4-aminobutyrate	C4H9NO2	0	c
 4abut_e	4abut	4-aminobutyrate	C4H9NO2	0	e
 4abutn_c	4abutn	4-aminobutanal	C4H10NO	1	c
-4aphdob_c	4aphdob	4-(2-aminophenyl)-2,4-dioxobutanoate	C10H8NO4	-1	c
+4aphdob_c	4aphdob	"4-(2-aminophenyl)-2,4-dioxobutanoate"	C10H8NO4	-1	c
 4fumacac_c	4fumacac	4-fumarylacetoacetate	C8H6O6	-2	c
 4h2hxea_2E_c	4h2hxea_2E	4-hydroxy-2E-hexenoate	C6H9O3	-1	c
 4h2hxeal_2E_c	4h2hxeal_2E	4-hydroxy-2E-hexenal	C6H10O2	0	c
@@ -184,31 +184,31 @@ metabolites	metabolite	name	formula	charge	compartment	metabolomic evidence (#st
 4sgth2hoxe1_e	4sgth2hoxe1	2-hydroxyestrone-4-S-glutathione	C28H36N3O9S	-1	e
 4sgth2hoxe2_c	4sgth2hoxe2	2-hydroxy-17beta-estradiol-4-S-glutathione	C28H38N3O9S	-1	c
 4sgth2hoxe2_e	4sgth2hoxe2	2-hydroxy-17beta-estradiol-4-S-glutathione	C28H38N3O9S	-1	e
-4sgth56dhi_c	4sgth56dhi	4-S-glutathionyl-5,6-dihydroxyindole	C18H21N4O8S	-1	c
-4sgth56dhi_e	4sgth56dhi	4-S-glutathionyl-5,6-dihydroxyindole	C18H21N4O8S	-1	e
-4sgth56dhilne_c	4sgth56dhilne	4-S-glutathionyl-5,6-Dihydroxyindoline	C18H23N4O8S	-1	c
-4sgth56dhilne_e	4sgth56dhilne	4-S-glutathionyl-5,6-dihydroxyindoline	C18H23N4O8S	-1	e
+4sgth56dhi_c	4sgth56dhi	"4-S-glutathionyl-5,6-dihydroxyindole"	C18H21N4O8S	-1	c
+4sgth56dhi_e	4sgth56dhi	"4-S-glutathionyl-5,6-dihydroxyindole"	C18H21N4O8S	-1	e
+4sgth56dhilne_c	4sgth56dhilne	"4-S-glutathionyl-5,6-Dihydroxyindoline"	C18H23N4O8S	-1	c
+4sgth56dhilne_e	4sgth56dhilne	"4-S-glutathionyl-5,6-dihydroxyindoline"	C18H23N4O8S	-1	e
 4tmeabut_c	4tmeabut	4-trimethylammoniobutanal	C7H16NO	1	c
 4tmeabutn_c	4tmeabutn	gamma-butyrobetaine	C7H15NO2	0	c
-56dh5flura_c	56dh5flura	5,6-Dihydro-5-fluorouracil	C4H5FN2O2	0	c
-56dh5flura_e	56dh5flura	5,6-Dihydro-5-fluorouracil	C4H5FN2O2	0	e
-56dhi_c	56dhi	5,6-dihydroxyindole	C8H7NO2	0	c
-56dhica_c	56dhica	5,6-dihydroxyindole-2-carboxylate	C9H6NO4	-1	c
-56dthm_c	56dthm	5,6-dihydrothymine	C5H8N2O2	0	c
-56dthm_e	56dthm	5,6-dihydrothymine	C5H8N2O2	0	e
-56dura_c	56dura	5,6-dihydrouracil	C4H6N2O2	0	c
-56dura_e	56dura	5,6-dihydrouracil	C4H6N2O2	0	e
-5aand3a17bdiol_c	5aand3a17bdiol	5alpha-androstane-3alpha,17beta-diol	C19H32O2	0	c
+56dh5flura_c	56dh5flura	"5,6-Dihydro-5-fluorouracil"	C4H5FN2O2	0	c
+56dh5flura_e	56dh5flura	"5,6-Dihydro-5-fluorouracil"	C4H5FN2O2	0	e
+56dhi_c	56dhi	"5,6-dihydroxyindole"	C8H7NO2	0	c
+56dhica_c	56dhica	"5,6-dihydroxyindole-2-carboxylate"	C9H6NO4	-1	c
+56dthm_c	56dthm	"5,6-dihydrothymine"	C5H8N2O2	0	c
+56dthm_e	56dthm	"5,6-dihydrothymine"	C5H8N2O2	0	e
+56dura_c	56dura	"5,6-dihydrouracil"	C4H6N2O2	0	c
+56dura_e	56dura	"5,6-dihydrouracil"	C4H6N2O2	0	e
+5aand3a17bdiol_c	5aand3a17bdiol	"5alpha-androstane-3alpha,17beta-diol"	C19H32O2	0	c
 5adtststerone_c	5adtststerone	5-alpha-dihydrotestosterone	C19H30O2	0	c
 5aizc_c	5aizc	5-phosphoribosyl-4-carboxy-5-aminoimidazole	C9H11N3O9P	-3	c
 5aop_c	5aop	5-Amino-4-oxopentanoate	C5H9NO3	0	c
 5aop_e	5aop	5-Amino-4-oxopentanoate	C5H9NO3	0	e
 5dpmev_c	5dpmev	(R)-5-diphosphomevalonate	C6H10O10P2	-4	c
-5fludp_c	5fludp	5,6-Dihydro-5-fluorouradine 5-diphosphate	C9H10FN2O12P2	-3	c
-5flump_c	5flump	5,6-Dihydro-5-fluorouradine 5-monophosphate	C9H10FN2O9P	-2	c
+5fludp_c	5fludp	"5,6-Dihydro-5-fluorouradine 5-diphosphate"	C9H10FN2O12P2	-3	c
+5flump_c	5flump	"5,6-Dihydro-5-fluorouradine 5-monophosphate"	C9H10FN2O9P	-2	c
 5flura_c	5flura	5-Fluorouracil	C4H3FN2O2	0	c
 5flura_e	5flura	5-Fluorouracil	C4H3FN2O2	0	e
-5flutp_c	5flutp	5,6-Dihydro-5-fluorouradine 5-triphosphate	C9H10FN2O15P3	-4	c
+5flutp_c	5flutp	"5,6-Dihydro-5-fluorouradine 5-triphosphate"	C9H10FN2O15P3	-4	c
 5fthf_c	5fthf	5-formyl-tetrahydrofolate	C20H21N7O7	-2	c
 5fthf_e	5fthf	5-formyl-tetrahydrofolate	C20H21N7O7	-2	e
 5hiu_c	5hiu	5-hydroxyisourate	C5H4N4O4	0	c
@@ -223,7 +223,7 @@ metabolites	metabolite	name	formula	charge	compartment	metabolomic evidence (#st
 5mthf_e	5mthf	5-methyl-tetrahydrofolate	C20H24N7O6	-1	e
 5oxpro_c	5oxpro	5-oxoproline	C5H6NO3	-1	c
 5oxpro_e	5oxpro	5-oxoproline	C5H6NO3	-1	e
-5ppins5p_c	5ppins5p	5-diphospho-1D-myo-inositol 1,2,3,4,6-pentakisphosphate	C6H6O27P7	-13	c
+5ppins5p_c	5ppins5p	"5-diphospho-1D-myo-inositol 1,2,3,4,6-pentakisphosphate"	C6H6O27P7	-13	c
 5sgthadrnl__L_c	5sgthadrnl__L	5-S-glutathionyl-L-adrenaline	C19H28N4O9S	0	c
 5sgthadrnl__L_e	5sgthadrnl__L	5-S-glutathionyl-L-adrenaline	C19H28N4O9S	0	e
 5sgthdopa__L_c	5sgthdopa__L	5-S-glutathionyl-L-dopa	C19H25N4O10S	-1	c
@@ -238,14 +238,14 @@ metabolites	metabolite	name	formula	charge	compartment	metabolomic evidence (#st
 5sgthleunrpphrchrm_e	5sgthleunrpphrchrm	5-S-Glutathionyl-leuconoradrenochrome	C18H23N4O9S	-1	e
 5sgthnrpphr__L_c	5sgthnrpphr__L	5-S-glutathionyl-L-noradrenaline	C18H26N4O9S	0	c
 5sgthnrpphr__L_e	5sgthnrpphr__L	5-S-glutathionyl-L-noradrenaline	C18H26N4O9S	0	e
-67dhbpt_c	67dhbpt	6,7-dihydrobiopterin	C9H13N5O3	0	c
+67dhbpt_c	67dhbpt	"6,7-dihydrobiopterin"	C9H13N5O3	0	c
 6hopthp_c	6hopthp	6-(1'-Hydroxy-2'-oxopropyl)-tetrahydropterin	C9H13N5O3	0	c
-6lthp_c	6lthp	6-lactoyl-5,6,7,8-tetrahydropterin	C9H13N5O3	0	c
+6lthp_c	6lthp	"6-lactoyl-5,6,7,8-tetrahydropterin"	C9H13N5O3	0	c
 6pgc_c	6pgc	6-phospho-D-gluconate	C6H10O10P	-3	c
-6pgl_c	6pgl	6-phospho-D-glucono-1,5-lactone	C6H9O9P	-2	c
-6pthp_c	6pthp	6-pyruvoyl-5,6,7,8-tetrahydropterin	C9H11N5O3	0	c
-78dhbpt_c	78dhbpt	7,8-dihydrobiopterin	C9H14N5O3	1	c
-78dhbpt_e	78dhbpt	7,8-dihydrobiopterin	C9H14N5O3	1	e
+6pgl_c	6pgl	"6-phospho-D-glucono-1,5-lactone"	C6H9O9P	-2	c
+6pthp_c	6pthp	"6-pyruvoyl-5,6,7,8-tetrahydropterin"	C9H11N5O3	0	c
+78dhbpt_c	78dhbpt	"7,8-dihydrobiopterin"	C9H14N5O3	1	c
+78dhbpt_e	78dhbpt	"7,8-dihydrobiopterin"	C9H14N5O3	1	e
 ACP_c	ACP	[ACP]	C11H21N2O7PRS	-1	c
 FA_hs_10_0_c	FA_hs_10_0	Decanoate (FA 10:0)	C10H19O2	-1	c
 FA_hs_10_0_e	FA_hs_10_0	Decanoate (FA 10:0)	C10H19O2	-1	e
@@ -297,102 +297,102 @@ FA_hs_18_11Z_c	FA_hs_18_11Z	(11Z)-octadecenoate (FA.18:1(11Z))	C18H33O2	-1	c
 FA_hs_18_11Z_e	FA_hs_18_11Z	(11Z)-octadecenoate (FA.18:1(11Z))	C18H33O2	-1	e
 FA_hs_18_13Z_c	FA_hs_18_13Z	(13Z)-octadecenoate (FA.18:1(13Z))	C18H33O2	-1	c
 FA_hs_18_13Z_e	FA_hs_18_13Z	(13Z)-octadecenoate (FA.18:1(13Z))	C18H33O2	-1	e
-FA_hs_18_6Z9Z12Z15Z_c	FA_hs_18_6Z9Z12Z15Z	(6Z,9Z,12Z.15Z)-octadecatetraenoate (FA.18:4(6Z,9Z,12Z,15Z))	C18H27O2	-1	c
-FA_hs_18_6Z9Z12Z15Z_e	FA_hs_18_6Z9Z12Z15Z	(6Z,9Z,12Z.15Z)-octadecatetraenoate (FA.18:4(6Z,9Z,12Z,15Z))	C18H27O2	-1	e
-FA_hs_18_6Z9Z12Z_c	FA_hs_18_6Z9Z12Z	(6Z,9Z,12Z)-octadecatrienoate (FA.18:3(6Z,9Z,12Z))	C18H29O2	-1	c
-FA_hs_18_6Z9Z12Z_e	FA_hs_18_6Z9Z12Z	(6Z,9Z,12Z)-octadecatrienoate (FA.18:3(6Z,9Z,12Z))	C18H29O2	-1	e
-FA_hs_18_6Z9Z_c	FA_hs_18_6Z9Z	(6Z,9Z)-octadecadienoate (FA.18:2(6Z,9Z))	C18H31O2	-1	c
-FA_hs_18_6Z9Z_e	FA_hs_18_6Z9Z	(6Z,9Z)-octadecadienoate (FA.18:2(6Z,9Z))	C18H31O2	-1	e
+FA_hs_18_6Z9Z12Z15Z_c	FA_hs_18_6Z9Z12Z15Z	"(6Z,9Z,12Z.15Z)-octadecatetraenoate (FA.18:4(6Z,9Z,12Z,15Z))"	C18H27O2	-1	c
+FA_hs_18_6Z9Z12Z15Z_e	FA_hs_18_6Z9Z12Z15Z	"(6Z,9Z,12Z.15Z)-octadecatetraenoate (FA.18:4(6Z,9Z,12Z,15Z))"	C18H27O2	-1	e
+FA_hs_18_6Z9Z12Z_c	FA_hs_18_6Z9Z12Z	"(6Z,9Z,12Z)-octadecatrienoate (FA.18:3(6Z,9Z,12Z))"	C18H29O2	-1	c
+FA_hs_18_6Z9Z12Z_e	FA_hs_18_6Z9Z12Z	"(6Z,9Z,12Z)-octadecatrienoate (FA.18:3(6Z,9Z,12Z))"	C18H29O2	-1	e
+FA_hs_18_6Z9Z_c	FA_hs_18_6Z9Z	"(6Z,9Z)-octadecadienoate (FA.18:2(6Z,9Z))"	C18H31O2	-1	c
+FA_hs_18_6Z9Z_e	FA_hs_18_6Z9Z	"(6Z,9Z)-octadecadienoate (FA.18:2(6Z,9Z))"	C18H31O2	-1	e
 FA_hs_18_7Z_c	FA_hs_18_7Z	(7Z)-octadecenoate (FA.18:1(7Z))	C18H33O2	-1	c
 FA_hs_18_7Z_e	FA_hs_18_7Z	(7Z)-octadecenoate (FA.18:1(7Z))	C18H33O2	-1	e
 FA_hs_18_9E_c	FA_hs_18_9E	(9E)-octadecenoate (FA.18:1(9E))	C18H33O2	-1	c
 FA_hs_18_9E_e	FA_hs_18_9E	(9E)-octadecenoate (FA.18:1(9E))	C18H33O2	-1	e
-FA_hs_18_9Z12Z15Z_c	FA_hs_18_9Z12Z15Z	(9Z,12Z.15Z)-octadecatrienoate  (FA.18:3(9Z,12Z,15Z))	C18H29O2	-1	c
-FA_hs_18_9Z12Z15Z_e	FA_hs_18_9Z12Z15Z	(9Z,12Z.15Z)-octadecatrienoate  (FA.18:3(9Z,12Z,15Z))	C18H29O2	-1	e
-FA_hs_18_9Z12Z_c	FA_hs_18_9Z12Z	(9Z,12Z)-octadecadienoate (FA.18:2(9Z,12Z))	C18H31O2	-1	c
-FA_hs_18_9Z12Z_e	FA_hs_18_9Z12Z	(9Z,12Z)-octadecadienoate (FA.18:2(9Z,12Z))	C18H31O2	-1	e
-FA_hs_18_9Z12Zr_c	FA_hs_18_9Z12Zr	(9Z,12Z)-octadecadienoate (FA.18:2(9Z,12Z)) radical	C18H30O2	-1	c
-FA_hs_18_9Z12Zroo_c	FA_hs_18_9Z12Zroo	(9Z,12Z)-octadecadienoate (FA.18:2(9Z,12Z)) peroxyl radical	C18H30O4	-1	c
+FA_hs_18_9Z12Z15Z_c	FA_hs_18_9Z12Z15Z	"(9Z,12Z.15Z)-octadecatrienoate  (FA.18:3(9Z,12Z,15Z))"	C18H29O2	-1	c
+FA_hs_18_9Z12Z15Z_e	FA_hs_18_9Z12Z15Z	"(9Z,12Z.15Z)-octadecatrienoate  (FA.18:3(9Z,12Z,15Z))"	C18H29O2	-1	e
+FA_hs_18_9Z12Z_c	FA_hs_18_9Z12Z	"(9Z,12Z)-octadecadienoate (FA.18:2(9Z,12Z))"	C18H31O2	-1	c
+FA_hs_18_9Z12Z_e	FA_hs_18_9Z12Z	"(9Z,12Z)-octadecadienoate (FA.18:2(9Z,12Z))"	C18H31O2	-1	e
+FA_hs_18_9Z12Zr_c	FA_hs_18_9Z12Zr	"(9Z,12Z)-octadecadienoate (FA.18:2(9Z,12Z)) radical"	C18H30O2	-1	c
+FA_hs_18_9Z12Zroo_c	FA_hs_18_9Z12Zroo	"(9Z,12Z)-octadecadienoate (FA.18:2(9Z,12Z)) peroxyl radical"	C18H30O4	-1	c
 FA_hs_18_9Z_c	FA_hs_18_9Z	(9Z)-octadecenoate (FA.18:1(9Z))	C18H33O2	-1	c
 FA_hs_18_9Z_e	FA_hs_18_9Z	(9Z)-octadecenoate (FA.18:1(9Z))	C18H33O2	-1	e
 FA_hs_19_0_c	FA_hs_19_0	Nonadecanoate (FA 19:0)	C19H37O2	-1	c
 FA_hs_19_0_e	FA_hs_19_0	Nonadecanoate (FA 19:0)	C19H37O2	-1	e
 FA_hs_20_0_c	FA_hs_20_0	Eicosanoate (FA 20:0)	C20H39O2	-1	c
 FA_hs_20_0_e	FA_hs_20_0	Eicosanoate (FA 20:0)	C20H39O2	-1	e
-FA_hs_20_11Z14Z17Z_c	FA_hs_20_11Z14Z17Z	(11Z,14Z,17Z)-eicosatrienoate (FA 20:3(11Z,14Z,17Z))	C20H33O2	-1	c
-FA_hs_20_11Z14Z17Z_e	FA_hs_20_11Z14Z17Z	(11Z,14Z,17Z)-eicosatrienoate (FA 20:3(11Z,14Z,17Z))	C20H33O2	-1	e
-FA_hs_20_11Z14Z_c	FA_hs_20_11Z14Z	(11Z,14Z)-eicosadienoate (FA 20:2(11Z,14Z))	C20H35O2	-1	c
-FA_hs_20_11Z14Z_e	FA_hs_20_11Z14Z	(11Z,14Z)-eicosadienoate (FA 20:2(11Z,14Z))	C20H35O2	-1	e
+FA_hs_20_11Z14Z17Z_c	FA_hs_20_11Z14Z17Z	"(11Z,14Z,17Z)-eicosatrienoate (FA 20:3(11Z,14Z,17Z))"	C20H33O2	-1	c
+FA_hs_20_11Z14Z17Z_e	FA_hs_20_11Z14Z17Z	"(11Z,14Z,17Z)-eicosatrienoate (FA 20:3(11Z,14Z,17Z))"	C20H33O2	-1	e
+FA_hs_20_11Z14Z_c	FA_hs_20_11Z14Z	"(11Z,14Z)-eicosadienoate (FA 20:2(11Z,14Z))"	C20H35O2	-1	c
+FA_hs_20_11Z14Z_e	FA_hs_20_11Z14Z	"(11Z,14Z)-eicosadienoate (FA 20:2(11Z,14Z))"	C20H35O2	-1	e
 FA_hs_20_11Z_c	FA_hs_20_11Z	(11Z)-eicosanoate (FA 20:1(11Z))	C20H37O2	-1	c
 FA_hs_20_11Z_e	FA_hs_20_11Z	(11Z)-eicosanoate (FA 20:1(11Z))	C20H37O2	-1	e
 FA_hs_20_13Z_c	FA_hs_20_13Z	(13Z)-eicosanoate (FA 20:1(13Z))	C20H37O2	-1	c
 FA_hs_20_13Z_e	FA_hs_20_13Z	(13Z)-eicosanoate (FA 20:1(13Z))	C20H37O2	-1	e
-FA_hs_20_5Z8Z11Z14Z17Z_c	FA_hs_20_5Z8Z11Z14Z17Z	(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoate (FA 20:5(5Z,8Z,11Z,14Z,17Z))	C20H29O2	-1	c
-FA_hs_20_5Z8Z11Z14Z17Z_e	FA_hs_20_5Z8Z11Z14Z17Z	(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoate (FA 20:5(5Z,8Z,11Z,14Z,17Z))	C20H29O2	-1	e
-FA_hs_20_5Z8Z11Z14Z17Zr_c	FA_hs_20_5Z8Z11Z14Z17Zr	(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoate (FA 20:5(5Z,8Z,11Z,14Z,17Z)) radical	C20H28O2	-1	c
-FA_hs_20_5Z8Z11Z14Z17Zroo_c	FA_hs_20_5Z8Z11Z14Z17Zroo	(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoate (FA 20:5(5Z,8Z,11Z,14Z,17Z)) peroxyl radical	C20H28O4	-1	c
-FA_hs_20_5Z8Z11Z14Z20DC_c	FA_hs_20_5Z8Z11Z14Z20DC	(5Z,8Z,11Z,14Z)-eicosatetraenedioate (FA 20:4(5Z,8Z,11Z,14Z);O2)	C20H28O4	-2	c
-FA_hs_20_5Z8Z11Z14Z20OH_c	FA_hs_20_5Z8Z11Z14Z20OH	20-hydroxy-(5Z,8Z,11Z,14Z)-eicosatetraenoate (FA 20:4(5Z,8Z,11Z,14Z);O)	C20H31O3	-1	c
-FA_hs_20_5Z8Z11Z14Z20O_c	FA_hs_20_5Z8Z11Z14Z20O	20-oxo-(5Z,8Z,11Z,14Z)-eicosatetraenoate (FA 20:5(5Z,8Z,11Z,14Z);O)	C20H29O3	-1	c
-FA_hs_20_5Z8Z11Z14Z_c	FA_hs_20_5Z8Z11Z14Z	(5Z,8Z,11Z,14Z)-eicosatetraenoate (FA 20:4(5Z,8Z,11Z,14Z))	C20H31O2	-1	c
-FA_hs_20_5Z8Z11Z14Z_e	FA_hs_20_5Z8Z11Z14Z	(5Z,8Z,11Z,14Z)-eicosatetraenoate (FA 20:4(5Z,8Z,11Z,14Z))	C20H31O2	-1	e
-FA_hs_20_5Z8Z11Z14Zr_c	FA_hs_20_5Z8Z11Z14Zr	(5Z,8Z,11Z,14Z)-eicosatetraenoate (FA 20:4(5Z,8Z,11Z,14Z)) radical	C20H30O2	-1	c
-FA_hs_20_5Z8Z11Z14Zroo_c	FA_hs_20_5Z8Z11Z14Zroo	(5Z,8Z,11Z,14Z)-eicosatetraenoate (FA 20:4(5Z,8Z,11Z,14Z)) peroxyl radical	C20H30O4	-1	c
-FA_hs_20_5Z8Z11Z_c	FA_hs_20_5Z8Z11Z	(5Z,8Z,11Z)-eicosatrienoate (FA 20:3(5Z,8Z,11Z))	C20H33O2	-1	c
-FA_hs_20_5Z8Z11Z_e	FA_hs_20_5Z8Z11Z	(5Z,8Z,11Z)-eicosatrienoate (FA 20:3(5Z,8Z,11Z))	C20H33O2	-1	e
-FA_hs_20_8Z11Z14Z17Z_c	FA_hs_20_8Z11Z14Z17Z	(8Z,11Z,14Z,17Z)-eicosatetraenoate (FA 20:4(8Z,11Z,14Z,17Z))	C20H31O2	-1	c
-FA_hs_20_8Z11Z14Z17Z_e	FA_hs_20_8Z11Z14Z17Z	(8Z,11Z,14Z,17Z)-eicosatetraenoate (FA 20:4(8Z,11Z,14Z,17Z))	C20H31O2	-1	e
-FA_hs_20_8Z11Z14Z_c	FA_hs_20_8Z11Z14Z	(8Z,11Z,14Z)-eicosatrienoate (FA 20:3(8Z,11Z.14Z))	C20H33O2	-1	c
-FA_hs_20_8Z11Z14Z_e	FA_hs_20_8Z11Z14Z	(8Z,11Z,14Z)-eicosatrienoate (FA 20:3(8Z,11Z.14Z))	C20H33O2	-1	e
-FA_hs_20_8Z11Z_c	FA_hs_20_8Z11Z	(8Z,11Z)-eicosadienoate (FA 20:2(8Z,11Z))	C20H35O2	-1	c
-FA_hs_20_8Z11Z_e	FA_hs_20_8Z11Z	(8Z,11Z)-eicosadienoate (FA 20:2(8Z,11Z))	C20H35O2	-1	e
+FA_hs_20_5Z8Z11Z14Z17Z_c	FA_hs_20_5Z8Z11Z14Z17Z	"(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoate (FA 20:5(5Z,8Z,11Z,14Z,17Z))"	C20H29O2	-1	c
+FA_hs_20_5Z8Z11Z14Z17Z_e	FA_hs_20_5Z8Z11Z14Z17Z	"(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoate (FA 20:5(5Z,8Z,11Z,14Z,17Z))"	C20H29O2	-1	e
+FA_hs_20_5Z8Z11Z14Z17Zr_c	FA_hs_20_5Z8Z11Z14Z17Zr	"(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoate (FA 20:5(5Z,8Z,11Z,14Z,17Z)) radical"	C20H28O2	-1	c
+FA_hs_20_5Z8Z11Z14Z17Zroo_c	FA_hs_20_5Z8Z11Z14Z17Zroo	"(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoate (FA 20:5(5Z,8Z,11Z,14Z,17Z)) peroxyl radical"	C20H28O4	-1	c
+FA_hs_20_5Z8Z11Z14Z20DC_c	FA_hs_20_5Z8Z11Z14Z20DC	"(5Z,8Z,11Z,14Z)-eicosatetraenedioate (FA 20:4(5Z,8Z,11Z,14Z);O2)"	C20H28O4	-2	c
+FA_hs_20_5Z8Z11Z14Z20OH_c	FA_hs_20_5Z8Z11Z14Z20OH	"20-hydroxy-(5Z,8Z,11Z,14Z)-eicosatetraenoate (FA 20:4(5Z,8Z,11Z,14Z);O)"	C20H31O3	-1	c
+FA_hs_20_5Z8Z11Z14Z20O_c	FA_hs_20_5Z8Z11Z14Z20O	"20-oxo-(5Z,8Z,11Z,14Z)-eicosatetraenoate (FA 20:5(5Z,8Z,11Z,14Z);O)"	C20H29O3	-1	c
+FA_hs_20_5Z8Z11Z14Z_c	FA_hs_20_5Z8Z11Z14Z	"(5Z,8Z,11Z,14Z)-eicosatetraenoate (FA 20:4(5Z,8Z,11Z,14Z))"	C20H31O2	-1	c
+FA_hs_20_5Z8Z11Z14Z_e	FA_hs_20_5Z8Z11Z14Z	"(5Z,8Z,11Z,14Z)-eicosatetraenoate (FA 20:4(5Z,8Z,11Z,14Z))"	C20H31O2	-1	e
+FA_hs_20_5Z8Z11Z14Zr_c	FA_hs_20_5Z8Z11Z14Zr	"(5Z,8Z,11Z,14Z)-eicosatetraenoate (FA 20:4(5Z,8Z,11Z,14Z)) radical"	C20H30O2	-1	c
+FA_hs_20_5Z8Z11Z14Zroo_c	FA_hs_20_5Z8Z11Z14Zroo	"(5Z,8Z,11Z,14Z)-eicosatetraenoate (FA 20:4(5Z,8Z,11Z,14Z)) peroxyl radical"	C20H30O4	-1	c
+FA_hs_20_5Z8Z11Z_c	FA_hs_20_5Z8Z11Z	"(5Z,8Z,11Z)-eicosatrienoate (FA 20:3(5Z,8Z,11Z))"	C20H33O2	-1	c
+FA_hs_20_5Z8Z11Z_e	FA_hs_20_5Z8Z11Z	"(5Z,8Z,11Z)-eicosatrienoate (FA 20:3(5Z,8Z,11Z))"	C20H33O2	-1	e
+FA_hs_20_8Z11Z14Z17Z_c	FA_hs_20_8Z11Z14Z17Z	"(8Z,11Z,14Z,17Z)-eicosatetraenoate (FA 20:4(8Z,11Z,14Z,17Z))"	C20H31O2	-1	c
+FA_hs_20_8Z11Z14Z17Z_e	FA_hs_20_8Z11Z14Z17Z	"(8Z,11Z,14Z,17Z)-eicosatetraenoate (FA 20:4(8Z,11Z,14Z,17Z))"	C20H31O2	-1	e
+FA_hs_20_8Z11Z14Z_c	FA_hs_20_8Z11Z14Z	"(8Z,11Z,14Z)-eicosatrienoate (FA 20:3(8Z,11Z.14Z))"	C20H33O2	-1	c
+FA_hs_20_8Z11Z14Z_e	FA_hs_20_8Z11Z14Z	"(8Z,11Z,14Z)-eicosatrienoate (FA 20:3(8Z,11Z.14Z))"	C20H33O2	-1	e
+FA_hs_20_8Z11Z_c	FA_hs_20_8Z11Z	"(8Z,11Z)-eicosadienoate (FA 20:2(8Z,11Z))"	C20H35O2	-1	c
+FA_hs_20_8Z11Z_e	FA_hs_20_8Z11Z	"(8Z,11Z)-eicosadienoate (FA 20:2(8Z,11Z))"	C20H35O2	-1	e
 FA_hs_20_9Z_c	FA_hs_20_9Z	(9Z)-eicosanoate (FA 20:1(9Z))	C20H37O2	-1	c
 FA_hs_20_9Z_e	FA_hs_20_9Z	(9Z)-eicosanoate (FA 20:1(9Z))	C20H37O2	-1	e
 FA_hs_21_0_c	FA_hs_21_0	Henicosanoate (FA 21:0)	C21H41O2	-1	c
 FA_hs_21_0_e	FA_hs_21_0	Henicosanoate (FA 21:0)	C21H41O2	-1	e
 FA_hs_22_0_c	FA_hs_22_0	Docosanoate (FA 22:0)	C22H43O2	-1	c
 FA_hs_22_0_e	FA_hs_22_0	Docosanoate (FA 22:0)	C22H43O2	-1	e
-FA_hs_22_10Z13Z16Z19Z_c	FA_hs_22_10Z13Z16Z19Z	(10Z,13Z,16Z,19Z)-docosatetraenoate (FA 22:4(10Z,13Z,16Z,19Z))	C22H35O2	-1	c
-FA_hs_22_10Z13Z16Z19Z_e	FA_hs_22_10Z13Z16Z19Z	(10Z,13Z,16Z,19Z)-docosatetraenoate (FA 22:4(10Z,13Z,16Z,19Z))	C22H35O2	-1	e
-FA_hs_22_10Z13Z16Z_c	FA_hs_22_10Z13Z16Z	(10Z,13Z,16Z)-docosatrienoate (FA 22:3(10Z,13Z,16Z))	C22H37O2	-1	c
-FA_hs_22_10Z13Z16Z_e	FA_hs_22_10Z13Z16Z	(10Z,13Z,16Z)-docosatrienoate (FA 22:3(10Z,13Z,16Z))	C22H37O2	-1	e
+FA_hs_22_10Z13Z16Z19Z_c	FA_hs_22_10Z13Z16Z19Z	"(10Z,13Z,16Z,19Z)-docosatetraenoate (FA 22:4(10Z,13Z,16Z,19Z))"	C22H35O2	-1	c
+FA_hs_22_10Z13Z16Z19Z_e	FA_hs_22_10Z13Z16Z19Z	"(10Z,13Z,16Z,19Z)-docosatetraenoate (FA 22:4(10Z,13Z,16Z,19Z))"	C22H35O2	-1	e
+FA_hs_22_10Z13Z16Z_c	FA_hs_22_10Z13Z16Z	"(10Z,13Z,16Z)-docosatrienoate (FA 22:3(10Z,13Z,16Z))"	C22H37O2	-1	c
+FA_hs_22_10Z13Z16Z_e	FA_hs_22_10Z13Z16Z	"(10Z,13Z,16Z)-docosatrienoate (FA 22:3(10Z,13Z,16Z))"	C22H37O2	-1	e
 FA_hs_22_11Z_c	FA_hs_22_11Z	(11Z)-docosenoate (FA 22:1(11Z))	C22H41O2	-1	c
 FA_hs_22_11Z_e	FA_hs_22_11Z	(11Z)-docosenoate (FA 22:1(11Z))	C22H41O2	-1	e
-FA_hs_22_13Z16Z19Z_c	FA_hs_22_13Z16Z19Z	(13Z,16Z,19Z)-docosatrienoate (FA 22:3(13Z,16Z,19Z))	C22H37O2	-1	c
-FA_hs_22_13Z16Z19Z_e	FA_hs_22_13Z16Z19Z	(13Z,16Z,19Z)-docosatrienoate (FA 22:3(13Z,16Z,19Z))	C22H37O2	-1	e
-FA_hs_22_13Z16Z_c	FA_hs_22_13Z16Z	(13Z,16Z)-docosadienoate (FA 22:2(13Z,16Z))	C22H39O2	-1	c
-FA_hs_22_13Z16Z_e	FA_hs_22_13Z16Z	(13Z,16Z)-docosadienoate (FA 22:2(13Z,16Z))	C22H39O2	-1	e
+FA_hs_22_13Z16Z19Z_c	FA_hs_22_13Z16Z19Z	"(13Z,16Z,19Z)-docosatrienoate (FA 22:3(13Z,16Z,19Z))"	C22H37O2	-1	c
+FA_hs_22_13Z16Z19Z_e	FA_hs_22_13Z16Z19Z	"(13Z,16Z,19Z)-docosatrienoate (FA 22:3(13Z,16Z,19Z))"	C22H37O2	-1	e
+FA_hs_22_13Z16Z_c	FA_hs_22_13Z16Z	"(13Z,16Z)-docosadienoate (FA 22:2(13Z,16Z))"	C22H39O2	-1	c
+FA_hs_22_13Z16Z_e	FA_hs_22_13Z16Z	"(13Z,16Z)-docosadienoate (FA 22:2(13Z,16Z))"	C22H39O2	-1	e
 FA_hs_22_13Z_c	FA_hs_22_13Z	(13Z)-docosenoate (FA 22:1(13Z))	C22H41O2	-1	c
 FA_hs_22_13Z_e	FA_hs_22_13Z	(13Z)-docosenoate (FA 22:1(13Z))	C22H41O2	-1	e
 FA_hs_22_22OH_c	FA_hs_22_22OH	22-hydroxy-docosanoate (FA 22:0;O)	C22H43O3	-1	c
 FA_hs_22_22O_c	FA_hs_22_22O	22-oxo-docosanoate (FA 22:1;O)	C22H41O3	-1	c
-FA_hs_22_4Z7Z10Z13Z16Z19Z_c	FA_hs_22_4Z7Z10Z13Z16Z19Z	(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate (FA 22:6(4Z,7Z,10Z,13Z,16Z,19Z))	C22H31O2	-1	c
-FA_hs_22_4Z7Z10Z13Z16Z19Z_e	FA_hs_22_4Z7Z10Z13Z16Z19Z	(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate (FA 22:6(4Z,7Z,10Z,13Z,16Z,19Z))	C22H31O2	-1	e
-FA_hs_22_4Z7Z10Z13Z16Z19Zr_c	FA_hs_22_4Z7Z10Z13Z16Z19Zr	(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate (FA 22:6(4Z,7Z,10Z,13Z,16Z,19Z)) radical	C22H30O2	-1	c
-FA_hs_22_4Z7Z10Z13Z16Z19Zroo_c	FA_hs_22_4Z7Z10Z13Z16Z19Zroo	(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate (FA 22:6(4Z,7Z,10Z,13Z,16Z,19Z)) peroxyl radical	C22H30O4	-1	c
-FA_hs_22_4Z7Z10Z13Z16Z_c	FA_hs_22_4Z7Z10Z13Z16Z	(4Z,7Z,10Z,13Z,16Z)-docosapentaenoate (FA 22:5(4Z,7Z,10Z,13Z,16Z))	C22H33O2	-1	c
-FA_hs_22_4Z7Z10Z13Z16Z_e	FA_hs_22_4Z7Z10Z13Z16Z	(4Z,7Z,10Z,13Z,16Z)-docosapentaenoate (FA 22:5(4Z,7Z,10Z,13Z,16Z))	C22H33O2	-1	e
-FA_hs_22_7Z10Z13Z16Z19Z_c	FA_hs_22_7Z10Z13Z16Z19Z	Docosapentaenoate (FA 22:5(7Z,10Z,13Z,16Z,19Z))	C22H33O2	-1	c
-FA_hs_22_7Z10Z13Z16Z19Z_e	FA_hs_22_7Z10Z13Z16Z19Z	Docosapentaenoate (FA 22:5(7Z,10Z,13Z,16Z,19Z))	C22H33O2	-1	e
-FA_hs_22_7Z10Z13Z16Z_c	FA_hs_22_7Z10Z13Z16Z	(7Z,10Z,13Z,16Z)-docosatetraenoate (FA 22:4(7Z,10Z,13Z,16Z))	C22H35O2	-1	c
-FA_hs_22_7Z10Z13Z16Z_e	FA_hs_22_7Z10Z13Z16Z	(7Z,10Z,13Z,16Z)-docosatetraenoate (FA 22:4(7Z,10Z,13Z,16Z))	C22H35O2	-1	e
+FA_hs_22_4Z7Z10Z13Z16Z19Z_c	FA_hs_22_4Z7Z10Z13Z16Z19Z	"(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate (FA 22:6(4Z,7Z,10Z,13Z,16Z,19Z))"	C22H31O2	-1	c
+FA_hs_22_4Z7Z10Z13Z16Z19Z_e	FA_hs_22_4Z7Z10Z13Z16Z19Z	"(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate (FA 22:6(4Z,7Z,10Z,13Z,16Z,19Z))"	C22H31O2	-1	e
+FA_hs_22_4Z7Z10Z13Z16Z19Zr_c	FA_hs_22_4Z7Z10Z13Z16Z19Zr	"(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate (FA 22:6(4Z,7Z,10Z,13Z,16Z,19Z)) radical"	C22H30O2	-1	c
+FA_hs_22_4Z7Z10Z13Z16Z19Zroo_c	FA_hs_22_4Z7Z10Z13Z16Z19Zroo	"(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoate (FA 22:6(4Z,7Z,10Z,13Z,16Z,19Z)) peroxyl radical"	C22H30O4	-1	c
+FA_hs_22_4Z7Z10Z13Z16Z_c	FA_hs_22_4Z7Z10Z13Z16Z	"(4Z,7Z,10Z,13Z,16Z)-docosapentaenoate (FA 22:5(4Z,7Z,10Z,13Z,16Z))"	C22H33O2	-1	c
+FA_hs_22_4Z7Z10Z13Z16Z_e	FA_hs_22_4Z7Z10Z13Z16Z	"(4Z,7Z,10Z,13Z,16Z)-docosapentaenoate (FA 22:5(4Z,7Z,10Z,13Z,16Z))"	C22H33O2	-1	e
+FA_hs_22_7Z10Z13Z16Z19Z_c	FA_hs_22_7Z10Z13Z16Z19Z	"Docosapentaenoate (FA 22:5(7Z,10Z,13Z,16Z,19Z))"	C22H33O2	-1	c
+FA_hs_22_7Z10Z13Z16Z19Z_e	FA_hs_22_7Z10Z13Z16Z19Z	"Docosapentaenoate (FA 22:5(7Z,10Z,13Z,16Z,19Z))"	C22H33O2	-1	e
+FA_hs_22_7Z10Z13Z16Z_c	FA_hs_22_7Z10Z13Z16Z	"(7Z,10Z,13Z,16Z)-docosatetraenoate (FA 22:4(7Z,10Z,13Z,16Z))"	C22H35O2	-1	c
+FA_hs_22_7Z10Z13Z16Z_e	FA_hs_22_7Z10Z13Z16Z	"(7Z,10Z,13Z,16Z)-docosatetraenoate (FA 22:4(7Z,10Z,13Z,16Z))"	C22H35O2	-1	e
 FA_hs_22_DC_c	FA_hs_22_DC	Docosanedioate (FA 22:1;O2)	C22H40O4	-2	c
 FA_hs_23_0_c	FA_hs_23_0	Tricosanoate (FA 23:0)	C23H45O2	-1	c
 FA_hs_23_0_e	FA_hs_23_0	Tricosanoate (FA 23:0)	C23H45O2	-1	e
 FA_hs_24_0_c	FA_hs_24_0	Tetracosanoate (FA 24:0)	C24H47O2	-1	c
 FA_hs_24_0_e	FA_hs_24_0	Tetracosanoate (FA 24:0)	C24H47O2	-1	e
-FA_hs_24_12Z15Z18Z21Z_c	FA_hs_24_12Z15Z18Z21Z	(12Z,15Z,18Z,21Z)-tetracosatetraenoate (FA 20:4(12Z,15Z,18Z,21Z))	C24H39O2	-1	c
-FA_hs_24_12Z15Z18Z21Z_e	FA_hs_24_12Z15Z18Z21Z	(12Z,15Z,18Z,21Z)-tetracosatetraenoate (FA 20:4(12Z,15Z,18Z,21Z))	C24H39O2	-1	e
+FA_hs_24_12Z15Z18Z21Z_c	FA_hs_24_12Z15Z18Z21Z	"(12Z,15Z,18Z,21Z)-tetracosatetraenoate (FA 20:4(12Z,15Z,18Z,21Z))"	C24H39O2	-1	c
+FA_hs_24_12Z15Z18Z21Z_e	FA_hs_24_12Z15Z18Z21Z	"(12Z,15Z,18Z,21Z)-tetracosatetraenoate (FA 20:4(12Z,15Z,18Z,21Z))"	C24H39O2	-1	e
 FA_hs_24_15Z_c	FA_hs_24_15Z	Tetracosenoate (FA 24:1(15Z))	C24H45O2	-1	c
 FA_hs_24_15Z_e	FA_hs_24_15Z	Tetracosenoate (FA 24:1(15Z))	C24H45O2	-1	e
-FA_hs_24_6Z9Z12Z15Z18Z21Z_c	FA_hs_24_6Z9Z12Z15Z18Z21Z	(6Z,9Z,12Z,15Z,18Z,21Z)-tetracosahexaenoate (FA 24:6(6Z,9Z,12Z,15Z,18Z,21Z))	C24H35O2	-1	c
-FA_hs_24_6Z9Z12Z15Z18Z21Z_e	FA_hs_24_6Z9Z12Z15Z18Z21Z	(6Z,9Z,12Z,15Z,18Z,21Z)-tetracosahexaenoate (FA 24:6(6Z,9Z,12Z,15Z,18Z,21Z))	C24H35O2	-1	e
-FA_hs_24_6Z9Z12Z15Z18Z_c	FA_hs_24_6Z9Z12Z15Z18Z	(6Z,9Z,12Z,15Z,18Z)-tetracosapentaenoate (FA 20:5(6Z,9Z,12Z,15Z,18Z))	C24H37O2	-1	c
-FA_hs_24_6Z9Z12Z15Z18Z_e	FA_hs_24_6Z9Z12Z15Z18Z	(6Z,9Z,12Z,15Z,18Z)-tetracosapentaenoate (FA 20:5(6Z,9Z,12Z,15Z,18Z))	C24H37O2	-1	e
-FA_hs_24_9Z12Z15Z18Z21Z_c	FA_hs_24_9Z12Z15Z18Z21Z	(9Z,12Z,15Z,18Z,21Z)-tetracosapentaenoate (FA 24:5(9Z,12Z,15Z,18Z,21Z))	C24H37O2	-1	c
-FA_hs_24_9Z12Z15Z18Z21Z_e	FA_hs_24_9Z12Z15Z18Z21Z	(9Z,12Z,15Z,18Z,21Z)-tetracosapentaenoate (FA 24:5(9Z,12Z,15Z,18Z,21Z))	C24H37O2	-1	e
-FA_hs_24_9Z12Z15Z18Z_c	FA_hs_24_9Z12Z15Z18Z	(9Z,12Z,15Z,18Z)-tetracosatetraenoate (FA 20:4(9Z,12Z,15Z,18Z)))	C24H39O2	-1	c
-FA_hs_24_9Z12Z15Z18Z_e	FA_hs_24_9Z12Z15Z18Z	(9Z,12Z,15Z,18Z)-tetracosatetraenoate (FA 20:4(9Z,12Z,15Z,18Z)))	C24H39O2	-1	e
+FA_hs_24_6Z9Z12Z15Z18Z21Z_c	FA_hs_24_6Z9Z12Z15Z18Z21Z	"(6Z,9Z,12Z,15Z,18Z,21Z)-tetracosahexaenoate (FA 24:6(6Z,9Z,12Z,15Z,18Z,21Z))"	C24H35O2	-1	c
+FA_hs_24_6Z9Z12Z15Z18Z21Z_e	FA_hs_24_6Z9Z12Z15Z18Z21Z	"(6Z,9Z,12Z,15Z,18Z,21Z)-tetracosahexaenoate (FA 24:6(6Z,9Z,12Z,15Z,18Z,21Z))"	C24H35O2	-1	e
+FA_hs_24_6Z9Z12Z15Z18Z_c	FA_hs_24_6Z9Z12Z15Z18Z	"(6Z,9Z,12Z,15Z,18Z)-tetracosapentaenoate (FA 20:5(6Z,9Z,12Z,15Z,18Z))"	C24H37O2	-1	c
+FA_hs_24_6Z9Z12Z15Z18Z_e	FA_hs_24_6Z9Z12Z15Z18Z	"(6Z,9Z,12Z,15Z,18Z)-tetracosapentaenoate (FA 20:5(6Z,9Z,12Z,15Z,18Z))"	C24H37O2	-1	e
+FA_hs_24_9Z12Z15Z18Z21Z_c	FA_hs_24_9Z12Z15Z18Z21Z	"(9Z,12Z,15Z,18Z,21Z)-tetracosapentaenoate (FA 24:5(9Z,12Z,15Z,18Z,21Z))"	C24H37O2	-1	c
+FA_hs_24_9Z12Z15Z18Z21Z_e	FA_hs_24_9Z12Z15Z18Z21Z	"(9Z,12Z,15Z,18Z,21Z)-tetracosapentaenoate (FA 24:5(9Z,12Z,15Z,18Z,21Z))"	C24H37O2	-1	e
+FA_hs_24_9Z12Z15Z18Z_c	FA_hs_24_9Z12Z15Z18Z	"(9Z,12Z,15Z,18Z)-tetracosatetraenoate (FA 20:4(9Z,12Z,15Z,18Z)))"	C24H39O2	-1	c
+FA_hs_24_9Z12Z15Z18Z_e	FA_hs_24_9Z12Z15Z18Z	"(9Z,12Z,15Z,18Z)-tetracosatetraenoate (FA 20:4(9Z,12Z,15Z,18Z)))"	C24H39O2	-1	e
 FA_hs_26_0_c	FA_hs_26_0	Hexacosanoate (FA 26:0)	C26H51O2	-1	c
 FA_hs_26_0_e	FA_hs_26_0	Hexacosanoate (FA 26:0)	C26H51O2	-1	e
 FA_hs_26_17Z_c	FA_hs_26_17Z	Hexacosenoate (FA 26:1(17Z))	C26H49O2	-1	c
@@ -412,7 +412,7 @@ FAcoa_6_DC_c	FAcoa_6_DC	Hexanedioyl-CoA (CoA 6:1;O2)	C27H39N7O19P3S	-5	c
 FAcoa_7_DC_c	FAcoa_7_DC	Heptanedioyl-CoA (CoA 7:1;O2)	C28H41N7O19P3S	-5	c
 FAcoa_8_DC_c	FAcoa_8_DC	Octanedioyl-CoA (CoA 8:1;O2)	C29H43N7O19P3S	-5	c
 FAcoa_hs_10_0_c	FAcoa_hs_10_0	Decanoyl-CoA (CoA 10:0)	C31H50N7O17P3S	-4	c
-FAcoa_hs_10_2E6Z_c	FAcoa_hs_10_2E6Z	(2E,6Z)-decadienoyl-CoA (CoA 10:2(2E,6Z))	C31H46N7O17P3S	-4	c
+FAcoa_hs_10_2E6Z_c	FAcoa_hs_10_2E6Z	"(2E,6Z)-decadienoyl-CoA (CoA 10:2(2E,6Z))"	C31H46N7O17P3S	-4	c
 FAcoa_hs_10_2E_c	FAcoa_hs_10_2E	(2E)-decenoyl-CoA	C31H48N7O17P3S	-4	c
 FAcoa_hs_10_3OH__S_c	FAcoa_hs_10_3OH__S	(3S)-hydroxydecanoyl-CoA (CoA 10:0;O)	C31H50N7O18P3S	-4	c
 FAcoa_hs_11_0_c	FAcoa_hs_11_0	Undecanoyl-CoA (CoA 11:0)	C32H52N7O17P3S	-4	c
@@ -423,8 +423,8 @@ FAcoa_hs_13_0_c	FAcoa_hs_13_0	Tridecanoyl-CoA (CoA 13:0)	C34H56N7O17P3S	-4	c
 FAcoa_hs_14_0_c	FAcoa_hs_14_0	Tetradecanoyl-CoA (CoA 14:0)	C35H58N7O17P3S	-4	c
 FAcoa_hs_14_2E_c	FAcoa_hs_14_2E	(2E)-tetradecenoyl-CoA (CoA 14:1(2E))	C35H56N7O17P3S	-4	c
 FAcoa_hs_14_3OH__S_c	FAcoa_hs_14_3OH__S	(3S)-hydroxy-tetradecanoyl-CoA (CoA 14:0;O)	C35H58N7O18P3S	-4	c
-FAcoa_hs_14_5E8Z3OH__S_c	FAcoa_hs_14_5E8Z3OH__S	(3S)-hydroxy-(5E,8Z)-Tetradecadienoyl-CoA (CoA 14:2(5E,8Z);O)	C35H54N7O18P3S	-4	c
-FAcoa_hs_14_5E8Z_c	FAcoa_hs_14_5E8Z	(5E,8Z)-tetradecadienoyl-CoA (CoA 14:2(5E,8Z))	C35H54N7O17P3S	-4	c
+FAcoa_hs_14_5E8Z3OH__S_c	FAcoa_hs_14_5E8Z3OH__S	"(3S)-hydroxy-(5E,8Z)-Tetradecadienoyl-CoA (CoA 14:2(5E,8Z);O)"	C35H54N7O18P3S	-4	c
+FAcoa_hs_14_5E8Z_c	FAcoa_hs_14_5E8Z	"(5E,8Z)-tetradecadienoyl-CoA (CoA 14:2(5E,8Z))"	C35H54N7O17P3S	-4	c
 FAcoa_hs_14_5Z_c	FAcoa_hs_14_5Z	(5Z)-tetradecenoyl-CoA (CoA 14:1(5Z))	C35H56N7O17P3S	-4	c
 FAcoa_hs_14_7Z3OH__S_c	FAcoa_hs_14_7Z3OH__S	(3S)-hydroxy-(7Z)-tetradecenoyl-CoA (CoA 14:1(7Z);O)	C35H56N7O18P3S	-4	c
 FAcoa_hs_14_7Z_c	FAcoa_hs_14_7Z	(7Z)-tetradecenoyl-CoA (CoA 14:1(7Z)	C35H56N7O17P3S	-4	c
@@ -435,7 +435,7 @@ FAcoa_hs_16_2E_c	FAcoa_hs_16_2E	(2E)-hexadecenoyl-CoA (CoA 16:1(2E))	C37H60N7O17
 FAcoa_hs_16_3OH__R_c	FAcoa_hs_16_3OH__R	(3R)-hydroxyhexadecanoyl-CoA (CoA 16:0;O)	C37H62N7O18P3S	-4	c
 FAcoa_hs_16_3OH__S_c	FAcoa_hs_16_3OH__S	(3S)-hydroxyhexadecanoyl-CoA (CoA 16:0;O)	C37H62N7O18P3S	-4	c
 FAcoa_hs_16_3O_c	FAcoa_hs_16_3O	3-oxo-hexadecanoyl-CoA (CoA 16:1;O)	C37H60N7O18P3S	-4	c
-FAcoa_hs_16_7E10Z3OH__S_c	FAcoa_hs_16_7E10Z3OH__S	(3S)-hydroxy-(7E,10Z)-hexadecadienoyl-CoA (CoA 16:2(7E,10Z);O)	C37H58N7O18P3S	-4	c
+FAcoa_hs_16_7E10Z3OH__S_c	FAcoa_hs_16_7E10Z3OH__S	"(3S)-hydroxy-(7E,10Z)-hexadecadienoyl-CoA (CoA 16:2(7E,10Z);O)"	C37H58N7O18P3S	-4	c
 FAcoa_hs_16_7Z_c	FAcoa_hs_16_7Z	(7Z)-hexadecenoyl-CoA (CoA 16:1(7Z))	C37H60N7O17P3S	-4	c
 FAcoa_hs_16_9Z3OH__S_c	FAcoa_hs_16_9Z3OH__S	(3S)-hydroxy-(9Z)-hexadecenoyl-CoA (CoA 16:1(9Z);O)	C37H60N7O18P3S	-4	c
 FAcoa_hs_16_9Z_c	FAcoa_hs_16_9Z	(9Z)-hexadecenoyl-CoA (CoA 16:1(9Z))	C37H60N7O17P3S	-4	c
@@ -452,14 +452,14 @@ FAcoa_hs_18_2E_c	FAcoa_hs_18_2E	(2E)-octadecenoyl-CoA (CoA 18:1(2E))	C39H64N7O17
 FAcoa_hs_18_3OH__R_c	FAcoa_hs_18_3OH__R	(3R)-hydroxyoctadecanoyl-CoA (CoA 18:0:O)	C39H66N7O18P3S	-4	c
 FAcoa_hs_18_3OH__S_c	FAcoa_hs_18_3OH__S	(3S)-hydroxy-octadecanoyl-CoA (CoA 18:0;O)	C39H66N7O18P3S	-4	c
 FAcoa_hs_18_3O_c	FAcoa_hs_18_3O	3-oxooctadecanoyl-CoA (CoA 18:1:O)	C39H64N7O18P3S	-4	c
-FAcoa_hs_18_6Z9Z12Z15Z_c	FAcoa_hs_18_6Z9Z12Z15Z	(6Z,9Z,12Z,15Z)-octadecatetraenoyl-CoA (CoA 18:4(6Z,9Z,12Z,15Z))	C39H58N7O17P3S	-4	c
-FAcoa_hs_18_6Z9Z12Z_c	FAcoa_hs_18_6Z9Z12Z	(6Z,9Z,12Z)-octadecatrienoyl-CoA CoA(18:3(6Z,9Z,12Z))	C39H60N7O17P3S	-4	c
-FAcoa_hs_18_6Z9Z_c	FAcoa_hs_18_6Z9Z	(6Z,9Z)-octadecadienoyl-CoA (CoA 18:2(6Z,9Z))	C39H62N7O17P3S	-4	c
+FAcoa_hs_18_6Z9Z12Z15Z_c	FAcoa_hs_18_6Z9Z12Z15Z	"(6Z,9Z,12Z,15Z)-octadecatetraenoyl-CoA (CoA 18:4(6Z,9Z,12Z,15Z))"	C39H58N7O17P3S	-4	c
+FAcoa_hs_18_6Z9Z12Z_c	FAcoa_hs_18_6Z9Z12Z	"(6Z,9Z,12Z)-octadecatrienoyl-CoA CoA(18:3(6Z,9Z,12Z))"	C39H60N7O17P3S	-4	c
+FAcoa_hs_18_6Z9Z_c	FAcoa_hs_18_6Z9Z	"(6Z,9Z)-octadecadienoyl-CoA (CoA 18:2(6Z,9Z))"	C39H62N7O17P3S	-4	c
 FAcoa_hs_18_7Z_c	FAcoa_hs_18_7Z	(7Z)-octadecenoyl-CoA (CoA 18:1(7Z))	C39H64N7O17P3S	-4	c
 FAcoa_hs_18_9E_c	FAcoa_hs_18_9E	(9E)-octadecenoyl-CoA (CoA 18:1(9E))	C39H64N7O17P3S	-4	c
-FAcoa_hs_18_9Z12Z15Z_c	FAcoa_hs_18_9Z12Z15Z	(9Z,12Z,15Z)-octadecatrienoyl-CoA (CoA 18:3(9Z,12Z,15Z))	C39H60N7O17P3S	-4	c
-FAcoa_hs_18_9Z12Z3OH__S_c	FAcoa_hs_18_9Z12Z3OH__S	(3S)-hydroxy(9Z,12Z)-octadecadienoyl-CoA (CoA 18:2(9Z,12Z);O)	C39H62N7O18P3S	-4	c
-FAcoa_hs_18_9Z12Z_c	FAcoa_hs_18_9Z12Z	(9Z,12Z)-octadecadienoyl-CoA (CoA 18:2(9Z,12Z))	C39H62N7O17P3S	-4	c
+FAcoa_hs_18_9Z12Z15Z_c	FAcoa_hs_18_9Z12Z15Z	"(9Z,12Z,15Z)-octadecatrienoyl-CoA (CoA 18:3(9Z,12Z,15Z))"	C39H60N7O17P3S	-4	c
+FAcoa_hs_18_9Z12Z3OH__S_c	FAcoa_hs_18_9Z12Z3OH__S	"(3S)-hydroxy(9Z,12Z)-octadecadienoyl-CoA (CoA 18:2(9Z,12Z);O)"	C39H62N7O18P3S	-4	c
+FAcoa_hs_18_9Z12Z_c	FAcoa_hs_18_9Z12Z	"(9Z,12Z)-octadecadienoyl-CoA (CoA 18:2(9Z,12Z))"	C39H62N7O17P3S	-4	c
 FAcoa_hs_18_9Z3OH__S_c	FAcoa_hs_18_9Z3OH__S	(3S)-hydroxy-(9Z)-octadecenoyl-CoA (CoA 18:1(9Z);O)	C39H64N7O18P3S	-4	c
 FAcoa_hs_18_9Z_c	FAcoa_hs_18_9Z	(9Z)-octadecenoyl-CoA (CoA 18:1(9Z))	C39H64N7O17P3S	-4	c
 FAcoa_hs_19_0_c	FAcoa_hs_19_0	Nonadecanoyl-CoA (CoA 19:0)	C40H68N7O17P3S	-4	c
@@ -467,41 +467,41 @@ FAcoa_hs_19_2E_c	FAcoa_hs_19_2E	(2E)-nonadecenoyl-CoA (CoA 19:1(2E))	C40H66N7O17
 FAcoa_hs_19_3OH__R_c	FAcoa_hs_19_3OH__R	(3R)-hydroxynonadecanoyl-CoA (CoA 19:0;O)	C40H68N7O18P3S	-4	c
 FAcoa_hs_19_3O_c	FAcoa_hs_19_3O	3-oxononadecanoyl-CoA (CoA 19:1;O)	C40H66N7O18P3S	-4	c
 FAcoa_hs_20_0_c	FAcoa_hs_20_0	Eicosanoyl-CoA	C41H70N7O17P3S	-4	c
-FAcoa_hs_20_11Z14Z17Z3OH__R_c	FAcoa_hs_20_11Z14Z17Z3OH__R	(3R)-hydroxy-(11Z,14Z,17Z)-eicosatrienoyl-CoA	C41H64N7O18P3S	-4	c
-FAcoa_hs_20_11Z14Z17Z3O_c	FAcoa_hs_20_11Z14Z17Z3O	3-oxo-(11Z,14Z,17Z)-eicosatrienoyl-CoA	C41H62N7O18P3S	-4	c
-FAcoa_hs_20_11Z14Z17Z_c	FAcoa_hs_20_11Z14Z17Z	(11Z,14Z,17Z)-eicosatrienoyl-CoA (CoA 20:3(11Z,14Z,17Z))	C41H64N7O17P3S	-4	c
-FAcoa_hs_20_11Z14Z3OH__R_c	FAcoa_hs_20_11Z14Z3OH__R	(3R)-hydroxy-(11Z,14Z)-eicosadienoyl-CoA	C41H66N7O18P3S	-4	c
-FAcoa_hs_20_11Z14Z3O_c	FAcoa_hs_20_11Z14Z3O	3-oxo-(11Z,14Z)-eicosadienoyl-CoA 	C41H64N7O18P3S	-4	c
-FAcoa_hs_20_11Z14Z_c	FAcoa_hs_20_11Z14Z	(11Z,14Z)-eicosadienoyl-CoA (CoA 20:2(11Z,14Z))	C41H66N7O17P3S	-4	c
+FAcoa_hs_20_11Z14Z17Z3OH__R_c	FAcoa_hs_20_11Z14Z17Z3OH__R	"(3R)-hydroxy-(11Z,14Z,17Z)-eicosatrienoyl-CoA"	C41H64N7O18P3S	-4	c
+FAcoa_hs_20_11Z14Z17Z3O_c	FAcoa_hs_20_11Z14Z17Z3O	"3-oxo-(11Z,14Z,17Z)-eicosatrienoyl-CoA"	C41H62N7O18P3S	-4	c
+FAcoa_hs_20_11Z14Z17Z_c	FAcoa_hs_20_11Z14Z17Z	"(11Z,14Z,17Z)-eicosatrienoyl-CoA (CoA 20:3(11Z,14Z,17Z))"	C41H64N7O17P3S	-4	c
+FAcoa_hs_20_11Z14Z3OH__R_c	FAcoa_hs_20_11Z14Z3OH__R	"(3R)-hydroxy-(11Z,14Z)-eicosadienoyl-CoA"	C41H66N7O18P3S	-4	c
+FAcoa_hs_20_11Z14Z3O_c	FAcoa_hs_20_11Z14Z3O	"3-oxo-(11Z,14Z)-eicosadienoyl-CoA "	C41H64N7O18P3S	-4	c
+FAcoa_hs_20_11Z14Z_c	FAcoa_hs_20_11Z14Z	"(11Z,14Z)-eicosadienoyl-CoA (CoA 20:2(11Z,14Z))"	C41H66N7O17P3S	-4	c
 FAcoa_hs_20_11Z3OH__R_c	FAcoa_hs_20_11Z3OH__R	(3R)-hydroxy-(11Z)-eicosenoyl-CoA (CoA 20:1(11Z);O)	C41H68N7O18P3S	-4	c
 FAcoa_hs_20_11Z3O_c	FAcoa_hs_20_11Z3O	3-oxo-(11Z)-eicosenoyl-CoA (CoA 20:2(11Z);O)	C41H66N7O18P3S	-4	c
 FAcoa_hs_20_11Z_c	FAcoa_hs_20_11Z	(11Z)-eicosenoyl-CoA (CoA 20:1(11Z))	C41H68N7O17P3S	-4	c
 FAcoa_hs_20_13Z3OH__R_c	FAcoa_hs_20_13Z3OH__R	(3R)-hydroxy-(13Z)-eicosenoyl-CoA (CoA 20:1(13Z);O)	C41H68N7O18P3S	-4	c
 FAcoa_hs_20_13Z3O_c	FAcoa_hs_20_13Z3O	3-oxo-(13Z)-eicosenoyl-CoA (CoA 20:2(13Z))	C41H66N7O18P3S	-4	c
 FAcoa_hs_20_13Z_c	FAcoa_hs_20_13Z	(13Z)-eicosenoyl-CoA (CoA 20:1(13Z))	C41H68N7O17P3S	-4	c
-FAcoa_hs_20_2E11Z14Z17Z_c	FAcoa_hs_20_2E11Z14Z17Z	(2E,11Z,14Z,17Z)-eicosatetraenoyl-CoA (CoA 20:4(2E,11Z,14Z,17Z))	C41H62N7O17P3S	-4	c
-FAcoa_hs_20_2E11Z14Z_c	FAcoa_hs_20_2E11Z14Z	(2E,11Z,14Z)-eicosatrienoyl-CoA (CoA 20:3(2E,11Z,14Z))	C41H64N7O17P3S	-4	c
-FAcoa_hs_20_2E11Z_c	FAcoa_hs_20_2E11Z	(2E,11Z)-eicosadienoyl-CoA (CoA 20:2(2E,11Z))	C41H66N7O17P3S	-4	c
-FAcoa_hs_20_2E13Z_c	FAcoa_hs_20_2E13Z	(2E,13Z)-eicosadienoyl-CoA (CoA 20:2(2E,13Z))	C41H66N7O17P3S	-4	c
-FAcoa_hs_20_2E8Z11Z14Z17Z_c	FAcoa_hs_20_2E8Z11Z14Z17Z	(2E,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA (CoA 20:5(2E,8Z,11Z,14Z,17Z))	C41H60N7O17P3S	-4	c
-FAcoa_hs_20_2E8Z11Z14Z_c	FAcoa_hs_20_2E8Z11Z14Z	(2E,8Z,11Z,14Z)-eicosatetraenoyl-CoA (CoA 20:4(2E,8Z,11Z,14Z))	C41H62N7O17P3S	-4	c
-FAcoa_hs_20_2E8Z11Z_c	FAcoa_hs_20_2E8Z11Z	(2E,8Z,11Z)-eicosatrienoyl-CoA (CoA 20:3(2E,8Z,11Z))	C41H64N7O17P3S	-4	c
-FAcoa_hs_20_2E9Z_c	FAcoa_hs_20_2E9Z	(2E,9Z)-eicosadienoyl-CoA (CoA 20:2(2E,9Z))	C41H66N7O17P3S	-4	c
+FAcoa_hs_20_2E11Z14Z17Z_c	FAcoa_hs_20_2E11Z14Z17Z	"(2E,11Z,14Z,17Z)-eicosatetraenoyl-CoA (CoA 20:4(2E,11Z,14Z,17Z))"	C41H62N7O17P3S	-4	c
+FAcoa_hs_20_2E11Z14Z_c	FAcoa_hs_20_2E11Z14Z	"(2E,11Z,14Z)-eicosatrienoyl-CoA (CoA 20:3(2E,11Z,14Z))"	C41H64N7O17P3S	-4	c
+FAcoa_hs_20_2E11Z_c	FAcoa_hs_20_2E11Z	"(2E,11Z)-eicosadienoyl-CoA (CoA 20:2(2E,11Z))"	C41H66N7O17P3S	-4	c
+FAcoa_hs_20_2E13Z_c	FAcoa_hs_20_2E13Z	"(2E,13Z)-eicosadienoyl-CoA (CoA 20:2(2E,13Z))"	C41H66N7O17P3S	-4	c
+FAcoa_hs_20_2E8Z11Z14Z17Z_c	FAcoa_hs_20_2E8Z11Z14Z17Z	"(2E,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA (CoA 20:5(2E,8Z,11Z,14Z,17Z))"	C41H60N7O17P3S	-4	c
+FAcoa_hs_20_2E8Z11Z14Z_c	FAcoa_hs_20_2E8Z11Z14Z	"(2E,8Z,11Z,14Z)-eicosatetraenoyl-CoA (CoA 20:4(2E,8Z,11Z,14Z))"	C41H62N7O17P3S	-4	c
+FAcoa_hs_20_2E8Z11Z_c	FAcoa_hs_20_2E8Z11Z	"(2E,8Z,11Z)-eicosatrienoyl-CoA (CoA 20:3(2E,8Z,11Z))"	C41H64N7O17P3S	-4	c
+FAcoa_hs_20_2E9Z_c	FAcoa_hs_20_2E9Z	"(2E,9Z)-eicosadienoyl-CoA (CoA 20:2(2E,9Z))"	C41H66N7O17P3S	-4	c
 FAcoa_hs_20_2E_c	FAcoa_hs_20_2E	(2E)-eicosenoyl-CoA (CoA 20:1(2E))	C41H68N7O17P3S	-4	c
 FAcoa_hs_20_3OH__R_c	FAcoa_hs_20_3OH__R	3-hydroxy-eicosanoyl-CoA (CoA 20:0;O)	C41H70N7O18P3S	-4	c
 FAcoa_hs_20_3O_c	FAcoa_hs_20_3O	3-oxo-eicosanoyl-CoA (CoA 20:1;O)	C41H68N7O18P3S	-4	c
-FAcoa_hs_20_5Z8Z11Z14Z17Z_c	FAcoa_hs_20_5Z8Z11Z14Z17Z	(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA (CoA 20:5(5Z,8Z,11Z,14Z,17Z))	C41H60N7O17P3S	-4	c
-FAcoa_hs_20_5Z8Z11Z14Z_c	FAcoa_hs_20_5Z8Z11Z14Z	(5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA (CoA 20:4(5Z,8Z,11Z,14Z))	C41H62N7O17P3S	-4	c
-FAcoa_hs_20_5Z8Z11Z_c	FAcoa_hs_20_5Z8Z11Z	(5Z,8Z,11Z)-eicosatrienoyl-CoA (CoA 20:3(5Z,8Z,11Z))	C41H64N7O17P3S	-4	c
-FAcoa_hs_20_8Z11Z14Z17Z3OH__R_c	FAcoa_hs_20_8Z11Z14Z17Z3OH__R	(3R)-hydroxy-(8Z,11Z,14Z,17Z)-eicosatetraenoyl-CoA (CoA 20:4(8Z,11Z,14Z,17Z);O)	C41H62N7O18P3S	-4	c
-FAcoa_hs_20_8Z11Z14Z17Z3O_c	FAcoa_hs_20_8Z11Z14Z17Z3O	3-oxo-(8Z,11Z,14Z,17Z)-eicosatetraenoyl-CoA (CoA 20:5(8Z,11Z,14Z,17Z);O)	C41H60N7O18P3S	-4	c
-FAcoa_hs_20_8Z11Z14Z17Z_c	FAcoa_hs_20_8Z11Z14Z17Z	(8Z,11Z,14Z,17Z)-eicosatetraenoyl-CoA (CoA 20:4(8Z,11Z,14Z,17Z))	C41H62N7O17P3S	-4	c
-FAcoa_hs_20_8Z11Z14Z3OH__R_c	FAcoa_hs_20_8Z11Z14Z3OH__R	(3R)-hydroxy-(8Z,11Z,14Z)-eicosatrienoyl-CoA (CoA 20:3(8Z,11Z,14Z);O)	C41H64N7O18P3S	-4	c
-FAcoa_hs_20_8Z11Z14Z3O_c	FAcoa_hs_20_8Z11Z14Z3O	3-oxo-(8Z,11Z,14Z)-eicosatrienoyl-CoA (CoA 20:4(8Z,11Z,14Z);O)	C41H62N7O18P3S	-4	c
-FAcoa_hs_20_8Z11Z14Z_c	FAcoa_hs_20_8Z11Z14Z	(8Z,11Z,14Z)-eicosatrienoyl-CoA (CoA 20:3(8Z,11Z,14Z))	C41H64N7O17P3S	-4	c
-FAcoa_hs_20_8Z11Z3OH__R_c	FAcoa_hs_20_8Z11Z3OH__R	(3R)-hydroxy-(8Z,11Z)-eicosadienoyl-CoA (CoA 20:2(8Z,11Z);O)	C41H66N7O18P3S	-4	c
-FAcoa_hs_20_8Z11Z3O_c	FAcoa_hs_20_8Z11Z3O	3-oxo-(8Z,11Z)-eicosadienoyl-CoA (CoA 20:3;O)	C41H64N7O18P3S	-4	c
-FAcoa_hs_20_8Z11Z_c	FAcoa_hs_20_8Z11Z	(8Z,11Z)-eicosadienoyl-CoA (CoA 20:2(8Z,11Z))	C41H66N7O17P3S	-4	c
+FAcoa_hs_20_5Z8Z11Z14Z17Z_c	FAcoa_hs_20_5Z8Z11Z14Z17Z	"(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoyl-CoA (CoA 20:5(5Z,8Z,11Z,14Z,17Z))"	C41H60N7O17P3S	-4	c
+FAcoa_hs_20_5Z8Z11Z14Z_c	FAcoa_hs_20_5Z8Z11Z14Z	"(5Z,8Z,11Z,14Z)-eicosatetraenoyl-CoA (CoA 20:4(5Z,8Z,11Z,14Z))"	C41H62N7O17P3S	-4	c
+FAcoa_hs_20_5Z8Z11Z_c	FAcoa_hs_20_5Z8Z11Z	"(5Z,8Z,11Z)-eicosatrienoyl-CoA (CoA 20:3(5Z,8Z,11Z))"	C41H64N7O17P3S	-4	c
+FAcoa_hs_20_8Z11Z14Z17Z3OH__R_c	FAcoa_hs_20_8Z11Z14Z17Z3OH__R	"(3R)-hydroxy-(8Z,11Z,14Z,17Z)-eicosatetraenoyl-CoA (CoA 20:4(8Z,11Z,14Z,17Z);O)"	C41H62N7O18P3S	-4	c
+FAcoa_hs_20_8Z11Z14Z17Z3O_c	FAcoa_hs_20_8Z11Z14Z17Z3O	"3-oxo-(8Z,11Z,14Z,17Z)-eicosatetraenoyl-CoA (CoA 20:5(8Z,11Z,14Z,17Z);O)"	C41H60N7O18P3S	-4	c
+FAcoa_hs_20_8Z11Z14Z17Z_c	FAcoa_hs_20_8Z11Z14Z17Z	"(8Z,11Z,14Z,17Z)-eicosatetraenoyl-CoA (CoA 20:4(8Z,11Z,14Z,17Z))"	C41H62N7O17P3S	-4	c
+FAcoa_hs_20_8Z11Z14Z3OH__R_c	FAcoa_hs_20_8Z11Z14Z3OH__R	"(3R)-hydroxy-(8Z,11Z,14Z)-eicosatrienoyl-CoA (CoA 20:3(8Z,11Z,14Z);O)"	C41H64N7O18P3S	-4	c
+FAcoa_hs_20_8Z11Z14Z3O_c	FAcoa_hs_20_8Z11Z14Z3O	"3-oxo-(8Z,11Z,14Z)-eicosatrienoyl-CoA (CoA 20:4(8Z,11Z,14Z);O)"	C41H62N7O18P3S	-4	c
+FAcoa_hs_20_8Z11Z14Z_c	FAcoa_hs_20_8Z11Z14Z	"(8Z,11Z,14Z)-eicosatrienoyl-CoA (CoA 20:3(8Z,11Z,14Z))"	C41H64N7O17P3S	-4	c
+FAcoa_hs_20_8Z11Z3OH__R_c	FAcoa_hs_20_8Z11Z3OH__R	"(3R)-hydroxy-(8Z,11Z)-eicosadienoyl-CoA (CoA 20:2(8Z,11Z);O)"	C41H66N7O18P3S	-4	c
+FAcoa_hs_20_8Z11Z3O_c	FAcoa_hs_20_8Z11Z3O	"3-oxo-(8Z,11Z)-eicosadienoyl-CoA (CoA 20:3;O)"	C41H64N7O18P3S	-4	c
+FAcoa_hs_20_8Z11Z_c	FAcoa_hs_20_8Z11Z	"(8Z,11Z)-eicosadienoyl-CoA (CoA 20:2(8Z,11Z))"	C41H66N7O17P3S	-4	c
 FAcoa_hs_20_9Z3OH__R_c	FAcoa_hs_20_9Z3OH__R	(3R)-hydroxy-(9Z)-eicosenoyl-CoA (CoA 20:1(9Z);O)	C41H68N7O18P3S	-4	c
 FAcoa_hs_20_9Z3O_c	FAcoa_hs_20_9Z3O	3-oxo-(9Z)-eicosenoyl-CoA (CoA 20:2(9Z);O)	C41H66N7O18P3S	-4	c
 FAcoa_hs_20_9Z_c	FAcoa_hs_20_9Z	(9Z)-eicosenoyl-CoA (CoA 20:1(9Z))	C41H68N7O17P3S	-4	c
@@ -510,74 +510,74 @@ FAcoa_hs_21_2E_c	FAcoa_hs_21_2E	(2E)-heneicosenoyl-CoA (CoA 21:1(2E))	C42H70N7O1
 FAcoa_hs_21_3OH__R_c	FAcoa_hs_21_3OH__R	(3R)-hydroxyheneicosanoyl-CoA (CoA 21:0;O)	C42H72N7O18P3S	-4	c
 FAcoa_hs_21_3O_c	FAcoa_hs_21_3O	3-oxoheneicosanoyl-CoA (CoA 21:1;O)	C42H70N7O18P3S	-4	c
 FAcoa_hs_22_0_c	FAcoa_hs_22_0	Docosanoyl-CoA (CoA 22:0)	C43H74N7O17P3S	-4	c
-FAcoa_hs_22_10Z13Z16Z19Z3OH__R_c	FAcoa_hs_22_10Z13Z16Z19Z3OH__R	(3R)-hydroxy-(10Z,13Z,16Z,19Z)-docosatetraenoyl-CoA (CoA 20:5(10Z,13Z,16Z,19Z);O)	C43H66N7O18P3S	-4	c
-FAcoa_hs_22_10Z13Z16Z19Z3O_c	FAcoa_hs_22_10Z13Z16Z19Z3O	3-oxo-(10Z,13Z,16Z,19Z)-docosatetraenoyl-CoA (CoA 20:5(10Z,13Z,16Z,19Z);O)	C43H64N7O18P3S	-4	c
-FAcoa_hs_22_10Z13Z16Z19Z_c	FAcoa_hs_22_10Z13Z16Z19Z	(10Z,13Z,16Z,19Z)-docosatetraenoyl-CoA (CoA 22:4(10Z,13Z,16Z,19Z))	C43H66N7O17P3S	-4	c
-FAcoa_hs_22_10Z13Z16Z3OH__R_c	FAcoa_hs_22_10Z13Z16Z3OH__R	(3R)-hydroxy-(10Z,13Z,16Z)-docosatrienoyl-CoA (CoA 22:3(10Z,13Z,16Z);O)	C43H68N7O18P3S	-4	c
-FAcoa_hs_22_10Z13Z16Z3O_c	FAcoa_hs_22_10Z13Z16Z3O	3-oxo-(10Z,13Z,16Z)-docosatrienoyl-CoA (CoA 22:4(10Z,13Z,16Z);O)	C43H66N7O18P3S	-4	c
-FAcoa_hs_22_10Z13Z16Z_c	FAcoa_hs_22_10Z13Z16Z	(10Z,13Z,16Z)-docosatrienoyl-CoA (CoA 22:3(10Z,13Z,16Z))	C43H68N7O17P3S	-4	c
+FAcoa_hs_22_10Z13Z16Z19Z3OH__R_c	FAcoa_hs_22_10Z13Z16Z19Z3OH__R	"(3R)-hydroxy-(10Z,13Z,16Z,19Z)-docosatetraenoyl-CoA (CoA 20:5(10Z,13Z,16Z,19Z);O)"	C43H66N7O18P3S	-4	c
+FAcoa_hs_22_10Z13Z16Z19Z3O_c	FAcoa_hs_22_10Z13Z16Z19Z3O	"3-oxo-(10Z,13Z,16Z,19Z)-docosatetraenoyl-CoA (CoA 20:5(10Z,13Z,16Z,19Z);O)"	C43H64N7O18P3S	-4	c
+FAcoa_hs_22_10Z13Z16Z19Z_c	FAcoa_hs_22_10Z13Z16Z19Z	"(10Z,13Z,16Z,19Z)-docosatetraenoyl-CoA (CoA 22:4(10Z,13Z,16Z,19Z))"	C43H66N7O17P3S	-4	c
+FAcoa_hs_22_10Z13Z16Z3OH__R_c	FAcoa_hs_22_10Z13Z16Z3OH__R	"(3R)-hydroxy-(10Z,13Z,16Z)-docosatrienoyl-CoA (CoA 22:3(10Z,13Z,16Z);O)"	C43H68N7O18P3S	-4	c
+FAcoa_hs_22_10Z13Z16Z3O_c	FAcoa_hs_22_10Z13Z16Z3O	"3-oxo-(10Z,13Z,16Z)-docosatrienoyl-CoA (CoA 22:4(10Z,13Z,16Z);O)"	C43H66N7O18P3S	-4	c
+FAcoa_hs_22_10Z13Z16Z_c	FAcoa_hs_22_10Z13Z16Z	"(10Z,13Z,16Z)-docosatrienoyl-CoA (CoA 22:3(10Z,13Z,16Z))"	C43H68N7O17P3S	-4	c
 FAcoa_hs_22_11Z3OH__R_c	FAcoa_hs_22_11Z3OH__R	(3R)-hydroxy-(11Z)-docosenoyl-CoA (CoA 20:1(11Z);O)	C43H72N7O18P3S	-4	c
 FAcoa_hs_22_11Z3O_c	FAcoa_hs_22_11Z3O	(3R)-oxo-(11Z)-docosenoyl-CoA (CoA 20:2(11Z);O)	C43H70N7O18P3S	-4	c
 FAcoa_hs_22_11Z_c	FAcoa_hs_22_11Z	(11Z)-docosenoyl-CoA (CoA 20:1(11Z))	C43H72N7O17P3S	-4	c
-FAcoa_hs_22_13Z16Z19Z3OH__R_c	FAcoa_hs_22_13Z16Z19Z3OH__R	(3R)-hydroxy-(13Z,16Z,19Z)-docosatrienoyl-CoA (CoA 22:3(13Z,16Z,19Z);O)	C43H68N7O18P3S	-4	c
-FAcoa_hs_22_13Z16Z19Z3O_c	FAcoa_hs_22_13Z16Z19Z3O	3-oxo-(13Z,16Z,19Z)-docosarienoyl-CoA (CoA 22:4(13Z,16Z,19Z);O)	C43H66N7O18P3S	-4	c
-FAcoa_hs_22_13Z16Z19Z_c	FAcoa_hs_22_13Z16Z19Z	(13Z,16Z,19Z)-docosatrienoyl-CoA (CoA 22:3(13Z,16Z,19Z))	C43H68N7O17P3S	-4	c
-FAcoa_hs_22_13Z16Z3OH__R_c	FAcoa_hs_22_13Z16Z3OH__R	(3R)-hydroxy-(13Z,16Z)-docasadienoyl-CoA (CoA 22:2(13Z,16Z);O)	C43H70N7O18P3S	-4	c
-FAcoa_hs_22_13Z16Z3O_c	FAcoa_hs_22_13Z16Z3O	3-oxo-(13Z,16Z)-docasadienoyl-CoA (CoA 22:3(13Z,16Z);O)	C43H68N7O18P3S	-4	c
-FAcoa_hs_22_13Z16Z_c	FAcoa_hs_22_13Z16Z	(13Z,16Z)-docosadienoyl-CoA (CoA 22:2(13Z,16Z))	C43H70N7O17P3S	-4	c
+FAcoa_hs_22_13Z16Z19Z3OH__R_c	FAcoa_hs_22_13Z16Z19Z3OH__R	"(3R)-hydroxy-(13Z,16Z,19Z)-docosatrienoyl-CoA (CoA 22:3(13Z,16Z,19Z);O)"	C43H68N7O18P3S	-4	c
+FAcoa_hs_22_13Z16Z19Z3O_c	FAcoa_hs_22_13Z16Z19Z3O	"3-oxo-(13Z,16Z,19Z)-docosarienoyl-CoA (CoA 22:4(13Z,16Z,19Z);O)"	C43H66N7O18P3S	-4	c
+FAcoa_hs_22_13Z16Z19Z_c	FAcoa_hs_22_13Z16Z19Z	"(13Z,16Z,19Z)-docosatrienoyl-CoA (CoA 22:3(13Z,16Z,19Z))"	C43H68N7O17P3S	-4	c
+FAcoa_hs_22_13Z16Z3OH__R_c	FAcoa_hs_22_13Z16Z3OH__R	"(3R)-hydroxy-(13Z,16Z)-docasadienoyl-CoA (CoA 22:2(13Z,16Z);O)"	C43H70N7O18P3S	-4	c
+FAcoa_hs_22_13Z16Z3O_c	FAcoa_hs_22_13Z16Z3O	"3-oxo-(13Z,16Z)-docasadienoyl-CoA (CoA 22:3(13Z,16Z);O)"	C43H68N7O18P3S	-4	c
+FAcoa_hs_22_13Z16Z_c	FAcoa_hs_22_13Z16Z	"(13Z,16Z)-docosadienoyl-CoA (CoA 22:2(13Z,16Z))"	C43H70N7O17P3S	-4	c
 FAcoa_hs_22_13Z3OH__R_c	FAcoa_hs_22_13Z3OH__R	(3R)-hydroxy-(13Z)-docosenoyl-CoA (CoA 20:1;O)	C43H72N7O18P3S	-4	c
 FAcoa_hs_22_13Z3O_c	FAcoa_hs_22_13Z3O	3-oxo-(13Z)-docosenoyl-CoA (CoA 20:2;O)	C43H70N7O18P3S	-4	c
 FAcoa_hs_22_13Z_c	FAcoa_hs_22_13Z	(13Z)-docosenoyl-CoA (CoA 22:1(13Z))	C43H72N7O17P3S	-4	c
-FAcoa_hs_22_2E10Z13Z16Z19Z_c	FAcoa_hs_22_2E10Z13Z16Z19Z	(2E,10Z,13Z,16Z,19Z)-docosapentaenoyl-CoA (CoA 22:5(2E,10Z,13Z,16Z,19Z))	C43H64N7O17P3S	-4	c
-FAcoa_hs_22_2E10Z13Z16Z_c	FAcoa_hs_22_2E10Z13Z16Z	(2E,10Z,13Z,16Z)-docosatetraenoyl-CoA (CoA 22:4(2E,10Z,13Z,16Z))	C43H66N7O17P3S	-4	c
-FAcoa_hs_22_2E11Z_c	FAcoa_hs_22_2E11Z	(2E,11Z)-docosadienoyl-CoA (CoA 20:2(2E,11Z))	C43H70N7O17P3S	-4	c
-FAcoa_hs_22_2E13Z16Z19Z_c	FAcoa_hs_22_2E13Z16Z19Z	(2E,13Z,16Z,19Z)-docosatetraenoyl-CoA (CoA 22:4(2E,13Z,16Z,19Z))	C43H66N7O17P3S	-4	c
-FAcoa_hs_22_2E13Z16Z_c	FAcoa_hs_22_2E13Z16Z	(2E,13Z,16Z)-docasatrienoyl-CoA (CoA 22:3(2E,13Z,16Z))	C43H68N7O17P3S	-4	c
-FAcoa_hs_22_2E13Z_c	FAcoa_hs_22_2E13Z	(2E,13Z)-docosadienoyl-CoA (CoA 22:2(2E,13Z))	C43H70N7O17P3S	-4	c
-FAcoa_hs_22_2E7Z10Z13Z16Z19Z_c	FAcoa_hs_22_2E7Z10Z13Z16Z19Z	(2E,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA (CoA 22:6(2E,7Z,10Z,13Z,16Z,19Z))	C43H62N7O17P3S	-4	c
-FAcoa_hs_22_2E7Z10Z13Z16Z_c	FAcoa_hs_22_2E7Z10Z13Z16Z	(2E,7Z,10Z,13Z,16Z)-docosapentaenoyl-CoA (CoA 22:5(2E,7Z,10Z,13Z,16Z))	C43H64N7O17P3S	-4	c
+FAcoa_hs_22_2E10Z13Z16Z19Z_c	FAcoa_hs_22_2E10Z13Z16Z19Z	"(2E,10Z,13Z,16Z,19Z)-docosapentaenoyl-CoA (CoA 22:5(2E,10Z,13Z,16Z,19Z))"	C43H64N7O17P3S	-4	c
+FAcoa_hs_22_2E10Z13Z16Z_c	FAcoa_hs_22_2E10Z13Z16Z	"(2E,10Z,13Z,16Z)-docosatetraenoyl-CoA (CoA 22:4(2E,10Z,13Z,16Z))"	C43H66N7O17P3S	-4	c
+FAcoa_hs_22_2E11Z_c	FAcoa_hs_22_2E11Z	"(2E,11Z)-docosadienoyl-CoA (CoA 20:2(2E,11Z))"	C43H70N7O17P3S	-4	c
+FAcoa_hs_22_2E13Z16Z19Z_c	FAcoa_hs_22_2E13Z16Z19Z	"(2E,13Z,16Z,19Z)-docosatetraenoyl-CoA (CoA 22:4(2E,13Z,16Z,19Z))"	C43H66N7O17P3S	-4	c
+FAcoa_hs_22_2E13Z16Z_c	FAcoa_hs_22_2E13Z16Z	"(2E,13Z,16Z)-docasatrienoyl-CoA (CoA 22:3(2E,13Z,16Z))"	C43H68N7O17P3S	-4	c
+FAcoa_hs_22_2E13Z_c	FAcoa_hs_22_2E13Z	"(2E,13Z)-docosadienoyl-CoA (CoA 22:2(2E,13Z))"	C43H70N7O17P3S	-4	c
+FAcoa_hs_22_2E7Z10Z13Z16Z19Z_c	FAcoa_hs_22_2E7Z10Z13Z16Z19Z	"(2E,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA (CoA 22:6(2E,7Z,10Z,13Z,16Z,19Z))"	C43H62N7O17P3S	-4	c
+FAcoa_hs_22_2E7Z10Z13Z16Z_c	FAcoa_hs_22_2E7Z10Z13Z16Z	"(2E,7Z,10Z,13Z,16Z)-docosapentaenoyl-CoA (CoA 22:5(2E,7Z,10Z,13Z,16Z))"	C43H64N7O17P3S	-4	c
 FAcoa_hs_22_2E_c	FAcoa_hs_22_2E	(2E)-docosenoyl-CoA (CoA 22:1(2E))	C43H72N7O17P3S	-4	c
 FAcoa_hs_22_3OH__R_c	FAcoa_hs_22_3OH__R	(3R)-hydroxydocosanoyl-CoA (CoA 22:0;O)	C43H74N7O18P3S	-4	c
 FAcoa_hs_22_3O_c	FAcoa_hs_22_3O	3-oxodocosanoyl-CoA (CoA 22:1;O)	C43H72N7O18P3S	-4	c
-FAcoa_hs_22_4Z7Z10Z13Z16Z19Z_c	FAcoa_hs_22_4Z7Z10Z13Z16Z19Z	(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA (CoA 22:6(4Z,7Z,10Z,13Z,16Z,19Z))	C43H62N7O17P3S	-4	c
-FAcoa_hs_22_4Z7Z10Z13Z16Z_c	FAcoa_hs_22_4Z7Z10Z13Z16Z	(4Z,7Z,10Z,13Z,16Z)-docosapentaenoyl-CoA (CoA 20:5(4Z,7Z,10Z,13Z,16Z))	C43H64N7O17P3S	-4	c
-FAcoa_hs_22_7Z10Z13Z16Z19Z3OH__R_c	FAcoa_hs_22_7Z10Z13Z16Z19Z3OH__R	(3R)-hydroxy-(7Z,10Z,13Z,16Z,19Z)-docosapentaenoyl-CoA (CoA 22:5(7Z,10Z,13Z,16Z,19Z);O)	C43H64N7O18P3S	-4	c
-FAcoa_hs_22_7Z10Z13Z16Z19Z3O_c	FAcoa_hs_22_7Z10Z13Z16Z19Z3O	3-oxo-(7Z,10Z,13Z,16Z,19Z)docosapentaenoyl-CoA (CoA 22:6(7Z,10Z,13Z,16Z,19Z);O)	C43H62N7O18P3S	-4	c
-FAcoa_hs_22_7Z10Z13Z16Z19Z_c	FAcoa_hs_22_7Z10Z13Z16Z19Z	(7Z,10Z,13Z,16Z,19Z)-docosapentaenoyl-CoA (CoA 22:5(7Z,10Z,13Z,16Z,19Z))	C43H64N7O17P3S	-4	c
-FAcoa_hs_22_7Z10Z13Z16Z3OH__R_c	FAcoa_hs_22_7Z10Z13Z16Z3OH__R	(3R)-hydroxy-(7Z,10Z,13Z,16Z)-docosatetraenoyl-CoA (CoA 22:4(7Z,10Z,13Z,16Z);O)	C43H66N7O18P3S	-4	c
-FAcoa_hs_22_7Z10Z13Z16Z3O_c	FAcoa_hs_22_7Z10Z13Z16Z3O	3-oxo-(7Z,10Z,13Z,16Z)-docosatetraenoyl-CoA (CoA 22:5(7Z,10Z,13Z,16Z);O)	C43H64N7O18P3S	-4	c
-FAcoa_hs_22_7Z10Z13Z16Z_c	FAcoa_hs_22_7Z10Z13Z16Z	(7Z,10Z,13Z,16Z)-docosatetraenoyl-CoA (CoA 22:4(7Z,10Z,13Z,16Z))	C43H66N7O17P3S	-4	c
+FAcoa_hs_22_4Z7Z10Z13Z16Z19Z_c	FAcoa_hs_22_4Z7Z10Z13Z16Z19Z	"(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoyl-CoA (CoA 22:6(4Z,7Z,10Z,13Z,16Z,19Z))"	C43H62N7O17P3S	-4	c
+FAcoa_hs_22_4Z7Z10Z13Z16Z_c	FAcoa_hs_22_4Z7Z10Z13Z16Z	"(4Z,7Z,10Z,13Z,16Z)-docosapentaenoyl-CoA (CoA 20:5(4Z,7Z,10Z,13Z,16Z))"	C43H64N7O17P3S	-4	c
+FAcoa_hs_22_7Z10Z13Z16Z19Z3OH__R_c	FAcoa_hs_22_7Z10Z13Z16Z19Z3OH__R	"(3R)-hydroxy-(7Z,10Z,13Z,16Z,19Z)-docosapentaenoyl-CoA (CoA 22:5(7Z,10Z,13Z,16Z,19Z);O)"	C43H64N7O18P3S	-4	c
+FAcoa_hs_22_7Z10Z13Z16Z19Z3O_c	FAcoa_hs_22_7Z10Z13Z16Z19Z3O	"3-oxo-(7Z,10Z,13Z,16Z,19Z)docosapentaenoyl-CoA (CoA 22:6(7Z,10Z,13Z,16Z,19Z);O)"	C43H62N7O18P3S	-4	c
+FAcoa_hs_22_7Z10Z13Z16Z19Z_c	FAcoa_hs_22_7Z10Z13Z16Z19Z	"(7Z,10Z,13Z,16Z,19Z)-docosapentaenoyl-CoA (CoA 22:5(7Z,10Z,13Z,16Z,19Z))"	C43H64N7O17P3S	-4	c
+FAcoa_hs_22_7Z10Z13Z16Z3OH__R_c	FAcoa_hs_22_7Z10Z13Z16Z3OH__R	"(3R)-hydroxy-(7Z,10Z,13Z,16Z)-docosatetraenoyl-CoA (CoA 22:4(7Z,10Z,13Z,16Z);O)"	C43H66N7O18P3S	-4	c
+FAcoa_hs_22_7Z10Z13Z16Z3O_c	FAcoa_hs_22_7Z10Z13Z16Z3O	"3-oxo-(7Z,10Z,13Z,16Z)-docosatetraenoyl-CoA (CoA 22:5(7Z,10Z,13Z,16Z);O)"	C43H64N7O18P3S	-4	c
+FAcoa_hs_22_7Z10Z13Z16Z_c	FAcoa_hs_22_7Z10Z13Z16Z	"(7Z,10Z,13Z,16Z)-docosatetraenoyl-CoA (CoA 22:4(7Z,10Z,13Z,16Z))"	C43H66N7O17P3S	-4	c
 FAcoa_hs_23_0_c	FAcoa_hs_23_0	Tricosanoyl-CoA	C44H76N7O17P3S	-4	c
 FAcoa_hs_23_2E_c	FAcoa_hs_23_2E	(2E)-tricosenoyl-CoA (CoA 23:1(2E))	C44H74N7O17P3S	-4	c
 FAcoa_hs_23_3OH__R_c	FAcoa_hs_23_3OH__R	(3R)-hydroxytricosanoyl-CoA (CoA 23:0;O)	C44H76N7O18P3S	-4	c
 FAcoa_hs_23_3O_c	FAcoa_hs_23_3O	3-oxotricosanoyl-CoA (CoA 23:1;O)	C44H74N7O18P3S	-4	c
 FAcoa_hs_24_0_c	FAcoa_hs_24_0	Tetracosanoyl-CoA (CoA 24:0)	C45H78N7O17P3S	-4	c
-FAcoa_hs_24_12Z15Z18Z21Z3OH__R_c	FAcoa_hs_24_12Z15Z18Z21Z3OH__R	(3R)-hydroxy-(12Z,15Z,18Z,21Z)-tetracosatetraenoyl-CoA (CoA 24:4(12Z,15Z,18Z,21Z);O)	C45H70N7O18P3S	-4	c
-FAcoa_hs_24_12Z15Z18Z21Z3O_c	FAcoa_hs_24_12Z15Z18Z21Z3O	3-oxo-(12Z,15Z,18Z,21Z)-tetracosatetraenoyl-CoA (CoA 24:5(12Z,15Z,18Z,21Z);O)	C45H68N7O18P3S	-4	c
-FAcoa_hs_24_12Z15Z18Z21Z_c	FAcoa_hs_24_12Z15Z18Z21Z	(12Z,15Z,18Z,21Z)-tetracosatetraenoyl-CoA (CoA 24:4(12Z,15Z,18Z,21Z))	C45H70N7O17P3S	-4	c
+FAcoa_hs_24_12Z15Z18Z21Z3OH__R_c	FAcoa_hs_24_12Z15Z18Z21Z3OH__R	"(3R)-hydroxy-(12Z,15Z,18Z,21Z)-tetracosatetraenoyl-CoA (CoA 24:4(12Z,15Z,18Z,21Z);O)"	C45H70N7O18P3S	-4	c
+FAcoa_hs_24_12Z15Z18Z21Z3O_c	FAcoa_hs_24_12Z15Z18Z21Z3O	"3-oxo-(12Z,15Z,18Z,21Z)-tetracosatetraenoyl-CoA (CoA 24:5(12Z,15Z,18Z,21Z);O)"	C45H68N7O18P3S	-4	c
+FAcoa_hs_24_12Z15Z18Z21Z_c	FAcoa_hs_24_12Z15Z18Z21Z	"(12Z,15Z,18Z,21Z)-tetracosatetraenoyl-CoA (CoA 24:4(12Z,15Z,18Z,21Z))"	C45H70N7O17P3S	-4	c
 FAcoa_hs_24_15Z3OH__R_c	FAcoa_hs_24_15Z3OH__R	(3R)-hydroxy-(15Z)-tetracosaenoyl-CoA (CoA 24:1(15Z);O)	C45H76N7O18P3S	-4	c
 FAcoa_hs_24_15Z3O_c	FAcoa_hs_24_15Z3O	3-oxo-(15Z)-tetracosaenoyl-CoA (CoA 24:2(15Z);O)	C45H74N7O18P3S	-4	c
 FAcoa_hs_24_15Z_c	FAcoa_hs_24_15Z	(15Z)-tetracosenoyl-CoA (CoA 24:1(15Z))	C45H76N7O17P3S	-4	c
-FAcoa_hs_24_2E12Z15Z18Z21Z_c	FAcoa_hs_24_2E12Z15Z18Z21Z	(2E,12Z,15Z,18Z,21Z)-tetracosapentaenoyl-CoA (CoA 24:5(2E,12Z,15Z,18Z,21Z))	C45H68N7O17P3S	-4	c
-FAcoa_hs_24_2E15Z_c	FAcoa_hs_24_2E15Z	(2E,15Z)-tetracosadienoyl-CoA (CoA 24:2(2E,15Z))	C45H74N7O17P3S	-4	c
-FAcoa_hs_24_2E9Z12Z15Z18Z21Z_c	FAcoa_hs_24_2E9Z12Z15Z18Z21Z	(2E,9Z,12Z,15Z,18Z,21Z)-tetracosahexaenoyl-CoA (CoA 24:6(2E,9Z,12Z,15Z,18Z,21Z))	C45H66N7O17P3S	-4	c
-FAcoa_hs_24_2E9Z12Z15Z18Z_c	FAcoa_hs_24_2E9Z12Z15Z18Z	(2E,9Z,12Z,15Z,18Z)-tetracosapentaenoyl-CoA (CoA 24:5(2E,9Z,12Z,15Z,18Z))	C45H68N7O17P3S	-4	c
+FAcoa_hs_24_2E12Z15Z18Z21Z_c	FAcoa_hs_24_2E12Z15Z18Z21Z	"(2E,12Z,15Z,18Z,21Z)-tetracosapentaenoyl-CoA (CoA 24:5(2E,12Z,15Z,18Z,21Z))"	C45H68N7O17P3S	-4	c
+FAcoa_hs_24_2E15Z_c	FAcoa_hs_24_2E15Z	"(2E,15Z)-tetracosadienoyl-CoA (CoA 24:2(2E,15Z))"	C45H74N7O17P3S	-4	c
+FAcoa_hs_24_2E9Z12Z15Z18Z21Z_c	FAcoa_hs_24_2E9Z12Z15Z18Z21Z	"(2E,9Z,12Z,15Z,18Z,21Z)-tetracosahexaenoyl-CoA (CoA 24:6(2E,9Z,12Z,15Z,18Z,21Z))"	C45H66N7O17P3S	-4	c
+FAcoa_hs_24_2E9Z12Z15Z18Z_c	FAcoa_hs_24_2E9Z12Z15Z18Z	"(2E,9Z,12Z,15Z,18Z)-tetracosapentaenoyl-CoA (CoA 24:5(2E,9Z,12Z,15Z,18Z))"	C45H68N7O17P3S	-4	c
 FAcoa_hs_24_2E_c	FAcoa_hs_24_2E	(2E)-tetracosenoyl-CoA (CoA 24:1(2E))	C45H76N7O17P3S	-4	c
 FAcoa_hs_24_3OH__R_c	FAcoa_hs_24_3OH__R	(3R)-hydroxytetracosanoyl-CoA (CoA 24:0;O)	C45H78N7O18P3S	-4	c
 FAcoa_hs_24_3O_c	FAcoa_hs_24_3O	3-oxotetracosanoyl-CoA (CoA 24:1;O)	C45H76N7O18P3S	-4	c
-FAcoa_hs_24_6Z9Z12Z15Z18Z21Z_c	FAcoa_hs_24_6Z9Z12Z15Z18Z21Z	(6Z,9Z,12Z,15Z,18Z,21Z)-tetracosahexaenoyl-CoA	C45H66N7O17P3S	-4	c
-FAcoa_hs_24_6Z9Z12Z15Z18Z_c	FAcoa_hs_24_6Z9Z12Z15Z18Z	(6Z,9Z,12Z,15Z,18Z)-tetracosapentaenoyl-CoA (CoA 24:5(6Z,9Z,12Z,15Z,18Z))	C45H68N7O17P3S	-4	c
-FAcoa_hs_24_9Z12Z15Z18Z21Z3OH__R_c	FAcoa_hs_24_9Z12Z15Z18Z21Z3OH__R	(3R)-hydroxy-(9Z,12Z,15Z,18Z,21Z)-tetracosapentaenoyl-CoA (CoA 20:5(9Z,12Z,15Z,18Z,21Z);O)	C45H68N7O18P3S	-4	c
-FAcoa_hs_24_9Z12Z15Z18Z21Z3O_c	FAcoa_hs_24_9Z12Z15Z18Z21Z3O	3-oxo-(9Z,12Z,15Z,18Z,21Z)-tetracosapentaenoyl-CoA (CoA 20:6(9Z,12Z,15Z,18Z,21Z);O)	C45H66N7O18P3S	-4	c
-FAcoa_hs_24_9Z12Z15Z18Z21Z_c	FAcoa_hs_24_9Z12Z15Z18Z21Z	(9Z,12Z,15Z,18Z,21Z)-tetracosapentaenoyl-CoA (CoA 24:5(9Z,12Z,15Z,18Z,21Z))	C45H68N7O17P3S	-4	c
-FAcoa_hs_24_9Z12Z15Z18Z3OH__R_c	FAcoa_hs_24_9Z12Z15Z18Z3OH__R	(3R)-hydroxy-(9Z,12Z,15Z,18Z)-tetracosatetraenoyl-CoA	C45H70N7O18P3S	-4	c
-FAcoa_hs_24_9Z12Z15Z18Z3O_c	FAcoa_hs_24_9Z12Z15Z18Z3O	3-oxo-(9Z,12Z,15Z,18Z)-tetracosatetraenoyl-CoA	C45H68N7O18P3S	-4	c
-FAcoa_hs_24_9Z12Z15Z18Z_c	FAcoa_hs_24_9Z12Z15Z18Z	(9Z,12Z,15Z,18Z)-tetracosatetraenoyl-CoA (CoA 20:4(9Z,12Z,15Z,18Z))	C45H70N7O17P3S	-4	c
+FAcoa_hs_24_6Z9Z12Z15Z18Z21Z_c	FAcoa_hs_24_6Z9Z12Z15Z18Z21Z	"(6Z,9Z,12Z,15Z,18Z,21Z)-tetracosahexaenoyl-CoA"	C45H66N7O17P3S	-4	c
+FAcoa_hs_24_6Z9Z12Z15Z18Z_c	FAcoa_hs_24_6Z9Z12Z15Z18Z	"(6Z,9Z,12Z,15Z,18Z)-tetracosapentaenoyl-CoA (CoA 24:5(6Z,9Z,12Z,15Z,18Z))"	C45H68N7O17P3S	-4	c
+FAcoa_hs_24_9Z12Z15Z18Z21Z3OH__R_c	FAcoa_hs_24_9Z12Z15Z18Z21Z3OH__R	"(3R)-hydroxy-(9Z,12Z,15Z,18Z,21Z)-tetracosapentaenoyl-CoA (CoA 20:5(9Z,12Z,15Z,18Z,21Z);O)"	C45H68N7O18P3S	-4	c
+FAcoa_hs_24_9Z12Z15Z18Z21Z3O_c	FAcoa_hs_24_9Z12Z15Z18Z21Z3O	"3-oxo-(9Z,12Z,15Z,18Z,21Z)-tetracosapentaenoyl-CoA (CoA 20:6(9Z,12Z,15Z,18Z,21Z);O)"	C45H66N7O18P3S	-4	c
+FAcoa_hs_24_9Z12Z15Z18Z21Z_c	FAcoa_hs_24_9Z12Z15Z18Z21Z	"(9Z,12Z,15Z,18Z,21Z)-tetracosapentaenoyl-CoA (CoA 24:5(9Z,12Z,15Z,18Z,21Z))"	C45H68N7O17P3S	-4	c
+FAcoa_hs_24_9Z12Z15Z18Z3OH__R_c	FAcoa_hs_24_9Z12Z15Z18Z3OH__R	"(3R)-hydroxy-(9Z,12Z,15Z,18Z)-tetracosatetraenoyl-CoA"	C45H70N7O18P3S	-4	c
+FAcoa_hs_24_9Z12Z15Z18Z3O_c	FAcoa_hs_24_9Z12Z15Z18Z3O	"3-oxo-(9Z,12Z,15Z,18Z)-tetracosatetraenoyl-CoA"	C45H68N7O18P3S	-4	c
+FAcoa_hs_24_9Z12Z15Z18Z_c	FAcoa_hs_24_9Z12Z15Z18Z	"(9Z,12Z,15Z,18Z)-tetracosatetraenoyl-CoA (CoA 20:4(9Z,12Z,15Z,18Z))"	C45H70N7O17P3S	-4	c
 FAcoa_hs_26_0_c	FAcoa_hs_26_0	Hexacosanoyl-CoA (CoA 26:0)	C47H82N7O17P3S	-4	c
 FAcoa_hs_26_17Z3OH__R_c	FAcoa_hs_26_17Z3OH__R	(3R)-hydroxy-hexacosenoyl-CoA (CoA 26:1(17Z);O)	C47H80N7O18P3S	-4	c
 FAcoa_hs_26_17Z3O_c	FAcoa_hs_26_17Z3O	3-oxo-hexacosenoyl-CoA (CoA 26:2(17Z);O)	C47H78N7O18P3S	-4	c
 FAcoa_hs_26_17Z_c	FAcoa_hs_26_17Z	(9Z)-hexacosenoyl-CoA (CoA 26:1(9Z))	C47H80N7O17P3S	-4	c
-FAcoa_hs_26_2E17Z_c	FAcoa_hs_26_2E17Z	(2E,17Z)-hexacosadienoyl-CoA (CoA 26:2(2E,17Z))	C47H78N7O17P3S	-4	c
+FAcoa_hs_26_2E17Z_c	FAcoa_hs_26_2E17Z	"(2E,17Z)-hexacosadienoyl-CoA (CoA 26:2(2E,17Z))"	C47H78N7O17P3S	-4	c
 FAcoa_hs_26_2E_c	FAcoa_hs_26_2E	(2E)-hexacosenoyl-CoA (CoA 26:1(2E))	C47H80N7O17P3S	-4	c
 FAcoa_hs_26_3OH__R_c	FAcoa_hs_26_3OH__R	(3R)-hydroxyhexacosanoyl-CoA (CoA 26:0;O)	C47H82N7O18P3S	-4	c
 FAcoa_hs_26_3O_c	FAcoa_hs_26_3O	3-oxohexacosanoyl-CoA (CoA 26:1;O)	C47H80N7O18P3S	-4	c
@@ -611,7 +611,7 @@ FAcrn_6_DC_c	FAcrn_6_DC	Adipoylcarnitine (CAR 6:1;O2)	C13H22NO6	-1	c
 FAcrn_7_DC_c	FAcrn_7_DC	Pimeloylcarnitine (CAR 7:1;O2)	C14H24NO6	-1	c
 FAcrn_8_DC_c	FAcrn_8_DC	Suberylcarnitine (CAR 8:1;O2)	C15H26NO6	-1	c
 FAcrn_hs_10_0_c	FAcrn_hs_10_0	Decanoylcarntine (CAR 10:0)	C17H33NO4	0	c
-FAcrn_hs_10_2E6Z_c	FAcrn_hs_10_2E6Z	(2E,6Z)-decadienoylcarnitine (CAR 10:2(2E,6Z))	C17H29NO4	0	c
+FAcrn_hs_10_2E6Z_c	FAcrn_hs_10_2E6Z	"(2E,6Z)-decadienoylcarnitine (CAR 10:2(2E,6Z))"	C17H29NO4	0	c
 FAcrn_hs_10_2E_c	FAcrn_hs_10_2E	Decenoylcarntine (CAR 10:1(2E))	C17H31NO4	0	c
 FAcrn_hs_10_3OH__S_c	FAcrn_hs_10_3OH__S	(3S)-hydroxy-decanoylcarnitine (CAR 12:0;O)	C17H33NO5	0	c
 FAcrn_hs_11_0_c	FAcrn_hs_11_0	Undecanoylcarnitine (CAR 11:0)	C18H35NO4	0	c
@@ -622,8 +622,8 @@ FAcrn_hs_13_0_c	FAcrn_hs_13_0	Tridecanoylcarnitine (CAR 13:0)	C20H39NO4	0	c
 FAcrn_hs_14_0_c	FAcrn_hs_14_0	Tetradecanoylcarnitine (CAR 14:0)	C21H41NO4	0	c
 FAcrn_hs_14_2E_c	FAcrn_hs_14_2E	(2E)-tetradecenoylcarnitine (CAR 14:1(2E))	C21H39NO4	0	c
 FAcrn_hs_14_3OH__S_c	FAcrn_hs_14_3OH__S	(3S)-hydroxy-tetradecanoylcarnitine (CAR 14:0;O)	C21H41NO5	0	c
-FAcrn_hs_14_5E8Z3OH__S_c	FAcrn_hs_14_5E8Z3OH__S	(3S)-hydroxy-(5E,8Z)-tetradecadienoylcarnitine (CAR 14:2(5E,8Z);O)	C21H37NO5	0	c
-FAcrn_hs_14_5E8Z_c	FAcrn_hs_14_5E8Z	(5E,8Z)-tetradecadienoylcarnitine (CAR 14:2(5E,8Z))	C21H37NO4	0	c
+FAcrn_hs_14_5E8Z3OH__S_c	FAcrn_hs_14_5E8Z3OH__S	"(3S)-hydroxy-(5E,8Z)-tetradecadienoylcarnitine (CAR 14:2(5E,8Z);O)"	C21H37NO5	0	c
+FAcrn_hs_14_5E8Z_c	FAcrn_hs_14_5E8Z	"(5E,8Z)-tetradecadienoylcarnitine (CAR 14:2(5E,8Z))"	C21H37NO4	0	c
 FAcrn_hs_14_5Z_c	FAcrn_hs_14_5Z	(5Z)-tetradecenoylcarnitine (CAR 14:1(5Z))	C21H39NO4	0	c
 FAcrn_hs_14_7Z3OH__S_c	FAcrn_hs_14_7Z3OH__S	(3S)-hydroxy-(7Z)-tetradecenoylcarnitine (CAR 14:1(7Z);O)	C21H39NO5	0	c
 FAcrn_hs_14_7Z_c	FAcrn_hs_14_7Z	(7Z)-tetradecenoylcarnitine (CAR 14:1(7Z))	C21H39NO4	0	c
@@ -632,7 +632,7 @@ FAcrn_hs_15_0_c	FAcrn_hs_15_0	Pentadecanoylcarnitine (CAR 15:0)	C22H43NO4	0	c
 FAcrn_hs_16_0_c	FAcrn_hs_16_0	Hexadecanoylcarnitine (CAR 16:0)	C23H45NO4	0	c
 FAcrn_hs_16_2E_c	FAcrn_hs_16_2E	(2E)-hexadecenoylcarnitine (CAR 16:1(2E))	C23H43NO4	0	c
 FAcrn_hs_16_3OH__S_c	FAcrn_hs_16_3OH__S	(3S)-hydroxy-hexadecanoylcarnitine (CAR 16:1;O)	C23H45NO5	0	c
-FAcrn_hs_16_7E10Z3OH__S_c	FAcrn_hs_16_7E10Z3OH__S	(3S)-hydroxy-hexadecadienoylcarnitine (CAR 16:2(7E,10Z);O)	C23H41NO5	0	c
+FAcrn_hs_16_7E10Z3OH__S_c	FAcrn_hs_16_7E10Z3OH__S	"(3S)-hydroxy-hexadecadienoylcarnitine (CAR 16:2(7E,10Z);O)"	C23H41NO5	0	c
 FAcrn_hs_16_7Z_c	FAcrn_hs_16_7Z	(7Z)-hexadecenoylcarnitine (CAR 16:1(7Z))	C23H43NO4	0	c
 FAcrn_hs_16_9Z3OH__S_c	FAcrn_hs_16_9Z3OH__S	(3S)-hydroxy-(9Z)-hexadecenoylcarnitine (CAR 16:1(9Z);O)	C23H43NO5	0	c
 FAcrn_hs_16_9Z_c	FAcrn_hs_16_9Z	(9Z)-hexadecenoylcarnitine (CAR 16:1(9Z))	C23H43NO4	0	c
@@ -644,49 +644,49 @@ FAcrn_hs_18_11Z_c	FAcrn_hs_18_11Z	(11Z)-octadecenoylcarnitine (CAR 18:1(11Z))	C2
 FAcrn_hs_18_13Z_c	FAcrn_hs_18_13Z	(13Z)-octadecenoylcarnitine (CAR 18:1(13Z))	C25H47NO4	0	c
 FAcrn_hs_18_2E_c	FAcrn_hs_18_2E	(13Z)-octadecenoylcarnitine (CAR 18:1(13Z))	C25H47NO4	0	c
 FAcrn_hs_18_3OH__S_c	FAcrn_hs_18_3OH__S	(3S)-hydroxy-octadecanoylcarnitine (CAR 18:0;O)	C25H49NO5	0	c
-FAcrn_hs_18_6Z9Z12Z15Z_c	FAcrn_hs_18_6Z9Z12Z15Z	(6Z,9Z,12Z,15Z)-octadecatetraenoylcarnitine (CoA 18:4(6Z,9Z,12Z,15Z))	C25H41NO4	0	c
-FAcrn_hs_18_6Z9Z12Z_c	FAcrn_hs_18_6Z9Z12Z	(6Z,9Z,12Z)-octadecatrienoate (FA.18:3(6Z,9Z,12Z))	C25H43NO4	0	c
-FAcrn_hs_18_6Z9Z_c	FAcrn_hs_18_6Z9Z	(6Z,9Z)-octadecadienoylcarnitine (CAR 18:2(6Z,9Z))	C25H45NO4	0	c
+FAcrn_hs_18_6Z9Z12Z15Z_c	FAcrn_hs_18_6Z9Z12Z15Z	"(6Z,9Z,12Z,15Z)-octadecatetraenoylcarnitine (CoA 18:4(6Z,9Z,12Z,15Z))"	C25H41NO4	0	c
+FAcrn_hs_18_6Z9Z12Z_c	FAcrn_hs_18_6Z9Z12Z	"(6Z,9Z,12Z)-octadecatrienoate (FA.18:3(6Z,9Z,12Z))"	C25H43NO4	0	c
+FAcrn_hs_18_6Z9Z_c	FAcrn_hs_18_6Z9Z	"(6Z,9Z)-octadecadienoylcarnitine (CAR 18:2(6Z,9Z))"	C25H45NO4	0	c
 FAcrn_hs_18_7Z_c	FAcrn_hs_18_7Z	(7Z)-octadecenoylcarnitine (CAR 18:1(7Z))	C25H47NO4	0	c
 FAcrn_hs_18_9E_c	FAcrn_hs_18_9E	(9E)-octadecenoylcarnitine (CAR 18:1(9E))	C25H47NO4	0	c
-FAcrn_hs_18_9Z12Z15Z_c	FAcrn_hs_18_9Z12Z15Z	(9Z,12Z,15Z)-octadecatrienoate (FA.18:3(9Z,12Z,15Z))	C25H43NO4	0	c
-FAcrn_hs_18_9Z12Z3OH__S_c	FAcrn_hs_18_9Z12Z3OH__S	(3S)-hydroxy-(9Z,12Z)-octadecadienoylcarnitine (CAR 18:2(9Z,12Z);O)	C25H45NO5	0	c
-FAcrn_hs_18_9Z12Z_c	FAcrn_hs_18_9Z12Z	(9Z,12Z)-octadecadienoylcarnitine (CAR 18:2(9Z,12Z))	C25H45NO4	0	c
+FAcrn_hs_18_9Z12Z15Z_c	FAcrn_hs_18_9Z12Z15Z	"(9Z,12Z,15Z)-octadecatrienoate (FA.18:3(9Z,12Z,15Z))"	C25H43NO4	0	c
+FAcrn_hs_18_9Z12Z3OH__S_c	FAcrn_hs_18_9Z12Z3OH__S	"(3S)-hydroxy-(9Z,12Z)-octadecadienoylcarnitine (CAR 18:2(9Z,12Z);O)"	C25H45NO5	0	c
+FAcrn_hs_18_9Z12Z_c	FAcrn_hs_18_9Z12Z	"(9Z,12Z)-octadecadienoylcarnitine (CAR 18:2(9Z,12Z))"	C25H45NO4	0	c
 FAcrn_hs_18_9Z3OH__S_c	FAcrn_hs_18_9Z3OH__S	(3S)-hydroxy-(9Z)-octadecenoylcarnitine (CAR 18:1(9Z);O)	C25H47NO5	0	c
 FAcrn_hs_18_9Z_c	FAcrn_hs_18_9Z	(9Z)-octadecenoylcarnitine (CAR 18:1(9Z))	C25H47NO4	0	c
 FAcrn_hs_19_0_c	FAcrn_hs_19_0	Nonadecanoylcarnitine (CAR 19:0)	C26H51NO4	0	c
 FAcrn_hs_20_0_c	FAcrn_hs_20_0	Eicosanoylcarnitine	C27H53NO4	0	c
-FAcrn_hs_20_11Z14Z17Z_c	FAcrn_hs_20_11Z14Z17Z	(11Z,14Z,17Z)-eicosatrienoylcarnitine (CAR 20:3(11Z,14Z,17Z))	C27H47NO4	0	c
-FAcrn_hs_20_11Z14Z_c	FAcrn_hs_20_11Z14Z	(11Z,14Z)-eicosadienoylcarnitine (CAR 20:2(11Z,14Z))	C27H49NO4	0	c
+FAcrn_hs_20_11Z14Z17Z_c	FAcrn_hs_20_11Z14Z17Z	"(11Z,14Z,17Z)-eicosatrienoylcarnitine (CAR 20:3(11Z,14Z,17Z))"	C27H47NO4	0	c
+FAcrn_hs_20_11Z14Z_c	FAcrn_hs_20_11Z14Z	"(11Z,14Z)-eicosadienoylcarnitine (CAR 20:2(11Z,14Z))"	C27H49NO4	0	c
 FAcrn_hs_20_11Z_c	FAcrn_hs_20_11Z	(11Z)-eicosenoylcarnitine (CAR 20:1(11Z))	C27H51NO4	0	c
 FAcrn_hs_20_13Z_c	FAcrn_hs_20_13Z	(13Z)-eicosenoylcarnitine (CAR 20:1(13Z))	C27H51NO4	0	c
-FAcrn_hs_20_5Z8Z11Z14Z17Z_c	FAcrn_hs_20_5Z8Z11Z14Z17Z	(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoylcarnitine (CAR 20:5(5Z,8Z,11Z,14Z,17Z))	C27H43NO4	0	c
-FAcrn_hs_20_5Z8Z11Z14Z_c	FAcrn_hs_20_5Z8Z11Z14Z	(5Z,8Z,11Z,14Z)-eicosatetraenoylcarnitine (CAR 20:4(5Z,8Z,11Z,14Z))	C27H45NO4	0	c
-FAcrn_hs_20_5Z8Z11Z_c	FAcrn_hs_20_5Z8Z11Z	(5Z,8Z,11Z)-eicosatrienoylcarnitine (CAR 20:3(5Z,8Z,11Z))	C27H47NO4	0	c
-FAcrn_hs_20_8Z11Z14Z17Z_c	FAcrn_hs_20_8Z11Z14Z17Z	(8Z,11Z,14Z,17Z)-eicosatetraenoylcarnitine (CAR 20:4(8Z,11Z,14Z,17Z))	C27H45NO4	0	c
-FAcrn_hs_20_8Z11Z14Z_c	FAcrn_hs_20_8Z11Z14Z	(8Z,11Z,14Z)-eicosatrienoylcarnitine (CAR 20:3(8Z,11Z,14Z))	C27H47NO4	0	c
-FAcrn_hs_20_8Z11Z_c	FAcrn_hs_20_8Z11Z	(8Z,11Z)-eicosadienoylcarnitine (CAR 20:2(8Z,11Z))	C27H49NO4	0	c
+FAcrn_hs_20_5Z8Z11Z14Z17Z_c	FAcrn_hs_20_5Z8Z11Z14Z17Z	"(5Z,8Z,11Z,14Z,17Z)-eicosapentaenoylcarnitine (CAR 20:5(5Z,8Z,11Z,14Z,17Z))"	C27H43NO4	0	c
+FAcrn_hs_20_5Z8Z11Z14Z_c	FAcrn_hs_20_5Z8Z11Z14Z	"(5Z,8Z,11Z,14Z)-eicosatetraenoylcarnitine (CAR 20:4(5Z,8Z,11Z,14Z))"	C27H45NO4	0	c
+FAcrn_hs_20_5Z8Z11Z_c	FAcrn_hs_20_5Z8Z11Z	"(5Z,8Z,11Z)-eicosatrienoylcarnitine (CAR 20:3(5Z,8Z,11Z))"	C27H47NO4	0	c
+FAcrn_hs_20_8Z11Z14Z17Z_c	FAcrn_hs_20_8Z11Z14Z17Z	"(8Z,11Z,14Z,17Z)-eicosatetraenoylcarnitine (CAR 20:4(8Z,11Z,14Z,17Z))"	C27H45NO4	0	c
+FAcrn_hs_20_8Z11Z14Z_c	FAcrn_hs_20_8Z11Z14Z	"(8Z,11Z,14Z)-eicosatrienoylcarnitine (CAR 20:3(8Z,11Z,14Z))"	C27H47NO4	0	c
+FAcrn_hs_20_8Z11Z_c	FAcrn_hs_20_8Z11Z	"(8Z,11Z)-eicosadienoylcarnitine (CAR 20:2(8Z,11Z))"	C27H49NO4	0	c
 FAcrn_hs_20_9Z_c	FAcrn_hs_20_9Z	(9Z)-eicosenoylcarnitine (CAR 20:1(9Z))	C27H51NO4	0	c
 FAcrn_hs_21_0_c	FAcrn_hs_21_0	Heneicosanoylcarnitine (CAR 21:0)	C28H55NO4	0	c
 FAcrn_hs_22_0_c	FAcrn_hs_22_0	Docosanoylcarnitine (CAR 22:0)	C29H57NO4	0	c
-FAcrn_hs_22_10Z13Z16Z19Z_c	FAcrn_hs_22_10Z13Z16Z19Z	(10Z,13Z,16Z,19Z)-docosatetraenoylcarnitine (CAR 22:4(10Z,13Z,16Z,19Z))	C29H49NO4	0	c
-FAcrn_hs_22_10Z13Z16Z_c	FAcrn_hs_22_10Z13Z16Z	(10Z,13Z,16Z)-docosatrienoylcarnitine (CAR 22:3(10Z,13Z,16Z))	C29H51NO4	0	c
+FAcrn_hs_22_10Z13Z16Z19Z_c	FAcrn_hs_22_10Z13Z16Z19Z	"(10Z,13Z,16Z,19Z)-docosatetraenoylcarnitine (CAR 22:4(10Z,13Z,16Z,19Z))"	C29H49NO4	0	c
+FAcrn_hs_22_10Z13Z16Z_c	FAcrn_hs_22_10Z13Z16Z	"(10Z,13Z,16Z)-docosatrienoylcarnitine (CAR 22:3(10Z,13Z,16Z))"	C29H51NO4	0	c
 FAcrn_hs_22_11Z_c	FAcrn_hs_22_11Z	(11Z)-docosenoylcarnitine (CAR 22:1(11Z))	C29H55NO4	0	c
-FAcrn_hs_22_13Z16Z19Z_c	FAcrn_hs_22_13Z16Z19Z	(13Z,16Z,19Z)-docosatrienoylcarnitine (CAR 22:3(13Z,16Z,19Z))	C29H51NO4	0	c
-FAcrn_hs_22_13Z16Z_c	FAcrn_hs_22_13Z16Z	(13Z,16Z)-docosadienoylcarnitine (CAR 22:2(13Z,16Z))	C29H53NO4	0	c
+FAcrn_hs_22_13Z16Z19Z_c	FAcrn_hs_22_13Z16Z19Z	"(13Z,16Z,19Z)-docosatrienoylcarnitine (CAR 22:3(13Z,16Z,19Z))"	C29H51NO4	0	c
+FAcrn_hs_22_13Z16Z_c	FAcrn_hs_22_13Z16Z	"(13Z,16Z)-docosadienoylcarnitine (CAR 22:2(13Z,16Z))"	C29H53NO4	0	c
 FAcrn_hs_22_13Z_c	FAcrn_hs_22_13Z	(13Z)-docosenoylcarnitine (CAR 22:1(13Z))	C29H55NO4	0	c
-FAcrn_hs_22_4Z7Z10Z13Z16Z19Z_c	FAcrn_hs_22_4Z7Z10Z13Z16Z19Z	(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoylcarnitine (CAR 22:6(4Z,7Z,10Z,13Z,16Z,19Z))	C29H45NO4	0	c
-FAcrn_hs_22_4Z7Z10Z13Z16Z_c	FAcrn_hs_22_4Z7Z10Z13Z16Z	(4Z,7Z,10Z,13Z,16Z)-docosapentaenoylcarnitine (CAR 22:5(4Z,7Z,10Z,13Z,16Z))	C29H47NO4	0	c
-FAcrn_hs_22_7Z10Z13Z16Z19Z_c	FAcrn_hs_22_7Z10Z13Z16Z19Z	(7Z,10Z,13Z,16Z,19Z)-docosapentaenoylcarnitine (CAR 22:5(7Z,10Z,13Z,16Z,19Z)	C29H47NO4	0	c
-FAcrn_hs_22_7Z10Z13Z16Z_c	FAcrn_hs_22_7Z10Z13Z16Z	(7Z,10Z,13Z,16Z)-docosatetraenoylcarnitine (CAR 22:4(7Z,10Z,13Z,16Z))	C29H49NO4	0	c
+FAcrn_hs_22_4Z7Z10Z13Z16Z19Z_c	FAcrn_hs_22_4Z7Z10Z13Z16Z19Z	"(4Z,7Z,10Z,13Z,16Z,19Z)-docosahexaenoylcarnitine (CAR 22:6(4Z,7Z,10Z,13Z,16Z,19Z))"	C29H45NO4	0	c
+FAcrn_hs_22_4Z7Z10Z13Z16Z_c	FAcrn_hs_22_4Z7Z10Z13Z16Z	"(4Z,7Z,10Z,13Z,16Z)-docosapentaenoylcarnitine (CAR 22:5(4Z,7Z,10Z,13Z,16Z))"	C29H47NO4	0	c
+FAcrn_hs_22_7Z10Z13Z16Z19Z_c	FAcrn_hs_22_7Z10Z13Z16Z19Z	"(7Z,10Z,13Z,16Z,19Z)-docosapentaenoylcarnitine (CAR 22:5(7Z,10Z,13Z,16Z,19Z)"	C29H47NO4	0	c
+FAcrn_hs_22_7Z10Z13Z16Z_c	FAcrn_hs_22_7Z10Z13Z16Z	"(7Z,10Z,13Z,16Z)-docosatetraenoylcarnitine (CAR 22:4(7Z,10Z,13Z,16Z))"	C29H49NO4	0	c
 FAcrn_hs_23_0_c	FAcrn_hs_23_0	Tricosanoylcarnitine	C30H59NO4	0	c
 FAcrn_hs_24_0_c	FAcrn_hs_24_0	Tetracosanoylcarnitine (CAR 24:0)	C31H61NO4	0	c
-FAcrn_hs_24_12Z15Z18Z21Z_c	FAcrn_hs_24_12Z15Z18Z21Z	(12Z,15Z,18Z,21Z)-tetracosatetraenoylcarnitine (CAR 24:4(12Z,15Z,18Z,21Z))	C31H53NO4	0	c
+FAcrn_hs_24_12Z15Z18Z21Z_c	FAcrn_hs_24_12Z15Z18Z21Z	"(12Z,15Z,18Z,21Z)-tetracosatetraenoylcarnitine (CAR 24:4(12Z,15Z,18Z,21Z))"	C31H53NO4	0	c
 FAcrn_hs_24_15Z_c	FAcrn_hs_24_15Z	(15Z)-tetracosenoylcarnitine (CAR 24:1(15Z))	C31H59NO4	0	c
-FAcrn_hs_24_6Z9Z12Z15Z18Z21Z_c	FAcrn_hs_24_6Z9Z12Z15Z18Z21Z	(6Z,9Z,12Z,15Z,18Z,21Z)-tetracosahexaenoylcarnitine (CAR 24:6(6Z,9Z,12Z,15Z,18Z,21Z))	C31H49NO4	0	c
-FAcrn_hs_24_6Z9Z12Z15Z18Z_c	FAcrn_hs_24_6Z9Z12Z15Z18Z	(6Z,9Z,12Z,15Z,18Z)-tetracosapentaenoylcarnitine (CAR 24:5(6Z,9Z,12Z,15Z,18Z))	C31H51NO4	0	c
-FAcrn_hs_24_9Z12Z15Z18Z21Z_c	FAcrn_hs_24_9Z12Z15Z18Z21Z	(9Z,12Z,15Z,18Z,21Z)-tetracosapentaenoylcarnitine (CAR 24:5(9Z,12Z,15Z,18Z,21Z))	C31H51NO4	0	c
-FAcrn_hs_24_9Z12Z15Z18Z_c	FAcrn_hs_24_9Z12Z15Z18Z	(9Z,12Z,15Z,18Z)-tetracosatetraenoylcarnitine (CAR 24:4(9Z,12Z,15Z,18Z))	C31H53NO4	0	c
+FAcrn_hs_24_6Z9Z12Z15Z18Z21Z_c	FAcrn_hs_24_6Z9Z12Z15Z18Z21Z	"(6Z,9Z,12Z,15Z,18Z,21Z)-tetracosahexaenoylcarnitine (CAR 24:6(6Z,9Z,12Z,15Z,18Z,21Z))"	C31H49NO4	0	c
+FAcrn_hs_24_6Z9Z12Z15Z18Z_c	FAcrn_hs_24_6Z9Z12Z15Z18Z	"(6Z,9Z,12Z,15Z,18Z)-tetracosapentaenoylcarnitine (CAR 24:5(6Z,9Z,12Z,15Z,18Z))"	C31H51NO4	0	c
+FAcrn_hs_24_9Z12Z15Z18Z21Z_c	FAcrn_hs_24_9Z12Z15Z18Z21Z	"(9Z,12Z,15Z,18Z,21Z)-tetracosapentaenoylcarnitine (CAR 24:5(9Z,12Z,15Z,18Z,21Z))"	C31H51NO4	0	c
+FAcrn_hs_24_9Z12Z15Z18Z_c	FAcrn_hs_24_9Z12Z15Z18Z	"(9Z,12Z,15Z,18Z)-tetracosatetraenoylcarnitine (CAR 24:4(9Z,12Z,15Z,18Z))"	C31H53NO4	0	c
 FAcrn_hs_26_0_c	FAcrn_hs_26_0	Hexacosanoylcarnitine (CAR 26:0)	C33H65NO4	0	c
 FAcrn_hs_26_17Z_c	FAcrn_hs_26_17Z	(17Z)-hexacosenoylcarnitine (CAR 26:1(17Z))	C33H63NO4	0	c
 FAcrn_hs_3_0_c	FAcrn_hs_3_0	Propanoylcarnitine (CAR 3:0)	C10H19NO4	0	c
@@ -712,7 +712,7 @@ Lcyst_c	Lcyst	L-cysteate	C3H6NO5S	-1	c
 Lfmkynr_c	Lfmkynr	N-formyl-L-kynurenine	C11H12N2O4	0	c
 N1aspmd_c	N1aspmd	N1-acetylspermidine	C9H23N3O	2	c
 N1sprm_c	N1sprm	N1-acetylspermine	C12H31N4O	3	c
-Ssq23epx_c	Ssq23epx	squalene 2,3-oxide	C30H50O	0	c
+Ssq23epx_c	Ssq23epx	"squalene 2,3-oxide"	C30H50O	0	c
 aacACP_c	aacACP	acetoacetyl-[ACP]	C15H25N2O9PRS	-1	c
 aacoa_c	aacoa	Acetoacetyl-CoA	C25H36N7O18P3S	-4	c
 aappal_c	aappal	Acetamidopropanal	C5H9NO2	0	c
@@ -757,8 +757,8 @@ acrn_c	acrn	O-acetylcarnitine	C9H17NO4	0	c
 actp_c	actp	Acetyl phosphate	C2H3O5P	-2	c
 ade_c	ade	Adenine	C5H5N5	0	c
 ade_e	ade	Adenine	C5H5N5	0	e
-admarg__L_c	admarg__L	Asymmetric N(omega),N(omega)-dimethyl-L-arginine	C8H19N4O2	1	c
-admarg__L_e	admarg__L	Asymmetric N(omega),N(omega)-dimethyl-L-arginine	C8H19N4O2	1	e
+admarg__L_c	admarg__L	"Asymmetric N(omega),N(omega)-dimethyl-L-arginine"	C8H19N4O2	1	c
+admarg__L_e	admarg__L	"Asymmetric N(omega),N(omega)-dimethyl-L-arginine"	C8H19N4O2	1	e
 adn_c	adn	Adenosine	C10H13N5O4	0	c
 adn_e	adn	Adenosine	C10H13N5O4	0	e
 adp_c	adp	ADP	C10H12N5O10P2	-3	c
@@ -779,7 +779,7 @@ adrnlsqn__L_c	adrnlsqn__L	L-adrenaline-o-semiquinone	C9H13NO3	1	c
 ag1_c	ag1	Silver (I)	Ag	1	c
 ag1_e	ag1	Silver (I)	Ag	1	e
 ahcys__L_c	ahcys__L	S-Adenosyl-L-homocysteine	C14H20N6O5S	0	c
-ahdt_c	ahdt	6-[(1S,2R)-1,2-dihydroxy-3-triphosphooxypropyl]-7,8-dihydropterin	C9H12N5O13P3	-4	c
+ahdt_c	ahdt	"6-[(1S,2R)-1,2-dihydroxy-3-triphosphooxypropyl]-7,8-dihydropterin"	C9H12N5O13P3	-4	c
 aic_c	aic	5-amino-4-imidazolecarboxamide	C4H6N4O	0	c
 aic_e	aic	5-amino-4-imidazolecarboxamide	C4H6N4O	0	e
 aica_c	aica	5-amino-4-imidazolecarboxamide riboside	C9H14N4O5	0	c
@@ -804,8 +804,8 @@ amp_c	amp	AMP	C10H12N5O7P	-2	c
 amp_e	amp	AMP	C10H12N5O7P	-2	e
 ampamd_c	ampamd	adenosine 5'-phosphoramidate	C10H14N6O6P	-1	c
 anad_c	anad	Alpha-NAD+	C21H26N7O14P2	-1	c
-andrstndn_c	andrstndn	4-androstene-3,17-dione	C19H26O2	0	c
-andrstndn_e	andrstndn	4-androstene-3,17-dione	C19H26O2	0	e
+andrstndn_c	andrstndn	"4-androstene-3,17-dione"	C19H26O2	0	c
+andrstndn_e	andrstndn	"4-androstene-3,17-dione"	C19H26O2	0	e
 andrstrn_c	andrstrn	androsterone	C19H30O2	0	c
 angiotensin17_c	angiotensin17	Angiotensin (1-7)	C41H62N12O11	0	c
 angiotensin1_c	angiotensin1	Angiotensin 1	C62H89N17O14	0	c
@@ -814,9 +814,9 @@ angiotensin3_c	angiotensin3	Angiotensin 3	C46H66N12O9	0	c
 angiotensin4_c	angiotensin4	Angiotensin 4	C40H54N8O8	0	c
 angiotensin57_c	angiotensin57	Angiotensin (5-7)	C17H27N5O4	0	c
 angiotensin58_c	angiotensin58	Angiotensin (5-8)	C26H36N6O5	0	c
-ap4a_c	ap4a	P1,P4-Bis(5'-adenosyl) tetraphosphate	C20H24N10O19P4	-4	c
-ap5a_c	ap5a	P1,P5-bis(5'-adenosyl) pentaphosphate	C20H24N10O22P5	-5	c
-ap6a_c	ap6a	P1,P6-bis(5'-adenosyl)hexaphosphate	C20H24N10O25P6	-6	c
+ap4a_c	ap4a	"P1,P4-Bis(5'-adenosyl) tetraphosphate"	C20H24N10O19P4	-4	c
+ap5a_c	ap5a	"P1,P5-bis(5'-adenosyl) pentaphosphate"	C20H24N10O22P5	-5	c
+ap6a_c	ap6a	"P1,P6-bis(5'-adenosyl)hexaphosphate"	C20H24N10O25P6	-6	c
 apoACP_c	apoACP	apo-[ACP]	HOR	0	c
 aprgstrn_c	aprgstrn	20alpha-hydroxy-4-pregnen-3-one	C21H32O2	0	c
 aprgstrn_e	aprgstrn	20alpha-hydroxy-4-pregnen-3-one	C21H32O2	0	e
@@ -884,7 +884,7 @@ cdprbt_c	cdprbt	CDP-L-ribitol	C14H23N3O15P2	-2	c
 cdprib_c	cdprib	CDP-D-ribose	C14H21N3O15P2	-2	c
 cdpru5p__D_c	cdpru5p__D	CDP-D-ribulose	C14H21N3O15P2	-2	c
 ch4s_c	ch4s	Methanethiol	CH4S	0	c
-chlstol_c	chlstol	5alpha-cholesta-7,24-dien-3beta-ol	C27H44O	0	c
+chlstol_c	chlstol	"5alpha-cholesta-7,24-dien-3beta-ol"	C27H44O	0	c
 chol_c	chol	Choline	C5H14NO	1	c
 chol_e	chol	Choline	C5H14NO	1	e
 cholate_c	cholate	cholate	C24H39O5	-1	c
@@ -950,7 +950,7 @@ cystrna_c	cystrna	L-cysteinyl-tRNA(cys)	C3H7NORS	1	c
 cytd_c	cytd	cytidine	C9H13N3O5	0	c
 cytd_e	cytd	cytidine	C9H13N3O5	0	e
 dadp_c	dadp	dADP	C10H12N5O9P2	-3	c
-dag_hs_c	dag_hs	1,2-diacylglycerol (DG)	C5H6O5R2	0	c
+dag_hs_c	dag_hs	"1,2-diacylglycerol (DG)"	C5H6O5R2	0	c
 dago_hs_c	dago_hs	1-O-alkyl-2-acyl-sn-glycerol (DG O-)	C4H6O4R2	0	c
 dagoac_hs_c	dagoac_hs	1-O-alkyl-2-acetyl-sn-glycerol	C5H9O4R	0	c
 dagthrd_c	dagthrd	Deaminated glutathione	C10H12N2O7S	-2	c
@@ -969,12 +969,12 @@ dgchol_e	dgchol	glycochenodeoxycholate	C26H43NO5	0	e
 dgdp_c	dgdp	dGDP	C10H12N5O10P2	-3	c
 dgmp_c	dgmp	dGMP	C10H12N5O7P	-2	c
 dgtp_c	dgtp	dGTP	C10H12N5O13P3	-4	c
-dh15kprostge1_c	dh15kprostge1	13,14-dihydro-15-oxo-prostaglandin E1	C20H33O5	-1	c
-dh15kprostge2_c	dh15kprostge2	13,14-dihydro-15-oxo-prostaglandin E2	C20H31O5	-1	c
-dh15kprostge3_c	dh15kprostge3	13,14-dihydro-15-oxo-prostaglandin E3	C20H29O5	-1	c
-dh15kprostgf1_c	dh15kprostgf1	13,14-dihydro-15-oxo-prostaglandin F1alpha	C20H35O5	-1	c
-dh15kprostgf2_c	dh15kprostgf2	13,14-dihydro-15-oxo-prostaglandin F2alpha	C20H33O5	-1	c
-dh15kprostgf3_c	dh15kprostgf3	13,14-dihydro-15-oxo-prostaglandin F3alpha	C20H31O5	-1	c
+dh15kprostge1_c	dh15kprostge1	"13,14-dihydro-15-oxo-prostaglandin E1"	C20H33O5	-1	c
+dh15kprostge2_c	dh15kprostge2	"13,14-dihydro-15-oxo-prostaglandin E2"	C20H31O5	-1	c
+dh15kprostge3_c	dh15kprostge3	"13,14-dihydro-15-oxo-prostaglandin E3"	C20H29O5	-1	c
+dh15kprostgf1_c	dh15kprostgf1	"13,14-dihydro-15-oxo-prostaglandin F1alpha"	C20H35O5	-1	c
+dh15kprostgf2_c	dh15kprostgf2	"13,14-dihydro-15-oxo-prostaglandin F2alpha"	C20H33O5	-1	c
+dh15kprostgf3_c	dh15kprostgf3	"13,14-dihydro-15-oxo-prostaglandin F3alpha"	C20H31O5	-1	c
 dha_c	dha	glycerone	C3H6O3	0	c
 dha_e	dha	glycerone	C3H6O3	0	e
 dhap_c	dhap	Dihydroxyacetone phosphate	C3H5O6P	-2	c
@@ -982,63 +982,63 @@ dhdascb__L_c	dhdascb__L	L-Dehydroascorbate	C6H5O6	-1	c
 dhdascb__L_e	dhdascb__L	L-Dehydroascorbate	C6H5O6	-1	e
 dheas_c	dheas	dehydroepiandrosterone sulfate	C19H27O5S	-1	c
 dheas_e	dheas	dehydroepiandrosterone sulfate	C19H27O5S	-1	e
-dhet1112_c	dhet1112	11,12-DHET (FA 20:3;O2)	C20H33O4	-1	c
-dhet1112_e	dhet1112	11,12-DHET (FA 20:3;O2)	C20H33O4	-1	e
-dhet1415_c	dhet1415	14,15-DHET (FA 20:3;O2)	C20H33O4	-1	c
-dhet1415_e	dhet1415	14,15-DHET (FA 20:3;O2)	C20H33O4	-1	e
-dhet56_c	dhet56	5,6-DHET (FA 20:3;O2)	C20H33O4	-1	c
-dhet56_e	dhet56	5,6-DHET (FA 20:3;O2)	C20H33O4	-1	e
-dhet89_c	dhet89	8,9-DHET (FA 20:3;O2)	C20H33O4	-1	c
-dhet89_e	dhet89	8,9-DHET (FA 20:3;O2)	C20H33O4	-1	e
+dhet1112_c	dhet1112	"11,12-DHET (FA 20:3;O2)"	C20H33O4	-1	c
+dhet1112_e	dhet1112	"11,12-DHET (FA 20:3;O2)"	C20H33O4	-1	e
+dhet1415_c	dhet1415	"14,15-DHET (FA 20:3;O2)"	C20H33O4	-1	c
+dhet1415_e	dhet1415	"14,15-DHET (FA 20:3;O2)"	C20H33O4	-1	e
+dhet56_c	dhet56	"5,6-DHET (FA 20:3;O2)"	C20H33O4	-1	c
+dhet56_e	dhet56	"5,6-DHET (FA 20:3;O2)"	C20H33O4	-1	e
+dhet89_c	dhet89	"8,9-DHET (FA 20:3;O2)"	C20H33O4	-1	c
+dhet89_e	dhet89	"8,9-DHET (FA 20:3;O2)"	C20H33O4	-1	e
 dhf_c	dhf	dihydrofolate	C19H19N7O6	-2	c
 dhlipoate_c	dhlipoate	Dihydrolipoate	C8H15O2S2	-1	c
 dhlipoate_e	dhlipoate	Dihydrolipoate	C8H15O2S2	-1	e
-dhmtp_c	dhmtp	1,2-Dihydroxy-5-(methylthio)pent-1-en-3-one	C6H9O3S	-1	c
+dhmtp_c	dhmtp	"1,2-Dihydroxy-5-(methylthio)pent-1-en-3-one"	C6H9O3S	-1	c
 dhnpt_c	dhnpt	Dihydroneopterin	C9H13N5O4	0	c
 dhnpt_e	dhnpt	Dihydroneopterin	C9H13N5O4	0	e
 dhor__S_c	dhor__S	(S)-dihydroorotate	C5H5N2O4	-1	c
 dhurate_c	dhurate	Dehydrourate	C5H2N4O3	0	c
-diam6tpop4oxpyr_c	diam6tpop4oxpyr	2,5-diamino-6-(5-triphosphoryl-3,4-trihydroxy-2-oxopentyl)-amino-4-oxopyrimidine	C9H14N5O14P3	-4	c
-diampyrntp_c	diampyrntp	2,5-diaminopyrimidine nucleoside triphosphate	C9H14N5O14P3	-4	c
+diam6tpop4oxpyr_c	diam6tpop4oxpyr	"2,5-diamino-6-(5-triphosphoryl-3,4-trihydroxy-2-oxopentyl)-amino-4-oxopyrimidine"	C9H14N5O14P3	-4	c
+diampyrntp_c	diampyrntp	"2,5-diaminopyrimidine nucleoside triphosphate"	C9H14N5O14P3	-4	c
 didp_c	didp	dIDP	C10H11N4O10P2	-3	c
-dihdpa1011_c	dihdpa1011	10,11-DiHDPA (FA 22:5;O2)	C22H33O4	-1	c
-dihdpa1011_e	dihdpa1011	10,11-DiHDPA (FA 22:5;O2)	C22H33O4	-1	e
-dihdpa1314_c	dihdpa1314	13,14-DiHDPA (FA 22:5;O2)	C22H33O4	-1	c
-dihdpa1314_e	dihdpa1314	13,14-DiHDPA (FA 22:5;O2)	C22H33O4	-1	e
-dihdpa1617_c	dihdpa1617	16,17-DiHDPA (FA 22:5;O2)	C22H33O4	-1	c
-dihdpa1617_e	dihdpa1617	16,17-DiHDPA (FA 22:5;O2)	C22H33O4	-1	e
-dihdpa1920_c	dihdpa1920	19,22-DiHDPA (FA 22:5;O2)	C22H33O4	-1	c
-dihdpa1920_e	dihdpa1920	19,22-DiHDPA (FA 22:5;O2)	C22H33O4	-1	e
-dihdpa78_c	dihdpa78	7,8-DiHDPA (FA 22:5;O2)	C22H33O4	-1	c
-dihdpa78_e	dihdpa78	7,8-DiHDPA (FA 22:5;O2)	C22H33O4	-1	e
-dihete1112_c	dihete1112	11,12-DiHETE (FA 20:4;O2)	C20H31O4	-1	c
-dihete1112_e	dihete1112	11,12-DiHETE (FA 20:4;O2)	C20H31O4	-1	e
-dihete1415_c	dihete1415	14,15-DiHETE (FA 20:4;O2)	C20H31O4	-1	c
-dihete1415_e	dihete1415	14,15-DiHETE (FA 20:4;O2)	C20H31O4	-1	e
-dihete1718_c	dihete1718	17,18-DiHETE (FA 20:4;O2)	C20H31O4	-1	c
-dihete1718_e	dihete1718	17,18-DiHETE (FA 20:4;O2)	C20H31O4	-1	e
-dihete56_c	dihete56	5,6-DiHETE (FA 20:4;O2)	C20H31O4	-1	c
-dihete56_e	dihete56	5,6-DiHETE (FA 20:4;O2)	C20H31O4	-1	e
-dihete89_c	dihete89	8,9-DiHETE (FA 20:4;O2)	C20H31O4	-1	c
-dihete89_e	dihete89	8,9-DiHETE (FA 20:4;O2)	C20H31O4	-1	e
+dihdpa1011_c	dihdpa1011	"10,11-DiHDPA (FA 22:5;O2)"	C22H33O4	-1	c
+dihdpa1011_e	dihdpa1011	"10,11-DiHDPA (FA 22:5;O2)"	C22H33O4	-1	e
+dihdpa1314_c	dihdpa1314	"13,14-DiHDPA (FA 22:5;O2)"	C22H33O4	-1	c
+dihdpa1314_e	dihdpa1314	"13,14-DiHDPA (FA 22:5;O2)"	C22H33O4	-1	e
+dihdpa1617_c	dihdpa1617	"16,17-DiHDPA (FA 22:5;O2)"	C22H33O4	-1	c
+dihdpa1617_e	dihdpa1617	"16,17-DiHDPA (FA 22:5;O2)"	C22H33O4	-1	e
+dihdpa1920_c	dihdpa1920	"19,22-DiHDPA (FA 22:5;O2)"	C22H33O4	-1	c
+dihdpa1920_e	dihdpa1920	"19,22-DiHDPA (FA 22:5;O2)"	C22H33O4	-1	e
+dihdpa78_c	dihdpa78	"7,8-DiHDPA (FA 22:5;O2)"	C22H33O4	-1	c
+dihdpa78_e	dihdpa78	"7,8-DiHDPA (FA 22:5;O2)"	C22H33O4	-1	e
+dihete1112_c	dihete1112	"11,12-DiHETE (FA 20:4;O2)"	C20H31O4	-1	c
+dihete1112_e	dihete1112	"11,12-DiHETE (FA 20:4;O2)"	C20H31O4	-1	e
+dihete1415_c	dihete1415	"14,15-DiHETE (FA 20:4;O2)"	C20H31O4	-1	c
+dihete1415_e	dihete1415	"14,15-DiHETE (FA 20:4;O2)"	C20H31O4	-1	e
+dihete1718_c	dihete1718	"17,18-DiHETE (FA 20:4;O2)"	C20H31O4	-1	c
+dihete1718_e	dihete1718	"17,18-DiHETE (FA 20:4;O2)"	C20H31O4	-1	e
+dihete56_c	dihete56	"5,6-DiHETE (FA 20:4;O2)"	C20H31O4	-1	c
+dihete56_e	dihete56	"5,6-DiHETE (FA 20:4;O2)"	C20H31O4	-1	e
+dihete89_c	dihete89	"8,9-DiHETE (FA 20:4;O2)"	C20H31O4	-1	c
+dihete89_e	dihete89	"8,9-DiHETE (FA 20:4;O2)"	C20H31O4	-1	e
 dihome1213_c	dihome1213	12(13)-DiHOME (FA 18:1;O2)	C18H33O4	-1	c
 dihome1213_e	dihome1213	12(13)-DiHOME (FA 18:1;O2)	C18H33O4	-1	e
 dihome910_c	dihome910	9(10)-DiHOME (FA 18:1;O2)	C18H33O4	-1	c
 dihome910_e	dihome910	9(10)-DiHOME (FA 18:1;O2)	C18H33O4	-1	e
-diiodthy__L_c	diiodthy__L	3,3'-Diiodo-L-thyronine (T2)	C15H13I2NO4	0	c
-diiodthy__L_e	diiodthy__L	3,3'-Diiodo-L-thyronine (T2)	C15H13I2NO4	0	e
+diiodthy__L_c	diiodthy__L	"3,3'-Diiodo-L-thyronine (T2)"	C15H13I2NO4	0	c
+diiodthy__L_e	diiodthy__L	"3,3'-Diiodo-L-thyronine (T2)"	C15H13I2NO4	0	e
 dimp_c	dimp	dIMP	C10H11N4O7P	-2	c
 ditp_c	ditp	dITP	C10H11N4O13P3	-4	c
-dkmpp_c	dkmpp	2,3-diketo-5-methylthio-1-phosphopentane	C6H9O6PS	-2	c
+dkmpp_c	dkmpp	"2,3-diketo-5-methylthio-1-phosphopentane"	C6H9O6PS	-2	c
 dmgly_c	dmgly	dimethylglycine	C4H9NO2	0	c
-dmhptcoa_c	dmhptcoa	2(S),6-dimethyl-heptanoyl-CoA	C30H48N7O17P3S	-4	c
-dmhptcrn_c	dmhptcrn	2,6-dimethylheptanoyl-carnitine	C16H31NO4	0	c
-dmnoncoa_c	dmnoncoa	4(R),8-dimethyl-nonanoyl-CoA	C32H52N7O17P3S	-4	c
-dmnoncrn_c	dmnoncrn	4,8-dimethylnonanoylcarnitine	C18H35NO4	0	c
+dmhptcoa_c	dmhptcoa	"2(S),6-dimethyl-heptanoyl-CoA"	C30H48N7O17P3S	-4	c
+dmhptcrn_c	dmhptcrn	"2,6-dimethylheptanoyl-carnitine"	C16H31NO4	0	c
+dmnoncoa_c	dmnoncoa	"4(R),8-dimethyl-nonanoyl-CoA"	C32H52N7O17P3S	-4	c
+dmnoncrn_c	dmnoncrn	"4,8-dimethylnonanoylcarnitine"	C18H35NO4	0	c
 dmpp_c	dmpp	dimethylallyl-PP	C5H9O7P2	-3	c
 dnad_c	dnad	Deamino-NAD+	C21H24N6O15P2	-2	c
-dnadp_c	dnadp	Nicotinate-adenine dinucleotide phosphate  (Deamido-NADP, NAADP)	C21H23N6O18P3	-4	c
-dnadp_e	dnadp	Nicotinate-adenine dinucleotide phosphate  (Deamido-NADP, NAADP)	C21H23N6O18P3	-4	e
+dnadp_c	dnadp	"Nicotinate-adenine dinucleotide phosphate  (Deamido-NADP, NAADP)"	C21H23N6O18P3	-4	c
+dnadp_e	dnadp	"Nicotinate-adenine dinucleotide phosphate  (Deamido-NADP, NAADP)"	C21H23N6O18P3	-4	e
 dopa__D_c	dopa__D	D-dopa	C9H11NO4	0	c
 dopa__L_c	dopa__L	L-dopa	C9H11NO4	0	c
 dopa__L_e	dopa__L	L-dopa	C9H11NO4	0	e
@@ -1061,7 +1061,7 @@ dttp_c	dttp	dTTP	C10H13N2O14P3	-4	c
 dudp_c	dudp	dUDP	C9H11N2O11P2	-3	c
 dump_c	dump	dUMP	C9H11N2O8P	-2	c
 dutp_c	dutp	dUTP	C9H11N2O14P3	-4	c
-e14bp_c	e14bp	1,4-Bisphosphoerythronate	C4H5O11P2	-5	c
+e14bp_c	e14bp	"1,4-Bisphosphoerythronate"	C4H5O11P2	-5	c
 e1act_cys__L_c	e1actys__L	[E1 ubiquitin-activating enzyme]-L-cysteine	C3H5NORS	0	c
 e1nd8act_cys__L_c	e1nd8actys__L	[E1 NEDD8-activating enzyme]-L-cysteine	C3H5NORS	0	c
 e217obglcur_c	e217obglcur	17beta-estradiol 17-O-(beta-D-glucuronate)	C24H31O8	-1	c
@@ -1070,34 +1070,34 @@ e2conj_cys__L_c	e2conjys__L	[E2 ubiquitin-conjugating enzyme]-L-cysteine	C3H5NOR
 e2nd8conj_cys__L_c	e2nd8conjys__L	[E2 NEDD8-conjugating enzyme]-L-cysteine	C3H5NORS	0	c
 e4hglu_c	e4hglu	L-erythro-4-hydroxyglutamate	C5H8NO5	-1	c
 e4p_c	e4p	D-Erythrose 4-phosphate	C4H7O7P	-2	c
-edp1011_c	edp1011	10,11-EDP (FA 20:6;O)	C22H31O3	-1	c
-edp1011_e	edp1011	10,11-EDP (FA 20:6;O)	C22H31O3	-1	e
-edp1314_c	edp1314	13,14-EDP (FA 20:6;O)	C22H31O3	-1	c
-edp1314_e	edp1314	13,14-EDP (FA 20:6;O)	C22H31O3	-1	e
-edp1617_c	edp1617	16,17-EDP (FA 20:6;O)	C22H31O3	-1	c
-edp1617_e	edp1617	16,17-EDP (FA 20:6;O)	C22H31O3	-1	e
-edp1920_c	edp1920	19,20-EDP (FA 20:6;O)	C22H31O3	-1	c
-edp1920_e	edp1920	19,20-EDP (FA 20:6;O)	C22H31O3	-1	e
-edp78_c	edp78	7,8-EDP (FA 20:6;O)	C22H31O3	-1	c
-edp78_e	edp78	7,8-EDP (FA 20:6;O)	C22H31O3	-1	e
-eeq1112_c	eeq1112	11,12-EEQ (FA 20:4;O)	C20H29O3	-1	c
-eeq1112_e	eeq1112	11,12-EEQ (FA 20:4;O)	C20H29O3	-1	e
-eeq1415_c	eeq1415	14,15-EEQ (FA 20:4;O)	C20H29O3	-1	c
-eeq1415_e	eeq1415	14,15-EEQ (FA 20:4;O)	C20H29O3	-1	e
-eeq1718_c	eeq1718	17,18-EEQ (FA 20:4;O)	C20H29O3	-1	c
-eeq1718_e	eeq1718	17,18-EEQ (FA 20:4;O)	C20H29O3	-1	e
-eeq56_c	eeq56	5,6-EEQ (FA 20:4;O)	C20H29O3	-1	c
-eeq56_e	eeq56	5,6-EEQ (FA 20:4;O)	C20H29O3	-1	e
-eeq89_c	eeq89	8,9-EEQ (FA 20:4;O)	C20H29O3	-1	c
-eeq89_e	eeq89	8,9-EEQ (FA 20:4;O)	C20H29O3	-1	e
-eet1112_c	eet1112	11,12-EET (FA 20:3;O)	C20H31O3	-1	c
-eet1112_e	eet1112	11,12-EET (FA 20:3;O)	C20H31O3	-1	e
-eet1415_c	eet1415	14,15-EET (FA 20:3;O)	C20H31O3	-1	c
-eet1415_e	eet1415	14,15-EET (FA 20:3;O)	C20H31O3	-1	e
-eet56_c	eet56	5,6-EET (FA 20:3;O)	C20H31O3	-1	c
-eet56_e	eet56	5,6-EET (FA 20:3;O)	C20H31O3	-1	e
-eet89_c	eet89	8,9-EET (FA 20:3;O)	C20H31O3	-1	c
-eet89_e	eet89	8,9-EET (FA 20:3;O)	C20H31O3	-1	e
+edp1011_c	edp1011	"10,11-EDP (FA 20:6;O)"	C22H31O3	-1	c
+edp1011_e	edp1011	"10,11-EDP (FA 20:6;O)"	C22H31O3	-1	e
+edp1314_c	edp1314	"13,14-EDP (FA 20:6;O)"	C22H31O3	-1	c
+edp1314_e	edp1314	"13,14-EDP (FA 20:6;O)"	C22H31O3	-1	e
+edp1617_c	edp1617	"16,17-EDP (FA 20:6;O)"	C22H31O3	-1	c
+edp1617_e	edp1617	"16,17-EDP (FA 20:6;O)"	C22H31O3	-1	e
+edp1920_c	edp1920	"19,20-EDP (FA 20:6;O)"	C22H31O3	-1	c
+edp1920_e	edp1920	"19,20-EDP (FA 20:6;O)"	C22H31O3	-1	e
+edp78_c	edp78	"7,8-EDP (FA 20:6;O)"	C22H31O3	-1	c
+edp78_e	edp78	"7,8-EDP (FA 20:6;O)"	C22H31O3	-1	e
+eeq1112_c	eeq1112	"11,12-EEQ (FA 20:4;O)"	C20H29O3	-1	c
+eeq1112_e	eeq1112	"11,12-EEQ (FA 20:4;O)"	C20H29O3	-1	e
+eeq1415_c	eeq1415	"14,15-EEQ (FA 20:4;O)"	C20H29O3	-1	c
+eeq1415_e	eeq1415	"14,15-EEQ (FA 20:4;O)"	C20H29O3	-1	e
+eeq1718_c	eeq1718	"17,18-EEQ (FA 20:4;O)"	C20H29O3	-1	c
+eeq1718_e	eeq1718	"17,18-EEQ (FA 20:4;O)"	C20H29O3	-1	e
+eeq56_c	eeq56	"5,6-EEQ (FA 20:4;O)"	C20H29O3	-1	c
+eeq56_e	eeq56	"5,6-EEQ (FA 20:4;O)"	C20H29O3	-1	e
+eeq89_c	eeq89	"8,9-EEQ (FA 20:4;O)"	C20H29O3	-1	c
+eeq89_e	eeq89	"8,9-EEQ (FA 20:4;O)"	C20H29O3	-1	e
+eet1112_c	eet1112	"11,12-EET (FA 20:3;O)"	C20H31O3	-1	c
+eet1112_e	eet1112	"11,12-EET (FA 20:3;O)"	C20H31O3	-1	e
+eet1415_c	eet1415	"14,15-EET (FA 20:3;O)"	C20H31O3	-1	c
+eet1415_e	eet1415	"14,15-EET (FA 20:3;O)"	C20H31O3	-1	e
+eet56_c	eet56	"5,6-EET (FA 20:3;O)"	C20H31O3	-1	c
+eet56_e	eet56	"5,6-EET (FA 20:3;O)"	C20H31O3	-1	e
+eet89_c	eet89	"8,9-EET (FA 20:3;O)"	C20H31O3	-1	c
+eet89_e	eet89	"8,9-EET (FA 20:3;O)"	C20H31O3	-1	e
 epome1213_c	epome1213	12(13)-EpOME (FA 18:1;O)	C18H31O3	-1	c
 epome1213_e	epome1213	12(13)-EpOME (FA 18:1;O)	C18H31O3	-1	e
 epome910_c	epome910	9(10)-EpOME (FA 18:1;O)	C18H31O3	-1	c
@@ -1109,16 +1109,16 @@ erthrs__D_c	erthrs__D	D-erythrose	C4H8O4	0	c
 erylt_c	erylt	Erythritol	C4H10O4	0	c
 erylt_e	erylt	Erythritol	C4H10O4	0	e
 eryth__L_c	eryth__L	L-erythrulose	C4H8O4	0	c
-estradiol23qn_c	estradiol23qn	17beta-estradiol-2,3-quinone	C18H22O3	0	c
-estradiol23sqn_c	estradiol23sqn	17beta-estradiol-2,3 semiquinone	C18H23O3	0	c
-estradiol34qn_c	estradiol34qn	17beta-estradiol-3,4-quinone	C18H22O3	0	c
-estradiol34sqn_c	estradiol34sqn	17beta-estradiol-3,4 semiquinone	C18H23O3	0	c
+estradiol23qn_c	estradiol23qn	"17beta-estradiol-2,3-quinone"	C18H22O3	0	c
+estradiol23sqn_c	estradiol23sqn	"17beta-estradiol-2,3 semiquinone"	C18H23O3	0	c
+estradiol34qn_c	estradiol34qn	"17beta-estradiol-3,4-quinone"	C18H22O3	0	c
+estradiol34sqn_c	estradiol34sqn	"17beta-estradiol-3,4 semiquinone"	C18H23O3	0	c
 estradiol_c	estradiol	17beta-estradiol	C18H24O2	0	c
 estradiol_e	estradiol	estradiol-17beta	C18H24O2	0	e
-estrone23qn_c	estrone23qn	estrone-2,3-quinone	C18H20O3	0	c
-estrone23sqn_c	estrone23sqn	estrone-2,3 semiquinone	C18H21O3	0	c
-estrone34qn_c	estrone34qn	estrone-3,4-quinone	C18H20O3	0	c
-estrone34sqn_c	estrone34sqn	estrone-3,4 semiquinone	C18H21O3	0	c
+estrone23qn_c	estrone23qn	"estrone-2,3-quinone"	C18H20O3	0	c
+estrone23sqn_c	estrone23sqn	"estrone-2,3 semiquinone"	C18H21O3	0	c
+estrone34qn_c	estrone34qn	"estrone-3,4-quinone"	C18H20O3	0	c
+estrone34sqn_c	estrone34sqn	"estrone-3,4 semiquinone"	C18H21O3	0	c
 estrone_c	estrone	Estrone	C18H22O2	0	c
 estrone_e	estrone	estrone	C18H22O2	0	e
 estrones_c	estrones	estrone 3-sulfate	C18H21O5S	-1	c
@@ -1136,7 +1136,7 @@ f6p_c	f6p	D-Fructose 6-phosphate	C6H11O9P	-2	c
 fad_c	fad	Flavin adenine dinucleotide oxidized	C27H30N9O15P2	-3	c
 fadh2_c	fadh2	FADH2	C27H33N9O15P2	-2	c
 fald_c	fald	Formaldehyde	CH2O	0	c
-fdp_c	fdp	D-Fructose 1,6-bisphosphate	C6H10O12P2	-4	c
+fdp_c	fdp	"D-Fructose 1,6-bisphosphate"	C6H10O12P2	-4	c
 fe2_c	fe2	Iron (II)	Fe	2	c
 fe2_e	fe2	Iron (II)	Fe	2	e
 fe3_c	fe3	Iron (III)	Fe	3	c
@@ -1153,8 +1153,8 @@ forapyrntp_c	forapyrntp	Formamidopyrimidine nucleoside triphosphate	C10H14N5O15P
 fpram_c	fpram	5-phosphoribosylformylglycinamidine	C8H15N3O8P	-1	c
 fprica_c	fprica	FAICAR	C10H13N4O9P	-2	c
 frdp_c	frdp	farnesyl-PP	C15H25O7P2	-3	c
-frnsl2e6e_c	frnsl2e6e	(2E,6E)-farnesal	C15H24O	0	c
-frnsn2e6e_c	frnsn2e6e	(2E,6E)-farnesoate	C15H23O2	-1	c
+frnsl2e6e_c	frnsl2e6e	"(2E,6E)-farnesal"	C15H24O	0	c
+frnsn2e6e_c	frnsn2e6e	"(2E,6E)-farnesoate"	C15H23O2	-1	c
 fru_c	fru	D-Fructose	C6H12O6	0	c
 fru_e	fru	D-Fructose	C6H12O6	0	e
 fuc12gal14acglcgalgluside_hs_c	fuc12gal14acglcgalgluside_hs	Type IIH glycolipid	C51H89N2O27R	0	c
@@ -1168,7 +1168,7 @@ fucgalacglcgalacglcgal14acglcgalgluside_hs_c	fucgalacglcgalacglcgal14acglcgalglu
 fucgalacglcgalgluside_hs_c	fucgalacglcgalgluside_hs	Type IH glycolipid	C51H89N2O27R	0	c
 fum_c	fum	Fumarate	C4H2O4	-2	c
 fum_e	fum	Fumarate	C4H2O4	-2	e
-g16bp_c	g16bp	D-Glucose 1,6-Bisphosphate	C6H10O12P2	-4	c
+g16bp_c	g16bp	"D-Glucose 1,6-Bisphosphate"	C6H10O12P2	-4	c
 g1p_c	g1p	D-Glucose 1-phosphate	C6H11O9P	-2	c
 g3p_c	g3p	Glyceraldehyde 3-phosphate	C3H5O6P	-2	c
 g3pc_c	g3pc	Glycerophosphocholine	C8H20NO6P	0	c
@@ -1229,7 +1229,7 @@ ggnG4G7_c	ggnG4G7	Glycogenin G4G7	C1845H2835N455O583S14	0	c
 ggnG7G1_c	ggnG7G1	Glycogenin G7G1	C1827H2805N455O568S14	0	c
 ggnG7_c	ggnG7	Glycogenin G7	C1821H2795N455O563S14	0	c
 ggnG8_c	ggnG8	Glycogenin G8	C1827H2805N455O568S14	0	c
-glac_c	glac	D-glucurono-6,3-lactone	C6H8O6	0	c
+glac_c	glac	"D-glucurono-6,3-lactone"	C6H8O6	0	c
 glc__D_c	glc__D	beta-D-Glucose	C6H12O6	0	c
 glc__D_e	glc__D	beta-D-Glucose	C6H12O6	0	e
 glc__aD_c	glc__aD	alpha-D-Glucose	C6H12O6	0	c
@@ -1281,11 +1281,11 @@ gm2_hs_e	gm2_hs	GM2	C50H85N3O26R	-1	e
 gm3_hs_c	gm3_hs	GM3	C42H72N2O21R	-1	c
 gm3_hs_e	gm3_hs	GM3	C42H72N2O21R	-1	e
 gmp_c	gmp	GMP	C10H12N5O8P	-2	c
-gp4g_c	gp4g	P1,P4-Bis(5'-guanosyl) tetraphosphate	C20H24N10O21P4	-4	c
+gp4g_c	gp4g	"P1,P4-Bis(5'-guanosyl) tetraphosphate"	C20H24N10O21P4	-4	c
 gq1b_hs_c	gq1b_hs	GQ1b	C89H143N6O55R	-4	c
 gq1b_hs_e	gq1b_hs	GQ1b	C89H143N6O55R	-4	e
 grdp_c	grdp	geranyl-PP	C10H17O7P2	-3	c
-grdx2cgth_c	grdx2cgth	Glutaredoxin (2-cys, glutathionyl)	C16H24N5O8RS3	-1	c
+grdx2cgth_c	grdx2cgth	"Glutaredoxin (2-cys, glutathionyl)"	C16H24N5O8RS3	-1	c
 grdx2cox_c	grdx2cox	Glutaredoxin (2-cys) disulfide	C6H8N2O2RS2	0	c
 grdx2crd_c	grdx2crd	Glutaredoxin (2-cys) disulfide	C6H10N2O2RS2	0	c
 gsn_c	gsn	Guanosine	C10H13N5O5	0	c
@@ -1318,7 +1318,7 @@ hLkynr_e	hLkynr	3-hydroxy-L-kynurenine	C10H12N2O4	0	e
 h_c	h	H+	H	1	c
 h_e	h	H+	H	1	e
 ham_c	ham	Hydroxylamine	H3NO	0	c
-hb4_23dpg_c	hb4_23dpg	Deoxyhemoglobin (tetramer, 2,3-bisphospho-D-glycerate)	C367H475Fe4N16O34P2R4	-13	c
+hb4_23dpg_c	hb4_23dpg	"Deoxyhemoglobin (tetramer, 2,3-bisphospho-D-glycerate)"	C367H475Fe4N16O34P2R4	-13	c
 hb_c	hb	Deoxyhemoglobin	C91H118FeN4O6R	-2	c
 hb_hco2_c	hb_hco2	Oxyhemoglobin (Protonated Carbamino Deoxyhemoglobin)	C92H119FeN4O8R	-1	c
 hba1c_c	hba1c	Glycated hemoglobin	C97H128FeN4O11R	-2	c
@@ -1456,8 +1456,8 @@ im4ac_e	im4ac	Imidazole-4-acetate	C5H5N2O2	-1	e
 im4act_c	im4act	Imidazole-4-acetaldehyde	C5H6N2O	0	c
 imp_c	imp	IMP	C10H11N4O8P	-2	c
 ind3ac_c	ind3ac	indoleacetate	C10H8NO2	-1	c
-ind56qn_c	ind56qn	Indole-5,6-quinone	C8H5NO2	0	c
-ind56sqn_c	ind56sqn	Indole-5,6-o-semiquinone	C8H6NO2	0	c
+ind56qn_c	ind56qn	"Indole-5,6-quinone"	C8H5NO2	0	c
+ind56sqn_c	ind56sqn	"Indole-5,6-o-semiquinone"	C8H6NO2	0	c
 inds_c	inds	Indoxyl Sulfate	C8H6NO4S	-1	c
 inds_e	inds	Indoxyl Sulfate	C8H6NO4S	-1	e
 inost_c	inost	inositol	C6H12O6	0	c
@@ -1545,7 +1545,7 @@ mal__L_e	mal__L	L-Malate	C4H4O5	-2	e
 malcoa_c	malcoa	Malonyl-CoA (CoA 3:1;O2)	C24H33N7O19P3S	-5	c
 malcrn_c	malcrn	Malonylcarnitine (CAR 3:1;O2)	C10H16NO6	-1	c
 mald_c	mald	Malonaldehyde	C3H4O2	0	c
-man16bp_c	man16bp	D-Mannose 1,6-bisphosphate	C6H10O12P2	-4	c
+man16bp_c	man16bp	"D-Mannose 1,6-bisphosphate"	C6H10O12P2	-4	c
 man1p_c	man1p	D-Mannose 1-phosphate	C6H11O9P	-2	c
 man6p_c	man6p	D-Mannose 6-phosphate	C6H11O9P	-2	c
 man_c	man	D-Mannose	C6H12O6	0	c
@@ -1565,7 +1565,7 @@ met__L_e	met__L	L-Methionine	C5H11NO2S	0	e
 methb_c	methb	Methemoglobin	C91H118FeN4O6R	-1	c
 methb_onoo_c	methb_onoo	Methemoglobin-peroxynitrite complex	C91H118FeN5O9R	-2	c
 methbr_c	methbr	Methemoglobin cation radical	C91H118FeN4O6R	0	c
-methf_c	methf	5,10-methenyl-THF	C20H20N7O6	-1	c
+methf_c	methf	"5,10-methenyl-THF"	C20H20N7O6	-1	c
 methsel_c	methsel	Methaneselenol	CH4Se	0	c
 methselne_c	methselne	Methylselenenic acid	CH4OSe	0	c
 methselni_c	methselni	Methylseleninic acid	CH3O2Se	-1	c
@@ -1575,16 +1575,16 @@ mettrna_c	mettrna	L-methionyl-tRNA(met)	C5H11NORS	1	c
 mg2_c	mg2	Magnesium (II)	Mg	2	c
 mg2_e	mg2	Magnesium (II)	Mg	2	e
 mhista_c	mhista	N-methylhistamine	C6H12N3	1	c
-mi13456p_c	mi13456p	1D-myo-inositol-1,3,4,5,6-pentakisphosphate	C6H7O21P5	-10	c
-mi1345p_c	mi1345p	1D-myo-inositol-1,3,4,5-tetrakisphosphate	C6H8O18P4	-8	c
-mi134p_c	mi134p	1D-myo-inositol-1,3,4-trisphosphate	C6H9O15P3	-6	c
-mi1456p_c	mi1456p	1D-myo-inositol-1,4,5,6-tetrakisphosphate	C6H8O18P4	-8	c
-mi145p_c	mi145p	D-myo-inositol-1,4,5-trisphosphate	C6H9O15P3	-6	c
-mi14p_c	mi14p	1D-myo-inositol-1,4-bisphosphate	C6H10O12P2	-4	c
+mi13456p_c	mi13456p	"1D-myo-inositol-1,3,4,5,6-pentakisphosphate"	C6H7O21P5	-10	c
+mi1345p_c	mi1345p	"1D-myo-inositol-1,3,4,5-tetrakisphosphate"	C6H8O18P4	-8	c
+mi134p_c	mi134p	"1D-myo-inositol-1,3,4-trisphosphate"	C6H9O15P3	-6	c
+mi1456p_c	mi1456p	"1D-myo-inositol-1,4,5,6-tetrakisphosphate"	C6H8O18P4	-8	c
+mi145p_c	mi145p	"D-myo-inositol-1,4,5-trisphosphate"	C6H9O15P3	-6	c
+mi14p_c	mi14p	"1D-myo-inositol-1,4-bisphosphate"	C6H10O12P2	-4	c
 mi1p__D_c	mi1p__D	inositol-1-phosphate	C6H11O9P	-2	c
 mi3p__D_c	mi3p__D	1D-myo-inositol-3-phosphate	C6H11O9P	-2	c
 mi4p__D_c	mi4p__D	1D-myo-inositol-4-phosphate	C6H11O9P	-2	c
-mlthf_c	mlthf	5,10-methylene-THF	C20H21N7O6	-2	c
+mlthf_c	mlthf	"5,10-methylene-THF"	C20H21N7O6	-2	c
 mma_c	mma	Methylamine	CH6N	1	c
 mma_e	mma	Methylamine	CH6N	1	e
 mmaln_c	mmaln	Methylmalonate	C4H4O4	-2	c
@@ -1593,7 +1593,7 @@ mmarg__L_e	mmarg__L	N(omega)-methyl-L-arginine	C7H17N4O2	1	e
 mmcoa__S_c	mmcoa__S	Methylmalonyl-CoA	C25H35N7O19P3S	-5	c
 mn2_c	mn2	Manganese (II)	Mn	2	c
 mn2_e	mn2	Manganese (II)	Mn	2	e
-mn_c	mn	beta-1,4-mannose-N-acetylglucosamine	C14H25NO11	0	c
+mn_c	mn	"beta-1,4-mannose-N-acetylglucosamine"	C14H25NO11	0	c
 mndiol_c	mndiol	menadiol	C11H10O2	0	c
 mndn_c	mndn	menadione	C11H8O2	0	c
 mnl_e	mnl	D-Mannitol	C6H14O6	0	e
@@ -1668,7 +1668,7 @@ nrpphrchrmsqn_c	nrpphrchrmsqn	L-noradrenochrome-o-semiquinone	C8H8NO3	0	c
 nrpphrqn__L_c	nrpphrqn__L	L-noradrenaline-o-quinone	C8H10NO3	1	c
 nrpphrsqn__L_c	nrpphrsqn__L	L-noradrenaline-o-semiquinone	C8H11NO3	1	c
 nwharg_c	nwharg	N-(omega)-hydroxyarginine	C6H15N4O3	1	c
-o18bp_c	o18bp	Octulose 1,8-bisphosphate	C8H14O14P2	-4	c
+o18bp_c	o18bp	"Octulose 1,8-bisphosphate"	C8H14O14P2	-4	c
 o2_c	o2	O2 	O2	0	c
 o2_e	o2	O2	O2	0	e
 o2s_c	o2s	Superoxide	O2	-1	c
@@ -1709,11 +1709,11 @@ pa_hs_c	pa_hs	PA	C5H5O8PR2	-2	c
 pac_c	pac	phenylacetate	C8H7O2	-1	c
 pacald_c	pacald	phenylacetaldehyde	C8H8O	0	c
 paf_hs_c	paf_hs	1-O-alkyl-2-acetyl-sn-glycero-3-phosphocholine	C10H21NO7PR	0	c
-pail345p_hs_c	pail345p_hs	PIP3[3',4',5']	C11H13O22P4R2	-7	c
-pail34p_hs_c	pail34p_hs	PIP2[3',4']	C11H14O19P3R2	-5	c
-pail35p_hs_c	pail35p_hs	1-phosphatidyl-myo-inositol-3,5-bisphosphate	C11H14O19P3R2	-5	c
+pail345p_hs_c	pail345p_hs	"PIP3[3',4',5']"	C11H13O22P4R2	-7	c
+pail34p_hs_c	pail34p_hs	"PIP2[3',4']"	C11H14O19P3R2	-5	c
+pail35p_hs_c	pail35p_hs	"1-phosphatidyl-myo-inositol-3,5-bisphosphate"	C11H14O19P3R2	-5	c
 pail3p_hs_c	pail3p_hs	PIP[3']	C11H15O16P2R2	-3	c
-pail45p_hs_c	pail45p_hs	PIP2[4',5']	C11H14O19P3R2	-5	c
+pail45p_hs_c	pail45p_hs	"PIP2[4',5']"	C11H14O19P3R2	-5	c
 pail4p_hs_c	pail4p_hs	PIP[4']	C11H15O16P2R2	-3	c
 pail5p_hs_c	pail5p_hs	PIP[5']	C11H15O16P2R2	-3	c
 pail_hs_c	pail_hs	PI	C11H16O13PR2	-1	c
@@ -1763,21 +1763,21 @@ ppa_e	ppa	Propanoate (FA 3:0)	C3H5O2	-1	e
 ppal_c	ppal	Propanal (FAL 3:0)	C3H6O	0	c
 ppbng_c	ppbng	Porphobilinogen	C10H13N2O4	-1	c
 ppcoa_c	ppcoa	Propanoyl-CoA	C24H36N7O17P3S	-4	c
-ppgpp_c	ppgpp	Guanosine 3',5'-bis(diphosphate)	C10H12N5O17P4	-5	c
+ppgpp_c	ppgpp	"Guanosine 3',5'-bis(diphosphate)"	C10H12N5O17P4	-5	c
 ppi_c	ppi	Diphosphate	HO7P2	-3	c
 ppi_e	ppi	Diphosphate	HO7P2	-3	e
 ppp9_c	ppp9	Protoporphyrin	C34H32N4O4	-2	c
 ppp9_e	ppp9	protoporphyrin	C34H32N4O4	-2	e
 pppi_c	pppi	triphosphate	HO10P3	-4	c
 pram_c	pram	5-phosphoribosylamine	C5H11NO7P	-1	c
-prdx1cgth_c	prdx1cgth	Peroxiredoxin (1-cys, glutathionyl)	C13H19N4O7RS2	-1	c
-prdx1crd_c	prdx1crd	Peroxiredoxin (1-cys, reduced)	C3H5NORS	0	c
-prdx1cso_c	prdx1cso	Peroxiredoxin (1-cys, sulfenic)	C3H5NO2RS	0	c
-prdx2cox_c	prdx2cox	Peroxiredoxin (2-cys, oxidized)	C6H8N2O2RS2	0	c
-prdx2crd_c	prdx2crd	Peroxiredoxin (2-cys, reduced)	C6H10N2O2RS2	0	c
-prdx2cso2_c	prdx2cso2	Peroxiredoxin (2-cys, sulfinic)	C6H9N2O4RS2	-1	c
-prdx2cso3_c	prdx2cso3	Peroxiredoxin (2-cys, sulfonic)	C6H9N2O5RS2	-1	c
-prdx2cso_c	prdx2cso	Peroxiredoxin (2-cys, sulfenic)	C6H10N2O3RS2	0	c
+prdx1cgth_c	prdx1cgth	"Peroxiredoxin (1-cys, glutathionyl)"	C13H19N4O7RS2	-1	c
+prdx1crd_c	prdx1crd	"Peroxiredoxin (1-cys, reduced)"	C3H5NORS	0	c
+prdx1cso_c	prdx1cso	"Peroxiredoxin (1-cys, sulfenic)"	C3H5NO2RS	0	c
+prdx2cox_c	prdx2cox	"Peroxiredoxin (2-cys, oxidized)"	C6H8N2O2RS2	0	c
+prdx2crd_c	prdx2crd	"Peroxiredoxin (2-cys, reduced)"	C6H10N2O2RS2	0	c
+prdx2cso2_c	prdx2cso2	"Peroxiredoxin (2-cys, sulfinic)"	C6H9N2O4RS2	-1	c
+prdx2cso3_c	prdx2cso3	"Peroxiredoxin (2-cys, sulfonic)"	C6H9N2O5RS2	-1	c
+prdx2cso_c	prdx2cso	"Peroxiredoxin (2-cys, sulfenic)"	C6H10N2O3RS2	0	c
 prgnlone_c	prgnlone	Pregnenolone	C21H32O2	0	c
 prgnlone_e	prgnlone	Pregnenolone	C21H32O2	0	e
 prgnlones_c	prgnlones	pregnenolone sulfate	C21H31O5S	-1	c
@@ -1906,7 +1906,7 @@ q10h_c	q10h	Ubisemiquinone	C59H91O4	0	c
 qmp_c	qmp	Queuosine 5'-phosphate	C17H22N5O10P	-2	c
 que_c	que	Queuine	C12H15N5O3	0	c
 quln_c	quln	quinolinate	C7H3NO4	-2	c
-r15bp_c	r15bp	D-Ribose 1,5-bisphosphate	C5H8O11P2	-4	c
+r15bp_c	r15bp	"D-Ribose 1,5-bisphosphate"	C5H8O11P2	-4	c
 r1p_c	r1p	Alpha-D-Ribose 1-phosphate	C5H9O8P	-2	c
 r5p_c	r5p	Alpha-D-Ribose 5-phosphate	C5H9O8P	-2	c
 r5p_e	r5p	Alpha-D-Ribose 5-phosphate	C5H9O8P	-2	e
@@ -1940,10 +1940,10 @@ ribflv_c	ribflv	Riboflavin	C17H19N4O6	-1	c
 ribflv_e	ribflv	Riboflavin	C17H19N4O6	-1	e
 rnam_c	rnam	N-ribosylnicotinamide	C11H15N2O5	1	c
 rnam_e	rnam	N-ribosylnicotinamide	C11H15N2O5	1	e
-rnamh_c	rnamh	1-(beta-D-Ribofuranosyl)-1,4-dihydronicotinamide	C11H16N2O5	0	c
-rnamh_e	rnamh	1-(beta-D-Ribofuranosyl)-1,4-dihydronicotinamide	C11H16N2O5	0	e
+rnamh_c	rnamh	"1-(beta-D-Ribofuranosyl)-1,4-dihydronicotinamide"	C11H16N2O5	0	c
+rnamh_e	rnamh	"1-(beta-D-Ribofuranosyl)-1,4-dihydronicotinamide"	C11H16N2O5	0	e
 ru5p__D_c	ru5p__D	D-Ribulose 5-phosphate	C5H9O8P	-2	c
-s17bp_c	s17bp	Sedoheptulose 1,7-bisphosphate	C7H12O13P2	-4	c
+s17bp_c	s17bp	"Sedoheptulose 1,7-bisphosphate"	C7H12O13P2	-4	c
 s7p_c	s7p	Sedoheptulose 7-phosphate	C7H13O10P	-2	c
 saica_c	saica	5-amino-4-imidazole-N-succinocarboxamide riboside	C13H16N4O9	-2	c
 saica_e	saica	5-amino-4-imidazole-N-succinocarboxamide riboside	C13H16N4O9	-2	e
@@ -2004,8 +2004,8 @@ sppt_c	sppt	L-Sepiapterin	C9H12N5O3	1	c
 sppt_e	sppt	L-Sepiapterin	C9H12N5O3	1	e
 sprm_c	sprm	Spermine	C10H30N4	4	c
 sprm_e	sprm	Spermine	C10H30N4	4	e
-srdx1cgth_c	srdx1cgth	Sulfiredoxin (1-cys, glutathionyl)	C13H19N4O7RS2	-1	c
-srdx1crd_c	srdx1crd	Sulfiredoxin (1-cys, reduced)	C3H5NORS	0	c
+srdx1cgth_c	srdx1cgth	"Sulfiredoxin (1-cys, glutathionyl)"	C13H19N4O7RS2	-1	c
+srdx1crd_c	srdx1crd	"Sulfiredoxin (1-cys, reduced)"	C3H5NORS	0	c
 srtn_c	srtn	serotonin	C10H13N2O	1	c
 srtn_e	srtn	serotonin	C10H13N2O	1	e
 ssgth_c	ssgth	S-sulfanylglutathione	C10H16N3O6S2	-1	c
@@ -2026,9 +2026,9 @@ tdchola_c	tdchola	taurochenodeoxycholate	C26H45NO6S	0	c
 tdchola_e	tdchola	taurochenodeoxycholate	C26H45NO6S	0	e
 tdechola_c	tdechola	taurodeoxycholate	C26H44NO6S	-1	c
 tdechola_e	tdechola	taurodeoxycholate	C26H44NO6S	-1	e
-tetiodthy__L_c	tetiodthy__L	3,3',5,5'-Tetraiodo-L-thyronine (T4)	C15H11I4NO4	0	c
-tetiodthy__L_e	tetiodthy__L	3,3',5,5'-Tetraiodo-L-thyronine (T4)	C15H11I4NO4	0	e
-thbpt4acam_c	thbpt4acam	4a-hydroxy-L-erythro-5,6,7,8-tetrahydrobiopterin	C9H15N5O4	0	c
+tetiodthy__L_c	tetiodthy__L	"3,3',5,5'-Tetraiodo-L-thyronine (T4)"	C15H11I4NO4	0	c
+tetiodthy__L_e	tetiodthy__L	"3,3',5,5'-Tetraiodo-L-thyronine (T4)"	C15H11I4NO4	0	e
+thbpt4acam_c	thbpt4acam	"4a-hydroxy-L-erythro-5,6,7,8-tetrahydrobiopterin"	C9H15N5O4	0	c
 thbpt_c	thbpt	Tetrahydrobiopterin	C9H15N5O3	0	c
 thbpt_e	thbpt	Tetrahydrobiopterin	C9H15N5O3	0	e
 thcrm_hs_c	thcrm_hs	globotriaosylceramide	C37H66NO18R	0	c
@@ -2062,9 +2062,9 @@ thymd_c	thymd	thymidine	C10H14N2O5	0	c
 thymd_e	thymd	thymidine	C10H14N2O5	0	e
 trdxox_c	trdxox	Thioredoxin disulfide	C6H8N2O2RS2	0	c
 trdxrd_c	trdxrd	Thioredoxin dithiol	C6H10N2O2RS2	0	c
-triaz3crbxam_c	triaz3crbxam	1,2,4-triazole-3-carboxamide	C3H4N4O	0	c
-triiodthy__L_c	triiodthy__L	3,5,3'-Triiodo-L-thyronine (T3)	C15H12I3NO4	0	c
-triiodthy__L_e	triiodthy__L	3,5,3'-Triiodo-L-thyronine (T3)	C15H12I3NO4	0	e
+triaz3crbxam_c	triaz3crbxam	"1,2,4-triazole-3-carboxamide"	C3H4N4O	0	c
+triiodthy__L_c	triiodthy__L	"3,5,3'-Triiodo-L-thyronine (T3)"	C15H12I3NO4	0	c
+triiodthy__L_e	triiodthy__L	"3,5,3'-Triiodo-L-thyronine (T3)"	C15H12I3NO4	0	e
 trnaala_c	trnaala	tRNA(ala)	HR	0	c
 trnaarg_c	trnaarg	tRNA(arg)	HR	0	c
 trnaasn_c	trnaasn	tRNA(asn)	HR	0	c
