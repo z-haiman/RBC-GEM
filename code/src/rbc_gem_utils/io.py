@@ -2,6 +2,7 @@
 Functions for importing and exporting the RBC-GEM using COBRApy from anywhere in the repo.
 """
 
+import io
 import logging
 from pathlib import Path
 from warnings import warn
@@ -36,7 +37,7 @@ ALTERNATE_FILETYPES_DICT = {
 }
 
 
-def write_cobra_model(model, filename, **kwargs):
+def write_cobra_model(model, filename, filetype=None, **kwargs):
     """Save/write the COBRA model file. Determines the function based on the file extension.
 
     Parameters
@@ -45,6 +46,8 @@ def write_cobra_model(model, filename, **kwargs):
         The COBRA model to represent.
     filename : str or file-like
         File path or descriptor to which the model is written.
+    filetype : str
+        Model filetype. Required for BytesIO and StringIO objects, otherwise attempts automatic determination from file extension.
     **kwargs
         Passed to the function utilized in saving the model.
 
@@ -65,7 +68,15 @@ def write_cobra_model(model, filename, **kwargs):
         Underlying function utilized for saving a COBRA model as a `.xml` file or `.sbml` file.
 
     """
-    filetype = Path(filename).suffix[1:]
+
+    if isinstance(filename, (io.BytesIO, io.StringIO)) and filetype is None:
+        raise ValueError("The `filetype` must be defined for IO objects.")
+    elif not isinstance(filename, (io.BytesIO, io.StringIO)) and filetype is None:
+        fname = filename.name if hasattr(filename, "name") else str(filename)
+        filetype = fname.rsplit(".")[-1]
+        if filetype in {"zip", "bz", "gz"}:
+            filetype = fname.rsplit(".")[-2]
+
     filetype = ALTERNATE_FILETYPES_DICT.get(filetype, filetype)
     try:
         write_function = IO_FUNCTIONS_DICT[filetype]["write"]
@@ -75,13 +86,15 @@ def write_cobra_model(model, filename, **kwargs):
     write_function(model, filename, **kwargs)
 
 
-def read_cobra_model(filename, **kwargs):
+def read_cobra_model(filename, filetype=None, **kwargs):
     """Load/read the COBRA model file. Determines the function based on the file extension.
 
     Parameters
     ----------
     filename : str or file-like
         File path or descriptor that contains the model.
+    filetype : str
+        Model filetype. Required for BytesIO and StringIO objects, otherwise attempts automatic determination from file extension.
     **kwargs
         Passed to the function utilized in loading the model.
 
@@ -101,7 +114,14 @@ def read_cobra_model(filename, **kwargs):
     load_yaml_model
         Underlying function utilized for loading a COBRA model from a `.yml` file or `.yaml` file.
     """
-    filetype = Path(filename).suffix[1:]
+    if isinstance(filename, io.StringIO) and filetype is None:
+        raise ValueError("The `filetype` must be defined for IO objects.")
+    elif not isinstance(filename, io.StringIO) and filetype is None:
+        fname = filename.name if hasattr(filename, "name") else str(filename)
+        filetype = fname.rsplit(".")[-1]
+        if filetype in {"zip", "bz", "gz"}:
+            filetype = fname.rsplit(".")[-2]
+
     filetype = ALTERNATE_FILETYPES_DICT.get(filetype, filetype)
     try:
         read_function = IO_FUNCTIONS_DICT[filetype]["read"]
@@ -113,101 +133,101 @@ def read_cobra_model(filename, **kwargs):
     return model
 
 
-def write_rbc_model(model, filetype="xml", directory=None, **kwargs):
-    """Save/write the RBC-GEM as a COBRA model. The `filetype` determines which function to use.
+# def write_rbc_model(model, filetype="xml", directory=None, **kwargs):
+#     """Save/write the RBC-GEM as a COBRA model. The `filetype` determines which function to use.
 
-    Parameters
-    ----------
-    model : cobra.Model
-        The RBC-GEM model to represent.
-    filetype : str, iterable, optional
-        The type of model file. Default value is 'xml' for the SBML model file.
-        If ``filetype="all"``, all possible functions will be used.
-        Alternatively, an iterable of strings representing the filetypes can be provided.
-    directory : str, optional
-        The directory to save the model file.
-        If ``None``, defaults to the {ROOT_PATH}{MODEL_PATH}.
-    **kwargs
-        Passed to the underlying function utilized in saving/writing the model file.
-        If ``filetype="all"`` or an iterable is provided to `filetype`, a `dict` should be passed with
-        the keys representing filetypes and values representing dictionaries of ``kwargs``
-        for the `filetype` passed.
+#     Parameters
+#     ----------
+#     model : cobra.Model
+#         The RBC-GEM model to represent.
+#     filetype : str, iterable, optional
+#         The type of model file. Default value is 'xml' for the SBML model file.
+#         If ``filetype="all"``, all possible functions will be used.
+#         Alternatively, an iterable of strings representing the filetypes can be provided.
+#     directory : str, optional
+#         The directory to save the model file.
+#         If ``None``, defaults to the {ROOT_PATH}{MODEL_PATH}.
+#     **kwargs
+#         Passed to the underlying function utilized in saving/writing the model file.
+#         If ``filetype="all"`` or an iterable is provided to `filetype`, a `dict` should be passed with
+#         the keys representing filetypes and values representing dictionaries of ``kwargs``
+#         for the `filetype` passed.
 
-    See Also
-    --------
-    save_json_model
-        Underlying function utilized for saving a COBRA model as a `.json` file.
-    save_matlab_model
-        Underlying function utilized for saving a COBRA model as a `.mat` file.
-    save_yaml_model
-        Underlying function utilized for saving a COBRA model as a `.yml` file or `.yaml` file.
-    write_sbml_model
-        Underlying function utilized for saving a COBRA model as a `.xml` file or `.sbml` file.
+#     See Also
+#     --------
+#     save_json_model
+#         Underlying function utilized for saving a COBRA model as a `.json` file.
+#     save_matlab_model
+#         Underlying function utilized for saving a COBRA model as a `.mat` file.
+#     save_yaml_model
+#         Underlying function utilized for saving a COBRA model as a `.yml` file or `.yaml` file.
+#     write_sbml_model
+#         Underlying function utilized for saving a COBRA model as a `.xml` file or `.sbml` file.
 
-    """
-    if isinstance(filetype, str):
-        if filetype == "all":
-            # Ensure no duplicates when it comes to SBML or yaml files.
-            filetype = sorted(
-                set(IO_FUNCTIONS_DICT).difference(set(ALTERNATE_FILETYPES_DICT))
-            )
-        else:
-            kwargs = {filetype: kwargs}
-            filetype = [filetype]
-    if not directory:
-        directory = ROOT_PATH / MODEL_PATH
-    for ftype in set(filetype):
-        ftype_kwargs = kwargs.get(ftype, {})
-        if ftype in ALTERNATE_FILETYPES_DICT:
-            alt = ALTERNATE_FILETYPES_DICT[ftype]
-            msg = f'Extension "{ftype}" used instead of "{alt}"'
-            if ftype not in filetype:
-                warn(f"{msg}, correcting file format for export")
-                ftype = alt
-                ftype_kwargs = kwargs.get(alt, {})
-            else:
-                # No need to duplicate the export
-                warn(f"{msg}, skipping to prevent duplicate export")
-                continue
+#     """
+#     if isinstance(filetype, str):
+#         if filetype == "all":
+#             # Ensure no duplicates when it comes to SBML or yaml files.
+#             filetype = sorted(
+#                 set(IO_FUNCTIONS_DICT).difference(set(ALTERNATE_FILETYPES_DICT))
+#             )
+#         else:
+#             kwargs = {filetype: kwargs}
+#             filetype = [filetype]
+#     if not directory:
+#         directory = ROOT_PATH / MODEL_PATH
+#     for ftype in set(filetype):
+#         ftype_kwargs = kwargs.get(ftype, {})
+#         if ftype in ALTERNATE_FILETYPES_DICT:
+#             alt = ALTERNATE_FILETYPES_DICT[ftype]
+#             msg = f'Extension "{ftype}" used instead of "{alt}"'
+#             if ftype not in filetype:
+#                 warn(f"{msg}, correcting file format for export")
+#                 ftype = alt
+#                 ftype_kwargs = kwargs.get(alt, {})
+#             else:
+#                 # No need to duplicate the export
+#                 warn(f"{msg}, skipping to prevent duplicate export")
+#                 continue
 
-        write_cobra_model(
-            model, Path(directory) / f"{GEM_NAME}.{ftype}", **ftype_kwargs
-        )
-        LOGGER.info("Model `%s` saved as a `.%s` file", model.id, ftype)
+#         write_cobra_model(
+#             model, Path(directory) / f"{GEM_NAME}.{ftype}", **ftype_kwargs
+#         )
+#         LOGGER.info("Model `%s` saved as a `.%s` file", model.id, ftype)
 
 
-def read_rbc_model(filetype="xml", directory=None, **kwargs):
-    """Load/read the RBC-GEM as a COBRA model. The `filetype` determines which function to use.
+# def read_rbc_model(filetype="xml", directory=None, **kwargs):
+#     """Load/read the RBC-GEM as a COBRA model. The `filetype` determines which function to use.
 
-    Parameters
-    ----------
-    filetype : str, optional
-        The type of model file. Default value is 'xml' for the SBML model file.
-    directory : str, optional
-        The directory where the model file is kept.
-        If ``None``, defaults to the {ROOT_PATH}{MODEL_PATH}.
-    **kwargs
-        Passed to the underlying function utilized in loading/reading the model file.
+#     Parameters
+#     ----------
+#     filetype : str, optional
+#         The type of model file. Default value is 'xml' for the SBML model file.
+#     directory : str, optional
+#         The directory where the model file is kept.
+#         If ``None``, defaults to the {ROOT_PATH}{MODEL_PATH}.
+#     **kwargs
+#         Passed to the underlying function utilized in loading/reading the model file.
 
-    Returns
-    -------
-    cobra.Model
-        The RBC-GEM as a COBRA model.
+#     Returns
+#     -------
+#     cobra.Model
+#         The RBC-GEM as a COBRA model.
 
-    See Also
-    --------
-    load_json_model
-        Underlying function utilized for loading a COBRA model from a `.json` file.
-    load_matlab_model
-        Underlying function utilized for loading a COBRA model from a `.mat` file.
-    load_yaml_model
-        Underlying function utilized for loading a COBRA model from a `.yml` file or `.yaml` file.
-    read_sbml_model
-        Underlying function utilized for loading a COBRA model from a `.xml` file or `.sbml` file.
+#     See Also
+#     --------
+#     load_json_model
+#         Underlying function utilized for loading a COBRA model from a `.json` file.
+#     load_matlab_model
+#         Underlying function utilized for loading a COBRA model from a `.mat` file.
+#     load_yaml_model
+#         Underlying function utilized for loading a COBRA model from a `.yml` file or `.yaml` file.
+#     read_sbml_model
+#         Underlying function utilized for loading a COBRA model from a `.xml` file or `.sbml` file.
 
-    """
-    if not directory:
-        directory = ROOT_PATH / MODEL_PATH
-    model = read_cobra_model(Path(directory) / f"{GEM_NAME}.{filetype}", **kwargs)
-    LOGGER.info("Model `%s` loaded from a `.%s` file", model.id, filetype)
-    return model
+#     """
+#     if not directory:
+#         directory = ROOT_PATH / MODEL_PATH
+#     model = read_cobra_model(Path(directory) / f"{GEM_NAME}.{filetype}", **kwargs)
+#     LOGGER.info("Model `%s` loaded from a `.%s` file", model.id, filetype)
+#     return model

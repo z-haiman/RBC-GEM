@@ -2,8 +2,11 @@
 
 Notes
 -----
-UniProt API Code based on samples provided from https://www.uniprot.org/help/id_mapping
-Page last modified date: Thu Oct. 13 2022
+* Main site: https://enzyme.expasy.org/
+* Code written or updated based on version 2025_02, released 23-Apr-2025
+    * UniProt API Code based on samples provided from https://www.uniprot.org/help/id_mapping
+    * Page last modified date: Thu Oct. 13 2022
+* Code last updated: May 2025
 
 """
 
@@ -45,7 +48,7 @@ UNIPROT_PATH = Path(UNIPROT_DB_TAG)
 # Extracted from https://www.uniprot.org/help/return_fields_databases
 # Note some corrections were made due to what looked like typos in table
 # TODO Add the BeautifulSoup methods for table extraction
-UNIPROT_VERSION_EXPECTED = "2025_01"
+UNIPROT_RELEASE_EXPECTED = "2025_03"
 
 UNIPROT_QUERY_LABEL_MIRIAM = {
     # query field: label, https://identifiers.org/
@@ -502,7 +505,7 @@ def query_UniProt(
         return df_results
 
 
-def get_version_UniProt():
+def get_release_UniProt():
     """Return the current version of UniProt."""
     response = requests.get(
         "https://ftp.uniprot.org/pub/databases/uniprot/relnotes.txt"

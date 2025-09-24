@@ -1,4 +1,14 @@
 # History
+### RBC-GEM 1.3.0
+* Repository updates for organization
+* Fixed complex stoichiometry bugs
+* FIxed issues with metabolite names having unique unicode characters
+* Added sink boundary reactions for glycerophospholipids
+* Re-added gene/reaction evidence for SLCO1A2 and SLCO2B1
+* Fixed identifier DIHOMEt1213e --> DIHOME1213te for consistency with other epoxide hydrolase reactions
+* Fixed compartment issue with 'e217obglcur_c'
+* Added ABCC1 to floppase reactions
+
 ### RBC-GEM 1.2.1
 * Updates to repository README files
 * Filepaths are corrected to be independent of platform

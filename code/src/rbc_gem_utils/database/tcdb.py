@@ -1,3 +1,13 @@
+"""Functions to extract relevant information from the Transporter Classification Database
+
+Notes
+-----
+* Main site: https://enzyme.expasy.org/
+* Code written or updated based on release on 01-May-25
+* Code last updated: May 2025
+
+"""
+
 import logging
 from pathlib import Path
 
@@ -46,7 +56,7 @@ def download_database_TCDB(filename=None, database_dirpath=None):
         response = requests.get(fileurl)
         response.raise_for_status()
 
-        with open(database_dirpath / f"{fname}.tsv", "w") as file:
+        with open(database_dirpath / f"{fname}.tsv", "w", encoding="utf-8") as file:
             file.write(response.text)
 
         LOGGER.info("`%s.tsv` saved at `%s`", fname, database_dirpath)

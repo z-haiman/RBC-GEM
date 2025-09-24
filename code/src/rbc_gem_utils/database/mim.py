@@ -2,8 +2,9 @@
 
 Notes
 -----
-Main site: https://omim.org/
-
+* Main site: https://omim.org/
+* Code written or updated based on release of 01-May-25
+* Code last updated: May 2025
 """
 
 import re

@@ -2,27 +2,27 @@
 
 Notes
 -----
-Code based on DrugBank (5.1.11)
-
+* Main site: https://go.drugbank.com/
+* Code written written or updated on DrugBank (5.1.13), released 02-Jan-25
+* Code last updated: May 2025
 """
 
+import re
 import zipfile
-from collections import defaultdict
 from pathlib import Path
-from xml.etree import ElementTree
 
-import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
 from rbc_gem_utils.util import DATABASE_PATH, ROOT_PATH, build_string, strip_plural
 
 
-DRUGBANK_VERSION_EXPECTED = "5.1.13"
+DRUGBANK_RELEASE_EXPECTED = "5.1.13"
 DRUGBANK_URL = "https://go.drugbank.com"
 DRUGBANK_DB_TAG = "DrugBank"
 DRUGBANK_PATH = Path(DRUGBANK_DB_TAG)
 DRUGBANK_NS = "{http://www.drugbank.ca}"
+DRUGBANK_RELEASE_RE = re.compile(r"DrugBank Release Version (\d+.\d+.\d+)")
 
 # Fields for the DrugBank XML schema are found [here](https://docs.drugbank.com/xml/#introduction).
 DRUGBANK_GENERAL_ELEMENTS = [
@@ -125,27 +125,21 @@ ATC_CODE_LEVELS = {
 }
 
 
-def get_version_DrugBank():
+def get_release_DrugBank():
     # Get the table of releases
-    response = requests.get(f"{DRUGBANK_URL}/releases")
+    response = requests.get(f"{DRUGBANK_URL}/releases/latest")
     response.raise_for_status()
 
     # Parse the table to create the soup
     soup = BeautifulSoup(response.text, "html.parser")
-    header = soup.table.find_next("tr")
-    keys = [x.contents[0] for x in header.children if x.contents]
+    header = soup.find("title")
+    release = DRUGBANK_RELEASE_RE.search(header.text).group(1)
 
-    # First row has latest release
-    first_row = header.find_next("tr")
-    values = [x.contents[0] for x in list(first_row.children)[: len(keys)]]
-    # Zip the information together and return
-    release_entry = dict(zip(keys, values))
-
-    return release_entry["Version"]
+    return release
 
 
-def download_database_DrugBank(username, password, database_dirpath=None, version=None):
-    """Download and extract the DrugBank database for the given version.
+def download_database_DrugBank(username, password, database_dirpath=None, release=None):
+    """Download and extract the DrugBank database for the given release.
 
     Parameters
     ----------
@@ -158,19 +152,19 @@ def download_database_DrugBank(username, password, database_dirpath=None, versio
         # Ensure the path exists
         database_dirpath = f"{ROOT_PATH}{DATABASE_PATH}{DRUGBANK_PATH}"
     else:
-        pathlib.Path(f"{database_dirpath}").mkdir(parents=False, exist_ok=True)
+        Path(f"{database_dirpath}").mkdir(parents=False, exist_ok=True)
 
-    if version is None:
-        version = DRUGBANK_VERSION_EXPECTED
+    if release is None:
+        release = DRUGBANK_RELEASE_EXPECTED
     # Download and write the zip file
-    version = version.replace(".", "-")
+    release = release.replace(".", "-")
     response = requests.get(
-        f"{DRUGBANK_URL}/releases/{version}/downloads/all-full-database",
+        f"{DRUGBANK_URL}/releases/{release}/downloads/all-full-database",
         auth=(username, password),
     )
+    response.raise_for_status()
     filename = "drugbank_all_full_database.xml"
     filepath = f"{database_dirpath}/{filename}"
-    response.raise_for_status()
     with open(f"{filepath}.zip", "wb") as file:
         file.write(response.content)
 
@@ -179,7 +173,7 @@ def download_database_DrugBank(username, password, database_dirpath=None, versio
         file.getinfo("full database.xml").filename = filename
         file.extract("full database.xml", path=database_dirpath)
 
-    return version
+    return release
 
 
 def strip_ns_DrugBank(value):
