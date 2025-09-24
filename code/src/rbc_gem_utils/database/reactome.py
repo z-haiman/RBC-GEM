@@ -1,3 +1,12 @@
+"""Functions to extract relevant information from the Reactome database.
+
+Notes
+-----
+* Main site: https://reactome.org/
+* Code in progress
+
+"""
+
 import logging
 from pathlib import Path
 

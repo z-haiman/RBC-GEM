@@ -3,8 +3,8 @@
 Notes
 -----
 * Main site: https://enzyme.expasy.org/
-* Code written based on release of 27-Mar-24 (6759 active entries)
-* Code last updated: May 2024
+* Code written or updated based on release on 09-Apr-25 (6915 active entries)
+* Code last updated: May 2025
 
 """
 
@@ -31,10 +31,10 @@ EC_FILENAMES = {
 }
 EC_DB_TAG = "EC"
 EC_PATH = Path(EC_DB_TAG)
-EC_VERSION_EXPECTED = "27-Nov-2024"
+EC_RELEASE_EXPECTED = "09-Apr-2025"
 
 
-def get_version_EC():
+def get_release_EC():
     """Return the current version of ENZYME nomenclature database."""
     response = requests.get(f"{EC_URL}/enzclass.txt")
     response.raise_for_status()

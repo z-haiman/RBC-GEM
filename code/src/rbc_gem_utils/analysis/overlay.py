@@ -4,9 +4,12 @@ import logging
 from collections import defaultdict
 from warnings import warn
 
+import matplotlib as mpl
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from cobra import Metabolite, Reaction, manipulation
+from mpl_toolkits.axes_grid1 import make_axes_locatable
 
 from rbc_gem_utils.io import read_cobra_model
 from rbc_gem_utils.table import parse_gprs_to_complexes
@@ -98,7 +101,7 @@ class EnzymeDilution(Reaction):
         super().__init__(id, name, subsystem, lower_bound, upper_bound, **kwargs)
 
 
-class ProteomeBudgetDilution(Reaction):
+class BudgetDilution(Reaction):
     """Special reaction class representing the concentration of enzymes."""
 
     def __init__(
@@ -155,7 +158,7 @@ class Enzyme(Metabolite):
         super().__init__(id, formula, name, charge, compartment)
 
 
-class ProteomeBudget(Metabolite):
+class Budget(Metabolite):
     """TODO DOCSTRING."""
 
     def __init__(
@@ -185,7 +188,12 @@ TABLE_COLUMNS = {
     },
     "enzymes": {
         "required": ["enzyme", "compartment", "reactions"],  # "complexes_keff",
-        "optional": ["enzymes", "complexes", "direction"],  # "complex_keff",
+        "optional": [
+            "enzymes",
+            "complexes",
+            "direction",
+            "enzyme_keff",
+        ],  # "complex_keff",
     },
 }
 
@@ -193,30 +201,35 @@ DEFAULT_MAX_WEIGHT_FRACTION = 150  # 150 mg / gDW
 DEFAULT_CONCENTRATION_BOUND = 1e6  # either nmol / gDW or nmol / L
 DEFAULT_KEFF = 65 * 3600  # 1 / s  # s / hr
 DEFAULT_PROTEIN_MOLAR_MASS = 30000  # g / mol --> mg / mmol
-DEFAULT_ENZYME_FORWARD_SUFFIX = "_fwd"
-DEFAULT_ENZYME_REVERSE_SUFFIX = "_rev"
-DEFAULT_ENZYME_TOTAL_SUFFIX = "_total"
-DEFAULT_CONSTRAINT_PREFIX = "CONS_"
-DEFAULT_ISOFORM_CONSTRAINT_PREFIX = f"ISO{DEFAULT_CONSTRAINT_PREFIX}"
-DEFAULT_COMPARTMENT_CONSTRAINT_PREFIX = f"COMP{DEFAULT_CONSTRAINT_PREFIX}"
-DEFAULT_VALUES = {
+DEFAULT_PROTEOME_COMPARTMENT = "pc"
+DEFAULT_PREFIX_SUFFIX_VALUES = {
     "proteins": {
         "prefix.metabolite": "protein_",
         "prefix.dilution": "PROTDL_",
         "prefix.formation": "PROTFM_",
-        "bounds": (0, DEFAULT_CONCENTRATION_BOUND),  # nmol / gDW
+        "prefix.relaxation": "RELAX_",
     },
     "complexes": {
         "prefix.metabolite": "cplx_",
         "prefix.dilution": "CPLXDL_",
         "prefix.formation": "CPLXFM_",
-        "bounds": (0, DEFAULT_CONCENTRATION_BOUND),  # nmol / gDW
     },
     "enzymes": {
         "prefix.metabolite": "enzyme_",
         "prefix.dilution": "ENZDL_",
         "prefix.formation": "ENZFM_",
-        "bounds": (0, DEFAULT_CONCENTRATION_BOUND),  # nmol / gDW
+        "suffix.forward": "_fwd",
+        "suffix.reverse": "_rev",
+        "suffix.total": "_total",
+    },
+    "budgets": {
+        "prefix.metabolite": "budget_",
+        "prefix.dilution": "BDL_",
+    },
+    "constraints": {
+        "prefix.constraint": "CONS_",
+        "prefix.isoform": "ISOCONS_",
+        "prefix.compartent": f"COMPCONS_",
     },
 }
 
@@ -225,15 +238,15 @@ ATTR_SUBCLASS_DICT = {
         "proteins": Protein,
         "complexes": Complex,
         "enzymes": Enzyme,
-        "proteome budget": ProteomeBudget,
+        "budgets": Budget,
     },
     "reactions": {
-        "protein dilutions": ProteinDilution,
-        "complex formation reactions": ComplexForm,
-        "complex dilutions": ComplexDilution,
-        "enzyme formation reactions": EnzymeForm,
-        "enzyme dilutions": EnzymeDilution,
-        "proteome budget demand": ProteomeBudgetDilution,
+        "protein.dilutions": ProteinDilution,
+        "complex.formation": ComplexForm,
+        "complex.dilutions": ComplexDilution,
+        "enzyme.formation": EnzymeForm,
+        "enzyme.dilutions": EnzymeDilution,
+        "budget.dilutions": BudgetDilution,
     },
 }
 
@@ -403,9 +416,8 @@ def create_variable_value_mapping(*args, sep=";"):
 
 def create_protein_table(
     model,
-    df_protein_data,
+    df_sequence_data,
     id_key=None,
-    prefix=None,
     optional_columns=False,
     annotation_columns=None,
     replace_compartments=None,
@@ -416,14 +428,12 @@ def create_protein_table(
     ----------
     model : cobra.Model
         The model to use.
-    df_protein_data : pandas.DataFrame, None
+    df_sequence_data : pandas.DataFrame, None
         DataFrame of sequence data already formatted.
     id_key : str, None
         The column to use when generating the IDs.
         Must be {"genes", "sequence.id"} or a value provided in `annotation_columns`.
-        If ``None`` provided, generic identifiers are used instead and prefix will be considered ``True``,
-    prefix : str, optional
-        Prefix to use for identifiers. Default is defined in :const:`DEFAULT_VALUES`.
+        If ``None`` provided, generic identifiers are used instead.
     optional_columns : list, bool
         Optional columns to use when generating table.
         Possible values are defined in :const:`TABLE_COLUMNS`.
@@ -464,7 +474,7 @@ def create_protein_table(
         optional_columns = ensure_iterable(optional_columns)
 
     valid = {"genes"}
-    if df_protein_data is not None:
+    if df_sequence_data is not None:
         valid = valid.union(["sequence.id", "protein.id"])
     valid = valid.union(annotation_columns)
     if id_key is not None and id_key not in valid:
@@ -521,28 +531,17 @@ def create_protein_table(
         )
 
     # Identifiers
-    if df_protein_data is not None:
-        table = table.merge(df_protein_data, how="left")
+    if df_sequence_data is not None:
+        table = table.merge(df_sequence_data, how="left")
 
     table_type_strip = strip_plural(table_type)
+    prefix = DEFAULT_PREFIX_SUFFIX_VALUES[table_type]["prefix.metabolite"]
     if not id_key:
-        prefix = (
-            prefix
-            if (prefix and isinstance(prefix, str))
-            else DEFAULT_VALUES[table_type]["prefix.metabolite"]
-        )
+
         table[table_type_strip] = [
             f"{prefix}{x}".replace("-", "_") for x in table.index
         ]
     else:
-        if prefix:
-            prefix = (
-                prefix
-                if (prefix and isinstance(prefix, str))
-                else DEFAULT_VALUES[table_type]["prefix.metabolite"]
-            )
-        else:
-            prefix = ""
         table[table_type_strip] = table[id_key].apply(
             lambda x: f"{prefix}{x}".replace("-", "_")
         )
@@ -578,7 +577,6 @@ def create_complex_table(
     genes_to_proteins,
     cofactor_genes=None,
     id_key=None,
-    prefix=None,
     optional_columns=False,
     annotation_columns=None,
     replace_compartments=None,
@@ -598,9 +596,7 @@ def create_complex_table(
     id_key : str, None
         The column to use when generating the IDs.
         Must be a value provided in `annotation_columns`.
-        If ``None`` provided, generic identifiers are used instead and prefix will be considered ``True``,
-    prefix : str, optional
-        Prefix to use for identifiers. Default is defined in :const:`DEFAULT_VALUES`.
+        If ``None`` provided, generic identifiers are used instead.
     optional_columns : list, bool
         Optional columns to use when generating table.
         Possible values are defined in :const:`TABLE_COLUMNS`.
@@ -674,24 +670,12 @@ def create_complex_table(
     )
     # Identifiers
     table_type_strip = strip_plural(table_type)
+    prefix = DEFAULT_PREFIX_SUFFIX_VALUES[table_type]["prefix.metabolite"]
     if not id_key:
-        prefix = (
-            prefix
-            if (prefix and isinstance(prefix, str))
-            else DEFAULT_VALUES[table_type]["prefix.metabolite"]
-        )
         table[table_type_strip] = [
             f"{prefix}{x}".replace("-", "_") for x in table.index
         ]
     else:
-        if prefix:
-            prefix = (
-                prefix
-                if (prefix and isinstance(prefix, str))
-                else DEFAULT_VALUES[table_type]["prefix.metabolite"]
-            )
-        else:
-            prefix = ""
         table[table_type_strip] = table[id_key].apply(
             lambda x: f"{prefix}{x}".replace("-", "_")
         )
@@ -743,10 +727,7 @@ def create_enzyme_table(
     model,
     complexes_to_reactions,
     enzyme_keff_base=DEFAULT_KEFF,
-    enzyme_forward_suffix=DEFAULT_ENZYME_FORWARD_SUFFIX,
-    enzyme_reverse_suffix=DEFAULT_ENZYME_REVERSE_SUFFIX,
     id_key=None,
-    prefix=None,
     optional_columns=False,
     annotation_columns=None,
     replace_compartments=None,
@@ -767,9 +748,7 @@ def create_enzyme_table(
     id_key : str, None
         The column to use when generating the protein IDs.
         Must be {"reactions"} or a value provided in `annotation_columns`.
-        If ``None`` provided, generic identifiers are used instead and prefix will be considered ``True``,
-    prefix : str, optional
-        Prefix to use for identifiers. Default is defined in :const:`DEFAULT_VALUES`.
+        If ``None`` provided, generic identifiers are used instead.
     optional_columns : list, bool
         Optional columns to use when generating table.
         Possible values are defined in :const:`TABLE_COLUMNS`.
@@ -826,43 +805,25 @@ def create_enzyme_table(
     table["compartment"] = table["reactions"].apply(
         lambda x: build_string(sorted(model.reactions.get_by_id(x).compartments))
     )
-    # table["complex_keff"] = table["complexes"].apply(
-    #     lambda x: ";".join([f"{enzyme_keff_base}" for _ in range(len(split_string(x)))])
-    # )
-
     # Identifiers
     table_type_strip = strip_plural(table_type)
+    prefix = DEFAULT_PREFIX_SUFFIX_VALUES[table_type]["prefix.metabolite"]
     if not id_key:
-        prefix = (
-            prefix
-            if (prefix and isinstance(prefix, str))
-            else DEFAULT_VALUES[table_type]["prefix.metabolite"]
-        )
         id_key = {rid: i for i, rid in enumerate(sorted(table["reactions"].unique()))}
         table[table_type_strip] = [
             f"{prefix}{id_key[rid]}".replace("-", "_")
             for rid in table["reactions"].values
         ]
     else:
-        if prefix:
-            prefix = (
-                prefix
-                if (prefix and isinstance(prefix, str))
-                else DEFAULT_VALUES[table_type]["prefix.metabolite"]
-            )
-        else:
-            prefix = ""
         table[table_type_strip] = table[id_key].apply(
             lambda x: f"{prefix}{x}".replace("-", "_")
         )
-    if not enzyme_forward_suffix:
-        enzyme_forward_suffix = DEFAULT_ENZYME_FORWARD_SUFFIX
+    enzyme_forward_suffix = DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["suffix.forward"]
     table[f"{table_type_strip}{enzyme_forward_suffix}"] = table[table_type_strip].apply(
         lambda x: f"{x}{enzyme_forward_suffix}"
     )
 
-    if not enzyme_reverse_suffix:
-        enzyme_reverse_suffix = DEFAULT_ENZYME_REVERSE_SUFFIX
+    enzyme_reverse_suffix = DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["suffix.reverse"]
     table[f"{table_type_strip}{enzyme_reverse_suffix}"] = table[table_type_strip].apply(
         lambda x: f"{x}{enzyme_reverse_suffix}"
     )
@@ -887,28 +848,8 @@ def create_enzyme_table(
         "reverse" if x.endswith(enzyme_reverse_suffix) else "forward"
         for x in table[table_type_strip].values
     ]
-    # # Needs to be a string `'0'` for aggregation step to work
-    # table["complex_keff"] = table[["reactions", "complex_keff", "direction"]].apply(
-    #     lambda x: "0"
-    #     if (
-    #         not model.reactions.get_by_id(x["reactions"]).reversibility
-    #         and x["direction"] == "reverse"
-    #     )
-    #     else x["complex_keff"],
-    #     axis=1,
-    # )
-    # # Aggregate data
-    # table["complexes_keff"] = table.apply(
-    #     lambda x: build_string(
-    #         [
-    #             f"{k}({v})"
-    #             for k, v in create_variable_value_mapping(
-    #                 *x[["complexes", "complex_keff"]].values
-    #             ).items()
-    #         ]
-    #     ),
-    #     axis=1,
-    # )
+    # Add base keff
+    table["enzyme_keff"] = [str(enzyme_keff_base)] * len(table[table_type_strip])
     agg_mapping = {
         x: lambda x: build_string(x.dropna())
         for x in TABLE_COLUMNS[table_type]["required"][1:]
@@ -960,22 +901,16 @@ def create_enzyme_table(
     return table
 
 
-def create_sequence_table(
-    df_sequences, df_copy_numbers=None, mapping_key=None, isoform_transform=None
-):
+def create_sequence_table(df_sequence_data, mapping_key=None, isoform_transform=None):
     """Format the protein data to use in advanced creation of the protein table.
 
     Parameters
     ----------
-    df_sequences : pandas.DataFrame
+    df_sequence_data : pandas.DataFrame
         DataFrame of proteins mapped to sequences. Expected columns include the following:
             * ``sequence.id``: Identifier for the protein sequence. If None provided, will use the column given by the `mapping_key`.
             * ``sequence``: The amino acid sequence of the protein. If None provided, will use the default molar mass.
             * ``molar_mass`` : Molar mass of the protein sequence. Provided values remain while remaining values are calculated based on the sequences if provided or set as the default
-            * The additional column used for merging DataFrames as defined by the ``mapping_key``.
-    df_copy_numbers : pandas.DataFrame
-        DataFrame of proteins mapped to copy numbers. Expected columns include the following:
-            * ``copy_number`` : The copy number of the protein. If None provided, fill with the value of 0.
             * The additional column used for merging DataFrames as defined by the ``mapping_key``.
     mapping_key : str
         The main column to use for merging DataFrames.
@@ -986,71 +921,59 @@ def create_sequence_table(
     """
     # Cannot add proteins that do not have molar mass included. Furthermore, cannot usually distingusih copy number of isoforms.
     # Therefore, sequences take priority in mapping, and any isoforms need to be addressed with additional constraints.
-    df_protein_data = df_sequences.copy()
-    if df_protein_data.get("sequence.id") is None:
-        df_protein_data["sequence.id"] = df_protein_data[mapping_key]
+    df_sequence_data = df_sequence_data.copy()
+    if df_sequence_data.get("sequence.id") is None:
+        df_sequence_data["sequence.id"] = df_sequence_data[mapping_key]
 
     # If no sequence or molar mass defined, use the default value.
     if (
-        df_protein_data.get("molar_mass") is None
-        and df_protein_data.get("sequence") is None
+        df_sequence_data.get("molar_mass") is None
+        and df_sequence_data.get("sequence") is None
     ):
         # Set as NA to fill with default molar mass
-        df_protein_data["molar_mass"] = pd.NA
-        df_protein_data["molar_mass_from"] = pd.NA
+        df_sequence_data["molar_mass"] = pd.NA
+        df_sequence_data["molar_mass_from"] = pd.NA
     # If sequence is defined and molar mass is not defined, calculate molar mass
     elif (
-        df_protein_data.get("molar_mass") is None
-        and df_protein_data.get("sequence") is not None
+        df_sequence_data.get("molar_mass") is None
+        and df_sequence_data.get("sequence") is not None
     ):
-        df_protein_data["molar_mass"] = (
-            df_protein_data["sequence"]
+        df_sequence_data["molar_mass"] = (
+            df_sequence_data["sequence"]
             .fillna("")
             .apply(lambda x: calculate_protein_molar_mass(x) if x else pd.NA)
         )
-        df_protein_data["molar_mass_from"] = (
-            df_protein_data["molar_mass"]
+        df_sequence_data["molar_mass_from"] = (
+            df_sequence_data["molar_mass"]
             .notna()
             .apply(lambda x: "SEQUENCE" if x else pd.NA)
         )
     else:
         # If molar mass were already defined, assume molar mass was pre-calculated.
-        df_protein_data["molar_mass_from"] = (
-            df_protein_data["molar_mass"]
+        df_sequence_data["molar_mass_from"] = (
+            df_sequence_data["molar_mass"]
             .notna()
             .apply(lambda x: "PROVIDED" if x else pd.NA)
         )
 
-    df_protein_data["molar_mass"] = df_protein_data["molar_mass"].fillna(
+    df_sequence_data["molar_mass"] = df_sequence_data["molar_mass"].fillna(
         DEFAULT_PROTEIN_MOLAR_MASS
     )
-    df_protein_data["molar_mass_from"] = df_protein_data["molar_mass_from"].fillna(
+    df_sequence_data["molar_mass_from"] = df_sequence_data["molar_mass_from"].fillna(
         "DEFAULT"
     )
 
-    # Add copy numbers
-    if df_copy_numbers is not None:
-        df_protein_data = df_protein_data.merge(
-            df_copy_numbers, left_on=mapping_key, right_on=mapping_key, how="left"
-        )
-        # # First, set copy number of 0 for any proteins that have sequences included but not a copy number:
-        df_protein_data["copy_number"] = df_protein_data["copy_number"].fillna(0)
-        df_protein_data["copy_number_from"] = df_protein_data["copy_number"].apply(
-            lambda x: "MEASURED" if x else pd.NA
-        )
-        df_protein_data["copy_number_from"] = df_protein_data[
-            "copy_number_from"
-        ].fillna("NONE")
-
-    df_protein_data = df_protein_data.convert_dtypes().infer_objects()
-    df_isoforms = df_protein_data[df_protein_data[mapping_key].duplicated(False)].copy()
-    df_protein_data = df_protein_data[~df_protein_data[mapping_key].duplicated(False)]
+    df_sequence_data = df_sequence_data.convert_dtypes().infer_objects()
+    df_isoforms = df_sequence_data[
+        df_sequence_data[mapping_key].duplicated(False)
+    ].copy()
+    df_sequence_data = df_sequence_data[
+        ~df_sequence_data[mapping_key].duplicated(False)
+    ]
     # Transform the isforms to averages unless there are plans for special contraints on isoforms
     if isoform_transform:
         if not isinstance(isoform_transform, dict):
             isoform_transform = {"molar_mass": "mean"}
-            if df_copy_numbers is not None:
-                isoform_transform.update({"copy_number": "mean"})
 
         agg_mapping = {
             col: lambda x: build_string(x)
@@ -1063,26 +986,19 @@ def create_sequence_table(
                 "molar_mass_from": lambda x: "TRANSFORMED",
             }
         )
-        if df_copy_numbers is not None:
-            agg_mapping.update(
-                {
-                    "copy_number": isoform_transform.get("copy_number", "mean"),
-                    "copy_number_from": lambda x: "TRANSFORMED",
-                }
-            )
         df_isoforms = df_isoforms.groupby(mapping_key, as_index=False).agg(agg_mapping)
-    df_protein_data = (
-        pd.concat((df_protein_data, df_isoforms), axis=0)
+    df_sequence_data = (
+        pd.concat((df_sequence_data, df_isoforms), axis=0)
         .sort_values(mapping_key)
         .reset_index(drop=True)
     )
-    return df_protein_data
+    return df_sequence_data
 
 
 def add_dilution_reaction(
-    pcmodel, protein, protein_type=None, bounds=None, gene_reaction_rule="", verbose=0
+    pcmodel, item, item_type=None, bounds=None, gene_reaction_rule="", verbose=0
 ):
-    """Add a pseudoreaction representing protein dilution/accumulation in the model.
+    """Add a pseudoreaction representing concentration dilution/accumulation in the model.
 
     Parameters
     ---------
@@ -1091,29 +1007,29 @@ def add_dilution_reaction(
     -------
 
     """
-    if protein_type is None:
-        protein_type = protein.__class__.__name__.lower()
+    if item_type is None:
+        item_type = item.__class__.__name__.lower()
     valid = {"protein", "complex", "enzyme"}
-    if protein_type not in valid:
-        raise ValueError(f"`protein_type` must be one of the following: {valid}.")
+    if item_type not in valid:
+        raise ValueError(f"`item_type` must be one of the following: {valid}.")
 
     cls, prefix, default_bounds = {
         "protein": (
             ProteinDilution,
-            DEFAULT_VALUES["proteins"]["prefix.dilution"],
-            DEFAULT_VALUES["proteins"]["bounds"],
+            DEFAULT_PREFIX_SUFFIX_VALUES["proteins"]["prefix.dilution"],
+            (0, DEFAULT_CONCENTRATION_BOUND),
         ),
         "complex": (
             ComplexDilution,
-            DEFAULT_VALUES["complexes"]["prefix.dilution"],
-            DEFAULT_VALUES["complexes"]["bounds"],
+            DEFAULT_PREFIX_SUFFIX_VALUES["complexes"]["prefix.dilution"],
+            (0, DEFAULT_CONCENTRATION_BOUND),
         ),
         "enzyme": (
             EnzymeDilution,
-            DEFAULT_VALUES["enzymes"]["prefix.dilution"],
-            DEFAULT_VALUES["enzymes"]["bounds"],
+            DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["prefix.dilution"],
+            (0, DEFAULT_CONCENTRATION_BOUND),
         ),
-    }[protein_type]
+    }[item_type]
 
     if bounds is not None:
         bounds = ensure_iterable(bounds)
@@ -1132,13 +1048,13 @@ def add_dilution_reaction(
     else:
         bounds = default_bounds
 
-    protein = pcmodel.metabolites.get_by_id(str(protein))
-    rid = f"{prefix}{protein.id}"
+    item = pcmodel.metabolites.get_by_id(str(item))
+    rid = f"{prefix}{item.id}"
     if not pcmodel.reactions.has_id(rid):
         dilution_rxn = cls(
             id=rid,
-            name=f"{protein.name if protein.name else protein.id} concentration",
-            subsystem=f"Pseudoreactions, {protein_type.capitalize()} concentrations",
+            name=f"{item.name if item.name else item.id} concentration",
+            subsystem=f"Pseudoreactions, {item_type.capitalize()} concentrations",
         )
         pcmodel.add_reactions([dilution_rxn])
     else:
@@ -1157,8 +1073,8 @@ def add_dilution_reaction(
     # If initialized as "EX_protein_i: protein_i <-- ", then concentration given as: protein_i = -v_{EX_protein_i}
     # If initialized as "EX_protein_i: --> protein_i"., then concentration given as: protein_i = v_{EX_protein_i}
     # For simplicity, initialize all proteins to have positive values. Complexes and enzymes are already formatted to be positive.
-    sign = 1 if protein_type == "protein" else -1
-    dilution_rxn.add_metabolites({protein: sign * 1}, combine=False)
+    sign = 1 if item_type == "protein" else -1
+    dilution_rxn.add_metabolites({item: sign * 1}, combine=False)
     dilution_rxn.bounds = bounds
     if gene_reaction_rule:
         dilution_rxn.gene_reaction_rule = gene_reaction_rule
@@ -1169,10 +1085,10 @@ def add_dilution_reaction(
     return dilution_rxn
 
 
-def add_complex_formation_reaction(
+def add_formation_reaction(
     pcmodel,
-    cplx,
-    complex_type,
+    item,
+    item_type,
     coeff_map=None,
     gene_reaction_rule="",
     verbose=0,
@@ -1188,27 +1104,25 @@ def add_complex_formation_reaction(
 
     """
     valid = {"complex", "enzyme"}
-    if complex_type not in valid:
-        raise ValueError(f"`complex_type` must be one of the following: {valid}.")
+    if item_type not in valid:
+        raise ValueError(f"`item_type` must be one of the following: {valid}.")
 
     cls, prefix, default_bounds = {
         "complex": (
             ComplexForm,
-            DEFAULT_VALUES["complexes"]["prefix.formation"],
-            DEFAULT_VALUES["complexes"]["bounds"],
+            DEFAULT_PREFIX_SUFFIX_VALUES["complexes"]["prefix.formation"],
+            (0, DEFAULT_CONCENTRATION_BOUND),
         ),
         "enzyme": (
             EnzymeForm,
-            DEFAULT_VALUES["enzymes"]["prefix.formation"],
-            DEFAULT_VALUES["enzymes"]["bounds"],
+            DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["prefix.formation"],
+            (0, DEFAULT_CONCENTRATION_BOUND),
         ),
-    }[complex_type]
-    coeff_mapping_attr = (
-        "complexes_keff" if complex_type == "enzyme" else "stoichiometry"
-    )
+    }[item_type]
+    coeff_mapping_attr = "complexes_keff" if item_type == "enzyme" else "stoichiometry"
 
-    # Add complex formation reactions
-    cplx = pcmodel.metabolites.get_by_id(str(cplx))
+    # Add formation reactions
+    item = pcmodel.metabolites.get_by_id(str(item))
 
     # 2.3 Set stoichiometry
     base_val = 1
@@ -1227,18 +1141,18 @@ def add_complex_formation_reaction(
             coeff_map = {variable: base_val for variable in split_string(coeff_map)}
     else:
         warn(
-            f"No {coeff_mapping_attr} provided for {complex_type.capitalize()} `{formation_rxn.id}`, unable to set {cls.__name__} `{formation_rxn.id}` {coeff_mapping_attr}."
+            f"No {coeff_mapping_attr} provided for {item_type.capitalize()} `{formation_rxn.id}`, unable to set {cls.__name__} `{formation_rxn.id}` {coeff_mapping_attr}."
         )
         coeff_map = {}
 
-    rid = f"{prefix}{cplx.id}"
-    if complex_type == "enzyme":
-        rid = f"{rid.replace(f'_{cplx.compartment}', '')}_{list(coeff_map)[0]}"
+    rid = f"{prefix}{item.id}"
+    if item_type == "enzyme":
+        rid = f"{rid.replace(f'_{item.compartment}', '')}_{list(coeff_map)[0]}"
     if not pcmodel.reactions.has_id(rid):
         formation_rxn = cls(
             id=rid,
-            name=f"{cplx.name if cplx.name else cplx.id} concentration",
-            subsystem=f"Pseudoreactions, {complex_type.capitalize()} concentrations",
+            name=f"{item.name if item.name else item.id} concentration",
+            subsystem=f"Pseudoreactions, {item_type.capitalize()} concentrations",
         )
         pcmodel.add_reactions([formation_rxn])
     else:
@@ -1257,7 +1171,7 @@ def add_complex_formation_reaction(
         pcmodel.metabolites.get_by_id(sid): -abs(float(coeff))
         for sid, coeff in coeff_map.items()
     }
-    coeff_map.update({cplx: 1})
+    coeff_map.update({item: 1})
     formation_rxn.add_metabolites(coeff_map, combine=False)
     # Set to default concentrations. COBRA default bounds are typically 1000 mmol / hr / gDW
     # However for complex formation reactions, the "flux" is not real, but actually represents the concentration in nmol / gDW / cell
@@ -1287,6 +1201,7 @@ def add_complex_formation_reaction(
             raise ValueError("`bounds` must be a tuple of non-negative numbers.")
     else:
         bounds = default_bounds
+    formation_rxn.bounds = bounds
     if gene_reaction_rule:
         formation_rxn.gene_reaction_rule = gene_reaction_rule
     return formation_rxn
@@ -1299,9 +1214,6 @@ def construct_pcmodel_from_tables(
     enzyme_table,
     max_weight_fraction=DEFAULT_MAX_WEIGHT_FRACTION,
     enzyme_keff_base=DEFAULT_KEFF,
-    enzyme_forward_suffix=DEFAULT_ENZYME_FORWARD_SUFFIX,
-    enzyme_reverse_suffix=DEFAULT_ENZYME_REVERSE_SUFFIX,
-    enzyme_total_suffix=DEFAULT_ENZYME_TOTAL_SUFFIX,
     include_complex_dilutions=False,
     irrev_rxn_complex_keff=None,
     verbose=0,
@@ -1327,8 +1239,14 @@ def construct_pcmodel_from_tables(
     tables = {}
     add_table_cols = defaultdict(dict)
     direction_dict = {
-        "forward": (enzyme_forward_suffix, -1),
-        "reverse": (enzyme_reverse_suffix, 1),
+        "forward": (
+            DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["suffix.forward"],
+            -1,
+        ),
+        "reverse": (
+            DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["suffix.reverse"],
+            1,
+        ),
     }
     for table_type, table, additional in zip(
         ["proteins", "complexes", "enzymes"],
@@ -1353,8 +1271,8 @@ def construct_pcmodel_from_tables(
                     LOGGER,
                     logging.INFO,
                     "Attempting to determine enzyme direction from forward suffix `%s` and revere suffix  `%s`.",
-                    enzyme_forward_suffix,
-                    enzyme_reverse_suffix,
+                    DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["suffix.forward"],
+                    DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["suffix.reverse"],
                     print_lvl=verbose,
                 )
 
@@ -1363,27 +1281,41 @@ def construct_pcmodel_from_tables(
                         k for k, v in direction_dict.items() if v[0] == x.split("_")[-1]
                     ].pop()
                 )
+            if enzyme_keff_base is None:
+                if enzyme_table.get("enzyme_keff"):
+                    enzyme_keff_base = enzyme_table["enzyme_keff"].mean()
+                else:
+                    enzyme_keff_base = DEFAULT_KEFF
         tables[table_type] = table
 
     # 1. Initialize proteome budget constraint and conversion factor
+    budget_met_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["budgets"]["prefix.metabolite"]
+    budget_rxn_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["budgets"]["prefix.dilution"]
+    budget_met_total = f"{budget_met_prefix}total"
     pcmodel.add_metabolites(
         [
-            ProteomeBudget(
-                id="proteome_budget",
-                name="Proteome Budget Constraint",
-                compartment="c",  # In RBCs, the cytosol is the only compartment
+            Budget(
+                id=budget_met_total,
+                name="Budget constraint (Total)",
+                compartment=DEFAULT_PROTEOME_COMPARTMENT,  # Protein compartment
             )
         ]
     )
-    proteome_budget = pcmodel.metabolites.get_by_id("proteome_budget")
-    pbid = f"PBDL_{proteome_budget.id}"
-    if not pcmodel.reactions.has_id(pbid):
-        pcmodel.add_reactions(
-            [ProteomeBudgetDilution(id=pbid, name="Proteome budget demand")]
-        )
-    budget_demand = pcmodel.reactions.get_by_id(pbid)
-    budget_demand.add_metabolites({proteome_budget: -1}, combine=False)
-    budget_demand.bounds = (0, max_weight_fraction)
+    budget_met_total = pcmodel.metabolites.get_by_id(budget_met_total)
+    budget_rxn_total = f"{budget_rxn_prefix}{budget_met_total.id}"
+    pcmodel.add_reactions(
+        [
+            BudgetDilution(
+                id=budget_rxn_total,
+                name="Budget demand (Total)",
+                subsystem="Pseudoreactions, Budgets",
+                lower_bound=0,
+            )
+        ]
+    )
+    budget_rxn_total = pcmodel.reactions.get_by_id(budget_rxn_total)
+    budget_rxn_total.add_metabolites({budget_met_total: -1}, combine=False)
+    budget_rxn_total.bounds = (0, max_weight_fraction)
 
     # Add as a boundary reaction instead of setting constraint bounds, can be updated later.
 
@@ -1475,15 +1407,11 @@ def construct_pcmodel_from_tables(
             # Pseudoreactions use the "flux bounds" to be representative of concentrations in nmol / gDW
             # Concetrations are always positive, therefore pseudoreactions are irreversible in the direction that facilitates a positive concentration.
             bounds = (
-                (
-                    float(row.get("lower_bound"))
-                    if row.get("lower_bound")
-                    else DEFAULT_VALUES[table_type]["bounds"][0]
-                ),
+                (float(row.get("lower_bound")) if row.get("lower_bound") else 0),
                 (
                     float(row.get("upper_bound"))
                     if row.get("upper_bound")
-                    else DEFAULT_VALUES[table_type]["bounds"][1]
+                    else DEFAULT_CONCENTRATION_BOUND
                 ),
             )
             gene_reaction_rule = (
@@ -1499,7 +1427,7 @@ def construct_pcmodel_from_tables(
             # 2.5 Add proteome budget constraint using molar mass of proteins
             # mg / mmol (=g / mol) * (1 mmol / 1e6 nmol) --> mg / nmol
             dilution_rxn.add_metabolites(
-                {proteome_budget: molar_mass * cf}, combine=True
+                {budget_met_total: molar_mass * cf}, combine=True
             )
 
             # Concentration should always be positive
@@ -1557,7 +1485,7 @@ def construct_pcmodel_from_tables(
             gene_reaction_rule = (
                 " and ".join(row["genes"].split(";")) if row.get("genes") else ""
             )
-            formation_rxn = add_complex_formation_reaction(
+            formation_rxn = add_formation_reaction(
                 pcmodel,
                 item,
                 strip_plural(table_type),
@@ -1565,15 +1493,11 @@ def construct_pcmodel_from_tables(
                 gene_reaction_rule=gene_reaction_rule,
             )
             bounds = (
-                (
-                    float(row.get("lower_bound"))
-                    if row.get("lower_bound")
-                    else DEFAULT_VALUES[table_type]["bounds"][0]
-                ),
+                (float(row.get("lower_bound")) if row.get("lower_bound") else 0),
                 (
                     float(row.get("upper_bound"))
                     if row.get("upper_bound")
-                    else DEFAULT_VALUES[table_type]["bounds"][1]
+                    else DEFAULT_CONCENTRATION_BOUND
                 ),
             )
             formation_rxn.bounds = bounds
@@ -1637,7 +1561,7 @@ def construct_pcmodel_from_tables(
         table_type,
         print_lvl=verbose,
     )
-    cplx_prefix = DEFAULT_VALUES["complexes"]["prefix.formation"]
+    cplx_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["complexes"]["prefix.formation"]
     try:
         for sid, row in tables[table_type].set_index(table_type).iterrows():
             # 4.1 Create objects
@@ -1699,10 +1623,10 @@ def construct_pcmodel_from_tables(
 
                 keff = float(keff) / float(enzyme_keff)
                 cplx_formation_rxn = pcmodel.reactions.get_by_id(f"{cplx_prefix}{cplx}")
-                formation_rxn = add_complex_formation_reaction(
+                formation_rxn = add_formation_reaction(
                     pcmodel,
                     item,
-                    complex_type=strip_plural(table_type),
+                    strip_plural(table_type),
                     coeff_map=f"{cplx}({keff})",
                     bounds=cplx_formation_rxn.bounds,
                     gene_reaction_rule=cplx_formation_rxn.gene_reaction_rule,
@@ -1718,6 +1642,9 @@ def construct_pcmodel_from_tables(
             )
 
             # Summation variable
+            enzyme_total_suffix = DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"][
+                "suffix.total"
+            ]
             sum_var = item.id.replace(
                 f"{direction_dict[direction][0]}_", f"{enzyme_total_suffix}_"
             )
@@ -1895,26 +1822,48 @@ def estimate_keff_from_molar_mass(
 
 def load_overlay_model(
     filename,
+    filetype=None,
     protein_prefixes=None,
     complex_prefixes=None,
     enzyme_prefixes=None,
-    budget_id="budget",
-    proteome_budget_prefix="PBDL_",
-    relaxation_prefix="RELAX_",
+    budget_prefixes=None,
+    relaxation_prefix=None,
 ):
-    model = read_cobra_model(filename)
+    model = read_cobra_model(filename, filetype=filetype)
     if protein_prefixes is None:
-        protein_met_prefix = DEFAULT_VALUES["proteins"]["prefix.metabolite"]
-        protein_dil_prefix = DEFAULT_VALUES["proteins"]["prefix.dilution"]
+        protein_met_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["proteins"][
+            "prefix.metabolite"
+        ]
+        protein_dil_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["proteins"]["prefix.dilution"]
+    else:
+        protein_met_prefix, protein_dil_prefix = protein_prefixes
     if complex_prefixes is None:
-        complex_met_prefix = DEFAULT_VALUES["complexes"]["prefix.metabolite"]
-        complex_form_prefix = DEFAULT_VALUES["complexes"]["prefix.formation"]
-        complex_dil_prefix = DEFAULT_VALUES["complexes"]["prefix.dilution"]
+        complex_met_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["complexes"][
+            "prefix.metabolite"
+        ]
+        complex_dil_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["complexes"][
+            "prefix.dilution"
+        ]
+        complex_form_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["complexes"][
+            "prefix.formation"
+        ]
+    else:
+        complex_met_prefix, complex_dil_prefix, complex_form_prefix = complex_prefixes
     if enzyme_prefixes is None:
-        enzyme_met_prefix = DEFAULT_VALUES["enzymes"]["prefix.metabolite"]
-        enzyme_form_prefix = DEFAULT_VALUES["enzymes"]["prefix.formation"]
-        enzyme_dil_prefix = DEFAULT_VALUES["enzymes"]["prefix.dilution"]
-
+        enzyme_met_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["prefix.metabolite"]
+        enzyme_dil_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["prefix.dilution"]
+        enzyme_form_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["enzymes"]["prefix.formation"]
+    else:
+        enzyme_met_prefix, enzyme_dil_prefix, enzyme_form_prefix = enzyme_prefixes
+    if budget_prefixes is None:
+        budget_met_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["budgets"]["prefix.metabolite"]
+        budget_rxn_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["budgets"]["prefix.dilution"]
+    else:
+        budget_met_prefix, budget_rxn_prefix = budget_prefixes
+    if relaxation_prefix is None:
+        relaxation_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["proteins"][
+            "prefix.relaxation"
+        ]
     for prefix, cls in zip(
         [protein_met_prefix, complex_met_prefix, enzyme_met_prefix],
         [Protein, Complex, Enzyme],
@@ -1926,9 +1875,11 @@ def load_overlay_model(
             new.annotation.update(old.annotation)
 
     for old in model.metabolites.get_by_any(
-        ensure_iterable([x for x in model.metabolites if budget_id in x.id])
+        ensure_iterable(
+            [x for x in model.metabolites if x.id.startswith(budget_met_prefix)]
+        )
     ):
-        new = ProteomeBudget(old)
+        new = Budget(old)
         new.__dict__.update(old.__dict__)
         model.metabolites._replace_on_id(new)
         new.annotation.update(old.annotation)
@@ -1940,7 +1891,7 @@ def load_overlay_model(
             enzyme_dil_prefix,
             complex_form_prefix,
             enzyme_form_prefix,
-            proteome_budget_prefix,
+            budget_rxn_prefix,
             relaxation_prefix,
         ],
         [
@@ -1949,7 +1900,7 @@ def load_overlay_model(
             EnzymeDilution,
             ComplexForm,
             EnzymeForm,
-            ProteomeBudgetDilution,
+            BudgetDilution,
             ProteinDilution,
         ],
     ):
@@ -1960,130 +1911,659 @@ def load_overlay_model(
             new = cls(old)
             new.__dict__.update(old.__dict__)
             model.reactions._replace_on_id(new)
-            new._metabolites = {
-                model.metabolites.get_by_id(m.id): coeff
-                for m, coeff in new.metabolites.items()
-            }
             new.annotation.update(old.annotation)
+    # Replace old objects stored in reaction metabolite dictionaries updated objects
+    for reaction in model.reactions:
+        reaction._metabolites = {
+            model.metabolites.get_by_id(m.id): coeff
+            for m, coeff in reaction.metabolites.items()
+        }
 
-    model.repair()
+    model.repair(rebuild_index=True, rebuild_relationships=True)
     return model
 
 
 def add_relaxation_budget(pcmodel, slack_value, verbose=False):
-    # Get budget metabolites
-    proteome_budget = pcmodel.metabolites.get_by_id("proteome_budget")
-    hemoglobin_budget = pcmodel.metabolites.get_by_id("hemoglobin_budget")
-    total_budget = pcmodel.metabolites.get_by_id("total_budget")
+    # Get budget prefixes
+    budget_met_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["budgets"]["prefix.metabolite"]
+    budget_rxn_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["budgets"]["prefix.dilution"]
+
     # Add a relaxation budget to the model
+    budget_met_relaxation = f"{budget_met_prefix}relaxation"
     pcmodel.add_metabolites(
         [
-            ProteomeBudget(
-                id="relaxation_budget",
-                name="Relaxation Budget Constraint",
-                compartment=proteome_budget.compartment,
+            Budget(
+                id=budget_met_relaxation,
+                name="Budget constraint (Relaxation)",
+                compartment=DEFAULT_PROTEOME_COMPARTMENT,
             )
         ]
     )
-    relaxation_budget = pcmodel.metabolites.get_by_id("relaxation_budget")
-    pbid = f"PBDL_{relaxation_budget.id}"
+    # Get budget metabolites in a dict  and create dict for budget sum tracking
+    budgets_dict = {
+        budget_met.id.replace(budget_met_prefix, ""): budget_met
+        for budget_met in pcmodel.metabolites.query(
+            lambda x: x.id.startswith(budget_met_prefix)
+        )
+    }
+    budget_sums = {key: 0 for key in list(budgets_dict)}
+
+    # Create dilution reaction for buget
+    budget_met_relaxation = pcmodel.metabolites.get_by_id(budget_met_relaxation)
+    budget_rxn_relaxation = f"{budget_rxn_prefix}{budget_met_relaxation.id}"
     pcmodel.add_reactions(
         [
-            ProteomeBudgetDilution(
-                id=pbid,
-                name="Relaxation budget demand",
+            BudgetDilution(
+                id=budget_rxn_relaxation,
+                name="Budget demand (Relaxation)",
+                subsystem="Pseudoreactions, Budgets",
                 lower_bound=0,
             )
         ]
     )
-    relaxation_demand = pcmodel.reactions.get_by_id(pbid)
-    relaxation_demand.add_metabolites(
-        {relaxation_budget: -1, total_budget: 1}, combine=False
+    budget_rxn_relaxation = pcmodel.reactions.get_by_id(budget_rxn_relaxation)
+    budget_rxn_relaxation.add_metabolites(
+        {budget_met_relaxation: -1, budgets_dict["total"]: 1}, combine=False
     )
     relax_to_protmw_dict = {}
-    total_slack_mg_prot_per_gDW = 0
-    hb_slack_mg_prot_per_gDW = 0
     for protdl in pcmodel.reactions.query(lambda x: isinstance(x, ProteinDilution)):
-        protein = [m for m in protdl.metabolites if "budget" not in m.id][0]
+        protein = [
+            m for m in protdl.metabolites if not m.id.startswith(budget_met_prefix)
+        ][0]
         protmw = (
-            calculate_protein_molar_mass(protdl.annotation.get("uniprot.aa_sequence"))
+            calculate_protein_molar_mass(protdl.annotation.get("uniprot.sequence"))
             / 1e6
         )
 
         # Upper bound represents protein concentration measurement, slack is introduced via lower bound
         prot_bound = protdl.upper_bound
-        protdl.bounds = (prot_bound * (1 - slack_value), prot_bound)
+        protdl.bounds = (max(prot_bound * (1 - slack_value), 0), prot_bound)
         relax_extra = prot_bound * slack_value * protmw
-        total_slack_mg_prot_per_gDW += relax_extra
+        budget_sums["total"] += relax_extra
 
         # Add relaxation reaction
-        rid = protdl.id.replace("PROTDL", "RELAX")
+        rid = protdl.id.replace(
+            DEFAULT_PREFIX_SUFFIX_VALUES["proteins"]["prefix.dilution"],
+            DEFAULT_PREFIX_SUFFIX_VALUES["proteins"]["prefix.relaxation"],
+        )
         relaxdl = ProteinDilution(
             id=rid,
             name=protdl.name,
             subsystem=f"Pseudoreactions, Relaxation concentrations",
-            lower_bound=DEFAULT_VALUES["proteins"]["bounds"][0],
-            upper_bound=DEFAULT_VALUES["proteins"]["bounds"][1],
+            lower_bound=0,
+            upper_bound=DEFAULT_CONCENTRATION_BOUND,
         )
         # Store MW for relaxation bound
         relax_to_protmw_dict[rid] = protmw
-        if hemoglobin_budget in protdl.metabolites:
-            coeff = protdl.get_coefficient(hemoglobin_budget)  # mg/nmol
-            hb_slack_mg_prot_per_gDW += relax_extra
-        else:
-            coeff = protdl.get_coefficient(proteome_budget)  # mg/nmol
 
-        relaxdl.add_metabolites(
-            {
-                relaxation_budget: coeff,  # nmol/mg conversion factor
-                protein: 1,
-            },
-            combine=False,
-        )
+        for key, budget_met in budgets_dict.items():
+            if budget_met not in protdl.metabolites:
+                continue
+            coeff = protdl.get_coefficient(budget_met)  # mg/nmol
+            budget_sums[key] += relax_extra
+            # Once corresponding budget met found, add to relaxationand  break out of loop
+            relaxdl.add_metabolites(
+                {
+                    budget_met_relaxation: coeff,  # nmol/mg conversion factor
+                    protein: 1,
+                },
+                combine=False,
+            )
+            break
         pcmodel.add_reactions([relaxdl])
 
-    relaxation_demand.bounds = (0, total_slack_mg_prot_per_gDW)
+    budget_rxn_relaxation.bounds = (0, budget_sums["total"])
     for relaxdl, protmw in relax_to_protmw_dict.items():
         relaxdl = pcmodel.reactions.get_by_id(relaxdl)
-        relaxdl.bounds = (0, (total_slack_mg_prot_per_gDW / protmw) * slack_value)
+        relaxdl.bounds = (0, (budget_sums["total"] / protmw) * slack_value)
 
     if verbose:
         print(
-            f"Relaxation budget added to {pcmodel}, extra {total_slack_mg_prot_per_gDW:.4f} mg/gDW ({hb_slack_mg_prot_per_gDW:.4f} mg HB/gDW) from {100 * slack_value:.4f}% slack"
+            f'Relaxation budget added to {pcmodel}, extra {budget_sums["total"]:.4f} mg/gDW ({budget_sums["hemoglobin"]:.4f} mg HB/gDW) from {slack_value:.4%} slack'
         )
 
 
 def update_slack_value(pcmodel, slack_value, verbose):
+    budget_met_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["budgets"]["prefix.metabolite"]
+    budget_rxn_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["budgets"]["prefix.dilution"]
+    # Get budget metabolites in a dict  and create dict for budget sum tracking
+    budgets_dict = {
+        budget_met.id.replace(budget_met_prefix, ""): budget_met
+        for budget_met in pcmodel.metabolites.query(
+            lambda x: x.id.startswith(budget_met_prefix)
+        )
+    }
+    budget_sums = {key: 0 for key in list(budgets_dict)}
+
     relax_to_protmw_dict = {}
-    total_slack_mg_prot_per_gDW = 0
-    hb_slack_mg_prot_per_gDW = 0
-    for protdl in pcmodel.reactions.query(lambda x: x.id.startswith("PROTDL")):
+    for protdl in pcmodel.reactions.query(
+        lambda x: x.id.startswith(
+            DEFAULT_PREFIX_SUFFIX_VALUES["proteins"]["prefix.dilution"]
+        )
+    ):
         protmw = (
-            calculate_protein_molar_mass(protdl.annotation.get("uniprot.aa_sequence"))
+            calculate_protein_molar_mass(protdl.annotation.get("uniprot.sequence"))
             / 1e6
         )
         # Store MW for relaxation bound
-        relax_to_protmw_dict[protdl.id.replace("PROTDL", "RELAX")] = protmw
+        relax_to_protmw_dict[
+            protdl.id.replace(
+                DEFAULT_PREFIX_SUFFIX_VALUES["proteins"]["prefix.dilution"],
+                DEFAULT_PREFIX_SUFFIX_VALUES["proteins"]["prefix.relaxation"],
+            )
+        ] = protmw
 
         # Upper bound represents protein concentration measurement, slack is introduced via lower bound
         prot_bound = protdl.upper_bound
         protdl.bounds = (prot_bound * (1 - slack_value), prot_bound)
         relax_extra = prot_bound * slack_value * protmw
-        total_slack_mg_prot_per_gDW += relax_extra
-        hemoglobin_budget = pcmodel.metabolites.get_by_id("hemoglobin_budget")
-        if hemoglobin_budget in protdl.metabolites:
-            hb_slack_mg_prot_per_gDW += relax_extra
+        budget_sums["total"] += relax_extra
 
-    relaxation_demand = pcmodel.reactions.get_by_id(f"PBDL_relaxation_budget")
-    relaxation_demand.bounds = (0, total_slack_mg_prot_per_gDW)
+        if budgets_dict["hemoglobin"] in protdl.metabolites:
+            budget_sums["hemoglobin"] += relax_extra
+    budget_rxn_relaxation = pcmodel.reactions.get_by_id(
+        f'{budget_rxn_prefix}{budgets_dict["relaxation"]}'
+    )
+    budget_rxn_relaxation.bounds = (0, budget_sums["total"])
     for relaxdl, protmw in relax_to_protmw_dict.items():
         relaxdl = pcmodel.reactions.get_by_id(relaxdl)
         relaxdl.bounds = (
             0,
-            (total_slack_mg_prot_per_gDW / protmw) * slack_value,
+            (budget_sums["total"] / protmw) * slack_value,
         )
 
     if verbose:
         print(
-            f"Relaxation budget updated for {pcmodel}, extra {total_slack_mg_prot_per_gDW:.4f} mg/gDW ({hb_slack_mg_prot_per_gDW:.4f} mg HB/gDW) from {100 * slack_value:.4f}% slack"
+            f'Relaxation budget updated for {pcmodel}, extra {budget_sums["total"]:.4f} mg/gDW ({budget_sums["hemoglobin"]:.4f} mg HB/gDW) from {slack_value:.4%} slack'
         )
+
+
+def classify_reactions_by_abundance_dependence(
+    df, dependent_cutoff=0.8, correlated_cutoff=0.5, spontaneous_reactions=None
+):
+    """Classify reactions as abundance dependent, correlated, or independent based on their Spearman Rank correlation.
+
+    Parameters
+    ----------
+    df :
+    dependent_cutoff :
+    correlated_cutoff :
+    spontaneous_reactions :
+
+    Returns
+    -------
+    pd.Series
+    """
+    labels = ["dependent", "correlated", "independent"]
+    # Print summaries
+    df_classified_reactions = pd.cut(
+        df["rho"],
+        bins=[df["rho"].min(), correlated_cutoff, dependent_cutoff, df["rho"].max()],
+        labels=labels[::-1],
+    )
+
+    labels += ["blocked", "spontaneous"] if spontaneous_reactions else ["blocked"]
+    df_classified_reactions = df_classified_reactions.cat.add_categories(labels[3:])
+    df_classified_reactions = df_classified_reactions.cat.reorder_categories(
+        labels[::-1]
+    )
+    df_classified_reactions = df_classified_reactions.fillna("blocked").astype(str)
+    if spontaneous_reactions:
+        df_classified_reactions = pd.concat(
+            (
+                df_classified_reactions,
+                pd.Series(
+                    ["spontaneous"] * len(spontaneous_reactions),
+                    index=spontaneous_reactions,
+                ),
+            )
+        )
+
+    df_classified_reactions.name = "classification"
+    return df_classified_reactions
+
+
+def plot_correlations(df, ax=None, colorbar=True, vertical_lines=None, **kwargs):
+    """Plot the p-value as a function of the spearman correlations coefficient
+
+    Parameters
+    ----------
+    df :
+    ax :
+    colorbar :
+    vertical_lines :
+    scatter_inch :
+    hist_inch :
+    hist_pad :
+    cmap :
+    edgecolor :
+    edgewidth :
+    grid :
+    zorder :
+    xmin :
+    xmax :
+    xtick_major :
+    xtick_minor :
+    ytick_major :
+    ytick_minor :
+    xhist :
+    xhist_ytick_major :
+    xhist_ytick_minor :
+    xbinwidth :
+    yhist :
+    yhist_xtick_major :
+    yhist_xtick_minor :
+    ybinwidth :
+    Returns
+    -------
+
+    """
+    # Define figure if no axes provided.
+    hist_inch = kwargs.get("hist_inch", 1.0)
+    hist_pad = kwargs.get("hist_pad", 0.25)
+    if ax is None:
+        scatter_inch = kwargs.get("scatter_inch", 5.0)
+        _, ax = plt.subplots(
+            nrows=1,
+            ncols=1,
+            figsize=(
+                scatter_inch + (hist_inch + hist_pad if kwargs.get("yhist") else 0),
+                scatter_inch + (hist_inch + hist_pad if kwargs.get("xhist") else 0),
+            ),
+        )
+    # X-axis is expected to be rho, Y-axis is expected as -log10(pvalue) from correlation prep
+    xy = {"x": "rho", "y": "p-value"}
+    # Default limits
+    limits = {"x": (-1, 1), "y": (0, df[xy["y"]].max())}
+    pads = {}
+    ticks = {}
+    for axis, value in xy.items():
+        if value is None:
+            raise ValueError(f"Must define a column for {axis}-axis values")
+        limits[axis] = (
+            kwargs.get(f"{axis}min", limits[axis][0]),
+            kwargs.get(f"{axis}max", limits[axis][1]),
+        )
+        pads[axis] = kwargs.get(f"{axis}pad", (limits[axis][1] - limits[axis][0]) / 40)
+        ticks[axis] = {
+            tick_type: kwargs.get(f"{axis}tick_{tick_type}", None)
+            for tick_type in ["major", "minor"]
+        }
+    cmap = kwargs.get("cmap", "viridis")
+    zorder = kwargs.get("zorder", 2)
+    edgecolor = kwargs.get("edgecolor", "black")
+    edgewidth = kwargs.get("edgewidth", 0.5)
+    scatter = ax.scatter(
+        x=xy["x"],
+        y=xy["y"],
+        data=df,
+        c=kwargs.get("c", xy["y"]),
+        s=kwargs.get("s", 40),
+        zorder=zorder,
+        edgecolor=edgecolor,
+        linewidth=edgewidth,
+        cmap=mpl.colormaps.get_cmap(cmap) if isinstance(cmap, str) else cmap,
+        norm=mpl.colors.Normalize(
+            vmin=limits["y"][0] - pads["y"], vmax=limits["y"][1] + pads["y"]
+        ),
+    )
+
+    labels = {"rho": r"Correlation $(\rho)$", "p-value": "-log$_{10}$(p-value)"}
+    for axis, value in xy.items():
+        getattr(ax, f"set_{axis}lim")(
+            (limits[axis][0] - pads[axis], limits[axis][1] + pads[axis])
+        )
+        getattr(ax, f"set_{axis}label")(labels[value], fontdict={"size": "xx-large"})
+        for tick_type, tick_values in ticks[axis].items():
+            if tick_values:
+                locator = (
+                    mpl.ticker.FixedLocator
+                    if hasattr(tick_values, "__iter__")
+                    else mpl.ticker.MultipleLocator
+                )
+                getattr(getattr(ax, f"{axis}axis"), f"set_{tick_type}_locator")(
+                    locator(tick_values)
+                )
+            ax.tick_params(axis=axis, labelsize="large")
+
+    if kwargs.get("grid", False):
+        ax.grid(True, **dict(which="both", alpha=0.75))
+
+    if colorbar:
+        cax = ax.inset_axes(
+            [
+                # lower left corner xpos
+                limits["x"][0] - pads["x"],
+                # lower left corner ypos
+                limits["y"][0] - pads["y"],
+                # width of colorbar
+                pads["x"],
+                # height of colorbar, need extra ypad to make up for lowering ypos
+                limits["y"][1] + pads["y"] * 2,
+            ],
+            transform=ax.transData,
+        )
+        ax.get_figure().colorbar(scatter, cax=cax)
+        cax.set_ylim((limits["y"][0] - pads["y"], limits["y"][1] + pads["y"]))
+        cax.set_xticks([])
+        cax.set_yticks([])
+
+    if kwargs.get("xhist") or kwargs.get("yhist"):
+        max_count = {}
+        divider = make_axes_locatable(ax)
+        # Histogram axes
+        ax_xhist = (
+            divider.append_axes("top", hist_inch, pad=hist_pad, sharex=ax)
+            if kwargs.get("xhist")
+            else None
+        )
+        ax_yhist = (
+            divider.append_axes("right", hist_inch, pad=hist_pad, sharey=ax)
+            if kwargs.get("yhist")
+            else None
+        )
+        for axis, ax_hist in zip(["x", "y"], [ax_xhist, ax_yhist]):
+            if ax_hist is None:
+                continue
+            binwidth = kwargs.get(
+                f"{axis}binwidth",
+                (
+                    ticks[axis]["minor"]
+                    if ticks[axis].get("minor") is not None
+                    else ticks[axis].get("major")
+                ),
+            )
+            counts, _, _ = ax_hist.hist(
+                df[xy[axis]],
+                bins=np.arange(
+                    limits[axis][0] - pads["x"],
+                    limits[axis][1] + pads["x"] + binwidth,
+                    binwidth,
+                ),
+                orientation="vertical" if axis == "x" else "horizontal",
+                zorder=zorder,
+                edgecolor=edgecolor,
+                linewidth=edgewidth,
+            )
+            max_count[axis] = max(counts)
+            other = "y" if axis == "x" else "x"
+            ax_hist.tick_params(
+                axis=axis, **{f"label{'bottom' if axis == 'x' else 'left'}": False}
+            )
+            ax_hist.tick_params(axis=other, labelsize="large")
+            getattr(ax_hist, f"set_{other}label")("Count", fontsize="large")
+            hist_ticks = {
+                tick_type: kwargs.get(f"{axis}hist_{other}tick_{tick_type}")
+                for tick_type in ["major", "minor"]
+            }
+            for tick_type, tick_values in hist_ticks.items():
+                if tick_values:
+                    locator = (
+                        mpl.ticker.FixedLocator
+                        if hasattr(tick_values, "__iter__")
+                        else mpl.ticker.MultipleLocator
+                    )
+                    getattr(
+                        getattr(ax_hist, f"{other}axis"), f"set_{tick_type}_locator"
+                    )(locator(tick_values))
+                ax_hist.tick_params(axis=other, labelsize="large")
+            getattr(ax_hist, f"set_{other}lim")((0, max_count[axis] * 1.1))
+            if kwargs.get("grid", False):
+                ax_hist.grid(True, **dict(which="both", alpha=0.75))
+
+    if vertical_lines:
+        for lineval, (lineprops, textprops) in vertical_lines.items():
+            if lineprops:
+                ax.vlines(
+                    x=lineval,
+                    ymin=limits["y"][0] - pads["y"],
+                    ymax=limits["y"][1] + pads["y"],
+                    **lineprops,
+                )
+            if textprops:
+                ax.text(x=lineval + pads["x"] / 2, transform=ax.transData, **textprops)
+
+            if ax_xhist:
+                ax_xhist.vlines(
+                    x=lineval, ymin=0.0, ymax=max_count["x"] * 1.1, **lineprops
+                )
+
+    return ax, ax_xhist, ax_yhist
+
+
+def plot_ring_of_category_counts(
+    df, ax=None, ring_center_text=None, cmap_dict_level_0=None, **kwargs
+):
+    # Get counts for rings
+    rings = list(df.columns)
+    df_counts = df.value_counts().reset_index(drop=False)
+    # Sort values
+    df_counts = df_counts.sort_values(
+        by=rings[0 : len(rings) - 1] + ["count"],
+        ascending=(len(rings) - 1) * [True] + [False],
+    )
+    # Squeeze back to MultiIndex
+    df_counts = df_counts.set_index(rings).squeeze()
+    radius = kwargs.get("radius", 1)
+    wedgesize = kwargs.get("wedgesize", 0.43)
+    for level in range(len(df_counts.index.names)):
+        # Get grouped sums up to current level
+        ring_values = df_counts.groupby(level=list(range(level + 1))).sum()
+        # Sort values based on outermost ring
+        ring_values = ring_values.reset_index(drop=False).set_index(rings[level])
+        ring_values = ring_values.loc[
+            list(df_counts.index.get_level_values(rings[level]).unique())
+        ]
+        ring_values = (
+            ring_values.reset_index(drop=False).set_index(rings[: level + 1]).squeeze()
+        )
+        # Get labels for level
+        labels = ring_values.index.get_level_values(level)
+        # Generate color shades per group
+        df_grouped = pd.DataFrame.from_records(
+            [(i,) if level == 0 else i for i in ring_values.index.tolist()],
+            columns=rings[: level + 1],
+        )
+        df_grouped = df_grouped.groupby(rings[0])
+        if cmap_dict_level_0:
+            colors = {
+                c: mpl.colormaps.get_cmap(cmap_dict_level_0[c])(
+                    np.linspace(
+                        kwargs.get("cmax", 0.85) - (level * 0.1),
+                        kwargs.get("cmax", 0.15),
+                        v,
+                    )
+                )
+                for c, v in df_grouped.size().items()
+            }
+            colors = [
+                color
+                for key in ring_values.index.get_level_values(0).unique()
+                for color in colors[key]
+            ]
+        else:
+            colors = []
+        # Plot ring for level
+        ax.pie(
+            x=ring_values,
+            radius=radius + (level * wedgesize),
+            colors=colors if colors else None,
+            labels=[f"{v}" for k, v in ring_values.items()] if level == 0 else None,
+            labeldistance=(
+                (radius * 0.9 + (len(rings) - wedgesize) * wedgesize)
+                if level == 0
+                else None
+            ),
+            textprops={"fontsize": "large", "va": "center", "ha": "center"},
+            wedgeprops=dict(
+                width=wedgesize,
+                linewidth=kwargs.get("linewidth", 0.75),
+                edgecolor=kwargs.get("edgecolor", "k"),
+                clip_on=False,
+            ),
+        )
+    if ring_center_text:
+        ax.annotate(
+            text=ring_center_text,
+            xy=(0, 0),
+            transform=ax.transAxes,
+            **kwargs.get(
+                "ring_center_textprops",
+                dict(
+                    ha="center",
+                    va="center",
+                    fontsize="medium",
+                ),
+            ),
+        )
+    return ax
+
+
+def plot_reaction_counts_for_proteins(
+    df,
+    ax=None,
+    cutoff_value=None,
+    seperator_value=None,
+    seperator_scalar=1,
+    category_colors=None,
+    **kwargs,
+):
+    df_data = df.copy()
+    df_data["genes"] = df_data["genes"].apply(split_string)
+    df = df_data.explode("genes")
+    df_data = df.groupby("genes")["category"].value_counts().reset_index(drop=False)
+    df_data = (
+        df_data.pivot(columns="category", index="genes", values="count")
+        .fillna(0)
+        .astype(int)
+    )
+    df_data.index.name = "genes"
+    df_data = df_data.join(
+        df.groupby("genes")["reactions"].agg(lambda x: tuple(sorted(list(x.unique())))),
+    )
+    # Group genes acting on identical reactions
+    df_to_group = df_data[df_data.duplicated(keep=False)].reset_index(drop=False)
+    df_to_group = (
+        df_to_group.groupby(list(df_to_group.columns[1:]))
+        .agg(lambda x: build_string(x))
+        .reset_index(drop=False)
+    )
+    df_data = pd.concat(
+        (
+            df_data[~df_data.duplicated(keep=False)],
+            df_to_group.set_index("genes"),
+        ),
+        axis=0,
+    )
+    list_of_categories = [x for x in df_data.columns if x != "reactions"]
+    df_data["total"] = df_data.loc[:, list(list_of_categories)].sum(axis=1)
+    df_data = df_data.sort_values(by="total", ascending=False)
+
+    if cutoff_value:
+        df_data = df_data[df_data["total"] >= cutoff_value].copy()
+
+    if not seperator_value:
+        seperator_value = df_data["total"].max() + 1
+
+    df_upper = df_data[df_data["total"] >= seperator_value].sort_values(
+        by="total", ascending=True
+    )
+    df_lower = df_data[df_data["total"] < seperator_value].sort_values(
+        by="total", ascending=True
+    )
+
+    ax_main = ax
+    if df_upper.empty or df_lower.empty:
+        ax_other = None
+    elif len(df_upper) > len(df_lower):
+        divider = make_axes_locatable(ax)
+        percent = max([len(df_lower) / len(df_data), 0.15])
+        ax_other = divider.append_axes(position="bottom", size=f"{percent:%}", pad=0.4)
+    else:
+        divider = make_axes_locatable(ax)
+        percent = max([len(df_upper) / len(df_data), 0.15])
+        ax_other = divider.append_axes(position="top", size=f"{percent:%}", pad=0.4)
+
+    # Must be left out of branch to account for completely empty on one but not other
+    axes = [ax_main, ax_other] if len(df_upper) > len(df_lower) else [ax_other, ax_main]
+    scalars = (
+        [1, seperator_scalar]
+        if len(df_upper) > len(df_lower)
+        else [seperator_scalar, 1]
+    )
+
+    for ax, scalar in zip(axes, scalars):
+        if not ax:
+            continue
+        ax.spines["right"].set_visible(False)
+        ax.spines["top"].set_visible(False)
+
+        major_ticks = np.array(ensure_iterable(kwargs.get(f"xtick_major", 10)))
+        minor_ticks = np.array(
+            ensure_iterable(kwargs.get(f"xtick_minor", major_ticks / 2))
+        )
+        for tick_type, ticks in zip(["major", "minor"], [major_ticks, minor_ticks]):
+            if len(ticks) == 1:
+                ticker = mpl.ticker.MultipleLocator
+                ticks = ticks[0]
+            else:
+                ticker = mpl.ticker.FixedLocator
+            getattr(ax.xaxis, f"set_{tick_type}_locator")(ticker(scalar * ticks))
+    if category_colors:
+        colors = {
+            c: mpl.colormaps.get_cmap(cmap)(kwargs.get("cmax", 0.85))
+            for c, cmap in category_colors.items()
+        }
+
+    for ax, df in zip(axes, [df_upper, df_lower]):
+        if df.empty:
+            continue
+
+        offset = np.zeros(len(df.index))
+        for i, (category, series) in enumerate(df[list_of_categories].items()):
+            rects = ax.barh(
+                np.arange(0, len(series.index)) * 1.0,
+                series.values,
+                tick_label=series.index,
+                height=kwargs.get("height", 0.8),
+                left=offset,
+                color=colors[category] if category_colors else None,
+                edgecolor="black",
+                linewidth=0.5,
+            )
+            offset += series.values
+            if i == len(list_of_categories) - 1 and kwargs.get(
+                "ticklabels_on_bars", True
+            ):
+                ax.bar_label(rects, series.index, padding=10, fontsize="large")
+                ax.set_yticklabels([])
+        ax.xaxis.set_tick_params(labelsize="large")
+        ax.yaxis.set_tick_params(labelsize="large")
+
+    return axes if ax_other is not None else ax_main
+
+
+def create_protein_dilution_df(pcmodel):
+
+    df_model_protein_dilutions = pd.concat(
+        (
+            pd.Series(
+                {g.annotation.get("uniprot"): g.id for g in pcmodel.genes}, name="genes"
+            ),
+            pd.Series(
+                {
+                    protdl.annotation.get("uniprot"): protdl.id
+                    for protdl in pcmodel.reactions.query(
+                        lambda x: isinstance(x, ProteinDilution)
+                    )
+                },
+                name="PROTDL",
+            ),
+        ),
+        axis=1,
+    ).dropna()
+    df_model_protein_dilutions.index.name = "uniprot"
+    df_model_protein_dilutions = df_model_protein_dilutions[
+        df_model_protein_dilutions["genes"].isin(pcmodel.genes.list_attr("id"))
+    ].sort_values("PROTDL")
+    return df_model_protein_dilutions
