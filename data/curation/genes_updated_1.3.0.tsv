@@ -1,0 +1,3 @@
+genes	name	uniprot	ncbigene	hgnc.symbol	proteomic evidence (#studies)	proteomic evidence (pubmed)	references	notes	retired
+SLCO1A2	SO1A2	P46721	6579	SLCO1A2			pubmed:27504015		
+SLCO2B1	SO2B1	O94956	11309	SLCO2B1			pubmed:27504015		

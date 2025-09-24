@@ -1,0 +1,25 @@
+reactions	name	reaction	gene reaction rule	subsystem	spontaneous	proteomic evidence (#studies)	references	notes	retired	metatlas
+CHOLATEt	Transport of cholate	cholate_e <=> cholate_c	SLCO1A2 or SLCO2B1	"Transport, extracellular"	0		pubmed:27504015			
+CPPP3te	Transport of coproporphyrin III	cppp3_e <=> cppp3_c	SLCO2B1	"Transport, extracellular"	0		pubmed:27504015			
+DGCHOLte	Transport of glycochenodeoxycholate	dgchol_e <=> dgchol_c	SLCO1A2	"Transport, extracellular"	0		pubmed:27504015			MAR00219
+DHEASte	Transport of dehydroepiandrosterone 3-sulfate	dheas_e <=> dheas_c	SLCO1A2 or SLCO2B1	"Transport, extracellular"	0		pubmed:27504015			MAR06249
+E217BGLCRte	Transport of 17beta-estradiol 17-O-(beta-D-glucuronate)	e217obglcur_e <=> e217obglcur_c	SLCO1A2	"Transport, extracellular"	0		pubmed:27504015			
+ESTRONESte	Transport of estrone 3-sulfate	estrones_e <=> estrones_c	SLCO1A2 or SLCO2B1	"Transport, extracellular"	0		pubmed:27504015			MAR06248
+GCHOLAte	Transport of glycocholate	gchola_e <=> gchola_c	SLCO1A2	"Transport, extracellular"	0		pubmed:27504015			MAR01354
+GDCHOLAte	Transport of glycodeoxycholate	gdchac_e <=> gdchac_c	SLCO1A2	"Transport, extracellular"	0		pubmed:27504015			MAR09189
+GUDCHOLAte	Transport of glycoursodeoxycholate	gudchola_e <=> gudchola_c	SLCO1A2	"Transport, extracellular"	0		pubmed:27504015			
+PGD2te	Transport of prostaglandin D2	prostgd2_e <=> prostgd2_c	SLCO2B1	"Transport, extracellular"	0		pubmed:27504015			MAR06266
+PGE2te	Transport of prostaglandin E2	prostge2_e <=> prostge2_c	SLCO1A2 or SLCO2B1	"Transport, extracellular"	0		pubmed:27504015			MAR06246
+PRGNStec	Transport of pregnenolone sulfate	prgnlones_e <=> prgnlones_c	SLCO2B1	"Transport, extracellular"	0		pubmed:27504015			
+TCHOLAte	Transport of taurocholate	tchola_e <=> tchola_c	SLCO1A2 or SLCO2B1	"Transport, extracellular"	0		pubmed:27504015			MAR01731
+TDCHOLAte	Transport of taurochenodeoxycholate	tdchola_e <=> tdchola_c	SLCO1A2	"Transport, extracellular"	0		pubmed:27504015			MAR01733
+TDECHOLAte	Transport of taurodeoxycholate	tdechola_e <=> tdechola_c	SLCO1A2	"Transport, extracellular"	0		pubmed:27504015			
+TETIODTHYt2	"3,3',5,5'-Tetraiodo-L-thyronine transport"	tetiodthy__L_c <=> tetiodthy__L_e	(SLC7A5 and SLC3A2) or SLC16A10 or SLCO1A2 or SLCO2B1	"Transport, extracellular"	0		pubmed:34925607;pubmed:4479710;pubmed:7915653;pubmed:27504015			
+TRIIODTHYt2	"3,3,3'-Triiodo-L-thyronine (T3) transport via facilitated diffusion"	triiodthy__L_c <=> triiodthy__L_e	(SLC7A5 and SLC3A2) or SLC16A10 or SLCO1A2	"Transport, extracellular"	0		pubmed:34925607;pubmed:4479710;pubmed:7915653;pubmed:27504015			
+TUDCHOLAte	Transport of tauroursodeoxycholate	tudchola_e <=> tudchola_c	SLCO1A2	"Transport, extracellular"	0		pubmed:27504015			
+ACMAH	N-acetylmethionyl L-alanine hydrolase	acmetala_c + h2o_c --> acmet__L_c + ala__L_c	APEH	Peptide metabolism	0		pubmed:10719179;pubmed:7275011			
+PCFLOPt	Phosphatidylcholine (PC) floppase	atp_c + h2o_c + pc_hs_c --> adp_c + h_c + pc_hs_e + pi_c	ABCB4 or ABCA7 or ABCB1 or ABCA1 or ABCC1	"Transport, extracellular"	0	ABCA7(7);ABCB1(1);ABCB4(1)	pubmed:10947968;pubmed:28134466;pubmed:9651491;pubmed:9778357;pubmed:14578045			
+SMFLOPt	Sphingomyelin floppase	atp_c + h2o_c + sphmyln_hs_c --> adp_c + h_c + pi_c + sphmyln_hs_e	ABCB4 or ABCA7 or ABCB1 or ABCA1 or ABCC1	"Transport, extracellular"	0	ABCA7(7);ABCB1(1);ABCB4(1)	pubmed:10947968;pubmed:9778357;pubmed:14578045			
+PAFH	1-Alkyl-2-acetyl-sn-glycero-3-phosphocholine (PC O) acetohydrolase	h2o_c + paf_hs_c --> ac_c + h_c + lpco_hs_c	(PAFAH1B1 and PAFAH1B3) or (PAFAH1B1 and PAFAH1B2 and PAFAH1B3) or (PAFAH1B1 and PAFAH1B2)	Ether lipid metabolism	0	PAFAH1B1(19);PAFAH1B2(16);PAFAH1B3(20)	pubmed:21844189;pubmed:8440681			
+PAFS	Lysoplas:Acetyl-CoA (LPC O) 2-O-acetyltransferase	accoa_c + lpco_hs_c --> coa_c + paf_hs_c	LPCAT3 or LPCAT1	Ether lipid metabolism	0	LPCAT1(2);LPCAT3(11)	pubmed:18156367;pubmed:18285344			
+DIHOME1213te	Transport of 12(13)-DiHOME via diffusion	dihome1213_c --> dihome1213_e		"Transport, extracellular"	0		pubmed:15294349;pubmed:17164127;pubmed:17651993;pubmed:20631410;pubmed:21398593;pubmed:22178722;pubmed:31782268;pubmed:33112511;pubmed:36643550		DIHOMEt1213e	

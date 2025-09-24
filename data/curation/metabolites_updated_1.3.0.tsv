@@ -1,0 +1,4 @@
+metabolites	metabolite	name	formula	charge	compartment	metabolomic evidence (#studies)	metabolomic evidence (pubmed)	references	notes	retired
+polyadprib1_c	polyadprib1	[(1-->2)-ADP-alpha-D-ribose](n-1)	C15H21N5O14P2X	-2	c					
+polyadprib2_c	polyadprib2	[(1-->2)-ADP-alpha-D-ribose](n)	C30H40N10O27P4X	-4	c					
+e217obglcur_c	e217obglcur_c	17beta-estradiol 17-O-(beta-D-glucuronate)	C24H31O8	-1	c					
