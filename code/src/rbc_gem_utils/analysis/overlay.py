@@ -4,9 +4,12 @@ import logging
 from collections import defaultdict
 from warnings import warn
 
+import matplotlib as mpl
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from cobra import Metabolite, Reaction, manipulation
+from mpl_toolkits.axes_grid1 import make_axes_locatable
 
 from rbc_gem_utils.io import read_cobra_model
 from rbc_gem_utils.table import parse_gprs_to_complexes
@@ -1819,13 +1822,14 @@ def estimate_keff_from_molar_mass(
 
 def load_overlay_model(
     filename,
+    filetype=None,
     protein_prefixes=None,
     complex_prefixes=None,
     enzyme_prefixes=None,
     budget_prefixes=None,
     relaxation_prefix=None,
 ):
-    model = read_cobra_model(filename)
+    model = read_cobra_model(filename, filetype=filetype)
     if protein_prefixes is None:
         protein_met_prefix = DEFAULT_PREFIX_SUFFIX_VALUES["proteins"][
             "prefix.metabolite"
@@ -2072,3 +2076,494 @@ def update_slack_value(pcmodel, slack_value, verbose):
         print(
             f'Relaxation budget updated for {pcmodel}, extra {budget_sums["total"]:.4f} mg/gDW ({budget_sums["hemoglobin"]:.4f} mg HB/gDW) from {slack_value:.4%} slack'
         )
+
+
+def classify_reactions_by_abundance_dependence(
+    df, dependent_cutoff=0.8, correlated_cutoff=0.5, spontaneous_reactions=None
+):
+    """Classify reactions as abundance dependent, correlated, or independent based on their Spearman Rank correlation.
+
+    Parameters
+    ----------
+    df :
+    dependent_cutoff :
+    correlated_cutoff :
+    spontaneous_reactions :
+
+    Returns
+    -------
+    pd.Series
+    """
+    labels = ["dependent", "correlated", "independent"]
+    # Print summaries
+    df_classified_reactions = pd.cut(
+        df["rho"],
+        bins=[df["rho"].min(), correlated_cutoff, dependent_cutoff, df["rho"].max()],
+        labels=labels[::-1],
+    )
+
+    labels += ["blocked", "spontaneous"] if spontaneous_reactions else ["blocked"]
+    df_classified_reactions = df_classified_reactions.cat.add_categories(labels[3:])
+    df_classified_reactions = df_classified_reactions.cat.reorder_categories(
+        labels[::-1]
+    )
+    df_classified_reactions = df_classified_reactions.fillna("blocked").astype(str)
+    if spontaneous_reactions:
+        df_classified_reactions = pd.concat(
+            (
+                df_classified_reactions,
+                pd.Series(
+                    ["spontaneous"] * len(spontaneous_reactions),
+                    index=spontaneous_reactions,
+                ),
+            )
+        )
+
+    df_classified_reactions.name = "classification"
+    return df_classified_reactions
+
+
+def plot_correlations(df, ax=None, colorbar=True, vertical_lines=None, **kwargs):
+    """Plot the p-value as a function of the spearman correlations coefficient
+
+    Parameters
+    ----------
+    df :
+    ax :
+    colorbar :
+    vertical_lines :
+    scatter_inch :
+    hist_inch :
+    hist_pad :
+    cmap :
+    edgecolor :
+    edgewidth :
+    grid :
+    zorder :
+    xmin :
+    xmax :
+    xtick_major :
+    xtick_minor :
+    ytick_major :
+    ytick_minor :
+    xhist :
+    xhist_ytick_major :
+    xhist_ytick_minor :
+    xbinwidth :
+    yhist :
+    yhist_xtick_major :
+    yhist_xtick_minor :
+    ybinwidth :
+    Returns
+    -------
+
+    """
+    # Define figure if no axes provided.
+    hist_inch = kwargs.get("hist_inch", 1.0)
+    hist_pad = kwargs.get("hist_pad", 0.25)
+    if ax is None:
+        scatter_inch = kwargs.get("scatter_inch", 5.0)
+        _, ax = plt.subplots(
+            nrows=1,
+            ncols=1,
+            figsize=(
+                scatter_inch + (hist_inch + hist_pad if kwargs.get("yhist") else 0),
+                scatter_inch + (hist_inch + hist_pad if kwargs.get("xhist") else 0),
+            ),
+        )
+    # X-axis is expected to be rho, Y-axis is expected as -log10(pvalue) from correlation prep
+    xy = {"x": "rho", "y": "p-value"}
+    # Default limits
+    limits = {"x": (-1, 1), "y": (0, df[xy["y"]].max())}
+    pads = {}
+    ticks = {}
+    for axis, value in xy.items():
+        if value is None:
+            raise ValueError(f"Must define a column for {axis}-axis values")
+        limits[axis] = (
+            kwargs.get(f"{axis}min", limits[axis][0]),
+            kwargs.get(f"{axis}max", limits[axis][1]),
+        )
+        pads[axis] = kwargs.get(f"{axis}pad", (limits[axis][1] - limits[axis][0]) / 40)
+        ticks[axis] = {
+            tick_type: kwargs.get(f"{axis}tick_{tick_type}", None)
+            for tick_type in ["major", "minor"]
+        }
+    cmap = kwargs.get("cmap", "viridis")
+    zorder = kwargs.get("zorder", 2)
+    edgecolor = kwargs.get("edgecolor", "black")
+    edgewidth = kwargs.get("edgewidth", 0.5)
+    scatter = ax.scatter(
+        x=xy["x"],
+        y=xy["y"],
+        data=df,
+        c=kwargs.get("c", xy["y"]),
+        s=kwargs.get("s", 40),
+        zorder=zorder,
+        edgecolor=edgecolor,
+        linewidth=edgewidth,
+        cmap=mpl.colormaps.get_cmap(cmap) if isinstance(cmap, str) else cmap,
+        norm=mpl.colors.Normalize(
+            vmin=limits["y"][0] - pads["y"], vmax=limits["y"][1] + pads["y"]
+        ),
+    )
+
+    labels = {"rho": r"Correlation $(\rho)$", "p-value": "-log$_{10}$(p-value)"}
+    for axis, value in xy.items():
+        getattr(ax, f"set_{axis}lim")(
+            (limits[axis][0] - pads[axis], limits[axis][1] + pads[axis])
+        )
+        getattr(ax, f"set_{axis}label")(labels[value], fontdict={"size": "xx-large"})
+        for tick_type, tick_values in ticks[axis].items():
+            if tick_values:
+                locator = (
+                    mpl.ticker.FixedLocator
+                    if hasattr(tick_values, "__iter__")
+                    else mpl.ticker.MultipleLocator
+                )
+                getattr(getattr(ax, f"{axis}axis"), f"set_{tick_type}_locator")(
+                    locator(tick_values)
+                )
+            ax.tick_params(axis=axis, labelsize="large")
+
+    if kwargs.get("grid", False):
+        ax.grid(True, **dict(which="both", alpha=0.75))
+
+    if colorbar:
+        cax = ax.inset_axes(
+            [
+                # lower left corner xpos
+                limits["x"][0] - pads["x"],
+                # lower left corner ypos
+                limits["y"][0] - pads["y"],
+                # width of colorbar
+                pads["x"],
+                # height of colorbar, need extra ypad to make up for lowering ypos
+                limits["y"][1] + pads["y"] * 2,
+            ],
+            transform=ax.transData,
+        )
+        ax.get_figure().colorbar(scatter, cax=cax)
+        cax.set_ylim((limits["y"][0] - pads["y"], limits["y"][1] + pads["y"]))
+        cax.set_xticks([])
+        cax.set_yticks([])
+
+    if kwargs.get("xhist") or kwargs.get("yhist"):
+        max_count = {}
+        divider = make_axes_locatable(ax)
+        # Histogram axes
+        ax_xhist = (
+            divider.append_axes("top", hist_inch, pad=hist_pad, sharex=ax)
+            if kwargs.get("xhist")
+            else None
+        )
+        ax_yhist = (
+            divider.append_axes("right", hist_inch, pad=hist_pad, sharey=ax)
+            if kwargs.get("yhist")
+            else None
+        )
+        for axis, ax_hist in zip(["x", "y"], [ax_xhist, ax_yhist]):
+            if ax_hist is None:
+                continue
+            binwidth = kwargs.get(
+                f"{axis}binwidth",
+                (
+                    ticks[axis]["minor"]
+                    if ticks[axis].get("minor") is not None
+                    else ticks[axis].get("major")
+                ),
+            )
+            counts, _, _ = ax_hist.hist(
+                df[xy[axis]],
+                bins=np.arange(
+                    limits[axis][0] - pads["x"],
+                    limits[axis][1] + pads["x"] + binwidth,
+                    binwidth,
+                ),
+                orientation="vertical" if axis == "x" else "horizontal",
+                zorder=zorder,
+                edgecolor=edgecolor,
+                linewidth=edgewidth,
+            )
+            max_count[axis] = max(counts)
+            other = "y" if axis == "x" else "x"
+            ax_hist.tick_params(
+                axis=axis, **{f"label{'bottom' if axis == 'x' else 'left'}": False}
+            )
+            ax_hist.tick_params(axis=other, labelsize="large")
+            getattr(ax_hist, f"set_{other}label")("Count", fontsize="large")
+            hist_ticks = {
+                tick_type: kwargs.get(f"{axis}hist_{other}tick_{tick_type}")
+                for tick_type in ["major", "minor"]
+            }
+            for tick_type, tick_values in hist_ticks.items():
+                if tick_values:
+                    locator = (
+                        mpl.ticker.FixedLocator
+                        if hasattr(tick_values, "__iter__")
+                        else mpl.ticker.MultipleLocator
+                    )
+                    getattr(
+                        getattr(ax_hist, f"{other}axis"), f"set_{tick_type}_locator"
+                    )(locator(tick_values))
+                ax_hist.tick_params(axis=other, labelsize="large")
+            getattr(ax_hist, f"set_{other}lim")((0, max_count[axis] * 1.1))
+            if kwargs.get("grid", False):
+                ax_hist.grid(True, **dict(which="both", alpha=0.75))
+
+    if vertical_lines:
+        for lineval, (lineprops, textprops) in vertical_lines.items():
+            if lineprops:
+                ax.vlines(
+                    x=lineval,
+                    ymin=limits["y"][0] - pads["y"],
+                    ymax=limits["y"][1] + pads["y"],
+                    **lineprops,
+                )
+            if textprops:
+                ax.text(x=lineval + pads["x"] / 2, transform=ax.transData, **textprops)
+
+            if ax_xhist:
+                ax_xhist.vlines(
+                    x=lineval, ymin=0.0, ymax=max_count["x"] * 1.1, **lineprops
+                )
+
+    return ax, ax_xhist, ax_yhist
+
+
+def plot_ring_of_category_counts(
+    df, ax=None, ring_center_text=None, cmap_dict_level_0=None, **kwargs
+):
+    # Get counts for rings
+    rings = list(df.columns)
+    df_counts = df.value_counts().reset_index(drop=False)
+    # Sort values
+    df_counts = df_counts.sort_values(
+        by=rings[0 : len(rings) - 1] + ["count"],
+        ascending=(len(rings) - 1) * [True] + [False],
+    )
+    # Squeeze back to MultiIndex
+    df_counts = df_counts.set_index(rings).squeeze()
+    radius = kwargs.get("radius", 1)
+    wedgesize = kwargs.get("wedgesize", 0.43)
+    for level in range(len(df_counts.index.names)):
+        # Get grouped sums up to current level
+        ring_values = df_counts.groupby(level=list(range(level + 1))).sum()
+        # Sort values based on outermost ring
+        ring_values = ring_values.reset_index(drop=False).set_index(rings[level])
+        ring_values = ring_values.loc[
+            list(df_counts.index.get_level_values(rings[level]).unique())
+        ]
+        ring_values = (
+            ring_values.reset_index(drop=False).set_index(rings[: level + 1]).squeeze()
+        )
+        # Get labels for level
+        labels = ring_values.index.get_level_values(level)
+        # Generate color shades per group
+        df_grouped = pd.DataFrame.from_records(
+            [(i,) if level == 0 else i for i in ring_values.index.tolist()],
+            columns=rings[: level + 1],
+        )
+        df_grouped = df_grouped.groupby(rings[0])
+        if cmap_dict_level_0:
+            colors = {
+                c: mpl.colormaps.get_cmap(cmap_dict_level_0[c])(
+                    np.linspace(
+                        kwargs.get("cmax", 0.85) - (level * 0.1),
+                        kwargs.get("cmax", 0.15),
+                        v,
+                    )
+                )
+                for c, v in df_grouped.size().items()
+            }
+            colors = [
+                color
+                for key in ring_values.index.get_level_values(0).unique()
+                for color in colors[key]
+            ]
+        else:
+            colors = []
+        # Plot ring for level
+        ax.pie(
+            x=ring_values,
+            radius=radius + (level * wedgesize),
+            colors=colors if colors else None,
+            labels=[f"{v}" for k, v in ring_values.items()] if level == 0 else None,
+            labeldistance=(
+                (radius * 0.9 + (len(rings) - wedgesize) * wedgesize)
+                if level == 0
+                else None
+            ),
+            textprops={"fontsize": "large", "va": "center", "ha": "center"},
+            wedgeprops=dict(
+                width=wedgesize,
+                linewidth=kwargs.get("linewidth", 0.75),
+                edgecolor=kwargs.get("edgecolor", "k"),
+                clip_on=False,
+            ),
+        )
+    if ring_center_text:
+        ax.annotate(
+            text=ring_center_text,
+            xy=(0, 0),
+            transform=ax.transAxes,
+            **kwargs.get(
+                "ring_center_textprops",
+                dict(
+                    ha="center",
+                    va="center",
+                    fontsize="medium",
+                ),
+            ),
+        )
+    return ax
+
+
+def plot_reaction_counts_for_proteins(
+    df,
+    ax=None,
+    cutoff_value=None,
+    seperator_value=None,
+    seperator_scalar=1,
+    category_colors=None,
+    **kwargs,
+):
+    df_data = df.copy()
+    df_data["genes"] = df_data["genes"].apply(split_string)
+    df = df_data.explode("genes")
+    df_data = df.groupby("genes")["category"].value_counts().reset_index(drop=False)
+    df_data = (
+        df_data.pivot(columns="category", index="genes", values="count")
+        .fillna(0)
+        .astype(int)
+    )
+    df_data.index.name = "genes"
+    df_data = df_data.join(
+        df.groupby("genes")["reactions"].agg(lambda x: tuple(sorted(list(x.unique())))),
+    )
+    # Group genes acting on identical reactions
+    df_to_group = df_data[df_data.duplicated(keep=False)].reset_index(drop=False)
+    df_to_group = (
+        df_to_group.groupby(list(df_to_group.columns[1:]))
+        .agg(lambda x: build_string(x))
+        .reset_index(drop=False)
+    )
+    df_data = pd.concat(
+        (
+            df_data[~df_data.duplicated(keep=False)],
+            df_to_group.set_index("genes"),
+        ),
+        axis=0,
+    )
+    list_of_categories = [x for x in df_data.columns if x != "reactions"]
+    df_data["total"] = df_data.loc[:, list(list_of_categories)].sum(axis=1)
+    df_data = df_data.sort_values(by="total", ascending=False)
+
+    if cutoff_value:
+        df_data = df_data[df_data["total"] >= cutoff_value].copy()
+
+    if not seperator_value:
+        seperator_value = df_data["total"].max() + 1
+
+    df_upper = df_data[df_data["total"] >= seperator_value].sort_values(
+        by="total", ascending=True
+    )
+    df_lower = df_data[df_data["total"] < seperator_value].sort_values(
+        by="total", ascending=True
+    )
+
+    ax_main = ax
+    if df_upper.empty or df_lower.empty:
+        ax_other = None
+    elif len(df_upper) > len(df_lower):
+        divider = make_axes_locatable(ax)
+        percent = max([len(df_lower) / len(df_data), 0.15])
+        ax_other = divider.append_axes(position="bottom", size=f"{percent:%}", pad=0.4)
+    else:
+        divider = make_axes_locatable(ax)
+        percent = max([len(df_upper) / len(df_data), 0.15])
+        ax_other = divider.append_axes(position="top", size=f"{percent:%}", pad=0.4)
+
+    # Must be left out of branch to account for completely empty on one but not other
+    axes = [ax_main, ax_other] if len(df_upper) > len(df_lower) else [ax_other, ax_main]
+    scalars = (
+        [1, seperator_scalar]
+        if len(df_upper) > len(df_lower)
+        else [seperator_scalar, 1]
+    )
+
+    for ax, scalar in zip(axes, scalars):
+        if not ax:
+            continue
+        ax.spines["right"].set_visible(False)
+        ax.spines["top"].set_visible(False)
+
+        major_ticks = np.array(ensure_iterable(kwargs.get(f"xtick_major", 10)))
+        minor_ticks = np.array(
+            ensure_iterable(kwargs.get(f"xtick_minor", major_ticks / 2))
+        )
+        for tick_type, ticks in zip(["major", "minor"], [major_ticks, minor_ticks]):
+            if len(ticks) == 1:
+                ticker = mpl.ticker.MultipleLocator
+                ticks = ticks[0]
+            else:
+                ticker = mpl.ticker.FixedLocator
+            getattr(ax.xaxis, f"set_{tick_type}_locator")(ticker(scalar * ticks))
+    if category_colors:
+        colors = {
+            c: mpl.colormaps.get_cmap(cmap)(kwargs.get("cmax", 0.85))
+            for c, cmap in category_colors.items()
+        }
+
+    for ax, df in zip(axes, [df_upper, df_lower]):
+        if df.empty:
+            continue
+
+        offset = np.zeros(len(df.index))
+        for i, (category, series) in enumerate(df[list_of_categories].items()):
+            rects = ax.barh(
+                np.arange(0, len(series.index)) * 1.0,
+                series.values,
+                tick_label=series.index,
+                height=kwargs.get("height", 0.8),
+                left=offset,
+                color=colors[category] if category_colors else None,
+                edgecolor="black",
+                linewidth=0.5,
+            )
+            offset += series.values
+            if i == len(list_of_categories) - 1 and kwargs.get(
+                "ticklabels_on_bars", True
+            ):
+                ax.bar_label(rects, series.index, padding=10, fontsize="large")
+                ax.set_yticklabels([])
+        ax.xaxis.set_tick_params(labelsize="large")
+        ax.yaxis.set_tick_params(labelsize="large")
+
+    return axes if ax_other is not None else ax_main
+
+
+def create_protein_dilution_df(pcmodel):
+
+    df_model_protein_dilutions = pd.concat(
+        (
+            pd.Series(
+                {g.annotation.get("uniprot"): g.id for g in pcmodel.genes}, name="genes"
+            ),
+            pd.Series(
+                {
+                    protdl.annotation.get("uniprot"): protdl.id
+                    for protdl in pcmodel.reactions.query(
+                        lambda x: isinstance(x, ProteinDilution)
+                    )
+                },
+                name="PROTDL",
+            ),
+        ),
+        axis=1,
+    ).dropna()
+    df_model_protein_dilutions.index.name = "uniprot"
+    df_model_protein_dilutions = df_model_protein_dilutions[
+        df_model_protein_dilutions["genes"].isin(pcmodel.genes.list_attr("id"))
+    ].sort_values("PROTDL")
+    return df_model_protein_dilutions

@@ -193,3 +193,8 @@ def convert_L_to_gDW(
     # (fL RBC * (H2O / RBC)/ pgDW) --> (0.001 pL / pgDW) --> 0.001 * (L / gDW) conversion factor to value per L
     # Assuming value is given as mmol / L, then new value is returned as mmol / gDW
     return value * 0.001 * ((fL_per_cell * water_fraction) / pgDW_per_cell)
+
+
+def handle_msg(msg, print_msg=False):
+    if print_msg:
+        print(msg)
