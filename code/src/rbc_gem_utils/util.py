@@ -9,7 +9,6 @@ import numpy as np
 from cobra import Configuration
 from depinfo import print_dependencies
 
-
 LOGGER = logging.getLogger(__name__)
 
 # Constants

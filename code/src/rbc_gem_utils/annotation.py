@@ -5,7 +5,6 @@ from cobra import DictList
 
 from rbc_gem_utils.util import build_string, check_if_valid, ensure_iterable
 
-
 LOGGER = logging.getLogger(__name__)
 
 

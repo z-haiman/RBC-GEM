@@ -22,7 +22,6 @@ from rbc_gem_utils.util import (
     strip_plural,
 )
 
-
 LOGGER = logging.getLogger(__name__)
 
 
