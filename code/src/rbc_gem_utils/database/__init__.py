@@ -32,7 +32,6 @@ from .uniprot import (
     get_release_UniProt,
 )
 
-
 CDCDB_DB_TAG = "CDCDB"
 CDCDB_PATH = Path(CDCDB_DB_TAG)
 DRUGCENTRAL_DB_TAG = "DrugCentral"
