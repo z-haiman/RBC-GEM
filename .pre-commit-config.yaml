@@ -1,45 +1,39 @@
-minimum_pre_commit_version: '3.1.0'
+minimum_pre_commit_version: '3.2.0'
 default_language_version:
-    python: python3
+  python: python3
 ci:
-    autoupdate_branch: 'develop'
-    autoupdate_schedule: monthly
+  autoupdate_branch: develop
+  autoupdate_schedule: monthly
 repos:
-    - repo: https://github.com/pre-commit/pre-commit-hooks
-      rev: v6.0.0
-      hooks:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
       - id: check-merge-conflict
       - id: check-toml
       - id: check-yaml
       - id: trailing-whitespace
       - id: end-of-file-fixer
-        exclude_types: [tsv, csv]
-        exclude: setup.cfg
-    - repo: https://github.com/pre-commit/pygrep-hooks
-      rev: v1.10.0
-      hooks:
-      - id: python-check-blanket-noqa
+        exclude: '(\.(csv|tsv)$|^setup\.cfg$)'
+
+  - repo: https://github.com/pre-commit/pygrep-hooks
+    rev: v1.10.0
+    hooks:
       - id: python-no-eval
-      - id: python-no-log-warn
       - id: python-use-type-annotations
       - id: rst-backticks
       - id: rst-directive-colons
       - id: rst-inline-touching-normal
-    - repo: https://github.com/pycqa/isort
-      rev: 6.1.0
-      hooks:
-      - id: isort
-    - repo: https://github.com/psf/black-pre-commit-mirror
-      rev: 25.9.0
-      hooks:
-      - id: black
-    - repo: https://github.com/nbQA-dev/nbQA
-      rev: 1.9.1
-      hooks:
-      - id: nbqa-isort
-        args: [--profile=black]
-      - id: nbqa-black
-    - repo: https://github.com/srstevenson/nb-clean
-      rev: 4.0.1 # Use the latest release version
-      hooks:
-        - id: nb-clean
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.16.9
+    hooks:
+      - id: ruff-check
+        args: [--fix]
+        types_or: [python, pyi, jupyter]
+      - id: ruff-format
+        types_or: [python, pyi, jupyter]
+
+  - repo: https://github.com/srstevenson/nb-clean
+    rev: 4.0.1
+    hooks:
+      - id: nb-clean
