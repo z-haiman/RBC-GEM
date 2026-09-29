@@ -64,7 +64,7 @@ notebooks = ["notebook"]
 all = ["rbc_gem_utils[database,overlay,vis,network,notebooks]"]
 
 [dependency-groups]
-dev = ["pre-commit>=3.2", "ruff==0.16.8", "build", "twine"]
+dev = ["pre-commit>=3.2", "ruff==0.16.9", "build", "twine"]
 test = ["pytest"]
 
 [project.urls]
@@ -79,7 +79,7 @@ Changelog = "https://github.com/z-haiman/RBC-GEM/blob/main/HISTORY.md"
 ################################################################################
 
 [tool.ruff]
-target-version = "py311"
+target-version = "py314"
 line-length = 88
 src = ["src"]
 
