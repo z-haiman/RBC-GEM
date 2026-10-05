@@ -7,7 +7,6 @@ from Bio import Entrez
 
 from rbc_gem_utils.util import build_string
 
-
 PUBMED_ERYTHROCYTE_KEYWORDS = [
     "red blood cell",
     "red cell",

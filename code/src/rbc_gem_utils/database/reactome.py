@@ -14,7 +14,6 @@ import requests
 
 from rbc_gem_utils.util import DATABASE_PATH, ROOT_PATH, check_if_valid
 
-
 LOGGER = logging.getLogger(__name__)
 
 

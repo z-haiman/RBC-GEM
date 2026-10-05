@@ -16,7 +16,6 @@ from bs4 import BeautifulSoup
 
 from rbc_gem_utils.util import DATABASE_PATH, ROOT_PATH, check_if_valid
 
-
 LOGGER = logging.getLogger(__name__)
 
 MGI_URL = "https://www.informatics.jax.org"
