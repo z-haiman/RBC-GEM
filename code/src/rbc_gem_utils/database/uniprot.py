@@ -28,7 +28,6 @@ from requests.adapters import HTTPAdapter, Retry
 
 from rbc_gem_utils.util import build_string, split_string
 
-
 LOGGER = logging.getLogger(__name__)
 
 POLLING_INTERVAL = 3

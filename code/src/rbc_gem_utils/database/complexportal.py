@@ -15,7 +15,6 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-
 COMPLEXPORTAL_URL = (
     "https://ftp.ebi.ac.uk/pub/databases/intact/complex/current/complextab/"
 )
