@@ -15,7 +15,6 @@ import requests
 
 from rbc_gem_utils.util import DATABASE_PATH, RAW_GH_URL, ROOT_PATH, check_if_valid
 
-
 LOGGER = logging.getLogger(__name__)
 HUMANGEM_RELEASE_EXPECTED = "1.19.0"
 HUMANGEM_PATH = Path("Human-GEM")

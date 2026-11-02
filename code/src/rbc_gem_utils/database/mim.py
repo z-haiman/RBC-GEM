@@ -16,7 +16,6 @@ import pandas as pd
 
 from rbc_gem_utils.util import DATABASE_PATH, RAW_GH_URL, ROOT_PATH, check_if_valid
 
-
 MIM_FILENAMES = ["mim2gene", "genemap2", "morbidmap", "mimTitles"]
 MIM_NUMBER_RE = re.compile(r"^\d{6}\Z")
 MIM_DB_TAG = "MIM"

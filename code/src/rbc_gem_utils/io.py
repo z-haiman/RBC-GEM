@@ -7,7 +7,6 @@ import logging
 from pathlib import Path
 from warnings import warn
 
-
 LOGGER = logging.getLogger(__name__)
 
 from cobra.io import (
@@ -22,7 +21,6 @@ from cobra.io import (
 )
 
 from .util import GEM_NAME, MODEL_PATH, ROOT_PATH
-
 
 IO_FUNCTIONS_DICT = {
     "xml": {"read": read_sbml_model, "write": write_sbml_model},
