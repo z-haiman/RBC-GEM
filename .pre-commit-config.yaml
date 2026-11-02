@@ -26,11 +26,11 @@ repos:
       - id: rst-directive-colons
       - id: rst-inline-touching-normal
     - repo: https://github.com/pycqa/isort
-      rev: 6.1.0
+      rev: 10.0.0b2
       hooks:
       - id: isort
     - repo: https://github.com/psf/black-pre-commit-mirror
-      rev: 25.9.0
+      rev: 26.10.1
       hooks:
       - id: black
     - repo: https://github.com/nbQA-dev/nbQA
@@ -40,6 +40,6 @@ repos:
         args: [--profile=black]
       - id: nbqa-black
     - repo: https://github.com/srstevenson/nb-clean
-      rev: 4.0.1 # Use the latest release version
+      rev: v6.0.0 # Use the latest release version
       hooks:
         - id: nb-clean
